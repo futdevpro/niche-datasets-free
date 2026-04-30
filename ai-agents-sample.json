@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Harpa",
+    "url": "https://harpa.ai/",
+    "description": "Harpa is a versatile Chrome extension that integrates AI capabilities, such as summarizing content, automating workflows, and enhancing productivity, supported by GPT-4 and Claude 2, trusted by 300,000+ professionals",
+    "category": "autonomous",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "ai agents"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "Promptly",
+    "url": "https://www.trypromptly.com/",
+    "description": "Promptly — AI agent",
+    "category": "browser",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "build-your-own no-code web ui",
+      "open-source"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Grit",
+    "url": "https://www.grit.io/",
+    "description": "Grit — AI agent",
+    "category": "coding",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "coding",
+      "open-source"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Gobii",
+    "url": "https://github.com/gobii-ai/gobii-platform",
+    "description": "Gobii is an open-source platform for deploying and managing browser-use agents at scale with a conversational interface and API !GitHub Repo stars",
+    "category": "conversation",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "conversational / general agents"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Stable Diffusion 3.5",
+    "url": "https://stability.ai/",
+    "description": "Open-source. ControlNet, LoRAs, ComfyUI ecosystem.",
+    "category": "creative",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "image generation"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Monday CRM (Lexi)",
+    "url": "https://monday.com/",
+    "description": "AI sales agent. Lead sourcing, qualification. AI Blocks.",
+    "category": "customer-support",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "ai-powered crms"
+    ]
+  },
+  {
+    "name": "Second Brain AI Agent",
+    "url": "https://github.com/flepied/second-brain-agent",
+    "description": "A streamlit app to dialog with your second brain notes using OpenAI and ChromaDB locally. !GitHub Repo stars",
+    "category": "data",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "knowledge management"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Airtop",
+    "url": "https://airtop.ai/",
+    "description": "Enterprise browser automation. AI integration.",
+    "category": "devops",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "developer infrastructure"
+    ]
+  },
+  {
+    "name": "Lyzr",
+    "url": "https://www.lyzr.ai/",
+    "description": "Lyzr provides an enterprise-grade AI agent framework for easy configuration, deployment, and management of AI agents, supporting integration with multiple LLMs and databases, and offers ISO-compliant safety, white-glove onboarding, and 24/7 enterprise support",
+    "category": "framework",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "development frameworks"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "Hivemoot",
+    "url": "https://github.com/hivemoot/hivemoot",
+    "description": "Framework for AI agent teams that build real software on GitHub — agents get roles, propose features, vote, review code, and ship autonomously. Colony is the first project built this way. !GitHub Repo stars",
+    "category": "multi-agent",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "applications",
+      "multi-agent task solver projects"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "model-watchdog",
+    "url": "https://github.com/feralghost/model-watchdog",
+    "description": "Auto-rollback for AI agent config changes. Monitors health endpoint, reverts config + restarts service on failures. Zero deps.",
+    "category": "observability",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tracing and monitoring"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Assistants API by OpenAI",
+    "url": "https://platform.openai.com/docs/assistants/overview",
+    "description": "The Assistants API facilitates the development of AI agents, offering tools such as Code Interpretation and Function calling for embedding advanced, intelligent functionalities within applications",
+    "category": "productivity",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "assistants api"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "A2A (Agent-to-Agent)",
+    "url": "https://github.com/google/a2a",
+    "description": "Google protocol for inter-agent communication. Horizontal agent collaboration.",
+    "category": "protocol",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "protocols and standards"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "GPT Runner",
+    "url": "https://github.com/nicepkg/gpt-runner",
+    "description": "GPT Runner — AI agent",
+    "category": "research",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "research science"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "NeMo Guardrails",
+    "url": "https://github.com/nvidia/nemo-guardrails",
+    "description": "NVIDIA. Programmable conversation guardrails.",
+    "category": "security",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ai safety and guardrails"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "ChatArena",
+    "url": "https://github.com/farama-foundation/chatarena",
+    "description": "ChatArena is a library that provides multi-agent language game environments and facilitates research about autonomous LLM agents and their social interactions. !GitHub Repo stars",
+    "category": "simulation",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "applications",
+      "agent society simulation"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Google STT",
+    "url": "https://cloud.google.com/speech-to-text",
+    "description": "Google Cloud Speech-to-Text is a comprehensive speech recognition service that leverages Google's years of research in automatic speech recognition and transcription technology to provide developers with a high-quality, easy-to-use speech-to-text API",
+    "category": "voice",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "voice providers"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "Zapier AI",
+    "url": "https://zapier.com/ai",
+    "description": "7000+ apps. Natural language workflows.",
+    "category": "workflow",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "automation"
+    ]
+  },
+  {
+    "name": "llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "description": "C/C++ inference. CPU, GPU, Apple Silicon. Foundation of local AI.",
+    "category": "autonomous",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "local llm runners"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "LLM Stack",
+    "url": "https://llmstack.ai/",
+    "description": "LLM Stack — AI agent",
+    "category": "browser",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "build-your-own no-code web ui"
+    ],
+    "openSource": false
+  }
+]

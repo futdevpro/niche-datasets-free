@@ -1,0 +1,293 @@
+[
+  {
+    "name": "Certipy",
+    "url": "https://github.com/ly4k/certipy",
+    "description": "[F] — AD CS abuse and enumeration.",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "active directory & windows"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "windows"
+  },
+  {
+    "name": "Consul",
+    "url": "https://consul.io/",
+    "description": "Solution to connect and configure applications across dynamic, distributed infrastructure and, with Consul Connect, enabling secure service-to-service communication with automatic TLS encryption and identity-based authorization.",
+    "category": "cloud",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cloud platform security",
+      "service meshes"
+    ],
+    "isOpenSource": false,
+    "toolType": "platform",
+    "targetPlatform": "cloud"
+  },
+  {
+    "name": "Rar Crack",
+    "url": "http://rarcrack.sourceforge.net",
+    "description": "RAR bruteforce cracker.",
+    "category": "cryptography",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "hash cracking tools"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "Vulnerability as a service: SambaCry",
+    "url": "https://hub.docker.com/r/vulnerables/cve-2017-7494",
+    "description": "Vulnerability as a service: SambaCry — ctf API",
+    "category": "ctf",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "intentionally vulnerable systems",
+      "intentionally vulnerable systems as docker containers"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "Empire",
+    "url": "https://www.powershellempire.com/",
+    "description": "Pure PowerShell post-exploitation agent.",
+    "category": "endpoint",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "windows utilities"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "windows"
+  },
+  {
+    "name": "APTSimulator",
+    "url": "https://github.com/nextronsystems/aptsimulator",
+    "description": "Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised.",
+    "category": "exploit",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "adversary emulation"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "windows"
+  },
+  {
+    "name": "Rekall",
+    "url": "https://github.com/google/rekall",
+    "description": "The Rekall Framework is a completely open collection of tools, implemented in Python under the Apache and GNU General Public License, for the extraction and analysis of digital artifacts computer systems.",
+    "category": "forensics",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "endpoint",
+      "forensics"
+    ],
+    "isOpenSource": true,
+    "toolType": "framework",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "RedEye",
+    "url": "https://cisagov.github.io/redeye",
+    "description": "Analytic tool to assist both Red and Blue teams with visualizing and reporting command and control activities, replay and demonstrate attack paths, and more clearly communicate remediation recommendations to stakeholders.",
+    "category": "incident-response",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "preparedness training and wargaming",
+      "post-engagement analysis and reporting"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "CAPA",
+    "url": "https://github.com/mandiant/capa",
+    "description": "detects capabilities in executable files. You run it against a PE, ELF, .NET module, or shellcode file and it tells you what it thinks the program can do.",
+    "category": "malware-analysis",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "sandboxing/reversing tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "library",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "hardened_malloc",
+    "url": "https://github.com/grapheneos/hardened_malloc",
+    "description": "Hardened allocator designed for modern systems. It has integration into Android's Bionic libc and can be used externally with musl and glibc as a dynamic library for use on other Linux-based platforms. It will gain more portability / integration over time.",
+    "category": "mobile",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "endpoint",
+      "mobile / android / ios"
+    ],
+    "isOpenSource": true,
+    "toolType": "library",
+    "targetPlatform": "mobile"
+  },
+  {
+    "name": "Maltrail",
+    "url": "https://github.com/stamparm/maltrail",
+    "description": "Malicious network traffic detection system.",
+    "category": "monitoring",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "security monitoring",
+      "network security monitoring (nsm)"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "Cowpatty",
+    "url": "https://github.com/joswr1ght/cowpatty",
+    "description": "Brute-force dictionary attack against WPA-PSK.",
+    "category": "network",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "network tools",
+      "wireless network tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "UK Phone Book",
+    "url": "https://www.ukphonebook.com/",
+    "description": "Search people in a similar way as 192.com",
+    "category": "osint",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "people investigations"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "droopescan",
+    "url": "https://github.com/droope/droopescan",
+    "description": "[F] — Drupal/Joomla/CouchCMS checks.",
+    "category": "other",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "cms & framework scanners"
+    ],
+    "isOpenSource": true,
+    "toolType": "framework",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "Fenrir",
+    "url": "https://github.com/neo23x0/fenrir",
+    "description": "Simple IOC scanner. It allows scanning any Linux/Unix/OSX system for IOCs in plain bash. Created by the creators of THOR and LOKI.",
+    "category": "vulnerability-scanner",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "scanner tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "linux"
+  },
+  {
+    "name": "XSStrike",
+    "url": "https://github.com/s0md3v/xsstrike",
+    "description": "[F] — XSS detection and exploitation.",
+    "category": "web",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "web app testing"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "web"
+  },
+  {
+    "name": "Gluu Server",
+    "url": "https://gluu.org/",
+    "description": "Central authentication and authorization for Web and mobile applications with a Free and Open Source Software cloud-native community distribution.",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "identity and authn/authz"
+    ],
+    "isOpenSource": true,
+    "toolType": "resource",
+    "targetPlatform": "mobile"
+  },
+  {
+    "name": "Clair",
+    "url": "https://github.com/quay/clair",
+    "description": "[F] — Image vulnerability analysis.",
+    "category": "cloud",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "containers & kubernetes"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "cloud"
+  },
+  {
+    "name": "JWT Cracker",
+    "url": "https://github.com/lmammino/jwt-cracker",
+    "description": "Simple HS256 JSON Web Token (JWT) token brute force cracker.",
+    "category": "cryptography",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "hash cracking tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "Rawsec's CyberSecurity Inventory",
+    "url": "https://inventory.raw.pm/",
+    "description": "An open-source inventory of tools, resources, CTF platforms and Operating Systems about CyberSecurity. (Source)",
+    "category": "ctf",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "online resources",
+      "other lists online"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  }
+]

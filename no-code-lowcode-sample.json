@@ -1,0 +1,243 @@
+[
+  {
+    "name": "BigML",
+    "url": "https://bigml.com/",
+    "description": "ML made beautifully simple for everyone.",
+    "category": "ai-ml",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "machine learning"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "name": "PageGuard",
+    "url": "https://pageguard.org",
+    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
+    "category": "analytics",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "analytics"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "name": "Structr",
+    "url": "https://structr.com/",
+    "description": "Open Source lowcode platform for semantic apps based on graph technology.",
+    "category": "app-builder",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "apps"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "name": "Rudderstack",
+    "url": "https://www.rudderstack.com/",
+    "description": "RudderStack makes it easy to collect and send customer data to the tools and teams that need it.",
+    "category": "automation",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "flow-based programming"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "name": "Voiceflow",
+    "url": "https://www.voiceflow.com/",
+    "description": "Prototype and launch conversational apps.",
+    "category": "chatbot",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "more (uncategorized)"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "Custom Connector Docs",
+    "url": "https://github.com/workato/custom_connector_docs",
+    "description": "Source files for Workato custom connector documentation.",
+    "category": "collaboration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "reference resources",
+      "workato"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "name": "Folk",
+    "url": "https://folk.app",
+    "description": "Lightweight modern CRM for personal networks and freelancers.",
+    "category": "crm",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "crm"
+    ],
+    "codeType": "both"
+  },
+  {
+    "name": "SnapAPI",
+    "url": "https://api-snap.com",
+    "description": "Multi-tool utility API with 13+ endpoints: QR codes, screenshots, HTML-to-PDF, image resize, hashing, UUID, base64, JWT decode, URL metadata, and more. Free tier with 100 calls/month.",
+    "category": "data-scraping",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "uncategorized"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "name": "Pory",
+    "url": "https://pory.io/",
+    "description": "Turn Airtable data into portals and web apps.",
+    "category": "database",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "websites"
+    ],
+    "codeType": "both"
+  },
+  {
+    "name": "Figma",
+    "url": "https://figma.com",
+    "description": "The first interface design tool with real-time collaboration",
+    "category": "design",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "design"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "Paypal",
+    "url": "https://www.paypal.com",
+    "description": "Send Money, Pay Online or Set Up a Merchant Account",
+    "category": "ecommerce",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "payments"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "FormNX",
+    "url": "https://formnx.com",
+    "description": "Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",
+    "category": "forms",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "forms"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "harpoon",
+    "url": "https://www.harpoon.io/",
+    "description": "Deploy software with No Code Kubernetes.",
+    "category": "internal-tools",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "infrastructure"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "Postcards",
+    "url": "https://designmodo.com/postcards",
+    "description": "Create awesome emails with drag & drop simplicity.",
+    "category": "marketing",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "email"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "Lightwell",
+    "url": "https://lightwell.pro/",
+    "description": "A simple tool for creating native iOS apps on Mac.",
+    "category": "mobile",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "mobile apps"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "FreeCodeCamp: No-Code Playlist",
+    "url": "https://www.youtube.com/playlist?list=plwkjhjtqvabnse1qunmg7abpmjig54u88",
+    "description": "YouTube playlist of no-code tutorials.",
+    "category": "other",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "learning"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "Voicemod",
+    "url": "https://voicemod.net",
+    "description": "Real-time voice changer for streamers and creators.",
+    "category": "video",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "voice"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "Landen",
+    "url": "https://www.landen.co/",
+    "description": "Beautiful Landing Pages. Designed Instantly",
+    "category": "website-builder",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "landing pages"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "PraisonAI",
+    "url": "https://github.com/mervinpraison/praisonai",
+    "description": "Low-code Multi-AI Agents framework with YAML configuration, 100+ LLM support, MCP integration, and agentic workflows.",
+    "category": "ai-ml",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "ai"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "name": "Matomo",
+    "url": "https://matomo.org",
+    "description": "Self-hosted Google Analytics alternative with full data ownership.",
+    "category": "analytics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "analytics"
+    ],
+    "codeType": "low-code"
+  }
+]

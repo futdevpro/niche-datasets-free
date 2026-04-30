@@ -1,0 +1,277 @@
+[
+  {
+    "name": "MCP X Community",
+    "url": "https://x.com/i/communities/1861891349609603310",
+    "description": "A X community for MCP by Xiaoyi",
+    "category": "aggregators",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "for clients",
+      "aggregators"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "michael-denyer/memory-mcp",
+    "url": "https://github.com/michael-denyer/memory-mcp",
+    "description": "Two-tier memory with hot cache (instant injection) and cold semantic search. Auto-promotes frequently-used patterns, extracts knowledge from Claude outputs, and organizes via knowledge graph relationships.",
+    "category": "ai-services",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "knowledge & memory",
+      "open-source",
+      "ai-services"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "WaveSpeed",
+    "url": "https://github.com/wavespeedai/mcp-server",
+    "description": "WaveSpeed MCP server providing AI agents with image and video generation capabilities.",
+    "category": "art-literature",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "official integrations",
+      "open-source",
+      "art-literature"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "AWS Cost Explorer",
+    "url": "https://github.com/aarora79/aws-cost-explorer-mcp-server",
+    "description": "Optimize your AWS spend (including Amazon Bedrock spend) with this MCP server by examining spend across regions, services, instance types and foundation models (demo video).",
+    "category": "cloud-platforms",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "community servers",
+      "open-source",
+      "cloud-platforms"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "AWS S3",
+    "url": "https://github.com/aws-samples/sample-mcp-server-s3",
+    "description": "A sample MCP server for AWS S3 that flexibly fetches objects from S3 such as PDF documents.",
+    "category": "cloud-storage",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "community servers",
+      "open-source",
+      "cloud-storage"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Zoom",
+    "url": "https://github.com/prathamesh0901/zoom-mcp-server/tree/main",
+    "description": "Create, update, read and delete your zoom meetings.",
+    "category": "communication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "community servers",
+      "open-source",
+      "communication"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Universal MCP Servers",
+    "url": "https://github.com/universal-mcp",
+    "description": "A collection of MCP servers created using the AgentR Universal MCP SDK.",
+    "category": "community",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "community servers",
+      "open-source"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Databricks",
+    "url": "https://docs.databricks.com/aws/en/generative-ai/mcp",
+    "description": "Connect to data, AI tools & agents, and the rest of the Databricks platform using turnkey managed MCP servers. Or, host your own custom MCP servers within the Databricks security and data governance boundary.",
+    "category": "data-platforms",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "official integrations",
+      "data-platforms"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "sbroenne/mcp-server-excel",
+    "url": "https://github.com/sbroenne/mcp-server-excel",
+    "description": "Full-featured Excel MCP server. 173 operations: Power Query, DAX, VBA, PivotTables, Tables, Charts, ranges, formatting. 100% Excel compatibility - uses Excel app instead of creating .xlsx files. Windows only.",
+    "category": "data-visualization",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "developer tools",
+      "open-source",
+      "data-visualization"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "wenerme/wener-mssql-mcp",
+    "url": "https://github.com/wenerme/wode/tree/develop/packages/wener-mssql-mcp",
+    "description": "MSSQL database integration with schema inspection and query capabilities",
+    "category": "databases",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "databases",
+      "open-source"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "imatza-rh/mcp-zuul",
+    "url": "https://github.com/imatza-rh/mcp-zuul",
+    "description": "Zuul CI integration with 14 tools for build failure analysis, log search, pipeline status, and job configuration.",
+    "category": "development-tools",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "developer tools",
+      "open-source",
+      "development-tools"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Destinia",
+    "url": "https://destinia.com/developers",
+    "description": "Provider tools to search for hotels in Destinia and get listing details.",
+    "category": "e-commerce",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "official integrations",
+      "e-commerce"
+    ],
+    "openSource": false
+  },
+  {
+    "name": "FacundoLucci/plsreadme",
+    "url": "https://github.com/facundolucci/plsreadme",
+    "description": "Share markdown files and text as clean, readable web links via plsreadmesharefile and plsreadmesharetext; zero setup (npx -y plsreadme-mcp or https://plsreadme.com/mcp).",
+    "category": "file-systems",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "file systems",
+      "open-source",
+      "file-systems"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Polymarket",
+    "url": "https://github.com/ozgureyilmaz/polymarket-mcp",
+    "description": "Real-time prediction market data from Polymarket - search markets, analyze prices, identify trading opportunities.",
+    "category": "finance",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "official integrations",
+      "open-source",
+      "finance"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "khaoss85/arvo-mcp",
+    "url": "https://github.com/khaoss85/arvo-mcp",
+    "description": "AI workout coach MCP server for Arvo. Access training data, workout history, personal records, body progress, and 29 fitness tools through Claude Desktop.",
+    "category": "gaming",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "sports",
+      "open-source",
+      "gaming"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "stack-chan/stack-chan",
+    "url": "https://github.com/stack-chan/stack-chan",
+    "description": "A JavaScript-driven M5Stack-embedded super-kawaii robot with MCP server functionality for AI-controlled interactions and emotions.",
+    "category": "iot",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "embedded system",
+      "open-source",
+      "iot"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Lara Translate",
+    "url": "https://github.com/translated/lara-mcp",
+    "description": "MCP Server for Lara Translate API, enabling powerful translation capabilities with support for language detection and context-aware translations.",
+    "category": "language-translation",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "official integrations",
+      "open-source",
+      "language-translation"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Campertunity",
+    "url": "https://github.com/campertunity/mcp-server",
+    "description": "Search campgrounds around the world on campertunity, check availability, and provide booking links.",
+    "category": "location-services",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "official integrations",
+      "open-source",
+      "location-services"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Salesforce MCP",
+    "url": "https://github.com/smn2gnt/mcp-salesforce",
+    "description": "Interact with Salesforce Data and Metadata",
+    "category": "marketing",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "community servers",
+      "open-source",
+      "marketing"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "KnowAir Weather MCP",
+    "url": "https://github.com/shuowang-ai/weather-mcp",
+    "description": "A comprehensive Model Context Protocol (MCP) server providing real-time weather data, air quality monitoring, forecasts, and astronomical information powered by Caiyun Weather API.",
+    "category": "monitoring",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "community servers",
+      "open-source",
+      "monitoring"
+    ],
+    "openSource": true
+  }
+]

@@ -1,0 +1,21 @@
+name,url,description,category,pricing,hasApi,tags,auth,https,cors
+PlaceDog,https://place.dog/,Placeholder Dog pictures,animals,free,false,"[""animals"",""no-auth"",""cors-enabled""]",none,true,yes
+AOT quotes,https://attackontitanquotes.vercel.app/,Attack on Titan Quotes API,anime,free,true,"[""anime"",""no-auth"",""cors-enabled""]",none,true,yes
+MalDatabase,https://maldatabase.com/api-doc.html,Provide malware datasets and threat intelligence feeds,anti-malware,freemium,false,"[""anti-malware""]",apiKey,true,unknown
+Europeana,https://pro.europeana.eu/resources/apis/search,European Museum and Galleries content,art-design,freemium,false,"[""art & design""]",apiKey,true,unknown
+Naver Login for Apps,https://developers.naver.com/products/login/api,Access to Naver’s Authentication API.,authentication,freemium,true,"[""table of contents"",""login authentication""]",apiKey,true,unknown
+Watchdata,https://docs.watchdata.io/,Provide simple and reliable API access to Ethereum blockchain,blockchain,freemium,true,"[""blockchain""]",apiKey,true,unknown
+CDNJS,https://api.cdnjs.com/libraries/jquery,Library info on CDNJS,books,free,false,"[""development"",""no-auth""]",none,true,unknown
+Markbase,https://markbase.co/,Search 14M+ USPTO trademarks with fuzzy search and autocomplete,business,free,false,"[""business"",""no-auth"",""cors-enabled""]",none,true,yes
+Byabbe,https://byabbe.se/on-this-day/#/default/get__month___day__events_json,Seach histories from wikipedia for a particular day,calendar,free,false,"[""calendar"",""no-auth""]",none,true,unknown
+Bitrise,https://api-docs.bitrise.io/,Build tool and processes integrations to create efficient development pipelines,ci-cd,freemium,false,"[""continuous integration""]",apiKey,true,unknown
+Netlify,https://docs.netlify.com/api/get-started,Netlify is a hosting service for the programmable web,cloud-storage,freemium,false,"[""development""]",oauth,true,unknown
+NiceHash,https://docs.nicehash.com/,Largest Crypto Mining Marketplace,cryptocurrency,freemium,false,"[""cryptocurrency""]",apiKey,true,unknown
+Currency-api,https://github.com/fawazahmed0/currency-api#readme,Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits,currency,free,true,"[""currency exchange"",""no-auth"",""cors-enabled""]",none,true,yes
+VATlayer,https://vatlayer.com/,VAT number validation,data-validation,freemium,false,"[""data validation""]",apiKey,true,unknown
+WikiPathways Webservices,https://wikipathways.org,WikiPathways Webservices — development API,development,freemium,false,[],apiKey,true,unknown
+AppVeyor REST API,https://www.appveyor.com/about,"AppVeyor is a hosted continuous integration service which runs on Microsoft Windows. The AppVeyor REST API provides a RESTful way to interact with the AppVeyor service. This includes managing projects, builds, deployments, and the teams that build them. Additional help and discussion of the AppVeyor REST API is available at http://help.appveyor.com/discussions This Swagger definition is an **unofficial** description of the AppVeyor REST API maintained at https://github.com/kevinoid/appveyor-s...",dictionaries,freemium,true,"[""developer-tools""]",apiKey,true,unknown
+Ambee,https://www.getambee.com/api/natural-disasters,Natural Disasters API,disasters,freemium,true,"[""disasters""]",apiKey,true,unknown
+doqs.dev | PDF filling API,https://doqs.dev,doqs.dev | PDF filling API — documents API,documents,freemium,false,[],apiKey,true,unknown
+Learnifier,https://learnifier.com,Learnifier — education API,education,freemium,false,"[""education""]",apiKey,true,unknown
+Outlook Mail,https://msdn.microsoft.com/en-us/office/office365/api/mail-rest-operations,"The Outlook Mail API lets you read, create, and send messages and attachments, view and respond to event messages, and manage folders that are secured by Azure Active Directory in Office 365. It also provides the same functionality in Microsoft accounts specifically in these domains: Hotmail.com, Live.com, MSN.com, Outlook.com, and Passport.com.",email,freemium,true,"[""table of contents"",""email""]",apiKey,true,unknown

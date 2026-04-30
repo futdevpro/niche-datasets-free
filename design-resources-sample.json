@@ -1,0 +1,231 @@
+[
+  {
+    "name": "Rhino",
+    "url": "https://www.rhino3d.com/",
+    "description": "a curve-based 3D modeling software that creates mathematically-precise models of 3D surfaces.",
+    "category": "3d",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "three d modeling software"
+    ]
+  },
+  {
+    "name": "ANDI",
+    "url": "https://www.ssa.gov/accessibility/andi/help/install.html",
+    "description": "accessibility testing tool for web content (bookmarklet). It will automatically detect accessibility issues, give suggestions to improve online accessibility and check 508 compliance. !free.svg ![open-source.svg](https://github.com/SSAgov/ANDI)",
+    "category": "accessibility",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "accessibility tools"
+    ]
+  },
+  {
+    "name": "Lens Studio",
+    "url": "https://lensstudio.snapchat.com/",
+    "description": "create, publish, and share your own AR experiences for Snapchat with or without code. !free.svg",
+    "category": "augmented-reality",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "augmented reality"
+    ]
+  },
+  {
+    "name": "MURAL",
+    "url": "https://mural.co/",
+    "description": "think and collaborate visually. Anywhere, anytime.",
+    "category": "collaboration",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "collaboration tools"
+    ]
+  },
+  {
+    "name": "Sip",
+    "url": "https://sipapp.io/",
+    "description": "a better way to collect, organize and share colors. Global eyedropper tool for macOS. !mac.svg",
+    "category": "colors",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "color picker tools"
+    ]
+  },
+  {
+    "name": "pocoloco",
+    "url": "https://pocoloco.io/",
+    "description": "Generate dynamic backgrounds for your website",
+    "category": "css-animations",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "css animations"
+    ]
+  },
+  {
+    "name": "Cutestrap",
+    "url": "https://www.cutestrap.com/",
+    "description": "A strong, independent CSS Framework.",
+    "category": "css-frameworks",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "css frameworks"
+    ]
+  },
+  {
+    "name": "Page Collective",
+    "url": "https://pagecollective.com/",
+    "description": "Page Collective is part of a network of design inspiration websites.",
+    "category": "design-inspiration",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "design inspiration"
+    ]
+  },
+  {
+    "name": "Bolt",
+    "url": "https://boltdesignsystem.com/",
+    "description": "Robust Twig and web component powered UI components",
+    "category": "design-systems",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "design systems & style guides"
+    ]
+  },
+  {
+    "name": "Lighshot",
+    "url": "https://itunes.apple.com/us/app/lightshot-screenshot/id526298438",
+    "description": "taking quick captures of your screen. !free.svg",
+    "category": "design-tools",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "screenshot software"
+    ]
+  },
+  {
+    "name": "Hackertab.dev",
+    "url": "https://chrome.google.com/webstore/detail/hackertabdev-developer-ne/ocoipcahhaedjhnpoanfflhbdcpmalmp",
+    "description": "Hackertab helps developers stay up-to-date with the latest dev news and resources in one tab.",
+    "category": "extensions",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "chrome extensions"
+    ]
+  },
+  {
+    "name": "Typespiration",
+    "url": "https://typespiration.com/",
+    "description": "Inspirational font combinations and color palettes",
+    "category": "fonts",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "fonts"
+    ]
+  },
+  {
+    "name": "Mobirise Icons",
+    "url": "https://mobiriseicons.com/",
+    "description": "A free, open source set of 150 elegant, pixel-perfect linear icons, available as web icon font and SVG icons.",
+    "category": "icons",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "icon fonts"
+    ]
+  },
+  {
+    "name": "JoeSchmoe",
+    "url": "https://joeschmoe.io",
+    "description": "an illustrated avatar collection for developers and designers, perfect as placeholders or live sites. !free.svg",
+    "category": "illustrations",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "table of content",
+      "illustrations"
+    ]
+  },
+  {
+    "name": "Vecta Nano",
+    "url": "https://vecta.io/nano",
+    "description": "Uses lossless compression to compress inefficient SVG codes by removing unnecessary data. (Free & Paid)",
+    "category": "image-compression",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "image compression"
+    ]
+  },
+  {
+    "name": "Vizzu",
+    "url": "https://lib.vizzuhq.com/0.3.0",
+    "description": "Vizzu - a free, open-source Javascript library for building animated charts, data stories, and interactive explorers.",
+    "category": "javascript-libraries",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "javascript chart libraries"
+    ]
+  },
+  {
+    "name": "Frrames",
+    "url": "https://frrames.com/",
+    "description": "Frrames mockups is perfectly crafted responsive windows mockups for your ideal presentation.",
+    "category": "mockups",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "mockup tools"
+    ]
+  },
+  {
+    "name": "Sketch.systems",
+    "url": "https://sketch.systems/",
+    "description": "ui and flow design with interactive state machines. !free.svg",
+    "category": "prototyping",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "user flow tools"
+    ]
+  },
+  {
+    "name": "New Old Stock",
+    "url": "https://nos.twnsnd.co/",
+    "description": "Stock vintage photos",
+    "category": "stock-photos",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "stock photos"
+    ]
+  },
+  {
+    "name": "Jamendo",
+    "url": "https://www.jamendo.com/start",
+    "description": ":copyright: Independent music community with a large collect of creative commons licensed music.",
+    "category": "stock-videos",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "sounds & music"
+    ]
+  }
+]

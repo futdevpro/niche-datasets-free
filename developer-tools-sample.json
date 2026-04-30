@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Langtrace",
+    "url": "https://langtrace.ai",
+    "description": "enables developers to trace, evaluate, manage prompts and datasets, and debug issues related to an LLM application’s performance. It creates open telemetry standard traces for any LLM which helps with observability and works with any observability client. Free plan offers 50K traces/month.",
+    "category": "ai-coding",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "generative ai"
+    ]
+  },
+  {
+    "name": "Rybbit",
+    "url": "https://rybbit.io",
+    "description": "Open-source and cookieless alternative to Google Analytics that is 10x more intuitive. Free plans has 3,000 monthly events.",
+    "category": "analytics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "analytics, events and statistics"
+    ]
+  },
+  {
+    "name": "WorkOS",
+    "url": "https://workos.com/",
+    "description": "Enterprise SSO and more out-of-the-box enterprise features. ![featured on launchweek.dev](https://launchweek.dev)",
+    "category": "authentication",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "authentication & identity"
+    ]
+  },
+  {
+    "name": "Cronhooks",
+    "url": "https://cronhooks.io/",
+    "description": "Schedule on-time or recurring webhooks. The free plan allows 5 ad-hoc schedules.",
+    "category": "automation",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous"
+    ]
+  },
+  {
+    "name": "IFTTT",
+    "url": "https://ifttt.com",
+    "description": "Automate your favorite apps and devices. Free 2 Applets",
+    "category": "backend-as-a-service",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "baas"
+    ]
+  },
+  {
+    "name": "bytebase.com",
+    "url": "https://www.bytebase.com/",
+    "description": "Database CI/CD and DevOps. Free under 20 users and ten database instances",
+    "category": "ci-cd",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "ci and cd"
+    ]
+  },
+  {
+    "name": "Hygraph",
+    "url": "https://hygraph.com/",
+    "description": "Offers free tier for small projects. GraphQL first API. Move away from legacy solutions to the GraphQL native Headless CMS - and deliver omnichannel content API first.",
+    "category": "cms",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "cms"
+    ]
+  },
+  {
+    "name": "git-it-on",
+    "url": "https://github.com/peterhurford/git-it-on.zsh",
+    "description": "ZSH plugin, adds a gitit command that opens the current directory on github in your current branch",
+    "category": "code-quality",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "git"
+    ]
+  },
+  {
+    "name": "MemCachier",
+    "url": "https://www.memcachier.com/",
+    "description": "Managed Memcache service. Free for up to 25MB, 1 Proxy Server, and basic analytics",
+    "category": "database",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "managed data services"
+    ]
+  },
+  {
+    "name": "ReqBin",
+    "url": "https://reqbin.com/",
+    "description": "Post HTTP Requests Online. Popular Request Methods include GET, POST, PUT, DELETE, and HEAD. Supports Headers and Token Authentication. Includes a basic login system for saving your requests.",
+    "category": "debugging",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous"
+    ]
+  },
+  {
+    "name": "Heroku",
+    "url": "https://www.heroku.com/",
+    "description": "Deploy via CLI to scalable servers.",
+    "category": "deployment-hosting",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "deployment hosting"
+    ]
+  },
+  {
+    "name": "Dev.to",
+    "url": "https://dev.to/",
+    "description": "Where programmers share ideas and help each other grow.",
+    "category": "documentation",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "dev blogging sites"
+    ]
+  },
+  {
+    "name": "Thoughtbot's",
+    "url": "https://github.com/thoughtbot/dotfiles",
+    "description": "A set of vim, zsh, git, and tmux configuration files",
+    "category": "environment-secrets",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "dotfiles"
+    ]
+  },
+  {
+    "name": "Unleash",
+    "url": "https://www.getunleash.io/",
+    "description": "Open-source, privacy-first, and enterprise-ready feature management solution. ![Unleash](https://github.com/unleash/unleash)",
+    "category": "feature-flags",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "feature flags"
+    ]
+  },
+  {
+    "name": "Package Control",
+    "url": "https://sublime.wbond.net/installation",
+    "description": "The Sublime Text package manager.",
+    "category": "ide-editor",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "editors",
+      "sublime text 3"
+    ]
+  },
+  {
+    "name": "Socket.IO",
+    "url": "https://socket.io/",
+    "description": "A JavaScript library for building real-time, bidirectional, and event-based communication applications on the web. Available for HTML, CSS, and JavaScript.",
+    "category": "infrastructure",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "the awesome list",
+      "back-end"
+    ]
+  },
+  {
+    "name": "Smartcar API",
+    "url": "https://smartcar.com",
+    "description": "An API for cars to locate, get fuel tank, battery levels, odometer, unlock/lock doors, etc.",
+    "category": "integrations",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "miscellaneous"
+    ]
+  },
+  {
+    "name": "POEditor",
+    "url": "https://poeditor.com/",
+    "description": "Free up to 1000 strings",
+    "category": "localization",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "translation management"
+    ]
+  },
+  {
+    "name": "Sendpulse",
+    "url": "https://sendpulse.com",
+    "description": "500 subscribers/month, 15,000 emails/month free",
+    "category": "mail",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "email"
+    ]
+  },
+  {
+    "name": "gumlet.com",
+    "url": "https://www.gumlet.com/",
+    "description": "Image and video hosting, processing and streaming via CDN. Provides generous free tier of 250 GB / month for videos and 30 GB / month for images.",
+    "category": "media",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "storage and media processing"
+    ]
+  }
+]

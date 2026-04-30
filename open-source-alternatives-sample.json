@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Metarank",
+    "url": "https://metarank.ai",
+    "description": "AutoML style personalized ranking",
+    "category": "ai-ml",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-aws-personalize",
+      "alternative-to-tecton"
+    ],
+    "alternativeTo": "AWS Personalize, Tecton"
+  },
+  {
+    "name": "CocoIndex",
+    "url": "https://openalternative.co/cocoindex",
+    "description": "Ultra-fast data transformation for AI with lineage",
+    "category": "analytics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "data & analytics",
+      "data engineering & integration"
+    ],
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "Step CI",
+    "url": "https://stepci.com/",
+    "description": "API Testing and Monitoring",
+    "category": "api-tools",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "alternative-to-checkly",
+      "alternative-to-postman"
+    ],
+    "alternativeTo": "Checkly, Postman"
+  },
+  {
+    "name": "SuperTokens",
+    "url": "https://openalternative.co/supertokens",
+    "description": "Secure, customizable authentication for your applications",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "security & privacy",
+      "identity & access management (iam)"
+    ]
+  },
+  {
+    "name": "ERPNext",
+    "url": "https://openalternative.co/erpnext",
+    "description": "Comprehensive business management, tailored for you",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "erp & operations"
+    ],
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "Metabase",
+    "url": "https://openalternative.co/metabase",
+    "description": "Unlock data insights with powerful, user-friendly analytics",
+    "category": "business-intelligence",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "data & analytics",
+      "business intelligence & reporting"
+    ]
+  },
+  {
+    "name": "Directus",
+    "url": "https://openalternative.co/directus",
+    "description": "Open-source data platform for effortless content management",
+    "category": "cms",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "content & publishing",
+      "content management systems (cms)"
+    ]
+  },
+  {
+    "name": "UnInbox",
+    "url": "https://openalternative.co/uninbox",
+    "description": "Transform team email into efficient collaborative workflows",
+    "category": "collaboration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "collaboration & communication"
+    ]
+  },
+  {
+    "name": "Cossistant",
+    "url": "https://openalternative.co/cossistant",
+    "description": "AI-native support infrastructure for modern SaaS",
+    "category": "communication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "marketing & customer engagement"
+    ],
+    "license": "AGPL-3.0"
+  },
+  {
+    "name": "crowd.dev",
+    "url": "https://crowd.dev/",
+    "description": "Suite of community and data tools built to unlock community-led growth for your organization",
+    "category": "community",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-orbit",
+      "alternative-to-common-room",
+      "alternative-to-commsor"
+    ],
+    "alternativeTo": "Orbit, Common Room, Commsor"
+  },
+  {
+    "name": "Twenty",
+    "url": "https://openalternative.co/twenty",
+    "description": "Streamline customer relationships with modern CRM",
+    "category": "crm",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "crm & sales"
+    ],
+    "license": "AGPL-3.0"
+  },
+  {
+    "name": "Dragonfly",
+    "url": "https://openalternative.co/dragonfly",
+    "description": "Blazing-fast in-memory data store for modern applications",
+    "category": "databases",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "infrastructure & operations",
+      "databases"
+    ]
+  },
+  {
+    "name": "Chalk.ist",
+    "url": "https://openalternative.co/chalkist",
+    "description": "Transform your source code into stunning visuals",
+    "category": "design",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "productivity & utilities",
+      "design & visualization"
+    ],
+    "license": "MIT"
+  },
+  {
+    "name": "Superset",
+    "url": "https://openalternative.co/superset",
+    "description": "Code 10x faster with parallel AI agents",
+    "category": "developer-tools",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "developer tools",
+      "ai assisted coding"
+    ]
+  },
+  {
+    "name": "aaPanel",
+    "url": "https://openalternative.co/aapanel",
+    "description": "Powerful and user-friendly web hosting control panel",
+    "category": "devops",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "infrastructure & operations",
+      "server & vm management"
+    ]
+  },
+  {
+    "name": "Documenso",
+    "url": "https://openalternative.co/documenso",
+    "description": "Secure, open-source document signing for everyone",
+    "category": "documentation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "document management & e-signatures"
+    ],
+    "license": "AGPL-3.0"
+  },
+  {
+    "name": "Vendure",
+    "url": "https://openalternative.co/vendure",
+    "description": "Flexible e-commerce for modern businesses",
+    "category": "e-commerce",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "e-commerce platforms"
+    ],
+    "license": "MIT"
+  },
+  {
+    "name": "LocalSend",
+    "url": "https://openalternative.co/localsend",
+    "description": "Share files securely across all devices without servers",
+    "category": "file-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "productivity & utilities",
+      "file management & sync"
+    ],
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "OpenBB",
+    "url": "https://openalternative.co/openbb",
+    "description": "AI-powered research and analytics workspace",
+    "category": "finance",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "finance & accounting"
+    ]
+  },
+  {
+    "name": "Formio",
+    "url": "https://form.io/",
+    "description": "A Form and Data Management Platform for Progressive Web Applications",
+    "category": "forms",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-vueform",
+      "alternative-to-typeform"
+    ],
+    "alternativeTo": "Vueform, Typeform"
+  }
+]

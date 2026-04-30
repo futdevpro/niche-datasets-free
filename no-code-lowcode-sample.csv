@@ -1,0 +1,21 @@
+name,url,description,category,pricing,hasApi,tags,codeType
+BigML,https://bigml.com/,ML made beautifully simple for everyone.,ai-ml,freemium,false,"[""machine learning""]",low-code
+PageGuard,https://pageguard.org,"Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",analytics,free,false,"[""analytics""]",low-code
+Structr,https://structr.com/,Open Source lowcode platform for semantic apps based on graph technology.,app-builder,open-source,false,"[""apps""]",low-code
+Rudderstack,https://www.rudderstack.com/,RudderStack makes it easy to collect and send customer data to the tools and teams that need it.,automation,freemium,false,"[""flow-based programming""]",low-code
+Voiceflow,https://www.voiceflow.com/,Prototype and launch conversational apps.,chatbot,freemium,false,"[""more (uncategorized)""]",no-code
+Custom Connector Docs,https://github.com/workato/custom_connector_docs,Source files for Workato custom connector documentation.,collaboration,open-source,false,"[""reference resources"",""workato""]",low-code
+Folk,https://folk.app,Lightweight modern CRM for personal networks and freelancers.,crm,free,false,"[""crm""]",both
+SnapAPI,https://api-snap.com,"Multi-tool utility API with 13+ endpoints: QR codes, screenshots, HTML-to-PDF, image resize, hashing, UUID, base64, JWT decode, URL metadata, and more. Free tier with 100 calls/month.",data-scraping,free,true,"[""uncategorized""]",low-code
+Pory,https://pory.io/,Turn Airtable data into portals and web apps.,database,freemium,false,"[""websites""]",both
+Figma,https://figma.com,The first interface design tool with real-time collaboration,design,freemium,false,"[""design""]",no-code
+Paypal,https://www.paypal.com,"Send Money, Pay Online or Set Up a Merchant Account",ecommerce,freemium,false,"[""payments""]",no-code
+FormNX,https://formnx.com,"Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",forms,freemium,false,"[""forms""]",no-code
+harpoon,https://www.harpoon.io/,Deploy software with No Code Kubernetes.,internal-tools,freemium,false,"[""infrastructure""]",no-code
+Postcards,https://designmodo.com/postcards,Create awesome emails with drag & drop simplicity.,marketing,freemium,false,"[""email""]",no-code
+Lightwell,https://lightwell.pro/,A simple tool for creating native iOS apps on Mac.,mobile,freemium,false,"[""mobile apps""]",no-code
+FreeCodeCamp: No-Code Playlist,https://www.youtube.com/playlist?list=plwkjhjtqvabnse1qunmg7abpmjig54u88,YouTube playlist of no-code tutorials.,other,free,false,"[""learning""]",no-code
+Voicemod,https://voicemod.net,Real-time voice changer for streamers and creators.,video,paid,false,"[""voice""]",no-code
+Landen,https://www.landen.co/,Beautiful Landing Pages. Designed Instantly,website-builder,freemium,false,"[""landing pages""]",no-code
+PraisonAI,https://github.com/mervinpraison/praisonai,"Low-code Multi-AI Agents framework with YAML configuration, 100+ LLM support, MCP integration, and agentic workflows.",ai-ml,open-source,true,"[""ai""]",low-code
+Matomo,https://matomo.org,Self-hosted Google Analytics alternative with full data ownership.,analytics,open-source,false,"[""analytics""]",low-code

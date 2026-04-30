@@ -1,0 +1,21 @@
+name,url,description,category,pricing,hasApi,tags,alternativeTo
+Metarank,https://metarank.ai,AutoML style personalized ranking,ai-ml,open-source,false,"[""alternative-to-aws-personalize"",""alternative-to-tecton""]","AWS Personalize, Tecton"
+CocoIndex,https://openalternative.co/cocoindex,Ultra-fast data transformation for AI with lineage,analytics,open-source,false,"[""data & analytics"",""data engineering & integration""]",
+Step CI,https://stepci.com/,API Testing and Monitoring,api-tools,open-source,true,"[""alternative-to-checkly"",""alternative-to-postman""]","Checkly, Postman"
+SuperTokens,https://openalternative.co/supertokens,"Secure, customizable authentication for your applications",authentication,open-source,false,"[""security & privacy"",""identity & access management (iam)""]",
+ERPNext,https://openalternative.co/erpnext,"Comprehensive business management, tailored for you",automation,open-source,false,"[""business software"",""erp & operations""]",
+Metabase,https://openalternative.co/metabase,"Unlock data insights with powerful, user-friendly analytics",business-intelligence,open-source,false,"[""data & analytics"",""business intelligence & reporting""]",
+Directus,https://openalternative.co/directus,Open-source data platform for effortless content management,cms,open-source,false,"[""content & publishing"",""content management systems (cms)""]",
+UnInbox,https://openalternative.co/uninbox,Transform team email into efficient collaborative workflows,collaboration,open-source,false,"[""business software"",""collaboration & communication""]",
+Cossistant,https://openalternative.co/cossistant,AI-native support infrastructure for modern SaaS,communication,open-source,false,"[""business software"",""marketing & customer engagement""]",
+crowd.dev,https://crowd.dev/,Suite of community and data tools built to unlock community-led growth for your organization,community,open-source,false,"[""alternative-to-orbit"",""alternative-to-common-room"",""alternative-to-commsor""]","Orbit, Common Room, Commsor"
+Twenty,https://openalternative.co/twenty,Streamline customer relationships with modern CRM,crm,open-source,false,"[""business software"",""crm & sales""]",
+Dragonfly,https://openalternative.co/dragonfly,Blazing-fast in-memory data store for modern applications,databases,open-source,false,"[""infrastructure & operations"",""databases""]",
+Chalk.ist,https://openalternative.co/chalkist,Transform your source code into stunning visuals,design,open-source,false,"[""productivity & utilities"",""design & visualization""]",
+Superset,https://openalternative.co/superset,Code 10x faster with parallel AI agents,developer-tools,open-source,true,"[""developer tools"",""ai assisted coding""]",
+aaPanel,https://openalternative.co/aapanel,Powerful and user-friendly web hosting control panel,devops,open-source,false,"[""infrastructure & operations"",""server & vm management""]",
+Documenso,https://openalternative.co/documenso,"Secure, open-source document signing for everyone",documentation,open-source,false,"[""business software"",""document management & e-signatures""]",
+Vendure,https://openalternative.co/vendure,Flexible e-commerce for modern businesses,e-commerce,open-source,false,"[""business software"",""e-commerce platforms""]",
+LocalSend,https://openalternative.co/localsend,Share files securely across all devices without servers,file-management,open-source,false,"[""productivity & utilities"",""file management & sync""]",
+OpenBB,https://openalternative.co/openbb,AI-powered research and analytics workspace,finance,open-source,false,"[""business software"",""finance & accounting""]",
+Formio,https://form.io/,A Form and Data Management Platform for Progressive Web Applications,forms,open-source,false,"[""alternative-to-vueform"",""alternative-to-typeform""]","Vueform, Typeform"

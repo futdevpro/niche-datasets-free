@@ -1,0 +1,684 @@
+[
+  {
+    "_dataset": "ai-agents",
+    "name": "Harpa",
+    "url": "https://harpa.ai/",
+    "description": "Harpa is a versatile Chrome extension that integrates AI capabilities, such as summarizing content, automating workflows, and enhancing productivity, supported by GPT-4 and Claude 2, trusted by 300,000+ professionals",
+    "category": "autonomous",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "ai agents"
+    ],
+    "openSource": false
+  },
+  {
+    "_dataset": "ai-agents",
+    "name": "Promptly",
+    "url": "https://www.trypromptly.com/",
+    "description": "Promptly — AI agent",
+    "category": "browser",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "build-your-own no-code web ui",
+      "open-source"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "ai-agents",
+    "name": "Grit",
+    "url": "https://www.grit.io/",
+    "description": "Grit — AI agent",
+    "category": "coding",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "coding",
+      "open-source"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "ai-agents",
+    "name": "Gobii",
+    "url": "https://github.com/gobii-ai/gobii-platform",
+    "description": "Gobii is an open-source platform for deploying and managing browser-use agents at scale with a conversational interface and API !GitHub Repo stars",
+    "category": "conversation",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "conversational / general agents"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "ai-agents",
+    "name": "Stable Diffusion 3.5",
+    "url": "https://stability.ai/",
+    "description": "Open-source. ControlNet, LoRAs, ComfyUI ecosystem.",
+    "category": "creative",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "image generation"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "ai-tools",
+    "name": "Eleven Labs",
+    "url": "https://beta.elevenlabs.io/",
+    "description": "AI voice generator.",
+    "category": "audio",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "audio",
+      "speech"
+    ]
+  },
+  {
+    "_dataset": "ai-tools",
+    "name": "Roundtable",
+    "url": "https://github.com/askbudi/roundtable",
+    "description": "Zero-configuration MCP server that unifies multiple AI coding assistants (Claude Code, Cursor, Codex) through intelligent auto-discovery.",
+    "category": "code",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ai-powered compilers and code assistants"
+    ]
+  },
+  {
+    "_dataset": "ai-tools",
+    "name": "fMRI-to-image",
+    "url": "https://twitter.com/danberridge/status/1631489991435243520",
+    "description": "tweet by danberridge \"The 'presented images' were shown to a group of humans. The 'reconstructed images' were the result of an fMRI output to Stable Diffusion. In other words, Stable Diffusion literally read people's minds.\"",
+    "category": "data",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "bio experiments"
+    ]
+  },
+  {
+    "_dataset": "ai-tools",
+    "name": "TokenVerse",
+    "url": "https://token-verse.github.io/",
+    "description": "Versatile Multi-concept Personalization in Token Modulation Space",
+    "category": "image",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "image synthesis"
+    ]
+  },
+  {
+    "_dataset": "ai-tools",
+    "name": "OmniRoute",
+    "url": "https://github.com/diegosouzapw/omniroute",
+    "description": "Self-hostable AI gateway with 4-tier cascading fallback and multi-provider load balancing. Supports 200+ models across OpenAI, Anthropic, Google, and local providers.",
+    "category": "multimodal",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ai-related tools"
+    ]
+  },
+  {
+    "_dataset": "cybersecurity-tools",
+    "name": "Certipy",
+    "url": "https://github.com/ly4k/certipy",
+    "description": "[F] — AD CS abuse and enumeration.",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "active directory & windows"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "windows"
+  },
+  {
+    "_dataset": "cybersecurity-tools",
+    "name": "Consul",
+    "url": "https://consul.io/",
+    "description": "Solution to connect and configure applications across dynamic, distributed infrastructure and, with Consul Connect, enabling secure service-to-service communication with automatic TLS encryption and identity-based authorization.",
+    "category": "cloud",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cloud platform security",
+      "service meshes"
+    ],
+    "isOpenSource": false,
+    "toolType": "platform",
+    "targetPlatform": "cloud"
+  },
+  {
+    "_dataset": "cybersecurity-tools",
+    "name": "Rar Crack",
+    "url": "http://rarcrack.sourceforge.net",
+    "description": "RAR bruteforce cracker.",
+    "category": "cryptography",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "hash cracking tools"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "_dataset": "cybersecurity-tools",
+    "name": "Vulnerability as a service: SambaCry",
+    "url": "https://hub.docker.com/r/vulnerables/cve-2017-7494",
+    "description": "Vulnerability as a service: SambaCry — ctf API",
+    "category": "ctf",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "intentionally vulnerable systems",
+      "intentionally vulnerable systems as docker containers"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "_dataset": "cybersecurity-tools",
+    "name": "Empire",
+    "url": "https://www.powershellempire.com/",
+    "description": "Pure PowerShell post-exploitation agent.",
+    "category": "endpoint",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "windows utilities"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "windows"
+  },
+  {
+    "_dataset": "design-resources",
+    "name": "Rhino",
+    "url": "https://www.rhino3d.com/",
+    "description": "a curve-based 3D modeling software that creates mathematically-precise models of 3D surfaces.",
+    "category": "3d",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "three d modeling software"
+    ]
+  },
+  {
+    "_dataset": "design-resources",
+    "name": "ANDI",
+    "url": "https://www.ssa.gov/accessibility/andi/help/install.html",
+    "description": "accessibility testing tool for web content (bookmarklet). It will automatically detect accessibility issues, give suggestions to improve online accessibility and check 508 compliance. !free.svg ![open-source.svg](https://github.com/SSAgov/ANDI)",
+    "category": "accessibility",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "accessibility tools"
+    ]
+  },
+  {
+    "_dataset": "design-resources",
+    "name": "Lens Studio",
+    "url": "https://lensstudio.snapchat.com/",
+    "description": "create, publish, and share your own AR experiences for Snapchat with or without code. !free.svg",
+    "category": "augmented-reality",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "augmented reality"
+    ]
+  },
+  {
+    "_dataset": "design-resources",
+    "name": "MURAL",
+    "url": "https://mural.co/",
+    "description": "think and collaborate visually. Anywhere, anytime.",
+    "category": "collaboration",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "collaboration tools"
+    ]
+  },
+  {
+    "_dataset": "design-resources",
+    "name": "Sip",
+    "url": "https://sipapp.io/",
+    "description": "a better way to collect, organize and share colors. Global eyedropper tool for macOS. !mac.svg",
+    "category": "colors",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "color picker tools"
+    ]
+  },
+  {
+    "_dataset": "developer-tools",
+    "name": "Langtrace",
+    "url": "https://langtrace.ai",
+    "description": "enables developers to trace, evaluate, manage prompts and datasets, and debug issues related to an LLM application’s performance. It creates open telemetry standard traces for any LLM which helps with observability and works with any observability client. Free plan offers 50K traces/month.",
+    "category": "ai-coding",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "generative ai"
+    ]
+  },
+  {
+    "_dataset": "developer-tools",
+    "name": "Rybbit",
+    "url": "https://rybbit.io",
+    "description": "Open-source and cookieless alternative to Google Analytics that is 10x more intuitive. Free plans has 3,000 monthly events.",
+    "category": "analytics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "analytics, events and statistics"
+    ]
+  },
+  {
+    "_dataset": "developer-tools",
+    "name": "WorkOS",
+    "url": "https://workos.com/",
+    "description": "Enterprise SSO and more out-of-the-box enterprise features. ![featured on launchweek.dev](https://launchweek.dev)",
+    "category": "authentication",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "authentication & identity"
+    ]
+  },
+  {
+    "_dataset": "developer-tools",
+    "name": "Cronhooks",
+    "url": "https://cronhooks.io/",
+    "description": "Schedule on-time or recurring webhooks. The free plan allows 5 ad-hoc schedules.",
+    "category": "automation",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous"
+    ]
+  },
+  {
+    "_dataset": "developer-tools",
+    "name": "IFTTT",
+    "url": "https://ifttt.com",
+    "description": "Automate your favorite apps and devices. Free 2 Applets",
+    "category": "backend-as-a-service",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "baas"
+    ]
+  },
+  {
+    "_dataset": "mcp-servers",
+    "name": "MCP X Community",
+    "url": "https://x.com/i/communities/1861891349609603310",
+    "description": "A X community for MCP by Xiaoyi",
+    "category": "aggregators",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "for clients",
+      "aggregators"
+    ],
+    "openSource": false
+  },
+  {
+    "_dataset": "mcp-servers",
+    "name": "michael-denyer/memory-mcp",
+    "url": "https://github.com/michael-denyer/memory-mcp",
+    "description": "Two-tier memory with hot cache (instant injection) and cold semantic search. Auto-promotes frequently-used patterns, extracts knowledge from Claude outputs, and organizes via knowledge graph relationships.",
+    "category": "ai-services",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "knowledge & memory",
+      "open-source",
+      "ai-services"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "mcp-servers",
+    "name": "WaveSpeed",
+    "url": "https://github.com/wavespeedai/mcp-server",
+    "description": "WaveSpeed MCP server providing AI agents with image and video generation capabilities.",
+    "category": "art-literature",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "official integrations",
+      "open-source",
+      "art-literature"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "mcp-servers",
+    "name": "AWS Cost Explorer",
+    "url": "https://github.com/aarora79/aws-cost-explorer-mcp-server",
+    "description": "Optimize your AWS spend (including Amazon Bedrock spend) with this MCP server by examining spend across regions, services, instance types and foundation models (demo video).",
+    "category": "cloud-platforms",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "community servers",
+      "open-source",
+      "cloud-platforms"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "mcp-servers",
+    "name": "AWS S3",
+    "url": "https://github.com/aws-samples/sample-mcp-server-s3",
+    "description": "A sample MCP server for AWS S3 that flexibly fetches objects from S3 such as PDF documents.",
+    "category": "cloud-storage",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "community servers",
+      "open-source",
+      "cloud-storage"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "no-code-lowcode",
+    "name": "BigML",
+    "url": "https://bigml.com/",
+    "description": "ML made beautifully simple for everyone.",
+    "category": "ai-ml",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "machine learning"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "_dataset": "no-code-lowcode",
+    "name": "PageGuard",
+    "url": "https://pageguard.org",
+    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
+    "category": "analytics",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "analytics"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "_dataset": "no-code-lowcode",
+    "name": "Structr",
+    "url": "https://structr.com/",
+    "description": "Open Source lowcode platform for semantic apps based on graph technology.",
+    "category": "app-builder",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "apps"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "_dataset": "no-code-lowcode",
+    "name": "Rudderstack",
+    "url": "https://www.rudderstack.com/",
+    "description": "RudderStack makes it easy to collect and send customer data to the tools and teams that need it.",
+    "category": "automation",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "flow-based programming"
+    ],
+    "codeType": "low-code"
+  },
+  {
+    "_dataset": "no-code-lowcode",
+    "name": "Voiceflow",
+    "url": "https://www.voiceflow.com/",
+    "description": "Prototype and launch conversational apps.",
+    "category": "chatbot",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "more (uncategorized)"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "_dataset": "open-source-alternatives",
+    "name": "Metarank",
+    "url": "https://metarank.ai",
+    "description": "AutoML style personalized ranking",
+    "category": "ai-ml",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-aws-personalize",
+      "alternative-to-tecton"
+    ],
+    "alternativeTo": "AWS Personalize, Tecton"
+  },
+  {
+    "_dataset": "open-source-alternatives",
+    "name": "CocoIndex",
+    "url": "https://openalternative.co/cocoindex",
+    "description": "Ultra-fast data transformation for AI with lineage",
+    "category": "analytics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "data & analytics",
+      "data engineering & integration"
+    ],
+    "license": "Apache-2.0"
+  },
+  {
+    "_dataset": "open-source-alternatives",
+    "name": "Step CI",
+    "url": "https://stepci.com/",
+    "description": "API Testing and Monitoring",
+    "category": "api-tools",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "alternative-to-checkly",
+      "alternative-to-postman"
+    ],
+    "alternativeTo": "Checkly, Postman"
+  },
+  {
+    "_dataset": "open-source-alternatives",
+    "name": "SuperTokens",
+    "url": "https://openalternative.co/supertokens",
+    "description": "Secure, customizable authentication for your applications",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "security & privacy",
+      "identity & access management (iam)"
+    ]
+  },
+  {
+    "_dataset": "open-source-alternatives",
+    "name": "ERPNext",
+    "url": "https://openalternative.co/erpnext",
+    "description": "Comprehensive business management, tailored for you",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "erp & operations"
+    ],
+    "license": "GPL-3.0"
+  },
+  {
+    "_dataset": "public-apis",
+    "name": "PlaceDog",
+    "url": "https://place.dog/",
+    "description": "Placeholder Dog pictures",
+    "category": "animals",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "animals",
+      "no-auth",
+      "cors-enabled"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "yes"
+  },
+  {
+    "_dataset": "public-apis",
+    "name": "AOT quotes",
+    "url": "https://attackontitanquotes.vercel.app/",
+    "description": "Attack on Titan Quotes API",
+    "category": "anime",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "anime",
+      "no-auth",
+      "cors-enabled"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "yes"
+  },
+  {
+    "_dataset": "public-apis",
+    "name": "MalDatabase",
+    "url": "https://maldatabase.com/api-doc.html",
+    "description": "Provide malware datasets and threat intelligence feeds",
+    "category": "anti-malware",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "anti-malware"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown"
+  },
+  {
+    "_dataset": "public-apis",
+    "name": "Europeana",
+    "url": "https://pro.europeana.eu/resources/apis/search",
+    "description": "European Museum and Galleries content",
+    "category": "art-design",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "art & design"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown"
+  },
+  {
+    "_dataset": "public-apis",
+    "name": "Naver Login for Apps",
+    "url": "https://developers.naver.com/products/login/api",
+    "description": "Access to Naver’s Authentication API.",
+    "category": "authentication",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "table of contents",
+      "login authentication"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true
+  },
+  {
+    "_dataset": "self-hosted-software",
+    "name": "Medama Analytics",
+    "url": "https://oss.medama.io",
+    "description": "Privacy-first website analytics. Tiny, simple, and cookie-free. (Demo, Source Code)",
+    "category": "analytics",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "software",
+      "analytics"
+    ]
+  },
+  {
+    "_dataset": "self-hosted-software",
+    "name": "Piler",
+    "url": "https://www.mailpiler.org/",
+    "description": "Feature-rich email archiving solution. (Source Code)",
+    "category": "archiving",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "software",
+      "archiving and digital preservation (dp)"
+    ]
+  },
+  {
+    "_dataset": "self-hosted-software",
+    "name": "2FAuth",
+    "url": "https://github.com/bubka/2fauth",
+    "description": "Manage your Two-Factor Authentication (2FA) accounts and generate their security codes. (Demo)",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "software",
+      "miscellaneous"
+    ]
+  },
+  {
+    "_dataset": "self-hosted-software",
+    "name": "Beehive",
+    "url": "https://github.com/muesli/beehive",
+    "description": "Flexible event and agent system, which allows you to create your own agents that perform automated tasks triggered by events and filters.",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "automation"
+    ]
+  },
+  {
+    "_dataset": "self-hosted-software",
+    "name": "WriteFreely",
+    "url": "https://writefreely.org",
+    "description": "Writing software for starting a minimalist, federated blog — or an entire community. (Source Code)",
+    "category": "blogging",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "software",
+      "blogging platforms"
+    ]
+  }
+]
