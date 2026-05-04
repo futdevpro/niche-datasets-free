@@ -1,27 +1,26 @@
 [
   {
-    "name": "PlaceDog",
-    "url": "https://place.dog/",
-    "description": "Placeholder Dog pictures",
+    "name": "AdoptAPet",
+    "url": "https://www.adoptapet.com/public/apis/pet_list.html",
+    "description": "Resource to help get pets adopted",
     "category": "animals",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "animals",
-      "no-auth",
       "cors-enabled"
     ],
-    "auth": "none",
+    "auth": "apiKey",
     "https": true,
     "cors": "yes"
   },
   {
-    "name": "AOT quotes",
-    "url": "https://attackontitanquotes.vercel.app/",
-    "description": "Attack on Titan Quotes API",
+    "name": "Waifu.im",
+    "url": "https://waifu.im/docs",
+    "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
     "category": "anime",
     "pricing": "free",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "anime",
       "no-auth",
@@ -32,47 +31,48 @@
     "cors": "yes"
   },
   {
-    "name": "MalDatabase",
-    "url": "https://maldatabase.com/api-doc.html",
-    "description": "Provide malware datasets and threat intelligence feeds",
+    "name": "Scanii",
+    "url": "https://docs.scanii.com/",
+    "description": "Simple REST API that can scan submitted documents/files for the presence of threats",
     "category": "anti-malware",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "anti-malware"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
-  },
-  {
-    "name": "Europeana",
-    "url": "https://pro.europeana.eu/resources/apis/search",
-    "description": "European Museum and Galleries content",
-    "category": "art-design",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "art & design"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
-  },
-  {
-    "name": "Naver Login for Apps",
-    "url": "https://developers.naver.com/products/login/api",
-    "description": "Access to Naver’s Authentication API.",
-    "category": "authentication",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "table of contents",
-      "login authentication"
+      "anti-malware",
+      "cors-enabled"
     ],
-    "cors": "unknown",
     "auth": "apiKey",
-    "https": true
+    "https": true,
+    "cors": "yes"
+  },
+  {
+    "name": "ColourLovers",
+    "url": "http://www.colourlovers.com/api",
+    "description": "Get various patterns, palettes and images",
+    "category": "art-design",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "art & design",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": false,
+    "cors": "unknown"
+  },
+  {
+    "name": "Micro User Service",
+    "url": "https://m3o.com/user",
+    "description": "User management and authentication",
+    "category": "authentication",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "authentication & authorization"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "no"
   },
   {
     "name": "Watchdata",
@@ -89,14 +89,14 @@
     "cors": "unknown"
   },
   {
-    "name": "CDNJS",
-    "url": "https://api.cdnjs.com/libraries/jquery",
-    "description": "Library info on CDNJS",
+    "name": "Wolne Lektury",
+    "url": "https://wolnelektury.pl/api",
+    "description": "API for obtaining information about e-books available on the WolneLektury.pl website",
     "category": "books",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "development",
+      "books",
       "no-auth"
     ],
     "auth": "none",
@@ -104,40 +104,37 @@
     "cors": "unknown"
   },
   {
-    "name": "Markbase",
-    "url": "https://markbase.co/",
-    "description": "Search 14M+ USPTO trademarks with fuzzy search and autocomplete",
+    "name": "Square",
+    "url": "https://developer.squareup.com/reference/square",
+    "description": "Easy way to take payments, manage refunds, and help customers checkout online",
     "category": "business",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "business",
-      "no-auth",
-      "cors-enabled"
+      "business"
     ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes"
-  },
-  {
-    "name": "Byabbe",
-    "url": "https://byabbe.se/on-this-day/#/default/get__month___day__events_json",
-    "description": "Seach histories from wikipedia for a particular day",
-    "category": "calendar",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "calendar",
-      "no-auth"
-    ],
-    "auth": "none",
+    "auth": "oauth",
     "https": true,
     "cors": "unknown"
   },
   {
-    "name": "Bitrise",
-    "url": "https://api-docs.bitrise.io/",
-    "description": "Build tool and processes integrations to create efficient development pipelines",
+    "name": "Holidays",
+    "url": "https://holidayapi.com/",
+    "description": "Historical data regarding holidays",
+    "category": "calendar",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "calendar"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown"
+  },
+  {
+    "name": "CircleCI",
+    "url": "https://circleci.com/docs/api/v1-reference",
+    "description": "Automate the software development process using continuous integration and continuous delivery",
     "category": "ci-cd",
     "pricing": "freemium",
     "hasApi": false,
@@ -149,32 +146,34 @@
     "cors": "unknown"
   },
   {
-    "name": "Netlify",
-    "url": "https://docs.netlify.com/api/get-started",
-    "description": "Netlify is a hosting service for the programmable web",
+    "name": "DVP Data API",
+    "url": "https://docker.com",
+    "description": "The Docker DVP Data API allows [Docker Verified Publishers](https://docs.docker.com/docker-hub/publish/) to view image pull analytics data for their namespaces. Analytics data can be retrieved as raw data, or in a summary format. #### Summary data In your summary data CSV, you will have access to the data points listed below. You can request summary data for a complete week (Monday through Sunday) or for a complete month (available on the first day of the following month). There are two level...",
     "category": "cloud-storage",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "development"
-    ],
-    "auth": "oauth",
-    "https": true,
-    "cors": "unknown"
-  },
-  {
-    "name": "NiceHash",
-    "url": "https://docs.nicehash.com/",
-    "description": "Largest Crypto Mining Marketplace",
-    "category": "cryptocurrency",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "cryptocurrency"
+      "developer-tools",
+      "developer-tools"
     ],
     "auth": "apiKey",
     "https": true,
     "cors": "unknown"
+  },
+  {
+    "name": "bitpay",
+    "url": "https://bitpay.com/developers",
+    "description": "A simple, RESTful API to the most powerful bitcoin infrastructure on the planet.",
+    "category": "cryptocurrency",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "table of contents",
+      "bitcoin/bitcoin wallets"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true
   },
   {
     "name": "Currency-api",
@@ -193,67 +192,74 @@
     "cors": "yes"
   },
   {
-    "name": "VATlayer",
-    "url": "https://vatlayer.com/",
-    "description": "VAT number validation",
+    "name": "Postman Echo",
+    "url": "https://www.postman-echo.com/",
+    "description": "Test api server to receive and return value from HTTP method",
     "category": "data-validation",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "free",
+    "hasApi": true,
     "tags": [
-      "data validation"
+      "data validation",
+      "no-auth"
     ],
-    "auth": "apiKey",
+    "auth": "none",
     "https": true,
     "cors": "unknown"
   },
   {
-    "name": "WikiPathways Webservices",
-    "url": "https://wikipathways.org",
-    "description": "WikiPathways Webservices — development API",
+    "name": "Random Stuff",
+    "url": "https://api-docs.pgamerx.com/",
+    "description": "Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed",
     "category": "development",
     "pricing": "freemium",
     "hasApi": false,
-    "tags": [],
+    "tags": [
+      "development",
+      "cors-enabled"
+    ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "yes"
   },
   {
-    "name": "AppVeyor REST API",
-    "url": "https://www.appveyor.com/about",
-    "description": "AppVeyor is a hosted continuous integration service which runs on Microsoft Windows. The AppVeyor REST API provides a RESTful way to interact with the AppVeyor service. This includes managing projects, builds, deployments, and the teams that build them. Additional help and discussion of the AppVeyor REST API is available at http://help.appveyor.com/discussions This Swagger definition is an **unofficial** description of the AppVeyor REST API maintained at https://github.com/kevinoid/appveyor-s...",
+    "name": "Glosbe API",
+    "url": "https://glosbe.com/a-api",
+    "description": "Dictionary API and Translation Memory API description.",
     "category": "dictionaries",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "developer-tools"
+      "table of contents",
+      "dictionary"
     ],
+    "cors": "unknown",
     "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "https": true
   },
   {
-    "name": "Ambee",
-    "url": "https://www.getambee.com/api/natural-disasters",
-    "description": "Natural Disasters API",
+    "name": "PredictHQ",
+    "url": "https://docs.predicthq.com/",
+    "description": "Events and natural disasters data",
     "category": "disasters",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "disasters"
     ],
-    "auth": "apiKey",
+    "auth": "oauth",
     "https": true,
     "cors": "unknown"
   },
   {
-    "name": "doqs.dev | PDF filling API",
-    "url": "https://doqs.dev",
-    "description": "doqs.dev | PDF filling API — documents API",
+    "name": "Airtable",
+    "url": "https://airtable.com/api",
+    "description": "Integrate with Airtable",
     "category": "documents",
     "pricing": "freemium",
     "hasApi": false,
-    "tags": [],
+    "tags": [
+      "documents & productivity"
+    ],
     "auth": "apiKey",
     "https": true,
     "cors": "unknown"
@@ -273,18 +279,15 @@
     "cors": "unknown"
   },
   {
-    "name": "Outlook Mail",
-    "url": "https://msdn.microsoft.com/en-us/office/office365/api/mail-rest-operations",
-    "description": "The Outlook Mail API lets you read, create, and send messages and attachments, view and respond to event messages, and manage folders that are secured by Azure Active Directory in Office 365. It also provides the same functionality in Microsoft accounts specifically in these domains: Hotmail.com, Live.com, MSN.com, Outlook.com, and Passport.com.",
+    "name": "Svix API",
+    "url": "https://svix.com",
+    "description": "Welcome to the Svix API documentation! Useful links: [Homepage](https://www.svix.com) | [Support email](mailto:support+docs@svix.com) | [Blog](https://www.svix.com/blog/) | [Slack Community](https://www.svix.com/slack/) # Introduction This is the reference documentation and schemas for the [Svix webhook service](https://www.svix.com) API. For tutorials and other documentation please refer to [the documentation](https://docs.svix.com). ## Main concepts In Svix you have four important entities ...",
     "category": "email",
     "pricing": "freemium",
     "hasApi": true,
-    "tags": [
-      "table of contents",
-      "email"
-    ],
-    "cors": "unknown",
+    "tags": [],
     "auth": "apiKey",
-    "https": true
+    "https": true,
+    "cors": "unknown"
   }
 ]
