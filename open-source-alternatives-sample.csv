@@ -1,21 +1,21 @@
-name,url,description,category,pricing,hasApi,tags,alternativeTo
-Metarank,https://metarank.ai,AutoML style personalized ranking,ai-ml,open-source,false,"[""alternative-to-aws-personalize"",""alternative-to-tecton""]","AWS Personalize, Tecton"
-CocoIndex,https://openalternative.co/cocoindex,Ultra-fast data transformation for AI with lineage,analytics,open-source,false,"[""data & analytics"",""data engineering & integration""]",
-Step CI,https://stepci.com/,API Testing and Monitoring,api-tools,open-source,true,"[""alternative-to-checkly"",""alternative-to-postman""]","Checkly, Postman"
-SuperTokens,https://openalternative.co/supertokens,"Secure, customizable authentication for your applications",authentication,open-source,false,"[""security & privacy"",""identity & access management (iam)""]",
-ERPNext,https://openalternative.co/erpnext,"Comprehensive business management, tailored for you",automation,open-source,false,"[""business software"",""erp & operations""]",
-Metabase,https://openalternative.co/metabase,"Unlock data insights with powerful, user-friendly analytics",business-intelligence,open-source,false,"[""data & analytics"",""business intelligence & reporting""]",
+name,url,description,category,pricing,hasApi,tags,license
+Parlant,https://openalternative.co/parlant,Build compliant customer-facing AI agents with control,ai-ml,open-source,false,"[""ai & machine learning"",""ai development platforms""]",Apache-2.0
+Rybbit,https://openalternative.co/rybbit,Understand your audience with privacy-first analytics.,analytics,open-source,false,"[""data & analytics"",""web & product analytics""]",AGPL-3.0
+Requestly,https://openalternative.co/requestly,"Intercept, modify, and debug HTTP(S) requests effortlessly",api-tools,open-source,true,"[""developer tools"",""api development & testing""]",
+Oso,https://www.osohq.com/,Authorization building framework,authentication,open-source,false,"[""alternative-to-okta"",""alternative-to-auth0""]",
+RoboCorp,https://robocorp.com/,Set of tooling that allows to create automation packages,automation,open-source,false,"[""alternative-to-uipath""]",
+draw.io,https://openalternative.co/draw-io,Security-first diagramming with no login required,business-intelligence,open-source,false,"[""data & analytics"",""business intelligence & reporting""]",Apache-2.0
 Directus,https://openalternative.co/directus,Open-source data platform for effortless content management,cms,open-source,false,"[""content & publishing"",""content management systems (cms)""]",
-UnInbox,https://openalternative.co/uninbox,Transform team email into efficient collaborative workflows,collaboration,open-source,false,"[""business software"",""collaboration & communication""]",
-Cossistant,https://openalternative.co/cossistant,AI-native support infrastructure for modern SaaS,communication,open-source,false,"[""business software"",""marketing & customer engagement""]",
-crowd.dev,https://crowd.dev/,Suite of community and data tools built to unlock community-led growth for your organization,community,open-source,false,"[""alternative-to-orbit"",""alternative-to-common-room"",""alternative-to-commsor""]","Orbit, Common Room, Commsor"
-Twenty,https://openalternative.co/twenty,Streamline customer relationships with modern CRM,crm,open-source,false,"[""business software"",""crm & sales""]",
-Dragonfly,https://openalternative.co/dragonfly,Blazing-fast in-memory data store for modern applications,databases,open-source,false,"[""infrastructure & operations"",""databases""]",
-Chalk.ist,https://openalternative.co/chalkist,Transform your source code into stunning visuals,design,open-source,false,"[""productivity & utilities"",""design & visualization""]",
-Superset,https://openalternative.co/superset,Code 10x faster with parallel AI agents,developer-tools,open-source,true,"[""developer tools"",""ai assisted coding""]",
-aaPanel,https://openalternative.co/aapanel,Powerful and user-friendly web hosting control panel,devops,open-source,false,"[""infrastructure & operations"",""server & vm management""]",
-Documenso,https://openalternative.co/documenso,"Secure, open-source document signing for everyone",documentation,open-source,false,"[""business software"",""document management & e-signatures""]",
-Vendure,https://openalternative.co/vendure,Flexible e-commerce for modern businesses,e-commerce,open-source,false,"[""business software"",""e-commerce platforms""]",
-LocalSend,https://openalternative.co/localsend,Share files securely across all devices without servers,file-management,open-source,false,"[""productivity & utilities"",""file management & sync""]",
-OpenBB,https://openalternative.co/openbb,AI-powered research and analytics workspace,finance,open-source,false,"[""business software"",""finance & accounting""]",
-Formio,https://form.io/,A Form and Data Management Platform for Progressive Web Applications,forms,open-source,false,"[""alternative-to-vueform"",""alternative-to-typeform""]","Vueform, Typeform"
+Zulip,https://openalternative.co/zulip,Organized team chat for distributed teams,collaboration,open-source,false,"[""business software"",""collaboration & communication""]",Apache-2.0
+Frappe Helpdesk,https://openalternative.co/frappe-helpdesk,Open-source ticketing system for streamlined support,communication,open-source,false,"[""business software"",""marketing & customer engagement""]",AGPL-3.0
+Valour,https://openalternative.co/valour,Community-driven platform built for transparency,community,open-source,false,"[""content & publishing"",""community platforms""]",AGPL-3.0
+EspoCRM,https://openalternative.co/espocrm,Complete customer relationship management made simple,crm,open-source,false,"[""business software"",""crm & sales""]",AGPL-3.0
+Ceph,https://openalternative.co/ceph,Scalable open-source distributed storage system,databases,open-source,false,"[""infrastructure & operations"",""databases""]",
+Krita,https://openalternative.co/krita,Professional digital painting made accessible to everyone,design,open-source,false,"[""miscellaneous"",""design & prototyping""]",GPL-3.0
+Hercules,https://openalternative.co/hercules,Open-source vertical testing agent for effortless QA,developer-tools,open-source,true,"[""developer tools"",""frameworks & platforms""]",AGPL-3.0
+Digger,https://openalternative.co/digger,Terraform automation with pull request workflows,devops,open-source,true,"[""developer tools"",""build & deployment""]",MIT
+Scalar,https://openalternative.co/scalar,Open-source API documentation and testing platform,documentation,open-source,true,"[""content & publishing"",""documentation & knowledge base""]",MIT
+Reaction Commerce,https://github.com/reactioncommerce,Open-source alternative to Shopify,e-commerce,open-source,false,"[""alternative-to-shopify""]",
+OpenCloud,https://openalternative.co/opencloud,Secure cloud file sharing with complete data sovereignty,file-management,open-source,false,"[""productivity & utilities"",""file management & sync""]",Apache-2.0
+Gumroad,https://openalternative.co/gumroad,Your all-in-one marketplace for digital creators and products,finance,open-source,false,"[""business software"",""finance & accounting""]",MIT
+LimeSurvey,https://openalternative.co/limesurvey,Create engaging surveys and gather valuable insights,forms,open-source,false,"[""business software"",""forms & surveys""]",
