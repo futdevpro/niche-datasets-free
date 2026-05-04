@@ -1,10 +1,10 @@
 [
   {
-    "name": "Medama Analytics",
-    "url": "https://oss.medama.io",
-    "description": "Privacy-first website analytics. Tiny, simple, and cookie-free. (Demo, Source Code)",
+    "name": "PostHog",
+    "url": "https://posthog.com",
+    "description": "Product analytics, session recording, feature flagging and a/b testing that you can self-host (alternative to Mixpanel, Amplitude, Heap, HotJar, Optimizely). (Source Code)",
     "category": "analytics",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
@@ -12,46 +12,45 @@
     ]
   },
   {
-    "name": "Piler",
-    "url": "https://www.mailpiler.org/",
-    "description": "Feature-rich email archiving solution. (Source Code)",
+    "name": "Archivematica",
+    "url": "https://www.archivematica.org/",
+    "description": "Mature digital preservation system designed to maintain standards-based, long-term access to collections of digital objects. (Demo, Source Code)",
     "category": "archiving",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "archiving and digital preservation (dp)"
     ]
   },
   {
-    "name": "2FAuth",
-    "url": "https://github.com/bubka/2fauth",
-    "description": "Manage your Two-Factor Authentication (2FA) accounts and generate their security codes. (Demo)",
+    "name": "bitwarden_rs",
+    "url": "https://github.com/dani-garcia/bitwarden_rs",
+    "description": "Lightweight Bitwarden server API implementation written in Rust.",
     "category": "authentication",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "software",
-      "miscellaneous"
+      "password managers"
     ]
   },
   {
-    "name": "Beehive",
-    "url": "https://github.com/muesli/beehive",
-    "description": "Flexible event and agent system, which allows you to create your own agents that perform automated tasks triggered by events and filters.",
+    "name": "LazyLibrarian",
+    "url": "https://gitlab.com/lazylibrarian/lazylibrarian",
+    "description": "- Follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads, Librarything and optionally GoogleBooks as sources for author info and book info.",
     "category": "automation",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
+      "software",
       "automation"
     ]
   },
   {
-    "name": "WriteFreely",
-    "url": "https://writefreely.org",
-    "description": "Writing software for starting a minimalist, federated blog — or an entire community. (Source Code)",
+    "name": "Antville",
+    "url": "https://antville.org",
+    "description": "Free, open source project aimed at the development of a high performance, feature rich weblog hosting software. (Source Code)",
     "category": "blogging",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
@@ -59,57 +58,57 @@
     ]
   },
   {
-    "name": "Nunux Keeper",
-    "url": "http://keeper.nunux.org/",
-    "description": "Your personal content curation service. (Source Code)",
+    "name": "Geekmarks",
+    "url": "https://geekmarks.dmitryfrank.com/",
+    "description": "Personal bookmarking service focused on speed and organization using hierarchical tags. (Source Code)",
     "category": "bookmarks",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "read it later lists"
+      "bookmarks and link sharing"
     ]
   },
   {
-    "name": "Manage My Damn Life",
-    "url": "https://intri.in/manage-my-damn-life",
-    "description": "Manage my Damn Life (MMDL) is a self-hosted front end for managing your CalDAV tasks and calendars. (Source Code)",
+    "name": "InfCloud",
+    "url": "https://www.inf-it.com/open-source/clients/infcloud",
+    "description": "Open source CalDAV/CardDAV web client implementation. (Demo, Source Code)",
     "category": "calendar-contacts",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "calendar & contacts"
+      "calendaring and contacts management"
     ]
   },
   {
-    "name": "Directus",
-    "url": "http://getdirectus.com/",
-    "description": "Directus is a powerful and intuitive headless CMS for managing SQL databases with custom architectures. Built around a robust and extensible API, this decoupled content management framework is perfect for websites, apps, or multi-client projects. (Source Code)",
+    "name": "WordPress",
+    "url": "https://wordpress.org/",
+    "description": "World's most-used blogging and CMS engine. (Source Code)",
     "category": "cms",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "content management systems (cms)"
-    ]
-  },
-  {
-    "name": "PixelFed",
-    "url": "https://pixelfed.social",
-    "description": "Ethical photo sharing platform, powered by ActivityPub federation (alternative to Instagram). (Source Code)",
-    "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
-      "communication - social networks and forums"
+      "content management systems (cms)"
     ]
   },
   {
-    "name": "Django-CRM",
-    "url": "https://djangocrm.github.io/info",
-    "description": "Analytical CRM with tasks management, email marketing and many more. Django CRM is built for individual use, businesses of any size or freelancers and is designed to provide easy customization and quick development. (Source Code)",
+    "name": "Tokumei",
+    "url": "https://tokumei.co/",
+    "description": "Anonymous microblogging platform. (Source Code)",
+    "category": "communication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "communication systems",
+      "social networks and forums"
+    ]
+  },
+  {
+    "name": "Krayin",
+    "url": "https://krayincrm.com/",
+    "description": "CRM solution for SMEs and Enterprises for complete customer lifecycle management. (Demo, Source Code)",
     "category": "crm",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
@@ -117,21 +116,21 @@
     ]
   },
   {
-    "name": "Baserow",
-    "url": "https://baserow.io/",
-    "description": "Create your own database without technical experience (alternative to Airtable). (Source Code)",
+    "name": "Limbas",
+    "url": "https://www.limbas.com/en",
+    "description": "Database framework for creating database-driven business applications. As a graphical database frontend, it enables the efficient processing of data stocks and the flexible development of comfortable database applications. (Source Code)",
     "category": "database",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "database management"
     ]
   },
   {
-    "name": "AdGuard Home",
-    "url": "https://adguard.com/en/adguard-home/overview.html",
-    "description": "User-friendly ads & trackers blocking DNS server. (Source Code)",
+    "name": "Maza ad blocking",
+    "url": "https://maza-ad-blocking.andros.dev/",
+    "description": "Local ad blocker. Like Pi-hole but local and using your operating system. (Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
@@ -141,20 +140,21 @@
     ]
   },
   {
-    "name": "Mango",
-    "url": "https://github.com/hkalexling/mango",
-    "description": "Manga server and web reader with a built-in MangaDex downloader.",
+    "name": "EveryDocs",
+    "url": "https://github.com/jonashellmann/everydocs-core",
+    "description": "Simple Document Management System for private use with basic functionality to organize your documents digitally.",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "e-books and integrated library systems (ils)"
+      "software",
+      "document management"
     ]
   },
   {
-    "name": "Thelia",
-    "url": "https://thelia.net/",
-    "description": "Thelia is an open source and flexible e-commerce solution. (Demo, Source Code)",
+    "name": "WooCommerce",
+    "url": "https://woocommerce.com/",
+    "description": "WordPress based e-commerce solution. (Source Code)",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
@@ -164,20 +164,21 @@
     ]
   },
   {
-    "name": "FeedHQ",
-    "url": "https://feedhq.org/",
-    "description": "FeedHQ is a web-based feed reader. (Source Code)",
+    "name": "TinyFeed",
+    "url": "https://feed.lovergne.dev/",
+    "description": "Generate a static HTML page from a collection of feeds with a simple CLI. (Demo, Source Code)",
     "category": "feed-readers",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "feed readers"
     ]
   },
   {
-    "name": "TagSpaces",
-    "url": "https://www.tagspaces.org/",
-    "description": "TagSpaces is an offline, cross-platform file manager and organiser that also can function as a note taking app. The WebDAV version of the application can be installed on top of a WebDAV servers such as Nextcloud or ownCloud. (Demo, Source Code)",
+    "name": "Gossa",
+    "url": "https://github.com/pldubouilh/gossa",
+    "description": "Light and simple webserver for your files.",
     "category": "file-transfer",
     "pricing": "open-source",
     "hasApi": false,
@@ -187,20 +188,21 @@
     ]
   },
   {
-    "name": "ExMoney",
-    "url": "https://github.com/gaynetdinov/ex_money",
-    "description": "Self-hosted personal finance app.",
+    "name": "SHKeeper",
+    "url": "https://shkeeper.io/",
+    "description": "Cryptocurrency payment processor with the unique combination of gateway and merchant allowing you to accept payments in multiple cryptocurrencies without fees and intermediaries. (Demo, Source Code)",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "money, budgeting and management"
+      "software",
+      "money, budgeting & management"
     ]
   },
   {
-    "name": "RomM",
-    "url": "https://romm.app/",
-    "description": "- ROM manager for organizing, enriching, and playing retro games, with support for 400+ platforms. (Demo, Source Code)",
+    "name": "Sunshine",
+    "url": "https://app.lizardbyte.dev/sunshine",
+    "description": "Remote game stream host for Moonlight with support up to 120 frames per second and 4K resolution. (Source Code)",
     "category": "games",
     "pricing": "open-source",
     "hasApi": false,
@@ -210,9 +212,9 @@
     ]
   },
   {
-    "name": "Digistorm",
-    "url": "https://digistorm.app/",
-    "description": "Create collaborative surveys, quizzes, brainstorms, and word clouds (documentation in French). (Demo, Source Code)",
+    "name": "Citadel",
+    "url": "https://www.citadel.org/",
+    "description": "Groupware including email, calendar/scheduling, address books, forums, mailing lists, IM, wiki and blog engines, RSS aggregation and more. (Source Code)",
     "category": "groupware",
     "pricing": "open-source",
     "hasApi": false,
@@ -222,14 +224,15 @@
     ]
   },
   {
-    "name": "Homebridge",
-    "url": "https://github.com/homebridge/homebridge",
-    "description": "HomeKit support for the impatient",
+    "name": "GL.iNet",
+    "url": "https://www.gl-inet.com/",
+    "description": "is a leading developer of OpenWrt Wi-Fi and IoT Network Solutions. They build Wi-Fi routers, IoT gateways and remote device management platforms for a wide range of scenarios. All their routers include powerful built-in firewall, Shadow also supports OpenVPN, WireGuard® and customized DNS server in order to level up your online security.",
     "category": "iot",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "home automation"
+      "install from source",
+      "system hardware"
     ]
   }
 ]
