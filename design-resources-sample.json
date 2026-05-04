@@ -1,8 +1,8 @@
 [
   {
-    "name": "Rhino",
-    "url": "https://www.rhino3d.com/",
-    "description": "a curve-based 3D modeling software that creates mathematically-precise models of 3D surfaces.",
+    "name": "3D Slash",
+    "url": "https://www.3dslash.net",
+    "description": "3D modeling tool, available on all devices and all OS, online and offline.",
     "category": "3d",
     "pricing": "unknown",
     "hasApi": false,
@@ -12,23 +12,22 @@
     ]
   },
   {
-    "name": "ANDI",
-    "url": "https://www.ssa.gov/accessibility/andi/help/install.html",
-    "description": "accessibility testing tool for web content (bookmarklet). It will automatically detect accessibility issues, give suggestions to improve online accessibility and check 508 compliance. !free.svg ![open-source.svg](https://github.com/SSAgov/ANDI)",
+    "name": "Microsoft Inclusive Design",
+    "url": "https://inclusive.microsoft.design/",
+    "description": "methodology, born out of digital environments, that enables and draws on the full range of human diversity",
     "category": "accessibility",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "accessibility tools"
+      "research & accessibility (ux, usability, a11y)"
     ]
   },
   {
-    "name": "Lens Studio",
-    "url": "https://lensstudio.snapchat.com/",
-    "description": "create, publish, and share your own AR experiences for Snapchat with or without code. !free.svg",
+    "name": "Layar",
+    "url": "https://www.layar.com/",
+    "description": "find various items based upon augmented reality technology.",
     "category": "augmented-reality",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
@@ -36,21 +35,20 @@
     ]
   },
   {
-    "name": "MURAL",
-    "url": "https://mural.co/",
-    "description": "think and collaborate visually. Anywhere, anytime.",
+    "name": "Toggl",
+    "url": "http://toggl.com",
+    "description": "Time tracker to improve workplace productivity.",
     "category": "collaboration",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "collaboration tools"
+      "productivity"
     ]
   },
   {
-    "name": "Sip",
-    "url": "https://sipapp.io/",
-    "description": "a better way to collect, organize and share colors. Global eyedropper tool for macOS. !mac.svg",
+    "name": "Chroma",
+    "url": "https://chroma.spencerhamm.com/",
+    "description": "free web app which allows you to identify the color.",
     "category": "colors",
     "pricing": "free",
     "hasApi": false,
@@ -60,20 +58,21 @@
     ]
   },
   {
-    "name": "pocoloco",
-    "url": "https://pocoloco.io/",
-    "description": "Generate dynamic backgrounds for your website",
+    "name": "Tumult Hype",
+    "url": "https://tumult.com/hype",
+    "description": "the HTML5 animation/interactives creation app for macOS.",
     "category": "css-animations",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "css animations"
+      "table of content",
+      "animation tools"
     ]
   },
   {
-    "name": "Cutestrap",
-    "url": "https://www.cutestrap.com/",
-    "description": "A strong, independent CSS Framework.",
+    "name": "Raster Simple Grid System",
+    "url": "https://rsms.me/raster",
+    "description": "Minimal and straight-forward CSS grid system utilizing descriptive HTML rather than semantic CSS.",
     "category": "css-frameworks",
     "pricing": "open-source",
     "hasApi": false,
@@ -82,20 +81,20 @@
     ]
   },
   {
-    "name": "Page Collective",
-    "url": "https://pagecollective.com/",
-    "description": "Page Collective is part of a network of design inspiration websites.",
+    "name": "AboutCG",
+    "url": "http://www.aboutcg.com/",
+    "description": "前身是 CG 共和国（CGGHG）, 是成立于2004年的计算机图形图像教学服务网站，也是国内最早的原创CG视频教学的制作者。",
     "category": "design-inspiration",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "design inspiration"
+      "tutorial"
     ]
   },
   {
-    "name": "Bolt",
-    "url": "https://boltdesignsystem.com/",
-    "description": "Robust Twig and web component powered UI components",
+    "name": "Checklist Design",
+    "url": "https://www.checklist.design/",
+    "description": "Checklist Design is a curated list of checklists ranging from website pages, to UI components, all the way to branding assets.",
     "category": "design-systems",
     "pricing": "unknown",
     "hasApi": false,
@@ -104,21 +103,20 @@
     ]
   },
   {
-    "name": "Lighshot",
-    "url": "https://itunes.apple.com/us/app/lightshot-screenshot/id526298438",
-    "description": "taking quick captures of your screen. !free.svg",
+    "name": "To Do: Just a task on your canvas",
+    "url": "https://www.figma.com/community/widget/1229395149230714315",
+    "description": "the tool for keeping track of tasks and managing workflow without ever leaving the design environment",
     "category": "design-tools",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "screenshot software"
+      "figma plugins & resources"
     ]
   },
   {
-    "name": "Hackertab.dev",
-    "url": "https://chrome.google.com/webstore/detail/hackertabdev-developer-ne/ocoipcahhaedjhnpoanfflhbdcpmalmp",
-    "description": "Hackertab helps developers stay up-to-date with the latest dev news and resources in one tab.",
+    "name": "React Developer Tool",
+    "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+    "description": "React debugging tools to the Chrome Developer Tools. It allows you to inspect the React component hierarchies in the Chrome Developer Tools.",
     "category": "extensions",
     "pricing": "free",
     "hasApi": true,
@@ -138,54 +136,54 @@
     ]
   },
   {
-    "name": "Mobirise Icons",
-    "url": "https://mobiriseicons.com/",
-    "description": "A free, open source set of 150 elegant, pixel-perfect linear icons, available as web icon font and SVG icons.",
+    "name": "Logojoy",
+    "url": "https://logojoy.com/",
+    "description": "uses artificial intelligence to instantly generate unique logo ideas for your business.",
     "category": "icons",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "icon fonts"
+      "table of content",
+      "logo design"
     ]
   },
   {
-    "name": "JoeSchmoe",
-    "url": "https://joeschmoe.io",
-    "description": "an illustrated avatar collection for developers and designers, perfect as placeholders or live sites. !free.svg",
+    "name": "Servier Medical Art",
+    "url": "https://smart.servier.com/",
+    "description": "3000 free medical images to illustrate your publications and PowerPoint presentations",
     "category": "illustrations",
     "pricing": "free",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "table of content",
-      "illustrations"
+      "vectors & clip art"
     ]
   },
   {
-    "name": "Vecta Nano",
-    "url": "https://vecta.io/nano",
-    "description": "Uses lossless compression to compress inefficient SVG codes by removing unnecessary data. (Free & Paid)",
+    "name": "Promo Image Resizer",
+    "url": "https://promo.com/tools/image-resizer",
+    "description": "Free Image and Photo Resizer",
     "category": "image-compression",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "image compression"
     ]
   },
   {
-    "name": "Vizzu",
-    "url": "https://lib.vizzuhq.com/0.3.0",
-    "description": "Vizzu - a free, open-source Javascript library for building animated charts, data stories, and interactive explorers.",
+    "name": "ChartJS",
+    "url": "https://www.chartjs.org/",
+    "description": "Simple yet flexible JavaScript charting for designers & developers",
     "category": "javascript-libraries",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "javascript chart libraries"
     ]
   },
   {
-    "name": "Frrames",
-    "url": "https://frrames.com/",
-    "description": "Frrames mockups is perfectly crafted responsive windows mockups for your ideal presentation.",
+    "name": "Moqups",
+    "url": "https://moqups.com/",
+    "description": "helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.",
     "category": "mockups",
     "pricing": "unknown",
     "hasApi": false,
@@ -195,37 +193,37 @@
     ]
   },
   {
-    "name": "Sketch.systems",
-    "url": "https://sketch.systems/",
-    "description": "ui and flow design with interactive state machines. !free.svg",
-    "category": "prototyping",
-    "pricing": "free",
+    "name": "Design Sphere",
+    "url": "https://www.designsphere.xyz/",
+    "description": "a curated selection of podcasts discussing UX/UI, branding, motion design, graphic design, design systems, & more.",
+    "category": "other",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "user flow tools"
+      "podcasts"
     ]
   },
   {
-    "name": "New Old Stock",
-    "url": "https://nos.twnsnd.co/",
-    "description": "Stock vintage photos",
+    "name": "Alva",
+    "url": "https://www.meetalva.io/",
+    "description": "create living prototypes with code components. It's also open source. [](https://github.com/meetalva/alva)",
+    "category": "prototyping",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "prototyping tools"
+    ]
+  },
+  {
+    "name": "Flickr",
+    "url": "https://www.flickr.com",
+    "description": "The home for all your photos.",
     "category": "stock-photos",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "stock photos"
-    ]
-  },
-  {
-    "name": "Jamendo",
-    "url": "https://www.jamendo.com/start",
-    "description": ":copyright: Independent music community with a large collect of creative commons licensed music.",
-    "category": "stock-videos",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "sounds & music"
+      "images"
     ]
   }
 ]
