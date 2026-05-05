@@ -1,8 +1,8 @@
 [
   {
-    "name": "PostHog",
-    "url": "https://posthog.com",
-    "description": "Product analytics, session recording, feature flagging and a/b testing that you can self-host (alternative to Mixpanel, Amplitude, Heap, HotJar, Optimizely). (Source Code)",
+    "name": "Socioboard",
+    "url": "https://github.com/socioboard/socioboard-5.0",
+    "description": "- Social media management, analytics, and reporting platform supporting nine social media networks out-of-the-box.",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
@@ -12,55 +12,55 @@
     ]
   },
   {
-    "name": "Archivematica",
-    "url": "https://www.archivematica.org/",
-    "description": "Mature digital preservation system designed to maintain standards-based, long-term access to collections of digital objects. (Demo, Source Code)",
+    "name": "Piler",
+    "url": "https://www.mailpiler.org/",
+    "description": "Feature-rich email archiving solution. (Source Code)",
     "category": "archiving",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "archiving and digital preservation (dp)"
     ]
   },
   {
-    "name": "bitwarden_rs",
-    "url": "https://github.com/dani-garcia/bitwarden_rs",
-    "description": "Lightweight Bitwarden server API implementation written in Rust.",
+    "name": "AliasVault",
+    "url": "https://www.aliasvault.net",
+    "description": "End-to-end encrypted password manager with a built-in email alias generator and server. (Source Code)",
     "category": "authentication",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "password managers"
-    ]
-  },
-  {
-    "name": "LazyLibrarian",
-    "url": "https://gitlab.com/lazylibrarian/lazylibrarian",
-    "description": "- Follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads, Librarything and optionally GoogleBooks as sources for author info and book info.",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "software",
-      "automation"
-    ]
-  },
-  {
-    "name": "Antville",
-    "url": "https://antville.org",
-    "description": "Free, open source project aimed at the development of a high performance, feature rich weblog hosting software. (Source Code)",
-    "category": "blogging",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
+      "password managers"
+    ]
+  },
+  {
+    "name": "HRConvert2",
+    "url": "https://github.com/zelon88/hrconvert2",
+    "description": "Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability.",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "automation"
+    ]
+  },
+  {
+    "name": "Noddity",
+    "url": "http://noddity.com/",
+    "description": "It's a blog, it's a wiki, it's a fast CMS. (Source Code)",
+    "category": "blogging",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
       "blogging platforms"
     ]
   },
   {
-    "name": "Geekmarks",
-    "url": "https://geekmarks.dmitryfrank.com/",
-    "description": "Personal bookmarking service focused on speed and organization using hierarchical tags. (Source Code)",
+    "name": "unmark",
+    "url": "https://github.com/plainmade/unmark",
+    "description": "Open source to do app for links.",
     "category": "bookmarks",
     "pricing": "open-source",
     "hasApi": false,
@@ -69,20 +69,21 @@
     ]
   },
   {
-    "name": "InfCloud",
-    "url": "https://www.inf-it.com/open-source/clients/infcloud",
-    "description": "Open source CalDAV/CardDAV web client implementation. (Demo, Source Code)",
+    "name": "Baïkal",
+    "url": "https://sabre.io/baikal",
+    "description": "Lightweight CalDAV and CardDAV server based on sabre/dav. (Source Code)",
     "category": "calendar-contacts",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "calendaring and contacts management"
+      "software",
+      "calendar & contacts"
     ]
   },
   {
-    "name": "WordPress",
-    "url": "https://wordpress.org/",
-    "description": "World's most-used blogging and CMS engine. (Source Code)",
+    "name": "Omeka",
+    "url": "https://omeka.org",
+    "description": "Create complex narratives and share rich collections, adhering to Dublin Core standards with Omeka on your server, designed for scholars, museums, libraries, archives, and enthusiasts. (Demo, Source Code)",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
@@ -92,15 +93,15 @@
     ]
   },
   {
-    "name": "Tokumei",
-    "url": "https://tokumei.co/",
-    "description": "Anonymous microblogging platform. (Source Code)",
+    "name": "Haraka",
+    "url": "https://haraka.github.io/",
+    "description": "Fast, highly extensible, and event driven SMTP server. (Source Code)",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "communication systems",
-      "social networks and forums"
+      "software",
+      "communication - email - mail transfer agents"
     ]
   },
   {
@@ -116,21 +117,21 @@
     ]
   },
   {
-    "name": "Limbas",
-    "url": "https://www.limbas.com/en",
-    "description": "Database framework for creating database-driven business applications. As a graphical database frontend, it enables the efficient processing of data stocks and the flexible development of comfortable database applications. (Source Code)",
+    "name": "Baserow",
+    "url": "https://baserow.io/",
+    "description": "Create your own database without technical experience (alternative to Airtable). (Source Code)",
     "category": "database",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "software",
       "database management"
     ]
   },
   {
-    "name": "Maza ad blocking",
-    "url": "https://maza-ad-blocking.andros.dev/",
-    "description": "Local ad blocker. Like Pi-hole but local and using your operating system. (Source Code)",
+    "name": "Technitium DNS Server",
+    "url": "https://technitium.com/dns",
+    "description": "Authoritative/recursive DNS server with ad blocking functionality. (Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
@@ -140,33 +141,33 @@
     ]
   },
   {
-    "name": "EveryDocs",
-    "url": "https://github.com/jonashellmann/everydocs-core",
-    "description": "Simple Document Management System for private use with basic functionality to organize your documents digitally.",
+    "name": "Calibre Web Automated",
+    "url": "https://github.com/crocodilestick/calibre-web-automated",
+    "description": "All-in-one solution, combining the modern lightweight web UI from Calibre-Web with the robust, versatile feature set of Calibre (fork of Calibre Web).",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
-      "document management"
+      "document management - e-books"
     ]
   },
   {
-    "name": "WooCommerce",
-    "url": "https://woocommerce.com/",
-    "description": "WordPress based e-commerce solution. (Source Code)",
+    "name": "Bagisto",
+    "url": "https://bagisto.com/en",
+    "description": "Leading Laravel open source e-commerce framework with multi-inventory sources, taxation, localization, dropshipping and more exciting features. (Demo, Source Code)",
     "category": "e-commerce",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "e-commerce"
     ]
   },
   {
-    "name": "TinyFeed",
-    "url": "https://feed.lovergne.dev/",
-    "description": "Generate a static HTML page from a collection of feeds with a simple CLI. (Demo, Source Code)",
+    "name": "RSS2EMail",
+    "url": "https://github.com/rss2email/rss2email",
+    "description": "Fetches RSS/Atom-feeds and pushes new content to any email-receiver, supports OPML.",
     "category": "feed-readers",
     "pricing": "open-source",
     "hasApi": false,
@@ -176,45 +177,43 @@
     ]
   },
   {
-    "name": "Gossa",
-    "url": "https://github.com/pldubouilh/gossa",
-    "description": "Light and simple webserver for your files.",
+    "name": "ipfs.pics",
+    "url": "https://github.com/ipfspics/server",
+    "description": "ipfs.pics is a distributed image hosting website.",
     "category": "file-transfer",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "file transfer - web-based file managers"
+      "file sharing and synchronization"
     ]
   },
   {
-    "name": "SHKeeper",
-    "url": "https://shkeeper.io/",
-    "description": "Cryptocurrency payment processor with the unique combination of gateway and merchant allowing you to accept payments in multiple cryptocurrencies without fees and intermediaries. (Demo, Source Code)",
+    "name": "Economizzer",
+    "url": "http://www.economizzer.org/",
+    "description": "An easy and secure system for you to manage your personal money and achieve your goals, and can be accessed by computer, tablet or smartphone. (Demo, Source Code)",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "money, budgeting & management"
+      "money, budgeting and management"
     ]
   },
   {
-    "name": "Sunshine",
-    "url": "https://app.lizardbyte.dev/sunshine",
-    "description": "Remote game stream host for Moonlight with support up to 120 frames per second and 4K resolution. (Source Code)",
+    "name": "Mindustry",
+    "url": "https://mindustrygame.github.io/",
+    "description": "Factorio-like tower defense game. Build production chains to gather more resources, and build complex facilities. (Source Code)",
     "category": "games",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
-      "games - administrative utilities & control panels"
+      "games"
     ]
   },
   {
-    "name": "Citadel",
-    "url": "https://www.citadel.org/",
-    "description": "Groupware including email, calendar/scheduling, address books, forums, mailing lists, IM, wiki and blog engines, RSS aggregation and more. (Source Code)",
+    "name": "Digipad",
+    "url": "https://digipad.app/",
+    "description": "An online self-hosted application for creating collaborative digital notepads (Documentation in french). (Source Code)",
     "category": "groupware",
     "pricing": "open-source",
     "hasApi": false,
@@ -224,15 +223,15 @@
     ]
   },
   {
-    "name": "GL.iNet",
-    "url": "https://www.gl-inet.com/",
-    "description": "is a leading developer of OpenWrt Wi-Fi and IoT Network Solutions. They build Wi-Fi routers, IoT gateways and remote device management platforms for a wide range of scenarios. All their routers include powerful built-in firewall, Shadow also supports OpenVPN, WireGuard® and customized DNS server in order to level up your online security.",
+    "name": "Getting Started with ESPHome and Home Assistant",
+    "url": "https://esphome.io/guides/getting_started_hassio.html",
+    "description": "Getting Started with ESPHome and Home Assistant",
     "category": "iot",
-    "pricing": "open-source",
-    "hasApi": true,
+    "pricing": "unknown",
+    "hasApi": false,
     "tags": [
-      "install from source",
-      "system hardware"
+      "raspberry pi tools",
+      "esphome"
     ]
   }
 ]

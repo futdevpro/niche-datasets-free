@@ -1,0 +1,21 @@
+name,url,description,category,pricing,hasApi,tags,packageType,license,version,tap,deprecated,disabled,installCount365d,dependencies
+rbenv-default-gems,https://github.com/rbenv/rbenv-default-gems,Auto-installs gems for Ruby installs,cli-tool,open-source,false,"[""core""]",formula,MIT,1.0.0,homebrew/core,false,false,135,"[""rbenv""]"
+arcadedb,https://arcadedb.com,"Multi-Model DBMS: Graph, Document, Key/Value, Search, Time Series, Vector",database,unknown,false,"[""core""]",formula,Apache-2.0,26.4.2,homebrew/core,false,false,198,"[""openjdk""]"
+Insomnium,https://github.com/archgpt/insomnium,HTTP and GraphQL Client,dev-library,open-source,false,"[""cask""]",cask,,0.2.3-a,homebrew/cask,true,true,413,[]
+Touch Portal,https://www.touch-portal.com/,Macro remote control,gui-app,unknown,false,"[""cask""]",cask,,"4.5,2",homebrew/cask,false,false,81,[]
+cython,https://cython.org/,Compiler for writing C extensions for the Python language,language-runtime,unknown,false,"[""core""]",formula,Apache-2.0,3.2.4,homebrew/core,false,false,13165,"[""python@3.14"",""python-setuptools""]"
+Adapter,https://macroplant.com/adapter,"Converts video, audio and images",multimedia,unknown,false,"[""cask""]",cask,,2.1.6,homebrew/cask,false,false,687,[]
+ClearVPN,https://clearvpn.com/,VPN client,network,unknown,false,"[""cask""]",cask,,"3.3.1,202604.06.1417,1775485695",homebrew/cask,false,false,162,[]
+Calendar 366 II,https://nspektor.com/calendar366/mac,Menu bar calendar for events and reminders,productivity,unknown,false,"[""cask""]",cask,,2.16.0,homebrew/cask,false,false,256,[]
+Grid Analysis and Display System,http://cola.gmu.edu/grads/grads.php,"Access, manipulate, and visualise earth science data",science,unknown,false,"[""cask""]",cask,,2.2.1,homebrew/cask,false,true,116,[]
+Minecraft,https://minecraft.net/,Sandbox construction video game,security,unknown,false,"[""cask""]",cask,,"2.1.3,1",homebrew/cask,false,false,4977,[]
+Continuity Activation Tool,https://github.com/dokterdok/continuity-activation-tool,Enable continuity features on compatible hardware,system-utility,open-source,false,"[""cask""]",cask,,1.0,homebrew/cask,true,true,12,[]
+librdkafka,https://github.com/confluentinc/librdkafka,Apache Kafka C/C++ library,web-server,open-source,false,"[""core""]",formula,BSD-2-Clause,2.14.1,homebrew/core,false,false,35276,"[""lz4"",""lzlib"",""openssl@3"",""zstd"",""pkgconf""]"
+ddh,https://github.com/darakian/ddh,Fast duplicate file finder,cli-tool,open-source,false,"[""core""]",formula,LGPL-3.0-only,0.13.0,homebrew/core,false,false,156,"[""rust""]"
+lazysql,https://github.com/jorgerojas26/lazysql,Cross-platform TUI database management tool,database,open-source,false,"[""core""]",formula,MIT,0.4.9,homebrew/core,false,false,5837,"[""go""]"
+gnome-autoar,https://github.com/gnome/gnome-autoar,GNOME library for archive handling,dev-library,open-source,false,"[""core""]",formula,LGPL-2.1-or-later,0.4.5,homebrew/core,false,false,838,"[""glib"",""gtk+3"",""libarchive"",""at-spi2-core"",""cairo"",""gdk-pixbuf"",""gettext"",""harfbuzz"",""pango"",""meson"",""ninja"",""pkgconf""]"
+IG:dm,https://igdm.me/,Desktop application for Instagram DMs,gui-app,unknown,false,"[""cask""]",cask,,3.0.4,homebrew/cask,true,false,61,[]
+node-sass,https://github.com/sass/dart-sass,JavaScript implementation of a Sass compiler,language-runtime,open-source,false,"[""core""]",formula,MIT,1.99.0,homebrew/core,false,false,4007,"[""node""]"
+libvidstab,https://github.com/georgmartius/vid.stab,Transcode video stabilization plugin,multimedia,open-source,false,"[""core""]",formula,GPL-2.0-or-later,1.1.1,homebrew/core,false,false,157299,"[""cmake""]"
+hcxtools,https://github.com/zerbea/hcxtools,Utils for conversion of cap/pcap/pcapng WiFi dump files,network,open-source,false,"[""core""]",formula,MIT,7.1.2,homebrew/core,false,false,4053,"[""openssl@3"",""pkgconf""]"
+quilt-installer,https://quiltmc.org/,Installer for Quilt for the vanilla launcher,productivity,unknown,false,"[""core""]",formula,Apache-2.0,0.12.1,homebrew/core,false,false,118,"[""openjdk""]"

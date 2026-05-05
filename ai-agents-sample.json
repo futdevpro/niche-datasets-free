@@ -1,11 +1,11 @@
 [
   {
-    "name": "AI Researcher",
-    "url": "https://github.com/mshumer/ai-researcher",
-    "description": "The AI Researcher is an AI agent leveraging Claude 3 and SERPAPI for in-depth topic research, refining subtopic analyses into a comprehensive report, customizable and requiring API keys for functionality",
+    "name": "Devid by Agency Swarm",
+    "url": "https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/devid",
+    "description": "Devid Agent, a new AI software development tool, has been integrated into the Agency Swarm framework to enhance automated AI agency operations, alternative to Cognition AI's Devin",
     "category": "autonomous",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "ai agents",
       "open-source"
@@ -13,34 +13,34 @@
     "openSource": true
   },
   {
-    "name": "Promptly",
-    "url": "https://www.trypromptly.com/",
-    "description": "Promptly — AI agent",
+    "name": "Actionbook",
+    "url": "https://github.com/actionbook/actionbook",
+    "description": "Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece.",
     "category": "browser",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "build-your-own no-code web ui",
-      "open-source"
+      "automation",
+      "browser"
     ],
     "openSource": true
   },
   {
-    "name": "bumpgen",
-    "url": "https://github.com/xeol-io/bumpgen",
-    "description": "bumpgen — AI agent",
+    "name": "RepoAgent",
+    "url": "https://github.com/openbmb/repoagent",
+    "description": "An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly",
     "category": "coding",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "coding"
+      "software development"
     ],
-    "openSource": false
+    "openSource": true
   },
   {
     "name": "ix",
     "url": "https://github.com/kreneskyp/ix",
-    "description": "Autonomous GPT-4 agent platform !GitHub Repo stars",
+    "description": "Autonomous GPT-4 agent platform",
     "category": "conversation",
     "pricing": "open-source",
     "hasApi": false,
@@ -50,9 +50,9 @@
     "openSource": true
   },
   {
-    "name": "Recraft",
-    "url": "https://recraft.ai/",
-    "description": "Design-focused. Vector art, brand consistency.",
+    "name": "DALL-E 3.5",
+    "url": "https://openai.com/dall-e",
+    "description": "Best prompt comprehension. 95% text accuracy. ChatGPT.",
     "category": "creative",
     "pricing": "freemium",
     "hasApi": false,
@@ -61,61 +61,62 @@
     ]
   },
   {
-    "name": "Claude models by Anthropic",
-    "url": "https://docs.anthropic.com/claude/docs/tool-use",
-    "description": "Function calling or tool use is supported with the following models: claude-3-opus-20240229, claude-3-sonnet-20240229, and claude-3-haiku-20240307",
+    "name": "Dynamics 365 Copilot",
+    "url": "https://dynamics.microsoft.com/",
+    "description": "Drafting, summarizing, translating. Power Platform.",
     "category": "customer-support",
-    "pricing": "freemium",
+    "pricing": "paid",
     "hasApi": false,
     "tags": [
-      "model providers with function calling support"
+      "ai-powered crms"
+    ]
+  },
+  {
+    "name": "Verve",
+    "url": "https://x.com/annieliao_2000/status/1792175562712285645",
+    "description": "Verve — AI agent",
+    "category": "data",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "build club"
     ],
     "openSource": false
   },
   {
-    "name": "B2 AI",
-    "url": "https://www.b2.work/",
-    "description": "B2 AI — AI agent",
-    "category": "data",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "open-source"
-    ],
-    "openSource": true
-  },
-  {
-    "name": "Browserbase",
-    "url": "https://browserbase.com/",
-    "description": "Cloud browser infra for agents. Headless at scale.",
+    "name": "Agent S2 (Simular)",
+    "url": "https://github.com/simular-ai/agent-s",
+    "description": "OSS GUI automation framework.",
     "category": "devops",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "developer infrastructure"
-    ]
-  },
-  {
-    "name": "iMean.AI",
-    "url": "https://www.imean.ai/",
-    "description": "iMean.AI — AI agent",
-    "category": "framework",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "open-source"
     ],
     "openSource": true
   },
   {
-    "name": "Cursor AI Automated Team",
-    "url": "https://github.com/joinwell52-ai/joinwell52",
-    "description": "4-role AI team (PM+DEV+OPS+QA) in Cursor IDE. File-based task routing, auto patrol bot. 87 person-days in 17 days.",
+    "name": "Ai-Agent-Playground",
+    "url": "https://github.com/wei1024/ai-agent-playground",
+    "description": "test repo to develop an AI agent framework for office workers",
+    "category": "framework",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "building",
+      "testing"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "BrainSoup",
+    "url": "https://www.nurgo-software.com/products/brainsoup",
+    "description": "BrainSoup — AI agent",
     "category": "multi-agent",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "multi-agent platforms"
+      "open-source"
     ],
     "openSource": true
   },
@@ -131,46 +132,63 @@
     ]
   },
   {
-    "name": "Claude Computer Use",
-    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
-    "description": "Anthropic desktop/browser control via screenshots.",
-    "category": "productivity",
-    "pricing": "freemium",
+    "name": "从第一性原理看大模型Agent技术",
+    "url": "https://mp.weixin.qq.com/s/pl-qjlvvugufmrd4g0p-qq",
+    "description": "从第一性原理看大模型Agent技术",
+    "category": "other",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "consumer products"
+      "related",
+      "blog"
     ]
   },
   {
-    "name": "MCP (Model Context Protocol)",
-    "url": "https://github.com/modelcontextprotocol",
-    "description": "Anthropic open standard. \"USB-C for AI.\" Donated to Linux Foundation. Industry standard for agent tools.",
-    "category": "protocol",
+    "name": "Heymoon.ai",
+    "url": "https://heymoon.ai/",
+    "description": "Heymoon.ai — AI agent",
+    "category": "productivity",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "protocols and standards"
+      "productivity",
+      "open-source"
     ],
     "openSource": true
   },
   {
-    "name": "GAIA",
-    "url": "https://huggingface.co/gaia-benchmark",
-    "description": "General AI Assistant. Real-world tasks.",
-    "category": "research",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "benchmarks"
-    ]
-  },
-  {
-    "name": "Agriaid",
-    "url": "https://github.com/shamspias/agriaid",
-    "description": "AgriAid is an AI-powered tool for farmers & agricultural agents in Bangladesh, offering plant disease forecasting & identification. Using…",
-    "category": "security",
+    "name": "LangChainBitcoin",
+    "url": "https://github.com/lightninglabs/langchainbitcoin",
+    "description": "LangChainBitcoin — AI agent",
+    "category": "protocol",
     "pricing": "open-source",
     "hasApi": false,
+    "tags": [
+      "bitcoin",
+      "announcement github",
+      "open-source"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Storm",
+    "url": "https://github.com/stanford-oval/storm",
+    "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+    "category": "research",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "research"
+    ],
+    "openSource": true
+  },
+  {
+    "name": "Multi-Agent-Secops-Llm",
+    "url": "https://github.com/tegridydev/multi-agent-secops-llm",
+    "description": "This project is a multi-agent security framework that utilizes multiple LLM models to analyze and generate comprehensive security briefs.",
+    "category": "security",
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
       "building",
       "security"
@@ -180,7 +198,7 @@
   {
     "name": "GPTTeam",
     "url": "https://github.com/101dotxyz/gpteam",
-    "description": "The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication. !GitHub Repo stars",
+    "description": "The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.",
     "category": "simulation",
     "pricing": "open-source",
     "hasApi": false,
@@ -191,51 +209,38 @@
     "openSource": true
   },
   {
-    "name": "Rime AI",
-    "url": "https://rime.ai/",
-    "description": "Rime is a speech synthesis API offering natural-sounding, demographically tailored voices with fast response times for various uses, including customer service and narration",
+    "name": "Talkscriber",
+    "url": "https://www.talkscriber.com",
+    "description": "Talkscriber is an enterprise-grade speech-to-text (STT) platform that offers industry-leading accuracy, security, and cost-effectiveness, enabling organizations to transform spoken language into digital text and unlock new possibilities in data analysis while hosting Whisper (OpenAI) model",
     "category": "voice",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "voice providers"
+      "transcriber providers"
     ],
     "openSource": false
   },
   {
-    "name": "uAgents",
-    "url": "https://github.com/fetchai/uagents",
-    "description": "A fast and lightweight framework for creating decentralized agents with ease. !GitHub Repo stars",
+    "name": "Make",
+    "url": "https://make.com/",
+    "description": "Visual workflow platform. AI capabilities.",
     "category": "workflow",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "automation"
-    ],
-    "openSource": true
-  },
-  {
-    "name": "Wordware",
-    "url": "https://www.wordware.ai",
-    "description": "A web-hosted IDE where non-technical domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new programming language rather than low/no-code blocks.",
-    "category": "autonomous",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "applications",
-      "autonomous agent task solver projects"
+      "automation"
     ]
   },
   {
-    "name": "Actionbook",
-    "url": "https://github.com/actionbook/actionbook",
-    "description": "Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece. !GitHub Repo stars",
-    "category": "browser",
+    "name": "BrowsingAgent by Agency Swarm",
+    "url": "https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/browsingagent",
+    "description": "BrowsingAgent, an AI web navigation tool, has been integrated into the Agency Swarm framework to enable human-like browsing capabilities for automated AI operations",
+    "category": "autonomous",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "automation",
-      "browser"
+      "ai agents",
+      "open-source"
     ],
     "openSource": true
   }

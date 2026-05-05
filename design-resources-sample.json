@@ -1,10 +1,10 @@
 [
   {
-    "name": "3D Slash",
-    "url": "https://www.3dslash.net",
-    "description": "3D modeling tool, available on all devices and all OS, online and offline.",
+    "name": "FreeCAD",
+    "url": "https://www.freecadweb.org/",
+    "description": "a free and open-source multiplatform 3D parametric modeler.",
     "category": "3d",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "table of content",
@@ -12,20 +12,21 @@
     ]
   },
   {
-    "name": "Microsoft Inclusive Design",
-    "url": "https://inclusive.microsoft.design/",
-    "description": "methodology, born out of digital environments, that enables and draws on the full range of human diversity",
+    "name": "AChecker",
+    "url": "https://achecker.ca",
+    "description": "accessibility testing web app used to evaluate HTML content for accessibility problems.",
     "category": "accessibility",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "research & accessibility (ux, usability, a11y)"
+      "table of content",
+      "accessibility tools"
     ]
   },
   {
-    "name": "Layar",
-    "url": "https://www.layar.com/",
-    "description": "find various items based upon augmented reality technology.",
+    "name": "HP Reveal",
+    "url": "https://www.hpreveal.com/",
+    "description": "adding value to printed content through visual interactivity.",
     "category": "augmented-reality",
     "pricing": "unknown",
     "hasApi": false,
@@ -35,20 +36,21 @@
     ]
   },
   {
-    "name": "Toggl",
-    "url": "http://toggl.com",
-    "description": "Time tracker to improve workplace productivity.",
+    "name": "Lumeer",
+    "url": "https://www.lumeer.io/",
+    "description": "an easy visual collaborative tool to plan, organize and track anything, anywhere, anytime.",
     "category": "collaboration",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "productivity"
+      "table of content",
+      "collaboration tools"
     ]
   },
   {
-    "name": "Chroma",
-    "url": "https://chroma.spencerhamm.com/",
-    "description": "free web app which allows you to identify the color.",
+    "name": "Skala Color",
+    "url": "https://bjango.com/mac/skalacolor",
+    "description": "works with a huge variety of formats, covering everything you’re likely to need for web, iOS, Android, and macOS development.",
     "category": "colors",
     "pricing": "free",
     "hasApi": false,
@@ -58,65 +60,65 @@
     ]
   },
   {
-    "name": "Tumult Hype",
-    "url": "https://tumult.com/hype",
-    "description": "the HTML5 animation/interactives creation app for macOS.",
+    "name": "Meteoritic",
+    "url": "https://meteoritic.io/",
+    "description": "animation delights library for iOS and Android. Choose from a variety of animations that suits different app styles.",
     "category": "css-animations",
-    "pricing": "open-source",
-    "hasApi": false,
+    "pricing": "unknown",
+    "hasApi": true,
     "tags": [
       "table of content",
       "animation tools"
     ]
   },
   {
-    "name": "Raster Simple Grid System",
-    "url": "https://rsms.me/raster",
-    "description": "Minimal and straight-forward CSS grid system utilizing descriptive HTML rather than semantic CSS.",
+    "name": "Vanilla Framework",
+    "url": "https://vanillaframework.io/",
+    "description": "Simple, extensible CSS framework written in Sass",
     "category": "css-frameworks",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "css frameworks"
     ]
   },
   {
-    "name": "AboutCG",
-    "url": "http://www.aboutcg.com/",
-    "description": "前身是 CG 共和国（CGGHG）, 是成立于2004年的计算机图形图像教学服务网站，也是国内最早的原创CG视频教学的制作者。",
+    "name": "GoodUI",
+    "url": "http://www.goodui.org/",
+    "description": "5 Ways You Can Get A Better UI.",
     "category": "design-inspiration",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "tutorial"
+      "guidelines"
     ]
   },
   {
-    "name": "Checklist Design",
-    "url": "https://www.checklist.design/",
-    "description": "Checklist Design is a curated list of checklists ranging from website pages, to UI components, all the way to branding assets.",
+    "name": "Primer",
+    "url": "https://primer.style/",
+    "description": "Design, build, and create with GitHub’s design system",
     "category": "design-systems",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "design systems & style guides"
     ]
   },
   {
-    "name": "To Do: Just a task on your canvas",
-    "url": "https://www.figma.com/community/widget/1229395149230714315",
-    "description": "the tool for keeping track of tasks and managing workflow without ever leaving the design environment",
+    "name": "Readme.so",
+    "url": "https://readme.so/",
+    "description": "The easisest way to create a README.",
     "category": "design-tools",
-    "pricing": "freemium",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "figma plugins & resources"
+      "others"
     ]
   },
   {
-    "name": "React Developer Tool",
-    "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
-    "description": "React debugging tools to the Chrome Developer Tools. It allows you to inspect the React component hierarchies in the Chrome Developer Tools.",
+    "name": "Web Developer",
+    "url": "https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm",
+    "description": "Adds a toolbar button with various web developer tools.",
     "category": "extensions",
     "pricing": "free",
     "hasApi": true,
@@ -125,105 +127,104 @@
     ]
   },
   {
-    "name": "Typespiration",
-    "url": "https://typespiration.com/",
-    "description": "Inspirational font combinations and color palettes",
+    "name": "Open Foundry",
+    "url": "https://open-foundry.com/",
+    "description": "FREE platform for curated open-source typefaces",
     "category": "fonts",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "fonts"
     ]
   },
   {
-    "name": "Logojoy",
-    "url": "https://logojoy.com/",
-    "description": "uses artificial intelligence to instantly generate unique logo ideas for your business.",
+    "name": "Octions",
+    "url": "https://octicons.github.com/",
+    "description": "GitHub's icons.",
     "category": "icons",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "logo design"
+      "icon and logo"
     ]
   },
   {
-    "name": "Servier Medical Art",
-    "url": "https://smart.servier.com/",
-    "description": "3000 free medical images to illustrate your publications and PowerPoint presentations",
+    "name": "Black Illustrations",
+    "url": "https://www.blackillustrations.com/",
+    "description": "Beautiful illustrations of black people (free and premium)",
     "category": "illustrations",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "vectors & clip art"
     ]
   },
   {
-    "name": "Promo Image Resizer",
-    "url": "https://promo.com/tools/image-resizer",
-    "description": "Free Image and Photo Resizer",
+    "name": "Vecta Nano",
+    "url": "https://vecta.io/nano",
+    "description": "Uses lossless compression to compress inefficient SVG codes by removing unnecessary data. (Free & Paid)",
     "category": "image-compression",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "image compression"
     ]
   },
   {
-    "name": "ChartJS",
-    "url": "https://www.chartjs.org/",
-    "description": "Simple yet flexible JavaScript charting for designers & developers",
+    "name": "Popmotion",
+    "url": "https://popmotion.io/",
+    "description": "Simple animation libraries for delightful user interfaces.",
     "category": "javascript-libraries",
-    "pricing": "open-source",
-    "hasApi": true,
+    "pricing": "unknown",
+    "hasApi": false,
     "tags": [
-      "javascript chart libraries"
+      "javascript animation libraries"
     ]
   },
   {
-    "name": "Moqups",
-    "url": "https://moqups.com/",
-    "description": "helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.",
+    "name": "Lorem Ipsum",
+    "url": "http://www.lipsum.com/feed/html",
+    "description": "Lorem Ipsum",
     "category": "mockups",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "mockup tools"
+      "mockup"
     ]
   },
   {
-    "name": "Design Sphere",
-    "url": "https://www.designsphere.xyz/",
-    "description": "a curated selection of podcasts discussing UX/UI, branding, motion design, graphic design, design systems, & more.",
+    "name": "Hey Design Systems!",
+    "url": "https://heydesign.systems/",
+    "description": "your introduction to design systems",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "podcasts"
+      "design systems & frameworks",
+      "references and learning resources"
     ]
   },
   {
-    "name": "Alva",
-    "url": "https://www.meetalva.io/",
-    "description": "create living prototypes with code components. It's also open source. [](https://github.com/meetalva/alva)",
+    "name": "POP",
+    "url": "https://marvelapp.com/pop/?popref=1",
+    "description": "Transform pen and paper ideas into a real working prototype.",
     "category": "prototyping",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "prototyping tools"
+      "prototyping"
     ]
   },
   {
-    "name": "Flickr",
-    "url": "https://www.flickr.com",
-    "description": "The home for all your photos.",
+    "name": "LoremPixel",
+    "url": "https://lorempixel.com/",
+    "description": "an API that serves stock photos at specified sizes and categories. Great for placeholder/user-generated content.",
     "category": "stock-photos",
     "pricing": "unknown",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "images"
+      "table of content",
+      "stock photos tools"
     ]
   }
 ]

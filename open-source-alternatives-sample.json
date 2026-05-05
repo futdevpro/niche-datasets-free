@@ -1,8 +1,8 @@
 [
   {
-    "name": "Parlant",
-    "url": "https://openalternative.co/parlant",
-    "description": "Build compliant customer-facing AI agents with control",
+    "name": "Langflow",
+    "url": "https://openalternative.co/langflow",
+    "description": "Visual builder for AI-powered applications and workflows",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
@@ -10,57 +10,58 @@
       "ai & machine learning",
       "ai development platforms"
     ],
+    "license": "MIT"
+  },
+  {
+    "name": "Crawl4AI",
+    "url": "https://openalternative.co/crawl4ai",
+    "description": "Open-source web crawler optimized for AI and LLMs",
+    "category": "analytics",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "data & analytics",
+      "data extraction & web scraping"
+    ],
     "license": "Apache-2.0"
   },
   {
-    "name": "Rybbit",
-    "url": "https://openalternative.co/rybbit",
-    "description": "Understand your audience with privacy-first analytics.",
-    "category": "analytics",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "data & analytics",
-      "web & product analytics"
-    ],
-    "license": "AGPL-3.0"
-  },
-  {
-    "name": "Requestly",
-    "url": "https://openalternative.co/requestly",
-    "description": "Intercept, modify, and debug HTTP(S) requests effortlessly",
+    "name": "Insomnia",
+    "url": "https://openalternative.co/insomnia",
+    "description": "Powerful API development and testing made effortless",
     "category": "api-tools",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "developer tools",
       "api development & testing"
-    ]
+    ],
+    "license": "Apache-2.0"
   },
   {
-    "name": "Oso",
-    "url": "https://www.osohq.com/",
-    "description": "Authorization building framework",
+    "name": "Tesseral",
+    "url": "https://openalternative.co/tesseral",
+    "description": "Enterprise-ready B2B auth and user management in minutes",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-okta",
-      "alternative-to-auth0"
+      "security & privacy",
+      "identity & access management (iam)"
     ],
-    "alternativeTo": "Okta, Auth0"
+    "license": "MIT"
   },
   {
-    "name": "RoboCorp",
-    "url": "https://robocorp.com/",
-    "description": "Set of tooling that allows to create automation packages",
+    "name": "Hook0",
+    "url": "https://openalternative.co/hook0",
+    "description": "Open-source webhooks for seamless integrations",
     "category": "automation",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "alternative-to-uipath"
-    ],
-    "alternativeTo": "UiPath"
+      "developer tools",
+      "integration platforms"
+    ]
   },
   {
     "name": "draw.io",
@@ -76,111 +77,109 @@
     "license": "Apache-2.0"
   },
   {
-    "name": "Directus",
-    "url": "https://openalternative.co/directus",
-    "description": "Open-source data platform for effortless content management",
+    "name": "KeystoneJS",
+    "url": "https://openalternative.co/keystonejs",
+    "description": "Flexible, scalable Node.js CMS and app framework",
     "category": "cms",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "content & publishing",
       "content management systems (cms)"
-    ]
+    ],
+    "license": "MIT"
   },
   {
-    "name": "Zulip",
-    "url": "https://openalternative.co/zulip",
-    "description": "Organized team chat for distributed teams",
+    "name": "Stoat",
+    "url": "https://openalternative.co/stoat",
+    "description": "Privacy-first chat app with customizable interface",
     "category": "collaboration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
       "collaboration & communication"
-    ],
-    "license": "Apache-2.0"
+    ]
   },
   {
-    "name": "Frappe Helpdesk",
-    "url": "https://openalternative.co/frappe-helpdesk",
-    "description": "Open-source ticketing system for streamlined support",
+    "name": "Peppermint",
+    "url": "https://peppermint.sh",
+    "description": "Ticket Management & Helpdesk system",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "marketing & customer engagement"
+      "alternative-to-zendesk"
     ],
-    "license": "AGPL-3.0"
+    "alternativeTo": "Zendesk"
   },
   {
-    "name": "Valour",
-    "url": "https://openalternative.co/valour",
-    "description": "Community-driven platform built for transparency",
+    "name": "crowd.dev",
+    "url": "https://crowd.dev/",
+    "description": "Suite of community and data tools built to unlock community-led growth for your organization",
     "category": "community",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "content & publishing",
-      "community platforms"
+      "alternative-to-orbit",
+      "alternative-to-common-room",
+      "alternative-to-commsor"
     ],
-    "license": "AGPL-3.0"
+    "alternativeTo": "Orbit, Common Room, Commsor"
   },
   {
-    "name": "EspoCRM",
-    "url": "https://openalternative.co/espocrm",
-    "description": "Complete customer relationship management made simple",
+    "name": "Odoo",
+    "url": "https://openalternative.co/odoo",
+    "description": "All-in-one business management suite for modern enterprises",
     "category": "crm",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
       "crm & sales"
-    ],
-    "license": "AGPL-3.0"
+    ]
   },
   {
-    "name": "Ceph",
-    "url": "https://openalternative.co/ceph",
-    "description": "Scalable open-source distributed storage system",
+    "name": "Neo4j",
+    "url": "http://neo4j.com/",
+    "description": "Graph database platform",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "infrastructure & operations",
-      "databases"
-    ]
+      "alternative-to-tigergraph",
+      "alternative-to-amazon-neptune"
+    ],
+    "alternativeTo": "TigerGraph, Amazon Neptune"
   },
   {
-    "name": "Krita",
-    "url": "https://openalternative.co/krita",
-    "description": "Professional digital painting made accessible to everyone",
+    "name": "21st.dev",
+    "url": "https://21st.dev/",
+    "description": "The NPM for Design Engineers",
     "category": "design",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "miscellaneous",
-      "design & prototyping"
+      "alternative-to-landingfolio"
     ],
-    "license": "GPL-3.0"
+    "alternativeTo": "Landingfolio"
   },
   {
-    "name": "Hercules",
-    "url": "https://openalternative.co/hercules",
-    "description": "Open-source vertical testing agent for effortless QA",
+    "name": "Svix",
+    "url": "https://www.svix.com/",
+    "description": "Webhooks as a Service",
     "category": "developer-tools",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
-      "frameworks & platforms"
+      "alternative-to-pusher"
     ],
-    "license": "AGPL-3.0"
+    "alternativeTo": "Pusher"
   },
   {
-    "name": "Digger",
-    "url": "https://openalternative.co/digger",
-    "description": "Terraform automation with pull request workflows",
+    "name": "Dokku",
+    "url": "https://openalternative.co/dokku",
+    "description": "Self-hosted mini-PaaS for deploying applications easily",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": true,
@@ -191,12 +190,12 @@
     "license": "MIT"
   },
   {
-    "name": "Scalar",
-    "url": "https://openalternative.co/scalar",
-    "description": "Open-source API documentation and testing platform",
+    "name": "Fumadocs",
+    "url": "https://openalternative.co/fumadocs",
+    "description": "Build beautiful documentation sites with Next.js",
     "category": "documentation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "content & publishing",
       "documentation & knowledge base"
@@ -204,16 +203,17 @@
     "license": "MIT"
   },
   {
-    "name": "Reaction Commerce",
-    "url": "https://github.com/reactioncommerce",
-    "description": "Open-source alternative to Shopify",
+    "name": "Saleor",
+    "url": "https://openalternative.co/saleor",
+    "description": "Flexible e-commerce platform for modern businesses",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-shopify"
+      "business software",
+      "e-commerce platforms"
     ],
-    "alternativeTo": "Shopify"
+    "license": "BSD-3-Clause"
   },
   {
     "name": "OpenCloud",
@@ -229,28 +229,28 @@
     "license": "Apache-2.0"
   },
   {
-    "name": "Gumroad",
-    "url": "https://openalternative.co/gumroad",
-    "description": "Your all-in-one marketplace for digital creators and products",
+    "name": "Invoice Ninja",
+    "url": "https://openalternative.co/invoice-ninja",
+    "description": "Send invoices, accept payments, manage your business—all free",
     "category": "finance",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "business software",
       "finance & accounting"
-    ],
-    "license": "MIT"
+    ]
   },
   {
-    "name": "LimeSurvey",
-    "url": "https://openalternative.co/limesurvey",
-    "description": "Create engaging surveys and gather valuable insights",
+    "name": "WriteFreely",
+    "url": "https://github.com/writefreely/writefreely",
+    "description": "A clean, Markdown-based publishing platform made for writers. Write together and build a community.",
     "category": "forms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "forms & surveys"
-    ]
+      "alternative-to-medium"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "alternativeTo": "Medium"
   }
 ]

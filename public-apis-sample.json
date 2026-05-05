@@ -1,83 +1,81 @@
 [
   {
-    "name": "AdoptAPet",
-    "url": "https://www.adoptapet.com/public/apis/pet_list.html",
-    "description": "Resource to help get pets adopted",
+    "name": "xeno-canto",
+    "url": "https://xeno-canto.org/explore/api",
+    "description": "Bird recordings",
     "category": "animals",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "animals",
-      "cors-enabled"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
-  },
-  {
-    "name": "Waifu.im",
-    "url": "https://waifu.im/docs",
-    "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
-    "category": "anime",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "anime",
-      "no-auth",
-      "cors-enabled"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes"
-  },
-  {
-    "name": "Scanii",
-    "url": "https://docs.scanii.com/",
-    "description": "Simple REST API that can scan submitted documents/files for the presence of threats",
-    "category": "anti-malware",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "anti-malware",
-      "cors-enabled"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
-  },
-  {
-    "name": "ColourLovers",
-    "url": "http://www.colourlovers.com/api",
-    "description": "Get various patterns, palettes and images",
-    "category": "art-design",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "art & design",
       "no-auth"
     ],
     "auth": "none",
-    "https": false,
+    "https": true,
     "cors": "unknown"
   },
   {
-    "name": "Micro User Service",
-    "url": "https://m3o.com/user",
-    "description": "User management and authentication",
-    "category": "authentication",
+    "name": "AcgClub",
+    "url": "https://github.com/rabtman/acgclub/wiki/%e5%ae%85%e7%a4%beacgclub-api",
+    "description": "AcgClub API provides ACG-related aggregation services.",
+    "category": "anime",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "table of contents",
+      "anime"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true
+  },
+  {
+    "name": "MalShare",
+    "url": "https://malshare.com/doc.php",
+    "description": "Malware Archive / file sourcing",
+    "category": "anti-malware",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "authentication & authorization"
+      "anti-malware"
     ],
     "auth": "apiKey",
     "https": true,
     "cors": "no"
   },
   {
-    "name": "Watchdata",
-    "url": "https://docs.watchdata.io/",
-    "description": "Provide simple and reliable API access to Ethereum blockchain",
+    "name": "Color Name API",
+    "url": "https://elastiq.ch/",
+    "description": "An API that provides names for colors based on their hex value",
+    "category": "art-design",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "developer-tools"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown"
+  },
+  {
+    "name": "PayPal",
+    "url": "https://developer.paypal.com/docs/integration/direct/identity/log-in-with-paypal",
+    "description": "Enables your customers to sign in to your web site quickly and securely using their PayPal login credentials.",
+    "category": "authentication",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "table of contents",
+      "login authentication"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true
+  },
+  {
+    "name": "Nownodes",
+    "url": "https://nownodes.io/",
+    "description": "Blockchain-as-a-service solution that provides high-quality connection via API",
     "category": "blockchain",
     "pricing": "freemium",
     "hasApi": true,
@@ -89,24 +87,24 @@
     "cors": "unknown"
   },
   {
-    "name": "Wolne Lektury",
-    "url": "https://wolnelektury.pl/api",
-    "description": "API for obtaining information about e-books available on the WolneLektury.pl website",
+    "name": "indoona",
+    "url": "https://developer.indoona.com/",
+    "description": "The indoona RESTful API over HTTPS that lets you: send messages to indoona users and groups, create special address book contacts to let indoona users chat with your application.",
     "category": "books",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "books",
-      "no-auth"
+      "food",
+      "messaging"
     ],
-    "auth": "none",
-    "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true
   },
   {
-    "name": "Square",
-    "url": "https://developer.squareup.com/reference/square",
-    "description": "Easy way to take payments, manage refunds, and help customers checkout online",
+    "name": "Freelancer",
+    "url": "https://developers.freelancer.com/",
+    "description": "Hire freelancers to get work done",
     "category": "business",
     "pricing": "freemium",
     "hasApi": false,
@@ -118,16 +116,17 @@
     "cors": "unknown"
   },
   {
-    "name": "Holidays",
-    "url": "https://holidayapi.com/",
-    "description": "Historical data regarding holidays",
+    "name": "Byabbe",
+    "url": "https://byabbe.se/on-this-day/#/default/get__month___day__events_json",
+    "description": "Seach histories from wikipedia for a particular day",
     "category": "calendar",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "calendar"
+      "calendar",
+      "no-auth"
     ],
-    "auth": "apiKey",
+    "auth": "none",
     "https": true,
     "cors": "unknown"
   },
@@ -146,44 +145,14 @@
     "cors": "unknown"
   },
   {
-    "name": "DVP Data API",
-    "url": "https://docker.com",
-    "description": "The Docker DVP Data API allows [Docker Verified Publishers](https://docs.docker.com/docker-hub/publish/) to view image pull analytics data for their namespaces. Analytics data can be retrieved as raw data, or in a summary format. #### Summary data In your summary data CSV, you will have access to the data points listed below. You can request summary data for a complete week (Monday through Sunday) or for a complete month (available on the first day of the following month). There are two level...",
+    "name": "Pantry",
+    "url": "https://getpantry.cloud/",
+    "description": "Free JSON storage for small projects",
     "category": "cloud-storage",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "developer-tools",
-      "developer-tools"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
-  },
-  {
-    "name": "bitpay",
-    "url": "https://bitpay.com/developers",
-    "description": "A simple, RESTful API to the most powerful bitcoin infrastructure on the planet.",
-    "category": "cryptocurrency",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "table of contents",
-      "bitcoin/bitcoin wallets"
-    ],
-    "cors": "unknown",
-    "auth": "apiKey",
-    "https": true
-  },
-  {
-    "name": "Currency-api",
-    "url": "https://github.com/fawazahmed0/currency-api#readme",
-    "description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
-    "category": "currency",
     "pricing": "free",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "currency exchange",
+      "cloud storage & file sharing",
       "no-auth",
       "cors-enabled"
     ],
@@ -192,29 +161,14 @@
     "cors": "yes"
   },
   {
-    "name": "Postman Echo",
-    "url": "https://www.postman-echo.com/",
-    "description": "Test api server to receive and return value from HTTP method",
-    "category": "data-validation",
-    "pricing": "free",
+    "name": "FTX",
+    "url": "https://docs.ftx.com/",
+    "description": "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs",
+    "category": "cryptocurrency",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "data validation",
-      "no-auth"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "unknown"
-  },
-  {
-    "name": "Random Stuff",
-    "url": "https://api-docs.pgamerx.com/",
-    "description": "Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed",
-    "category": "development",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "development",
+      "cryptocurrency",
       "cors-enabled"
     ],
     "auth": "apiKey",
@@ -222,70 +176,115 @@
     "cors": "yes"
   },
   {
-    "name": "Glosbe API",
-    "url": "https://glosbe.com/a-api",
-    "description": "Dictionary API and Translation Memory API description.",
-    "category": "dictionaries",
+    "name": "Coinnect",
+    "url": "https://coinnect.bot/docs",
+    "description": "Open money transfer routing across fiat, crypto and P2P networks",
+    "category": "currency",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "table of contents",
-      "dictionary"
+      "currency exchange",
+      "cors-enabled"
     ],
-    "cors": "unknown",
     "auth": "apiKey",
-    "https": true
+    "https": true,
+    "cors": "yes"
   },
   {
-    "name": "PredictHQ",
-    "url": "https://docs.predicthq.com/",
-    "description": "Events and natural disasters data",
+    "name": "VATlayer",
+    "url": "https://vatlayer.com/",
+    "description": "VAT number validation",
+    "category": "data-validation",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "data validation"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown"
+  },
+  {
+    "name": "API Status Check",
+    "url": "https://apistatuscheck.com/api/status",
+    "description": "Real-time status monitoring for 270+ APIs and services",
+    "category": "development",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "development",
+      "no-auth",
+      "cors-enabled"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "yes"
+  },
+  {
+    "name": "Free Dictionary",
+    "url": "https://dictionaryapi.dev/",
+    "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
+    "category": "dictionaries",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "dictionaries",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "unknown"
+  },
+  {
+    "name": "RWLabs",
+    "url": "https://apidoc.rwlabs.org/#api-use",
+    "description": "All types of disaster data",
     "category": "disasters",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "disasters"
     ],
-    "auth": "oauth",
+    "auth": "apiKey",
     "https": true,
     "cors": "unknown"
   },
   {
-    "name": "Airtable",
-    "url": "https://airtable.com/api",
-    "description": "Integrate with Airtable",
+    "name": "Todoist",
+    "url": "https://developer.todoist.com/",
+    "description": "Todo Lists",
     "category": "documents",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "documents & productivity"
     ],
-    "auth": "apiKey",
+    "auth": "oauth",
     "https": true,
     "cors": "unknown"
   },
   {
-    "name": "Learnifier",
-    "url": "https://learnifier.com",
-    "description": "Learnifier — education API",
+    "name": "Discovery Market Research",
+    "url": "https://gsa.gov",
+    "description": "This API drives the Discovery Market Research Tool . It contains information on the vendors that are part of the OASIS and OASIS Small Business contracting vehicles, such as their contracting history, their elligibility for contract awards, and their small business designations. To learn more about the tool, please visit Discovery or see the README on our GitHub repository . Please note that the base path for this API is https://api.data.gov/gsa/discovery/ It requires an API key, obtainable a...",
     "category": "education",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "education"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
-  },
-  {
-    "name": "Svix API",
-    "url": "https://svix.com",
-    "description": "Welcome to the Svix API documentation! Useful links: [Homepage](https://www.svix.com) | [Support email](mailto:support+docs@svix.com) | [Blog](https://www.svix.com/blog/) | [Slack Community](https://www.svix.com/slack/) # Introduction This is the reference documentation and schemas for the [Svix webhook service](https://www.svix.com) API. For tutorials and other documentation please refer to [the documentation](https://docs.svix.com). ## Main concepts In Svix you have four important entities ...",
-    "category": "email",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown"
+  },
+  {
+    "name": "MailboxValidator Free Email Checker",
+    "url": "https://mailboxvalidator.com",
+    "description": "The MailboxValidator Free Email Checker checks if a single email address is from a free email provider and returns the results in either JSON or XML format. Refer to https://www.mailboxvalidator.com/api-email-freem for further information.",
+    "category": "email",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "email"
+    ],
     "auth": "apiKey",
     "https": true,
     "cors": "unknown"

@@ -1,22 +1,22 @@
 [
   {
-    "name": "Forge",
-    "url": "https://forge-web.rebaselabs.online/",
-    "description": "AI-powered full-stack app creator. BYOK (bring your own API key) with Anthropic, OpenAI, or Google AI. Multi-stage pipeline generates SSR-first Next.js applications.",
+    "name": "Obviously AI",
+    "url": "https://www.obviously.ai/",
+    "description": "Machine learning tool that makes data science effortless by enabling anyone to instantly run accurate predictions as well as analytics on their data by asking questions in natural language.",
     "category": "ai-ml",
-    "pricing": "unknown",
-    "hasApi": true,
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
-      "ai"
+      "machine learning"
     ],
     "codeType": "low-code"
   },
   {
-    "name": "Matomo",
-    "url": "https://matomo.org",
-    "description": "Self-hosted Google Analytics alternative with full data ownership.",
+    "name": "Google Analytics",
+    "url": "https://analytics.google.com",
+    "description": "Free website analytics.",
     "category": "analytics",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "analytics"
@@ -24,73 +24,73 @@
     "codeType": "low-code"
   },
   {
-    "name": "Appery.io",
-    "url": "https://appery.io/",
-    "description": "Lowcode app platform that makes creating hybrid mobile apps, web apps, and progressive web apps easy.",
+    "name": "BESSER",
+    "url": "https://besser.readthedocs.io/en/latest",
+    "description": "A Python-based low-modeling low-code platform for smart software",
     "category": "app-builder",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "apps"
+      "uncategorized"
     ],
     "codeType": "low-code"
   },
   {
-    "name": "IFTTT",
-    "url": "https://ifttt.com",
-    "description": "Do more with the services you love.",
+    "name": "Power Platform Connectors",
+    "url": "https://github.com/microsoft/powerplatformconnectors",
+    "description": "This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors.",
     "category": "automation",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "automation"
-    ],
-    "codeType": "both"
-  },
-  {
-    "name": "Botsify",
-    "url": "https://botsify.com",
-    "description": "Create your own automated chatbots online.",
-    "category": "chatbot",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "chatbots"
-    ],
-    "codeType": "no-code"
-  },
-  {
-    "name": "Custom Connector Docs",
-    "url": "https://github.com/workato/custom_connector_docs",
-    "description": "Source files for Workato custom connector documentation.",
-    "category": "collaboration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "reference resources",
-      "workato"
+      "power platform (microsoft)"
     ],
     "codeType": "low-code"
   },
   {
-    "name": "Salesflare",
-    "url": "https://salesflare.com",
-    "description": "Simple yet powerful CRM for small businesses selling B2B.",
-    "category": "crm",
+    "name": "Itura",
+    "url": "https://itura-ai.com",
+    "description": "Build your own AI conversational, database-backed apps.",
+    "category": "chatbot",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "crm"
+      "misc"
+    ],
+    "codeType": "no-code"
+  },
+  {
+    "name": "Trello",
+    "url": "https://trello.com/louisveyret1/boards",
+    "description": "All-in-one workspace and collaboration for businesses",
+    "category": "collaboration",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "collaboration"
     ],
     "codeType": "both"
   },
   {
-    "name": "Browse AI",
-    "url": "https://browse.ai/",
-    "description": "Train bots to monitor and extract data in minutes.",
-    "category": "data-scraping",
+    "name": "Drift",
+    "url": "https://www.drift.com/",
+    "description": "Customer support chatbot",
+    "category": "crm",
     "pricing": "freemium",
     "hasApi": false,
+    "tags": [
+      "customer support"
+    ],
+    "codeType": "both"
+  },
+  {
+    "name": "Octoparse",
+    "url": "https://octoparse.com",
+    "description": "Easy Web Scraping for Anyone",
+    "category": "data-scraping",
+    "pricing": "freemium",
+    "hasApi": true,
     "tags": [
       "scrapers"
     ],
@@ -109,21 +109,21 @@
     "codeType": "both"
   },
   {
-    "name": "Haikei",
-    "url": "https://haikei.app",
-    "description": "Generate unique, customizable SVG shapes and gradients.",
+    "name": "Penpot",
+    "url": "https://penpot.app",
+    "description": "Open source, web-based interface design application.",
     "category": "design",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "design"
     ],
-    "codeType": "no-code"
+    "codeType": "low-code"
   },
   {
-    "name": "Hingeto",
-    "url": "https://www.hingeto.com/",
-    "description": "Start your own Amazon-style marketplace",
+    "name": "Payhip",
+    "url": "https://payhip.com",
+    "description": "Simple checkout and storefront with VAT support.",
     "category": "ecommerce",
     "pricing": "freemium",
     "hasApi": false,
@@ -133,9 +133,9 @@
     "codeType": "no-code"
   },
   {
-    "name": "ActiveCalculator",
-    "url": "https://activecalculator.com",
-    "description": "Create custom calculators for your website with no-code builder.",
+    "name": "FormNX",
+    "url": "https://formnx.com",
+    "description": "Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",
     "category": "forms",
     "pricing": "freemium",
     "hasApi": false,
@@ -145,33 +145,33 @@
     "codeType": "no-code"
   },
   {
-    "name": "harpoon",
-    "url": "https://www.harpoon.io/",
-    "description": "Deploy software with No Code Kubernetes.",
+    "name": "Outcode",
+    "url": "https://outcode.biz/",
+    "description": "Create data apps without code",
     "category": "internal-tools",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "infrastructure"
+      "internal"
     ],
     "codeType": "no-code"
   },
   {
-    "name": "placeid",
-    "url": "https://placid.app/",
-    "description": "Generate your social share images automatically.",
+    "name": "Bannerbear",
+    "url": "https://www.bannerbear.com/",
+    "description": "Auto-generate social media visuals, ecommerce banners, dynamic email images and more with our API and integrations.",
     "category": "marketing",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "misc"
+      "marketing"
     ],
-    "codeType": "no-code"
+    "codeType": "low-code"
   },
   {
-    "name": "Thunkable",
-    "url": "https://thunkable.com",
-    "description": "The No-Code App Builder",
+    "name": "Bravo Studio",
+    "url": "https://www.bravostudio.app/",
+    "description": "Where your designs become real native apps",
     "category": "mobile",
     "pricing": "freemium",
     "hasApi": false,
@@ -181,16 +181,16 @@
     "codeType": "no-code"
   },
   {
-    "name": "Makerpad University",
-    "url": "https://www.makerpad.co/university",
-    "description": "Video courses and tutorials on no-code building.",
+    "name": "NoCode Essentials",
+    "url": "https://nocodeessentials.com/",
+    "description": "Hand-picked collection of no-code tools.",
     "category": "other",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "learning"
+      "resources"
     ],
-    "codeType": "both"
+    "codeType": "no-code"
   },
   {
     "name": "AnveVoice",
@@ -205,35 +205,35 @@
     "codeType": "no-code"
   },
   {
-    "name": "Unbounce",
-    "url": "https://unbounce.com",
-    "description": "Landing Pages - More Powerful Customization‎",
+    "name": "Destack",
+    "url": "https://github.com/liveduo/destack",
+    "description": "Visual page builder for developers",
     "category": "website-builder",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
       "landing pages"
     ],
-    "codeType": "no-code"
+    "codeType": "low-code"
   },
   {
-    "name": "Mazaal AI",
-    "url": "https://mazaal.ai",
-    "description": "No-code AI workflow platform connected with most popular 200 apps that you use daily.",
+    "name": "RemoteOpenClaw",
+    "url": "https://remoteopenclaw.com",
+    "description": "Open marketplace for AI skills and personas built on OpenClaw.",
     "category": "ai-ml",
-    "pricing": "freemium",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "machine learning"
     ],
-    "codeType": "no-code"
+    "codeType": "low-code"
   },
   {
-    "name": "Fathom",
-    "url": "https://usefathom.com",
-    "description": "Privacy-focused, cookie-less analytics that’s easy to set up and use.",
+    "name": "Matomo",
+    "url": "https://matomo.org",
+    "description": "Self-hosted Google Analytics alternative with full data ownership.",
     "category": "analytics",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "analytics"

@@ -1,91 +1,87 @@
 [
   {
-    "name": "PingCastle",
-    "url": "https://www.pingcastle.com/",
-    "description": "Active Directory vulnerability detection and reporting tool.",
+    "name": "Certipy",
+    "url": "https://github.com/ly4k/certipy",
+    "description": "[F] — AD CS abuse and enumeration.",
     "category": "authentication",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "windows-based defenses",
-      "active directory"
+      "active directory & windows"
     ],
-    "isOpenSource": false,
+    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "windows"
   },
   {
-    "name": "Principal Mapper (PMapper)",
-    "url": "https://github.com/nccgroup/pmapper",
-    "description": "Quickly evaluate IAM permissions in AWS via script and library capable of identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization.",
+    "name": "kube-bench",
+    "url": "https://github.com/aquasecurity/kube-bench",
+    "description": "[F] — CIS K8s benchmarks.",
     "category": "cloud",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "cloud platform security"
+      "containers & kubernetes"
     ],
     "isOpenSource": true,
-    "toolType": "library",
+    "toolType": "tool",
     "targetPlatform": "cloud"
   },
   {
-    "name": "Merklemap",
-    "url": "https://www.merklemap.com/",
-    "description": "Discover and enumerate all subdomains associated with a website, including those not publicly advertised. Works by ingesting certificate transparency logs.",
+    "name": "hashcat-utils",
+    "url": "https://github.com/hashcat/hashcat-utils",
+    "description": "[F] — Rule helpers and transforms.",
     "category": "cryptography",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "credentials, cracking & wordlists"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "CTFTime.org",
+    "url": "https://ctftime.org/",
+    "description": "Directory of upcoming and archive of past Capture The Flag (CTF) competitions with links to challenge writeups.",
+    "category": "ctf",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "conferences and events"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown"
+  },
+  {
+    "name": "TecMint - 4 Ways to Disable Root Account in Linux",
+    "url": "https://www.tecmint.com/disable-root-login-in-linux",
+    "description": "TecMint - 4 Ways to Disable Root Account in Linux",
+    "category": "endpoint",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "dns"
+      "gnu/linux"
     ],
     "isOpenSource": false,
     "toolType": "tool",
-    "targetPlatform": "unknown"
+    "targetPlatform": "linux"
   },
   {
-    "name": "OWASP WebGoat Project 7.1 docker image",
-    "url": "https://hub.docker.com/r/webgoat/webgoat-7.1",
-    "description": "OWASP WebGoat Project 7.1 docker image — ctf API",
-    "category": "ctf",
+    "name": "APTSimulator",
+    "url": "https://github.com/nextronsystems/aptsimulator",
+    "description": "Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised.",
+    "category": "exploit",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "intentionally vulnerable systems",
-      "intentionally vulnerable systems as docker containers"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown"
-  },
-  {
-    "name": "HardeningAuditor",
-    "url": "https://github.com/cottinghamd/hardeningauditor",
-    "description": "Scripts for comparing Microsoft Windows compliance with the Australian ASD 1709 & Office 2016 Hardening Guides",
-    "category": "endpoint",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tools to check security hardening",
-      "windows"
+      "ir tools collection",
+      "adversary emulation"
     ],
     "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "windows"
-  },
-  {
-    "name": "Web Application Security Assessment Report Template",
-    "url": "http://lucideus.com/pdf/stw.pdf",
-    "description": "Sample Web application security assessment reporting template provided by Lucideus.",
-    "category": "exploit",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "online resources",
-      "penetration testing report templates"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown"
   },
   {
     "name": "macOS Artifact Parsing Tool (mac_apt)",
@@ -103,184 +99,181 @@
     "targetPlatform": "macos"
   },
   {
-    "name": "Slack DFIR channel",
-    "url": "https://dfircommunity.slack.com",
-    "description": "Slack DFIR Communitiy channel - Signup here.",
+    "name": "Incident Response & Computer Forensics, Third Edition",
+    "url": "https://www.amazon.com/incident-response-computer-forensics-third/dp/0071798684",
+    "description": "The definitive guide to incident response.",
     "category": "incident-response",
-    "pricing": "unknown",
+    "pricing": "paid",
     "hasApi": false,
     "tags": [
       "ir tools collection",
-      "communities"
+      "books"
     ],
     "isOpenSource": false,
-    "toolType": "tool",
+    "toolType": "resource",
     "targetPlatform": "unknown"
   },
   {
-    "name": "Hudson Rock",
-    "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools",
-    "description": "is a free cybercrime intelligence toolkit to check exposure in Infostealer malware infection.",
+    "name": "ClamAv",
+    "url": "http://www.clamav.net/",
+    "description": "ClamAV® is an open-source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
     "category": "malware-analysis",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "domain and ip research"
+      "endpoint",
+      "anti-virus / anti-malware"
     ],
-    "isOpenSource": false,
+    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
-    "name": "Fing",
-    "url": "https://www.fing.com/products/fing-app",
-    "description": "Network scanning and host enumeration app that performs NetBIOS, UPnP, Bonjour, SNMP, and various other advanced device fingerprinting techniques.",
+    "name": "SecMobi Wiki",
+    "url": "http://wiki.secmobi.com/",
+    "description": "A collection of mobile security resources which including articles, blogs, books, groups, projects, tools and conferences.",
     "category": "mobile",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "android utilities"
+      "endpoint",
+      "mobile / android / ios"
     ],
     "isOpenSource": false,
-    "toolType": "tool",
+    "toolType": "resource",
     "targetPlatform": "mobile"
   },
   {
-    "name": "wazuh",
-    "url": "https://github.com/wazuh/wazuh",
-    "description": "Wazuh is a free and open source platform used for threat prevention, detection, and response. It is capable of monitoring file system changes, system calls and inventory changes.",
+    "name": "CanaryTokens",
+    "url": "https://github.com/thinkst/canarytokens",
+    "description": "Self-hostable honeytoken generator and reporting dashboard; demo version available at CanaryTokens.org.",
     "category": "monitoring",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "network",
-      "monitoring / logging"
+      "honeypots"
     ],
     "isOpenSource": true,
     "toolType": "platform",
     "targetPlatform": "unknown"
   },
   {
-    "name": "Nipper-ng",
-    "url": "https://github.com/arpitn30/nipper-ng",
-    "description": "to check the configuration of network devices (does not seem to be updated)",
+    "name": "Imperva Live Threat Map",
+    "url": "https://www.imperva.com/cyber-threat-attack-map",
+    "description": "A real-time global view of DDoS attacks, hacking attempts, and bot assaults mitigated by Imperva security services.",
     "category": "network",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "tools to check security hardening",
-      "network devices"
+      "live cyber threat maps"
     ],
-    "isOpenSource": true,
+    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
-    "name": "Fb-sleep-stats",
-    "url": "https://github.com/sqren/fb-sleep-stats",
-    "description": "Use Facebook to track your friends’ sleeping habits.",
+    "name": "mxtoolbox",
+    "url": "https://mxtoolbox.com/",
+    "description": "Free online tools to investigate/troubleshoot email server issues.",
     "category": "osint",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "social media tools",
-      "facebook"
+      "email search / email check"
     ],
-    "isOpenSource": true,
+    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
-    "name": "JavaScript Programming",
-    "url": "https://github.com/sorrycc/awesome-javascript",
-    "description": "In-browser development and scripting.",
+    "name": "Snopes",
+    "url": "http://www.snopes.com",
+    "description": "The definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation.",
     "category": "other",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "online resources",
-      "other lists online"
+      "fact checking"
     ],
-    "isOpenSource": true,
+    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
-    "name": "Confusion checker",
-    "url": "https://github.com/sonatype-nexus-community/repo-diff",
-    "description": "Script to check if you have artifacts containing the same name between your repositories.",
+    "name": "tsurugi",
+    "url": "https://tsurugi-linux.org/",
+    "description": "heavily customized Linux distribution that designed to support DFIR investigations, malware analysis and OSINT activities. It is based on Ubuntu 20.04(64-bit with a 5.15.12 custom kernel)",
     "category": "vulnerability-scanner",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "devsecops",
-      "dependency confusion"
+      "network",
+      "scanning / pentesting"
     ],
-    "isOpenSource": true,
     "toolType": "tool",
-    "targetPlatform": "unknown"
+    "targetPlatform": "linux"
   },
   {
-    "name": "InfoSec § Hacking challenges",
-    "url": "https://github.com/anarchotechnyc/meta/wiki/infosec#hacking-challenges",
-    "description": "Comprehensive directory of CTFs, wargames, hacking challenge websites, pentest practice lab exercises, and more.",
+    "name": "WhatWaf",
+    "url": "https://github.com/ekultek/whatwaf",
+    "description": "Detect and bypass web application firewalls and protection systems.",
     "category": "web",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "online resources",
-      "other lists online"
+      "open sources intelligence (osint)",
+      "web application and resource analysis tools"
     ],
     "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
-    "name": "Seatbelt",
-    "url": "https://github.com/ghostpack/seatbelt",
-    "description": "[F] — Windows triage enumeration.",
+    "name": "google-authenticator",
+    "url": "https://github.com/google/google-authenticator",
+    "description": "The Google Authenticator project includes implementations of one-time passcode generators for several mobile platforms, as well as a pluggable authentication module (PAM). One-time passcodes are generated using open standards developed by the Initiative for Open Authentication (OATH) (which is unrelated to OAuth). These implementations support the HMAC-Based One-time Password (HOTP) algorithm specified in RFC 4226 and the Time-based One-time Password (TOTP) algorithm specified in RFC 6238. Tutorials: How to set up two-factor authentication for SSH login on Linux",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "active directory & windows"
+      "endpoint",
+      "authentication"
     ],
     "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "windows"
+    "toolType": "library",
+    "targetPlatform": "mobile"
   },
   {
-    "name": "gVisor",
-    "url": "https://github.com/google/gvisor",
-    "description": "Application kernel, written in Go, that implements a substantial portion of the Linux system surface to provide an isolation boundary between the application and the host kernel.",
+    "name": "Endgame",
+    "url": "https://endgame.readthedocs.io/",
+    "description": "AWS Pentesting tool that lets you use one-liner commands to backdoor an AWS account's resources with a rogue AWS account.",
     "category": "cloud",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "cloud platform security"
+      "cloud platform attack tools"
     ],
-    "isOpenSource": true,
+    "isOpenSource": false,
     "toolType": "platform",
     "targetPlatform": "cloud"
   },
   {
-    "name": "Hashcat",
-    "url": "http://hashcat.net/hashcat",
-    "description": "The more fast hash cracker.",
+    "name": "CeWL",
+    "url": "https://digi.ninja/projects/cewl.php",
+    "description": "Generates custom wordlists by spidering a target's website and collecting unique words.",
     "category": "cryptography",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "hash cracking tools"
     ],
-    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
-    "name": "OWASP Security Shepherd",
-    "url": "https://hub.docker.com/r/ismisepaul/securityshepherd",
-    "description": "OWASP Security Shepherd — ctf API",
+    "name": "OWASP Mutillidae II Web Pen-Test Practice Application",
+    "url": "https://hub.docker.com/r/citizenstig/nowasp",
+    "description": "OWASP Mutillidae II Web Pen-Test Practice Application — ctf API",
     "category": "ctf",
     "pricing": "open-source",
     "hasApi": false,

@@ -1,41 +1,41 @@
 [
   {
-    "name": "CodeSquire",
-    "url": "https://codesquire.ai",
-    "description": "Browser extension for AI generation in Jupyter/BigQuery etc…",
+    "name": "CloudSight",
+    "url": "https://cloudsight.ai/",
+    "description": "Digital media brand recognition.",
     "category": "ai-coding",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "ai coding"
+      "computer vision"
     ]
   },
   {
-    "name": "PoeticMetric",
-    "url": "https://poeticmetric.com/",
-    "description": "Privacy-first, regulation-compliant, fast analytics tool.",
+    "name": "s3cmd",
+    "url": "https://github.com/s3tools/s3cmd",
+    "description": "the S3 CLI tool for Amazon",
     "category": "analytics",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "analytics"
+      "data"
     ]
   },
   {
-    "name": "SuperTokens",
-    "url": "https://supertokens.io/",
-    "description": "Open-source and hosted email & Oauth authentication with prebuilt UI. [](https://github.com/supertokens/supertokens-core)",
+    "name": "WorkOS",
+    "url": "https://workos.com/",
+    "description": "Enterprise SSO and more out-of-the-box enterprise features. [](https://launchweek.dev)",
     "category": "authentication",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "authentication & identity"
     ]
   },
   {
-    "name": "fswatch",
-    "url": "https://github.com/alandipert/fswatch",
-    "description": "a watch tool which",
+    "name": "Zappr",
+    "url": "https://github.com/zalando/zappr",
+    "description": "GitHub integration built to enhance your project workflow via enable/disable pull request approval checks.",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": false,
@@ -44,42 +44,42 @@
     ]
   },
   {
-    "name": "convex.dev",
-    "url": "https://convex.dev/",
-    "description": "Reactive backend as a service, hosting your data (documents with relationships & serializable ACID transactions), serverless functions, and WebSockets to stream updates to various clients. Free for small projects - up to 1M records, 5M monthly function calls.",
+    "name": "nhost.io",
+    "url": "https://nhost.io",
+    "description": "Serverless backend for web and mobile apps. The free plan includes PostgreSQL, GraphQL (Hasura), Authentication, Storage, and Serverless Functions.",
     "category": "backend-as-a-service",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "baas"
     ]
   },
   {
-    "name": "deployhq.com",
-    "url": "https://www.deployhq.com/",
-    "description": "1 project with ten daily deployments (30 build minutes/month)",
+    "name": "Terramate",
+    "url": "https://terramate.io/",
+    "description": "Terramate is an orchestration and management platform for Infrastructure as Code (IaC) tools such as Terraform, OpenTofu, and Terragrunt. Free up to 2 users including all features.",
     "category": "ci-cd",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "ci and cd"
     ]
   },
   {
-    "name": "Cosmic",
-    "url": "https://www.cosmicjs.com/",
-    "description": "Headless CMS and API toolkit. Free personal plans for developers.",
+    "name": "DatoCMS",
+    "url": "https://www.datocms.com/",
+    "description": "API-based CMS.",
     "category": "cms",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "cms"
+      "cms (headless)"
     ]
   },
   {
-    "name": "git-extra-commands",
-    "url": "https://github.com/unixorn/git-extra-commands",
-    "description": "collected git helper scripts",
+    "name": "git-up",
+    "url": "https://github.com/aanand/git-up",
+    "description": "a better 'git pull'",
     "category": "code-quality",
     "pricing": "open-source",
     "hasApi": false,
@@ -88,135 +88,135 @@
     ]
   },
   {
-    "name": "Upstash",
-    "url": "https://upstash.com/",
-    "description": "Serverless tailored redis provider.",
+    "name": "skyvia.com",
+    "url": "https://skyvia.com/",
+    "description": "Cloud Data Platform offers a free tier and all plans are completely free while in beta",
     "category": "database",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "databases & spreadsheets"
+      "managed data services"
     ]
   },
   {
-    "name": "Lightrun",
-    "url": "https://www.lightrun.com",
-    "description": "Debug production servers using a plugin in the IDE (on-prem or SaaS) that supports Java, Node.js, and Python.",
+    "name": "ReqBin",
+    "url": "https://reqbin.com/",
+    "description": "Post HTTP Requests Online. Popular Request Methods include GET, POST, PUT, DELETE, and HEAD. Supports Headers and Token Authentication. Includes a basic login system for saving your requests.",
     "category": "debugging",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "debugging"
+      "miscellaneous"
     ]
   },
   {
-    "name": "PandaStack",
-    "url": "https://www.pandastack.io/",
-    "description": "An eco-system for developers includes web hosting in different formats (static web hosting, container based web hosting, wordpress and so many other managed apps available in couple of clicks ). One free web hosting (static or containered) and one free database with 100GB Bandwidth and 300 Build mins/month.",
+    "name": "MDB GO",
+    "url": "https://mdbgo.com/",
+    "description": "Free hosting for one project with two weeks Container TTL, 500 MB RAM per project, SFTP - 1G disk space.",
     "category": "deployment-hosting",
-    "pricing": "free",
-    "hasApi": true,
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
       "web hosting"
     ]
   },
   {
-    "name": "lensdump.com",
-    "url": "https://lensdump.com/",
-    "description": "Free cloud image hosting.",
+    "name": "marvelapp.com",
+    "url": "https://marvelapp.com/",
+    "description": "Design, prototyping, and collaboration, free plan limited to one user and project.",
     "category": "documentation",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "design and ui"
     ]
   },
   {
-    "name": "Mathias Bynens's",
-    "url": "https://github.com/mathiasbynens/dotfiles",
-    "description": ".files, including ~/.osx — sensible hacker defaults for OS X",
+    "name": "Envkey",
+    "url": "https://www.envkey.com/",
+    "description": "Environment management with syncing mechanism for all apps.",
     "category": "environment-secrets",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "dotfiles"
+      "environment & secret management"
     ]
   },
   {
-    "name": "ConfigCat",
-    "url": "https://configcat.com",
-    "description": "ConfigCat is a developer-centric feature flag service with unlimited team size, excellent support, and a reasonable price tag. Free plan up to 10 flags, two environments, 1 product, and 5 Million requests per month.",
+    "name": "Bucket",
+    "url": "https://bucket.co",
+    "description": "Purpose-built feature flagging for B2B SaaS products.",
     "category": "feature-flags",
     "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "feature toggles management platforms"
-    ]
-  },
-  {
-    "name": "Kite",
-    "url": "https://www.kite.com/",
-    "description": "AI assistant in your IDE (Python or JS).",
-    "category": "ide-editor",
-    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "ide"
+      "feature flags"
     ]
   },
   {
-    "name": "MongoHub",
-    "url": "https://github.com/fotonauts/mongohub-mac/releases",
-    "description": "Native OSx client for mongo",
-    "category": "infrastructure",
+    "name": "Keycastr",
+    "url": "https://github.com/sdeken/keycastr",
+    "description": "show your keys while",
+    "category": "ide-editor",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "admins"
+      "desktop"
     ]
   },
   {
-    "name": "OCR.Space",
-    "url": "https://ocr.space/",
-    "description": "An OCR API parses image and pdf files that return the text results in JSON format. 25,000 requests per month are free and a 1MB file size limit.",
-    "category": "integrations",
-    "pricing": "free",
-    "hasApi": true,
+    "name": "AWS Step Functions",
+    "url": "https://aws.amazon.com/step-functions",
+    "description": "Visual workflow service to build distributed applications and automate processes",
+    "category": "infrastructure",
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
-      "apis, data, and ml"
+      "orchestration"
     ]
   },
   {
-    "name": "SimpleLocalize",
-    "url": "https://simplelocalize.io/",
-    "description": "Free up to 100 translation keys, unlimited strings, unlimited languages, startup deals",
+    "name": "YepCode",
+    "url": "https://yepcode.io/",
+    "description": "Build and run serverless functions with the best development experience.",
+    "category": "integrations",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "integrations"
+    ]
+  },
+  {
+    "name": "Loco",
+    "url": "https://localise.biz/",
+    "description": "Free up to 2000 translations, Unlimited translators, ten languages/project, 1000 translatable assets/project",
     "category": "localization",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "translation management"
     ]
   },
   {
-    "name": "Sendgrid",
-    "url": "https://sendgrid.com/",
-    "description": "Email API.",
+    "name": "EmailLabs.io",
+    "url": "https://emaillabs.io/en",
+    "description": "Send up to 9,000 Emails for free every month, up to 300 emails daily.",
     "category": "mail",
-    "pricing": "freemium",
-    "hasApi": true,
+    "pricing": "free",
+    "hasApi": false,
     "tags": [
-      "mail"
+      "email"
     ]
   },
   {
-    "name": "Fontshare",
-    "url": "https://www.fontshare.com/",
-    "description": "is a free fonts service. It’s a growing collection of professional-grade fonts, 100% free for personal and commercial use.",
+    "name": "tinypng.com",
+    "url": "https://tinypng.com/",
+    "description": "API to compress and resize PNG and JPEG images, offers 500 compressions for free each month",
     "category": "media",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "free",
+    "hasApi": true,
     "tags": [
-      "font"
+      "storage and media processing"
     ]
   }
 ]

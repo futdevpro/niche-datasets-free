@@ -1,0 +1,421 @@
+[
+  {
+    "name": "rbenv-default-gems",
+    "url": "https://github.com/rbenv/rbenv-default-gems",
+    "description": "Auto-installs gems for Ruby installs",
+    "category": "cli-tool",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "MIT",
+    "version": "1.0.0",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 135,
+    "dependencies": [
+      "rbenv"
+    ]
+  },
+  {
+    "name": "arcadedb",
+    "url": "https://arcadedb.com",
+    "description": "Multi-Model DBMS: Graph, Document, Key/Value, Search, Time Series, Vector",
+    "category": "database",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "Apache-2.0",
+    "version": "26.4.2",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 198,
+    "dependencies": [
+      "openjdk"
+    ]
+  },
+  {
+    "name": "Insomnium",
+    "url": "https://github.com/archgpt/insomnium",
+    "description": "HTTP and GraphQL Client",
+    "category": "dev-library",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "0.2.3-a",
+    "tap": "homebrew/cask",
+    "deprecated": true,
+    "disabled": true,
+    "installCount365d": 413,
+    "dependencies": []
+  },
+  {
+    "name": "Touch Portal",
+    "url": "https://www.touch-portal.com/",
+    "description": "Macro remote control",
+    "category": "gui-app",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "4.5,2",
+    "tap": "homebrew/cask",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 81,
+    "dependencies": []
+  },
+  {
+    "name": "cython",
+    "url": "https://cython.org/",
+    "description": "Compiler for writing C extensions for the Python language",
+    "category": "language-runtime",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "Apache-2.0",
+    "version": "3.2.4",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 13165,
+    "dependencies": [
+      "python@3.14",
+      "python-setuptools"
+    ]
+  },
+  {
+    "name": "Adapter",
+    "url": "https://macroplant.com/adapter",
+    "description": "Converts video, audio and images",
+    "category": "multimedia",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "2.1.6",
+    "tap": "homebrew/cask",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 687,
+    "dependencies": []
+  },
+  {
+    "name": "ClearVPN",
+    "url": "https://clearvpn.com/",
+    "description": "VPN client",
+    "category": "network",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "3.3.1,202604.06.1417,1775485695",
+    "tap": "homebrew/cask",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 162,
+    "dependencies": []
+  },
+  {
+    "name": "Calendar 366 II",
+    "url": "https://nspektor.com/calendar366/mac",
+    "description": "Menu bar calendar for events and reminders",
+    "category": "productivity",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "2.16.0",
+    "tap": "homebrew/cask",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 256,
+    "dependencies": []
+  },
+  {
+    "name": "Grid Analysis and Display System",
+    "url": "http://cola.gmu.edu/grads/grads.php",
+    "description": "Access, manipulate, and visualise earth science data",
+    "category": "science",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "2.2.1",
+    "tap": "homebrew/cask",
+    "deprecated": false,
+    "disabled": true,
+    "installCount365d": 116,
+    "dependencies": []
+  },
+  {
+    "name": "Minecraft",
+    "url": "https://minecraft.net/",
+    "description": "Sandbox construction video game",
+    "category": "security",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "2.1.3,1",
+    "tap": "homebrew/cask",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 4977,
+    "dependencies": []
+  },
+  {
+    "name": "Continuity Activation Tool",
+    "url": "https://github.com/dokterdok/continuity-activation-tool",
+    "description": "Enable continuity features on compatible hardware",
+    "category": "system-utility",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "1.0",
+    "tap": "homebrew/cask",
+    "deprecated": true,
+    "disabled": true,
+    "installCount365d": 12,
+    "dependencies": []
+  },
+  {
+    "name": "librdkafka",
+    "url": "https://github.com/confluentinc/librdkafka",
+    "description": "Apache Kafka C/C++ library",
+    "category": "web-server",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "BSD-2-Clause",
+    "version": "2.14.1",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 35276,
+    "dependencies": [
+      "lz4",
+      "lzlib",
+      "openssl@3",
+      "zstd",
+      "pkgconf"
+    ]
+  },
+  {
+    "name": "ddh",
+    "url": "https://github.com/darakian/ddh",
+    "description": "Fast duplicate file finder",
+    "category": "cli-tool",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "LGPL-3.0-only",
+    "version": "0.13.0",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 156,
+    "dependencies": [
+      "rust"
+    ]
+  },
+  {
+    "name": "lazysql",
+    "url": "https://github.com/jorgerojas26/lazysql",
+    "description": "Cross-platform TUI database management tool",
+    "category": "database",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "MIT",
+    "version": "0.4.9",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 5837,
+    "dependencies": [
+      "go"
+    ]
+  },
+  {
+    "name": "gnome-autoar",
+    "url": "https://github.com/gnome/gnome-autoar",
+    "description": "GNOME library for archive handling",
+    "category": "dev-library",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "LGPL-2.1-or-later",
+    "version": "0.4.5",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 838,
+    "dependencies": [
+      "glib",
+      "gtk+3",
+      "libarchive",
+      "at-spi2-core",
+      "cairo",
+      "gdk-pixbuf",
+      "gettext",
+      "harfbuzz",
+      "pango",
+      "meson",
+      "ninja",
+      "pkgconf"
+    ]
+  },
+  {
+    "name": "IG:dm",
+    "url": "https://igdm.me/",
+    "description": "Desktop application for Instagram DMs",
+    "category": "gui-app",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "3.0.4",
+    "tap": "homebrew/cask",
+    "deprecated": true,
+    "disabled": false,
+    "installCount365d": 61,
+    "dependencies": []
+  },
+  {
+    "name": "node-sass",
+    "url": "https://github.com/sass/dart-sass",
+    "description": "JavaScript implementation of a Sass compiler",
+    "category": "language-runtime",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "MIT",
+    "version": "1.99.0",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 4007,
+    "dependencies": [
+      "node"
+    ]
+  },
+  {
+    "name": "libvidstab",
+    "url": "https://github.com/georgmartius/vid.stab",
+    "description": "Transcode video stabilization plugin",
+    "category": "multimedia",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "GPL-2.0-or-later",
+    "version": "1.1.1",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 157299,
+    "dependencies": [
+      "cmake"
+    ]
+  },
+  {
+    "name": "hcxtools",
+    "url": "https://github.com/zerbea/hcxtools",
+    "description": "Utils for conversion of cap/pcap/pcapng WiFi dump files",
+    "category": "network",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "MIT",
+    "version": "7.1.2",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 4053,
+    "dependencies": [
+      "openssl@3",
+      "pkgconf"
+    ]
+  },
+  {
+    "name": "quilt-installer",
+    "url": "https://quiltmc.org/",
+    "description": "Installer for Quilt for the vanilla launcher",
+    "category": "productivity",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "Apache-2.0",
+    "version": "0.12.1",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 118,
+    "dependencies": [
+      "openjdk"
+    ]
+  }
+]

@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,license
-Parlant,https://openalternative.co/parlant,Build compliant customer-facing AI agents with control,ai-ml,open-source,false,"[""ai & machine learning"",""ai development platforms""]",Apache-2.0
-Rybbit,https://openalternative.co/rybbit,Understand your audience with privacy-first analytics.,analytics,open-source,false,"[""data & analytics"",""web & product analytics""]",AGPL-3.0
-Requestly,https://openalternative.co/requestly,"Intercept, modify, and debug HTTP(S) requests effortlessly",api-tools,open-source,true,"[""developer tools"",""api development & testing""]",
-Oso,https://www.osohq.com/,Authorization building framework,authentication,open-source,false,"[""alternative-to-okta"",""alternative-to-auth0""]",
-RoboCorp,https://robocorp.com/,Set of tooling that allows to create automation packages,automation,open-source,false,"[""alternative-to-uipath""]",
+Langflow,https://openalternative.co/langflow,Visual builder for AI-powered applications and workflows,ai-ml,open-source,false,"[""ai & machine learning"",""ai development platforms""]",MIT
+Crawl4AI,https://openalternative.co/crawl4ai,Open-source web crawler optimized for AI and LLMs,analytics,open-source,true,"[""data & analytics"",""data extraction & web scraping""]",Apache-2.0
+Insomnia,https://openalternative.co/insomnia,Powerful API development and testing made effortless,api-tools,open-source,true,"[""developer tools"",""api development & testing""]",Apache-2.0
+Tesseral,https://openalternative.co/tesseral,Enterprise-ready B2B auth and user management in minutes,authentication,open-source,false,"[""security & privacy"",""identity & access management (iam)""]",MIT
+Hook0,https://openalternative.co/hook0,Open-source webhooks for seamless integrations,automation,open-source,true,"[""developer tools"",""integration platforms""]",
 draw.io,https://openalternative.co/draw-io,Security-first diagramming with no login required,business-intelligence,open-source,false,"[""data & analytics"",""business intelligence & reporting""]",Apache-2.0
-Directus,https://openalternative.co/directus,Open-source data platform for effortless content management,cms,open-source,false,"[""content & publishing"",""content management systems (cms)""]",
-Zulip,https://openalternative.co/zulip,Organized team chat for distributed teams,collaboration,open-source,false,"[""business software"",""collaboration & communication""]",Apache-2.0
-Frappe Helpdesk,https://openalternative.co/frappe-helpdesk,Open-source ticketing system for streamlined support,communication,open-source,false,"[""business software"",""marketing & customer engagement""]",AGPL-3.0
-Valour,https://openalternative.co/valour,Community-driven platform built for transparency,community,open-source,false,"[""content & publishing"",""community platforms""]",AGPL-3.0
-EspoCRM,https://openalternative.co/espocrm,Complete customer relationship management made simple,crm,open-source,false,"[""business software"",""crm & sales""]",AGPL-3.0
-Ceph,https://openalternative.co/ceph,Scalable open-source distributed storage system,databases,open-source,false,"[""infrastructure & operations"",""databases""]",
-Krita,https://openalternative.co/krita,Professional digital painting made accessible to everyone,design,open-source,false,"[""miscellaneous"",""design & prototyping""]",GPL-3.0
-Hercules,https://openalternative.co/hercules,Open-source vertical testing agent for effortless QA,developer-tools,open-source,true,"[""developer tools"",""frameworks & platforms""]",AGPL-3.0
-Digger,https://openalternative.co/digger,Terraform automation with pull request workflows,devops,open-source,true,"[""developer tools"",""build & deployment""]",MIT
-Scalar,https://openalternative.co/scalar,Open-source API documentation and testing platform,documentation,open-source,true,"[""content & publishing"",""documentation & knowledge base""]",MIT
-Reaction Commerce,https://github.com/reactioncommerce,Open-source alternative to Shopify,e-commerce,open-source,false,"[""alternative-to-shopify""]",
+KeystoneJS,https://openalternative.co/keystonejs,"Flexible, scalable Node.js CMS and app framework",cms,open-source,true,"[""content & publishing"",""content management systems (cms)""]",MIT
+Stoat,https://openalternative.co/stoat,Privacy-first chat app with customizable interface,collaboration,open-source,false,"[""business software"",""collaboration & communication""]",
+Peppermint,https://peppermint.sh,Ticket Management & Helpdesk system,communication,open-source,false,"[""alternative-to-zendesk""]",
+crowd.dev,https://crowd.dev/,Suite of community and data tools built to unlock community-led growth for your organization,community,open-source,false,"[""alternative-to-orbit"",""alternative-to-common-room"",""alternative-to-commsor""]",
+Odoo,https://openalternative.co/odoo,All-in-one business management suite for modern enterprises,crm,open-source,false,"[""business software"",""crm & sales""]",
+Neo4j,http://neo4j.com/,Graph database platform,databases,open-source,false,"[""alternative-to-tigergraph"",""alternative-to-amazon-neptune""]",
+21st.dev,https://21st.dev/,The NPM for Design Engineers,design,open-source,false,"[""alternative-to-landingfolio""]",
+Svix,https://www.svix.com/,Webhooks as a Service,developer-tools,open-source,false,"[""alternative-to-pusher""]",
+Dokku,https://openalternative.co/dokku,Self-hosted mini-PaaS for deploying applications easily,devops,open-source,true,"[""developer tools"",""build & deployment""]",MIT
+Fumadocs,https://openalternative.co/fumadocs,Build beautiful documentation sites with Next.js,documentation,open-source,false,"[""content & publishing"",""documentation & knowledge base""]",MIT
+Saleor,https://openalternative.co/saleor,Flexible e-commerce platform for modern businesses,e-commerce,open-source,false,"[""business software"",""e-commerce platforms""]",BSD-3-Clause
 OpenCloud,https://openalternative.co/opencloud,Secure cloud file sharing with complete data sovereignty,file-management,open-source,false,"[""productivity & utilities"",""file management & sync""]",Apache-2.0
-Gumroad,https://openalternative.co/gumroad,Your all-in-one marketplace for digital creators and products,finance,open-source,false,"[""business software"",""finance & accounting""]",MIT
-LimeSurvey,https://openalternative.co/limesurvey,Create engaging surveys and gather valuable insights,forms,open-source,false,"[""business software"",""forms & surveys""]",
+Invoice Ninja,https://openalternative.co/invoice-ninja,"Send invoices, accept payments, manage your business—all free",finance,free,false,"[""business software"",""finance & accounting""]",
+WriteFreely,https://github.com/writefreely/writefreely,"A clean, Markdown-based publishing platform made for writers. Write together and build a community.",forms,open-source,false,"[""alternative-to-medium""]",GNU Affero General Public License v3.0

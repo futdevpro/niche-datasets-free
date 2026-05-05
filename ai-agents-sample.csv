@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,openSource
-AI Researcher,https://github.com/mshumer/ai-researcher,"The AI Researcher is an AI agent leveraging Claude 3 and SERPAPI for in-depth topic research, refining subtopic analyses into a comprehensive report, customizable and requiring API keys for functionality",autonomous,open-source,true,"[""ai agents"",""open-source""]",true
-Promptly,https://www.trypromptly.com/,Promptly — AI agent,browser,open-source,false,"[""build-your-own no-code web ui"",""open-source""]",true
-bumpgen,https://github.com/xeol-io/bumpgen,bumpgen — AI agent,coding,open-source,false,"[""coding""]",false
-ix,https://github.com/kreneskyp/ix,Autonomous GPT-4 agent platform !GitHub Repo stars,conversation,open-source,false,"[""conversational / general agents""]",true
-Recraft,https://recraft.ai/,"Design-focused. Vector art, brand consistency.",creative,freemium,false,"[""image generation""]",
-Claude models by Anthropic,https://docs.anthropic.com/claude/docs/tool-use,"Function calling or tool use is supported with the following models: claude-3-opus-20240229, claude-3-sonnet-20240229, and claude-3-haiku-20240307",customer-support,freemium,false,"[""model providers with function calling support""]",false
-B2 AI,https://www.b2.work/,B2 AI — AI agent,data,open-source,false,"[""open-source""]",true
-Browserbase,https://browserbase.com/,Cloud browser infra for agents. Headless at scale.,devops,freemium,true,"[""developer infrastructure""]",
-iMean.AI,https://www.imean.ai/,iMean.AI — AI agent,framework,open-source,false,"[""open-source""]",true
-Cursor AI Automated Team,https://github.com/joinwell52-ai/joinwell52,"4-role AI team (PM+DEV+OPS+QA) in Cursor IDE. File-based task routing, auto patrol bot. 87 person-days in 17 days.",multi-agent,open-source,false,"[""multi-agent platforms""]",true
+Devid by Agency Swarm,https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/devid,"Devid Agent, a new AI software development tool, has been integrated into the Agency Swarm framework to enhance automated AI agency operations, alternative to Cognition AI's Devin",autonomous,open-source,false,"[""ai agents"",""open-source""]",true
+Actionbook,https://github.com/actionbook/actionbook,Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece.,browser,open-source,false,"[""automation"",""browser""]",true
+RepoAgent,https://github.com/openbmb/repoagent,An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly,coding,open-source,true,"[""software development""]",true
+ix,https://github.com/kreneskyp/ix,Autonomous GPT-4 agent platform,conversation,open-source,false,"[""conversational / general agents""]",true
+DALL-E 3.5,https://openai.com/dall-e,Best prompt comprehension. 95% text accuracy. ChatGPT.,creative,freemium,false,"[""image generation""]",
+Dynamics 365 Copilot,https://dynamics.microsoft.com/,"Drafting, summarizing, translating. Power Platform.",customer-support,paid,false,"[""ai-powered crms""]",
+Verve,https://x.com/annieliao_2000/status/1792175562712285645,Verve — AI agent,data,free,false,"[""build club""]",false
+Agent S2 (Simular),https://github.com/simular-ai/agent-s,OSS GUI automation framework.,devops,open-source,true,"[""developer infrastructure""]",true
+Ai-Agent-Playground,https://github.com/wei1024/ai-agent-playground,test repo to develop an AI agent framework for office workers,framework,open-source,true,"[""building"",""testing""]",true
+BrainSoup,https://www.nurgo-software.com/products/brainsoup,BrainSoup — AI agent,multi-agent,open-source,false,"[""open-source""]",true
 Weights and Biases Weave,https://wandb.ai/site/weave,Trace and evaluate LLM apps.,observability,freemium,false,"[""tracing and monitoring""]",
-Claude Computer Use,https://docs.anthropic.com/en/docs/agents-and-tools/computer-use,Anthropic desktop/browser control via screenshots.,productivity,freemium,false,"[""consumer products""]",
-MCP (Model Context Protocol),https://github.com/modelcontextprotocol,"Anthropic open standard. ""USB-C for AI."" Donated to Linux Foundation. Industry standard for agent tools.",protocol,open-source,false,"[""protocols and standards""]",true
-GAIA,https://huggingface.co/gaia-benchmark,General AI Assistant. Real-world tasks.,research,freemium,false,"[""benchmarks""]",
-Agriaid,https://github.com/shamspias/agriaid,"AgriAid is an AI-powered tool for farmers & agricultural agents in Bangladesh, offering plant disease forecasting & identification. Using…",security,open-source,false,"[""building"",""security""]",true
-GPTTeam,https://github.com/101dotxyz/gpteam,The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication. !GitHub Repo stars,simulation,open-source,false,"[""applications"",""agent society simulation""]",true
-Rime AI,https://rime.ai/,"Rime is a speech synthesis API offering natural-sounding, demographically tailored voices with fast response times for various uses, including customer service and narration",voice,freemium,true,"[""voice providers""]",false
-uAgents,https://github.com/fetchai/uagents,A fast and lightweight framework for creating decentralized agents with ease. !GitHub Repo stars,workflow,open-source,true,"[""automation""]",true
-Wordware,https://www.wordware.ai,A web-hosted IDE where non-technical domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new programming language rather than low/no-code blocks.,autonomous,freemium,false,"[""applications"",""autonomous agent task solver projects""]",
-Actionbook,https://github.com/actionbook/actionbook,Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece. !GitHub Repo stars,browser,open-source,false,"[""automation"",""browser""]",true
+从第一性原理看大模型Agent技术,https://mp.weixin.qq.com/s/pl-qjlvvugufmrd4g0p-qq,从第一性原理看大模型Agent技术,other,unknown,false,"[""related"",""blog""]",
+Heymoon.ai,https://heymoon.ai/,Heymoon.ai — AI agent,productivity,open-source,false,"[""productivity"",""open-source""]",true
+LangChainBitcoin,https://github.com/lightninglabs/langchainbitcoin,LangChainBitcoin — AI agent,protocol,open-source,false,"[""bitcoin"",""announcement github"",""open-source""]",true
+Storm,https://github.com/stanford-oval/storm,An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.,research,open-source,false,"[""research""]",true
+Multi-Agent-Secops-Llm,https://github.com/tegridydev/multi-agent-secops-llm,This project is a multi-agent security framework that utilizes multiple LLM models to analyze and generate comprehensive security briefs.,security,open-source,true,"[""building"",""security""]",true
+GPTTeam,https://github.com/101dotxyz/gpteam,The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.,simulation,open-source,false,"[""applications"",""agent society simulation""]",true
+Talkscriber,https://www.talkscriber.com,"Talkscriber is an enterprise-grade speech-to-text (STT) platform that offers industry-leading accuracy, security, and cost-effectiveness, enabling organizations to transform spoken language into digital text and unlock new possibilities in data analysis while hosting Whisper (OpenAI) model",voice,freemium,false,"[""transcriber providers""]",false
+Make,https://make.com/,Visual workflow platform. AI capabilities.,workflow,freemium,false,"[""automation""]",
+BrowsingAgent by Agency Swarm,https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/browsingagent,"BrowsingAgent, an AI web navigation tool, has been integrated into the Agency Swarm framework to enable human-like browsing capabilities for automated AI operations",autonomous,open-source,false,"[""ai agents"",""open-source""]",true

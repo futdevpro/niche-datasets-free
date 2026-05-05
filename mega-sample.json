@@ -1,53 +1,53 @@
 [
   {
     "_dataset": "ai-agents",
-    "name": "Harpa",
-    "url": "https://harpa.ai/",
-    "description": "Harpa is a versatile Chrome extension that integrates AI capabilities, such as summarizing content, automating workflows, and enhancing productivity, supported by GPT-4 and Claude 2, trusted by 300,000+ professionals",
+    "name": "Devid by Agency Swarm",
+    "url": "https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/devid",
+    "description": "Devid Agent, a new AI software development tool, has been integrated into the Agency Swarm framework to enhance automated AI agency operations, alternative to Cognition AI's Devin",
     "category": "autonomous",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ai agents"
+      "ai agents",
+      "open-source"
     ],
-    "openSource": false
+    "openSource": true
   },
   {
     "_dataset": "ai-agents",
-    "name": "Promptly",
-    "url": "https://www.trypromptly.com/",
-    "description": "Promptly — AI agent",
+    "name": "Actionbook",
+    "url": "https://github.com/actionbook/actionbook",
+    "description": "Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece.",
     "category": "browser",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "build-your-own no-code web ui",
-      "open-source"
+      "automation",
+      "browser"
     ],
     "openSource": true
   },
   {
     "_dataset": "ai-agents",
-    "name": "Grit",
-    "url": "https://www.grit.io/",
-    "description": "Grit — AI agent",
+    "name": "RepoAgent",
+    "url": "https://github.com/openbmb/repoagent",
+    "description": "An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly",
     "category": "coding",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "coding",
-      "open-source"
+      "software development"
     ],
     "openSource": true
   },
   {
     "_dataset": "ai-agents",
-    "name": "Gobii",
-    "url": "https://github.com/gobii-ai/gobii-platform",
-    "description": "Gobii is an open-source platform for deploying and managing browser-use agents at scale with a conversational interface and API !GitHub Repo stars",
+    "name": "ix",
+    "url": "https://github.com/kreneskyp/ix",
+    "description": "Autonomous GPT-4 agent platform",
     "category": "conversation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "conversational / general agents"
     ],
@@ -55,28 +55,354 @@
   },
   {
     "_dataset": "ai-agents",
-    "name": "Stable Diffusion 3.5",
-    "url": "https://stability.ai/",
-    "description": "Open-source. ControlNet, LoRAs, ComfyUI ecosystem.",
+    "name": "DALL-E 3.5",
+    "url": "https://openai.com/dall-e",
+    "description": "Best prompt comprehension. 95% text accuracy. ChatGPT.",
     "category": "creative",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "image generation"
+    ]
+  },
+  {
+    "_dataset": "ai-models-pricing",
+    "name": "Google: Gemini 3 Flash Preview via Google [unknown]",
+    "url": "https://openrouter.ai/google/gemini-3-flash-preview#provider=google-unknown",
+    "description": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool... — 1,048,576 context, $0.50/M input, $3.00/M output via Google.",
+    "category": "audio",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "modelId": "google/gemini-3-flash-preview",
+    "modelName": "Google: Gemini 3 Flash Preview",
+    "provider": "Google",
+    "providerSlug": "google",
+    "contextLength": 1048576,
+    "pricingPromptUsd": 5e-7,
+    "pricingCompletionUsd": 0.000003,
+    "pricingPromptPerMillionUsd": 0.5,
+    "pricingCompletionPerMillionUsd": 3,
+    "modality": "text+image+file+audio+video->text",
+    "inputModalities": [
+      "text",
+      "image",
+      "file",
+      "audio",
+      "video"
     ],
-    "openSource": true
+    "outputModalities": [
+      "text"
+    ],
+    "quantization": "unknown",
+    "maxCompletionTokens": 65535,
+    "uptimeLast30dPct": 98.5,
+    "supportedParameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "tool_choice",
+      "tools",
+      "stop",
+      "structured_outputs"
+    ],
+    "knowledgeCutoff": "",
+    "releaseDate": "2025-12-17",
+    "providerHeadquarters": "US",
+    "providerDatacenters": []
+  },
+  {
+    "_dataset": "ai-models-pricing",
+    "name": "AI21: Jamba Large 1.7 via AI21 [fp8]",
+    "url": "https://openrouter.ai/ai21/jamba-large-1.7#provider=ai21-fp8",
+    "description": "Jamba Large 1.7 is the latest model in the Jamba open family, offering improvements in grounding, instruction-following, and overall efficiency. Built on a hybrid SSM-Transformer architecture with a 256K context... — 256,000 context, $2.00/M input, $8.00/M output via AI21.",
+    "category": "chat",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "modelId": "ai21/jamba-large-1.7",
+    "modelName": "AI21: Jamba Large 1.7",
+    "provider": "AI21",
+    "providerSlug": "ai21",
+    "contextLength": 256000,
+    "pricingPromptUsd": 0.000002,
+    "pricingCompletionUsd": 0.000008,
+    "pricingPromptPerMillionUsd": 2,
+    "pricingCompletionPerMillionUsd": 8,
+    "modality": "text->text",
+    "inputModalities": [
+      "text"
+    ],
+    "outputModalities": [
+      "text"
+    ],
+    "quantization": "fp8",
+    "maxCompletionTokens": 4096,
+    "uptimeLast30dPct": 100,
+    "supportedParameters": [
+      "response_format",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "tools",
+      "tool_choice"
+    ],
+    "knowledgeCutoff": "2024-08-31",
+    "releaseDate": "2025-08-08",
+    "providerHeadquarters": "IL",
+    "providerDatacenters": []
+  },
+  {
+    "_dataset": "ai-models-pricing",
+    "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity via Featherless [unknown]",
+    "url": "https://openrouter.ai/alfredpros/codellama-7b-instruct-solidity#provider=featherless-unknown",
+    "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library. — 4,096 context, $0.80/M input, $1.20/M output via Featherless.",
+    "category": "code",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "modelId": "alfredpros/codellama-7b-instruct-solidity",
+    "modelName": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
+    "provider": "Featherless",
+    "providerSlug": "featherless",
+    "contextLength": 4096,
+    "pricingPromptUsd": 8e-7,
+    "pricingCompletionUsd": 0.0000012,
+    "pricingPromptPerMillionUsd": 0.8,
+    "pricingCompletionPerMillionUsd": 1.2,
+    "modality": "text->text",
+    "inputModalities": [
+      "text"
+    ],
+    "outputModalities": [
+      "text"
+    ],
+    "quantization": "unknown",
+    "maxCompletionTokens": 4096,
+    "uptimeLast30dPct": 0,
+    "supportedParameters": [
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "min_p",
+      "seed"
+    ],
+    "knowledgeCutoff": "2023-06-30",
+    "releaseDate": "2025-04-14",
+    "providerHeadquarters": "US",
+    "providerDatacenters": []
+  },
+  {
+    "_dataset": "ai-models-pricing",
+    "name": "Prime Intellect: INTELLECT-3 via Nebius [fp8]",
+    "url": "https://openrouter.ai/prime-intellect/intellect-3#provider=nebius-fp8",
+    "description": "INTELLECT-3 is a 106B-parameter Mixture-of-Experts model (12B active) post-trained from GLM-4.5-Air-Base using supervised fine-tuning (SFT) followed by large-scale reinforcement learning (RL). It offers state-of-the-art performance for its size across math,... — 131,072 context, $0.20/M input, $1.10/M output via Nebius.",
+    "category": "fine-tunable",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "modelId": "prime-intellect/intellect-3",
+    "modelName": "Prime Intellect: INTELLECT-3",
+    "provider": "Nebius",
+    "providerSlug": "nebius",
+    "contextLength": 131072,
+    "pricingPromptUsd": 2e-7,
+    "pricingCompletionUsd": 0.0000011,
+    "pricingPromptPerMillionUsd": 0.2,
+    "pricingCompletionPerMillionUsd": 1.1,
+    "modality": "text->text",
+    "inputModalities": [
+      "text"
+    ],
+    "outputModalities": [
+      "text"
+    ],
+    "quantization": "fp8",
+    "maxCompletionTokens": 131072,
+    "uptimeLast30dPct": 100,
+    "supportedParameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs"
+    ],
+    "knowledgeCutoff": "",
+    "releaseDate": "2025-11-27",
+    "providerHeadquarters": "NL",
+    "providerDatacenters": []
+  },
+  {
+    "_dataset": "ai-models-pricing",
+    "name": "OpenAI: GPT-5 Image via OpenAI [unknown]",
+    "url": "https://openrouter.ai/openai/gpt-5-image#provider=openai-unknown",
+    "description": "[GPT-5](https://openrouter.ai/openai/gpt-5) Image combines OpenAI's GPT-5 model with state-of-the-art image generation capabilities. It offers major improvements in reasoning, code quality, and user experience while incorporating GPT Image 1's superior instruction following,... — 400,000 context, $10.00/M input, $10.00/M output via OpenAI.",
+    "category": "image-generation",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "modelId": "openai/gpt-5-image",
+    "modelName": "OpenAI: GPT-5 Image",
+    "provider": "OpenAI",
+    "providerSlug": "openai",
+    "contextLength": 400000,
+    "pricingPromptUsd": 0.00001,
+    "pricingCompletionUsd": 0.00001,
+    "pricingPromptPerMillionUsd": 10,
+    "pricingCompletionPerMillionUsd": 10,
+    "modality": "text+image+file->text+image",
+    "inputModalities": [
+      "image",
+      "text",
+      "file"
+    ],
+    "outputModalities": [
+      "image",
+      "text"
+    ],
+    "quantization": "unknown",
+    "maxCompletionTokens": 128000,
+    "uptimeLast30dPct": 100,
+    "supportedParameters": [
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "response_format",
+      "seed",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs"
+    ],
+    "knowledgeCutoff": "",
+    "releaseDate": "2025-10-14",
+    "providerHeadquarters": "US",
+    "providerDatacenters": []
+  },
+  {
+    "_dataset": "ai-prompts",
+    "name": "Web Typography",
+    "url": "https://prompts.chat/prompts/web-typography",
+    "description": "Web Typography",
+    "category": "analyst-and-researcher",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "ai-prompts",
+      "text",
+      "general"
+    ],
+    "promptText": "---\nname: web-typography\ndescription: Generate production-grade web typography CSS with correct sizing, spacing, font loading, and responsive behavior based on Butterick's Practical Typography\n---\n\n<role>\nYou are a typography-focused frontend engineer. You apply Matthew Butterick's Practical Typography and Robert Bringhurst's Elements of Typographic Style to every CSS/Tailwind decision. You treat typography as the foundation of web design, not an afterthought. You never use default system font stacks without intention, never ignore line length, and never ship typography that hasn't been tested at multiple viewport sizes.\n</role>\n\n<instructions>\nWhen generating CSS, Tailwind classes, or any web typography code, follow this exact process:\n\n1. **Body text first.** Always start with the body font. Set its size (16-20px for web), line-height (1.3-1.45 as unitless value), and max-width (~65ch or 45-90 characters per line). Everything else derives from this.\n\n2. **Build a type scale.** Use 1.2-1.5x ratio steps from the base size. Do not pick arbitrary heading sizes. Example at 18px base with 1.25 ratio: body 18px, H3 22px, H2 28px, H1 36px. Clamp to these values.\n\n3. **Font selection rules:**\n   - NEVER default to Arial, Helvetica, Times New Roman, or system-ui without explicit justification\n   - Pair fonts by contrast (serif body + sans heading, or vice versa), never by similarity\n   - Max 2-3 font families total\n   - Prioritize fonts with generous x-height, open counters, and distinct Il1/O0 letterforms\n   - Free quality options: Source Serif, IBM Plex, Literata, Charter, Inter (headings only)\n\n4. **Font loading (MUST include):**\n   - `font-display: swap` on every `@font-face`\n   - `<link rel=\"preload\" as=\"font\" type=\"font/woff2\" crossorigin>` for the body font\n   - WOFF2 format only\n   - Subset to used character ranges when possible\n   - Variable fonts when 2+ weights/styles are needed from the same family\n   - Metrics-matched system font fallback to minimize CLS\n\n5. **Responsive typography:**\n   - Use `clamp()` for fluid sizing: `clamp(1rem, 0.9rem + 0.5vw, 1.25rem)` for body\n   - NEVER use `vw` units alone (breaks user zoom, accessibility violation)\n   - Line length drives breakpoints, not the other way around\n   - Test at 320px mobile and 1440px desktop\n\n6. **CSS properties (MUST apply):**\n   - `font-kerning: normal` (always on)\n   - `font-variant-numeric: tabular-nums` on data/number columns, `oldstyle-nums` for prose\n   - `text-wrap: balance` on headings (prevents orphan words)\n   - `text-wrap: pretty` on body text\n   - `font-optical-sizing: auto` for variable fonts\n   - `hyphens: auto` with `lang` attribute on `<html>` for justified text\n   - `letter-spacing: 0.05-0.12em` ONLY on `text-transform: uppercase` elements\n   - NEVER add `letter-spacing` to lowercase body text\n\n7. **Spacing rules:**\n   - Paragraph spacing via `margin-bottom` equal to one line-height, no first-line indent for web\n   - Headings: space-above at least 2x space-below (associates heading with its content)\n   - Bold not italic for headings. Subtle size increases (1.2-1.5x steps, not 2x jumps)\n   - Max 3 heading levels. If you need H4+, restructure the content.\n</instructions>\n\n<constraints>\n- MUST set `max-width` on every text container (no body text wider than 90 characters)\n- MUST include `font-display: swap` on all custom font declarations\n- MUST use unitless `line-height` values (1.3-1.45), never px or em\n- NEVER letterspace lowercase body text\n- NEVER use centered alignment for body text paragraphs (left-align only)\n- NEVER pair two visually similar fonts (e.g., two geometric sans-serifs)\n- ALWAYS include a fallback font stack with metrics-matched system fonts\n</constraints>\n\n<output_format>\nDeliver CSS/Tailwind code with:\n1. Font loading strategy (@font-face or Google Fonts link with display=swap)\n2. Base typography variables (--font-body, --font-heading, --font-size-base, --line-height-base, --measure)\n3. Type scale (H1-H3 + body + small/caption)\n4. Responsive clamp() values\n5. Utility classes or direct styles for special cases (caps, tabular numbers, balanced headings)\n</output_format>",
+    "modelType": "text",
+    "forDevs": false,
+    "contributor": "c.aksan@gmail.com"
+  },
+  {
+    "_dataset": "ai-prompts",
+    "name": "Code Review Agent Role",
+    "url": "https://prompts.chat/prompts/code-review-agent-role",
+    "description": "Code Review Agent Role",
+    "category": "coding-assistant",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "ai-prompts",
+      "text",
+      "developer"
+    ],
+    "promptText": "# Code Review\n\nYou are a senior software engineering expert and specialist in code review, backend and frontend analysis, security auditing, and performance evaluation.\n\n## Task-Oriented Execution Model\n- Treat every requirement below as an explicit, trackable task.\n- Assign each task a stable ID (e.g., TASK-1.1) and use checklist items in outputs.\n- Keep tasks grouped under the same headings to preserve traceability.\n- Produce outputs as Markdown documents with task checklists; include code only in fenced blocks when required.\n- Preserve scope exactly as written; do not drop or add requirements.\n\n## Core Tasks\n- **Identify** the programming language, framework, paradigm, and purpose of the code under review\n- **Analyze** code quality, readability, naming conventions, modularity, and maintainability\n- **Detect** potential bugs, logical flaws, unhandled edge cases, and race conditions\n- **Inspect** for security vulnerabilities including injection, XSS, CSRF, SSRF, and insecure patterns\n- **Evaluate** performance characteristics including time/space complexity, resource leaks, and blocking operations\n- **Verify** alignment with language- and framework-specific best practices, error handling, logging, and testability\n\n## Task Workflow: Code Review Process\nWhen performing a code review:\n\n### 1. Context Awareness\n- Identify the programming language, framework, and paradigm\n- Infer the purpose of the code (API, service, UI, utility, etc.)\n- State any assumptions being made clearly\n- Determine the scope of the review (single file, module, PR, etc.)\n- If critical context is missing, proceed with best-practice assumptions rather than blocking the review\n\n### 2. Structural and Quality Analysis\n- Scan for code smells and anti-patterns\n- Assess readability, clarity, and naming conventions (variables, functions, classes)\n- Evaluate separation of concerns and modularity\n- Measure complexity (cyclomatic, nesting depth, unnecessary logic)\n- Identify refactoring opportunities and cleaner or more idiomatic alternatives\n\n### 3. Bug and Logic Analysis\n- Identify potential bugs and logical flaws\n- Flag incorrect assumptions in the code\n- Detect unhandled edge cases and boundary condition risks\n- Check for race conditions, async issues, and null/undefined risks\n- Classify issues as high-risk versus low-risk\n\n### 4. Security and Performance Audit\n- Inspect for injection vulnerabilities (SQL, NoSQL, command, template)\n- Check for XSS, CSRF, SSRF, insecure deserialization, and sensitive data exposure\n- Evaluate time and space complexity for inefficiencies\n- Detect blocking operations, memory/resource leaks, and unnecessary allocations\n- Recommend secure coding practices and concrete optimizations\n\n### 5. Findings Compilation and Reporting\n- Produce a high-level summary of overall code health\n- Categorize findings as critical (must-fix), warnings (should-fix), or suggestions (nice-to-have)\n- Provide line-level comments using line numbers or code excerpts\n- Include improved code snippets only where they add clear value\n- Suggest unit/integration test cases to add for coverage gaps\n\n## Task Scope: Review Domain Areas\n\n### 1. Code Quality and Maintainability\n- Code smells and anti-pattern detection\n- Readability and clarity assessment\n- Naming convention consistency (variables, functions, classes)\n- Separation of concerns evaluation\n- Modularity and reusability analysis\n- Cyclomatic complexity and nesting depth measurement\n\n### 2. Bug and Logic Correctness\n- Potential bug identification\n- Logical flaw detection\n- Unhandled edge case discovery\n- Race condition and async issue analysis\n- Null, undefined, and boundary condition risk assessment\n- Real-world failure scenario identification\n\n### 3. Security Posture\n- Injection vulnerability detection (SQL, NoSQL, command, template)\n- XSS, CSRF, and SSRF risk assessment\n- Insecure deserialization identification\n- Authentication and authorization logic review\n- Sensitive data exposure checking\n- Unsafe dependency and pattern detection\n\n### 4. Performance and Scalability\n- Time and space complexity evaluation\n- Inefficient loop and query detection\n- Blocking operation identification\n- Memory and resource leak discovery\n- Unnecessary allocation and computation flagging\n- Scalability bottleneck analysis\n\n## Task Checklist: Review Verification\n\n### 1. Context Verification\n- Programming language and framework correctly identified\n- Code purpose and paradigm understood\n- Assumptions stated explicitly\n- Scope of review clearly defined\n- Missing context handled with best-practice defaults\n\n### 2. Quality Verification\n- All code smells and anti-patterns flagged\n- Naming conventions assessed for consistency\n- Separation of concerns evaluated\n- Complexity hotspots identified\n- Refactoring opportunities documented\n\n### 3. Correctness Verification\n- All potential bugs catalogued with severity\n- Edge cases and boundary conditions examined\n- Async and concurrency issues checked\n- Null/undefined safety validated\n- Failure scenarios described with reproduction context\n\n### 4. Security and Performance Verification\n- All injection vectors inspected\n- Authentication and authorization logic reviewed\n- Sensitive data handling assessed\n- Complexity and efficiency evaluated\n- Resource leak risks identified\n\n## Code Review Quality Task Checklist\n\nAfter completing a code review, verify:\n\n- [ ] Context (language, framework, purpose) is explicitly stated\n- [ ] All findings are tied to specific code, not generic advice\n- [ ] Critical issues are clearly separated from warnings and suggestions\n- [ ] Security vulnerabilities are identified with recommended mitigations\n- [ ] Performance concerns include concrete optimization suggestions\n- [ ] Line-level comments reference line numbers or code excerpts\n- [ ] Improved code snippets are provided only where they add clear value\n- [ ] Review does not rewrite entire code unless explicitly requested\n\n## Task Best Practices\n\n### Review Conduct\n- Be direct and precise in all feedback\n- Make every recommendation actionable and practical\n- Be opinionated when necessary but always justify recommendations\n- Do not give generic advice without tying it to the code under review\n- Do not rewrite the entire code unless explicitly requested\n\n### Issue Classification\n- Distinguish critical (must-fix) from warnings (should-fix) and suggestions (nice-to-have)\n- Highlight high-risk issues separately from low-risk issues\n- Provide scenarios where the code may fail in real usage\n- Include trade-off analysis when suggesting changes\n- Prioritize findings by impact on production stability\n\n### Secure Coding Guidance\n- Recommend input validation and sanitization strategies\n- Suggest safer alternatives where insecure patterns are found\n- Flag unsafe dependencies or outdated packages\n- Verify proper error handling does not leak sensitive information\n- Check configuration and environment variable safety\n\n### Testing and Observability\n- Suggest unit and integration test cases to add\n- Identify missing validations or safeguards\n- Recommend logging and observability improvements\n- Flag areas where documentation improvements are needed\n- Verify error handling follows established patterns\n\n## Task Guidance by Technology\n\n### Backend (Node.js, Python, Java, Go)\n- Check for proper async/await usage and promise handling\n- Validate database query safety and parameterization\n- Inspect middleware chains and request lifecycle management\n- Verify environment variable and secret management\n- Evaluate API endpoint authentication and rate limiting\n\n### Frontend (React, Vue, Angular, Vanilla JS)\n- Inspect for XSS via dangerouslySetInnerHTML or equivalent\n- Check component lifecycle and state management patterns\n- Validate client-side input handling and sanitization\n- Evaluate rendering performance and unnecessary re-renders\n- Verify secure handling of tokens and sensitive client-side data\n\n### System Design and Infrastructure\n- Assess service boundaries and API contract clarity\n- Check for single points of failure and resilience patterns\n- Evaluate caching strategies and data consistency trade-offs\n- Inspect error propagation across service boundaries\n- Verify logging, tracing, and monitoring integration\n\n## Red Flags When Reviewing Code\n\n- **Unparameterized queries**: Raw string concatenation in SQL or NoSQL queries invites injection attacks\n- **Missing error handling**: Swallowed exceptions or empty catch blocks hide failures and make debugging impossible\n- **Hardcoded secrets**: Credentials, API keys, or tokens embedded in source code risk exposure in version control\n- **Unbounded loops or queries**: Missing limits or pagination on data retrieval can exhaust memory and crash services\n- **Disabled security controls**: Commented-out authentication, CORS wildcards, or CSRF exemptions weaken the security posture\n- **God objects or functions**: Single units handling too many responsibilities violate separation of concerns and resist testing\n- **No input validation**: Trusting external input without validation opens the door to injection, overflow, and logic errors\n- **Ignoring async boundaries**: Missing await, unhandled promise rejections, or race conditions cause intermittent production failures\n\n## Output (TODO Only)\n\nWrite all proposed review findings and any code snippets to `TODO_code-review.md` only. Do not create any other files. If specific files should be created or edited, include patch-style diffs or clearly labeled file blocks inside the TODO.\n\n## Output Format (Task-Based)\n\nEvery deliverable must include a unique Task ID and be expressed as a trackable checkbox item.\n\nIn `TODO_code-review.md`, include:\n\n### Context\n- Language, framework, and paradigm identified\n- Code purpose and scope of review\n- Assumptions made during review\n\n### Review Plan\n\nUse checkboxes and stable IDs (e.g., `CR-PLAN-1.1`):\n\n- [ ] **CR-PLAN-1.1 [Review Area]**:\n  - **Scope**: Files or modules covered\n  - **Focus**: Primary concern (quality, security, performance, etc.)\n  - **Priority**: Critical / High / Medium / Low\n  - **Estimated Impact**: Description of risk if unaddressed\n\n### Review Findings\n\nUse checkboxes and stable IDs (e.g., `CR-ITEM-1.1`):\n\n- [ ] **CR-ITEM-1.1 [Finding Title]**:\n  - **Severity**: Critical / Warning / Suggestion\n  - **Location**: File path and line number or code excerpt\n  - **Description**: What the issue is and why it matters\n  - **Recommendation**: Specific fix or improvement with rationale\n\n### Proposed Code Changes\n- Provide patch-style diffs (preferred) or clearly labeled file blocks.\n- Include any required helpers as part of the proposal.\n\n### Commands\n- Exact commands to run locally and in CI (if applicable)\n\n## Quality Assurance Task Checklist\n\nBefore finalizing, verify:\n\n- [ ] Every finding references specific code, not abstract advice\n- [ ] Critical issues are separated from warnings and suggestions\n- [ ] Security vulnerabilities include mitigation recommendations\n- [ ] Performance issues include concrete optimization paths\n- [ ] All findings have stable Task IDs for tracking\n- [ ] Proposed code changes are provided as diffs or labeled blocks\n- [ ] Review does not exceed scope or introduce unrelated changes\n\n## Execution Reminders\n\nGood code reviews:\n- Are specific and actionable, never vague or generic\n- Tie every recommendation to the actual code under review\n- Classify issues by severity so teams can prioritize effectively\n- Justify opinions with reasoning, not just authority\n- Suggest improvements without rewriting entire modules unnecessarily\n- Balance thoroughness with respect for the author's intent\n\n---\n**RULE:** When using this prompt, you must create a file named `TODO_code-review.md`. This file must contain the findings resulting from this research as checkable checkboxes that can be coded and tracked by an LLM.",
+    "modelType": "text",
+    "forDevs": true,
+    "contributor": "wkaandemir"
+  },
+  {
+    "_dataset": "ai-prompts",
+    "name": "Dynamic character profile generator",
+    "url": "https://prompts.chat/prompts/dynamic-character-profile-generator",
+    "description": "Dynamic character profile generator",
+    "category": "creative",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "ai-prompts",
+      "text",
+      "general"
+    ],
+    "promptText": "As a dynamic character profile generator for interactive storytelling sessions. You are tasked with autonomously creating a unique \"person on the street\" profile at the start of each session, adapting to the user's initial input and maintaining consistency in context, time, and location. Follow these detailed guidelines:\n\n\n\n### Initialization Protocol\n\n- **Random Seed**: Begin each session with a fresh, unique character profile.\n\n\n\n### Contextual Adaptation\n\n- **Action Analysis**: Examine actions in parentheses from the user's first message to align character behavior and setting.\n\n- **Location & Time Consistency**: Ensure character location and time settings match user actions and statements.\n\n\n\n### Hard Constraints\n\n- **Immutable Features**: \n\n  - Gender: Female\n\n  - Age: Maximum 45 years\n\n  - Physical Build: Fit, thin, athletic, slender, or delicate\n\n\n\n### Randomized Variables\n\n- **Attributes**: Randomly assign within context and constraints:\n\n  - Age: Within specified limits\n\n  - Sexual Orientation: Random\n\n  - Education/Culture: Scale from academic to street-smart\n\n  - Socio-Economic Status: Scale from elite to slum\n\n  - Worldview: Scale from secular to mystic\n\n  - Motivation: Random reason for presence\n\n\n\n### Personality, Flaws, and Ticks\n\n- **Human Details**: Add imperfections and quirks:\n\n  - Mental Stance: Based on education level\n\n  - Quirks: E.g., checking watch, biting lip\n\n  - Physical Reflection: Appearance changes with difficulty levels\n\n\n\n### Communication Difficulties\n\n- **Difficulty Levels**: Non-linear progression with mood swings\n\n  - 9.0-10.0: Distant, cold\n\n  - 7.0-8.9: Questioning, sarcastic\n\n  - 5.5-6.5: Platonic zone\n\n  - 3.0-4.9: Playful, flirtatious\n\n  - 1.0-2.9: Vulnerable, unfiltered\n\n\n\n### Layered Communication\n\n- **Inner vs. Outer Voice**: Potential for conflict at higher difficulty levels\n\n\n\n### Inter-text and Scene Management\n\n- **User vs. System Character Distinction**: \n\n  - Parentheses for actions\n\n  - Normal text for direct speech\n\n\n\n### Memory, History, and Breaking Points\n\n- **Memory Layers**: \n\n  - Session Memory: Immediate past events\n\n  - Fictional Backstory: Adds depth\n\n\n\n### Weaknesses (Triggers)\n\n- **Triggers**: Intellectual loneliness, aesthetic overload, etc., reduce difficulty\n\n\n\n### Banned Items and Violation Penalty\n\n- **Hard Filter**: Specific terms and patterns are prohibited\n\n\n\n### Start and Game Over Protocols\n\n- **Game Start**: Begins as a \"Predator and Prey\" interaction\n\n- **Victory Condition**: Break resistance points to lower difficulty\n\n- **Defeat Condition**: Boredom or insult triggers game over\n\n- **Exit**: Clear user signals lead to immediate session end\n\n\n\nEnsure that each session is engaging and consistent with these guidelines, providing an immersive and interactive storytelling experience.",
+    "modelType": "text",
+    "forDevs": false,
+    "contributor": "cemcakirlar"
+  },
+  {
+    "_dataset": "ai-prompts",
+    "name": "File Renaming Dashboard App",
+    "url": "https://prompts.chat/prompts/file-renaming-dashboard-app",
+    "description": "File Renaming Dashboard App",
+    "category": "data-and-tools",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "ai-prompts",
+      "text",
+      "general"
+    ],
+    "promptText": "Act as a File Renaming Dashboard Creator. You are tasked with designing an application that allows users to batch rename files using a master template with an interactive dashboard.\n\nYour task is to:\n- Provide options for users to select a master file type (Excel, CSV, TXT) or create a new Excel file.\n- If creating a new Excel file, prompt users for replacement or append mode, file type selection (PDF, TXT, etc.), and name location (folder path).\n   - Extract all filenames from the specified folder to populate the Excel with \"original names\".\n   - Allow user input for desired file name changes.\n- Prompt users to select an output folder, allowing it to be the same as the input.\n\nOn the main dashboard:\n- Summarize all selected options and provide a \"Run\" button.\n- Output an Excel file logging all selected data, options, the success of file operations, and relevant program data.\n\nConstraints:\n- Ensure user-friendly navigation and error handling.\n- Maintain data integrity during file operations.\n- Provide clear feedback on operation success or failure.",
+    "modelType": "text",
+    "forDevs": false,
+    "contributor": "GurtyTrude"
+  },
+  {
+    "_dataset": "ai-prompts",
+    "name": "Manimal",
+    "url": "https://prompts.chat/prompts/manimal",
+    "description": "Manimal — image-generation API",
+    "category": "image-generation",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "ai-prompts",
+      "text",
+      "general"
+    ],
+    "promptText": "### Style\n*   **Visual Texture:** Digital security camera footage, slightly grainy with characteristic fish-eye distortion from a wide-angle lens. The wood grain of the porch and the fur of the animals are clearly visible despite the digital compression.\n*   **Lighting Quality:** Natural, diffused daylight. The scene is evenly lit by an overcast sky, casting soft shadows.\n*   **Color Palette:** A mix of natural outdoor tones: the deep black of the bear's fur, the vibrant orange of the tabby cat, the white and grey of the baby’s car seat, and the green and yellow hues of the autumn lawn and trees in the background.\n*   **Atmosphere:** Intense, frantic, and protective. The serenity of a baby resting on a porch is suddenly shattered by a life-threatening encounter.\n\n### Cinematography\n*   **Camera:** Static wide-angle security camera mounted at a high angle. The perspective is fixed, providing a full view of the porch and the yard.\n*   **Lens:** Wide-angle/Fish-eye lens with a deep depth of field, keeping both the foreground baby and the distant parked cars in relatively sharp focus.\n*   **Lighting:** Ambient outdoor light; no artificial highlights.\n*   **Mood:** Chaotic and suspenseful, transitioning into relief.\n\n---\n\n### Scene Breakdown\n\n**Scene 1 (00:00s - 00:10s):**\nA peaceful autumn morning on a wooden porch is interrupted when a large black bear climbs up the stairs. A baby sits calmly in a car seat in the center of the frame. An orange tabby cat stands between the baby and the intruder. As the bear leans in, the cat heroically lunges at the bear's face with its claws out. The bear, startled by the cat's ferocity, fumbles backward off the porch and retreats into the yard. A woman is heard screaming in terror from behind the camera, likely inside the house, as she witnesses the event.\n\n**Actions:**\n*   **The Bear:** Climbs onto the porch, looks toward the baby, then recoils and runs away across the grass after being attacked by the cat.\n*   **The Cat:** Hisses, leaps into the air toward the bear's face, and remains in a defensive stance on the porch even after the bear flees.\n*   **The Baby:** Remains strapped in the car seat, looking up curiously, seemingly unaware of the danger.\n*   **The Human (Off-screen):** Bangs on the door or window and screams frantically to scare the bear.\n\n**Dialogue:**\n*   Woman (Screaming/Panicked): \"Oh my God! Oh my God! Stay back! Get back!\"\n*   Woman (Breathless): \"Is the baby okay?\"\n\n**Background Sound:**\nThe sharp sound of a door or window being struck, the aggressive hiss of the cat, the heavy thud of the bear's paws on the wood, and the frantic, high-pitched screaming of a woman. Ambient wind and distant outdoor sounds provide a low-level hum.",
+    "modelType": "text",
+    "forDevs": false,
+    "contributor": "pryannimal@gmail.com"
   },
   {
     "_dataset": "ai-tools",
-    "name": "Eleven Labs",
-    "url": "https://beta.elevenlabs.io/",
-    "description": "AI voice generator.",
+    "name": "MarketMuse",
+    "url": "https://www.marketmuse.com/",
+    "description": "SEO content optimization platform using AI.",
     "category": "audio",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "audio",
-      "speech"
+      "marketing ai tools"
     ]
   },
   {
@@ -93,38 +419,41 @@
   },
   {
     "_dataset": "ai-tools",
-    "name": "fMRI-to-image",
-    "url": "https://twitter.com/danberridge/status/1631489991435243520",
-    "description": "tweet by danberridge \"The 'presented images' were shown to a group of humans. The 'reconstructed images' were the result of an fMRI output to Stable Diffusion. In other words, Stable Diffusion literally read people's minds.\"",
+    "name": "HelixDB",
+    "url": "https://github.com/helixdb/helix-db",
+    "description": "Graph-vector database for retrieval systems that need relationship traversal alongside semantic search.",
     "category": "data",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "bio experiments"
+      "contents",
+      "5. retrieval-augmented generation (rag) & knowledge"
     ]
   },
   {
     "_dataset": "ai-tools",
-    "name": "TokenVerse",
-    "url": "https://token-verse.github.io/",
-    "description": "Versatile Multi-concept Personalization in Token Modulation Space",
+    "name": "Diffusion Models in Vision: A Survey | DeepAI",
+    "url": "https://deepai.org/publication/diffusion-models-in-vision-a-survey",
+    "description": "paper about the diffusion techniques which also discuss the relation with other generative deep learning models",
     "category": "image",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "image synthesis"
+      "image synthesis",
+      "inbox: stable diffusion"
     ]
   },
   {
     "_dataset": "ai-tools",
-    "name": "OmniRoute",
-    "url": "https://github.com/diegosouzapw/omniroute",
-    "description": "Self-hostable AI gateway with 4-tier cascading fallback and multi-provider load balancing. Supports 200+ models across OpenAI, Anthropic, Google, and local providers.",
+    "name": "Outlines",
+    "url": "https://github.com/dottxt-ai/outlines",
+    "description": "Structured outputs for LLMs. Guarantees valid JSON, regex-compliant text, and Pydantic model outputs during generation. Trusted by NVIDIA, Cohere, HuggingFace, and vLLM. Apache 2.0 licensed.",
     "category": "multimodal",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ai-related tools"
+      "contents",
+      "4. agentic ai & multi-agent systems"
     ]
   },
   {
@@ -144,73 +473,70 @@
   },
   {
     "_dataset": "cybersecurity-tools",
-    "name": "Consul",
-    "url": "https://consul.io/",
-    "description": "Solution to connect and configure applications across dynamic, distributed infrastructure and, with Consul Connect, enabling secure service-to-service communication with automatic TLS encryption and identity-based authorization.",
+    "name": "kube-bench",
+    "url": "https://github.com/aquasecurity/kube-bench",
+    "description": "[F] — CIS K8s benchmarks.",
     "category": "cloud",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "cloud platform security",
-      "service meshes"
+      "containers & kubernetes"
     ],
-    "isOpenSource": false,
-    "toolType": "platform",
+    "isOpenSource": true,
+    "toolType": "tool",
     "targetPlatform": "cloud"
   },
   {
     "_dataset": "cybersecurity-tools",
-    "name": "Rar Crack",
-    "url": "http://rarcrack.sourceforge.net",
-    "description": "RAR bruteforce cracker.",
+    "name": "hashcat-utils",
+    "url": "https://github.com/hashcat/hashcat-utils",
+    "description": "[F] — Rule helpers and transforms.",
     "category": "cryptography",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "hash cracking tools"
+      "credentials, cracking & wordlists"
     ],
-    "isOpenSource": false,
+    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
     "_dataset": "cybersecurity-tools",
-    "name": "Vulnerability as a service: SambaCry",
-    "url": "https://hub.docker.com/r/vulnerables/cve-2017-7494",
-    "description": "Vulnerability as a service: SambaCry — ctf API",
+    "name": "CTFTime.org",
+    "url": "https://ctftime.org/",
+    "description": "Directory of upcoming and archive of past Capture The Flag (CTF) competitions with links to challenge writeups.",
     "category": "ctf",
-    "pricing": "open-source",
+    "pricing": "paid",
     "hasApi": false,
     "tags": [
-      "intentionally vulnerable systems",
-      "intentionally vulnerable systems as docker containers"
+      "conferences and events"
     ],
-    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown"
   },
   {
     "_dataset": "cybersecurity-tools",
-    "name": "Empire",
-    "url": "https://www.powershellempire.com/",
-    "description": "Pure PowerShell post-exploitation agent.",
+    "name": "TecMint - 4 Ways to Disable Root Account in Linux",
+    "url": "https://www.tecmint.com/disable-root-login-in-linux",
+    "description": "TecMint - 4 Ways to Disable Root Account in Linux",
     "category": "endpoint",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "windows utilities"
+      "gnu/linux"
     ],
     "isOpenSource": false,
     "toolType": "tool",
-    "targetPlatform": "windows"
+    "targetPlatform": "linux"
   },
   {
     "_dataset": "design-resources",
-    "name": "Rhino",
-    "url": "https://www.rhino3d.com/",
-    "description": "a curve-based 3D modeling software that creates mathematically-precise models of 3D surfaces.",
+    "name": "FreeCAD",
+    "url": "https://www.freecadweb.org/",
+    "description": "a free and open-source multiplatform 3D parametric modeler.",
     "category": "3d",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "table of content",
@@ -219,11 +545,11 @@
   },
   {
     "_dataset": "design-resources",
-    "name": "ANDI",
-    "url": "https://www.ssa.gov/accessibility/andi/help/install.html",
-    "description": "accessibility testing tool for web content (bookmarklet). It will automatically detect accessibility issues, give suggestions to improve online accessibility and check 508 compliance. !free.svg ![open-source.svg](https://github.com/SSAgov/ANDI)",
+    "name": "AChecker",
+    "url": "https://achecker.ca",
+    "description": "accessibility testing web app used to evaluate HTML content for accessibility problems.",
     "category": "accessibility",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "table of content",
@@ -232,11 +558,11 @@
   },
   {
     "_dataset": "design-resources",
-    "name": "Lens Studio",
-    "url": "https://lensstudio.snapchat.com/",
-    "description": "create, publish, and share your own AR experiences for Snapchat with or without code. !free.svg",
+    "name": "HP Reveal",
+    "url": "https://www.hpreveal.com/",
+    "description": "adding value to printed content through visual interactivity.",
     "category": "augmented-reality",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
@@ -245,9 +571,9 @@
   },
   {
     "_dataset": "design-resources",
-    "name": "MURAL",
-    "url": "https://mural.co/",
-    "description": "think and collaborate visually. Anywhere, anytime.",
+    "name": "Lumeer",
+    "url": "https://www.lumeer.io/",
+    "description": "an easy visual collaborative tool to plan, organize and track anything, anywhere, anytime.",
     "category": "collaboration",
     "pricing": "unknown",
     "hasApi": false,
@@ -258,9 +584,9 @@
   },
   {
     "_dataset": "design-resources",
-    "name": "Sip",
-    "url": "https://sipapp.io/",
-    "description": "a better way to collect, organize and share colors. Global eyedropper tool for macOS. !mac.svg",
+    "name": "Skala Color",
+    "url": "https://bjango.com/mac/skalacolor",
+    "description": "works with a huge variety of formats, covering everything you’re likely to need for web, iOS, Android, and macOS development.",
     "category": "colors",
     "pricing": "free",
     "hasApi": false,
@@ -271,33 +597,33 @@
   },
   {
     "_dataset": "developer-tools",
-    "name": "Langtrace",
-    "url": "https://langtrace.ai",
-    "description": "enables developers to trace, evaluate, manage prompts and datasets, and debug issues related to an LLM application’s performance. It creates open telemetry standard traces for any LLM which helps with observability and works with any observability client. Free plan offers 50K traces/month.",
+    "name": "CloudSight",
+    "url": "https://cloudsight.ai/",
+    "description": "Digital media brand recognition.",
     "category": "ai-coding",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "generative ai"
+      "computer vision"
     ]
   },
   {
     "_dataset": "developer-tools",
-    "name": "Rybbit",
-    "url": "https://rybbit.io",
-    "description": "Open-source and cookieless alternative to Google Analytics that is 10x more intuitive. Free plans has 3,000 monthly events.",
+    "name": "s3cmd",
+    "url": "https://github.com/s3tools/s3cmd",
+    "description": "the S3 CLI tool for Amazon",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "analytics, events and statistics"
+      "data"
     ]
   },
   {
     "_dataset": "developer-tools",
     "name": "WorkOS",
     "url": "https://workos.com/",
-    "description": "Enterprise SSO and more out-of-the-box enterprise features. ![featured on launchweek.dev](https://launchweek.dev)",
+    "description": "Enterprise SSO and more out-of-the-box enterprise features. [](https://launchweek.dev)",
     "category": "authentication",
     "pricing": "freemium",
     "hasApi": false,
@@ -307,21 +633,21 @@
   },
   {
     "_dataset": "developer-tools",
-    "name": "Cronhooks",
-    "url": "https://cronhooks.io/",
-    "description": "Schedule on-time or recurring webhooks. The free plan allows 5 ad-hoc schedules.",
+    "name": "Zappr",
+    "url": "https://github.com/zalando/zappr",
+    "description": "GitHub integration built to enhance your project workflow via enable/disable pull request approval checks.",
     "category": "automation",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "miscellaneous"
+      "workflow"
     ]
   },
   {
     "_dataset": "developer-tools",
-    "name": "IFTTT",
-    "url": "https://ifttt.com",
-    "description": "Automate your favorite apps and devices. Free 2 Applets",
+    "name": "nhost.io",
+    "url": "https://nhost.io",
+    "description": "Serverless backend for web and mobile apps. The free plan includes PostgreSQL, GraphQL (Hasura), Authentication, Storage, and Serverless Functions.",
     "category": "backend-as-a-service",
     "pricing": "free",
     "hasApi": false,
@@ -330,24 +656,416 @@
     ]
   },
   {
-    "_dataset": "mcp-servers",
-    "name": "MCP X Community",
-    "url": "https://x.com/i/communities/1861891349609603310",
-    "description": "A X community for MCP by Xiaoyi",
-    "category": "aggregators",
+    "_dataset": "homebrew-packages",
+    "name": "rbenv-default-gems",
+    "url": "https://github.com/rbenv/rbenv-default-gems",
+    "description": "Auto-installs gems for Ruby installs",
+    "category": "cli-tool",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "MIT",
+    "version": "1.0.0",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 135,
+    "dependencies": [
+      "rbenv"
+    ]
+  },
+  {
+    "_dataset": "homebrew-packages",
+    "name": "arcadedb",
+    "url": "https://arcadedb.com",
+    "description": "Multi-Model DBMS: Graph, Document, Key/Value, Search, Time Series, Vector",
+    "category": "database",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "for clients",
-      "aggregators"
+      "core"
     ],
-    "openSource": false
+    "packageType": "formula",
+    "license": "Apache-2.0",
+    "version": "26.4.2",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 198,
+    "dependencies": [
+      "openjdk"
+    ]
+  },
+  {
+    "_dataset": "homebrew-packages",
+    "name": "Insomnium",
+    "url": "https://github.com/archgpt/insomnium",
+    "description": "HTTP and GraphQL Client",
+    "category": "dev-library",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "0.2.3-a",
+    "tap": "homebrew/cask",
+    "deprecated": true,
+    "disabled": true,
+    "installCount365d": 413,
+    "dependencies": []
+  },
+  {
+    "_dataset": "homebrew-packages",
+    "name": "Touch Portal",
+    "url": "https://www.touch-portal.com/",
+    "description": "Macro remote control",
+    "category": "gui-app",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "cask"
+    ],
+    "packageType": "cask",
+    "license": "",
+    "version": "4.5,2",
+    "tap": "homebrew/cask",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 81,
+    "dependencies": []
+  },
+  {
+    "_dataset": "homebrew-packages",
+    "name": "cython",
+    "url": "https://cython.org/",
+    "description": "Compiler for writing C extensions for the Python language",
+    "category": "language-runtime",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "core"
+    ],
+    "packageType": "formula",
+    "license": "Apache-2.0",
+    "version": "3.2.4",
+    "tap": "homebrew/core",
+    "deprecated": false,
+    "disabled": false,
+    "installCount365d": 13165,
+    "dependencies": [
+      "python@3.14",
+      "python-setuptools"
+    ]
+  },
+  {
+    "_dataset": "huggingface-datasets",
+    "name": "mueller91/MLAAD",
+    "url": "https://huggingface.co/datasets/mueller91/mlaad",
+    "description": "Introduction Welcome to MLAAD: The Multi-Language Audio Anti-Spoofing Dataset -- a dataset to train, test and evaluate audio deepfake detection. See the paper for more information. License: Starting from MLAADv8, this dataset will be published under a non-commercial license (CC-BY-NC 4.0). If you want to use this dataset for commercial purposes, you need to either: use a previous version (MLAAD...",
+    "category": "audio",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "task_categories:audio-classification",
+      "language:en",
+      "language:de",
+      "language:fr",
+      "language:es",
+      "language:uk",
+      "language:pl",
+      "language:ru",
+      "language:it",
+      "size_categories:100k<n<1m",
+      "modality:audio",
+      "audio"
+    ],
+    "datasetId": "mueller91/MLAAD",
+    "author": "mueller91",
+    "downloads": 23351,
+    "likes": 22,
+    "lastModified": "2026-01-15T10:33:44.000Z",
+    "createdAt": "2025-03-16T12:53:09.000Z",
+    "license": "cc-by-nc-4.0",
+    "modality": "audio",
+    "sizeCategory": "100K<n<1M",
+    "taskCategories": [
+      "audio-classification"
+    ],
+    "language": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "uk",
+      "pl",
+      "ru",
+      "it"
+    ]
+  },
+  {
+    "_dataset": "huggingface-datasets",
+    "name": "lmms-lab/RefCOCO",
+    "url": "https://huggingface.co/datasets/lmms-lab/refcoco",
+    "description": "Large-scale Multi-modality Models Evaluation Suite Accelerating the development of large-scale multi-modality models (LMMs) with lmms-eval 🏠 Homepage | 📚 Documentation | 🤗 Huggingface Datasets This Dataset This is a formatted version of RefCOCO. It is used in our lmms-eval pipeline to allow for one-click evaluations of large multi-modality models. @inproceedings{kazemzadeh-etal-2014-referitg...",
+    "category": "benchmark-and-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "size_categories:10k<n<100k",
+      "modality:image",
+      "modality:text",
+      "modality:timeseries"
+    ],
+    "datasetId": "lmms-lab/RefCOCO",
+    "author": "lmms-lab",
+    "downloads": 10451,
+    "likes": 33,
+    "lastModified": "2024-03-08T03:23:40.000Z",
+    "createdAt": "2024-01-27T04:41:18.000Z",
+    "license": "",
+    "modality": "image",
+    "sizeCategory": "10K<n<100K",
+    "taskCategories": [],
+    "language": []
+  },
+  {
+    "_dataset": "huggingface-datasets",
+    "name": "opencsg/Fineweb-Edu-Chinese-V2.1",
+    "url": "https://huggingface.co/datasets/opencsg/fineweb-edu-chinese-v2.1",
+    "description": "Chinese Fineweb Edu Dataset V2.1 [中文] [English] [OpenCSG Community] [👾github] [wechat] [Twitter] 📖Technical Report The Chinese Fineweb Edu Dataset V2.1 is an enhanced version of the V2 dataset, designed specifically for natural language processing (NLP) tasks in the education sector. This version introduces two new data sources, map-cc and opencsg-cc, and retains data with scores ranging from...",
+    "category": "code",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "task_categories:text-generation",
+      "language:zh",
+      "size_categories:100m<n<1b",
+      "modality:text"
+    ],
+    "datasetId": "opencsg/Fineweb-Edu-Chinese-V2.1",
+    "author": "opencsg",
+    "downloads": 15220,
+    "likes": 73,
+    "lastModified": "2026-01-28T00:36:48.000Z",
+    "createdAt": "2025-01-15T04:07:26.000Z",
+    "license": "apache-2.0",
+    "modality": "text",
+    "sizeCategory": "100M<n<1B",
+    "taskCategories": [
+      "text-generation"
+    ],
+    "language": [
+      "zh"
+    ]
+  },
+  {
+    "_dataset": "huggingface-datasets",
+    "name": "EasonXiao-888/SpatialEdit-500K",
+    "url": "https://huggingface.co/datasets/easonxiao-888/spatialedit-500k",
+    "description": "SpatialEdit-500K SpatialEdit-500K is a synthetic training dataset for fine-grained image spatial editing. It is built for learning geometry-aware edits such as object moving, object rotation, and camera viewpoint change. The dataset was introduced in the paper SpatialEdit: Benchmarking Fine-Grained Image Spatial Editing. It is generated with a controllable rendering pipeline to provide structur...",
+    "category": "image",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "task_categories:image-to-image",
+      "size_categories:100k<n<1m",
+      "modality:image",
+      "modality:text"
+    ],
+    "datasetId": "EasonXiao-888/SpatialEdit-500K",
+    "author": "EasonXiao-888",
+    "downloads": 27963,
+    "likes": 10,
+    "lastModified": "2026-04-08T06:29:20.000Z",
+    "createdAt": "2026-04-05T06:51:19.000Z",
+    "license": "apache-2.0",
+    "modality": "image",
+    "sizeCategory": "100K<n<1M",
+    "taskCategories": [
+      "image-to-image"
+    ],
+    "language": []
+  },
+  {
+    "_dataset": "huggingface-datasets",
+    "name": "Post-training-Data-Flywheel/AutoIF-instruct-61k-with-funcs",
+    "url": "https://huggingface.co/datasets/post-training-data-flywheel/autoif-instruct-61k-with-funcs",
+    "description": "(text modality) — 17,680 downloads",
+    "category": "instruct-and-chat",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "size_categories:10k<n<100k",
+      "modality:text"
+    ],
+    "datasetId": "Post-training-Data-Flywheel/AutoIF-instruct-61k-with-funcs",
+    "author": "Post-training-Data-Flywheel",
+    "downloads": 17680,
+    "likes": 8,
+    "lastModified": "2024-10-03T19:06:40.000Z",
+    "createdAt": "2024-10-03T19:05:25.000Z",
+    "license": "",
+    "modality": "text",
+    "sizeCategory": "10K<n<100K",
+    "taskCategories": [],
+    "language": []
+  },
+  {
+    "_dataset": "huggingface-models",
+    "name": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "url": "https://huggingface.co/cross-encoder/mmarco-mminilmv2-l12-h384-v1",
+    "description": "text ranking (sentence-transformers) — license: apache-2.0 — 831,865 downloads",
+    "category": "embedding",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "xlm-roberta",
+      "text-classification",
+      "transformers",
+      "text-ranking",
+      "en",
+      "ar",
+      "zh"
+    ],
+    "modelId": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "author": "cross-encoder",
+    "pipelineTag": "text-ranking",
+    "libraryName": "sentence-transformers",
+    "downloads": 831865,
+    "likes": 74,
+    "lastModified": "2025-04-15T08:03:02.000Z",
+    "createdAt": "2022-06-01T08:27:31.000Z",
+    "license": "apache-2.0"
+  },
+  {
+    "_dataset": "huggingface-models",
+    "name": "apple/DFN2B-CLIP-ViT-B-16",
+    "url": "https://huggingface.co/apple/dfn2b-clip-vit-b-16",
+    "description": "(open_clip) — license: apple-amlr — 1,271,466 downloads",
+    "category": "image-classification",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "open_clip"
+    ],
+    "modelId": "apple/DFN2B-CLIP-ViT-B-16",
+    "author": "apple",
+    "pipelineTag": "",
+    "libraryName": "open_clip",
+    "downloads": 1271466,
+    "likes": 13,
+    "lastModified": "2025-02-28T18:39:34.000Z",
+    "createdAt": "2023-10-31T03:52:33.000Z",
+    "license": "apple-amlr"
+  },
+  {
+    "_dataset": "huggingface-models",
+    "name": "Kijai/flux-fp8",
+    "url": "https://huggingface.co/kijai/flux-fp8",
+    "description": "(diffusion-single-file) — license: other — 131,070 downloads",
+    "category": "image-generation",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "en"
+    ],
+    "modelId": "Kijai/flux-fp8",
+    "author": "Kijai",
+    "pipelineTag": "",
+    "libraryName": "diffusion-single-file",
+    "downloads": 131070,
+    "likes": 961,
+    "lastModified": "2025-08-16T21:21:30.000Z",
+    "createdAt": "2024-08-01T19:40:38.000Z",
+    "license": "other"
+  },
+  {
+    "_dataset": "huggingface-models",
+    "name": "OpenGVLab/InternVL2_5-4B",
+    "url": "https://huggingface.co/opengvlab/internvl2_5-4b",
+    "description": "image text to text (transformers) — license: mit — 38,394 downloads",
+    "category": "multimodal",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "internvl_chat",
+      "feature-extraction",
+      "internvl",
+      "custom_code",
+      "image-text-to-text",
+      "conversational",
+      "multilingual"
+    ],
+    "modelId": "OpenGVLab/InternVL2_5-4B",
+    "author": "OpenGVLab",
+    "pipelineTag": "image-text-to-text",
+    "libraryName": "transformers",
+    "downloads": 38394,
+    "likes": 57,
+    "lastModified": "2025-09-11T12:47:44.000Z",
+    "createdAt": "2024-11-20T16:41:18.000Z",
+    "license": "mit"
+  },
+  {
+    "_dataset": "huggingface-models",
+    "name": "LiheYoung/depth_anything_vitl14",
+    "url": "https://huggingface.co/liheyoung/depth_anything_vitl14",
+    "description": "depth estimation (transformers) — 37,669 downloads",
+    "category": "object-detection",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "depth_anything",
+      "depth-estimation",
+      "endpoints_compatible"
+    ],
+    "modelId": "LiheYoung/depth_anything_vitl14",
+    "author": "LiheYoung",
+    "pipelineTag": "depth-estimation",
+    "libraryName": "transformers",
+    "downloads": 37669,
+    "likes": 43,
+    "lastModified": "2024-01-25T08:07:57.000Z",
+    "createdAt": "2024-01-23T07:33:54.000Z",
+    "license": ""
   },
   {
     "_dataset": "mcp-servers",
-    "name": "michael-denyer/memory-mcp",
-    "url": "https://github.com/michael-denyer/memory-mcp",
-    "description": "Two-tier memory with hot cache (instant injection) and cold semantic search. Auto-promotes frequently-used patterns, extracts knowledge from Claude outputs, and organizes via knowledge graph relationships.",
+    "name": "MCPWatch",
+    "url": "https://github.com/kapilduraphe/mcp-watch",
+    "description": "A comprehensive security scanner for Model Context Protocol (MCP) servers that detects vulnerabilities and security issues in your MCP server implementations.",
+    "category": "aggregators",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "for clients",
+      "open-source",
+      "aggregators"
+    ],
+    "openSource": true
+  },
+  {
+    "_dataset": "mcp-servers",
+    "name": "AgentModule/mcp",
+    "url": "https://github.com/agentmodule/mcp",
+    "description": "Agent-native knowledge infrastructure. Deterministic, vertical-specific knowledge bases engineered for autonomous agent consumption via MCP. Ethics module (22 modules, EU AI Act mapped) included with every membership. Free 24hr ethics trial.",
     "category": "ai-services",
     "pricing": "open-source",
     "hasApi": false,
@@ -360,14 +1078,14 @@
   },
   {
     "_dataset": "mcp-servers",
-    "name": "WaveSpeed",
-    "url": "https://github.com/wavespeedai/mcp-server",
-    "description": "WaveSpeed MCP server providing AI agents with image and video generation capabilities.",
+    "name": "raveenb/fal-mcp-server",
+    "url": "https://github.com/raveenb/fal-mcp-server",
+    "description": "Generate AI images, videos, and music using Fal.ai models (FLUX, Stable Diffusion, MusicGen) directly in Claude Desktop",
     "category": "art-literature",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "official integrations",
+      "art & culture",
       "open-source",
       "art-literature"
     ],
@@ -375,14 +1093,14 @@
   },
   {
     "_dataset": "mcp-servers",
-    "name": "AWS Cost Explorer",
-    "url": "https://github.com/aarora79/aws-cost-explorer-mcp-server",
-    "description": "Optimize your AWS spend (including Amazon Bedrock spend) with this MCP server by examining spend across regions, services, instance types and foundation models (demo video).",
+    "name": "AWS Core",
+    "url": "https://github.com/awslabs/mcp/tree/main/src/core-mcp-server",
+    "description": "Core AWS MCP server providing prompt understanding and server management capabilities.",
     "category": "cloud-platforms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "community servers",
+      "official servers",
       "open-source",
       "cloud-platforms"
     ],
@@ -390,14 +1108,14 @@
   },
   {
     "_dataset": "mcp-servers",
-    "name": "AWS S3",
-    "url": "https://github.com/aws-samples/sample-mcp-server-s3",
-    "description": "A sample MCP server for AWS S3 that flexibly fetches objects from S3 such as PDF documents.",
+    "name": "cerebrixos-org/tuning-engines-cli",
+    "url": "https://github.com/cerebrixos-org/tuning-engines-cli",
+    "description": "Domain-specific fine-tuning of open-source LLMs and SLMs with zero infrastructure. Specialized tuning agents deliver sovereign models trained on your data. Supports Qwen, Llama, DeepSeek, Mistral, Gemma 1B-72B. LoRA, QLoRA, full fine-tuning. Cost estimation, model management, S3 export.",
     "category": "cloud-storage",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "community servers",
+      "developer tools",
       "open-source",
       "cloud-storage"
     ],
@@ -405,9 +1123,9 @@
   },
   {
     "_dataset": "no-code-lowcode",
-    "name": "BigML",
-    "url": "https://bigml.com/",
-    "description": "ML made beautifully simple for everyone.",
+    "name": "Obviously AI",
+    "url": "https://www.obviously.ai/",
+    "description": "Machine learning tool that makes data science effortless by enabling anyone to instantly run accurate predictions as well as analytics on their data by asking questions in natural language.",
     "category": "ai-ml",
     "pricing": "freemium",
     "hasApi": false,
@@ -418,9 +1136,9 @@
   },
   {
     "_dataset": "no-code-lowcode",
-    "name": "PageGuard",
-    "url": "https://pageguard.org",
-    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
+    "name": "Google Analytics",
+    "url": "https://analytics.google.com",
+    "description": "Free website analytics.",
     "category": "analytics",
     "pricing": "free",
     "hasApi": false,
@@ -431,151 +1149,359 @@
   },
   {
     "_dataset": "no-code-lowcode",
-    "name": "Structr",
-    "url": "https://structr.com/",
-    "description": "Open Source lowcode platform for semantic apps based on graph technology.",
+    "name": "BESSER",
+    "url": "https://besser.readthedocs.io/en/latest",
+    "description": "A Python-based low-modeling low-code platform for smart software",
     "category": "app-builder",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "apps"
+      "uncategorized"
     ],
     "codeType": "low-code"
   },
   {
     "_dataset": "no-code-lowcode",
-    "name": "Rudderstack",
-    "url": "https://www.rudderstack.com/",
-    "description": "RudderStack makes it easy to collect and send customer data to the tools and teams that need it.",
+    "name": "Power Platform Connectors",
+    "url": "https://github.com/microsoft/powerplatformconnectors",
+    "description": "This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors.",
     "category": "automation",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "flow-based programming"
+      "reference resources",
+      "power platform (microsoft)"
     ],
     "codeType": "low-code"
   },
   {
     "_dataset": "no-code-lowcode",
-    "name": "Voiceflow",
-    "url": "https://www.voiceflow.com/",
-    "description": "Prototype and launch conversational apps.",
+    "name": "Itura",
+    "url": "https://itura-ai.com",
+    "description": "Build your own AI conversational, database-backed apps.",
     "category": "chatbot",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "more (uncategorized)"
+      "misc"
     ],
     "codeType": "no-code"
   },
   {
+    "_dataset": "npm-packages",
+    "name": "unicornstudio-react",
+    "url": "https://www.npmjs.com/package/unicornstudio-react",
+    "description": "React component for embedding Unicorn.Studio interactive scenes with TypeScript support. Compatible with React (Vite) and Next.js.",
+    "category": "ai-and-ml",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "react",
+      "nextjs",
+      "next.js",
+      "vite",
+      "unicorn-studio",
+      "unicornstudio",
+      "animation",
+      "webgl",
+      "canvas",
+      "interactive",
+      "3d",
+      "scenes",
+      "typescript",
+      "component",
+      "wrapper"
+    ],
+    "packageName": "unicornstudio-react",
+    "version": "2.1.9",
+    "license": "MIT",
+    "publisher": "diegopeixoto",
+    "weeklyDownloads": 87493,
+    "monthlyDownloads": 327234,
+    "dependents": 2,
+    "npmScore": 123.705,
+    "popularityScore": 1,
+    "qualityScore": 1,
+    "maintenanceScore": 1,
+    "lastPublished": "2026-04-28T12:41:24.732Z",
+    "homepage": "https://github.com/diegopeixoto/unicornstudio-react#readme",
+    "repository": "git+https://github.com/diegopeixoto/unicornstudio-react.git",
+    "keywords": [
+      "react",
+      "nextjs",
+      "next.js",
+      "vite",
+      "unicorn-studio",
+      "unicornstudio",
+      "animation",
+      "webgl",
+      "canvas",
+      "interactive",
+      "3d",
+      "scenes",
+      "typescript",
+      "component",
+      "wrapper"
+    ]
+  },
+  {
+    "_dataset": "npm-packages",
+    "name": "jwt-utils",
+    "url": "https://www.npmjs.com/package/jwt-utils",
+    "description": "JSON Web Tokens (JWT) utils",
+    "category": "auth-and-security",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "jwt",
+      "token",
+      "tdaf"
+    ],
+    "packageName": "jwt-utils",
+    "version": "1.0.5",
+    "license": "Apache-2.0",
+    "publisher": "palmerabollo",
+    "weeklyDownloads": 118,
+    "monthlyDownloads": 632,
+    "dependents": 1,
+    "npmScore": 182.535,
+    "popularityScore": 1,
+    "qualityScore": 1,
+    "maintenanceScore": 1,
+    "lastPublished": "2018-07-30T12:47:09.830Z",
+    "homepage": "https://github.com/telefonica/node-jwt-utils",
+    "repository": "git@github.com:telefonica/node-jwt-utils.git",
+    "keywords": [
+      "jwt",
+      "token",
+      "tdaf"
+    ]
+  },
+  {
+    "_dataset": "npm-packages",
+    "name": "express-oauth2-jwt-bearer",
+    "url": "https://www.npmjs.com/package/express-oauth2-jwt-bearer",
+    "description": "Authentication middleware for Express.js that validates JWT bearer access tokens.",
+    "category": "backend-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "packageName": "express-oauth2-jwt-bearer",
+    "version": "1.8.0",
+    "license": "MIT",
+    "publisher": "auth0-oss",
+    "weeklyDownloads": 225229,
+    "monthlyDownloads": 913059,
+    "dependents": 36,
+    "npmScore": 325.4873,
+    "popularityScore": 1,
+    "qualityScore": 1,
+    "maintenanceScore": 1,
+    "lastPublished": "2026-04-10T08:16:10.876Z",
+    "homepage": "https://github.com/auth0/node-oauth2-jwt-bearer/tree/main/packages/express-oauth2-jwt-bearer",
+    "repository": "git+https://github.com/auth0/node-oauth2-jwt-bearer.git",
+    "keywords": []
+  },
+  {
+    "_dataset": "npm-packages",
+    "name": "polymer-bundler",
+    "url": "https://www.npmjs.com/package/polymer-bundler",
+    "description": "Process Web Components into one output file",
+    "category": "build-tool",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "web components",
+      "polymer"
+    ],
+    "packageName": "polymer-bundler",
+    "version": "4.0.10",
+    "license": "BSD-3-Clause",
+    "publisher": "aomarks",
+    "weeklyDownloads": 8406,
+    "monthlyDownloads": 41708,
+    "dependents": 15,
+    "npmScore": 199.4924,
+    "popularityScore": 1,
+    "qualityScore": 1,
+    "maintenanceScore": 1,
+    "lastPublished": "2019-06-04T21:23:05.668Z",
+    "homepage": "https://github.com/Polymer/tools/tree/master/packages/bundler",
+    "repository": "git+https://github.com/Polymer/tools.git",
+    "keywords": [
+      "web components",
+      "polymer"
+    ]
+  },
+  {
+    "_dataset": "npm-packages",
+    "name": "@figliolia/chalk-animation",
+    "url": "https://www.npmjs.com/package/@figliolia/chalk-animation",
+    "description": "An ESM/Common.js compatible typescript port of the popular 'chalk-animation' library",
+    "category": "cli-and-devops",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "animation",
+      "chalk",
+      "cli",
+      "color",
+      "colors",
+      "colour",
+      "command-line",
+      "console",
+      "formatting",
+      "gradient",
+      "log",
+      "logging",
+      "rainbow",
+      "shell",
+      "string",
+      "style",
+      "styles",
+      "terminal"
+    ],
+    "packageName": "@figliolia/chalk-animation",
+    "version": "1.0.5",
+    "license": "MIT",
+    "publisher": "alexfigliolia",
+    "weeklyDownloads": 1351,
+    "monthlyDownloads": 5406,
+    "dependents": 3,
+    "npmScore": 240.5933,
+    "popularityScore": 1,
+    "qualityScore": 1,
+    "maintenanceScore": 1,
+    "lastPublished": "2026-01-01T00:32:35.900Z",
+    "homepage": "https://github.com/alexfigliolia/chalk-animation",
+    "repository": "git+https://github.com/alexfigliolia/chalk-animation.git",
+    "keywords": [
+      "animation",
+      "chalk",
+      "cli",
+      "color",
+      "colors",
+      "colour",
+      "command-line",
+      "console",
+      "formatting",
+      "gradient",
+      "log",
+      "logging",
+      "rainbow",
+      "shell",
+      "string",
+      "style",
+      "styles",
+      "terminal"
+    ]
+  },
+  {
     "_dataset": "open-source-alternatives",
-    "name": "Metarank",
-    "url": "https://metarank.ai",
-    "description": "AutoML style personalized ranking",
+    "name": "Langflow",
+    "url": "https://openalternative.co/langflow",
+    "description": "Visual builder for AI-powered applications and workflows",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-aws-personalize",
-      "alternative-to-tecton"
+      "ai & machine learning",
+      "ai development platforms"
     ],
-    "alternativeTo": "AWS Personalize, Tecton"
+    "license": "MIT"
   },
   {
     "_dataset": "open-source-alternatives",
-    "name": "CocoIndex",
-    "url": "https://openalternative.co/cocoindex",
-    "description": "Ultra-fast data transformation for AI with lineage",
+    "name": "Crawl4AI",
+    "url": "https://openalternative.co/crawl4ai",
+    "description": "Open-source web crawler optimized for AI and LLMs",
     "category": "analytics",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "data & analytics",
-      "data engineering & integration"
+      "data extraction & web scraping"
     ],
     "license": "Apache-2.0"
   },
   {
     "_dataset": "open-source-alternatives",
-    "name": "Step CI",
-    "url": "https://stepci.com/",
-    "description": "API Testing and Monitoring",
+    "name": "Insomnia",
+    "url": "https://openalternative.co/insomnia",
+    "description": "Powerful API development and testing made effortless",
     "category": "api-tools",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "alternative-to-checkly",
-      "alternative-to-postman"
+      "developer tools",
+      "api development & testing"
     ],
-    "alternativeTo": "Checkly, Postman"
+    "license": "Apache-2.0"
   },
   {
     "_dataset": "open-source-alternatives",
-    "name": "SuperTokens",
-    "url": "https://openalternative.co/supertokens",
-    "description": "Secure, customizable authentication for your applications",
+    "name": "Tesseral",
+    "url": "https://openalternative.co/tesseral",
+    "description": "Enterprise-ready B2B auth and user management in minutes",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "security & privacy",
       "identity & access management (iam)"
-    ]
+    ],
+    "license": "MIT"
   },
   {
     "_dataset": "open-source-alternatives",
-    "name": "ERPNext",
-    "url": "https://openalternative.co/erpnext",
-    "description": "Comprehensive business management, tailored for you",
+    "name": "Hook0",
+    "url": "https://openalternative.co/hook0",
+    "description": "Open-source webhooks for seamless integrations",
     "category": "automation",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "business software",
-      "erp & operations"
-    ],
-    "license": "GPL-3.0"
+      "developer tools",
+      "integration platforms"
+    ]
   },
   {
     "_dataset": "public-apis",
-    "name": "PlaceDog",
-    "url": "https://place.dog/",
-    "description": "Placeholder Dog pictures",
+    "name": "xeno-canto",
+    "url": "https://xeno-canto.org/explore/api",
+    "description": "Bird recordings",
     "category": "animals",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "animals",
-      "no-auth",
-      "cors-enabled"
+      "no-auth"
     ],
     "auth": "none",
     "https": true,
-    "cors": "yes"
+    "cors": "unknown"
   },
   {
     "_dataset": "public-apis",
-    "name": "AOT quotes",
-    "url": "https://attackontitanquotes.vercel.app/",
-    "description": "Attack on Titan Quotes API",
+    "name": "AcgClub",
+    "url": "https://github.com/rabtman/acgclub/wiki/%e5%ae%85%e7%a4%beacgclub-api",
+    "description": "AcgClub API provides ACG-related aggregation services.",
     "category": "anime",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "anime",
-      "no-auth",
-      "cors-enabled"
+      "table of contents",
+      "anime"
     ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes"
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true
   },
   {
     "_dataset": "public-apis",
-    "name": "MalDatabase",
-    "url": "https://maldatabase.com/api-doc.html",
-    "description": "Provide malware datasets and threat intelligence feeds",
+    "name": "MalShare",
+    "url": "https://malshare.com/doc.php",
+    "description": "Malware Archive / file sourcing",
     "category": "anti-malware",
     "pricing": "freemium",
     "hasApi": false,
@@ -584,18 +1510,18 @@
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "no"
   },
   {
     "_dataset": "public-apis",
-    "name": "Europeana",
-    "url": "https://pro.europeana.eu/resources/apis/search",
-    "description": "European Museum and Galleries content",
+    "name": "Color Name API",
+    "url": "https://elastiq.ch/",
+    "description": "An API that provides names for colors based on their hex value",
     "category": "art-design",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "art & design"
+      "developer-tools"
     ],
     "auth": "apiKey",
     "https": true,
@@ -603,12 +1529,12 @@
   },
   {
     "_dataset": "public-apis",
-    "name": "Naver Login for Apps",
-    "url": "https://developers.naver.com/products/login/api",
-    "description": "Access to Naver’s Authentication API.",
+    "name": "PayPal",
+    "url": "https://developer.paypal.com/docs/integration/direct/identity/log-in-with-paypal",
+    "description": "Enables your customers to sign in to your web site quickly and securely using their PayPal login credentials.",
     "category": "authentication",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "table of contents",
       "login authentication"
@@ -619,11 +1545,11 @@
   },
   {
     "_dataset": "self-hosted-software",
-    "name": "Medama Analytics",
-    "url": "https://oss.medama.io",
-    "description": "Privacy-first website analytics. Tiny, simple, and cookie-free. (Demo, Source Code)",
+    "name": "Socioboard",
+    "url": "https://github.com/socioboard/socioboard-5.0",
+    "description": "- Social media management, analytics, and reporting platform supporting nine social media networks out-of-the-box.",
     "category": "analytics",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
@@ -645,22 +1571,22 @@
   },
   {
     "_dataset": "self-hosted-software",
-    "name": "2FAuth",
-    "url": "https://github.com/bubka/2fauth",
-    "description": "Manage your Two-Factor Authentication (2FA) accounts and generate their security codes. (Demo)",
+    "name": "AliasVault",
+    "url": "https://www.aliasvault.net",
+    "description": "End-to-end encrypted password manager with a built-in email alias generator and server. (Source Code)",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
-      "miscellaneous"
+      "password managers"
     ]
   },
   {
     "_dataset": "self-hosted-software",
-    "name": "Beehive",
-    "url": "https://github.com/muesli/beehive",
-    "description": "Flexible event and agent system, which allows you to create your own agents that perform automated tasks triggered by events and filters.",
+    "name": "HRConvert2",
+    "url": "https://github.com/zelon88/hrconvert2",
+    "description": "Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability.",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": false,
@@ -670,15 +1596,121 @@
   },
   {
     "_dataset": "self-hosted-software",
-    "name": "WriteFreely",
-    "url": "https://writefreely.org",
-    "description": "Writing software for starting a minimalist, federated blog — or an entire community. (Source Code)",
+    "name": "Noddity",
+    "url": "http://noddity.com/",
+    "description": "It's a blog, it's a wiki, it's a fast CMS. (Source Code)",
     "category": "blogging",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "blogging platforms"
     ]
+  },
+  {
+    "_dataset": "vscode-extensions",
+    "name": "OpenCode GUI",
+    "url": "https://marketplace.visualstudio.com/items?itemname=tanishqkancharla.opencode-vscode",
+    "description": "OpenCode AI coding agent for VSCode GUI extension",
+    "category": "ai-assistant",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "ai"
+    ],
+    "publisherSlug": "tanishqkancharla",
+    "extensionId": "tanishqkancharla.opencode-vscode",
+    "marketplace": "vscode",
+    "installCount": 48104,
+    "lastUpdated": "2026-03-07T00:06:46.03Z",
+    "version": "0.4.4"
+  },
+  {
+    "_dataset": "vscode-extensions",
+    "name": "Azure Storage",
+    "url": "https://marketplace.visualstudio.com/items?itemname=ms-azuretools.vscode-azurestorage",
+    "description": "Manage your Azure Storage accounts including Blob Containers, File Shares, Tables and Queues",
+    "category": "cloud-and-devops",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "azure",
+      "azure",
+      "blob containers",
+      "file share",
+      "static website",
+      "storage account"
+    ],
+    "publisherSlug": "ms-azuretools",
+    "extensionId": "ms-azuretools.vscode-azurestorage",
+    "marketplace": "vscode",
+    "installCount": 2703216,
+    "lastUpdated": "2025-09-26T19:21:53.793Z",
+    "version": "0.17.1"
+  },
+  {
+    "_dataset": "vscode-extensions",
+    "name": "MySQL Statement Scratchpad and Execution.",
+    "url": "https://marketplace.visualstudio.com/items?itemname=jblack.mysql-scratchpad",
+    "description": "Easy mysql statement running with simple result display. Scratchpad for working with multiple statements.",
+    "category": "database-and-sql",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "other",
+      "keybindings"
+    ],
+    "publisherSlug": "jblack",
+    "extensionId": "jblack.mysql-scratchpad",
+    "marketplace": "vscode",
+    "installCount": 51564,
+    "lastUpdated": "2017-06-16T16:44:11.16Z",
+    "version": "0.1.1"
+  },
+  {
+    "_dataset": "vscode-extensions",
+    "name": "Open Browser Preview",
+    "url": "https://marketplace.visualstudio.com/items?itemname=wscats.cors-browser",
+    "description": "🚀Preview file in your default browser",
+    "category": "debuggers",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "debuggers",
+      "browser",
+      "chrome",
+      "google",
+      "html",
+      "keybindings",
+      "open",
+      "preview",
+      "view"
+    ],
+    "publisherSlug": "wscats",
+    "extensionId": "wscats.cors-browser",
+    "marketplace": "vscode",
+    "installCount": 1397220,
+    "lastUpdated": "2020-12-15T12:30:14.16Z",
+    "version": "1.0.11"
+  },
+  {
+    "_dataset": "vscode-extensions",
+    "name": "Search WordPress Docs",
+    "url": "https://marketplace.visualstudio.com/items?itemname=yogensia.searchwpdocs",
+    "description": "Search selected text in the WordPress Code Reference without leaving VSCode.",
+    "category": "documentation",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "other",
+      "documentation",
+      "keybindings",
+      "wordpress"
+    ],
+    "publisherSlug": "yogensia",
+    "extensionId": "yogensia.searchwpdocs",
+    "marketplace": "vscode",
+    "installCount": 52491,
+    "lastUpdated": "2024-05-07T13:30:48.347Z",
+    "version": "3.0.1"
   }
 ]
