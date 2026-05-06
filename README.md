@@ -11,8 +11,8 @@ Preview records from each curated developer dataset. Every sample contains **20 
 | **Homebrew Packages Directory** ⭐NEW | 12,200+ | [JSON](homebrew-packages-sample.json) · [CSV](homebrew-packages-sample.csv) | _launching soon ($11)_ |
 | **VS Code Extensions Directory** ⭐NEW | 4,800+ | [JSON](vscode-extensions-sample.json) · [CSV](vscode-extensions-sample.csv) | _launching soon ($9)_ |
 | **npm Packages Directory** ⭐NEW | 4,200+ | [JSON](npm-packages-sample.json) · [CSV](npm-packages-sample.csv) | _launching soon ($11)_ |
-| Developer Tools Directory | 1,500+ | [JSON](developer-tools-sample.json) · [CSV](developer-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/developer-tools-directory) |
-| Open MCP Servers Directory | 2,900+ | [JSON](mcp-servers-sample.json) · [CSV](mcp-servers-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/mcp-servers-directory) |
+| Developer Tools Directory | 1,600+ | [JSON](developer-tools-sample.json) · [CSV](developer-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/developer-tools-directory) |
+| Open MCP Servers Directory | 3,600+ | [JSON](mcp-servers-sample.json) · [CSV](mcp-servers-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/mcp-servers-directory) |
 | Public APIs Directory | 2,500+ | [JSON](public-apis-sample.json) · [CSV](public-apis-sample.csv) | [$12 on Gumroad](https://jhonnyronnie.gumroad.com/l/public-apis-directory) |
 
 ### 🤖 AI / ML — models, datasets, prompts, pricing
@@ -23,17 +23,17 @@ Preview records from each curated developer dataset. Every sample contains **20 
 | **HuggingFace Models Directory** ⭐NEW | 4,000 | [JSON](huggingface-models-sample.json) · [CSV](huggingface-models-sample.csv) | _launching soon ($11)_ |
 | **HuggingFace Datasets Directory** ⭐NEW | 4,000 | [JSON](huggingface-datasets-sample.json) · [CSV](huggingface-datasets-sample.csv) | _launching soon ($11)_ |
 | **AI Prompts Directory** ⭐NEW | 1,700+ | [JSON](ai-prompts-sample.json) · [CSV](ai-prompts-sample.csv) | _launching soon ($9)_ |
-| AI Tools Directory | 1,600+ | [JSON](ai-tools-sample.json) · [CSV](ai-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-tools-directory) |
-| AI Agents Directory | 800+ | [JSON](ai-agents-sample.json) · [CSV](ai-agents-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-agents-directory) |
+| AI Tools Directory | 2,700+ | [JSON](ai-tools-sample.json) · [CSV](ai-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-tools-directory) |
+| AI Agents Directory | 2,000+ | [JSON](ai-agents-sample.json) · [CSV](ai-agents-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-agents-directory) |
 
 ### 🛡️ Security · Self-hosting · Open Source · Design · No-code
 
 | Dataset | Records | Sample | Full Dataset |
 |---------|---------|--------|-------------|
-| Self-Hosted Software Directory | 2,100+ | [JSON](self-hosted-software-sample.json) · [CSV](self-hosted-software-sample.csv) | [$14 on Gumroad](https://jhonnyronnie.gumroad.com/l/self-hosted-software-directory) |
-| Cybersecurity Tools Directory | 1,800+ | [JSON](cybersecurity-tools-sample.json) · [CSV](cybersecurity-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/cybersecurity-tools) |
-| Design Resources Directory | 1,800+ | [JSON](design-resources-sample.json) · [CSV](design-resources-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/design-resources) |
-| Open Source Alternatives | 800+ | [JSON](open-source-alternatives-sample.json) · [CSV](open-source-alternatives-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/open-source-alternatives) |
+| Self-Hosted Software Directory | 2,300+ | [JSON](self-hosted-software-sample.json) · [CSV](self-hosted-software-sample.csv) | [$14 on Gumroad](https://jhonnyronnie.gumroad.com/l/self-hosted-software-directory) |
+| Cybersecurity Tools Directory | 2,700+ | [JSON](cybersecurity-tools-sample.json) · [CSV](cybersecurity-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/cybersecurity-tools) |
+| Design Resources Directory | 2,100+ | [JSON](design-resources-sample.json) · [CSV](design-resources-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/design-resources) |
+| Open Source Alternatives | 900+ | [JSON](open-source-alternatives-sample.json) · [CSV](open-source-alternatives-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/open-source-alternatives) |
 | No-Code & Low-Code Tools | 500+ | [JSON](no-code-lowcode-sample.json) · [CSV](no-code-lowcode-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/no-code-lowcode) |
 
 > ⭐ **NEW** — 7 datasets just shipped (cycleWeek 2026-05-05). Samples available now; Gumroad products launching shortly. Watch the [LinkedIn showcase page](https://www.linkedin.com/showcase/niche-datasets/) for live URLs.
@@ -46,7 +46,7 @@ A combined preview with **5 records from each dataset**:
 
 ## Want everything?
 
-The **[Complete Developer Data Bundle](https://jhonnyronnie.gumroad.com/l/developer-data-bundle)** currently includes 10 datasets (16,000+ records) for **$29** — 68% off individual prices.
+The **[Complete Developer Data Bundle](https://jhonnyronnie.gumroad.com/l/developer-data-bundle)** currently includes 10 datasets (~22,000 records after recent improve sweep) for **$29** — 73% off individual prices.
 
 After the 7 new datasets launch, the bundle will expand to **17 datasets (~50,000 records)** with a planned tier-up to $34 — still 80%+ off vs $73 standalone.
 
