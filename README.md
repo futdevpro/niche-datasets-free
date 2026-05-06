@@ -10,7 +10,7 @@ Preview records from each curated developer dataset. Every sample contains **20 
 |---------|---------|--------|-------------|
 | **Homebrew Packages Directory** ⭐NEW | 12,200+ | [JSON](homebrew-packages-sample.json) · [CSV](homebrew-packages-sample.csv) | _launching soon ($11)_ |
 | **VS Code Extensions Directory** ⭐NEW | 4,800+ | [JSON](vscode-extensions-sample.json) · [CSV](vscode-extensions-sample.csv) | _launching soon ($9)_ |
-| **npm Packages Directory** ⭐NEW | 4,700+ | [JSON](npm-packages-sample.json) · [CSV](npm-packages-sample.csv) | _launching soon ($11)_ |
+| **npm Packages Directory** ⭐NEW | 6,000+ | [JSON](npm-packages-sample.json) · [CSV](npm-packages-sample.csv) | _launching soon ($11)_ |
 | Developer Tools Directory | 1,600+ | [JSON](developer-tools-sample.json) · [CSV](developer-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/developer-tools-directory) |
 | Open MCP Servers Directory | 3,600+ | [JSON](mcp-servers-sample.json) · [CSV](mcp-servers-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/mcp-servers-directory) |
 | Public APIs Directory | 2,500+ | [JSON](public-apis-sample.json) · [CSV](public-apis-sample.csv) | [$12 on Gumroad](https://jhonnyronnie.gumroad.com/l/public-apis-directory) |
@@ -20,6 +20,7 @@ Preview records from each curated developer dataset. Every sample contains **20 
 | Dataset | Records | Sample | Full Dataset |
 |---------|---------|--------|-------------|
 | **LLMOps & Eval Tooling Directory** ⭐NEW | 490+ | [JSON](llmops-and-eval-sample.json) · [CSV](llmops-and-eval-sample.csv) | _launching soon ($11)_ |
+| **Vector DB & RAG Infrastructure Directory** ⭐NEW | 190+ | [JSON](vector-db-and-rag-sample.json) · [CSV](vector-db-and-rag-sample.csv) | _launching soon ($11)_ |
 | **AI Models & Providers Pricing Matrix** ⭐NEW | 800+ | [JSON](ai-models-pricing-sample.json) · [CSV](ai-models-pricing-sample.csv) | _launching soon ($11)_ |
 | **HuggingFace Models Directory** ⭐NEW | 4,000 | [JSON](huggingface-models-sample.json) · [CSV](huggingface-models-sample.csv) | _launching soon ($11)_ |
 | **HuggingFace Datasets Directory** ⭐NEW | 2,600+ (curated, with metadata) | [JSON](huggingface-datasets-sample.json) · [CSV](huggingface-datasets-sample.csv) | _launching soon ($11)_ |
@@ -37,7 +38,7 @@ Preview records from each curated developer dataset. Every sample contains **20 
 | Open Source Alternatives | 900+ | [JSON](open-source-alternatives-sample.json) · [CSV](open-source-alternatives-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/open-source-alternatives) |
 | No-Code & Low-Code Tools | 500+ | [JSON](no-code-lowcode-sample.json) · [CSV](no-code-lowcode-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/no-code-lowcode) |
 
-> ⭐ **NEW** — 8 datasets just shipped (cycleWeek 2026-05-05/06). Samples available now; Gumroad products launching shortly. Watch the [LinkedIn showcase page](https://www.linkedin.com/showcase/niche-datasets/) for live URLs.
+> ⭐ **NEW** — 9 datasets just shipped (cycleWeek 2026-05-05/06). Samples available now; Gumroad products launching shortly. Watch the [LinkedIn showcase page](https://www.linkedin.com/showcase/niche-datasets/) for live URLs.
 
 ## Mega Sample
 
@@ -49,10 +50,10 @@ A combined preview with **5 records from each dataset**:
 
 The **[Complete Developer Data Bundle](https://jhonnyronnie.gumroad.com/l/developer-data-bundle)** currently includes 10 datasets (~22,000 records after recent improve sweep) for **$29** — 73% off individual prices.
 
-After the 8 new datasets launch, the bundle will expand to **18 datasets (~50,400 records)** with a planned tier-up to $34-39 — still 80%+ off vs $84 standalone.
+After the 9 new datasets launch, the bundle will expand to **19 datasets (~52,300 records)** with a planned tier-up to $34-39 — still 80%+ off vs $95 standalone.
 
 **Themed sub-bundles** (launching with the new products):
-- 🤖 **ML Builder Pack** ($30-35 planned, expanded to 5-pack) — AI Models Pricing + HuggingFace Models + HuggingFace Datasets + AI Prompts + **LLMOps & Eval Tooling** (5 datasets, ~9,700 records, complete LLM/ML engineering stack: data → models → APIs → prompts → platform tooling)
+- 🤖 **ML Builder Pack** ($35-39 planned, expanded to 6-pack) — AI Models Pricing + HuggingFace Models + HuggingFace Datasets + AI Prompts + LLMOps & Eval Tooling + **Vector DB & RAG Infrastructure** (6 datasets, ~9,900 records, complete LLM/ML engineering stack: data → models → APIs → prompts → platform tooling → retrieval/RAG infrastructure)
 - 🔧 **Dev Stack Pack** ($29) — npm Packages + VS Code Extensions + Homebrew Packages + Developer Tools (4 datasets, ~23,400 records, 31% off)
 
 ## Format
