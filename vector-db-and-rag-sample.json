@@ -1,5 +1,145 @@
 [
   {
+    "name": "GraphRAG",
+    "url": "https://github.com/microsoft/graphrag",
+    "description": "A structured approach using knowledge graphs for enhanced context integration and reasoning.",
+    "category": "agentic-rag",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Jaccard Similarity",
+    "url": "https://en.wikipedia.org/wiki/jaccard_index",
+    "description": "Jaccard Similarity",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "metrics & evaluation",
+      "similarity metrics for embeddings"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Token-Oriented Object Notation",
+    "url": "https://github.com/toon-format/toon",
+    "description": "A compact, deterministic JSON format for LLM prompts.",
+    "category": "rag-framework",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "prompting"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Meilisearch",
+    "url": "https://www.meilisearch.com/solutions/vector-search",
+    "description": "Meilisearch",
+    "category": "search-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Typesense",
+    "url": "https://typesense.org/",
+    "description": "Typesense — vector-db-engine API",
+    "category": "vector-db-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Multimodal RAG",
+    "url": "https://developer.nvidia.com/blog/an-easy-introduction-to-multimodal-retrieval-augmented-generation",
+    "description": "Extends RAG to handle multiple modalities such as text, images, and audio.",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Deep Learning for Search",
+    "url": "https://www.manning.com/books/deep-learning-for-search",
+    "description": "Deep Learning for Search",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Contextual Retrieval",
+    "url": "https://www.anthropic.com/engineering/contextual-retrieval",
+    "description": "Contextual Retrieval",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "retrieval"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenSearch",
+    "url": "https://opensearch.org/",
+    "description": "OpenSearch",
+    "category": "search-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "DataStax Astra Vector - Multi-cloud, serverless vector DBaaS",
+    "url": "https://www.datastax.com/products/vector-search",
+    "description": "DataStax Astra Vector - Multi-cloud, serverless vector DBaaS",
+    "category": "vector-db-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "awesome vector search engine",
+      "cloud service"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
     "name": "Vision-RAG",
     "url": "https://www.youtube.com/watch?v=npkp4msweeg",
     "description": "Embeds entire pages as images, allowing vision models to handle reasoning directly without parsing text-RAG.",
@@ -14,23 +154,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "How to choose your vector database in 2023?",
-    "url": "https://www.sicara.fr/blog-technique/how-to-choose-your-vector-database-in-2023",
-    "description": "How to choose your vector database in 2023?",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "articles & talks"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Neural Search In Action",
-    "url": "https://matsui528.github.io/cvpr2023_tutorial_neural_search",
-    "description": "Neural Search In Action",
+    "name": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
+    "url": "https://arxiv.org/abs/2312.07517",
+    "description": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
@@ -38,13 +164,13 @@
       "others"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Pathway",
-    "url": "https://github.com/pathwaycom/pathway",
-    "description": "Performant open-source Python ETL framework with Rust runtime, supporting 300+ data sources.",
+    "name": "Mastra",
+    "url": "https://github.com/mastra-ai/mastra",
+    "description": "Typescript framework for building AI applications.",
     "category": "rag-framework",
     "pricing": "open-source",
     "hasApi": true,
@@ -68,9 +194,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "MuopDB",
-    "url": "https://github.com/hicder/muopdb",
-    "description": "MuopDB — vector-db-engine API",
+    "name": "MyScaleDB",
+    "url": "https://github.com/myscale/myscaledb",
+    "description": "MyScaleDB — vector-db-engine API",
     "category": "vector-db-engine",
     "pricing": "open-source",
     "hasApi": false,
@@ -96,43 +222,30 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Vector database is not a separate database category",
-    "url": "https://nextword.substack.com/p/vector-database-is-not-a-separate",
-    "description": "Vector database is not a separate database category",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "articles & talks"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "ANN Benchmarks",
-    "url": "http://ann-benchmarks.com/",
-    "description": "ANN Benchmarks — rag-eval API",
+    "name": "Weights & Biases",
+    "url": "https://wandb.ai/wandb-japan/rag-hands-on/reports/step-for-developing-and-evaluating-rag-application-with-w-b--vmlldzo1nzu4otax",
+    "description": "Tracks experiments, logs metrics, and visualizes performance.",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "others"
+      "metrics & evaluation",
+      "response evaluation metrics"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Prompt Caching",
-    "url": "https://medium.com/@1kg/prompt-cache-what-is-prompt-caching-a-comprehensive-guide-e6cbae48e6a3",
-    "description": "Optimizes LLMs by storing and reusing precomputed attention states.",
+    "name": "Data cleaning techniques",
+    "url": "https://medium.com/intel-tech/four-data-cleaning-techniques-to-improve-large-language-model-llm-performance-77bee9003625",
+    "description": "Pre-processing steps to refine input data and improve model performance.",
     "category": "rag-framework",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "techniques",
-      "prompting"
+      "data cleaning"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
@@ -151,124 +264,17 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "algolia",
-    "url": "https://www.algolia.com/",
-    "description": "algolia — vector-db-engine API",
+    "name": "hora",
+    "url": "https://github.com/hora-search/hora",
+    "description": "hora — vector-db-engine API",
     "category": "vector-db-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Agentic RAG",
-    "url": "https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag",
-    "description": "Also known as retrieval agents, can make decisions on retrieval processes.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Python Async Best Practices",
-    "url": "https://docs.python.org/3/library/asyncio-dev.html",
-    "description": "Writing efficient async Python code for AI applications",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [
-      "ℹ general information on rag",
-      "implementation resources"
-    ],
-    "urlDomainTier": "documentation",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
-    "url": "https://arxiv.org/abs/2312.07517",
-    "description": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
-    "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Flowise",
-    "url": "https://github.com/flowiseai/flowise",
-    "description": "Drag & drop UI to build customized LLM flows.",
-    "category": "rag-framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "frameworks that facilitate rag"
+      "multidimensional data / vectors"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Meilisearch",
-    "url": "https://www.meilisearch.com/solutions/vector-search",
-    "description": "Meilisearch",
-    "category": "search-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Epsilla",
-    "url": "https://epsilla.com/",
-    "description": "Epsilla — vector-db-engine API",
-    "category": "vector-db-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
-  },
-  {
-    "name": "Corrective RAG",
-    "url": "https://arxiv.org/pdf/2401.15884.pdf",
-    "description": "(CRAG): Methods to correct or refine the retrieved information before integration into LLM responses.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Vector Databases: A Beginner’s Guide!",
-    "url": "https://medium.com/data-and-beyond/vector-databases-a-beginners-guide-b050cbbe9ca0",
-    "description": "Vector Databases: A Beginner’s Guide!",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "articles & talks"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
   }
 ]
