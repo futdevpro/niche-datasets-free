@@ -1,23 +1,23 @@
 [
   {
-    "name": "Agno",
-    "url": "https://github.com/agno-agi/agno",
-    "description": "Open-source framework for building multi-agent systems with memory, knowledge and reasoning.",
+    "name": "DeepEval",
+    "url": "https://github.com/confident-ai/deepeval",
+    "description": "The LLM Evaluation Framework",
     "category": "agent-framework",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "orchestration",
-      "agent framework"
+      "application framework"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Quilt",
-    "url": "https://github.com/quiltdata/quilt",
-    "description": "A self-organizing data hub for S3.",
+    "name": "DVC",
+    "url": "https://github.com/iterative/dvc",
+    "description": "Data Version Control - Git for Data & Models - ML Experiments Management.",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
@@ -25,127 +25,13 @@
       "data management"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OpenModelZ",
-    "url": "https://github.com/tensorchord/openmodelz",
-    "description": "One-click machine learning deployment (LLM, text-to-image and so on) at scale on any cluster (GCP, AWS, Lambda labs, your home lab, or even a single machine).",
-    "category": "deployment-and-infra",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ml platforms"
-    ],
-    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "DEvol (DeepEvolution)",
-    "url": "https://github.com/joeddav/devol",
-    "description": "a basic proof of concept for genetic architecture search in Keras.",
-    "category": "fine-tuning",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "automl"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "TensorBoard",
-    "url": "https://github.com/tensorflow/tensorboard",
-    "description": "TensorFlow's Visualization Toolkit.",
-    "category": "observability",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "visualization"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Awesome Argo",
-    "url": "https://github.com/terrytangyuan/awesome-argo",
-    "description": "A curated list of awesome projects and resources related to Argo",
-    "category": "other",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "awesome lists"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Petals",
-    "url": "https://github.com/bigscience-workshop/petals",
-    "description": "🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading",
-    "category": "serving",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "inference",
-      "inference engine"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Milvus",
-    "url": "https://github.com/milvus-io/milvus",
-    "description": "Vector database for scalable similarity search and AI applications.",
-    "category": "vector-database",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "vector search"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "AI-Researcher",
-    "url": "https://github.com/hkuds/ai-researcher",
-    "description": "[NeurIPS2025] \"AI-Researcher: Autonomous Scientific Innovation\" -- A production-ready version: https://novix.science/chat",
-    "category": "agent-framework",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "orchestration",
-      "evolutionary framework"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Upgini",
-    "url": "https://github.com/upgini/upgini",
-    "description": "Free automated data & feature enrichment library for machine learning: automatically searches through thousands of ready-to-use features from public and community shared data sources and enriches your training dataset with only the accuracy improving features",
-    "category": "data-and-training",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "data/feature enrichment"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Docker",
-    "url": "https://github.com/moby/moby",
-    "description": "Moby is an open-source project created by Docker to enable and accelerate software containerization.",
+    "name": "Kurtosis",
+    "url": "https://github.com/kurtosis-tech/kurtosis",
+    "description": "A build, packaging, and run system for ephemeral multi-container environments.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
@@ -157,56 +43,71 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "autokeras",
-    "url": "https://github.com/keras-team/autokeras",
-    "description": "AutoML library for deep learning.",
+    "name": "TRL",
+    "url": "https://github.com/huggingface/trl",
+    "description": "Train transformer language models with reinforcement learning.",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "automl"
+      "foundation model fine tuning"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "TeamoRouter",
-    "url": "https://router.teamolab.com/",
-    "description": "LLM routing gateway for OpenClaw. One API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best, teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via skill.md.",
+    "name": "AI-Infra-Guard",
+    "url": "https://github.com/tencent/ai-infra-guard",
+    "description": "AI-Infra-Guard is an infrastructure security tool for AI systems.",
+    "category": "guardrails-and-safety",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "agent security"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "PraisonAI",
+    "url": "https://github.com/mervinpraison/praisonai",
+    "description": "Production-ready Multi-AI Agents framework with self-reflection. Fastest agent instantiation (3.77μs), 100+ LLM support via LiteLLM, MCP integration, agentic workflows (route/parallel/loop/repeat), built-in memory, Python & JS SDKs.",
     "category": "observability",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "llmops"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "octoml-profile",
-    "url": "https://github.com/octoml/octoml-profile",
-    "description": "octoml-profile is a python library and cloud service designed to provide the simplest experience for assessing and optimizing the performance of PyTorch models on cloud hardware with state-of-the-art ML acceleration technology.",
-    "category": "other",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "profiling"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "lanarky",
-    "url": "https://github.com/ajndkr/lanarky",
-    "description": "FastAPI framework to build production-grade LLM applications",
-    "category": "serving",
+    "name": "ell",
+    "url": "https://github.com/madcowd/ell",
+    "description": "ell is a language model programming library that treats prompts as programs. Features automatic versioning, serialization, and rich tooling for prompt engineering with Ell Studio for visualization.",
+    "category": "prompt-management",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "frameworks/servers for serving"
+      "prompt engineering"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Inference Benchmark",
+    "url": "https://github.com/ai-hypercomputer/inference-benchmark",
+    "description": "A model server agnostic inference benchmarking tool that can be used to benchmark LLMs running on differet infrastructure like GPU and TPU. It can also be run on a GKE cluster as a container.",
+    "category": "serving",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "inference",
+      "benchmark"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
@@ -227,38 +128,38 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Suna",
-    "url": "https://github.com/kortix-ai/suna",
-    "description": "Suna - Open Source Generalist AI Agent",
+    "name": "Open SWE",
+    "url": "https://github.com/langchain-ai/open-swe",
+    "description": "An Open-Source Asynchronous Coding Agent",
     "category": "agent-framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "orchestration",
-      "agent framework"
+      "runtime",
+      "code agent"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "JuiceFS",
-    "url": "https://github.com/juicedata/juicefs",
-    "description": "A distributed POSIX file system built on top of Redis and S3.",
+    "name": "Harmonia",
+    "url": "https://github.com/ailabstw/harmonia",
+    "description": "Harmonia is an open-source project aiming at developing systems/infrastructures and libraries to ease the adoption of federated learning (abbreviated to FL) for researches and production usage.",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data storage"
+      "federated ml"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Starwhale",
-    "url": "https://github.com/star-whale/starwhale",
-    "description": "An MLOps/LLMOps platform for model building, evaluation, and fine-tuning.",
+    "name": "PAI",
+    "url": "https://github.com/microsoft/pai",
+    "description": "Resource scheduling and cluster management for AI.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
@@ -270,16 +171,115 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "TPOT",
-    "url": "http://automl.info/tpot",
-    "description": "one of the very first AutoML methods and open-source software packages.",
+    "name": "axolotl",
+    "url": "https://github.com/openaccess-ai-collective/axolotl",
+    "description": "A tool designed to streamline the fine-tuning of various AI models, offering support for multiple configurations and architectures.",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "automl"
+      "frameworks for training"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Agentic Radar",
+    "url": "https://github.com/splx-ai/agentic-radar",
+    "description": "Agentic Radar is a security scanner for LLM agentic workflows for potential vulnerabilities.",
+    "category": "guardrails-and-safety",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "agent security"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "LlamaIndex",
+    "url": "https://github.com/jerryjliu/llama_index",
+    "description": "Provides a central interface to connect your LLMs with external data.",
+    "category": "observability",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "llmops"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ChainForge",
+    "url": "https://github.com/ianarawjo/chainforge",
+    "description": "ChainForge is an open-source visual programming environment for battle-testing prompts to LLMs. Compare across models, prompts, and prompt parameters using built-in visualizations.",
+    "category": "prompt-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "prompt engineering"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "bitsandbytes",
+    "url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+    "description": "Accessible large language models via k-bit quantization for PyTorch.",
+    "category": "serving",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ml compiler"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VectorDB",
+    "url": "https://github.com/jina-ai/vectordb",
+    "description": "A Python vector database you just need - no more, no less.",
+    "category": "vector-database",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "vector search"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Agent Shadow Brain",
+    "url": "https://github.com/theihtisham/agent-shadow-brain",
+    "description": "Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm evolution, predictive bug detection, PageRank knowledge graphs, and swarm intelligence. The world's first autonomous coding brain.",
+    "category": "agent-framework",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "orchestration",
+      "agent framework"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Lance",
+    "url": "https://github.com/eto-ai/lance",
+    "description": "Modern columnar data format for ML implemented in Rust.",
+    "category": "data-and-training",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "data storage"
+    ],
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
