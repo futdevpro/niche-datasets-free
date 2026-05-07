@@ -1,8 +1,8 @@
 [
   {
-    "name": "Langflow",
-    "url": "https://openalternative.co/langflow",
-    "description": "Visual builder for AI-powered applications and workflows",
+    "name": "OpenLIT",
+    "url": "https://openalternative.co/openlit",
+    "description": "Monitor, debug, and scale LLM applications with ease",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
@@ -10,25 +10,31 @@
       "ai & machine learning",
       "ai development platforms"
     ],
-    "license": "MIT"
+    "license": "Apache-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Crawl4AI",
-    "url": "https://openalternative.co/crawl4ai",
-    "description": "Open-source web crawler optimized for AI and LLMs",
+    "name": "OpenPanel",
+    "url": "https://openalternative.co/openpanel",
+    "description": "Privacy-first analytics with powerful insights",
     "category": "analytics",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "data & analytics",
-      "data extraction & web scraping"
+      "web & product analytics"
     ],
-    "license": "Apache-2.0"
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Insomnia",
-    "url": "https://openalternative.co/insomnia",
-    "description": "Powerful API development and testing made effortless",
+    "name": "Requestly",
+    "url": "https://openalternative.co/requestly",
+    "description": "Intercept, modify, and debug HTTP(S) requests effortlessly",
     "category": "api-tools",
     "pricing": "open-source",
     "hasApi": true,
@@ -36,12 +42,14 @@
       "developer tools",
       "api development & testing"
     ],
-    "license": "Apache-2.0"
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Tesseral",
-    "url": "https://openalternative.co/tesseral",
-    "description": "Enterprise-ready B2B auth and user management in minutes",
+    "name": "Cerbos",
+    "url": "https://openalternative.co/cerbos",
+    "description": "Secure, policy-based access control for modern applications",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
@@ -49,37 +57,45 @@
       "security & privacy",
       "identity & access management (iam)"
     ],
-    "license": "MIT"
+    "license": "Apache-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Hook0",
-    "url": "https://openalternative.co/hook0",
-    "description": "Open-source webhooks for seamless integrations",
+    "name": "Automatisch",
+    "url": "https://openalternative.co/automatisch",
+    "description": "Open-source integration platform for seamless workflows",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "developer tools",
       "integration platforms"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "draw.io",
-    "url": "https://openalternative.co/draw-io",
-    "description": "Security-first diagramming with no login required",
+    "name": "Dolibarr",
+    "url": "https://www.dolibarr.org",
+    "description": "ERP, CRM, POS, RH",
     "category": "business-intelligence",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data & analytics",
-      "business intelligence & reporting"
+      "alternative-to-sap"
     ],
-    "license": "Apache-2.0"
+    "alternativeTo": "SAP",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "KeystoneJS",
-    "url": "https://openalternative.co/keystonejs",
-    "description": "Flexible, scalable Node.js CMS and app framework",
+    "name": "Strapi",
+    "url": "https://openalternative.co/strapi",
+    "description": "Craft and manage content with ease and flexibility",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": true,
@@ -87,99 +103,125 @@
       "content & publishing",
       "content management systems (cms)"
     ],
-    "license": "MIT"
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Stoat",
-    "url": "https://openalternative.co/stoat",
-    "description": "Privacy-first chat app with customizable interface",
+    "name": "Element",
+    "url": "https://openalternative.co/element",
+    "description": "Secure, decentralized messaging for teams and individuals",
     "category": "collaboration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
       "collaboration & communication"
-    ]
+    ],
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Peppermint",
-    "url": "https://peppermint.sh",
-    "description": "Ticket Management & Helpdesk system",
+    "name": "Sink",
+    "url": "https://openalternative.co/sink",
+    "description": "Simple, speedy, and secure link shortener with analytics",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-zendesk"
+      "business software",
+      "marketing & customer engagement"
     ],
-    "alternativeTo": "Zendesk"
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "crowd.dev",
-    "url": "https://crowd.dev/",
-    "description": "Suite of community and data tools built to unlock community-led growth for your organization",
+    "name": "Convo",
+    "url": "https://github.com/hiconvo",
+    "description": "Open-source alternative to Facebook",
     "category": "community",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-orbit",
-      "alternative-to-common-room",
-      "alternative-to-commsor"
+      "alternative-to-facebook"
     ],
-    "alternativeTo": "Orbit, Common Room, Commsor"
+    "alternativeTo": "Facebook",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Odoo",
-    "url": "https://openalternative.co/odoo",
-    "description": "All-in-one business management suite for modern enterprises",
+    "name": "Ever Gauzy",
+    "url": "https://openalternative.co/ever-gauzy",
+    "description": "Comprehensive open-source business management platform",
     "category": "crm",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
       "crm & sales"
-    ]
+    ],
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Neo4j",
-    "url": "http://neo4j.com/",
-    "description": "Graph database platform",
+    "name": "Conar",
+    "url": "https://openalternative.co/conar",
+    "description": "AI-powered PostgreSQL management made simple",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-tigergraph",
-      "alternative-to-amazon-neptune"
+      "infrastructure & operations",
+      "databases"
     ],
-    "alternativeTo": "TigerGraph, Amazon Neptune"
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "21st.dev",
-    "url": "https://21st.dev/",
-    "description": "The NPM for Design Engineers",
+    "name": "Chalk.ist",
+    "url": "https://openalternative.co/chalkist",
+    "description": "Transform your source code into stunning visuals",
     "category": "design",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-landingfolio"
+      "productivity & utilities",
+      "design & visualization"
     ],
-    "alternativeTo": "Landingfolio"
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Svix",
-    "url": "https://www.svix.com/",
-    "description": "Webhooks as a Service",
+    "name": "Void",
+    "url": "https://openalternative.co/void",
+    "description": "Open source AI code editor with full privacy",
     "category": "developer-tools",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "alternative-to-pusher"
+      "developer tools",
+      "ides & code editors"
     ],
-    "alternativeTo": "Pusher"
+    "license": "Apache-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Dokku",
-    "url": "https://openalternative.co/dokku",
-    "description": "Self-hosted mini-PaaS for deploying applications easily",
+    "name": "Digger",
+    "url": "https://openalternative.co/digger",
+    "description": "Terraform automation with pull request workflows",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": true,
@@ -187,7 +229,10 @@
       "developer tools",
       "build & deployment"
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
     "name": "Fumadocs",
@@ -200,25 +245,30 @@
       "content & publishing",
       "documentation & knowledge base"
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Saleor",
-    "url": "https://openalternative.co/saleor",
-    "description": "Flexible e-commerce platform for modern businesses",
+    "name": "PrestaShop",
+    "url": "https://github.com/prestashop",
+    "description": "Open-source alternative to Shopify",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "e-commerce platforms"
+      "alternative-to-shopify"
     ],
-    "license": "BSD-3-Clause"
+    "alternativeTo": "Shopify",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "OpenCloud",
-    "url": "https://openalternative.co/opencloud",
-    "description": "Secure cloud file sharing with complete data sovereignty",
+    "name": "LocalSend",
+    "url": "https://openalternative.co/localsend",
+    "description": "Share files securely across all devices without servers",
     "category": "file-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -226,31 +276,41 @@
       "productivity & utilities",
       "file management & sync"
     ],
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Invoice Ninja",
-    "url": "https://openalternative.co/invoice-ninja",
-    "description": "Send invoices, accept payments, manage your business—all free",
+    "name": "Gumroad",
+    "url": "https://openalternative.co/gumroad",
+    "description": "Your all-in-one marketplace for digital creators and products",
     "category": "finance",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
       "finance & accounting"
-    ]
+    ],
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "WriteFreely",
-    "url": "https://github.com/writefreely/writefreely",
-    "description": "A clean, Markdown-based publishing platform made for writers. Write together and build a community.",
+    "name": "Formio",
+    "url": "https://form.io/",
+    "description": "A Form and Data Management Platform for Progressive Web Applications",
     "category": "forms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-medium"
+      "alternative-to-vueform",
+      "alternative-to-typeform"
     ],
-    "license": "GNU Affero General Public License v3.0",
-    "alternativeTo": "Medium"
+    "alternativeTo": "Vueform, Typeform",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   }
 ]

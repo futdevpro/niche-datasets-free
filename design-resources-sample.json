@@ -1,230 +1,289 @@
 [
   {
-    "name": "FreeCAD",
-    "url": "https://www.freecadweb.org/",
-    "description": "a free and open-source multiplatform 3D parametric modeler.",
+    "name": "Maya",
+    "url": "https://www.autodesk.com/products/maya/overview",
+    "description": "make animations, environments, motion graphics, virtual reality, and character creation, all in one toolset.",
     "category": "3d",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
       "three d modeling software"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "AChecker",
-    "url": "https://achecker.ca",
-    "description": "accessibility testing web app used to evaluate HTML content for accessibility problems.",
+    "name": "PA11Y",
+    "url": "http://pa11y.org/",
+    "description": "accessibility testing tool to find issues with your web pages. It runs HTML CodeSniffer from the command line for programmatic accessibility reporting. It's an accessibility developer tool.",
     "category": "accessibility",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "table of content",
       "accessibility tools"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "HP Reveal",
-    "url": "https://www.hpreveal.com/",
-    "description": "adding value to printed content through visual interactivity.",
+    "name": "Lightform",
+    "url": "https://lightform.com/",
+    "description": "a design tool for projected AR.",
     "category": "augmented-reality",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
       "augmented reality"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Lumeer",
-    "url": "https://www.lumeer.io/",
-    "description": "an easy visual collaborative tool to plan, organize and track anything, anywhere, anytime.",
+    "name": "Wrike",
+    "url": "https://www.wrike.com/",
+    "description": "an online project management software that gives you full visibility and control over your tasks.",
     "category": "collaboration",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
       "collaboration tools"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Skala Color",
-    "url": "https://bjango.com/mac/skalacolor",
-    "description": "works with a huge variety of formats, covering everything you’re likely to need for web, iOS, Android, and macOS development.",
+    "name": "The Day's Color",
+    "url": "http://www.thedayscolor.com/",
+    "description": "is to find colorful inspiration from things that surround us. Daily.",
     "category": "colors",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "color picker tools"
-    ]
+      "color"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Meteoritic",
-    "url": "https://meteoritic.io/",
-    "description": "animation delights library for iOS and Android. Choose from a variety of animations that suits different app styles.",
+    "name": "Animista",
+    "url": "http://animista.net/",
+    "description": "CSS Animations On Demand",
     "category": "css-animations",
-    "pricing": "unknown",
-    "hasApi": true,
+    "pricing": "free",
+    "hasApi": false,
     "tags": [
-      "table of content",
-      "animation tools"
-    ]
+      "css animations"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Vanilla Framework",
-    "url": "https://vanillaframework.io/",
-    "description": "Simple, extensible CSS framework written in Sass",
+    "name": "Blaze.css",
+    "url": "http://blazecss.com/",
+    "description": "Open source modular CSS toolkit providing great structure for building websites quickly",
     "category": "css-frameworks",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "css frameworks"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "GoodUI",
-    "url": "http://www.goodui.org/",
-    "description": "5 Ways You Can Get A Better UI.",
+    "name": "Screenlane",
+    "url": "https://screenlane.com/",
+    "description": "Screenlane is a website and newsletter that features the latest web and mobile design inspiration.",
     "category": "design-inspiration",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "guidelines"
-    ]
+      "design inspiration"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Primer",
-    "url": "https://primer.style/",
-    "description": "Design, build, and create with GitHub’s design system",
+    "name": "Marvel Style Guide",
+    "url": "https://marvelapp.com/styleguide/overview/introduction",
+    "description": "Set of design principles and components",
     "category": "design-systems",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "design systems & style guides"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Readme.so",
-    "url": "https://readme.so/",
-    "description": "The easisest way to create a README.",
+    "name": "Grapedrop",
+    "url": "https://grapedrop.com/",
+    "description": "design your components, web projects and publish them instantly online, with an easy to use editor.",
     "category": "design-tools",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "others"
-    ]
+      "table of content",
+      "design to code tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Web Developer",
-    "url": "https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm",
-    "description": "Adds a toolbar button with various web developer tools.",
+    "name": "Site Palette",
+    "url": "https://chrome.google.com/webstore/detail/site-palette/pekhihjiehdafocefoimckjpbkegknoh",
+    "description": "A must-have tool for designers and frontend developers to grab colors for any website.",
     "category": "extensions",
     "pricing": "free",
     "hasApi": true,
     "tags": [
       "chrome extensions"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Open Foundry",
-    "url": "https://open-foundry.com/",
-    "description": "FREE platform for curated open-source typefaces",
+    "name": "Dev Fonts",
+    "url": "https://devfonts.gafi.dev/",
+    "description": "Find and use the coding fonts for free",
     "category": "fonts",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "fonts"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Octions",
-    "url": "https://octicons.github.com/",
-    "description": "GitHub's icons.",
+    "name": "SVG Repo",
+    "url": "https://www.svgrepo.com/",
+    "description": "Download free SVG Vectors for commercial use.",
     "category": "icons",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "icon and logo"
-    ]
+      "icons"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Black Illustrations",
-    "url": "https://www.blackillustrations.com/",
-    "description": "Beautiful illustrations of black people (free and premium)",
+    "name": "Clipart",
+    "url": "https://www.clipart.email/",
+    "description": "Choose great clipart, png, coloring pages, drawings and more for your projects from the free collection!",
     "category": "illustrations",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "vectors & clip art"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Vecta Nano",
-    "url": "https://vecta.io/nano",
-    "description": "Uses lossless compression to compress inefficient SVG codes by removing unnecessary data. (Free & Paid)",
+    "name": "iLoveIMG",
+    "url": "https://www.iloveimg.com/",
+    "description": "The fastest free web app for easy image modification",
     "category": "image-compression",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "image compression"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Popmotion",
-    "url": "https://popmotion.io/",
-    "description": "Simple animation libraries for delightful user interfaces.",
+    "name": "nice-waves",
+    "url": "https://gvguy.github.io/nice-waves",
+    "description": "Beautiful animated waves",
     "category": "javascript-libraries",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "javascript animation libraries"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Lorem Ipsum",
-    "url": "http://www.lipsum.com/feed/html",
-    "description": "Lorem Ipsum",
+    "name": "Facebook HandsKit",
+    "url": "http://facebook.design/handskit",
+    "description": "Photos of hands holding various phones, to be used in any presentation of your designs.",
     "category": "mockups",
-    "pricing": "unknown",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "mockup"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Hey Design Systems!",
-    "url": "https://heydesign.systems/",
-    "description": "your introduction to design systems",
+    "name": "Share on Twitter",
+    "url": "https://twitter.com/home?status=checkout%20this%20awesome%20stock%20resources%20list%20from%20%40neutraltone.%20https%3a%2f%2fgithub.com%2fneutraltone%2fawesome-stock-resources%20%23design",
+    "description": "Share on Twitter",
     "category": "other",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "design systems & frameworks",
-      "references and learning resources"
-    ]
+      "how to share"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
   },
   {
-    "name": "POP",
-    "url": "https://marvelapp.com/pop/?popref=1",
-    "description": "Transform pen and paper ideas into a real working prototype.",
+    "name": "Appoint.ly",
+    "url": "https://appoint.ly",
+    "description": "a web-based scheduling tool that helps to schedule meetings quickly through the integration with calendars online.",
     "category": "prototyping",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "prototyping"
-    ]
-  },
-  {
-    "name": "LoremPixel",
-    "url": "https://lorempixel.com/",
-    "description": "an API that serves stock photos at specified sizes and categories. Great for placeholder/user-generated content.",
-    "category": "stock-photos",
     "pricing": "unknown",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "table of content",
-      "stock photos tools"
-    ]
+      "user research tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Flickr Commons",
+    "url": "https://www.flickr.com/commons",
+    "description": ":copyright: Flickr's catalogue of the worlds public photo archives.",
+    "category": "stock-photos",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "photography",
+      "public domain"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   }
 ]

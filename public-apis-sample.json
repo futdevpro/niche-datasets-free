@@ -1,124 +1,150 @@
 [
   {
-    "name": "xeno-canto",
-    "url": "https://xeno-canto.org/explore/api",
-    "description": "Bird recordings",
+    "name": "Zoo Animals",
+    "url": "https://zoo-animal-api.herokuapp.com/",
+    "description": "Facts and pictures of zoo animals",
     "category": "animals",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "animals",
-      "no-auth"
+      "no-auth",
+      "cors-enabled"
     ],
     "auth": "none",
     "https": true,
-    "cors": "unknown"
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "AcgClub",
-    "url": "https://github.com/rabtman/acgclub/wiki/%e5%ae%85%e7%a4%beacgclub-api",
-    "description": "AcgClub API provides ACG-related aggregation services.",
+    "name": "Shikimori",
+    "url": "https://shikimori.one/api/doc",
+    "description": "Anime discovery, tracking, forum, rates",
     "category": "anime",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "table of contents",
       "anime"
     ],
+    "auth": "oauth",
+    "https": true,
     "cors": "unknown",
-    "auth": "apiKey",
-    "https": true
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "MalShare",
-    "url": "https://malshare.com/doc.php",
-    "description": "Malware Archive / file sourcing",
+    "name": "Dymo API",
+    "url": "https://dymo.tpeoficial.com/",
+    "description": "Multi-account and fraud detection. Sending emails without ending up in SPAM.",
     "category": "anti-malware",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "anti-malware"
+      "anti-malware",
+      "cors-enabled"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "no"
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Color Name API",
-    "url": "https://elastiq.ch/",
-    "description": "An API that provides names for colors based on their hex value",
+    "name": "Dribbble",
+    "url": "https://developer.dribbble.com/",
+    "description": "Discover the world’s top designers & creatives",
     "category": "art-design",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer-tools"
+      "art & design"
     ],
-    "auth": "apiKey",
+    "auth": "oauth",
     "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "PayPal",
-    "url": "https://developer.paypal.com/docs/integration/direct/identity/log-in-with-paypal",
-    "description": "Enables your customers to sign in to your web site quickly and securely using their PayPal login credentials.",
+    "name": "Jumio",
+    "url": "https://www.jumio.com/developer",
+    "description": "Provides identity verification, KYC (Know Your Customer), and AML (Anti-Money Laundering) solutions, including document verification and biometric authentication.",
     "category": "authentication",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "table of contents",
-      "login authentication"
+      "fraud prevention"
     ],
-    "cors": "unknown",
     "auth": "apiKey",
-    "https": true
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Nownodes",
-    "url": "https://nownodes.io/",
-    "description": "Blockchain-as-a-service solution that provides high-quality connection via API",
+    "name": "Covalent",
+    "url": "https://www.covalenthq.com/docs/api",
+    "description": "Multi-blockchain data aggregator platform",
     "category": "blockchain",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "blockchain"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "indoona",
-    "url": "https://developer.indoona.com/",
-    "description": "The indoona RESTful API over HTTPS that lets you: send messages to indoona users and groups, create special address book contacts to let indoona users chat with your application.",
+    "name": "Thirukkural",
+    "url": "https://api-thirukkural.web.app/",
+    "description": "1330 Thirukkural poems and explanation in Tamil and English",
     "category": "books",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "books",
+      "no-auth",
+      "cors-enabled"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Next Big Sound",
+    "url": "https://api3.nextbigsound.com/",
+    "description": "API offers a very simple interface to access data from NBS. Ruby wrapper available.",
+    "category": "business",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "food",
-      "messaging"
+      "table of contents",
+      "music analytics"
     ],
     "cors": "unknown",
     "auth": "apiKey",
-    "https": true
-  },
-  {
-    "name": "Freelancer",
-    "url": "https://developers.freelancer.com/",
-    "description": "Hire freelancers to get work done",
-    "category": "business",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "business"
-    ],
-    "auth": "oauth",
     "https": true,
-    "cors": "unknown"
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Byabbe",
-    "url": "https://byabbe.se/on-this-day/#/default/get__month___day__events_json",
-    "description": "Seach histories from wikipedia for a particular day",
+    "name": "TimeZones iCal Library",
+    "url": "https://tz.add-to-calendar-technology.com/",
+    "description": "Database of official time zones and corresponding iCal VTIMEZONE blocks",
     "category": "calendar",
     "pricing": "free",
     "hasApi": false,
@@ -128,7 +154,10 @@
     ],
     "auth": "none",
     "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "CircleCI",
@@ -142,38 +171,46 @@
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Pantry",
-    "url": "https://getpantry.cloud/",
-    "description": "Free JSON storage for small projects",
+    "name": "Amazon Cloud Drive",
+    "url": "https://developer.amazon.com/amazon-drive",
+    "description": "With the Amazon Cloud Drive's updated RESTful API and SDKs for Android and iOS, Amazon Drive is moving to an invite-only developer offering to ensure they can provide a consistently viable cloud drive service available for supported use-cases.",
     "category": "cloud-storage",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "cloud storage & file sharing",
-      "no-auth",
-      "cors-enabled"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes"
-  },
-  {
-    "name": "FTX",
-    "url": "https://docs.ftx.com/",
-    "description": "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs",
-    "category": "cryptocurrency",
     "pricing": "freemium",
     "hasApi": true,
+    "tags": [
+      "table of contents",
+      "cloud storage"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "INFURA Ethereum",
+    "url": "https://infura.io/product/ethereum",
+    "description": "Interaction with the Ethereum mainnet and several testnets",
+    "category": "cryptocurrency",
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
       "cryptocurrency",
       "cors-enabled"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "yes"
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "Coinnect",
@@ -188,80 +225,97 @@
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "yes"
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "VATlayer",
-    "url": "https://vatlayer.com/",
-    "description": "VAT number validation",
+    "name": "US Autocomplete",
+    "url": "https://www.smarty.com/docs/cloud/us-autocomplete-pro-api",
+    "description": "Enter address data quickly with real-time address suggestions",
     "category": "data-validation",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "data validation"
+      "data validation",
+      "cors-enabled"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "API Status Check",
-    "url": "https://apistatuscheck.com/api/status",
-    "description": "Real-time status monitoring for 270+ APIs and services",
+    "name": "Chomp Food Database API Documentation",
+    "url": "https://chompthis.com",
+    "description": "## Important An **[API key](https://chompthis.com/api/)** is required for access to this API. Get yours at **[https://chompthis.com/api](https://chompthis.com/api/)**. ### Getting Started * **[Subscribe](https://chompthis.com/api/#pricing)** to the API. * Scroll down and click the \"**Authorize**\" button. * Enter your API key into the \"**value**\" input, click the \"**Authorize**\" button, then click the \"**Close**\" button. * Scroll down to the section titled \"**default**\" and click on the API en...",
     "category": "development",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "development",
-      "no-auth",
-      "cors-enabled"
+      "tools"
     ],
-    "auth": "none",
+    "auth": "apiKey",
     "https": true,
-    "cors": "yes"
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "verbose",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Free Dictionary",
-    "url": "https://dictionaryapi.dev/",
-    "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
+    "name": "Cambridge Dictionaries Online",
+    "url": "http://dictionary.cambridge.org/license.html",
+    "description": "Access to Cambridge’s custom-developed API. 💸",
     "category": "dictionaries",
-    "pricing": "free",
-    "hasApi": false,
+    "pricing": "freemium",
+    "hasApi": true,
     "tags": [
-      "dictionaries",
-      "no-auth"
+      "table of contents",
+      "dictionary"
     ],
-    "auth": "none",
-    "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "RWLabs",
-    "url": "https://apidoc.rwlabs.org/#api-use",
-    "description": "All types of disaster data",
+    "name": "PredictHQ",
+    "url": "https://docs.predicthq.com/",
+    "description": "Events and natural disasters data",
     "category": "disasters",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "disasters"
     ],
-    "auth": "apiKey",
+    "auth": "oauth",
     "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Todoist",
-    "url": "https://developer.todoist.com/",
-    "description": "Todo Lists",
+    "name": "Smart Image Enhancement API",
+    "url": "https://apilayer.com/marketplace/image_enhancement-api",
+    "description": "Performs image upscaling by adding detail to images through multiple super-resolution algorithms",
     "category": "documents",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "documents & productivity"
     ],
-    "auth": "oauth",
+    "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "Discovery Market Research",
@@ -273,20 +327,27 @@
     "tags": [],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "verbose",
+    "categorizationTier": "specific"
   },
   {
-    "name": "MailboxValidator Free Email Checker",
-    "url": "https://mailboxvalidator.com",
-    "description": "The MailboxValidator Free Email Checker checks if a single email address is from a free email provider and returns the results in either JSON or XML format. Refer to https://www.mailboxvalidator.com/api-email-freem for further information.",
+    "name": "Cloudmersive Validate",
+    "url": "https://cloudmersive.com/validate-api",
+    "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
     "category": "email",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "email"
+      "email",
+      "cors-enabled"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown"
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   }
 ]

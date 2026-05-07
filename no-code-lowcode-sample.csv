@@ -1,21 +1,21 @@
-name,url,description,category,pricing,hasApi,tags,codeType
-Obviously AI,https://www.obviously.ai/,Machine learning tool that makes data science effortless by enabling anyone to instantly run accurate predictions as well as analytics on their data by asking questions in natural language.,ai-ml,freemium,false,"[""machine learning""]",low-code
-Google Analytics,https://analytics.google.com,Free website analytics.,analytics,free,false,"[""analytics""]",low-code
-BESSER,https://besser.readthedocs.io/en/latest,A Python-based low-modeling low-code platform for smart software,app-builder,open-source,false,"[""uncategorized""]",low-code
-Power Platform Connectors,https://github.com/microsoft/powerplatformconnectors,"This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors.",automation,open-source,false,"[""reference resources"",""power platform (microsoft)""]",low-code
-Itura,https://itura-ai.com,"Build your own AI conversational, database-backed apps.",chatbot,freemium,false,"[""misc""]",no-code
-Trello,https://trello.com/louisveyret1/boards,All-in-one workspace and collaboration for businesses,collaboration,freemium,false,"[""collaboration""]",both
-Drift,https://www.drift.com/,Customer support chatbot,crm,freemium,false,"[""customer support""]",both
-Octoparse,https://octoparse.com,Easy Web Scraping for Anyone,data-scraping,freemium,true,"[""scrapers""]",low-code
-DocuPotion,https://docupotion.com/,Generate PDFs at scale in Bubble and Airtable.,database,freemium,false,"[""misc""]",both
-Penpot,https://penpot.app,"Open source, web-based interface design application.",design,open-source,false,"[""design""]",low-code
-Payhip,https://payhip.com,Simple checkout and storefront with VAT support.,ecommerce,freemium,false,"[""ecommerce""]",no-code
-FormNX,https://formnx.com,"Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",forms,freemium,false,"[""forms""]",no-code
-Outcode,https://outcode.biz/,Create data apps without code,internal-tools,freemium,false,"[""internal""]",no-code
-Bannerbear,https://www.bannerbear.com/,"Auto-generate social media visuals, ecommerce banners, dynamic email images and more with our API and integrations.",marketing,freemium,true,"[""marketing""]",low-code
-Bravo Studio,https://www.bravostudio.app/,Where your designs become real native apps,mobile,freemium,false,"[""mobile apps""]",no-code
-NoCode Essentials,https://nocodeessentials.com/,Hand-picked collection of no-code tools.,other,free,false,"[""resources""]",no-code
-AnveVoice,https://anvevoice.app,"No-code AI voice agent for websites — one-line JS embed, trains on your content, talks to visitors in 50+ languages.",video,freemium,false,"[""voice""]",no-code
-Destack,https://github.com/liveduo/destack,Visual page builder for developers,website-builder,open-source,true,"[""landing pages""]",low-code
-RemoteOpenClaw,https://remoteopenclaw.com,Open marketplace for AI skills and personas built on OpenClaw.,ai-ml,unknown,false,"[""machine learning""]",low-code
-Matomo,https://matomo.org,Self-hosted Google Analytics alternative with full data ownership.,analytics,open-source,false,"[""analytics""]",low-code
+name,url,description,category,pricing,hasApi,tags,codeType,urlDomainTier,descriptionLengthTier,categorizationTier
+h2o,https://www.h2o.ai/,"Get free, hands-on experience with the H2O AI Hybrid Cloud.",ai-ml,free,false,"[""ai""]",low-code,commercial,normal,specific
+Fathom,https://usefathom.com,"Privacy-focused, cookie-less analytics that’s easy to set up and use.",analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
+Appypie AppMakr,https://www.appypie.com/app-builder/appmaker,App builder to make your app without coding.,app-builder,freemium,false,"[""apps""]",no-code,commercial,terse,specific
+Power Platform Adoption Framework,https://github.com/powerplatformaf/powerplatformaf,"The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations.",automation,open-source,true,"[""tools, extensions and frameworks"",""power platform (microsoft)""]",low-code,repo-hosted,normal,specific
+Tidio,https://www.tidio.com,AI chatbot and live chat software for small businesses and ecommerce.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
+Custom Connector Docs,https://github.com/workato/custom_connector_docs,Source files for Workato custom connector documentation.,collaboration,open-source,false,"[""reference resources"",""workato""]",low-code,repo-hosted,normal,specific
+Monday Sales CRM,https://monday.com/crm,"Visual, customizable CRM built into Monday’s work OS.",crm,freemium,false,"[""crm""]",both,commercial,normal,specific
+Browse AI,https://browse.ai/,Train bots to monitor and extract data in minutes.,data-scraping,freemium,false,"[""scrapers""]",low-code,commercial,normal,specific
+Dashbase,https://www.dashbase.ai,Build collaborative KPI dashboards from your SQL database.,database,freemium,false,"[""database""]",low-code,commercial,normal,specific
+Canva,https://canva.com,"Design stunning social posts, ads, and banners.",design,freemium,false,"[""marketing""]",no-code,commercial,terse,specific
+Shopify,https://shopify.com,Build your ecommerce store.,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
+Feathery,https://feathery.io,Powerful form builder for product teams,forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
+UI Bakery,https://uibakery.io,Custom web applications at speed 🍩,internal-tools,freemium,false,"[""internal""]",low-code,commercial,terse,specific
+Klaviyo,https://www.klaviyo.com/,Ecommerce marketing automation platform.,marketing,freemium,false,"[""marketing""]",no-code,commercial,terse,specific
+miniAppMaker,https://miniappmaker.com,Make mobile apps using Airtable!,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
+Systematic,https://systematic.workato.com/,The only community for business systems.,other,freemium,false,"[""community"",""workato""]",both,commercial,terse,other
+CCHub,https://github.com/moresl/cchub,"A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).",video,open-source,false,"[""video""]",no-code,repo-hosted,detailed,specific
+Without Code,https://www.wocode.com,Code Free Website Builder,website-builder,free,false,"[""websites""]",no-code,commercial,terse,specific
+Mazaal AI,https://mazaal.ai,No-code AI workflow platform connected with most popular 200 apps that you use daily.,ai-ml,freemium,false,"[""machine learning""]",no-code,commercial,normal,specific
+Simple Analytics,https://simpleanalytics.io,"Simple, clean, and friendly analytics.",analytics,freemium,false,"[""analytics""]",low-code,commercial,terse,specific

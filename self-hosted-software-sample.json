@@ -1,15 +1,18 @@
 [
   {
-    "name": "Socioboard",
-    "url": "https://github.com/socioboard/socioboard-5.0",
-    "description": "- Social media management, analytics, and reporting platform supporting nine social media networks out-of-the-box.",
+    "name": "Superset",
+    "url": "http://superset.apache.org/",
+    "description": "Modern data exploration and visualization platform. (Source Code)",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
       "analytics"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "Piler",
@@ -21,30 +24,40 @@
     "tags": [
       "software",
       "archiving and digital preservation (dp)"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "AliasVault",
-    "url": "https://www.aliasvault.net",
-    "description": "End-to-end encrypted password manager with a built-in email alias generator and server. (Source Code)",
+    "name": "Passbolt",
+    "url": "https://www.passbolt.com/",
+    "description": "Collaborative password manager. (Source Code)",
     "category": "authentication",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "password managers"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "HRConvert2",
-    "url": "https://github.com/zelon88/hrconvert2",
-    "description": "Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability.",
+    "name": "gocron",
+    "url": "https://github.com/flohoss/gocron",
+    "description": "Task scheduler that allows users to specify recurring jobs via a simple YAML configuration file.",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "automation"
-    ]
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "Noddity",
@@ -55,183 +68,233 @@
     "hasApi": false,
     "tags": [
       "blogging platforms"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "unmark",
-    "url": "https://github.com/plainmade/unmark",
-    "description": "Open source to do app for links.",
+    "name": "Buku",
+    "url": "https://github.com/jarun/buku",
+    "description": "Powerful bookmark manager and a personal textual mini-web.",
     "category": "bookmarks",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "bookmarks and link sharing"
-    ]
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Baïkal",
-    "url": "https://sabre.io/baikal",
-    "description": "Lightweight CalDAV and CardDAV server based on sabre/dav. (Source Code)",
+    "name": "Rallly",
+    "url": "https://rallly.co",
+    "description": "Create polls to vote on dates and times (alternative to Doodle). (Demo, Source Code)",
     "category": "calendar-contacts",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
-      "calendar & contacts"
-    ]
+      "booking and scheduling"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Omeka",
-    "url": "https://omeka.org",
-    "description": "Create complex narratives and share rich collections, adhering to Dublin Core standards with Omeka on your server, designed for scholars, museums, libraries, archives, and enthusiasts. (Demo, Source Code)",
+    "name": "Typemill",
+    "url": "https://typemill.net/",
+    "description": "Author-friendly flat-file-cms with a visual markdown editor based on vue.js. (Source Code)",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
       "content management systems (cms)"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Haraka",
-    "url": "https://haraka.github.io/",
-    "description": "Fast, highly extensible, and event driven SMTP server. (Source Code)",
+    "name": "Tiny Tiny IRC",
+    "url": "https://tt-rss.org/tt-irc",
+    "description": "An open source AJAX-powered chat platform with support for IRC (Source Code).",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "communication - email - mail transfer agents"
-    ]
+      "communication systems",
+      "irc"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Krayin",
-    "url": "https://krayincrm.com/",
-    "description": "CRM solution for SMEs and Enterprises for complete customer lifecycle management. (Demo, Source Code)",
+    "name": "Corteza",
+    "url": "https://docs.cortezaproject.org",
+    "description": "CRM including a unified workspace, enterprise messaging and a low code environment for rapidly and securely delivering records-based management solutions. (Demo, Source Code)",
     "category": "crm",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "customer relationship management (crm)"
-    ]
+    ],
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Baserow",
-    "url": "https://baserow.io/",
-    "description": "Create your own database without technical experience (alternative to Airtable). (Source Code)",
+    "name": "Datasette",
+    "url": "https://datasette.io/",
+    "description": "Explore and publish data with easy import and export and database management. (Source Code)",
     "category": "database",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
       "database management"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Technitium DNS Server",
-    "url": "https://technitium.com/dns",
-    "description": "Authoritative/recursive DNS server with ad blocking functionality. (Source Code)",
+    "name": "Pi-hole",
+    "url": "https://pi-hole.net/",
+    "description": "Blackhole for Internet advertisements with a GUI for management and monitoring. (Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
       "dns"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Calibre Web Automated",
-    "url": "https://github.com/crocodilestick/calibre-web-automated",
-    "description": "All-in-one solution, combining the modern lightweight web UI from Calibre-Web with the robust, versatile feature set of Calibre (fork of Calibre Web).",
+    "name": "Teedy",
+    "url": "https://teedy.io/",
+    "description": "(Ex SismicsDocs) Lightweight document management system packed with all the features you can expect from big expensive solutions. (Demo, Source Code)",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "document management - e-books"
-    ]
+      "document management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Bagisto",
-    "url": "https://bagisto.com/en",
-    "description": "Leading Laravel open source e-commerce framework with multi-inventory sources, taxation, localization, dropshipping and more exciting features. (Demo, Source Code)",
+    "name": "s-cart",
+    "url": "https://s-cart.org/",
+    "description": "E-commerce website for individuals and businesses, built on top of Laravel Framework. (Demo, Source Code)",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "software",
       "e-commerce"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "RSS2EMail",
-    "url": "https://github.com/rss2email/rss2email",
-    "description": "Fetches RSS/Atom-feeds and pushes new content to any email-receiver, supports OPML.",
+    "name": "RSSHub",
+    "url": "https://docs.rsshub.app",
+    "description": "Easy to use, and extensible RSS feed aggregator capable of generating RSS feeds from pretty much everything ranging from social media to university departments. (Demo, Source Code)",
     "category": "feed-readers",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
       "feed readers"
-    ]
+    ],
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "ipfs.pics",
-    "url": "https://github.com/ipfspics/server",
-    "description": "ipfs.pics is a distributed image hosting website.",
+    "name": "Uguu",
+    "url": "https://github.com/nokonoko/uguu",
+    "description": "Stores files and deletes after X amount of time.",
     "category": "file-transfer",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "file sharing and synchronization"
-    ]
+      "software",
+      "file transfer - single-click & drag-n-drop upload"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Economizzer",
-    "url": "http://www.economizzer.org/",
-    "description": "An easy and secure system for you to manage your personal money and achieve your goals, and can be accessed by computer, tablet or smartphone. (Demo, Source Code)",
+    "name": "GRR",
+    "url": "https://grr.devome.com/?lang=en",
+    "description": "Assets management and booking for small/medium companies. (Source Code)",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "money, budgeting and management"
-    ]
+      "software",
+      "money, budgeting & management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Mindustry",
-    "url": "https://mindustrygame.github.io/",
-    "description": "Factorio-like tower defense game. Build production chains to gather more resources, and build complex facilities. (Source Code)",
+    "name": "r/RetroArch",
+    "url": "https://www.reddit.com/r/retroarch",
+    "description": "r/RetroArch",
     "category": "games",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "games"
-    ]
+      "install from source",
+      "gaming"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Digipad",
-    "url": "https://digipad.app/",
-    "description": "An online self-hosted application for creating collaborative digital notepads (Documentation in french). (Source Code)",
+    "name": "Group Office",
+    "url": "https://www.group-office.com",
+    "description": "Enterprise CRM and groupware tool. Share projects, calendars, files and e-mail online with co-workers and clients. (Source Code)",
     "category": "groupware",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
       "groupware"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Getting Started with ESPHome and Home Assistant",
-    "url": "https://esphome.io/guides/getting_started_hassio.html",
-    "description": "Getting Started with ESPHome and Home Assistant",
+    "name": "The Server Store",
+    "url": "https://www.theserverstore.com/",
+    "description": "The Server Store",
     "category": "iot",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "raspberry pi tools",
-      "esphome"
-    ]
+      "install from source",
+      "system hardware"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   }
 ]

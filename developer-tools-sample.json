@@ -1,91 +1,115 @@
 [
   {
-    "name": "CloudSight",
-    "url": "https://cloudsight.ai/",
-    "description": "Digital media brand recognition.",
+    "name": "OpenHands",
+    "url": "https://all-hands.dev/",
+    "description": "an open-source Devin alternative. [](https://github.com/All-Hands-AI/OpenHands)",
     "category": "ai-coding",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "computer vision"
-    ]
+      "ai coding"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "s3cmd",
-    "url": "https://github.com/s3tools/s3cmd",
-    "description": "the S3 CLI tool for Amazon",
+    "name": "positionstack",
+    "url": "https://positionstack.com/",
+    "description": "Free geocoding for global places and coordinates. 25,000 Requests per month for personal use.",
     "category": "analytics",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "data"
-    ]
-  },
-  {
-    "name": "WorkOS",
-    "url": "https://workos.com/",
-    "description": "Enterprise SSO and more out-of-the-box enterprise features. [](https://launchweek.dev)",
-    "category": "authentication",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "authentication & identity"
-    ]
-  },
-  {
-    "name": "Zappr",
-    "url": "https://github.com/zalando/zappr",
-    "description": "GitHub integration built to enhance your project workflow via enable/disable pull request approval checks.",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "nhost.io",
-    "url": "https://nhost.io",
-    "description": "Serverless backend for web and mobile apps. The free plan includes PostgreSQL, GraphQL (Hasura), Authentication, Storage, and Serverless Functions.",
-    "category": "backend-as-a-service",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "baas"
-    ]
+      "data visualization on maps"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Terramate",
-    "url": "https://terramate.io/",
-    "description": "Terramate is an orchestration and management platform for Infrastructure as Code (IaC) tools such as Terraform, OpenTofu, and Terragrunt. Free up to 2 users including all features.",
+    "name": "BoxyHQ Enterprise SSO",
+    "url": "https://boxyhq.com",
+    "description": "Open-source API for enterprise SSO and Directory Sync.",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "authentication & identity"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Backlog",
+    "url": "https://backlog.com",
+    "description": "Everything your team needs to release great projects in one platform. The free plan offers 1 Project with ten users & 100MB of storage.",
+    "category": "automation",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "issue tracking and project management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com/",
+    "description": "Hosted and open-source managed Postgres DB like Firebase. [](https://github.com/supabase/supabase) [](https://launchweek.dev/lw/2024/mega)",
+    "category": "backend-as-a-service",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "backend-as-a-service"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "cirun.io",
+    "url": "https://cirun.io",
+    "description": "Free for public GitHub repositories",
     "category": "ci-cd",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "ci and cd"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "DatoCMS",
-    "url": "https://www.datocms.com/",
-    "description": "API-based CMS.",
+    "name": "Solo",
+    "url": "https://soloist.ai",
+    "description": "Free AI website creator from Mozilla, create a beautiful website for your business from a few simple inputs. Free custom domain, no credit card needed.",
     "category": "cms",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "cms (headless)"
-    ]
-  },
-  {
-    "name": "git-up",
-    "url": "https://github.com/aanand/git-up",
-    "description": "a better 'git pull'",
-    "category": "code-quality",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "git"
-    ]
+      "cms"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "QuickType.io",
+    "url": "https://quicktype.io/",
+    "description": "Quickly auto-generate models/class/type/interface and serializers from JSON, schema, and GraphQL for working with data quickly & safely in any programming language. Convert JSON into gorgeous, typesafe code in any language.",
+    "category": "code-quality",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
   },
   {
     "name": "skyvia.com",
@@ -96,127 +120,164 @@
     "hasApi": false,
     "tags": [
       "managed data services"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "ReqBin",
-    "url": "https://reqbin.com/",
-    "description": "Post HTTP Requests Online. Popular Request Methods include GET, POST, PUT, DELETE, and HEAD. Supports Headers and Token Authentication. Includes a basic login system for saving your requests.",
+    "name": "gtop",
+    "url": "https://github.com/aksakalli/gtop",
+    "description": "gtop — debugging API",
     "category": "debugging",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "miscellaneous"
-    ]
+      "diagnostics"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
   },
   {
-    "name": "MDB GO",
-    "url": "https://mdbgo.com/",
-    "description": "Free hosting for one project with two weeks Container TTL, 500 MB RAM per project, SFTP - 1G disk space.",
+    "name": "Koyeb",
+    "url": "https://www.koyeb.com/",
+    "description": "Serverless platform for deploying full-stack apps and APIs in minutes. [](https://launchweek.dev)",
     "category": "deployment-hosting",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "web hosting"
-    ]
+      "deployment hosting"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "marvelapp.com",
-    "url": "https://marvelapp.com/",
-    "description": "Design, prototyping, and collaboration, free plan limited to one user and project.",
+    "name": "DeepLearning.AI Short Courses",
+    "url": "https://www.deeplearning.ai/short-courses",
+    "description": "Free short courses from industry-leading experts to get hands-on experience with the latest generative AI tools and techniques in an hour or less.",
     "category": "documentation",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "design and ui"
-    ]
+      "education and career development"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Envkey",
-    "url": "https://www.envkey.com/",
-    "description": "Environment management with syncing mechanism for all apps.",
+    "name": "zgen",
+    "url": "https://github.com/tarjoilija/zgen",
+    "description": "Faster framework for managing your zsh configuration, backward compatible with oh-my-zsh plugins",
     "category": "environment-secrets",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
-      "environment & secret management"
-    ]
+      "shell"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Bucket",
-    "url": "https://bucket.co",
-    "description": "Purpose-built feature flagging for B2B SaaS products.",
+    "name": "Abby",
+    "url": "https://www.tryabby.com",
+    "description": "Open-Source feature flags & A/B testing. Configuration as Code & Fully Typed Typescript SDKs. Strong integration with Frameworks such as Next.js & React. Generous free tier and cheap scaling options.",
     "category": "feature-flags",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
-      "feature flags"
-    ]
+      "feature toggles management platforms"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Keycastr",
-    "url": "https://github.com/sdeken/keycastr",
-    "description": "show your keys while",
+    "name": "RunMat",
+    "url": "https://runmat.com/sandbox",
+    "description": "GPU-accelerated numerical computing IDE in the browser. Write and run MATLAB-syntax .m files with automatic GPU acceleration via WebAssembly and WebGPU. No install, no account, no license fees. Open source runtime with CLI, NPM package, and Jupyter kernel support.",
     "category": "ide-editor",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "desktop"
-    ]
+      "ide and code editing"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
   },
   {
-    "name": "AWS Step Functions",
-    "url": "https://aws.amazon.com/step-functions",
-    "description": "Visual workflow service to build distributed applications and automate processes",
+    "name": "Lottie",
+    "url": "https://airbnb.io/lottie",
+    "description": "an open-source library for rendering After Effects animations in real-time on the web, providing a simple and flexible API for adding animations to your web pages and applications",
     "category": "infrastructure",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
-      "orchestration"
-    ]
+      "the awesome list",
+      "front-end"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "YepCode",
-    "url": "https://yepcode.io/",
-    "description": "Build and run serverless functions with the best development experience.",
+    "name": "PDF-API.io",
+    "url": "https://pdf-api.io",
+    "description": "PDF Automation API, visual template editor or HTML to PDF, dynamic data integration, and PDF rendering with an API. The free plan comes with one template, 100 PDFs/month.",
     "category": "integrations",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "integrations"
-    ]
-  },
-  {
-    "name": "Loco",
-    "url": "https://localise.biz/",
-    "description": "Free up to 2000 translations, Unlimited translators, ten languages/project, 1000 translatable assets/project",
-    "category": "localization",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "translation management"
-    ]
-  },
-  {
-    "name": "EmailLabs.io",
-    "url": "https://emaillabs.io/en",
-    "description": "Send up to 9,000 Emails for free every month, up to 300 emails daily.",
-    "category": "mail",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "email"
-    ]
-  },
-  {
-    "name": "tinypng.com",
-    "url": "https://tinypng.com/",
-    "description": "API to compress and resize PNG and JPEG images, offers 500 compressions for free each month",
-    "category": "media",
     "pricing": "free",
     "hasApi": true,
     "tags": [
+      "apis, data, and ml"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SimpleLocalize",
+    "url": "https://simplelocalize.io/",
+    "description": "Free up to 100 translation keys, unlimited strings, unlimited languages, startup deals",
+    "category": "localization",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "translation management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Proton Mail",
+    "url": "https://proton.me/mail",
+    "description": "Free secure email account service provider with built-in end-to-end encryption. Free 1GB storage.",
+    "category": "mail",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "email"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "LibreQR",
+    "url": "https://libreqr.com",
+    "description": "Free QR code generator focused on privacy and no tracking. Free to use with no data collection.",
+    "category": "media",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
       "storage and media processing"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   }
 ]

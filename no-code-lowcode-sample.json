@@ -1,243 +1,305 @@
 [
   {
-    "name": "Obviously AI",
-    "url": "https://www.obviously.ai/",
-    "description": "Machine learning tool that makes data science effortless by enabling anyone to instantly run accurate predictions as well as analytics on their data by asking questions in natural language.",
+    "name": "h2o",
+    "url": "https://www.h2o.ai/",
+    "description": "Get free, hands-on experience with the H2O AI Hybrid Cloud.",
     "category": "ai-ml",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "machine learning"
+      "ai"
     ],
-    "codeType": "low-code"
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Google Analytics",
-    "url": "https://analytics.google.com",
-    "description": "Free website analytics.",
+    "name": "Fathom",
+    "url": "https://usefathom.com",
+    "description": "Privacy-focused, cookie-less analytics that’s easy to set up and use.",
     "category": "analytics",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "analytics"
     ],
-    "codeType": "low-code"
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "BESSER",
-    "url": "https://besser.readthedocs.io/en/latest",
-    "description": "A Python-based low-modeling low-code platform for smart software",
+    "name": "Appypie AppMakr",
+    "url": "https://www.appypie.com/app-builder/appmaker",
+    "description": "App builder to make your app without coding.",
     "category": "app-builder",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "uncategorized"
+      "apps"
     ],
-    "codeType": "low-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Power Platform Connectors",
-    "url": "https://github.com/microsoft/powerplatformconnectors",
-    "description": "This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors.",
+    "name": "Power Platform Adoption Framework",
+    "url": "https://github.com/powerplatformaf/powerplatformaf",
+    "description": "The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations.",
     "category": "automation",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "reference resources",
+      "tools, extensions and frameworks",
       "power platform (microsoft)"
     ],
-    "codeType": "low-code"
+    "codeType": "low-code",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Itura",
-    "url": "https://itura-ai.com",
-    "description": "Build your own AI conversational, database-backed apps.",
+    "name": "Tidio",
+    "url": "https://www.tidio.com",
+    "description": "AI chatbot and live chat software for small businesses and ecommerce.",
     "category": "chatbot",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "misc"
+      "chatbots"
     ],
-    "codeType": "no-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Trello",
-    "url": "https://trello.com/louisveyret1/boards",
-    "description": "All-in-one workspace and collaboration for businesses",
+    "name": "Custom Connector Docs",
+    "url": "https://github.com/workato/custom_connector_docs",
+    "description": "Source files for Workato custom connector documentation.",
     "category": "collaboration",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "collaboration"
+      "reference resources",
+      "workato"
     ],
-    "codeType": "both"
+    "codeType": "low-code",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Drift",
-    "url": "https://www.drift.com/",
-    "description": "Customer support chatbot",
+    "name": "Monday Sales CRM",
+    "url": "https://monday.com/crm",
+    "description": "Visual, customizable CRM built into Monday’s work OS.",
     "category": "crm",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "customer support"
+      "crm"
     ],
-    "codeType": "both"
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Octoparse",
-    "url": "https://octoparse.com",
-    "description": "Easy Web Scraping for Anyone",
+    "name": "Browse AI",
+    "url": "https://browse.ai/",
+    "description": "Train bots to monitor and extract data in minutes.",
     "category": "data-scraping",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "scrapers"
     ],
-    "codeType": "low-code"
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "DocuPotion",
-    "url": "https://docupotion.com/",
-    "description": "Generate PDFs at scale in Bubble and Airtable.",
+    "name": "Dashbase",
+    "url": "https://www.dashbase.ai",
+    "description": "Build collaborative KPI dashboards from your SQL database.",
     "category": "database",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "misc"
+      "database"
     ],
-    "codeType": "both"
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Penpot",
-    "url": "https://penpot.app",
-    "description": "Open source, web-based interface design application.",
+    "name": "Canva",
+    "url": "https://canva.com",
+    "description": "Design stunning social posts, ads, and banners.",
     "category": "design",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "design"
+      "marketing"
     ],
-    "codeType": "low-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Payhip",
-    "url": "https://payhip.com",
-    "description": "Simple checkout and storefront with VAT support.",
+    "name": "Shopify",
+    "url": "https://shopify.com",
+    "description": "Build your ecommerce store.",
     "category": "ecommerce",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "ecommerce"
     ],
-    "codeType": "no-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "FormNX",
-    "url": "https://formnx.com",
-    "description": "Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",
+    "name": "Feathery",
+    "url": "https://feathery.io",
+    "description": "Powerful form builder for product teams",
     "category": "forms",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "forms"
     ],
-    "codeType": "no-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Outcode",
-    "url": "https://outcode.biz/",
-    "description": "Create data apps without code",
+    "name": "UI Bakery",
+    "url": "https://uibakery.io",
+    "description": "Custom web applications at speed 🍩",
     "category": "internal-tools",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "internal"
     ],
-    "codeType": "no-code"
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Bannerbear",
-    "url": "https://www.bannerbear.com/",
-    "description": "Auto-generate social media visuals, ecommerce banners, dynamic email images and more with our API and integrations.",
+    "name": "Klaviyo",
+    "url": "https://www.klaviyo.com/",
+    "description": "Ecommerce marketing automation platform.",
     "category": "marketing",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "marketing"
     ],
-    "codeType": "low-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Bravo Studio",
-    "url": "https://www.bravostudio.app/",
-    "description": "Where your designs become real native apps",
+    "name": "miniAppMaker",
+    "url": "https://miniappmaker.com",
+    "description": "Make mobile apps using Airtable!",
     "category": "mobile",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "mobile apps"
     ],
-    "codeType": "no-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "NoCode Essentials",
-    "url": "https://nocodeessentials.com/",
-    "description": "Hand-picked collection of no-code tools.",
+    "name": "Systematic",
+    "url": "https://systematic.workato.com/",
+    "description": "The only community for business systems.",
     "category": "other",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "resources"
-    ],
-    "codeType": "no-code"
-  },
-  {
-    "name": "AnveVoice",
-    "url": "https://anvevoice.app",
-    "description": "No-code AI voice agent for websites — one-line JS embed, trains on your content, talks to visitors in 50+ languages.",
-    "category": "video",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "voice"
+      "community",
+      "workato"
     ],
-    "codeType": "no-code"
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
   },
   {
-    "name": "Destack",
-    "url": "https://github.com/liveduo/destack",
-    "description": "Visual page builder for developers",
-    "category": "website-builder",
+    "name": "CCHub",
+    "url": "https://github.com/moresl/cchub",
+    "description": "A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).",
+    "category": "video",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "landing pages"
+      "video"
     ],
-    "codeType": "low-code"
+    "codeType": "no-code",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
   },
   {
-    "name": "RemoteOpenClaw",
-    "url": "https://remoteopenclaw.com",
-    "description": "Open marketplace for AI skills and personas built on OpenClaw.",
+    "name": "Without Code",
+    "url": "https://www.wocode.com",
+    "description": "Code Free Website Builder",
+    "category": "website-builder",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "websites"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Mazaal AI",
+    "url": "https://mazaal.ai",
+    "description": "No-code AI workflow platform connected with most popular 200 apps that you use daily.",
     "category": "ai-ml",
-    "pricing": "unknown",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "machine learning"
     ],
-    "codeType": "low-code"
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Matomo",
-    "url": "https://matomo.org",
-    "description": "Self-hosted Google Analytics alternative with full data ownership.",
+    "name": "Simple Analytics",
+    "url": "https://simpleanalytics.io",
+    "description": "Simple, clean, and friendly analytics.",
     "category": "analytics",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "analytics"
     ],
-    "codeType": "low-code"
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   }
 ]

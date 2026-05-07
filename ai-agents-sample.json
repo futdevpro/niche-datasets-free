@@ -1,16 +1,18 @@
 [
   {
-    "name": "Devid by Agency Swarm",
-    "url": "https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/devid",
-    "description": "Devid Agent, a new AI software development tool, has been integrated into the Agency Swarm framework to enhance automated AI agency operations, alternative to Cognition AI's Devin",
+    "name": "Multi GPT",
+    "url": "https://github.com/rumpfmax/multi-gpt",
+    "description": "Multi GPT — AI agent",
     "category": "autonomous",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ai agents",
-      "open-source"
+      "general purpose"
     ],
-    "openSource": true
+    "openSource": false,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
     "name": "Actionbook",
@@ -23,65 +25,82 @@
       "automation",
       "browser"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "RepoAgent",
-    "url": "https://github.com/openbmb/repoagent",
-    "description": "An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly",
+    "name": "Continue",
+    "url": "https://continue.dev/",
+    "description": "Continue — AI agent",
     "category": "coding",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "software development"
-    ],
-    "openSource": true
-  },
-  {
-    "name": "ix",
-    "url": "https://github.com/kreneskyp/ix",
-    "description": "Autonomous GPT-4 agent platform",
-    "category": "conversation",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "conversational / general agents"
-    ],
-    "openSource": true
-  },
-  {
-    "name": "DALL-E 3.5",
-    "url": "https://openai.com/dall-e",
-    "description": "Best prompt comprehension. 95% text accuracy. ChatGPT.",
-    "category": "creative",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "image generation"
-    ]
+      "coding"
+    ],
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Dynamics 365 Copilot",
-    "url": "https://dynamics.microsoft.com/",
-    "description": "Drafting, summarizing, translating. Power Platform.",
+    "name": "Talkspace AI",
+    "url": "https://talkspace.com/",
+    "description": "AI-assisted therapy matching. Human therapist backup.",
+    "category": "conversation",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "healthcare and therapy agents"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Google Imagen 4",
+    "url": "https://deepmind.google/",
+    "description": "State-of-art photorealism. API via AI Studio.",
+    "category": "creative",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "image generation"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Monday CRM (Lexi)",
+    "url": "https://monday.com/",
+    "description": "AI sales agent. Lead sourcing, qualification. AI Blocks.",
     "category": "customer-support",
-    "pricing": "paid",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "ai-powered crms"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Verve",
-    "url": "https://x.com/annieliao_2000/status/1792175562712285645",
-    "description": "Verve — AI agent",
+    "name": "Second Brain AI Agent",
+    "url": "https://github.com/flepied/second-brain-agent",
+    "description": "A streamlit app to dialog with your second brain notes using OpenAI and ChromaDB locally.",
     "category": "data",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "build club"
+      "knowledge management"
     ],
-    "openSource": false
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "Agent S2 (Simular)",
@@ -93,43 +112,57 @@
     "tags": [
       "developer infrastructure"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Ai-Agent-Playground",
-    "url": "https://github.com/wei1024/ai-agent-playground",
-    "description": "test repo to develop an AI agent framework for office workers",
+    "name": "Linker",
+    "url": "https://github.com/m-reda/linker",
+    "description": "workflow editor library",
     "category": "framework",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "building",
-      "testing"
+      "workflows"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "BrainSoup",
-    "url": "https://www.nurgo-software.com/products/brainsoup",
-    "description": "BrainSoup — AI agent",
+    "name": "Shire",
+    "url": "https://github.com/victor36max/shire",
+    "description": "Persistent workspaces for AI agent teams with inter-agent mailboxes, shared drive, and full context preservation. Supports Claude Code, OpenCode, Pi Agent and more.",
     "category": "multi-agent",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "open-source"
+      "applications",
+      "multi-agent task solver projects"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Weights and Biases Weave",
-    "url": "https://wandb.ai/site/weave",
-    "description": "Trace and evaluate LLM apps.",
+    "name": "model-watchdog",
+    "url": "https://github.com/feralghost/model-watchdog",
+    "description": "Auto-rollback for AI agent config changes. Monitors health endpoint, reverts config + restarts service on failures. Zero deps.",
     "category": "observability",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tracing and monitoring"
-    ]
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "从第一性原理看大模型Agent技术",
@@ -141,20 +174,24 @@
     "tags": [
       "related",
       "blog"
-    ]
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
   },
   {
-    "name": "Heymoon.ai",
-    "url": "https://heymoon.ai/",
-    "description": "Heymoon.ai — AI agent",
+    "name": "Manus (Meta)",
+    "url": "https://manus.im/",
+    "description": "Autonomous digital employee. Browser Operator extension. Acquired by Meta.",
     "category": "productivity",
-    "pricing": "open-source",
+    "pricing": "paid",
     "hasApi": false,
     "tags": [
-      "productivity",
-      "open-source"
+      "consumer products"
     ],
-    "openSource": true
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
     "name": "LangChainBitcoin",
@@ -168,37 +205,46 @@
       "announcement github",
       "open-source"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Storm",
-    "url": "https://github.com/stanford-oval/storm",
-    "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+    "name": "Phi-4",
+    "url": "https://github.com/microsoft/phi-4",
+    "description": "Phi-4 — research API",
     "category": "research",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "research"
+      "open-source models for agents"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Multi-Agent-Secops-Llm",
-    "url": "https://github.com/tegridydev/multi-agent-secops-llm",
-    "description": "This project is a multi-agent security framework that utilizes multiple LLM models to analyze and generate comprehensive security briefs.",
+    "name": "Security-Ai-Agent-Brama",
+    "url": "https://github.com/oborys/security-ai-agent-brama",
+    "description": "No description available",
     "category": "security",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "building",
       "security"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "GPTTeam",
-    "url": "https://github.com/101dotxyz/gpteam",
-    "description": "The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.",
+    "name": "Camel-AutoGPT",
+    "url": "https://github.com/samuraigpt/camel-autogpt",
+    "description": "Watch two agents 🤝 collaborate and solve tasks together, unlocking endless possibilities in , 🎮 gaming, 📚 education, and more! 🔥",
     "category": "simulation",
     "pricing": "open-source",
     "hasApi": false,
@@ -206,42 +252,54 @@
       "applications",
       "agent society simulation"
     ],
-    "openSource": true
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Talkscriber",
-    "url": "https://www.talkscriber.com",
-    "description": "Talkscriber is an enterprise-grade speech-to-text (STT) platform that offers industry-leading accuracy, security, and cost-effectiveness, enabling organizations to transform spoken language into digital text and unlock new possibilities in data analysis while hosting Whisper (OpenAI) model",
+    "name": "Neets",
+    "url": "https://neets.ai/",
+    "description": "Neets.ai is a text-to-speech (TTS) API that offers a wide range of voices and languages, allowing users to easily integrate TTS capabilities into their applications",
     "category": "voice",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "transcriber providers"
+      "voice providers"
     ],
-    "openSource": false
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Make",
-    "url": "https://make.com/",
-    "description": "Visual workflow platform. AI capabilities.",
+    "name": "uAgents",
+    "url": "https://github.com/fetchai/uagents",
+    "description": "A fast and lightweight framework for creating decentralized agents with ease.",
     "category": "workflow",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "automation"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Harpa",
+    "url": "https://harpa.ai/",
+    "description": "Harpa is a versatile Chrome extension that integrates AI capabilities, such as summarizing content, automating workflows, and enhancing productivity, supported by GPT-4 and Claude 2, trusted by 300,000+ professionals",
+    "category": "autonomous",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "automation"
-    ]
-  },
-  {
-    "name": "BrowsingAgent by Agency Swarm",
-    "url": "https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/browsingagent",
-    "description": "BrowsingAgent, an AI web navigation tool, has been integrated into the Agency Swarm framework to enable human-like browsing capabilities for automated AI operations",
-    "category": "autonomous",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ai agents",
-      "open-source"
+      "ai agents"
     ],
-    "openSource": true
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
   }
 ]

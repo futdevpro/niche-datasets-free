@@ -1,21 +1,21 @@
-name,url,description,category,pricing,hasApi,tags,openSource
-Devid by Agency Swarm,https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/devid,"Devid Agent, a new AI software development tool, has been integrated into the Agency Swarm framework to enhance automated AI agency operations, alternative to Cognition AI's Devin",autonomous,open-source,false,"[""ai agents"",""open-source""]",true
-Actionbook,https://github.com/actionbook/actionbook,Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece.,browser,open-source,false,"[""automation"",""browser""]",true
-RepoAgent,https://github.com/openbmb/repoagent,An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly,coding,open-source,true,"[""software development""]",true
-ix,https://github.com/kreneskyp/ix,Autonomous GPT-4 agent platform,conversation,open-source,false,"[""conversational / general agents""]",true
-DALL-E 3.5,https://openai.com/dall-e,Best prompt comprehension. 95% text accuracy. ChatGPT.,creative,freemium,false,"[""image generation""]",
-Dynamics 365 Copilot,https://dynamics.microsoft.com/,"Drafting, summarizing, translating. Power Platform.",customer-support,paid,false,"[""ai-powered crms""]",
-Verve,https://x.com/annieliao_2000/status/1792175562712285645,Verve — AI agent,data,free,false,"[""build club""]",false
-Agent S2 (Simular),https://github.com/simular-ai/agent-s,OSS GUI automation framework.,devops,open-source,true,"[""developer infrastructure""]",true
-Ai-Agent-Playground,https://github.com/wei1024/ai-agent-playground,test repo to develop an AI agent framework for office workers,framework,open-source,true,"[""building"",""testing""]",true
-BrainSoup,https://www.nurgo-software.com/products/brainsoup,BrainSoup — AI agent,multi-agent,open-source,false,"[""open-source""]",true
-Weights and Biases Weave,https://wandb.ai/site/weave,Trace and evaluate LLM apps.,observability,freemium,false,"[""tracing and monitoring""]",
-从第一性原理看大模型Agent技术,https://mp.weixin.qq.com/s/pl-qjlvvugufmrd4g0p-qq,从第一性原理看大模型Agent技术,other,unknown,false,"[""related"",""blog""]",
-Heymoon.ai,https://heymoon.ai/,Heymoon.ai — AI agent,productivity,open-source,false,"[""productivity"",""open-source""]",true
-LangChainBitcoin,https://github.com/lightninglabs/langchainbitcoin,LangChainBitcoin — AI agent,protocol,open-source,false,"[""bitcoin"",""announcement github"",""open-source""]",true
-Storm,https://github.com/stanford-oval/storm,An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.,research,open-source,false,"[""research""]",true
-Multi-Agent-Secops-Llm,https://github.com/tegridydev/multi-agent-secops-llm,This project is a multi-agent security framework that utilizes multiple LLM models to analyze and generate comprehensive security briefs.,security,open-source,true,"[""building"",""security""]",true
-GPTTeam,https://github.com/101dotxyz/gpteam,The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.,simulation,open-source,false,"[""applications"",""agent society simulation""]",true
-Talkscriber,https://www.talkscriber.com,"Talkscriber is an enterprise-grade speech-to-text (STT) platform that offers industry-leading accuracy, security, and cost-effectiveness, enabling organizations to transform spoken language into digital text and unlock new possibilities in data analysis while hosting Whisper (OpenAI) model",voice,freemium,false,"[""transcriber providers""]",false
-Make,https://make.com/,Visual workflow platform. AI capabilities.,workflow,freemium,false,"[""automation""]",
-BrowsingAgent by Agency Swarm,https://github.com/vrsen/agency-swarm/tree/main/agency_swarm/agents/browsingagent,"BrowsingAgent, an AI web navigation tool, has been integrated into the Agency Swarm framework to enable human-like browsing capabilities for automated AI operations",autonomous,open-source,false,"[""ai agents"",""open-source""]",true
+name,url,description,category,pricing,hasApi,tags,openSource,urlDomainTier,descriptionLengthTier,categorizationTier
+Multi GPT,https://github.com/rumpfmax/multi-gpt,Multi GPT — AI agent,autonomous,open-source,false,"[""general purpose""]",false,repo-hosted,terse,specific
+Actionbook,https://github.com/actionbook/actionbook,Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece.,browser,open-source,false,"[""automation"",""browser""]",true,repo-hosted,normal,specific
+Continue,https://continue.dev/,Continue — AI agent,coding,freemium,false,"[""coding""]",false,commercial,terse,specific
+Talkspace AI,https://talkspace.com/,AI-assisted therapy matching. Human therapist backup.,conversation,freemium,true,"[""healthcare and therapy agents""]",,commercial,normal,specific
+Google Imagen 4,https://deepmind.google/,State-of-art photorealism. API via AI Studio.,creative,freemium,true,"[""image generation""]",,commercial,terse,specific
+Monday CRM (Lexi),https://monday.com/,"AI sales agent. Lead sourcing, qualification. AI Blocks.",customer-support,freemium,false,"[""ai-powered crms""]",,commercial,normal,specific
+Second Brain AI Agent,https://github.com/flepied/second-brain-agent,A streamlit app to dialog with your second brain notes using OpenAI and ChromaDB locally.,data,open-source,false,"[""knowledge management""]",true,repo-hosted,normal,specific
+Agent S2 (Simular),https://github.com/simular-ai/agent-s,OSS GUI automation framework.,devops,open-source,true,"[""developer infrastructure""]",true,repo-hosted,terse,specific
+Linker,https://github.com/m-reda/linker,workflow editor library,framework,open-source,true,"[""building"",""workflows""]",true,repo-hosted,terse,specific
+Shire,https://github.com/victor36max/shire,"Persistent workspaces for AI agent teams with inter-agent mailboxes, shared drive, and full context preservation. Supports Claude Code, OpenCode, Pi Agent and more.",multi-agent,open-source,false,"[""applications"",""multi-agent task solver projects""]",true,repo-hosted,normal,specific
+model-watchdog,https://github.com/feralghost/model-watchdog,"Auto-rollback for AI agent config changes. Monitors health endpoint, reverts config + restarts service on failures. Zero deps.",observability,open-source,false,"[""tracing and monitoring""]",true,repo-hosted,normal,specific
+从第一性原理看大模型Agent技术,https://mp.weixin.qq.com/s/pl-qjlvvugufmrd4g0p-qq,从第一性原理看大模型Agent技术,other,unknown,false,"[""related"",""blog""]",,commercial,terse,other
+Manus (Meta),https://manus.im/,Autonomous digital employee. Browser Operator extension. Acquired by Meta.,productivity,paid,false,"[""consumer products""]",,commercial,normal,specific
+LangChainBitcoin,https://github.com/lightninglabs/langchainbitcoin,LangChainBitcoin — AI agent,protocol,open-source,false,"[""bitcoin"",""announcement github"",""open-source""]",true,repo-hosted,terse,specific
+Phi-4,https://github.com/microsoft/phi-4,Phi-4 — research API,research,open-source,false,"[""open-source models for agents""]",true,repo-hosted,absent,specific
+Security-Ai-Agent-Brama,https://github.com/oborys/security-ai-agent-brama,No description available,security,open-source,false,"[""building"",""security""]",true,repo-hosted,terse,specific
+Camel-AutoGPT,https://github.com/samuraigpt/camel-autogpt,"Watch two agents 🤝 collaborate and solve tasks together, unlocking endless possibilities in , 🎮 gaming, 📚 education, and more! 🔥",simulation,open-source,false,"[""applications"",""agent society simulation""]",true,repo-hosted,normal,specific
+Neets,https://neets.ai/,"Neets.ai is a text-to-speech (TTS) API that offers a wide range of voices and languages, allowing users to easily integrate TTS capabilities into their applications",voice,freemium,true,"[""voice providers""]",false,commercial,normal,specific
+uAgents,https://github.com/fetchai/uagents,A fast and lightweight framework for creating decentralized agents with ease.,workflow,open-source,true,"[""automation""]",true,repo-hosted,normal,specific
+Harpa,https://harpa.ai/,"Harpa is a versatile Chrome extension that integrates AI capabilities, such as summarizing content, automating workflows, and enhancing productivity, supported by GPT-4 and Claude 2, trusted by 300,000+ professionals",autonomous,freemium,false,"[""ai agents""]",false,commercial,detailed,specific
