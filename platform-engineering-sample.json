@@ -1,23 +1,22 @@
 [
   {
-    "name": "JFrog Artifactory",
-    "url": "https://jfrog.com/artifactory",
-    "description": "JFrog Artifactory",
+    "name": "Waitr",
+    "url": "http://watir.com/",
+    "description": "Waitr — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous delivery",
-      "container registry"
+      "continuous testing"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenFaaS- deploy serverless functions and existing code to Kubernetes",
-    "url": "https://www.openfaas.com/",
-    "description": "OpenFaaS- deploy serverless functions and existing code to Kubernetes",
+    "name": "Portainer- container management for K8S and more",
+    "url": "https://www.portainer.io/",
+    "description": "Portainer- container management for K8S and more",
     "category": "container-orchestration",
     "pricing": "unknown",
     "hasApi": false,
@@ -25,21 +24,20 @@
       "tooling— kubernetes, paas and cloud services"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Subversion (SVN)",
-    "url": "https://subversion.apache.org/",
-    "description": "Subversion (SVN)",
+    "name": "IBM Cloud Reference Architecture",
+    "url": "https://github.com/ibm/ibm-cloud-reference-architectures",
+    "description": "IBM Infrastructure Automation.",
     "category": "developer-experience",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "development",
-      "source code management"
+      "reference architecture"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
@@ -86,23 +84,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Cachet",
-    "url": "https://cachethq.io/",
-    "description": "Cachet — observability API",
+    "name": "OnlineOrNot",
+    "url": "https://onlineornot.com/",
+    "description": "Uptime monitoring for websites, APIs, and cron jobs, with integrated status pages.",
     "category": "observability",
     "pricing": "unknown",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "incident communication"
+      "continuous monitoring"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "VictorOps",
-    "url": "https://victorops.com/",
-    "description": "VictorOps — other API",
+    "name": "OnPage",
+    "url": "https://www.onpage.com/",
+    "description": "OnPage — other API",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
@@ -112,23 +110,23 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Secure the software supply chain for OPA policies",
-    "url": "https://github.com/opcr-io/policy",
-    "description": "Secure the software supply chain for OPA policies",
+    "name": "Wazuh",
+    "url": "https://wazuh.com/",
+    "description": "Wazuh — policy-and-governance API",
     "category": "policy-and-governance",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "tooling— security and policies"
+      "security"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Casdoor- IAM/SSO platform with web UI",
-    "url": "https://github.com/casdoor/casdoor",
-    "description": "Casdoor- IAM/SSO platform with web UI",
+    "name": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
+    "url": "https://github.com/ory/keto",
+    "description": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -136,7 +134,7 @@
       "tooling— authentication and authorization"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -154,15 +152,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Cake",
-    "url": "https://cakebuild.net/",
-    "description": "Cake — ci-cd-pipeline API",
+    "name": "Gitlab CI",
+    "url": "https://about.gitlab.com/product/continuous-integration",
+    "description": "Gitlab CI — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous integration",
-      "build"
+      "integration"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
@@ -183,54 +181,55 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Capacitor- cross-platform web apps building framework",
-    "url": "https://github.com/ionic-team/capacitor",
-    "description": "Capacitor- cross-platform web apps building framework",
+    "name": "Upgrade JavaScript or TypeScript codebases",
+    "url": "https://github.com/facebook/jscodeshift",
+    "description": "Upgrade JavaScript or TypeScript codebases",
     "category": "developer-experience",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "tooling— frontend"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Kratix",
-    "url": "https://github.com/syntasso/kratix",
-    "description": "A framework for building Platform-as-a-Product.",
-    "category": "developer-portal",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "internal developer portal"
+      "development",
+      "feature flags and change management"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Digger - Open Source Infratructure as Code management tool",
-    "url": "https://www.github.com/diggerhq/digger",
-    "description": "Digger - Open Source Infratructure as Code management tool",
+    "name": "Backstage Software Catalog",
+    "url": "https://backstage.io/",
+    "description": "Backstage Software Catalog",
+    "category": "developer-portal",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "AWS Proton- Self-service infrastructure templates",
+    "url": "https://aws.amazon.com/proton",
+    "description": "AWS Proton- Self-service infrastructure templates",
     "category": "iac-and-provisioning",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "tooling— infrastructure and artifacts management"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Steampipe.io",
-    "url": "https://steampipe.io",
-    "description": "Universal SQL interface to any cloud API",
+    "name": "Crashlytics",
+    "url": "https://fabric.io/kits/android/crashlytics",
+    "description": "Crashlytics",
     "category": "observability",
     "pricing": "unknown",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "continuous monitoring"
     ],
@@ -239,21 +238,21 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Squadcast",
-    "url": "https://www.squadcast.com",
-    "description": "Squadcast — other API",
+    "name": "Keep - CLI for alerting",
+    "url": "https://github.com/keephq/keep",
+    "description": "Keep - CLI for alerting",
     "category": "other",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "terrascan- detect compliance and security violations in IaC/Terraform",
-    "url": "https://github.com/tenable/terrascan",
-    "description": "terrascan- detect compliance and security violations in IaC/Terraform",
+    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
+    "url": "https://github.com/checkmarx/kics",
+    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
     "category": "policy-and-governance",
     "pricing": "open-source",
     "hasApi": false,
@@ -265,9 +264,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "CAS- Central Authentication Service",
-    "url": "https://github.com/apereo/cas",
-    "description": "CAS- Central Authentication Service",
+    "name": "Casdoor- IAM/SSO platform with web UI",
+    "url": "https://github.com/casdoor/casdoor",
+    "description": "Casdoor- IAM/SSO platform with web UI",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
