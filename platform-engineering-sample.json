@@ -1,0 +1,281 @@
+[
+  {
+    "name": "JFrog Artifactory",
+    "url": "https://jfrog.com/artifactory",
+    "description": "JFrog Artifactory",
+    "category": "ci-cd-pipeline",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous delivery",
+      "container registry"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenFaaS- deploy serverless functions and existing code to Kubernetes",
+    "url": "https://www.openfaas.com/",
+    "description": "OpenFaaS- deploy serverless functions and existing code to Kubernetes",
+    "category": "container-orchestration",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— kubernetes, paas and cloud services"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Subversion (SVN)",
+    "url": "https://subversion.apache.org/",
+    "description": "Subversion (SVN)",
+    "category": "developer-experience",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "development",
+      "source code management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Kubero",
+    "url": "https://github.com/kubero-dev/kubero",
+    "description": "A fully self-hosted Internal Developer Platform (IDP).",
+    "category": "developer-portal",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ConfigCat - Privacy-first feature flag service",
+    "url": "https://configcat.com/",
+    "description": "ConfigCat - Privacy-first feature flag service",
+    "category": "feature-flags",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— feature flags, environments and change management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
+    "url": "https://github.com/artipie/artipie",
+    "description": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
+    "category": "iac-and-provisioning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Cachet",
+    "url": "https://cachethq.io/",
+    "description": "Cachet — observability API",
+    "category": "observability",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "incident communication"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VictorOps",
+    "url": "https://victorops.com/",
+    "description": "VictorOps — other API",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Secure the software supply chain for OPA policies",
+    "url": "https://github.com/opcr-io/policy",
+    "description": "Secure the software supply chain for OPA policies",
+    "category": "policy-and-governance",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— security and policies"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Casdoor- IAM/SSO platform with web UI",
+    "url": "https://github.com/casdoor/casdoor",
+    "description": "Casdoor- IAM/SSO platform with web UI",
+    "category": "secrets-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— authentication and authorization"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Istio- open source service mesh",
+    "url": "https://istio.io/",
+    "description": "Istio- open source service mesh",
+    "category": "service-mesh",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "tooling— service mesh, api gateway and app proxies"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Cake",
+    "url": "https://cakebuild.net/",
+    "description": "Cake — ci-cd-pipeline API",
+    "category": "ci-cd-pipeline",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous integration",
+      "build"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Meshery - A open source cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications (multi-cloud)",
+    "url": "https://meshery.io",
+    "description": "Meshery - A open source cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications (multi-cloud)",
+    "category": "container-orchestration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— kubernetes, paas and cloud services"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Capacitor- cross-platform web apps building framework",
+    "url": "https://github.com/ionic-team/capacitor",
+    "description": "Capacitor- cross-platform web apps building framework",
+    "category": "developer-experience",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "tooling— frontend"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Kratix",
+    "url": "https://github.com/syntasso/kratix",
+    "description": "A framework for building Platform-as-a-Product.",
+    "category": "developer-portal",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Digger - Open Source Infratructure as Code management tool",
+    "url": "https://www.github.com/diggerhq/digger",
+    "description": "Digger - Open Source Infratructure as Code management tool",
+    "category": "iac-and-provisioning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Steampipe.io",
+    "url": "https://steampipe.io",
+    "description": "Universal SQL interface to any cloud API",
+    "category": "observability",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "continuous monitoring"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Squadcast",
+    "url": "https://www.squadcast.com",
+    "description": "Squadcast — other API",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "terrascan- detect compliance and security violations in IaC/Terraform",
+    "url": "https://github.com/tenable/terrascan",
+    "description": "terrascan- detect compliance and security violations in IaC/Terraform",
+    "category": "policy-and-governance",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— security and policies"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "CAS- Central Authentication Service",
+    "url": "https://github.com/apereo/cas",
+    "description": "CAS- Central Authentication Service",
+    "category": "secrets-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— authentication and authorization"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  }
+]
