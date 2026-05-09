@@ -1,17 +1,18 @@
 [
   {
-    "name": "Multi GPT",
-    "url": "https://github.com/rumpfmax/multi-gpt",
-    "description": "Multi GPT — AI agent",
+    "name": "Cykel",
+    "url": "https://www.cykel.ai/",
+    "description": "Cykel is an AI co-pilot model that can interact with any UI, website or API in response to natural language commands",
     "category": "autonomous",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "general purpose"
+      "general purpose productivity",
+      "open-source"
     ],
-    "openSource": false,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "openSource": true,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -31,27 +32,27 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Continue",
-    "url": "https://continue.dev/",
-    "description": "Continue — AI agent",
+    "name": "DSPy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "description": "The framework for programming—not prompting—foundation models",
     "category": "coding",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
-      "coding"
+      "software development"
     ],
-    "openSource": false,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Talkspace AI",
-    "url": "https://talkspace.com/",
-    "description": "AI-assisted therapy matching. Human therapist backup.",
+    "name": "Woebot",
+    "url": "https://woebothealth.com/",
+    "description": "CBT-based mental health chatbot. FDA-cleared. Stanford-validated. Retiring June 2025.",
     "category": "conversation",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "healthcare and therapy agents"
     ],
@@ -60,12 +61,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Google Imagen 4",
-    "url": "https://deepmind.google/",
-    "description": "State-of-art photorealism. API via AI Studio.",
+    "name": "FLUX 2",
+    "url": "https://blackforestlabs.ai/",
+    "description": "Open-weight. Best photorealism. 4K. 6x speed.",
     "category": "creative",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "image generation"
     ],
@@ -74,38 +75,38 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Monday CRM (Lexi)",
-    "url": "https://monday.com/",
-    "description": "AI sales agent. Lead sourcing, qualification. AI Blocks.",
+    "name": "ServiceNow AI Agents",
+    "url": "https://servicenow.com/",
+    "description": "Orchestrator across IT, HR, CRM.",
     "category": "customer-support",
-    "pricing": "freemium",
+    "pricing": "paid",
     "hasApi": false,
     "tags": [
       "ai-powered crms"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Second Brain AI Agent",
-    "url": "https://github.com/flepied/second-brain-agent",
-    "description": "A streamlit app to dialog with your second brain notes using OpenAI and ChromaDB locally.",
+    "name": "BambooAI",
+    "url": "https://github.com/pgalko/bambooai",
+    "description": "BambooAI — AI agent",
     "category": "data",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "knowledge management"
+      "data analysis"
     ],
-    "openSource": true,
+    "openSource": false,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Agent S2 (Simular)",
-    "url": "https://github.com/simular-ai/agent-s",
-    "description": "OSS GUI automation framework.",
+    "name": "onUI",
+    "url": "https://github.com/onllm-dev/onui",
+    "description": "OSS browser extension and MCP server for annotation-first UI pair programming with AI agents. Chrome, Edge, Firefox. Privacy-first, local only.",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": true,
@@ -114,19 +115,19 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Linker",
-    "url": "https://github.com/m-reda/linker",
-    "description": "workflow editor library",
+    "name": "Mb-Nothing",
+    "url": "https://github.com/0xasten/mb-nothing",
+    "description": "Testing with Cartridge Controller and AI Agent.",
     "category": "framework",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "building",
-      "workflows"
+      "testing"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -134,9 +135,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Shire",
-    "url": "https://github.com/victor36max/shire",
-    "description": "Persistent workspaces for AI agent teams with inter-agent mailboxes, shared drive, and full context preservation. Supports Claude Code, OpenCode, Pi Agent and more.",
+    "name": "Bernstein",
+    "url": "https://github.com/chernistry/bernstein",
+    "description": "Deterministic orchestrator that spawns parallel coding agents (Claude Code, Codex CLI, Gemini CLI), verifies with tests, and auto-commits. Zero LLM tokens on coordination.",
     "category": "multi-agent",
     "pricing": "open-source",
     "hasApi": false,
@@ -150,9 +151,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "model-watchdog",
-    "url": "https://github.com/feralghost/model-watchdog",
-    "description": "Auto-rollback for AI agent config changes. Monitors health endpoint, reverts config + restarts service on failures. Zero deps.",
+    "name": "Helicone",
+    "url": "https://github.com/helicone/helicone",
+    "description": "OSS LLM observability. One-line integration.",
     "category": "observability",
     "pricing": "open-source",
     "hasApi": false,
@@ -161,7 +162,7 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -180,61 +181,45 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Manus (Meta)",
-    "url": "https://manus.im/",
-    "description": "Autonomous digital employee. Browser Operator extension. Acquired by Meta.",
+    "name": "LiteLLM",
+    "url": "https://github.com/berriai/litellm",
+    "description": "LiteLLM has added support for the OpenAI Assistants API, enabling seamless integration of stateful operations and automatic RAG pipelines into existing chatbots",
     "category": "productivity",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "consumer products"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "LangChainBitcoin",
-    "url": "https://github.com/lightninglabs/langchainbitcoin",
-    "description": "LangChainBitcoin — AI agent",
-    "category": "protocol",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "bitcoin",
-      "announcement github",
+      "assistants api",
       "open-source"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Tool Use (Anthropic)",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use",
+    "description": "Claude native tool-use. Structured JSON.",
+    "category": "protocol",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "protocols and standards"
+    ],
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Phi-4",
-    "url": "https://github.com/microsoft/phi-4",
-    "description": "Phi-4 — research API",
+    "name": "LLM-Agents-Papers",
+    "url": "https://github.com/agi-edgerunners/llm-agents-papers",
+    "description": "A repo lists papers related to LLM based agent",
     "category": "research",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "open-source models for agents"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Security-Ai-Agent-Brama",
-    "url": "https://github.com/oborys/security-ai-agent-brama",
-    "description": "No description available",
-    "category": "security",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "building",
-      "security"
+      "related",
+      "paper-list repo"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -242,15 +227,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Camel-AutoGPT",
-    "url": "https://github.com/samuraigpt/camel-autogpt",
-    "description": "Watch two agents 🤝 collaborate and solve tasks together, unlocking endless possibilities in , 🎮 gaming, 📚 education, and more! 🔥",
-    "category": "simulation",
+    "name": "Prism Scanner",
+    "url": "https://github.com/aidongise-cell/prism-scanner",
+    "description": "OSS security scanner for AI agent skills/plugins/MCP servers. Pre-install taint tracking, post-uninstall residue detection.",
+    "category": "security",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "applications",
-      "agent society simulation"
+      "cybersecurity agents"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -258,27 +242,42 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Neets",
-    "url": "https://neets.ai/",
-    "description": "Neets.ai is a text-to-speech (TTS) API that offers a wide range of voices and languages, allowing users to easily integrate TTS capabilities into their applications",
-    "category": "voice",
-    "pricing": "freemium",
-    "hasApi": true,
+    "name": "SkyAGI",
+    "url": "https://github.com/litanlitudan/skyagi",
+    "description": "Emerging human-behavior simulation capability in LLM agents",
+    "category": "simulation",
+    "pricing": "open-source",
+    "hasApi": false,
     "tags": [
-      "voice providers"
+      "game / simulation"
     ],
-    "openSource": false,
-    "urlDomainTier": "commercial",
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "uAgents",
-    "url": "https://github.com/fetchai/uagents",
-    "description": "A fast and lightweight framework for creating decentralized agents with ease.",
+    "name": "Twilio",
+    "url": "https://www.twilio.com",
+    "description": "Twilio is a cloud communications platform that enables developers to programmatically make phone calls, send and receive text messages, and integrate other communication features into their applications using its web APIs",
+    "category": "voice",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "phone number providers"
+    ],
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Phidata",
+    "url": "https://github.com/phidatahq/phidata",
+    "description": "Build AI Assistants with memory, knowledge and tools.",
     "category": "workflow",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "automation"
     ],
@@ -288,17 +287,18 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Harpa",
-    "url": "https://harpa.ai/",
-    "description": "Harpa is a versatile Chrome extension that integrates AI capabilities, such as summarizing content, automating workflows, and enhancing productivity, supported by GPT-4 and Claude 2, trusted by 300,000+ professionals",
+    "name": "GPT Newspaper by Tavily",
+    "url": "https://github.com/rotemweiss57/gpt-newspaper",
+    "description": "GPT Newspaper is an autonomous agent project using AI to create personalized newspapers based on user preferences, featuring six specialized sub-agents for searching, curating, writing, designing, editing, and publishing content tailored to individual interests",
     "category": "autonomous",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ai agents"
+      "ai agents",
+      "open-source"
     ],
-    "openSource": false,
-    "urlDomainTier": "commercial",
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   }

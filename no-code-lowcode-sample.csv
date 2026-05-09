@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,codeType,urlDomainTier,descriptionLengthTier,categorizationTier
-h2o,https://www.h2o.ai/,"Get free, hands-on experience with the H2O AI Hybrid Cloud.",ai-ml,free,false,"[""ai""]",low-code,commercial,normal,specific
+MonkeyLearn,https://monkeylearn.com/,"No-code NLP toolkit for text classification, sentiment analysis, and keyword extraction.",ai-ml,freemium,false,"[""machine learning""]",no-code,commercial,normal,specific
 Fathom,https://usefathom.com,"Privacy-focused, cookie-less analytics that’s easy to set up and use.",analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
-Appypie AppMakr,https://www.appypie.com/app-builder/appmaker,App builder to make your app without coding.,app-builder,freemium,false,"[""apps""]",no-code,commercial,terse,specific
-Power Platform Adoption Framework,https://github.com/powerplatformaf/powerplatformaf,"The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations.",automation,open-source,true,"[""tools, extensions and frameworks"",""power platform (microsoft)""]",low-code,repo-hosted,normal,specific
-Tidio,https://www.tidio.com,AI chatbot and live chat software for small businesses and ecommerce.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
+Boundless,https://www.boundlesslabs.com/,"Create dynamic, multisided web apps without coding",app-builder,freemium,false,"[""web apps""]",both,commercial,normal,specific
+Microsoft Power Fx,https://github.com/microsoft/power-fx,Power Fx Low Code programming language.,automation,open-source,false,"[""reference resources"",""power platform (microsoft)""]",low-code,repo-hosted,terse,specific
+Tars,https://hellotars.com/,"Optimize your conversion funnels, automate customer service interactions, and redefine customer experience.",chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
 Custom Connector Docs,https://github.com/workato/custom_connector_docs,Source files for Workato custom connector documentation.,collaboration,open-source,false,"[""reference resources"",""workato""]",low-code,repo-hosted,normal,specific
-Monday Sales CRM,https://monday.com/crm,"Visual, customizable CRM built into Monday’s work OS.",crm,freemium,false,"[""crm""]",both,commercial,normal,specific
-Browse AI,https://browse.ai/,Train bots to monitor and extract data in minutes.,data-scraping,freemium,false,"[""scrapers""]",low-code,commercial,normal,specific
-Dashbase,https://www.dashbase.ai,Build collaborative KPI dashboards from your SQL database.,database,freemium,false,"[""database""]",low-code,commercial,normal,specific
-Canva,https://canva.com,"Design stunning social posts, ads, and banners.",design,freemium,false,"[""marketing""]",no-code,commercial,terse,specific
-Shopify,https://shopify.com,Build your ecommerce store.,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
-Feathery,https://feathery.io,Powerful form builder for product teams,forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
-UI Bakery,https://uibakery.io,Custom web applications at speed 🍩,internal-tools,freemium,false,"[""internal""]",low-code,commercial,terse,specific
-Klaviyo,https://www.klaviyo.com/,Ecommerce marketing automation platform.,marketing,freemium,false,"[""marketing""]",no-code,commercial,terse,specific
-miniAppMaker,https://miniappmaker.com,Make mobile apps using Airtable!,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
-Systematic,https://systematic.workato.com/,The only community for business systems.,other,freemium,false,"[""community"",""workato""]",both,commercial,terse,other
-CCHub,https://github.com/moresl/cchub,"A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).",video,open-source,false,"[""video""]",no-code,repo-hosted,detailed,specific
-Without Code,https://www.wocode.com,Code Free Website Builder,website-builder,free,false,"[""websites""]",no-code,commercial,terse,specific
-Mazaal AI,https://mazaal.ai,No-code AI workflow platform connected with most popular 200 apps that you use daily.,ai-ml,freemium,false,"[""machine learning""]",no-code,commercial,normal,specific
-Simple Analytics,https://simpleanalytics.io,"Simple, clean, and friendly analytics.",analytics,freemium,false,"[""analytics""]",low-code,commercial,terse,specific
+Crisp,https://crisp.chat/fr,Customer support directly in your website,crm,freemium,false,"[""customer support""]",both,commercial,terse,specific
+Dataminer,https://data-miner.io/,Easy to use web scraping,data-scraping,freemium,true,"[""scrapers""]",low-code,commercial,terse,specific
+Rows,https://rows.com/,The spreadsheet where teams work faster.,database,freemium,false,"[""databases""]",both,commercial,terse,specific
+LottieFiles,https://lottiefiles.com,Discover and use lightweight animations.,design,freemium,false,"[""design""]",no-code,commercial,terse,specific
+Hingeto,https://www.hingeto.com/,Start your own Amazon-style marketplace,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
+Convertigo,https://www.convertigo.com/,Create Forms based applications with no coding.,forms,open-source,false,"[""forms""]",no-code,commercial,terse,specific
+SaaS Blocks,https://saasblocks.io/,Ready-to-use building blocks and APIs to take your SaaS application to the next level,internal-tools,freemium,true,"[""misc""]",low-code,commercial,normal,specific
+Stripo,https://stripo.email,Free email template builder.,marketing,free,false,"[""email""]",no-code,commercial,terse,specific
+Thunkable,https://thunkable.com,The No-Code App Builder,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
+Markerpad,https://www.makerpad.co/,Join thousands learning to build software. No coding required.,other,freemium,false,"[""educational""]",both,commercial,normal,other
+Veed,https://veed.io,Collaborative video editor with templates and subtitles.,video,freemium,false,"[""video""]",no-code,commercial,normal,specific
+Quarkly,https://quarkly.io/,Design tool for creating websites and web apps.,website-builder,freemium,false,"[""websites""]",no-code,commercial,terse,specific
+Teachable Machine,https://teachablemachine.withgoogle.com/,"Web-based tool for training a computer to recognise images, sounds, and poses.",ai-ml,free,false,"[""machine learning""]",low-code,commercial,normal,specific
+PageGuard,https://pageguard.org,"Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",analytics,free,false,"[""analytics""]",low-code,commercial,normal,specific

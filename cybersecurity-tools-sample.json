@@ -1,317 +1,36 @@
 [
   {
-    "name": "Microsoft - Best Practices for Securing Active Directory",
-    "url": "https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory",
-    "description": "Microsoft - Best Practices for Securing Active Directory",
+    "name": "WinPEAS / LinPEAS",
+    "url": "https://github.com/carlospolop/peass-ng",
+    "description": "[F] — Local privesc checks.",
     "category": "authentication",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "services",
-      "active directory"
+      "active directory & windows"
     ],
-    "isOpenSource": false,
+    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "windows",
-    "urlDomainTier": "documentation",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Kyverno",
-    "url": "https://kyverno.io/",
-    "description": "Policy engine designed for Kubernetes.",
+    "name": "Cloudsplaining",
+    "url": "https://cloudsplaining.readthedocs.io/",
+    "description": "Identifies violations of least privilege in AWS IAM policies and generates a pretty HTML report with a triage worksheet.",
     "category": "cloud",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "cloud platform security",
-      "kubernetes"
+      "cloud platform attack tools"
     ],
     "isOpenSource": false,
     "toolType": "platform",
     "targetPlatform": "cloud",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "duplicut",
-    "url": "https://github.com/nil0x42/duplicut",
-    "description": "Quickly remove duplicates, without changing the order, and without getting OOM on huge wordlists.",
-    "category": "cryptography",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "hash cracking tools"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OWASP NodeGoat",
-    "url": "https://github.com/owasp/nodegoat",
-    "description": "OWASP NodeGoat — ctf API",
-    "category": "ctf",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "intentionally vulnerable systems",
-      "intentionally vulnerable systems as docker containers"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Linux Exploit Suggester",
-    "url": "https://github.com/penturalabs/linux_exploit_suggester",
-    "description": "Heuristic reporting on potentially viable exploits for a given GNU/Linux system.",
-    "category": "endpoint",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "gnu/linux utilities"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "linux",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "BadBlood",
-    "url": "https://www.secframe.com/badblood",
-    "description": "Fills a test (non-production) Windows Domain with data that enables security analysts and engineers to practice using tools to gain an understanding and prescribe to securing Active Directory.",
-    "category": "exploit",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "preparedness training and wargaming"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "windows",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Crowd Response",
-    "url": "http://www.crowdstrike.com/community-tools",
-    "description": "Lightweight Windows console application designed to aid in the gathering of system information for incident response and security engagements. It features numerous modules and output formats.",
-    "category": "forensics",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "windows evidence collection"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "windows",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Practical Memory Forensics",
-    "url": "https://www.amazon.com/practical-memory-forensics-jumpstart-effective/dp/1801070334",
-    "description": "The definitive guide to practice memory forensics. By Svetlana Ostrovskaya and Oleg Skulkin.",
-    "category": "incident-response",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "books"
-    ],
-    "isOpenSource": false,
-    "toolType": "resource",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "boxxy",
-    "url": "https://github.com/kpcyrd/boxxy-rs",
-    "description": "Linkable sandbox explorer.",
-    "category": "malware-analysis",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "reverse engineering",
-      "reverse engineering tools"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "MPT",
-    "url": "https://github.com/bytesnipers/mobile-pentest-toolkit",
-    "description": "MPT (Mobile Pentest Toolkit) is a must-have solutions for your android penetration testing workflow. It allows you to automate tasks.",
-    "category": "mobile",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "android utilities"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "mobile",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "FeedBooster",
-    "url": "http://www.qsensei.com",
-    "description": "FeedBooster",
-    "category": "monitoring",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "web monitoring"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "evilgrade",
-    "url": "https://github.com/infobyte/evilgrade",
-    "description": "Modular framework to take advantage of poor upgrade implementations by injecting fake updates.",
-    "category": "network",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "network tools",
-      "proxies and machine-in-the-middle (mitm) tools"
-    ],
-    "isOpenSource": true,
-    "toolType": "framework",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "PimEyes",
-    "url": "https://telegram.me/pimeyesbot",
-    "description": "Face-search across social networks.",
-    "category": "osint",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "social media tools",
-      "telegram"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "The Security Engineer Handbook",
-    "url": "https://securityhandbook.io/",
-    "description": "A short read that discusses the dos and dont's of working in a security team, and the many tricks and tips that can help you in your day-to-day as a security engineer.",
-    "category": "other",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "ebooks"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "CycloneDX CLI",
-    "url": "https://github.com/cyclonedx/cyclonedx-cli",
-    "description": "[F] — SBOM utilities.",
-    "category": "vulnerability-scanner",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "iac, sbom & dependency risk"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "webscreenshot",
-    "url": "https://github.com/maaaaz/webscreenshot",
-    "description": "Simple script to take screenshots of websites from a list of sites.",
-    "category": "web",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "open sources intelligence (osint)",
-      "web application and resource analysis tools"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "\"Admin Free\" Active Directory and Windows, Part 1- Understanding Privileged Groups in AD",
-    "url": "https://blogs.technet.microsoft.com/lrobins/2011/06/23/admin-free-active-directory-and-windows-part-1-understanding-privileged-groups-in-ad",
-    "description": "\"Admin Free\" Active Directory and Windows, Part 1- Understanding Privileged Groups in AD",
-    "category": "authentication",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "services",
-      "active directory"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "windows",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Popeye",
-    "url": "https://github.com/derailed/popeye",
-    "description": "[F] — K8s cluster sanitizer.",
-    "category": "cloud",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "containers & kubernetes"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "cloud",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -332,9 +51,290 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Vulnerability as a service: Heartbleed",
-    "url": "https://hub.docker.com/r/hmlio/vaas-cve-2014-0160",
-    "description": "Vulnerability as a service: Heartbleed — ctf API",
+    "name": "Ciphey",
+    "url": "https://github.com/ciphey/ciphey",
+    "description": "Automated decryption tool using artificial intelligence and natural language processing.",
+    "category": "ctf",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ctf tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "MDaemon - 15 Best Practices for Protecting Your Email",
+    "url": "https://blog.mdaemon.com/15-best-practices-for-protecting-your-email-with-security-gateway",
+    "description": "Generic recommandations but based on MDaemon Security Gateway for Email Servers",
+    "category": "endpoint",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "services",
+      "mail servers"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Browser Exploitation Framework (BeEF)",
+    "url": "https://github.com/beefproject/beef",
+    "description": "Command and control server for delivering exploits to commandeered Web browsers.",
+    "category": "exploit",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "web exploitation",
+      "web shells and c2 frameworks"
+    ],
+    "isOpenSource": true,
+    "toolType": "framework",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Hoarder",
+    "url": "https://github.com/muteb/hoarder",
+    "description": "Collecting the most valuable artifacts for forensics or incident response investigations.",
+    "category": "forensics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "windows evidence collection"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "windows",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Operator Handbook: Red Team + OSINT + Blue Team Reference",
+    "url": "https://www.amazon.com/operator-handbook-team-osint-reference/dp/b085rr67h5",
+    "description": "Great reference for incident responders.",
+    "category": "incident-response",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "books"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "dnSpy",
+    "url": "https://github.com/0xd4d/dnspy",
+    "description": "Tool to reverse engineer .NET assemblies.",
+    "category": "malware-analysis",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "reverse engineering",
+      "reverse engineering tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Quark-Engine",
+    "url": "https://github.com/quark-engine/quark-engine",
+    "description": "An Obfuscation-Neglect Android Malware Scoring System.",
+    "category": "mobile",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "endpoint",
+      "mobile / android / ios"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "mobile",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "leakedin.com",
+    "url": "http://www.leakedin.com/",
+    "description": "The primary purpose of leakedin.com is to make visitors aware about the risks of loosing data. This blog just compiles samples of data lost or disclosed on sites like pastebin.com.",
+    "category": "monitoring",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "threat intelligence"
+    ],
+    "isOpenSource": false,
+    "toolType": "resource",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "HTTPs Everywhere",
+    "url": "https://www.eff.org/https-everywhere",
+    "description": "HTTPs Everywhere",
+    "category": "network",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "privacy and encryption tools"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ReelPhish",
+    "url": "https://github.com/fireeye/reelphish",
+    "description": "Real-time two-factor phishing tool.",
+    "category": "osint",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "social engineering",
+      "social engineering tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Hackers On Planet Earth (HOPE)",
+    "url": "https://hope.net/",
+    "description": "Semi-annual conference held in New York City.",
+    "category": "other",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "conferences and events",
+      "north america"
+    ],
+    "isOpenSource": false,
+    "toolType": "resource",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Microsoft Security Advisories and Bulletins",
+    "url": "https://docs.microsoft.com/en-us/security-updates",
+    "description": "Archive and announcements of security advisories impacting Microsoft software, published by the Microsoft Security Response Center (MSRC).",
+    "category": "vulnerability-scanner",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "vulnerability databases"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "mitmproxy",
+    "url": "https://mitmproxy.org/",
+    "description": "Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+    "category": "web",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "web exploitation",
+      "intercepting web proxies"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Stegcloak",
+    "url": "https://github.com/kurolabs/stegcloak",
+    "description": "Securely assign Digital Authenticity to any written text",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "endpoint",
+      "authentication"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "k-rail",
+    "url": "https://github.com/cruise-automation/k-rail",
+    "description": "Workload policy enforcement tool for Kubernetes.",
+    "category": "cloud",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "cloud platform security",
+      "kubernetes"
+    ],
+    "isOpenSource": true,
+    "toolType": "platform",
+    "targetPlatform": "cloud",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "crunch",
+    "url": "https://sourceforge.net/projects/crunch-wordlist",
+    "description": "[F] — Wordlist generator.",
+    "category": "cryptography",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "credentials, cracking & wordlists"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Vulnerability as a service: SambaCry",
+    "url": "https://hub.docker.com/r/vulnerables/cve-2017-7494",
+    "description": "Vulnerability as a service: SambaCry — ctf API",
     "category": "ctf",
     "pricing": "open-source",
     "hasApi": false,

@@ -1,24 +1,24 @@
 [
   {
-    "name": "OpenLIT",
-    "url": "https://openalternative.co/openlit",
-    "description": "Monitor, debug, and scale LLM applications with ease",
+    "name": "MaxKB",
+    "url": "https://openalternative.co/maxkb",
+    "description": "AI assistant that enhances enterprise knowledge management",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "ai & machine learning",
-      "ai development platforms"
+      "ai interaction & interfaces"
     ],
-    "license": "Apache-2.0",
+    "license": "GPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenPanel",
-    "url": "https://openalternative.co/openpanel",
-    "description": "Privacy-first analytics with powerful insights",
+    "name": "Databuddy",
+    "url": "https://openalternative.co/databuddy",
+    "description": "Privacy-first analytics without cookies or tracking",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
@@ -28,13 +28,13 @@
     ],
     "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Requestly",
-    "url": "https://openalternative.co/requestly",
-    "description": "Intercept, modify, and debug HTTP(S) requests effortlessly",
+    "name": "Gravitee",
+    "url": "https://openalternative.co/gravitee",
+    "description": "Unified API, event, and AI agent management platform",
     "category": "api-tools",
     "pricing": "open-source",
     "hasApi": true,
@@ -42,122 +42,126 @@
       "developer tools",
       "api development & testing"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Cerbos",
-    "url": "https://openalternative.co/cerbos",
-    "description": "Secure, policy-based access control for modern applications",
-    "category": "authentication",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "security & privacy",
-      "identity & access management (iam)"
-    ],
     "license": "Apache-2.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Automatisch",
-    "url": "https://openalternative.co/automatisch",
-    "description": "Open-source integration platform for seamless workflows",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "developer tools",
-      "integration platforms"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Dolibarr",
-    "url": "https://www.dolibarr.org",
-    "description": "ERP, CRM, POS, RH",
-    "category": "business-intelligence",
+    "name": "Warrant",
+    "url": "https://warrant.dev/",
+    "description": "Authorization and access control as a service",
+    "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-sap"
+      "alternative-to-okta",
+      "alternative-to-auth0"
     ],
-    "alternativeTo": "SAP",
+    "alternativeTo": "Okta, Auth0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Strapi",
-    "url": "https://openalternative.co/strapi",
-    "description": "Craft and manage content with ease and flexibility",
+    "name": "MDMA",
+    "url": "https://openalternative.co/mdma",
+    "description": "Transform forms into adaptive chat experiences",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "productivity & utilities",
+      "automation"
+    ],
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Grist",
+    "url": "https://openalternative.co/grist",
+    "description": "Flexible spreadsheets with database power",
+    "category": "business-intelligence",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "data & analytics",
+      "business intelligence & reporting"
+    ],
+    "license": "Apache-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Marble CMS",
+    "url": "https://openalternative.co/marble-cms",
+    "description": "Simple content management for modern sites",
     "category": "cms",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "content & publishing",
       "content management systems (cms)"
     ],
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Element",
-    "url": "https://openalternative.co/element",
-    "description": "Secure, decentralized messaging for teams and individuals",
+    "name": "DiamanteDesk",
+    "url": "https://github.com/eltrino/diamantedesk-application",
+    "description": "Open-source alternative to Zendesk",
     "category": "collaboration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "collaboration & communication"
+      "alternative-to-zendesk"
     ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Sink",
-    "url": "https://openalternative.co/sink",
-    "description": "Simple, speedy, and secure link shortener with analytics",
-    "category": "communication",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "business software",
-      "marketing & customer engagement"
-    ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Convo",
-    "url": "https://github.com/hiconvo",
-    "description": "Open-source alternative to Facebook",
-    "category": "community",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "alternative-to-facebook"
-    ],
-    "alternativeTo": "Facebook",
+    "alternativeTo": "Zendesk",
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Ever Gauzy",
-    "url": "https://openalternative.co/ever-gauzy",
-    "description": "Comprehensive open-source business management platform",
+    "name": "UserTourKit",
+    "url": "https://openalternative.co/usertourkit",
+    "description": "Lightweight, accessible product tours built for React developers",
+    "category": "communication",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "business software",
+      "customer support & success"
+    ],
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Discourse",
+    "url": "https://openalternative.co/discourse",
+    "description": "Cultivate vibrant online communities with ease",
+    "category": "community",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "community & social",
+      "community building platforms"
+    ],
+    "license": "GPL-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Erxes",
+    "url": "https://openalternative.co/erxes",
+    "description": "Open-source growth platform for customer-centric teams",
     "category": "crm",
     "pricing": "open-source",
     "hasApi": false,
@@ -165,15 +169,14 @@
       "business software",
       "crm & sales"
     ],
-    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Conar",
-    "url": "https://openalternative.co/conar",
-    "description": "AI-powered PostgreSQL management made simple",
+    "name": "Chat2DB",
+    "url": "https://openalternative.co/chat2db",
+    "description": "Transform natural language into SQL queries with AI",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
@@ -181,78 +184,76 @@
       "infrastructure & operations",
       "databases"
     ],
-    "license": "AGPL-3.0",
+    "license": "Apache-2.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Chalk.ist",
-    "url": "https://openalternative.co/chalkist",
-    "description": "Transform your source code into stunning visuals",
+    "name": "Modulz",
+    "url": "https://www.modulz.app/",
+    "description": "Code-based tool for designing and prototyping",
     "category": "design",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "productivity & utilities",
-      "design & visualization"
+      "alternative-to-figma"
     ],
-    "license": "MIT",
+    "alternativeTo": "Figma",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Void",
-    "url": "https://openalternative.co/void",
-    "description": "Open source AI code editor with full privacy",
+    "name": "Otomi",
+    "url": "https://otomi.io",
+    "description": "Self-hosted PaaS for Kubernetes",
     "category": "developer-tools",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
-      "ides & code editors"
+      "alternative-to-heroku"
     ],
-    "license": "Apache-2.0",
+    "alternativeTo": "Heroku",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Digger",
-    "url": "https://openalternative.co/digger",
-    "description": "Terraform automation with pull request workflows",
+    "name": "1Panel",
+    "url": "https://openalternative.co/1panel",
+    "description": "Manage Linux servers with ease through a modern web interface",
     "category": "devops",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
-      "build & deployment"
+      "infrastructure & operations",
+      "server & vm management"
     ],
-    "license": "MIT",
+    "license": "GPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Fumadocs",
-    "url": "https://openalternative.co/fumadocs",
-    "description": "Build beautiful documentation sites with Next.js",
+    "name": "Firecamp",
+    "url": "https://openalternative.co/firecamp",
+    "description": "Unified API development ecosystem for modern teams",
     "category": "documentation",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "content & publishing",
       "documentation & knowledge base"
     ],
-    "license": "MIT",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "PrestaShop",
-    "url": "https://github.com/prestashop",
+    "name": "Saleor Commerce",
+    "url": "https://github.com/mirumee/saleor",
     "description": "Open-source alternative to Shopify",
     "category": "e-commerce",
     "pricing": "open-source",
@@ -282,35 +283,35 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Gumroad",
-    "url": "https://openalternative.co/gumroad",
-    "description": "Your all-in-one marketplace for digital creators and products",
+    "name": "Sure.am",
+    "url": "https://openalternative.co/sure-am",
+    "description": "The personal finance app for everyone",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "finance & accounting"
+      "productivity & utilities",
+      "personal finance management"
     ],
-    "license": "MIT",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Formio",
-    "url": "https://form.io/",
-    "description": "A Form and Data Management Platform for Progressive Web Applications",
+    "name": "Alacritty",
+    "url": "https://openalternative.co/alacritty",
+    "description": "High-performance terminal with GPU acceleration",
     "category": "forms",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "alternative-to-vueform",
-      "alternative-to-typeform"
+      "developer tools",
+      "terminals"
     ],
-    "alternativeTo": "Vueform, Typeform",
+    "license": "Apache-2.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
 ]

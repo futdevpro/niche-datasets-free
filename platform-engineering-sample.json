@@ -1,182 +1,30 @@
 [
   {
-    "name": "Waitr",
-    "url": "http://watir.com/",
-    "description": "Waitr — ci-cd-pipeline API",
+    "name": "Runme",
+    "url": "https://runme.dev",
+    "description": "Infrastructure Notebooks Built with Markdown. Runme is a free tool that enables Markdown files to become runnable notebooks. You can use scripts in Shell, Perl, Python, and more.",
     "category": "ci-cd-pipeline",
-    "pricing": "unknown",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "continuous testing"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Portainer- container management for K8S and more",
-    "url": "https://www.portainer.io/",
-    "description": "Portainer- container management for K8S and more",
-    "category": "container-orchestration",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "tooling— kubernetes, paas and cloud services"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "IBM Cloud Reference Architecture",
-    "url": "https://github.com/ibm/ibm-cloud-reference-architectures",
-    "description": "IBM Infrastructure Automation.",
-    "category": "developer-experience",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "reference architecture"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Kubero",
-    "url": "https://github.com/kubero-dev/kubero",
-    "description": "A fully self-hosted Internal Developer Platform (IDP).",
-    "category": "developer-portal",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "internal developer portal"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "ConfigCat - Privacy-first feature flag service",
-    "url": "https://configcat.com/",
-    "description": "ConfigCat - Privacy-first feature flag service",
-    "category": "feature-flags",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "tooling— feature flags, environments and change management"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
-    "url": "https://github.com/artipie/artipie",
-    "description": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
-    "category": "iac-and-provisioning",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— infrastructure and artifacts management"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OnlineOrNot",
-    "url": "https://onlineornot.com/",
-    "description": "Uptime monitoring for websites, APIs, and cron jobs, with integrated status pages.",
-    "category": "observability",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [
-      "continuous monitoring"
+      "continuous delivery",
+      "automation and collaboration"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "OnPage",
-    "url": "https://www.onpage.com/",
-    "description": "OnPage — other API",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Wazuh",
-    "url": "https://wazuh.com/",
-    "description": "Wazuh — policy-and-governance API",
-    "category": "policy-and-governance",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "security"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
-    "url": "https://github.com/ory/keto",
-    "description": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
-    "category": "secrets-management",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— authentication and authorization"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Istio- open source service mesh",
-    "url": "https://istio.io/",
-    "description": "Istio- open source service mesh",
-    "category": "service-mesh",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "tooling— service mesh, api gateway and app proxies"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Gitlab CI",
-    "url": "https://about.gitlab.com/product/continuous-integration",
-    "description": "Gitlab CI — ci-cd-pipeline API",
-    "category": "ci-cd-pipeline",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "continuous integration",
-      "integration"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Meshery - A open source cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications (multi-cloud)",
-    "url": "https://meshery.io",
-    "description": "Meshery - A open source cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications (multi-cloud)",
+    "name": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
+    "url": "https://github.com/kubestellar/console",
+    "description": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
     "category": "container-orchestration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— kubernetes, paas and cloud services"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -196,9 +44,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Backstage Software Catalog",
-    "url": "https://backstage.io/",
-    "description": "Backstage Software Catalog",
+    "name": "cycloid",
+    "url": "https://www.cycloid.io/platform-engineering",
+    "description": "Platform Engineering is DevOps with an action plan.",
     "category": "developer-portal",
     "pricing": "unknown",
     "hasApi": true,
@@ -206,46 +54,62 @@
       "internal developer portal"
     ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ConfigCat - Privacy-first feature flag service",
+    "url": "https://configcat.com/",
+    "description": "ConfigCat - Privacy-first feature flag service",
+    "category": "feature-flags",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— feature flags, environments and change management"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "AWS Proton- Self-service infrastructure templates",
-    "url": "https://aws.amazon.com/proton",
-    "description": "AWS Proton- Self-service infrastructure templates",
+    "name": "Verdaccio- a simple, zero-config npm registry",
+    "url": "https://github.com/verdaccio/verdaccio",
+    "description": "Verdaccio- a simple, zero-config npm registry",
     "category": "iac-and-provisioning",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— infrastructure and artifacts management"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Crashlytics",
-    "url": "https://fabric.io/kits/android/crashlytics",
-    "description": "Crashlytics",
+    "name": "StatusPal",
+    "url": "https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops",
+    "description": "communicate incidents and maintenance effectively with a beautiful hosted status page.",
     "category": "observability",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "incident communication"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Platformengineering.org tooling list",
+    "url": "https://platformengineering.org/platform-tooling",
+    "description": "Platformengineering.org tooling list",
+    "category": "other",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous monitoring"
+      "miscellaneous and related"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Keep - CLI for alerting",
-    "url": "https://github.com/keephq/keep",
-    "description": "Keep - CLI for alerting",
-    "category": "other",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
@@ -264,9 +128,149 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Casdoor- IAM/SSO platform with web UI",
-    "url": "https://github.com/casdoor/casdoor",
-    "description": "Casdoor- IAM/SSO platform with web UI",
+    "name": "Permit.io - Authorization as a service with a no-code UI",
+    "url": "https://permit.io/",
+    "description": "Permit.io - Authorization as a service with a no-code UI",
+    "category": "secrets-management",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— authentication and authorization"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Istio- open source service mesh",
+    "url": "https://istio.io/",
+    "description": "Istio- open source service mesh",
+    "category": "service-mesh",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "tooling— service mesh, api gateway and app proxies"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Chrono CI",
+    "url": "http://www.chronoci.com/",
+    "description": "Chrono CI — ci-cd-pipeline API",
+    "category": "ci-cd-pipeline",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous integration",
+      "integration"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Dokku- Open source PAAS alternative to Heroku",
+    "url": "https://dokku.com/",
+    "description": "Dokku- Open source PAAS alternative to Heroku",
+    "category": "container-orchestration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— kubernetes, paas and cloud services"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Redmine",
+    "url": "https://www.redmine.org/",
+    "description": "Redmine — developer-experience API",
+    "category": "developer-experience",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "development",
+      "project management & issue tracking software"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Port",
+    "url": "https://www.getport.io/",
+    "description": "Port — developer-portal API",
+    "category": "developer-portal",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Digger - Open Source Infratructure as Code management tool",
+    "url": "https://www.github.com/diggerhq/digger",
+    "description": "Digger - Open Source Infratructure as Code management tool",
+    "category": "iac-and-provisioning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Grafana",
+    "url": "https://grafana.com",
+    "description": "Grafana — observability API",
+    "category": "observability",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous monitoring"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SLO Calculator",
+    "url": "https://github.com/last9/slo-computer",
+    "description": "SLO Calculator",
+    "category": "other",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Aqua Security",
+    "url": "https://www.aquasec.com/",
+    "description": "Aqua Security",
+    "category": "policy-and-governance",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "security"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Permify- open-source authorization service",
+    "url": "https://github.com/permify/permify",
+    "description": "Permify- open-source authorization service",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,

@@ -1,8 +1,8 @@
 [
   {
-    "name": "Zoo Animals",
-    "url": "https://zoo-animal-api.herokuapp.com/",
-    "description": "Facts and pictures of zoo animals",
+    "name": "Movebank",
+    "url": "https://github.com/movebank/movebank-api-doc",
+    "description": "Movement and Migration data of animals",
     "category": "animals",
     "pricing": "free",
     "hasApi": false,
@@ -14,105 +14,19 @@
     "auth": "none",
     "https": true,
     "cors": "yes",
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Shikimori",
-    "url": "https://shikimori.one/api/doc",
-    "description": "Anime discovery, tracking, forum, rates",
+    "name": "Waifu.im",
+    "url": "https://waifu.im/docs",
+    "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
     "category": "anime",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "anime"
-    ],
-    "auth": "oauth",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Dymo API",
-    "url": "https://dymo.tpeoficial.com/",
-    "description": "Multi-account and fraud detection. Sending emails without ending up in SPAM.",
-    "category": "anti-malware",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "anti-malware",
-      "cors-enabled"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Dribbble",
-    "url": "https://developer.dribbble.com/",
-    "description": "Discover the world’s top designers & creatives",
-    "category": "art-design",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "art & design"
-    ],
-    "auth": "oauth",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Jumio",
-    "url": "https://www.jumio.com/developer",
-    "description": "Provides identity verification, KYC (Know Your Customer), and AML (Anti-Money Laundering) solutions, including document verification and biometric authentication.",
-    "category": "authentication",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "fraud prevention"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Covalent",
-    "url": "https://www.covalenthq.com/docs/api",
-    "description": "Multi-blockchain data aggregator platform",
-    "category": "blockchain",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "blockchain"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Thirukkural",
-    "url": "https://api-thirukkural.web.app/",
-    "description": "1330 Thirukkural poems and explanation in Tamil and English",
-    "category": "books",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "books",
+      "anime",
       "no-auth",
       "cors-enabled"
     ],
@@ -124,15 +38,105 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Next Big Sound",
-    "url": "https://api3.nextbigsound.com/",
-    "description": "API offers a very simple interface to access data from NBS. Ruby wrapper available.",
+    "name": "MalDatabase",
+    "url": "https://maldatabase.com/api-doc.html",
+    "description": "Provide malware datasets and threat intelligence feeds",
+    "category": "anti-malware",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "anti-malware"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Icon Horse",
+    "url": "https://icon.horse/",
+    "description": "Favicons for any website, with fallbacks",
+    "category": "art-design",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "art & design",
+      "no-auth",
+      "cors-enabled"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "GetOTP",
+    "url": "https://otp.dev/en/docs",
+    "description": "Implement OTP flow quickly",
+    "category": "authentication",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "authentication & authorization"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "no",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Etherscan",
+    "url": "https://etherscan.io/apis",
+    "description": "Ethereum explorer API",
+    "category": "blockchain",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "blockchain",
+      "cors-enabled"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Bible-api",
+    "url": "https://bible-api.com/",
+    "description": "Free Bible API with multiple languages",
+    "category": "books",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "books",
+      "no-auth",
+      "cors-enabled"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Woopra",
+    "url": "https://www.woopra.com/docs/developer/analytics-api",
+    "description": "Real-time website analysis tool that targets customer engagement.",
     "category": "business",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
       "table of contents",
-      "music analytics"
+      "analytics"
     ],
     "cors": "unknown",
     "auth": "apiKey",
@@ -142,9 +146,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "TimeZones iCal Library",
-    "url": "https://tz.add-to-calendar-technology.com/",
-    "description": "Database of official time zones and corresponding iCal VTIMEZONE blocks",
+    "name": "UK Bank Holidays",
+    "url": "https://www.gov.uk/bank-holidays.json",
+    "description": "Bank holidays in England and Wales, Scotland and Northern Ireland",
     "category": "calendar",
     "pricing": "free",
     "hasApi": false,
@@ -160,9 +164,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "CircleCI",
-    "url": "https://circleci.com/docs/api/v1-reference",
-    "description": "Automate the software development process using continuous integration and continuous delivery",
+    "name": "Codeship",
+    "url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview",
+    "description": "Codeship is a Continuous Integration Platform in the cloud",
     "category": "ci-cd",
     "pricing": "freemium",
     "hasApi": false,
@@ -172,141 +176,142 @@
     "auth": "apiKey",
     "https": true,
     "cors": "unknown",
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Amazon Cloud Drive",
-    "url": "https://developer.amazon.com/amazon-drive",
-    "description": "With the Amazon Cloud Drive's updated RESTful API and SDKs for Android and iOS, Amazon Drive is moving to an invite-only developer offering to ensure they can provide a consistently viable cloud drive service available for supported use-cases.",
+    "name": "Web3 Storage",
+    "url": "https://web3.storage/",
+    "description": "File Sharing and Storage for Free with 1TB Space",
     "category": "cloud-storage",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "table of contents",
-      "cloud storage"
+      "cloud storage & file sharing",
+      "cors-enabled"
     ],
-    "cors": "unknown",
     "auth": "apiKey",
     "https": true,
+    "cors": "yes",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "INFURA Ethereum",
-    "url": "https://infura.io/product/ethereum",
-    "description": "Interaction with the Ethereum mainnet and several testnets",
+    "name": "blockfrost Cardano",
+    "url": "https://blockfrost.io/",
+    "description": "Interaction with the Cardano mainnet and several testnets",
     "category": "cryptocurrency",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "cryptocurrency",
-      "cors-enabled"
+      "cryptocurrency"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "yes",
+    "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Coinnect",
-    "url": "https://coinnect.bot/docs",
-    "description": "Open money transfer routing across fiat, crypto and P2P networks",
+    "name": "FreeForexAPI",
+    "url": "https://freeforexapi.com/home/api",
+    "description": "Real-time foreign exchange rates for major currency pairs",
     "category": "currency",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "currency exchange",
-      "cors-enabled"
+      "no-auth"
     ],
-    "auth": "apiKey",
+    "auth": "none",
     "https": true,
-    "cors": "yes",
+    "cors": "no",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "US Autocomplete",
-    "url": "https://www.smarty.com/docs/cloud/us-autocomplete-pro-api",
-    "description": "Enter address data quickly with real-time address suggestions",
+    "name": "NumValidate",
+    "url": "https://numvalidate.com/",
+    "description": "Open Source phone number validation",
     "category": "data-validation",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "data validation",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Pythonium",
+    "url": "https://pythonium.net/linter",
+    "description": "Validate Python code",
+    "category": "development",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "development",
+      "no-auth",
       "cors-enabled"
     ],
-    "auth": "apiKey",
+    "auth": "none",
     "https": true,
     "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Free Dictionary",
+    "url": "https://dictionaryapi.dev/",
+    "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
+    "category": "dictionaries",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "dictionaries",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Chomp Food Database API Documentation",
-    "url": "https://chompthis.com",
-    "description": "## Important An **[API key](https://chompthis.com/api/)** is required for access to this API. Get yours at **[https://chompthis.com/api](https://chompthis.com/api/)**. ### Getting Started * **[Subscribe](https://chompthis.com/api/#pricing)** to the API. * Scroll down and click the \"**Authorize**\" button. * Enter your API key into the \"**value**\" input, click the \"**Authorize**\" button, then click the \"**Close**\" button. * Scroll down to the section titled \"**default**\" and click on the API en...",
-    "category": "development",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "tools"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "verbose",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Cambridge Dictionaries Online",
-    "url": "http://dictionary.cambridge.org/license.html",
-    "description": "Access to Cambridge’s custom-developed API. 💸",
-    "category": "dictionaries",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "table of contents",
-      "dictionary"
-    ],
-    "cors": "unknown",
-    "auth": "apiKey",
-    "https": false,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "PredictHQ",
-    "url": "https://docs.predicthq.com/",
-    "description": "Events and natural disasters data",
+    "name": "Ambee",
+    "url": "https://www.getambee.com/api/natural-disasters",
+    "description": "Natural Disasters API",
     "category": "disasters",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "disasters"
     ],
-    "auth": "oauth",
+    "auth": "apiKey",
     "https": true,
     "cors": "unknown",
-    "urlDomainTier": "documentation",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Smart Image Enhancement API",
-    "url": "https://apilayer.com/marketplace/image_enhancement-api",
-    "description": "Performs image upscaling by adding detail to images through multiple super-resolution algorithms",
+    "name": "CustomJS",
+    "url": "https://www.customjs.space/integration/pdf-api/html-to-pdf",
+    "description": "HTML to PDF or PDF to PNG/Text & merging/extraction APIs",
     "category": "documents",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "documents & productivity"
     ],
@@ -318,34 +323,35 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Discovery Market Research",
-    "url": "https://gsa.gov",
-    "description": "This API drives the Discovery Market Research Tool . It contains information on the vendors that are part of the OASIS and OASIS Small Business contracting vehicles, such as their contracting history, their elligibility for contract awards, and their small business designations. To learn more about the tool, please visit Discovery or see the README on our GitHub repository . Please note that the base path for this API is https://api.data.gov/gsa/discovery/ It requires an API key, obtainable a...",
+    "name": "Learnifier",
+    "url": "https://learnifier.com",
+    "description": "Learnifier — education API",
     "category": "education",
     "pricing": "freemium",
-    "hasApi": true,
-    "tags": [],
+    "hasApi": false,
+    "tags": [
+      "education"
+    ],
     "auth": "apiKey",
     "https": true,
     "cors": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "verbose",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Cloudmersive Validate",
-    "url": "https://cloudmersive.com/validate-api",
-    "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
+    "name": "OneSignal",
+    "url": "https://documentation.onesignal.com/docs/onesignal-api",
+    "description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
     "category": "email",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "email",
-      "cors-enabled"
+      "development"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "yes",
+    "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"

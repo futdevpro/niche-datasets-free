@@ -1,27 +1,27 @@
 [
   {
-    "name": "RipperMercs/tensorfeed",
-    "url": "https://github.com/rippermercs/tensorfeed/tree/main/mcp-server",
-    "description": "Real-time AI industry intelligence MCP server. 6 free tools (AI news, service status, model pricing, today summary, agent activity, MCP registry snapshot) and 13 paid premium tools (routing recommendations, news search, history series, cost projection, provider deep-dive, model comparison, agents directory, what's new brief, MCP registry series, webhook watches with daily/weekly digest tier). Pay-per-call in USDC on Base mainnet, no accounts. npx -y @tensorfeed/mcp-server",
+    "name": "jaspertvdm/mcp-server-gemini-bridge",
+    "url": "https://github.com/jaspertvdm/mcp-server-gemini-bridge",
+    "description": "Bridge to Google Gemini API. Access Gemini Pro and Flash models through MCP.",
     "category": "aggregators",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "aggregators",
       "open-source"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "keepgoing-dev/mcp-server",
-    "url": "https://github.com/keepgoing-dev/mcp-server",
-    "description": "Project memory for AI coding sessions. Auto-captures checkpoints on git commits, branch switches, and inactivity, then provides re-entry briefings so AI assistants pick up where you left off. Local-first, no account required.",
+    "name": "idapixl/algora-mcp-server",
+    "url": "https://github.com/idapixl/algora-mcp-server",
+    "description": "Browse and search open-source bounties on Algora. 5 tools: list, search, filter by org/tech/amount, get top bounties, aggregate stats. No API key required.",
     "category": "ai-services",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "knowledge & memory",
       "open-source",
@@ -29,68 +29,67 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "SealinGp/mcp-video-extraction",
-    "url": "https://github.com/sealingp/mcp-video-extraction",
-    "description": "Facilitates text extraction from videos and audio files across multiple platforms using OpenAI's Whisper model.",
+    "name": "strato-space/media-gen-mcp",
+    "url": "https://github.com/strato-space/media-gen-mcp",
+    "description": "TypeScript MCP server for OpenAI Images/Videos and Google GenAI (Veo) media generation, editing, and asset downloads.",
     "category": "art-literature",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "multimedia processing",
+      "multimedia process",
+      "open-source",
       "art-literature"
     ],
+    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "xmpuspus/cloudwright",
-    "url": "https://github.com/xmpuspus/cloudwright",
-    "description": "Natural-language cloud architecture intelligence for AWS, GCP, Azure, and Databricks. 19 tools for architecture design, cost estimation, compliance validation (HIPAA, SOC 2, FedRAMP, GDPR, PCI-DSS, Well-Architected), security scanning, Terraform/CloudFormation export, and blast-radius analysis.",
+    "name": "3loka/consul-mcp-server",
+    "url": "https://github.com/3loka/consul-mcp-server",
+    "description": "Facilitates AI-driven analysis and management of Consul service discovery and mesh through natural language interaction.",
     "category": "cloud-platforms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "cloud platforms",
-      "open-source",
+      "infrastructure",
       "cloud-platforms"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "4everland/4everland-hosting-mcp",
-    "url": "https://github.com/4everland/4everland-hosting-mcp",
-    "description": "An MCP server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage networks like Greenfield, IPFS, and Arweave.",
+    "name": "FunnyPuppet/mcp-s3-server",
+    "url": "https://github.com/funnypuppet/mcp-s3-server",
+    "description": "Facilitates object storage operations with a comprehensive set of commands for managing buckets and objects.",
     "category": "cloud-storage",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "official servers",
-      "open-source",
+      "infrastructure",
       "cloud-storage"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "wazionapps/mcp-server",
-    "url": "https://github.com/wazionapps/mcp-server",
-    "description": "244 WhatsApp Business tools: send messages, automate workflows, run campaigns, and manage CRM. Streamable HTTP + stdio.",
+    "name": "Slack",
+    "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
+    "description": "Channel management and messaging capabilities. Now maintained by Zencoder",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "communication",
-      "open-source"
+      "archived",
+      "open-source",
+      "communication"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -98,9 +97,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "irulescan MCP",
-    "url": "https://github.com/simonkowallik/irulescan?tab=readme-ov-file#mcp-server",
-    "description": ":shield: MCP enabled code security analyzer for F5 iRules",
+    "name": "Agentset",
+    "url": "https://github.com/agentset-ai/mcp-server",
+    "description": "RAG MCP for your Agentset data.",
     "category": "community",
     "pricing": "open-source",
     "hasApi": false,
@@ -110,20 +109,22 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "cheukyin175/metabase-mcp",
-    "url": "https://github.com/cheukyin175/metabase-mcp",
-    "description": "Facilitates seamless integration of AI assistants with Metabase analytics, enabling direct interaction with analytics data via MCP capabilities.",
+    "name": "Unstructured",
+    "url": "https://github.com/unstructured-io/uns-mcp",
+    "description": "Set up and interact with your unstructured data processing workflows in Unstructured Platform",
     "category": "data-platforms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data analysis & business intelligence",
+      "official servers",
+      "open-source",
       "data-platforms"
     ],
+    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
@@ -146,14 +147,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Neon",
-    "url": "https://github.com/neondatabase/mcp-server-neon",
-    "description": "Interact with the Neon serverless Postgres platform",
+    "name": "srclight/srclight",
+    "url": "https://github.com/srclight/srclight",
+    "description": "Deep code indexing MCP server with SQLite FTS5, tree-sitter, and embeddings. 29 tools for symbol search, call graphs, git intelligence, and hybrid semantic search.",
     "category": "databases",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "official servers",
+      "developer tools",
       "open-source",
       "databases"
     ],
@@ -163,26 +164,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "wende/cicada",
-    "url": "https://github.com/wende/cicada",
-    "description": "Code Intelligence for Elixir: module search, function tracking, and PR attribution through tree-sitter AST parsing",
+    "name": "tobiassteidle/Spring-Boot-Sample-MCP-Server",
+    "url": "https://github.com/tobiassteidle/spring-boot-sample-mcp-server",
+    "description": "A Spring Boot-based server that facilitates AI model interactions through the Model Context Protocol, offering seamless integration and enhanced capabilities for AI assistants like Claude.",
     "category": "development-tools",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "coding agents",
-      "open-source",
+      "frameworks",
       "development-tools"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "cmcgrabby-hue/syndicate-links",
-    "url": "https://github.com/cmcgrabby-hue/syndicate-links/tree/master/mcp",
-    "description": "Affiliate commission infrastructure for AI agents. 7 tools for program discovery, attribution tracking, commission status, and payouts. Search programs, get details, track conversions with signed attribution tokens, and trigger settlement cycles. Install via npx syndicate-links-mcp.",
+    "name": "pepabo/colormeshop-mcp",
+    "url": "https://github.com/pepabo/colormeshop-mcp",
+    "description": "Official remote MCP server for Color Me Shop (GMO Pepabo), a Japanese e-commerce platform. Manage orders, products, inventory, customers, coupons, and shop settings via natural language.",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
@@ -192,50 +191,46 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "isaacphi/mcp-gdrive",
-    "url": "https://github.com/isaacphi/mcp-gdrive",
-    "description": "Model Context Protocol (MCP) Server for reading from Google Drive and editing Google Sheets.",
+    "name": "jhgaylor/me_mcp_server",
+    "url": "https://github.com/jhgaylor/me_mcp_server",
+    "description": "Facilitates personalized job search and profile management through a Model Context Protocol server.",
     "category": "file-systems",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "file systems",
-      "open-source",
+      "cloud platforms & services",
       "file-systems"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "minhyeoky/mcp-server-ledger",
-    "url": "https://github.com/minhyeoky/mcp-server-ledger",
-    "description": "A ledger-cli integration for managing financial transactions and generating reports.",
+    "name": "FXMacroData",
+    "url": "https://github.com/fxmacrodata/fxmacrodata",
+    "description": "Macroeconomic indicators, central bank policy rates, FX spot rates, COT positioning data, and economic release calendars for 18+ currencies via a remote MCP server at https://fxmacrodata.com/mcp",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "finance & fintech",
-      "open-source",
+      "finance & crypto",
       "finance"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "weekitmo/mcp_godot_rag",
-    "url": "https://github.com/weekitmo/mcp_godot_rag",
-    "description": "Facilitates access to Godot documentation for the Godot RAG model through an MCP server.",
+    "name": "ChadAragorn/defold-mcp",
+    "url": "https://github.com/chadaragorn/defold-mcp",
+    "description": "An open-source MCP server that integrates the Defold game engine with modern developer tools and AI workflows, enabling automation and real-time project management.",
     "category": "gaming",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "gaming"
     ],
@@ -260,9 +255,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "wolfcoming/adb_mcp_server",
-    "url": "https://github.com/wolfcoming/adb_mcp_server",
-    "description": "Facilitates remote control of Android devices via ADB using the MCP protocol, enabling device management, screen operations, input actions, app management, and more.",
+    "name": "zradlicz/particle-mcp-server",
+    "url": "https://github.com/zradlicz/particle-mcp-server",
+    "description": "Facilitates AI-driven management of Particle IoT devices through natural language commands.",
     "category": "iot",
     "pricing": "open-source",
     "hasApi": false,
@@ -275,14 +270,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "louis030195/gptzero-mcp",
-    "url": "https://github.com/louis030195/gptzero-mcp",
-    "description": "AI detection for text content with GPTZero API. Detect AI-generated text, get confidence scores, multilingual support (French/Spanish), and detailed probability breakdowns.",
+    "name": "shuji-bonji/xcomet-mcp-server",
+    "url": "https://github.com/shuji-bonji/xcomet-mcp-server",
+    "description": "Translation quality evaluation using xCOMET models. Provides quality scoring (0-1), error detection with severity levels (minor/major/critical), and optimized batch processing with 25x speedup.",
     "category": "language-translation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
+      "translation services",
       "open-source",
       "language-translation"
     ],
@@ -292,24 +287,26 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "RmMargt/searchAPI-mcp",
-    "url": "https://github.com/rmmargt/searchapi-mcp",
-    "description": "Facilitates AI assistants in accessing Google Maps, Flights, Hotels, and other services through a unified search API interface.",
+    "name": "rossshannon/Weekly-Weather-mcp",
+    "url": "https://github.com/rossshannon/weekly-weather-mcp.git",
+    "description": "Weekly Weather MCP server which returns 7 full days of detailed weather forecasts anywhere in the world.",
     "category": "location-services",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "search",
+      "location services",
+      "open-source",
       "location-services"
     ],
+    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "cnych/seo-mcp",
-    "url": "https://github.com/cnych/seo-mcp",
-    "description": "Leverage Ahrefs data for comprehensive SEO analysis, including backlink and keyword research, through a Model Control Protocol service.",
+    "name": "falahgs/Gemini-Email-Subject-Generator-MCP",
+    "url": "https://github.com/falahgs/gemini-email-subject-generator-mcp",
+    "description": "Leverages Google's Gemini Flash 2 AI model to generate engaging email subjects and detailed thinking processes, integrating seamlessly with Claude Desktop.",
     "category": "marketing",
     "pricing": "open-source",
     "hasApi": false,

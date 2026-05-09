@@ -1,8 +1,8 @@
 [
   {
-    "name": "GraphRAG",
-    "url": "https://github.com/microsoft/graphrag",
-    "description": "A structured approach using knowledge graphs for enhanced context integration and reasoning.",
+    "name": "GNN-RAG",
+    "url": "https://github.com/cmavro/gnn-rag",
+    "description": "Graph neural retrieval for large language modeling reasoning.",
     "category": "agentic-rag",
     "pricing": "open-source",
     "hasApi": false,
@@ -14,33 +14,33 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Jaccard Similarity",
-    "url": "https://en.wikipedia.org/wiki/jaccard_index",
-    "description": "Jaccard Similarity",
+    "name": "WFGY Problem Map",
+    "url": "https://github.com/onestardao/wfgy/tree/main/problemmap",
+    "description": "16-mode checklist for diagnosing RAG and LLM failures.",
     "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "metrics & evaluation",
-      "similarity metrics for embeddings"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Token-Oriented Object Notation",
-    "url": "https://github.com/toon-format/toon",
-    "description": "A compact, deterministic JSON format for LLM prompts.",
-    "category": "rag-framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "techniques",
-      "prompting"
+      "metrics & evaluation",
+      "response evaluation metrics"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Semantic Chunking",
+    "url": "https://www.youtube.com/watch?v=8ojc21t2sl4&t=1933s",
+    "description": "Semantic Chunking",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "chunking"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -56,60 +56,62 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Typesense",
-    "url": "https://typesense.org/",
-    "description": "Typesense — vector-db-engine API",
+    "name": "Epsilla Cloud - The fully managed serverless vector database with 10X faster, cheaper and better.",
+    "url": "https://cloud.epsilla.com",
+    "description": "Epsilla Cloud - The fully managed serverless vector database with 10X faster, cheaper and better.",
     "category": "vector-db-engine",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "multidimensional data / vectors"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Multimodal RAG",
-    "url": "https://developer.nvidia.com/blog/an-easy-introduction-to-multimodal-retrieval-augmented-generation",
-    "description": "Extends RAG to handle multiple modalities such as text, images, and audio.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
+      "awesome vector search engine",
+      "cloud service"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Deep Learning for Search",
-    "url": "https://www.manning.com/books/deep-learning-for-search",
-    "description": "Deep Learning for Search",
+    "name": "A-RAG",
+    "url": "https://github.com/ayanami0730/arag",
+    "description": "Agentic RAG with hierarchical retrieval interfaces (keyword, semantic, chunk-level), enabling LLM agents to autonomously search and retrieve at multiple granularities. (Paper)",
+    "category": "agentic-rag",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Euclidean Distance",
+    "url": "https://en.wikipedia.org/wiki/euclidean_distance",
+    "description": "Euclidean Distance",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "others"
+      "metrics & evaluation",
+      "similarity metrics for embeddings"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Contextual Retrieval",
-    "url": "https://www.anthropic.com/engineering/contextual-retrieval",
-    "description": "Contextual Retrieval",
+    "name": "Detection Techniques",
+    "url": "https://machinelearningmastery.com/rag-hallucination-detection-techniques",
+    "description": "Implement methods to identify when models generate unsupported information",
     "category": "rag-framework",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "techniques",
-      "retrieval"
+      "response quality & safety"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -125,24 +127,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "DataStax Astra Vector - Multi-cloud, serverless vector DBaaS",
-    "url": "https://www.datastax.com/products/vector-search",
-    "description": "DataStax Astra Vector - Multi-cloud, serverless vector DBaaS",
+    "name": "Vexvault - 100% browser based, open source, scalable, simple, zero-cost vector search",
+    "url": "https://github.com/xyntopia/vexvault",
+    "description": "Vexvault - 100% browser based, open source, scalable, simple, zero-cost vector search",
     "category": "vector-db-engine",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "awesome vector search engine",
-      "cloud service"
+      "standalone service"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Vision-RAG",
-    "url": "https://www.youtube.com/watch?v=npkp4msweeg",
-    "description": "Embeds entire pages as images, allowing vision models to handle reasoning directly without parsing text-RAG.",
+    "name": "Retrieval-Augmented Fine-Tuning",
+    "url": "https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/raft-a-new-way-to-teach-llms-to-be-better-at-rag/ba-p/4084674",
+    "description": "(RAFT): Techniques to fine-tune LLMs specifically for enhanced retrieval and generation tasks.",
     "category": "agentic-rag",
     "pricing": "unknown",
     "hasApi": false,
@@ -154,9 +156,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
-    "url": "https://arxiv.org/abs/2312.07517",
-    "description": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
+    "name": "Foundations of Multidimensional and Metric Data Structures",
+    "url": "https://www.amazon.com/foundations-multidimensional-structures-kaufmann-computer/dp/0123694469",
+    "description": "Foundations of Multidimensional and Metric Data Structures",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
@@ -168,9 +170,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Mastra",
-    "url": "https://github.com/mastra-ai/mastra",
-    "description": "Typescript framework for building AI applications.",
+    "name": "Pathway AI Pipelines",
+    "url": "https://github.com/pathwaycom/llm-app",
+    "description": "A production-ready RAG framework supporting real-time indexing, retrieval, and change tracking across diverse data sources.",
     "category": "rag-framework",
     "pricing": "open-source",
     "hasApi": true,
@@ -182,9 +184,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenSearch's AlibabaCloud",
-    "url": "https://www.alibabacloud.com/product/opensearch",
-    "description": "OpenSearch's AlibabaCloud",
+    "name": "Typesense's Cloud",
+    "url": "https://cloud.typesense.org",
+    "description": "Typesense's Cloud",
     "category": "search-engine",
     "pricing": "unknown",
     "hasApi": false,
@@ -194,12 +196,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "MyScaleDB",
-    "url": "https://github.com/myscale/myscaledb",
-    "description": "MyScaleDB — vector-db-engine API",
+    "name": "RAFT",
+    "url": "https://github.com/rapidsai/raft",
+    "description": "RAFT — vector-db-engine API",
     "category": "vector-db-engine",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "multidimensional data / vectors"
     ],
@@ -208,53 +210,52 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "REFRAG",
-    "url": "https://arxiv.org/pdf/2509.01092",
-    "description": "Optimizes RAG decoding by compressing retrieved context into embeddings before generation, reducing latency while maintaining output quality.",
+    "name": "InstructRAG",
+    "url": "https://github.com/weizhepei/instructrag",
+    "description": "Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality.",
     "category": "agentic-rag",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "advanced approaches"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Weights & Biases",
-    "url": "https://wandb.ai/wandb-japan/rag-hands-on/reports/step-for-developing-and-evaluating-rag-application-with-w-b--vmlldzo1nzu4otax",
-    "description": "Tracks experiments, logs metrics, and visualizes performance.",
+    "name": "BEIR",
+    "url": "https://github.com/beir-cellar/beir",
+    "description": "BEIR — rag-eval API",
     "category": "rag-eval",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "metrics & evaluation",
-      "response evaluation metrics"
+      "others"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Data cleaning techniques",
-    "url": "https://medium.com/intel-tech/four-data-cleaning-techniques-to-improve-large-language-model-llm-performance-77bee9003625",
-    "description": "Pre-processing steps to refine input data and improve model performance.",
+    "name": "Prompt Caching",
+    "url": "https://medium.com/@1kg/prompt-cache-what-is-prompt-caching-a-comprehensive-guide-e6cbae48e6a3",
+    "description": "Optimizes LLMs by storing and reusing precomputed attention states.",
     "category": "rag-framework",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "techniques",
-      "data cleaning"
+      "prompting"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Typesense's Cloud",
-    "url": "https://cloud.typesense.org",
-    "description": "Typesense's Cloud",
+    "name": "OpenSearch's AlibabaCloud",
+    "url": "https://www.alibabacloud.com/product/opensearch",
+    "description": "OpenSearch's AlibabaCloud",
     "category": "search-engine",
     "pricing": "unknown",
     "hasApi": false,

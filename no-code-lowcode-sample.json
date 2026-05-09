@@ -1,15 +1,15 @@
 [
   {
-    "name": "h2o",
-    "url": "https://www.h2o.ai/",
-    "description": "Get free, hands-on experience with the H2O AI Hybrid Cloud.",
+    "name": "MonkeyLearn",
+    "url": "https://monkeylearn.com/",
+    "description": "No-code NLP toolkit for text classification, sentiment analysis, and keyword extraction.",
     "category": "ai-ml",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "ai"
+      "machine learning"
     ],
-    "codeType": "low-code",
+    "codeType": "no-code",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
@@ -30,40 +30,40 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Appypie AppMakr",
-    "url": "https://www.appypie.com/app-builder/appmaker",
-    "description": "App builder to make your app without coding.",
+    "name": "Boundless",
+    "url": "https://www.boundlesslabs.com/",
+    "description": "Create dynamic, multisided web apps without coding",
     "category": "app-builder",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "apps"
+      "web apps"
     ],
-    "codeType": "no-code",
+    "codeType": "both",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Power Platform Adoption Framework",
-    "url": "https://github.com/powerplatformaf/powerplatformaf",
-    "description": "The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations.",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "tools, extensions and frameworks",
-      "power platform (microsoft)"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Tidio",
-    "url": "https://www.tidio.com",
-    "description": "AI chatbot and live chat software for small businesses and ecommerce.",
+    "name": "Microsoft Power Fx",
+    "url": "https://github.com/microsoft/power-fx",
+    "description": "Power Fx Low Code programming language.",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "reference resources",
+      "power platform (microsoft)"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Tars",
+    "url": "https://hellotars.com/",
+    "description": "Optimize your conversion funnels, automate customer service interactions, and redefine customer experience.",
     "category": "chatbot",
     "pricing": "freemium",
     "hasApi": false,
@@ -92,59 +92,59 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Monday Sales CRM",
-    "url": "https://monday.com/crm",
-    "description": "Visual, customizable CRM built into Monday’s work OS.",
+    "name": "Crisp",
+    "url": "https://crisp.chat/fr",
+    "description": "Customer support directly in your website",
     "category": "crm",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "crm"
+      "customer support"
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Browse AI",
-    "url": "https://browse.ai/",
-    "description": "Train bots to monitor and extract data in minutes.",
+    "name": "Dataminer",
+    "url": "https://data-miner.io/",
+    "description": "Easy to use web scraping",
     "category": "data-scraping",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "scrapers"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Dashbase",
-    "url": "https://www.dashbase.ai",
-    "description": "Build collaborative KPI dashboards from your SQL database.",
+    "name": "Rows",
+    "url": "https://rows.com/",
+    "description": "The spreadsheet where teams work faster.",
     "category": "database",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "database"
+      "databases"
     ],
-    "codeType": "low-code",
+    "codeType": "both",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Canva",
-    "url": "https://canva.com",
-    "description": "Design stunning social posts, ads, and banners.",
+    "name": "LottieFiles",
+    "url": "https://lottiefiles.com",
+    "description": "Discover and use lightweight animations.",
     "category": "design",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "marketing"
+      "design"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
@@ -152,9 +152,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Shopify",
-    "url": "https://shopify.com",
-    "description": "Build your ecommerce store.",
+    "name": "Hingeto",
+    "url": "https://www.hingeto.com/",
+    "description": "Start your own Amazon-style marketplace",
     "category": "ecommerce",
     "pricing": "freemium",
     "hasApi": false,
@@ -167,11 +167,11 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Feathery",
-    "url": "https://feathery.io",
-    "description": "Powerful form builder for product teams",
+    "name": "Convertigo",
+    "url": "https://www.convertigo.com/",
+    "description": "Create Forms based applications with no coding.",
     "category": "forms",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "forms"
@@ -182,29 +182,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "UI Bakery",
-    "url": "https://uibakery.io",
-    "description": "Custom web applications at speed 🍩",
+    "name": "SaaS Blocks",
+    "url": "https://saasblocks.io/",
+    "description": "Ready-to-use building blocks and APIs to take your SaaS application to the next level",
     "category": "internal-tools",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "internal"
+      "misc"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Klaviyo",
-    "url": "https://www.klaviyo.com/",
-    "description": "Ecommerce marketing automation platform.",
+    "name": "Stripo",
+    "url": "https://stripo.email",
+    "description": "Free email template builder.",
     "category": "marketing",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "marketing"
+      "email"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
@@ -212,9 +212,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "miniAppMaker",
-    "url": "https://miniappmaker.com",
-    "description": "Make mobile apps using Airtable!",
+    "name": "Thunkable",
+    "url": "https://thunkable.com",
+    "description": "The No-Code App Builder",
     "category": "mobile",
     "pricing": "freemium",
     "hasApi": false,
@@ -227,42 +227,41 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Systematic",
-    "url": "https://systematic.workato.com/",
-    "description": "The only community for business systems.",
+    "name": "Markerpad",
+    "url": "https://www.makerpad.co/",
+    "description": "Join thousands learning to build software. No coding required.",
     "category": "other",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "community",
-      "workato"
+      "educational"
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
   {
-    "name": "CCHub",
-    "url": "https://github.com/moresl/cchub",
-    "description": "A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).",
+    "name": "Veed",
+    "url": "https://veed.io",
+    "description": "Collaborative video editor with templates and subtitles.",
     "category": "video",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "video"
     ],
     "codeType": "no-code",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Without Code",
-    "url": "https://www.wocode.com",
-    "description": "Code Free Website Builder",
+    "name": "Quarkly",
+    "url": "https://quarkly.io/",
+    "description": "Design tool for creating websites and web apps.",
     "category": "website-builder",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "websites"
@@ -273,33 +272,33 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Mazaal AI",
-    "url": "https://mazaal.ai",
-    "description": "No-code AI workflow platform connected with most popular 200 apps that you use daily.",
+    "name": "Teachable Machine",
+    "url": "https://teachablemachine.withgoogle.com/",
+    "description": "Web-based tool for training a computer to recognise images, sounds, and poses.",
     "category": "ai-ml",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "machine learning"
     ],
-    "codeType": "no-code",
+    "codeType": "low-code",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Simple Analytics",
-    "url": "https://simpleanalytics.io",
-    "description": "Simple, clean, and friendly analytics.",
+    "name": "PageGuard",
+    "url": "https://pageguard.org",
+    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
     "category": "analytics",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "analytics"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]

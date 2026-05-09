@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,license,urlDomainTier,descriptionLengthTier,categorizationTier
-OpenLIT,https://openalternative.co/openlit,"Monitor, debug, and scale LLM applications with ease",ai-ml,open-source,false,"[""ai & machine learning"",""ai development platforms""]",Apache-2.0,commercial,normal,specific
-OpenPanel,https://openalternative.co/openpanel,Privacy-first analytics with powerful insights,analytics,open-source,false,"[""data & analytics"",""web & product analytics""]",AGPL-3.0,commercial,terse,specific
-Requestly,https://openalternative.co/requestly,"Intercept, modify, and debug HTTP(S) requests effortlessly",api-tools,open-source,true,"[""developer tools"",""api development & testing""]",,commercial,normal,specific
-Cerbos,https://openalternative.co/cerbos,"Secure, policy-based access control for modern applications",authentication,open-source,false,"[""security & privacy"",""identity & access management (iam)""]",Apache-2.0,commercial,normal,specific
-Automatisch,https://openalternative.co/automatisch,Open-source integration platform for seamless workflows,automation,open-source,true,"[""developer tools"",""integration platforms""]",,commercial,normal,specific
-Dolibarr,https://www.dolibarr.org,"ERP, CRM, POS, RH",business-intelligence,open-source,false,"[""alternative-to-sap""]",,commercial,terse,specific
-Strapi,https://openalternative.co/strapi,Craft and manage content with ease and flexibility,cms,open-source,true,"[""content & publishing"",""content management systems (cms)""]",,commercial,normal,specific
-Element,https://openalternative.co/element,"Secure, decentralized messaging for teams and individuals",collaboration,open-source,false,"[""business software"",""collaboration & communication""]",AGPL-3.0,commercial,normal,specific
-Sink,https://openalternative.co/sink,"Simple, speedy, and secure link shortener with analytics",communication,open-source,false,"[""business software"",""marketing & customer engagement""]",AGPL-3.0,commercial,normal,specific
-Convo,https://github.com/hiconvo,Open-source alternative to Facebook,community,open-source,false,"[""alternative-to-facebook""]",,repo-hosted,terse,specific
-Ever Gauzy,https://openalternative.co/ever-gauzy,Comprehensive open-source business management platform,crm,open-source,false,"[""business software"",""crm & sales""]",AGPL-3.0,commercial,normal,specific
-Conar,https://openalternative.co/conar,AI-powered PostgreSQL management made simple,databases,open-source,false,"[""infrastructure & operations"",""databases""]",AGPL-3.0,commercial,terse,specific
-Chalk.ist,https://openalternative.co/chalkist,Transform your source code into stunning visuals,design,open-source,false,"[""productivity & utilities"",""design & visualization""]",MIT,commercial,terse,specific
-Void,https://openalternative.co/void,Open source AI code editor with full privacy,developer-tools,open-source,true,"[""developer tools"",""ides & code editors""]",Apache-2.0,commercial,terse,specific
-Digger,https://openalternative.co/digger,Terraform automation with pull request workflows,devops,open-source,true,"[""developer tools"",""build & deployment""]",MIT,commercial,terse,specific
-Fumadocs,https://openalternative.co/fumadocs,Build beautiful documentation sites with Next.js,documentation,open-source,false,"[""content & publishing"",""documentation & knowledge base""]",MIT,commercial,terse,specific
-PrestaShop,https://github.com/prestashop,Open-source alternative to Shopify,e-commerce,open-source,false,"[""alternative-to-shopify""]",,repo-hosted,terse,specific
+MaxKB,https://openalternative.co/maxkb,AI assistant that enhances enterprise knowledge management,ai-ml,open-source,false,"[""ai & machine learning"",""ai interaction & interfaces""]",GPL-3.0,commercial,normal,specific
+Databuddy,https://openalternative.co/databuddy,Privacy-first analytics without cookies or tracking,analytics,open-source,false,"[""data & analytics"",""web & product analytics""]",AGPL-3.0,commercial,normal,specific
+Gravitee,https://openalternative.co/gravitee,"Unified API, event, and AI agent management platform",api-tools,open-source,true,"[""developer tools"",""api development & testing""]",Apache-2.0,commercial,normal,specific
+Warrant,https://warrant.dev/,Authorization and access control as a service,authentication,open-source,false,"[""alternative-to-okta"",""alternative-to-auth0""]",,commercial,terse,specific
+MDMA,https://openalternative.co/mdma,Transform forms into adaptive chat experiences,automation,open-source,false,"[""productivity & utilities"",""automation""]",MIT,commercial,terse,specific
+Grist,https://openalternative.co/grist,Flexible spreadsheets with database power,business-intelligence,open-source,false,"[""data & analytics"",""business intelligence & reporting""]",Apache-2.0,commercial,terse,specific
+Marble CMS,https://openalternative.co/marble-cms,Simple content management for modern sites,cms,open-source,false,"[""content & publishing"",""content management systems (cms)""]",AGPL-3.0,commercial,terse,specific
+DiamanteDesk,https://github.com/eltrino/diamantedesk-application,Open-source alternative to Zendesk,collaboration,open-source,false,"[""alternative-to-zendesk""]",,repo-hosted,terse,specific
+UserTourKit,https://openalternative.co/usertourkit,"Lightweight, accessible product tours built for React developers",communication,open-source,true,"[""business software"",""customer support & success""]",MIT,commercial,normal,specific
+Discourse,https://openalternative.co/discourse,Cultivate vibrant online communities with ease,community,open-source,false,"[""community & social"",""community building platforms""]",GPL-2.0,commercial,terse,specific
+Erxes,https://openalternative.co/erxes,Open-source growth platform for customer-centric teams,crm,open-source,false,"[""business software"",""crm & sales""]",,commercial,normal,specific
+Chat2DB,https://openalternative.co/chat2db,Transform natural language into SQL queries with AI,databases,open-source,false,"[""infrastructure & operations"",""databases""]",Apache-2.0,commercial,normal,specific
+Modulz,https://www.modulz.app/,Code-based tool for designing and prototyping,design,open-source,false,"[""alternative-to-figma""]",,commercial,terse,specific
+Otomi,https://otomi.io,Self-hosted PaaS for Kubernetes,developer-tools,open-source,false,"[""alternative-to-heroku""]",,commercial,terse,specific
+1Panel,https://openalternative.co/1panel,Manage Linux servers with ease through a modern web interface,devops,open-source,false,"[""infrastructure & operations"",""server & vm management""]",GPL-3.0,commercial,normal,specific
+Firecamp,https://openalternative.co/firecamp,Unified API development ecosystem for modern teams,documentation,open-source,true,"[""content & publishing"",""documentation & knowledge base""]",AGPL-3.0,commercial,normal,specific
+Saleor Commerce,https://github.com/mirumee/saleor,Open-source alternative to Shopify,e-commerce,open-source,false,"[""alternative-to-shopify""]",,repo-hosted,terse,specific
 LocalSend,https://openalternative.co/localsend,Share files securely across all devices without servers,file-management,open-source,false,"[""productivity & utilities"",""file management & sync""]",Apache-2.0,commercial,normal,specific
-Gumroad,https://openalternative.co/gumroad,Your all-in-one marketplace for digital creators and products,finance,open-source,false,"[""business software"",""finance & accounting""]",MIT,commercial,normal,specific
-Formio,https://form.io/,A Form and Data Management Platform for Progressive Web Applications,forms,open-source,false,"[""alternative-to-vueform"",""alternative-to-typeform""]",,commercial,normal,specific
+Sure.am,https://openalternative.co/sure-am,The personal finance app for everyone,finance,open-source,false,"[""productivity & utilities"",""personal finance management""]",AGPL-3.0,commercial,terse,specific
+Alacritty,https://openalternative.co/alacritty,High-performance terminal with GPU acceleration,forms,open-source,true,"[""developer tools"",""terminals""]",Apache-2.0,commercial,terse,specific

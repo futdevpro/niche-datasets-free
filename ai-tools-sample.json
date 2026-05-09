@@ -1,37 +1,38 @@
 [
   {
-    "name": "Parler-TTS",
-    "url": "https://huggingface.co/collections/parler-tts/parler-tts-fully-open-source-high-quality-tts-66164ad285ba03e8ffde214c",
-    "description": "fully open-source high-quality TTS",
+    "name": "Wispr Flow",
+    "url": "https://wisprflow.ai/",
+    "description": "Flow makes writing quick with seamless voice dictation for any application on your computer.",
     "category": "audio",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "text-to-speech (tts) and avatars"
-    ],
-    "urlDomainTier": "registry-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Mini SWE-Agent",
-    "url": "https://mini-swe-agent.com/latest",
-    "description": "A minimal, hackable software engineering agent built for learning and experimentation. Lightweight implementation demonstrating core SWE-agent concepts with a focus on simplicity and extensibility.",
-    "category": "code",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "terminal",
-      "terminal agents"
+      "audio",
+      "speech-to-text"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Machine Learning: A Probabilistic Perspective by Kevin P. Murphy",
-    "url": "https://mitpress.mit.edu/books/machine-learning-1",
-    "description": "Machine Learning: A Probabilistic Perspective by Kevin P. Murphy",
+    "name": "safetensors",
+    "url": "https://github.com/huggingface/safetensors",
+    "description": "Simple, safe way to store and distribute tensors. Fast, secure alternative to pickle for model serialization.",
+    "category": "code",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "contents",
+      "1. core frameworks & libraries"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Advanced R by Hadley Wickham",
+    "url": "https://adv-r.hadley.nz/",
+    "description": "Advanced R by Hadley Wickham",
     "category": "data",
     "pricing": "unknown",
     "hasApi": false,
@@ -39,20 +40,20 @@
       "books and academic journals"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "AI Image Upscaler - Upscale Photo, Cartoons in Batch Free",
-    "url": "https://www.imgupscaler.com/",
-    "description": "\"free, browser-based, with five credits per day\" reference by nejcsusec.beehiiv.com",
+    "name": "lucidrains/musiclm-pytorch",
+    "url": "https://github.com/lucidrains/musiclm-pytorch",
+    "description": "Implementation of MusicLM, Google's new SOTA model for music generation using attention networks, in Pytorch",
     "category": "image",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "image upscaling"
+      "image segmentation"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -71,35 +72,37 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Deep Else",
-    "url": "https://dejangrba.github.io/deep-else",
-    "description": "A Critical Framework for AI Art",
+    "name": "Teaching AI to Teach Us: A New Era of Personalized Education",
+    "url": "https://twitter.com/intuitmachine/status/1783079852578377788",
+    "description": "Teaching AI to Teach Us: A New Era of Personalized Education",
     "category": "other",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [],
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "ai and education"
+    ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
   {
-    "name": "Pixray",
-    "url": "https://pixray.github.io/",
-    "description": "A text-to-image AI generator that offers customization and unique art styles, perfect for artists and creators.",
+    "name": "Convo",
+    "url": "https://www.itsconvo.com/",
+    "description": "AI meeting assistant that listens in real time, helps you respond smarter on calls, and automates your follow up workflow.",
     "category": "productivity",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "new and emerging ai tools"
+      "ai-related tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "AI Depot - Discover New AI Tools",
-    "url": "https://aidepot.co/",
-    "description": "collection of AI tools organized by tags and presented in a card format",
+    "name": "BestWebbs",
+    "url": "https://bestwebbs.com/",
+    "description": "\"one-stop destination for all AI Tools\"",
     "category": "search",
     "pricing": "unknown",
     "hasApi": false,
@@ -107,170 +110,28 @@
       "generative ai tools directories"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenCompass",
-    "url": "https://github.com/open-compass/opencompass",
-    "description": "Evaluation platform for benchmarking language and multimodal models across large benchmark suites.",
+    "name": "Kimi K2.5 (Moonshot AI)",
+    "url": "https://github.com/moonshotai/kimi-k2.5",
+    "description": "Frontier open-weight MoE model with 256K context, strong coding and reasoning performance, and native multimodal + tool-use support for agentic workflows.",
     "category": "text",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "contents",
-      "9. evaluation, benchmarks & datasets"
+      "2. open foundation models"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "SummaryTube.com",
-    "url": "https://summarytube.com",
-    "description": "AI Youtube Video Summarizer",
-    "category": "video",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "additional ai and productivity tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "AudioCraft",
-    "url": "https://audiocraft.metademolab.com/",
-    "description": "A single-stop code base for generative audio needs, by Meta. Includes MusicGen for music and AudioGen for sounds.",
-    "category": "audio",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "audio",
-      "music"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "RTAB-Map",
-    "url": "https://github.com/introlab/rtabmap",
-    "description": "Real-Time Appearance-Based Mapping library for RGB-D, Stereo and LiDAR SLAM. Graph-based SLAM approach with incremental appearance-based loop closure detection for large-scale and long-term operation. BSD licensed.",
-    "category": "code",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "contents",
-      "11. specialized domains"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Practical Statistics for Data Scientists by Peter Bruce and Andrew Bruce",
-    "url": "https://www.oreilly.com/library/view/practical-statistics-for/9781491952955",
-    "description": "Practical Statistics for Data Scientists by Peter Bruce and Andrew Bruce",
-    "category": "data",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [
-      "books and academic journals"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Stable_Diffusion_WebUi_Simplified.ipynb - Colaboratory",
-    "url": "https://colab.research.google.com/github/pinilpypinilpy/sd-webui-colab-simplified/blob/main/stable_diffusion_webui_simplified.ipynb#scrollto=gk1tyba0arxt",
-    "description": "StableDiffusionWebUiSimplified.ipynb - Colaboratory",
-    "category": "image",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "image synthesis",
-      "inbox: stable diffusion"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "mempalace",
-    "url": "https://github.com/milla-jovovich/mempalace",
-    "description": "Memory-oriented tooling for AI agents, focused on persistent context, recall, and more structured long-term memory behavior.",
-    "category": "multimodal",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ai agent tools"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Diagram",
-    "url": "https://diagram.com/",
-    "description": "Magical new ways to design products.",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Stability AI",
-    "url": "https://stability.ai/",
-    "description": "The official website and hub for Stability AI, which offers a variety of AI-driven tools and models, particularly in image generation.",
-    "category": "productivity",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "new and emerging ai tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "A Review of Generative AI from Historical Perspectives",
-    "url": "https://www.techrxiv.org/articles/preprint/a_review_of_generative_ai_from_historical_perspectives/22097942",
-    "description": "paper by Dipankar Dasgupta, Deepak Venugopal and Kishor Datta Gupta",
-    "category": "search",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "generative ai history, timelines, maps, and definitions"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "rom1504/clip-retrieval",
-    "url": "https://github.com/rom1504/clip-retrieval",
-    "description": "Easily compute CLIP embeddings and build a CLIP retrieval system with them",
-    "category": "text",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "large language models (llms)",
-      "prompt engineering"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Kapwing AI Video Editor",
-    "url": "https://www.kapwing.com",
-    "description": "Online AI video editor.",
+    "name": "Vimeo Create",
+    "url": "https://vimeo.com/create",
+    "description": "AI-driven video creation.",
     "category": "video",
     "pricing": "unknown",
     "hasApi": false,
@@ -279,6 +140,150 @@
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Audiolabs",
+    "url": "https://audiolabs-erlangen.de",
+    "description": "AI and sound research lab.",
+    "category": "audio",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "interactive learning & tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Vercel AI SDK",
+    "url": "https://github.com/vercel/ai",
+    "description": "Provider-agnostic TypeScript toolkit for building AI-powered applications and agents. Unified API for OpenAI, Anthropic, Google, and 20+ providers with first-class streaming, tool-calling, and structured output support. Apache 2.0 licensed.",
+    "category": "code",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "contents",
+      "13. developer tools & integrations"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "BeeAI Framework (IBM)",
+    "url": "https://github.com/i-am-bee/beeai-framework",
+    "description": "Production-ready multi-agent framework in Python and TypeScript. Features workflow orchestration, ACP/MCP protocol support, and deep watsonx integration. Part of Linux Foundation AI & Data program.",
+    "category": "data",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "contents",
+      "4. agentic ai & multi-agent systems"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenArt",
+    "url": "https://openart.ai/",
+    "description": "Search 10M+ of prompts, and generate AI art via Stable Diffusion, DALL·E 2.",
+    "category": "image",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "image",
+      "image libraries"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "instructkr/claw-code",
+    "url": "https://github.com/instructkr/claw-code",
+    "description": "A reimplementation of Anthropic's Claude Code agent harness, currently being rewritten in Rust for memory safety. Focuses on building a better tool harness for AI agents with legal/ethical reimplementation",
+    "category": "multimodal",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "ai agent"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "FAL.ai (Seedance 2.0)",
+    "url": "https://fal.ai/seedance-2.0",
+    "description": "FAL.ai (Seedance 2.0)",
+    "category": "other",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "interactive learning & tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Prompt Engineering Guide | Learn Prompting: Your Guide to Communicating with AI",
+    "url": "https://learnprompting.org/docs/intro",
+    "description": "Prompt Engineering Guide | Learn Prompting: Your Guide to Communicating with AI",
+    "category": "productivity",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "roadmaps, tracks, rails"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Undermind - AI-Powered Scientific Research Assistant",
+    "url": "https://undermind.ai/home",
+    "description": "an AI assistant that reads academic papers.",
+    "category": "search",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "research ai tools",
+      "ai tools for research"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "LocalePack",
+    "url": "https://localepack.app/",
+    "description": "AI-powered locale file translator for browser extensions, Next.js, i18next, and vue-i18n. Translates into 52 languages with placeholders and nested structure preserved. Pay once, no subscription.",
+    "category": "text",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "additional ai and productivity tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Welch Labs",
+    "url": "https://www.youtube.com/user/taylorns34",
+    "description": "Focusing on AI, neural networks, and deep learning.",
+    "category": "video",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "youtube channels"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]

@@ -1,13 +1,12 @@
 [
   {
-    "name": "Superset",
-    "url": "http://superset.apache.org/",
-    "description": "Modern data exploration and visualization platform. (Source Code)",
+    "name": "Open Web Analytics",
+    "url": "http://www.openwebanalytics.com/",
+    "description": "Google Analytics and Matomo alternative. (Source Code)",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "analytics"
     ],
     "urlDomainTier": "commercial",
@@ -15,9 +14,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Piler",
-    "url": "https://www.mailpiler.org/",
-    "description": "Feature-rich email archiving solution. (Source Code)",
+    "name": "Wayback",
+    "url": "https://github.com/wabarc/wayback",
+    "description": "A self-hosted toolkit for archiving webpages to the Internet Archive, archive.today, IPFS, and local file systems.",
     "category": "archiving",
     "pricing": "open-source",
     "hasApi": false,
@@ -25,48 +24,47 @@
       "software",
       "archiving and digital preservation (dp)"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Passbolt",
-    "url": "https://www.passbolt.com/",
-    "description": "Collaborative password manager. (Source Code)",
-    "category": "authentication",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "software",
-      "password managers"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "gocron",
-    "url": "https://github.com/flohoss/gocron",
-    "description": "Task scheduler that allows users to specify recurring jobs via a simple YAML configuration file.",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "software",
-      "automation"
-    ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Noddity",
-    "url": "http://noddity.com/",
-    "description": "It's a blog, it's a wiki, it's a fast CMS. (Source Code)",
+    "name": "keeweb",
+    "url": "https://keeweb.info/",
+    "description": "This webapp is a browser and desktop password manager compatible with KeePass databases. (Source Code)",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "password managers"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SickRage",
+    "url": "http://sickrage.github.io/",
+    "description": "SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. (Source Code)",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "automation"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Chyrp Lite",
+    "url": "https://chyrplite.net",
+    "description": "Extra-awesome, extra-lightweight blog engine. (Source Code)",
     "category": "blogging",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "blogging platforms"
     ],
     "urlDomainTier": "commercial",
@@ -74,14 +72,13 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Buku",
-    "url": "https://github.com/jarun/buku",
-    "description": "Powerful bookmark manager and a personal textual mini-web.",
+    "name": "ymarks",
+    "url": "https://bitbucket.org/ymarks/ymarks-server",
+    "description": "Keep your browser's bookmarks synchronized without limiting yourself to one provider.",
     "category": "bookmarks",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "bookmarks and link sharing"
     ],
     "urlDomainTier": "repo-hosted",
@@ -89,24 +86,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Rallly",
-    "url": "https://rallly.co",
-    "description": "Create polls to vote on dates and times (alternative to Doodle). (Demo, Source Code)",
+    "name": "InfCloud",
+    "url": "https://www.inf-it.com/open-source/clients/infcloud",
+    "description": "Open source CalDAV/CardDAV web client implementation. (Demo, Source Code)",
     "category": "calendar-contacts",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "booking and scheduling"
+      "calendaring and contacts management"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Typemill",
-    "url": "https://typemill.net/",
-    "description": "Author-friendly flat-file-cms with a visual markdown editor based on vue.js. (Source Code)",
+    "name": "Concrete 5 CMS",
+    "url": "https://www.concretecms.com",
+    "description": "Open source content management system. (Source Code)",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
@@ -119,39 +115,39 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Tiny Tiny IRC",
-    "url": "https://tt-rss.org/tt-irc",
-    "description": "An open source AJAX-powered chat platform with support for IRC (Source Code).",
+    "name": "Scoold",
+    "url": "https://scoold.com",
+    "description": "Stack Overflow in a JAR. An enterprise-ready Q&A platform with full-text search, SAML, LDAP integration and social login support. (Demo, Source Code)",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "communication systems",
-      "irc"
+      "software",
+      "communication - social networks and forums"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Corteza",
-    "url": "https://docs.cortezaproject.org",
-    "description": "CRM including a unified workspace, enterprise messaging and a low code environment for rapidly and securely delivering records-based management solutions. (Demo, Source Code)",
+    "name": "Monica",
+    "url": "https://monicahq.com/",
+    "description": "Personal relationship manager, and a new kind of CRM to organize interactions with your friends and family. (Source Code)",
     "category": "crm",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "software",
       "customer relationship management (crm)"
     ],
-    "urlDomainTier": "documentation",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Datasette",
-    "url": "https://datasette.io/",
-    "description": "Explore and publish data with easy import and export and database management. (Source Code)",
+    "name": "CloudBeaver",
+    "url": "https://dbeaver.com/",
+    "description": "Manage databases, supports PostgreSQL, MySQL, SQLite and more. A web/hosted version of DBeaver. (Source Code)",
     "category": "database",
     "pricing": "open-source",
     "hasApi": false,
@@ -164,14 +160,13 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Pi-hole",
-    "url": "https://pi-hole.net/",
-    "description": "Blackhole for Internet advertisements with a GUI for management and monitoring. (Source Code)",
+    "name": "SPF Toolbox",
+    "url": "http://spftoolbox.com",
+    "description": "Application to look up DNS records such as SPF, MX, Whois, and more. (Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "dns"
     ],
     "urlDomainTier": "commercial",
@@ -179,16 +174,17 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Teedy",
-    "url": "https://teedy.io/",
-    "description": "(Ex SismicsDocs) Lightweight document management system packed with all the features you can expect from big expensive solutions. (Demo, Source Code)",
+    "name": "Signature PDF",
+    "url": "https://github.com/24eme/signaturepdf",
+    "description": "Sign and manipulate PDFs with collaboration, organization, compression and metadata editing. (Demo)",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "document management"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -208,9 +204,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "RSSHub",
-    "url": "https://docs.rsshub.app",
-    "description": "Easy to use, and extensible RSS feed aggregator capable of generating RSS feeds from pretty much everything ranging from social media to university departments. (Demo, Source Code)",
+    "name": "Upvote RSS",
+    "url": "https://www.upvote-rss.com/",
+    "description": "- Generate rich RSS feeds from Reddit, Hacker News, Lemmy, Mbin, and more. (Demo, Source Code)",
     "category": "feed-readers",
     "pricing": "open-source",
     "hasApi": false,
@@ -218,14 +214,14 @@
       "software",
       "feed readers"
     ],
-    "urlDomainTier": "documentation",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Uguu",
-    "url": "https://github.com/nokonoko/uguu",
-    "description": "Stores files and deletes after X amount of time.",
+    "name": "Uploady",
+    "url": "https://github.com/farisc0de/uploady",
+    "description": "Uploady is a simple file uploader script with multi file upload support.",
     "category": "file-transfer",
     "pricing": "open-source",
     "hasApi": false,
@@ -234,43 +230,42 @@
       "file transfer - single-click & drag-n-drop upload"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "GRR",
-    "url": "https://grr.devome.com/?lang=en",
-    "description": "Assets management and booking for small/medium companies. (Source Code)",
+    "name": "Akaunting",
+    "url": "https://akaunting.com/",
+    "description": "Akaunting is a free, online and open source accounting software designed for small businesses and freelancers. (Source Code)",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "money, budgeting & management"
+      "money, budgeting and management"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "r/RetroArch",
-    "url": "https://www.reddit.com/r/retroarch",
-    "description": "r/RetroArch",
+    "name": "Drop",
+    "url": "https://droposs.org",
+    "description": "Game distribution platform, designed for distributing and sharing DRM-free games efficiently (alternative to Steam, GameVault). (Source Code, Clients)",
     "category": "games",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "install from source",
-      "gaming"
+      "software",
+      "games - administrative utilities & control panels"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Group Office",
-    "url": "https://www.group-office.com",
-    "description": "Enterprise CRM and groupware tool. Share projects, calendars, files and e-mail online with co-workers and clients. (Source Code)",
+    "name": "Citadel",
+    "url": "https://www.citadel.org/",
+    "description": "Groupware including email, calendar/scheduling, address books, forums, mailing lists, IM, wiki and blog engines, RSS aggregation and more. (Source Code)",
     "category": "groupware",
     "pricing": "open-source",
     "hasApi": false,
@@ -283,9 +278,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "The Server Store",
-    "url": "https://www.theserverstore.com/",
-    "description": "The Server Store",
+    "name": "AMD Threadripper",
+    "url": "https://www.amd.com/en/processors/threadripper-creators",
+    "description": "AMD Threadripper",
     "category": "iot",
     "pricing": "open-source",
     "hasApi": false,
