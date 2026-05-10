@@ -48,9 +48,11 @@ Preview records from each curated developer dataset. Every sample contains **20 
 
 ## Mega Sample
 
-A combined preview with **5 records from each dataset**:
+A combined preview with **5 records from each dataset** (100 records total):
 - [mega-sample.json](mega-sample.json)
 - [mega-sample.csv](mega-sample.csv)
+
+Or download the same combined sample as a single ZIP from Gumroad (no signup): **[Free Developer Data Sample on Gumroad](https://jhonnyronnie.gumroad.com/l/free-sample)** — $0.
 
 ## Want everything?
 
