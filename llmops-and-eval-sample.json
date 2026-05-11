@@ -1,65 +1,68 @@
 [
   {
-    "name": "LightRAG",
-    "url": "https://github.com/hkuds/lightrag",
-    "description": "\"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+    "name": "KAOS",
+    "url": "https://github.com/axsaucedo/kaos",
+    "description": "KAOS is a Kubernetes-native framework for deploying and orchestrating AI agents with tool access, multi-agent coordination, and seamless LLM integration.",
     "category": "agent-framework",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "orchestration",
-      "rag"
+      "agentic frameworks"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 249
   },
   {
-    "name": "Quilt",
-    "url": "https://github.com/quiltdata/quilt",
-    "description": "A self-organizing data hub for S3.",
+    "name": "LakeFS",
+    "url": "https://github.com/treeverse/lakefs",
+    "description": "Git-like capabilities for your object storage.",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data management"
+      "data storage"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 5364
   },
   {
-    "name": "conda",
-    "url": "https://github.com/conda/conda",
-    "description": "OS-agnostic, system-level binary package manager and ecosystem.",
+    "name": "Yunikorn",
+    "url": "https://github.com/apache/yunikorn-core",
+    "description": "Light-weight, universal resource scheduler for container orchestrator systems.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ides and workspaces"
+      "scheduling"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 1010
   },
   {
-    "name": "Accelerate",
-    "url": "https://github.com/huggingface/accelerate",
-    "description": "🚀 A simple way to train and use PyTorch models with multi-GPU, TPU, mixed-precision.",
+    "name": "AutoGL",
+    "url": "https://github.com/thumnlab/autogl",
+    "description": "An autoML framework & toolkit for machine learning on graphs",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "frameworks for training"
+      "automl"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 1135
   },
   {
-    "name": "Agentic Security",
-    "url": "https://github.com/msoedov/agentic_security",
-    "description": "Agentic Security is a vulnerability scanner for agentic workflows, protecting AI systems from jailbreaks, fuzzing, and multimodal attacks.",
+    "name": "Rogue",
+    "url": "https://github.com/qualifire-dev/rogue",
+    "description": "Rogue is an AI agent evaluator and red team platform for testing agents against business policies and security vulnerabilities.",
     "category": "guardrails-and-safety",
     "pricing": "open-source",
     "hasApi": false,
@@ -68,149 +71,23 @@
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 1026
   },
   {
-    "name": "AgentOps",
-    "url": "https://github.com/agentops-ai/agentops",
-    "description": "AgentOps helps developers build, evaluate, and monitor AI agents from prototype to production.",
+    "name": "PraisonAI",
+    "url": "https://github.com/mervinpraison/praisonai",
+    "description": "Production-ready Multi-AI Agents framework with self-reflection. Fastest agent instantiation (3.77μs), 100+ LLM support via LiteLLM, MCP integration, agentic workflows (route/parallel/loop/repeat), built-in memory, Python & JS SDKs.",
     "category": "observability",
     "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "agent observability"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "DSPy",
-    "url": "https://github.com/stanfordnlp/dspy",
-    "description": "DSPy is the framework for programming—not prompting—language models. It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing prompts and weights.",
-    "category": "prompt-management",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "prompt engineering"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "llmaz",
-    "url": "https://github.com/inftyai/llmaz",
-    "description": "☸️ Easy, advanced inference platform for large language models on Kubernetes. 🌟 Star to support our work!",
-    "category": "serving",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "inference",
-      "inference platform"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Vald",
-    "url": "https://github.com/vdaas/vald",
-    "description": "A Highly Scalable Distributed Vector Search Engine",
-    "category": "vector-database",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "vector search"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Airflow",
-    "url": "https://airflow.apache.org/",
-    "description": "A platform to programmatically author, schedule and monitor workflows.",
-    "category": "agent-framework",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "workflow"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Upgini",
-    "url": "https://github.com/upgini/upgini",
-    "description": "Free automated data & feature enrichment library for machine learning: automatically searches through thousands of ready-to-use features from public and community shared data sources and enriches your training dataset with only the accuracy improving features",
-    "category": "data-and-training",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "data/feature enrichment"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Starwhale",
-    "url": "https://github.com/star-whale/starwhale",
-    "description": "An MLOps/LLMOps platform for model building, evaluation, and fine-tuning.",
-    "category": "deployment-and-infra",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ml platforms"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "MLE-bench",
-    "url": "https://github.com/openai/mle-bench",
-    "description": "MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering",
-    "category": "fine-tuning",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "training",
-      "benchmark"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Agentic Radar",
-    "url": "https://github.com/splx-ai/agentic-radar",
-    "description": "Agentic Radar is a security scanner for LLM agentic workflows for potential vulnerabilities.",
-    "category": "guardrails-and-safety",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "agent security"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Keywords AI",
-    "url": "https://keywordsai.co/",
-    "description": "A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.",
-    "category": "observability",
-    "pricing": "unknown",
     "hasApi": true,
     "tags": [
       "llmops"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific",
+    "githubStars": 7107
   },
   {
     "name": "ChainForge",
@@ -224,26 +101,28 @@
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 2982
   },
   {
-    "name": "ChatGLM2-6B",
-    "url": "https://github.com/thudm/chatglm2-6b",
-    "description": "ChatGLM2-6B is the second-generation version of the open-source bilingual (Chinese-English) chat model ChatGLM-6B.",
+    "name": "DeepSpeed-MII",
+    "url": "https://github.com/microsoft/deepspeed-mii",
+    "description": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.",
     "category": "serving",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "large language model"
+      "large model serving"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 2110
   },
   {
-    "name": "VectorDB",
-    "url": "https://github.com/jina-ai/vectordb",
-    "description": "A Python vector database you just need - no more, no less.",
+    "name": "pgvector",
+    "url": "https://github.com/pgvector/pgvector",
+    "description": "Open-source vector similarity search for Postgres.",
     "category": "vector-database",
     "pricing": "open-source",
     "hasApi": false,
@@ -252,26 +131,166 @@
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 21229
   },
   {
-    "name": "CodeGeeX",
-    "url": "https://github.com/thudm/codegeex",
-    "description": "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+    "name": "Mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "description": "The Memory layer for AI Agents.",
     "category": "agent-framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "code ai"
+      "runtime",
+      "tool"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 55421
+  },
+  {
+    "name": "Pachyderm",
+    "url": "https://github.com/pachyderm/pachyderm",
+    "description": "Pachyderm is a version control system for data.",
+    "category": "data-and-training",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "data management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 6295
+  },
+  {
+    "name": "Polyaxon",
+    "url": "https://github.com/polyaxon/polyaxon",
+    "description": "Machine Learning Management & Orchestration Platform.",
+    "category": "deployment-and-infra",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ml platforms"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 3706
   },
   {
-    "name": "Harmonia",
-    "url": "https://github.com/ailabstw/harmonia",
-    "description": "Harmonia is an open-source project aiming at developing systems/infrastructures and libraries to ease the adoption of federated learning (abbreviated to FL) for researches and production usage.",
+    "name": "DLRover",
+    "url": "https://github.com/intelligent-machine-learning/dlrover",
+    "description": "DLRover: An Automatic Distributed Deep Learning System",
+    "category": "fine-tuning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "training",
+      "framework"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 1654
+  },
+  {
+    "name": "Agentic Radar",
+    "url": "https://github.com/splx-ai/agentic-radar",
+    "description": "Agentic Radar is a security scanner for LLM agentic workflows for potential vulnerabilities.",
+    "category": "guardrails-and-safety",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "agent security"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 966
+  },
+  {
+    "name": "Great Expectations",
+    "url": "https://github.com/great-expectations/great_expectations",
+    "description": "Always know what to expect from your data.",
+    "category": "observability",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "observability"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 11487
+  },
+  {
+    "name": "PromptSource",
+    "url": "https://github.com/bigscience-workshop/promptsource",
+    "description": "PromptSource is a toolkit for creating, sharing and using natural language prompts. Contains a growing collection of prompts (P3: Public Pool of Prompts) written in Jinja templating language.",
+    "category": "prompt-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "prompt engineering"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 3013
+  },
+  {
+    "name": "GLM-130B (ChatGLM)",
+    "url": "https://github.com/thudm/glm-130b",
+    "description": "An Open Bilingual Pre-Trained Model (ICLR 2023)",
+    "category": "serving",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "large language model"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 7653
+  },
+  {
+    "name": "txtai",
+    "url": "https://github.com/neuml/txtai",
+    "description": "Build AI-powered semantic search applications",
+    "category": "vector-database",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "vector search"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 12480
+  },
+  {
+    "name": "Stakpak",
+    "url": "https://github.com/stakpak/agent",
+    "description": "DevOps agent that won't accidentally tweet your AWS credentials 🦀",
+    "category": "agent-framework",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "runtime",
+      "ai terminal"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 1520
+  },
+  {
+    "name": "FATE",
+    "url": "https://github.com/federatedai/fate",
+    "description": "An Industrial Grade Federated Learning Framework",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
@@ -279,7 +298,8 @@
       "federated ml"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 6072
   }
 ]
