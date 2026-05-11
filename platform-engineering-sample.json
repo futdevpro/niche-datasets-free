@@ -1,164 +1,8 @@
 [
   {
-    "name": "Runme",
-    "url": "https://runme.dev",
-    "description": "Infrastructure Notebooks Built with Markdown. Runme is a free tool that enables Markdown files to become runnable notebooks. You can use scripts in Shell, Perl, Python, and more.",
-    "category": "ci-cd-pipeline",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "continuous delivery",
-      "automation and collaboration"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
-    "url": "https://github.com/kubestellar/console",
-    "description": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
-    "category": "container-orchestration",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— kubernetes, paas and cloud services"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Upgrade JavaScript or TypeScript codebases",
-    "url": "https://github.com/facebook/jscodeshift",
-    "description": "Upgrade JavaScript or TypeScript codebases",
-    "category": "developer-experience",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "development",
-      "feature flags and change management"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "cycloid",
-    "url": "https://www.cycloid.io/platform-engineering",
-    "description": "Platform Engineering is DevOps with an action plan.",
-    "category": "developer-portal",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [
-      "internal developer portal"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "ConfigCat - Privacy-first feature flag service",
-    "url": "https://configcat.com/",
-    "description": "ConfigCat - Privacy-first feature flag service",
-    "category": "feature-flags",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "tooling— feature flags, environments and change management"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Verdaccio- a simple, zero-config npm registry",
-    "url": "https://github.com/verdaccio/verdaccio",
-    "description": "Verdaccio- a simple, zero-config npm registry",
-    "category": "iac-and-provisioning",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— infrastructure and artifacts management"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "StatusPal",
-    "url": "https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops",
-    "description": "communicate incidents and maintenance effectively with a beautiful hosted status page.",
-    "category": "observability",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "incident communication"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Platformengineering.org tooling list",
-    "url": "https://platformengineering.org/platform-tooling",
-    "description": "Platformengineering.org tooling list",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "miscellaneous and related"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
-    "url": "https://github.com/checkmarx/kics",
-    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
-    "category": "policy-and-governance",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— security and policies"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Permit.io - Authorization as a service with a no-code UI",
-    "url": "https://permit.io/",
-    "description": "Permit.io - Authorization as a service with a no-code UI",
-    "category": "secrets-management",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "tooling— authentication and authorization"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Istio- open source service mesh",
-    "url": "https://istio.io/",
-    "description": "Istio- open source service mesh",
-    "category": "service-mesh",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "tooling— service mesh, api gateway and app proxies"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Chrono CI",
-    "url": "http://www.chronoci.com/",
-    "description": "Chrono CI — ci-cd-pipeline API",
+    "name": "Solano CI",
+    "url": "https://xebialabs.com/technology/solano-ci",
+    "description": "Solano CI — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
@@ -185,24 +29,38 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Redmine",
-    "url": "https://www.redmine.org/",
-    "description": "Redmine — developer-experience API",
+    "name": "OpenCost — open source cost monitoring tool for Kubernetes",
+    "url": "https://github.com/opencost/opencost",
+    "description": "OpenCost — open source cost monitoring tool for Kubernetes",
+    "category": "cost-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "continuous monitoring"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Fossil",
+    "url": "https://www.fossil-scm.org/",
+    "description": "Fossil — developer-experience API",
     "category": "developer-experience",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "development",
-      "project management & issue tracking software"
+      "source code management"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Port",
-    "url": "https://www.getport.io/",
-    "description": "Port — developer-portal API",
+    "name": "Appvia",
+    "url": "https://www.appvia.io",
+    "description": "Increase Developer productivity with self-service.",
     "category": "developer-portal",
     "pricing": "unknown",
     "hasApi": true,
@@ -210,47 +68,74 @@
       "internal developer portal"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Digger - Open Source Infratructure as Code management tool",
-    "url": "https://www.github.com/diggerhq/digger",
-    "description": "Digger - Open Source Infratructure as Code management tool",
-    "category": "iac-and-provisioning",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— infrastructure and artifacts management"
-    ],
-    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Grafana",
-    "url": "https://grafana.com",
-    "description": "Grafana — observability API",
-    "category": "observability",
+    "name": "ConfigCat - Privacy-first feature flag service",
+    "url": "https://configcat.com/",
+    "description": "ConfigCat - Privacy-first feature flag service",
+    "category": "feature-flags",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous monitoring"
+      "tooling— feature flags, environments and change management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "werf",
+    "url": "https://werf.io/",
+    "description": "werf — ci-cd-pipeline API",
+    "category": "gitops",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous delivery",
+      "deployment"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "SLO Calculator",
-    "url": "https://github.com/last9/slo-computer",
-    "description": "SLO Calculator",
-    "category": "other",
-    "pricing": "open-source",
+    "name": "Jenkins Pipelines as Code",
+    "url": "https://www.jenkins.io/doc/book/pipeline-as-code",
+    "description": "Jenkins Pipelines as Code",
+    "category": "iac-and-provisioning",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Cabot",
+    "url": "https://cabotapp.com/",
+    "description": "Cabot — observability API",
+    "category": "observability",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OnPage",
+    "url": "https://www.onpage.com/",
+    "description": "OnPage — other API",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "other"
   },
   {
@@ -268,9 +153,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Permify- open-source authorization service",
-    "url": "https://github.com/permify/permify",
-    "description": "Permify- open-source authorization service",
+    "name": "SuperTokens- Open Source User Authentication",
+    "url": "https://github.com/supertokens/supertokens-core",
+    "description": "SuperTokens- Open Source User Authentication",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -278,6 +163,119 @@
       "tooling— authentication and authorization"
     ],
     "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Backstage Software Catalog",
+    "url": "https://backstage.io/",
+    "description": "Backstage Software Catalog",
+    "category": "service-catalog",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Traefik- Cloud Native Application Proxy",
+    "url": "https://traefik.io/",
+    "description": "Traefik- Cloud Native Application Proxy",
+    "category": "service-mesh",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "tooling— service mesh, api gateway and app proxies"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "IBM Rational Functional Tester",
+    "url": "https://www.ibm.com/in-en/marketplace/rational-functional-tester",
+    "description": "IBM Rational Functional Tester",
+    "category": "ci-cd-pipeline",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous testing"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
+    "url": "https://github.com/kubestellar/console",
+    "description": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
+    "category": "container-orchestration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— kubernetes, paas and cloud services"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Git",
+    "url": "https://git-scm.com/",
+    "description": "Git — developer-experience API",
+    "category": "developer-experience",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "development",
+      "source code management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "qovery",
+    "url": "https://www.qovery.com",
+    "description": "Deliver Self-Service Infrastructure Faster.",
+    "category": "developer-portal",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenGitOps",
+    "url": "https://opengitops.dev/",
+    "description": "OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps.",
+    "category": "gitops",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "specifications"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "AWS Proton- Self-service infrastructure templates",
+    "url": "https://aws.amazon.com/proton",
+    "description": "AWS Proton- Self-service infrastructure templates",
+    "category": "iac-and-provisioning",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
