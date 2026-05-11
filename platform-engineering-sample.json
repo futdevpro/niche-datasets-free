@@ -1,25 +1,24 @@
 [
   {
-    "name": "Solano CI",
-    "url": "https://xebialabs.com/technology/solano-ci",
-    "description": "Solano CI — ci-cd-pipeline API",
+    "name": "accelQ",
+    "url": "https://www.accelq.com/",
+    "description": "accelQ — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous integration",
-      "integration"
+      "continuous testing"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Dokku- Open source PAAS alternative to Heroku",
-    "url": "https://dokku.com/",
-    "description": "Dokku- Open source PAAS alternative to Heroku",
+    "name": "Portainer- container management for K8S and more",
+    "url": "https://www.portainer.io/",
+    "description": "Portainer- container management for K8S and more",
     "category": "container-orchestration",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "tooling— kubernetes, paas and cloud services"
@@ -43,32 +42,32 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Fossil",
-    "url": "https://www.fossil-scm.org/",
-    "description": "Fossil — developer-experience API",
+    "name": "Monday.com",
+    "url": "https://monday.com/",
+    "description": "Monday.com",
     "category": "developer-experience",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "development",
-      "source code management"
+      "project management & issue tracking software"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Appvia",
-    "url": "https://www.appvia.io",
-    "description": "Increase Developer productivity with self-service.",
+    "name": "API docs with Swagger- OpenAPI Specification",
+    "url": "https://swagger.io/specification",
+    "description": "API docs with Swagger- OpenAPI Specification",
     "category": "developer-portal",
     "pricing": "unknown",
     "hasApi": true,
     "tags": [
-      "internal developer portal"
+      "tooling— development portal and documentation"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -101,61 +100,61 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Jenkins Pipelines as Code",
-    "url": "https://www.jenkins.io/doc/book/pipeline-as-code",
-    "description": "Jenkins Pipelines as Code",
+    "name": "Verdaccio- a simple, zero-config npm registry",
+    "url": "https://github.com/verdaccio/verdaccio",
+    "description": "Verdaccio- a simple, zero-config npm registry",
     "category": "iac-and-provisioning",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— infrastructure and artifacts management"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Cabot",
-    "url": "https://cabotapp.com/",
-    "description": "Cabot — observability API",
+    "name": "AlertManager",
+    "url": "https://prometheus.io/docs/alerting/latest/alertmanager",
+    "description": "AlertManager",
     "category": "observability",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "OnPage",
-    "url": "https://www.onpage.com/",
-    "description": "OnPage — other API",
+    "name": "Pagerly",
+    "url": "https://pagerly.io",
+    "description": "Manage Oncalls and Incidents on Slack",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "Aqua Security",
-    "url": "https://www.aquasec.com/",
-    "description": "Aqua Security",
+    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
+    "url": "https://github.com/checkmarx/kics",
+    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
     "category": "policy-and-governance",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "security"
+      "tooling— security and policies"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "SuperTokens- Open Source User Authentication",
-    "url": "https://github.com/supertokens/supertokens-core",
-    "description": "SuperTokens- Open Source User Authentication",
+    "name": "Casdoor- IAM/SSO platform with web UI",
+    "url": "https://github.com/casdoor/casdoor",
+    "description": "Casdoor- IAM/SSO platform with web UI",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -181,9 +180,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Traefik- Cloud Native Application Proxy",
-    "url": "https://traefik.io/",
-    "description": "Traefik- Cloud Native Application Proxy",
+    "name": "Kong- API Gateway and Service Connectivity Platform",
+    "url": "https://konghq.com/",
+    "description": "Kong- API Gateway and Service Connectivity Platform",
     "category": "service-mesh",
     "pricing": "unknown",
     "hasApi": true,
@@ -191,56 +190,57 @@
       "tooling— service mesh, api gateway and app proxies"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "IBM Rational Functional Tester",
-    "url": "https://www.ibm.com/in-en/marketplace/rational-functional-tester",
-    "description": "IBM Rational Functional Tester",
-    "category": "ci-cd-pipeline",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "continuous testing"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
-    "url": "https://github.com/kubestellar/console",
-    "description": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
-    "category": "container-orchestration",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— kubernetes, paas and cloud services"
-    ],
-    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Git",
-    "url": "https://git-scm.com/",
-    "description": "Git — developer-experience API",
-    "category": "developer-experience",
+    "name": "Gradle",
+    "url": "https://gradle.org/",
+    "description": "Gradle — ci-cd-pipeline API",
+    "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "development",
-      "source code management"
+      "continuous integration",
+      "build"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "qovery",
-    "url": "https://www.qovery.com",
-    "description": "Deliver Self-Service Infrastructure Faster.",
+    "name": "Dokku- Open source PAAS alternative to Heroku",
+    "url": "https://dokku.com/",
+    "description": "Dokku- Open source PAAS alternative to Heroku",
+    "category": "container-orchestration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— kubernetes, paas and cloud services"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Linear",
+    "url": "https://linear.app/",
+    "description": "Linear — developer-experience API",
+    "category": "developer-experience",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "development",
+      "project management & issue tracking software"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Appvia",
+    "url": "https://www.appvia.io",
+    "description": "Increase Developer productivity with self-service.",
     "category": "developer-portal",
     "pricing": "unknown",
     "hasApi": true,
@@ -248,35 +248,36 @@
       "internal developer portal"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OpenGitOps",
-    "url": "https://opengitops.dev/",
-    "description": "OpenGitOps is a set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps.",
-    "category": "gitops",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "specifications"
-    ],
-    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "AWS Proton- Self-service infrastructure templates",
-    "url": "https://aws.amazon.com/proton",
-    "description": "AWS Proton- Self-service infrastructure templates",
-    "category": "iac-and-provisioning",
+    "name": "Terrateam",
+    "url": "https://terrateam.io/",
+    "description": "Infrastructure as Code CI/CD for GitHub",
+    "category": "gitops",
     "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous delivery",
+      "automation and collaboration"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Terragrunt for deployment environments (dev/staging/prod) and other features",
+    "url": "https://github.com/gruntwork-io/terragrunt",
+    "description": "Terragrunt for deployment environments (dev/staging/prod) and other features",
+    "category": "iac-and-provisioning",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— infrastructure and artifacts management"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]
