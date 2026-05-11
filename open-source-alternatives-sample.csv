@@ -1,21 +1,21 @@
-name,url,description,category,pricing,hasApi,tags,license,urlDomainTier,descriptionLengthTier,categorizationTier
-MaxKB,https://openalternative.co/maxkb,AI assistant that enhances enterprise knowledge management,ai-ml,open-source,false,"[""ai & machine learning"",""ai interaction & interfaces""]",GPL-3.0,commercial,normal,specific
-Databuddy,https://openalternative.co/databuddy,Privacy-first analytics without cookies or tracking,analytics,open-source,false,"[""data & analytics"",""web & product analytics""]",AGPL-3.0,commercial,normal,specific
-Gravitee,https://openalternative.co/gravitee,"Unified API, event, and AI agent management platform",api-tools,open-source,true,"[""developer tools"",""api development & testing""]",Apache-2.0,commercial,normal,specific
-Warrant,https://warrant.dev/,Authorization and access control as a service,authentication,open-source,false,"[""alternative-to-okta"",""alternative-to-auth0""]",,commercial,terse,specific
-MDMA,https://openalternative.co/mdma,Transform forms into adaptive chat experiences,automation,open-source,false,"[""productivity & utilities"",""automation""]",MIT,commercial,terse,specific
-Grist,https://openalternative.co/grist,Flexible spreadsheets with database power,business-intelligence,open-source,false,"[""data & analytics"",""business intelligence & reporting""]",Apache-2.0,commercial,terse,specific
-Marble CMS,https://openalternative.co/marble-cms,Simple content management for modern sites,cms,open-source,false,"[""content & publishing"",""content management systems (cms)""]",AGPL-3.0,commercial,terse,specific
-DiamanteDesk,https://github.com/eltrino/diamantedesk-application,Open-source alternative to Zendesk,collaboration,open-source,false,"[""alternative-to-zendesk""]",,repo-hosted,terse,specific
-UserTourKit,https://openalternative.co/usertourkit,"Lightweight, accessible product tours built for React developers",communication,open-source,true,"[""business software"",""customer support & success""]",MIT,commercial,normal,specific
-Discourse,https://openalternative.co/discourse,Cultivate vibrant online communities with ease,community,open-source,false,"[""community & social"",""community building platforms""]",GPL-2.0,commercial,terse,specific
-Erxes,https://openalternative.co/erxes,Open-source growth platform for customer-centric teams,crm,open-source,false,"[""business software"",""crm & sales""]",,commercial,normal,specific
-Chat2DB,https://openalternative.co/chat2db,Transform natural language into SQL queries with AI,databases,open-source,false,"[""infrastructure & operations"",""databases""]",Apache-2.0,commercial,normal,specific
-Modulz,https://www.modulz.app/,Code-based tool for designing and prototyping,design,open-source,false,"[""alternative-to-figma""]",,commercial,terse,specific
-Otomi,https://otomi.io,Self-hosted PaaS for Kubernetes,developer-tools,open-source,false,"[""alternative-to-heroku""]",,commercial,terse,specific
-1Panel,https://openalternative.co/1panel,Manage Linux servers with ease through a modern web interface,devops,open-source,false,"[""infrastructure & operations"",""server & vm management""]",GPL-3.0,commercial,normal,specific
-Firecamp,https://openalternative.co/firecamp,Unified API development ecosystem for modern teams,documentation,open-source,true,"[""content & publishing"",""documentation & knowledge base""]",AGPL-3.0,commercial,normal,specific
-Saleor Commerce,https://github.com/mirumee/saleor,Open-source alternative to Shopify,e-commerce,open-source,false,"[""alternative-to-shopify""]",,repo-hosted,terse,specific
-LocalSend,https://openalternative.co/localsend,Share files securely across all devices without servers,file-management,open-source,false,"[""productivity & utilities"",""file management & sync""]",Apache-2.0,commercial,normal,specific
-Sure.am,https://openalternative.co/sure-am,The personal finance app for everyone,finance,open-source,false,"[""productivity & utilities"",""personal finance management""]",AGPL-3.0,commercial,terse,specific
-Alacritty,https://openalternative.co/alacritty,High-performance terminal with GPU acceleration,forms,open-source,true,"[""developer tools"",""terminals""]",Apache-2.0,commercial,terse,specific
+name,url,description,category,pricing,hasApi,tags,alternativeTo,urlDomainTier,descriptionLengthTier,categorizationTier
+Ploomber,https://ploomber.io/,YAML-based pipeline builder for ML models,ai-ml,open-source,false,"[""alternative-to-aws-sagemaker""]",AWS SageMaker,commercial,terse,specific
+Airbyte,https://openalternative.co/airbyte,Open-source data integration for modern teams,analytics,open-source,false,"[""data & analytics"",""data engineering & integration""]",,commercial,terse,specific
+UnKey,https://openalternative.co/unkey,"Secure, scalable API key management for developers",api-tools,open-source,true,"[""developer tools"",""api development & testing""]",,commercial,normal,specific
+Warrant,https://warrant.dev/,Authorization and access control as a service,authentication,open-source,false,"[""alternative-to-okta"",""alternative-to-auth0""]","Okta, Auth0",commercial,terse,specific
+RoboCorp,https://robocorp.com/,Set of tooling that allows to create automation packages,automation,open-source,false,"[""alternative-to-uipath""]",UiPath,commercial,normal,specific
+DataLens,https://openalternative.co/datalens,Scale your analytics with a powerful open-source BI platform,business-intelligence,open-source,false,"[""data & analytics"",""business intelligence & reporting""]",,commercial,normal,specific
+Nuxeo,https://github.com/nuxeo/nuxeo,Content management platform to build modern business applications.,cms,open-source,false,"[""alternative-to-documentum""]",Documentum,repo-hosted,normal,specific
+Cinny,https://openalternative.co/cinny,Secure and elegant Matrix client for seamless conversations,collaboration,open-source,false,"[""business software"",""collaboration & communication""]",,commercial,normal,specific
+Wraps,https://openalternative.co/wraps,Code-first email platform that deploys to your AWS,communication,open-source,false,"[""business software"",""marketing & customer engagement""]",,commercial,normal,specific
+Flarum,https://openalternative.co/flarum,Modern forum software for vibrant online communities,community,open-source,false,"[""community & social"",""community building platforms""]",,commercial,normal,specific
+SuiteCRM,https://github.com/salesagility/suitecrm,SuiteCRM - Open source CRM for the world.,crm,open-source,false,"[""alternative-to-salesforce""]",Salesforce,repo-hosted,terse,specific
+Spacedrive,https://openalternative.co/spacedrive,Your personal distributed filesystem,databases,open-source,false,"[""infrastructure & operations"",""databases""]",,commercial,terse,specific
+Modulz,https://www.modulz.app/,Code-based tool for designing and prototyping,design,open-source,false,"[""alternative-to-figma""]",Figma,commercial,terse,specific
+Automa,https://openalternative.co/automa,Browser automation made easy with block-based workflows,developer-tools,open-source,true,"[""developer tools"",""frameworks & platforms""]",,commercial,normal,specific
+aaPanel,https://openalternative.co/aapanel,Powerful and user-friendly web hosting control panel,devops,open-source,false,"[""infrastructure & operations"",""server & vm management""]",,commercial,normal,specific
+Vrite,https://openalternative.co/vrite,Collaborative content creation for technical teams,documentation,open-source,false,"[""content & publishing"",""documentation & knowledge base""]",,commercial,normal,specific
+Sylius,https://sylius.com/,Headless e-commerce platform,e-commerce,open-source,false,"[""alternative-to-shopify"",""alternative-to-ecwid""]","Shopify, Ecwid",commercial,terse,specific
+LocalSend,https://openalternative.co/localsend,Share files securely across all devices without servers,file-management,open-source,false,"[""productivity & utilities"",""file management & sync""]",,commercial,normal,specific
+Frappe Books,https://openalternative.co/frappe-books,Modern desktop accounting made simple and free,finance,free,false,"[""business software"",""finance & accounting""]",,commercial,terse,specific
+CapRover,https://github.com/caprover/caprover,Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids.,forms,open-source,false,"[""alternative-to-heroku"",""alternative-to-fly"",""alternative-to-render""]","Heroku, Fly, Render",repo-hosted,normal,specific

@@ -1,40 +1,38 @@
 [
   {
-    "name": "MaxKB",
-    "url": "https://openalternative.co/maxkb",
-    "description": "AI assistant that enhances enterprise knowledge management",
+    "name": "Ploomber",
+    "url": "https://ploomber.io/",
+    "description": "YAML-based pipeline builder for ML models",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ai & machine learning",
-      "ai interaction & interfaces"
+      "alternative-to-aws-sagemaker"
     ],
-    "license": "GPL-3.0",
+    "alternativeTo": "AWS SageMaker",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Databuddy",
-    "url": "https://openalternative.co/databuddy",
-    "description": "Privacy-first analytics without cookies or tracking",
+    "name": "Airbyte",
+    "url": "https://openalternative.co/airbyte",
+    "description": "Open-source data integration for modern teams",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "data & analytics",
-      "web & product analytics"
+      "data engineering & integration"
     ],
-    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Gravitee",
-    "url": "https://openalternative.co/gravitee",
-    "description": "Unified API, event, and AI agent management platform",
+    "name": "UnKey",
+    "url": "https://openalternative.co/unkey",
+    "description": "Secure, scalable API key management for developers",
     "category": "api-tools",
     "pricing": "open-source",
     "hasApi": true,
@@ -42,7 +40,7 @@
       "developer tools",
       "api development & testing"
     ],
-    "license": "Apache-2.0",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
@@ -64,25 +62,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "MDMA",
-    "url": "https://openalternative.co/mdma",
-    "description": "Transform forms into adaptive chat experiences",
+    "name": "RoboCorp",
+    "url": "https://robocorp.com/",
+    "description": "Set of tooling that allows to create automation packages",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "productivity & utilities",
-      "automation"
+      "alternative-to-uipath"
     ],
-    "license": "MIT",
+    "alternativeTo": "UiPath",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Grist",
-    "url": "https://openalternative.co/grist",
-    "description": "Flexible spreadsheets with database power",
+    "name": "DataLens",
+    "url": "https://openalternative.co/datalens",
+    "description": "Scale your analytics with a powerful open-source BI platform",
     "category": "business-intelligence",
     "pricing": "open-source",
     "hasApi": false,
@@ -92,60 +89,61 @@
     ],
     "license": "Apache-2.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Marble CMS",
-    "url": "https://openalternative.co/marble-cms",
-    "description": "Simple content management for modern sites",
+    "name": "Nuxeo",
+    "url": "https://github.com/nuxeo/nuxeo",
+    "description": "Content management platform to build modern business applications.",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "content & publishing",
-      "content management systems (cms)"
+      "alternative-to-documentum"
     ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "license": "Apache License 2.0",
+    "alternativeTo": "Documentum",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 704
   },
   {
-    "name": "DiamanteDesk",
-    "url": "https://github.com/eltrino/diamantedesk-application",
-    "description": "Open-source alternative to Zendesk",
+    "name": "Cinny",
+    "url": "https://openalternative.co/cinny",
+    "description": "Secure and elegant Matrix client for seamless conversations",
     "category": "collaboration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-zendesk"
-    ],
-    "alternativeTo": "Zendesk",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "UserTourKit",
-    "url": "https://openalternative.co/usertourkit",
-    "description": "Lightweight, accessible product tours built for React developers",
-    "category": "communication",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
       "business software",
-      "customer support & success"
+      "collaboration & communication"
     ],
-    "license": "MIT",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Discourse",
-    "url": "https://openalternative.co/discourse",
-    "description": "Cultivate vibrant online communities with ease",
+    "name": "Wraps",
+    "url": "https://openalternative.co/wraps",
+    "description": "Code-first email platform that deploys to your AWS",
+    "category": "communication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "marketing & customer engagement"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Flarum",
+    "url": "https://openalternative.co/flarum",
+    "description": "Modern forum software for vibrant online communities",
     "category": "community",
     "pricing": "open-source",
     "hasApi": false,
@@ -153,30 +151,32 @@
       "community & social",
       "community building platforms"
     ],
-    "license": "GPL-2.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Erxes",
-    "url": "https://openalternative.co/erxes",
-    "description": "Open-source growth platform for customer-centric teams",
-    "category": "crm",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "business software",
-      "crm & sales"
-    ],
+    "license": "MIT",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Chat2DB",
-    "url": "https://openalternative.co/chat2db",
-    "description": "Transform natural language into SQL queries with AI",
+    "name": "SuiteCRM",
+    "url": "https://github.com/salesagility/suitecrm",
+    "description": "SuiteCRM - Open source CRM for the world.",
+    "category": "crm",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-salesforce"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "alternativeTo": "Salesforce",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 5430
+  },
+  {
+    "name": "Spacedrive",
+    "url": "https://openalternative.co/spacedrive",
+    "description": "Your personal distributed filesystem",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
@@ -184,9 +184,9 @@
       "infrastructure & operations",
       "databases"
     ],
-    "license": "Apache-2.0",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -205,24 +205,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Otomi",
-    "url": "https://otomi.io",
-    "description": "Self-hosted PaaS for Kubernetes",
+    "name": "Automa",
+    "url": "https://openalternative.co/automa",
+    "description": "Browser automation made easy with block-based workflows",
     "category": "developer-tools",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "alternative-to-heroku"
+      "developer tools",
+      "frameworks & platforms"
     ],
-    "alternativeTo": "Heroku",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "1Panel",
-    "url": "https://openalternative.co/1panel",
-    "description": "Manage Linux servers with ease through a modern web interface",
+    "name": "aaPanel",
+    "url": "https://openalternative.co/aapanel",
+    "description": "Powerful and user-friendly web hosting control panel",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": false,
@@ -230,39 +230,38 @@
       "infrastructure & operations",
       "server & vm management"
     ],
-    "license": "GPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Firecamp",
-    "url": "https://openalternative.co/firecamp",
-    "description": "Unified API development ecosystem for modern teams",
+    "name": "Vrite",
+    "url": "https://openalternative.co/vrite",
+    "description": "Collaborative content creation for technical teams",
     "category": "documentation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "content & publishing",
       "documentation & knowledge base"
     ],
-    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Saleor Commerce",
-    "url": "https://github.com/mirumee/saleor",
-    "description": "Open-source alternative to Shopify",
+    "name": "Sylius",
+    "url": "https://sylius.com/",
+    "description": "Headless e-commerce platform",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-shopify"
+      "alternative-to-shopify",
+      "alternative-to-ecwid"
     ],
-    "alternativeTo": "Shopify",
-    "urlDomainTier": "repo-hosted",
+    "alternativeTo": "Shopify, Ecwid",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
@@ -283,15 +282,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Sure.am",
-    "url": "https://openalternative.co/sure-am",
-    "description": "The personal finance app for everyone",
+    "name": "Frappe Books",
+    "url": "https://openalternative.co/frappe-books",
+    "description": "Modern desktop accounting made simple and free",
     "category": "finance",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "productivity & utilities",
-      "personal finance management"
+      "business software",
+      "finance & accounting"
     ],
     "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
@@ -299,19 +298,22 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Alacritty",
-    "url": "https://openalternative.co/alacritty",
-    "description": "High-performance terminal with GPU acceleration",
+    "name": "CapRover",
+    "url": "https://github.com/caprover/caprover",
+    "description": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids.",
     "category": "forms",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
-      "terminals"
+      "alternative-to-heroku",
+      "alternative-to-fly",
+      "alternative-to-render"
     ],
-    "license": "Apache-2.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "license": "Other license",
+    "alternativeTo": "Heroku, Fly, Render",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 15017
   }
 ]
