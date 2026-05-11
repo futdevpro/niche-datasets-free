@@ -1,13 +1,14 @@
 [
   {
-    "name": "accelQ",
-    "url": "https://www.accelq.com/",
-    "description": "accelQ — ci-cd-pipeline API",
+    "name": "Hudson",
+    "url": "http://hudson-ci.org/",
+    "description": "Hudson — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous testing"
+      "continuous integration",
+      "integration"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
@@ -39,35 +40,36 @@
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 6540
   },
   {
-    "name": "Monday.com",
-    "url": "https://monday.com/",
-    "description": "Monday.com",
+    "name": "Ant Design- An enterprise-class UI design language and React UI library",
+    "url": "https://github.com/ant-design/ant-design",
+    "description": "Ant Design- An enterprise-class UI design language and React UI library",
     "category": "developer-experience",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "development",
-      "project management & issue tracking software"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "API docs with Swagger- OpenAPI Specification",
-    "url": "https://swagger.io/specification",
-    "description": "API docs with Swagger- OpenAPI Specification",
-    "category": "developer-portal",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "tooling— development portal and documentation"
+      "tooling— frontend"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 97999
+  },
+  {
+    "name": "Radius app",
+    "url": "https://radapp.io/",
+    "description": "Open-source, cloud-native, application platform that enables developers and the operators that support them to define, deploy, and collaborate on cloud-native applications across public clouds and private infrastructure.",
+    "category": "developer-portal",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
@@ -85,24 +87,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "werf",
-    "url": "https://werf.io/",
-    "description": "werf — ci-cd-pipeline API",
+    "name": "Terrateam",
+    "url": "https://terrateam.io/",
+    "description": "Infrastructure as Code CI/CD for GitHub",
     "category": "gitops",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous delivery",
-      "deployment"
+      "automation and collaboration"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Verdaccio- a simple, zero-config npm registry",
-    "url": "https://github.com/verdaccio/verdaccio",
-    "description": "Verdaccio- a simple, zero-config npm registry",
+    "name": "Terragrunt for deployment environments (dev/staging/prod) and other features",
+    "url": "https://github.com/gruntwork-io/terragrunt",
+    "description": "Terragrunt for deployment environments (dev/staging/prod) and other features",
     "category": "iac-and-provisioning",
     "pricing": "open-source",
     "hasApi": false,
@@ -110,45 +112,49 @@
       "tooling— infrastructure and artifacts management"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 9565
   },
   {
-    "name": "AlertManager",
-    "url": "https://prometheus.io/docs/alerting/latest/alertmanager",
-    "description": "AlertManager",
+    "name": "Apache SkyWalking — Application Performance Monitoring",
+    "url": "https://github.com/apache/skywalking",
+    "description": "Apache SkyWalking — Application Performance Monitoring",
     "category": "observability",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "tags": [
+      "continuous monitoring"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 24795
   },
   {
-    "name": "Pagerly",
-    "url": "https://pagerly.io",
-    "description": "Manage Oncalls and Incidents on Slack",
+    "name": "xMatters",
+    "url": "https://www.xmatters.com/",
+    "description": "xMatters — other API",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "other"
   },
   {
-    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
-    "url": "https://github.com/checkmarx/kics",
-    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
+    "name": "Checkov Policy-as-code",
+    "url": "https://www.checkov.io/",
+    "description": "Checkov Policy-as-code",
     "category": "policy-and-governance",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "tooling— security and policies"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -163,7 +169,8 @@
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 13589
   },
   {
     "name": "Backstage Software Catalog",
@@ -194,38 +201,39 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Gradle",
-    "url": "https://gradle.org/",
-    "description": "Gradle — ci-cd-pipeline API",
+    "name": "Hound CI",
+    "url": "https://houndci.com/",
+    "description": "Hound CI — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous integration",
-      "build"
+      "integration"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Dokku- Open source PAAS alternative to Heroku",
-    "url": "https://dokku.com/",
-    "description": "Dokku- Open source PAAS alternative to Heroku",
+    "name": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
+    "url": "https://github.com/kubestellar/console",
+    "description": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
     "category": "container-orchestration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— kubernetes, paas and cloud services"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 92
   },
   {
-    "name": "Linear",
-    "url": "https://linear.app/",
-    "description": "Linear — developer-experience API",
+    "name": "Basecamp",
+    "url": "https://basecamp.com/",
+    "description": "Basecamp — developer-experience API",
     "category": "developer-experience",
     "pricing": "unknown",
     "hasApi": false,
@@ -238,46 +246,47 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Appvia",
-    "url": "https://www.appvia.io",
-    "description": "Increase Developer productivity with self-service.",
+    "name": "Kubero",
+    "url": "https://github.com/kubero-dev/kubero",
+    "description": "A fully self-hosted Internal Developer Platform (IDP).",
     "category": "developer-portal",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "internal developer portal"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 4273
   },
   {
-    "name": "Terrateam",
-    "url": "https://terrateam.io/",
-    "description": "Infrastructure as Code CI/CD for GitHub",
+    "name": "werf",
+    "url": "https://werf.io/",
+    "description": "werf — ci-cd-pipeline API",
     "category": "gitops",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous delivery",
-      "automation and collaboration"
+      "deployment"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Terragrunt for deployment environments (dev/staging/prod) and other features",
-    "url": "https://github.com/gruntwork-io/terragrunt",
-    "description": "Terragrunt for deployment environments (dev/staging/prod) and other features",
+    "name": "AWS Proton- Self-service infrastructure templates",
+    "url": "https://aws.amazon.com/proton",
+    "description": "AWS Proton- Self-service infrastructure templates",
     "category": "iac-and-provisioning",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "tooling— infrastructure and artifacts management"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
 ]
