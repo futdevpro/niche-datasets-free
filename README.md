@@ -2,7 +2,7 @@
 
 Preview records from each curated developer dataset. Every sample contains **20 diverse records** in both JSON and CSV format.
 
-**20 datasets, ~60,000 records total.** All sourced from official APIs (npm registry, Homebrew, HuggingFace Hub, OpenRouter, VS Code Marketplace) or CC0/MIT/Apache-2.0 awesome-lists. Aggregation is license-clean for commercial repackaging.
+**20 datasets, ~55,000 records total.** All sourced from official APIs (npm registry, Homebrew, HuggingFace Hub, OpenRouter, VS Code Marketplace) or CC0/MIT/Apache-2.0 awesome-lists. Aggregation is license-clean for commercial repackaging.
 
 ## Datasets
 
@@ -56,7 +56,7 @@ Or download the same combined sample as a single ZIP from Gumroad (no signup): *
 
 ## Want everything?
 
-The **[Complete Developer Data Bundle](https://jhonnyronnie.gumroad.com/l/developer-data-bundle)** includes all 20 datasets (~60,000 records combined) for **$34** — 70% off vs $112 individual standalone total.
+The **[Complete Developer Data Bundle](https://jhonnyronnie.gumroad.com/l/developer-data-bundle)** includes all 20 datasets (~55,000 records combined) for **$34** — 70% off vs $112 individual standalone total.
 
 ### Themed sub-bundles (focused buyer personas)
 
