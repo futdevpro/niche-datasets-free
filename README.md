@@ -95,6 +95,8 @@ Many datasets carry additional first-class fields specific to their niche, e.g.:
 
 Plus 40+ semantic enum tiers across all datasets — `urlDomainTier`, `descriptionLengthTier`, `categorizationTier`, plus dataset-specific tiers like `popularityTier`, `recencyTier`, `licenseTier`, `supplyChainRisk`, `dependentTier`, `installVolumeTier`, etc.
 
+**New 2026-05-12 (`githubStars` field):** ~7,978 GitHub-hosted records across 13 of 20 datasets now have a `githubStars` integer field — sortable popularity signal for filters like "top 20 mature vector DBs" or "MCP servers above 1K stars". Top across catalog: openclaw 370K, Python Programming by @vinta 297K, Awesome-Selfhosted 291K (curated meta-lists); TensorFlow 195K, n8n 187K, oh-my-zsh 186K, Auto-GPT 184K, Ollama 171K.
+
 ## License
 
 Samples are free to use for evaluation. Full datasets are licensed per the [Gumroad terms](https://jhonnyronnie.gumroad.com).
