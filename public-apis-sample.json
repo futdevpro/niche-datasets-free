@@ -1,36 +1,33 @@
 [
   {
-    "name": "Movebank",
-    "url": "https://github.com/movebank/movebank-api-doc",
-    "description": "Movement and Migration data of animals",
+    "name": "IUCN",
+    "url": "http://apiv3.iucnredlist.org/api/v3/docs",
+    "description": "IUCN Red List of Threatened Species",
     "category": "animals",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "animals",
-      "no-auth",
-      "cors-enabled"
+      "animals"
     ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "repo-hosted",
+    "auth": "apiKey",
+    "https": false,
+    "cors": "no",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Waifu.im",
-    "url": "https://waifu.im/docs",
-    "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
+    "name": "AniAPI",
+    "url": "https://aniapi.com/docs",
+    "description": "Anime discovery, streaming & syncing with trackers",
     "category": "anime",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "anime",
-      "no-auth",
       "cors-enabled"
     ],
-    "auth": "none",
+    "auth": "oauth",
     "https": true,
     "cors": "yes",
     "urlDomainTier": "commercial",
@@ -38,50 +35,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "MalDatabase",
-    "url": "https://maldatabase.com/api-doc.html",
-    "description": "Provide malware datasets and threat intelligence feeds",
+    "name": "MalShare",
+    "url": "https://malshare.com/doc.php",
+    "description": "Malware Archive / file sourcing",
     "category": "anti-malware",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "anti-malware"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Icon Horse",
-    "url": "https://icon.horse/",
-    "description": "Favicons for any website, with fallbacks",
-    "category": "art-design",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "art & design",
-      "no-auth",
-      "cors-enabled"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "GetOTP",
-    "url": "https://otp.dev/en/docs",
-    "description": "Implement OTP flow quickly",
-    "category": "authentication",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "authentication & authorization"
     ],
     "auth": "apiKey",
     "https": true,
@@ -91,52 +52,67 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Etherscan",
-    "url": "https://etherscan.io/apis",
-    "description": "Ethereum explorer API",
+    "name": "ColourLovers",
+    "url": "http://www.colourlovers.com/api",
+    "description": "Get various patterns, palettes and images",
+    "category": "art-design",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "art & design",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": false,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Jumio",
+    "url": "https://www.jumio.com/developer",
+    "description": "Provides identity verification, KYC (Know Your Customer), and AML (Anti-Money Laundering) solutions, including document verification and biometric authentication.",
+    "category": "authentication",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "fraud prevention"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Nownodes",
+    "url": "https://nownodes.io/",
+    "description": "Blockchain-as-a-service solution that provides high-quality connection via API",
     "category": "blockchain",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "blockchain",
-      "cors-enabled"
+      "blockchain"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "yes",
+    "cors": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Bible-api",
-    "url": "https://bible-api.com/",
-    "description": "Free Bible API with multiple languages",
+    "name": "indoona",
+    "url": "https://developer.indoona.com/",
+    "description": "The indoona RESTful API over HTTPS that lets you: send messages to indoona users and groups, create special address book contacts to let indoona users chat with your application.",
     "category": "books",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "books",
-      "no-auth",
-      "cors-enabled"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Woopra",
-    "url": "https://www.woopra.com/docs/developer/analytics-api",
-    "description": "Real-time website analysis tool that targets customer engagement.",
-    "category": "business",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "table of contents",
-      "analytics"
+      "food",
+      "messaging"
     ],
     "cors": "unknown",
     "auth": "apiKey",
@@ -146,21 +122,37 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "UK Bank Holidays",
-    "url": "https://www.gov.uk/bank-holidays.json",
-    "description": "Bank holidays in England and Wales, Scotland and Northern Ireland",
-    "category": "calendar",
-    "pricing": "free",
+    "name": "Clearbit Logo",
+    "url": "https://clearbit.com/docs#logo-api",
+    "description": "Search for company logos and embed them in your projects",
+    "category": "business",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "calendar",
-      "no-auth"
+      "business"
     ],
-    "auth": "none",
+    "auth": "apiKey",
     "https": true,
     "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Calendarific",
+    "url": "https://calendarific.com/",
+    "description": "Worldwide Holidays",
+    "category": "calendar",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "calendar"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -181,156 +173,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Web3 Storage",
-    "url": "https://web3.storage/",
-    "description": "File Sharing and Storage for Free with 1TB Space",
+    "name": "watchful.li",
+    "url": "https://watchful.li",
+    "description": "watchful.li — cloud-storage API",
     "category": "cloud-storage",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "cloud storage & file sharing",
-      "cors-enabled"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "blockfrost Cardano",
-    "url": "https://blockfrost.io/",
-    "description": "Interaction with the Cardano mainnet and several testnets",
-    "category": "cryptocurrency",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "cryptocurrency"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "FreeForexAPI",
-    "url": "https://freeforexapi.com/home/api",
-    "description": "Real-time foreign exchange rates for major currency pairs",
-    "category": "currency",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "currency exchange",
-      "no-auth"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "no",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "NumValidate",
-    "url": "https://numvalidate.com/",
-    "description": "Open Source phone number validation",
-    "category": "data-validation",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "data validation",
-      "no-auth"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Pythonium",
-    "url": "https://pythonium.net/linter",
-    "description": "Validate Python code",
-    "category": "development",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "development",
-      "no-auth",
-      "cors-enabled"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Free Dictionary",
-    "url": "https://dictionaryapi.dev/",
-    "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
-    "category": "dictionaries",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "dictionaries",
-      "no-auth"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Ambee",
-    "url": "https://www.getambee.com/api/natural-disasters",
-    "description": "Natural Disasters API",
-    "category": "disasters",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "disasters"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "CustomJS",
-    "url": "https://www.customjs.space/integration/pdf-api/html-to-pdf",
-    "description": "HTML to PDF or PDF to PNG/Text & merging/extraction APIs",
-    "category": "documents",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "documents & productivity"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Learnifier",
-    "url": "https://learnifier.com",
-    "description": "Learnifier — education API",
-    "category": "education",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "education"
+      "hosting"
     ],
     "auth": "apiKey",
     "https": true,
@@ -340,20 +190,159 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "OneSignal",
-    "url": "https://documentation.onesignal.com/docs/onesignal-api",
-    "description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
-    "category": "email",
+    "name": "Bitcoin",
+    "url": "https://bitcoin.org/en/developer-documentation",
+    "description": "Find useful resources, guides and reference material for developers.",
+    "category": "cryptocurrency",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "table of contents",
+      "bitcoin/bitcoin wallets"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "FxRatesAPI",
+    "url": "https://fxratesapi.com/",
+    "description": "Real-time exchange rates, historical rates and currency conversion",
+    "category": "currency",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "development"
+      "currency exchange"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "no",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VerifyEd",
+    "url": "https://verifyed.org/docs",
+    "description": "Verify academic credentials — 912K+ schools, 2,592 diploma mills",
+    "category": "data-validation",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "data validation",
+      "cors-enabled"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Search Services",
+    "url": "https://archive.org",
+    "description": "API for Internet Archive's Search-related services",
+    "category": "development",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "search"
     ],
     "auth": "apiKey",
     "https": true,
     "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Words",
+    "url": "https://www.wordsapi.com/docs",
+    "description": "Definitions and synonyms for more than 150,000 words",
+    "category": "dictionaries",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "dictionaries"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "PredictHQ",
+    "url": "https://docs.predicthq.com/",
+    "description": "Events and natural disasters data",
+    "category": "disasters",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "disasters"
+    ],
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "apilayer pdflayer",
+    "url": "https://pdflayer.com/",
+    "description": "HTML/URL to PDF",
+    "category": "documents",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "documents & productivity"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "iQualify Management API",
+    "url": "https://iqualify.com",
+    "description": "The iQualify API offers management responses for building learning experiences using your iQualify instance data. Once you’ve registered with iQualify, you can request an API access token by navigating to the API access section of the \"Account Settings\" area. Find out how to [Request your API access token](https://www.iqualify.com/help/connecting-iqualify-to-other-systems/api/how-to-access-and-manage-your-api-token) on our Knowledge base. All endpoints are only accessible via https and are lo...",
+    "category": "education",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "education"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "verbose",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Mandrill",
+    "url": "https://mandrillapp.com",
+    "description": "Mandrill is a reliable, scalable, and secure delivery API for transactional emails from websites and applications. It's ideal for sending data-driven transactional emails, including targeted e-commerce and personalized one-to-one messages.",
+    "category": "email",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "email",
+      "marketing"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   }
 ]

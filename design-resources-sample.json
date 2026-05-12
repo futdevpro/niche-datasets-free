@@ -1,8 +1,8 @@
 [
   {
-    "name": "Autodesk",
-    "url": "https://www.autodesk.com/products/fusion-360/overview",
-    "description": "integrated CAD, CAM, and CAE software. Unify design, engineering, and manufacturing into a single platform.",
+    "name": "Onshape",
+    "url": "https://www.onshape.com/",
+    "description": "a modeling software specially oriented to design technical and spare parts, was the first full-cloud 3D software created.",
     "category": "3d",
     "pricing": "unknown",
     "hasApi": false,
@@ -15,24 +15,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Color Oracle",
-    "url": "https://colororacle.org/",
-    "description": "a free color blindness simulator.",
+    "name": "Accessibility Weekly",
+    "url": "https://a11yweekly.com/",
+    "description": "a weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday, curated by David A. Kennedy",
     "category": "accessibility",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "accessibility tools"
+      "research & accessibility (ux, usability, a11y)"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "EasyAR",
-    "url": "https://www.easyar.com/",
-    "description": "a mobile application and an Augmented Reality Engine, making AR easier.",
+    "name": "Spark AR Studio",
+    "url": "https://www.sparkar.com",
+    "description": "сreate AR experiences for Instagram without code.",
     "category": "augmented-reality",
     "pricing": "unknown",
     "hasApi": false,
@@ -41,13 +40,13 @@
       "augmented reality"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Filestage",
-    "url": "https://filestage.io/",
-    "description": "an agile content approval software that helps you to review videos, designs, and documents with clients and co-workers.",
+    "name": "MURAL",
+    "url": "https://mural.co/",
+    "description": "think and collaborate visually. Anywhere, anytime.",
     "category": "collaboration",
     "pricing": "unknown",
     "hasApi": false,
@@ -60,12 +59,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Colour Lovers",
-    "url": "https://www.colourlovers.com",
-    "description": "A creative community where people from around the world create and share colors, palettes and patterns.",
+    "name": "Colorate",
+    "url": "https://colorate.azurewebsites.net/",
+    "description": "Color scheme tool for designers and developers. This will help you draw inspiration and serve as a resource for your color work.",
     "category": "colors",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "colors"
     ],
@@ -74,79 +73,79 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Animatopy",
-    "url": "https://sarthology.github.io/animatopy",
-    "description": "Just-add-water CSS animations snippets",
+    "name": "Endless Tools",
+    "url": "https://endlesstools.io/",
+    "description": "all-in-one web tool to quickly craft striking 3D visuals, animations, and unique effects — no heavy software or coding needed",
     "category": "css-animations",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "css animations"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Tufte",
-    "url": "https://github.com/edwardtufte/tufte-css",
-    "description": "Style your webpage like Edward Tufte’s handouts.",
-    "category": "css-frameworks",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "css frameworks"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "The Deeply Graphic Design",
-    "url": "http://thedeependdesign.com/graphic-design-podcast",
-    "description": "The web + graphic design podcast that offsers both pratical and creative design advice you can use.",
-    "category": "design-inspiration",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "podcast"
+      "animations, 3d and sound"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Patterfly",
-    "url": "https://www.patternfly.org/",
-    "description": "PatternFly is an open source design system from Red Hat, Inc.",
-    "category": "design-systems",
+    "name": "A Modern CSS Reset",
+    "url": "https://piccalil.li/blog/a-modern-css-reset",
+    "description": "Resets the css styling of all HTML elements to a consistent baseline across browsers.",
+    "category": "css-frameworks",
     "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Treehouse",
+    "url": "https://teamtreehouse.com/tracks/web-design",
+    "description": "Brings affordable, technology education to people everywhere.",
+    "category": "design-inspiration",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "tutorials"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "StyleGuides.io",
+    "url": "http://styleguides.io/",
+    "description": "A directory of 500+ styleguides",
+    "category": "design-systems",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "design systems & style guides"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Mermaid",
-    "url": "https://github.com/mermaid-js/mermaid",
-    "description": "renders Markdown-inspired text definitions to create and modify diagrams (like flowchart, sequence diagram, gantt, or user journey) dynamically. (FOSS)",
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
     "category": "design-tools",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "online design tools"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Awesome Screenshot & Screen Recorder",
-    "url": "https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en",
-    "description": "Full page screen capture and screen recorder - 2 in 1. Share screencast video instantly",
+    "name": "Imageye - Image downloader",
+    "url": "https://chrome.google.com/webstore/detail/imageye-image-downloader/agionbommeaifngbhincahgmoflcikhm",
+    "description": "Find and download all images on a web page. With Imageye you can find, browse and download all the images present in a web page.",
     "category": "extensions",
     "pricing": "free",
     "hasApi": false,
@@ -158,51 +157,51 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Fontsource",
-    "url": "https://fontsource.org/",
-    "description": "Self-host Open Source fonts in neatly bundled NPM packages.",
+    "name": "Abstract Fonts",
+    "url": "http://www.abstractfonts.com/",
+    "description": "Fonts free for personal and commercial use",
     "category": "fonts",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "fonts"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Lucide",
+    "url": "https://lucide.netlify.app/",
+    "description": "Lucide is an open-source icon library, a fork of Feather Icons.",
+    "category": "icons",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "icons"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "iconhub",
-    "url": "https://iconhub.io/",
-    "description": "Just practical stunning icons for everyone",
-    "category": "icons",
+    "name": "tldraw",
+    "url": "https://www.tldraw.com/",
+    "description": "A tiny little drawing app.",
+    "category": "illustrations",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "icons"
+      "others"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Vecteezy",
-    "url": "https://www.vecteezy.com/",
-    "description": "Find and download free vector art",
-    "category": "illustrations",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "vectors & clip art"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Optimizilla",
-    "url": "https://imagecompressor.com/",
-    "description": "Online JPEG and PNG optimizer / compressor with settings and archive download",
+    "name": "BulkResizePhotos",
+    "url": "https://bulkresizephotos.com/",
+    "description": "Bulk image resizing, compression & converting that perform all the tasks within the browser (It works offline)",
     "category": "image-compression",
     "pricing": "unknown",
     "hasApi": false,
@@ -214,9 +213,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Swiperjs",
-    "url": "https://swiperjs.com/",
-    "description": "Free, Open Source, Modern Slider without jQuery. Available for Vanilla JS and all modern frameworks like React, Vue, Angular etc.",
+    "name": "mo.js",
+    "url": "https://mojs.github.io/",
+    "description": "The motion graphics toolbelt for the web",
     "category": "javascript-libraries",
     "pricing": "open-source",
     "hasApi": false,
@@ -224,56 +223,57 @@
       "javascript animation libraries"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Shot Snap",
-    "url": "https://shotsnapp.com/",
-    "description": "Create beautiful device mockup images for your app or website design",
+    "name": "Mockuuups",
+    "url": "https://mockuuups.studio/",
+    "description": "drag-and-drop tool for creating beautiful app previews or any marketing materials.",
     "category": "mockups",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "product & image mockups"
+      "table of content",
+      "mockup tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Instagram Brand Identity",
-    "url": "https://about.instagram.com/brand",
-    "description": "Instagram Brand Identity",
+    "name": "Design Sphere",
+    "url": "https://www.designsphere.xyz/",
+    "description": "a curated selection of podcasts discussing UX/UI, branding, motion design, graphic design, design systems, & more.",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "design systems & frameworks",
-      "references and learning resources"
+      "podcasts"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
   {
-    "name": "Clicktale",
-    "url": "https://www.clicktale.com",
-    "description": "is a user experience management platform.",
+    "name": "Survey Monkey",
+    "url": "https://www.surveymonkey.com/",
+    "description": "online survey tool to capture the voices and opinions of the people who matter most to you.",
     "category": "prototyping",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "user testing"
+      "table of content",
+      "user research tools"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "ShotStash",
-    "url": "https://shotstash.com/",
-    "description": "thousands of free high-resolution CC0 photos and videos.",
+    "name": "FreePhotos.cc",
+    "url": "https://freephotos.cc/",
+    "description": "free stock photos for commercial use.",
     "category": "stock-photos",
     "pricing": "free",
     "hasApi": false,
@@ -282,7 +282,7 @@
       "stock photos tools"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
 ]

@@ -1,23 +1,23 @@
 [
   {
-    "name": "MonkeyLearn",
-    "url": "https://monkeylearn.com/",
-    "description": "No-code NLP toolkit for text classification, sentiment analysis, and keyword extraction.",
+    "name": "Vertex-AI",
+    "url": "https://cloud.google.com/vertex-ai",
+    "description": "Build, deploy, and scale machine learning (ML) models faster, with fully managed ML tools for any use case.",
     "category": "ai-ml",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "machine learning"
+      "ai"
     ],
-    "codeType": "no-code",
+    "codeType": "low-code",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Fathom",
-    "url": "https://usefathom.com",
-    "description": "Privacy-focused, cookie-less analytics that’s easy to set up and use.",
+    "name": "Plausible",
+    "url": "https://plausible.io",
+    "description": "Lightweight, GDPR-compliant website analytics with a simple interface.",
     "category": "analytics",
     "pricing": "freemium",
     "hasApi": false,
@@ -30,14 +30,30 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Boundless",
-    "url": "https://www.boundlesslabs.com/",
-    "description": "Create dynamic, multisided web apps without coding",
+    "name": "Lowdefy",
+    "url": "https://lowdefy.com",
+    "description": "An open-source low-code framework to build internal tools, web apps, admin panels, BI dashboards, workflows, and CRUD apps with ease by simply writing YAML.",
     "category": "app-builder",
-    "pricing": "freemium",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "business apps"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "PegaSystems",
+    "url": "https://www.pega.com/",
+    "description": "Provides business process and customer relationship management solutions for organizations.",
+    "category": "automation",
+    "pricing": "paid",
     "hasApi": false,
     "tags": [
-      "web apps"
+      "platforms",
+      "business process management"
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
@@ -45,25 +61,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Microsoft Power Fx",
-    "url": "https://github.com/microsoft/power-fx",
-    "description": "Power Fx Low Code programming language.",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "reference resources",
-      "power platform (microsoft)"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Tars",
-    "url": "https://hellotars.com/",
-    "description": "Optimize your conversion funnels, automate customer service interactions, and redefine customer experience.",
+    "name": "BotXO",
+    "url": "https://www.botxo.ai/",
+    "description": "Powerful AI chatbot builder made easy for businesses.",
     "category": "chatbot",
     "pricing": "freemium",
     "hasApi": false,
@@ -76,30 +76,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Custom Connector Docs",
-    "url": "https://github.com/workato/custom_connector_docs",
-    "description": "Source files for Workato custom connector documentation.",
+    "name": "Almanac",
+    "url": "https://almanac.io",
+    "description": "Version-controlled docs and workflows built for async collaboration.",
     "category": "collaboration",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "reference resources",
-      "workato"
+      "collaboration"
     ],
-    "codeType": "low-code",
-    "urlDomainTier": "repo-hosted",
+    "codeType": "both",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Crisp",
-    "url": "https://crisp.chat/fr",
-    "description": "Customer support directly in your website",
+    "name": "Kartra",
+    "url": "https://kartra.com",
+    "description": "Online Business Made Easy",
     "category": "crm",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "customer support"
+      "crm"
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
@@ -107,29 +106,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Dataminer",
-    "url": "https://data-miner.io/",
-    "description": "Easy to use web scraping",
+    "name": "Browse AI",
+    "url": "https://browse.ai/",
+    "description": "Train bots to monitor and extract data in minutes.",
     "category": "data-scraping",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "scrapers"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Rows",
-    "url": "https://rows.com/",
-    "description": "The spreadsheet where teams work faster.",
+    "name": "DocuPotion",
+    "url": "https://docupotion.com/",
+    "description": "Generate PDFs at scale in Bubble and Airtable.",
     "category": "database",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "databases"
+      "misc"
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
@@ -137,9 +136,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "LottieFiles",
-    "url": "https://lottiefiles.com",
-    "description": "Discover and use lightweight animations.",
+    "name": "Haikei",
+    "url": "https://haikei.app",
+    "description": "Generate unique, customizable SVG shapes and gradients.",
     "category": "design",
     "pricing": "freemium",
     "hasApi": false,
@@ -148,30 +147,30 @@
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Hingeto",
-    "url": "https://www.hingeto.com/",
-    "description": "Start your own Amazon-style marketplace",
+    "name": "Memberstack",
+    "url": "https://www.memberstack.com/",
+    "description": "Beautiful user logins and payments for any website.",
     "category": "ecommerce",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "ecommerce"
+      "membership"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Convertigo",
-    "url": "https://www.convertigo.com/",
-    "description": "Create Forms based applications with no coding.",
+    "name": "Microsoft Forms",
+    "url": "https://forms.office.com/",
+    "description": "Easily create surveys, quizzes, and polls.",
     "category": "forms",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "forms"
@@ -182,18 +181,19 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "SaaS Blocks",
-    "url": "https://saasblocks.io/",
-    "description": "Ready-to-use building blocks and APIs to take your SaaS application to the next level",
+    "name": "Workato API Management",
+    "url": "https://docs.workato.com/api-management.html",
+    "description": "Turn callable recipes into endpoints and organize the endpoints into API collections, making it easier for users to find and consume the endpoints through other recipes or third-party apps, without requiring access to your Workato account.",
     "category": "internal-tools",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "misc"
+      "platforms",
+      "low code api management platform"
     ],
     "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
@@ -212,9 +212,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Thunkable",
-    "url": "https://thunkable.com",
-    "description": "The No-Code App Builder",
+    "name": "Dropsource",
+    "url": "https://www.dropsource.com/",
+    "description": "Build and publish native mobile app without coding",
     "category": "mobile",
     "pricing": "freemium",
     "hasApi": false,
@@ -223,48 +223,33 @@
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Markerpad",
-    "url": "https://www.makerpad.co/",
-    "description": "Join thousands learning to build software. No coding required.",
+    "name": "No Code Founders",
+    "url": "https://www.nocodefounders.com/",
+    "description": "Community for no-code builders.",
     "category": "other",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "educational"
+      "resources"
     ],
-    "codeType": "both",
+    "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "Veed",
-    "url": "https://veed.io",
-    "description": "Collaborative video editor with templates and subtitles.",
+    "name": "Vuix",
+    "url": "https://vuix.io",
+    "description": "Design voice apps in minutes.",
     "category": "video",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "video"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Quarkly",
-    "url": "https://quarkly.io/",
-    "description": "Design tool for creating websites and web apps.",
-    "category": "website-builder",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "websites"
+      "voice"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
@@ -272,14 +257,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Teachable Machine",
-    "url": "https://teachablemachine.withgoogle.com/",
-    "description": "Web-based tool for training a computer to recognise images, sounds, and poses.",
-    "category": "ai-ml",
-    "pricing": "free",
+    "name": "Dorik",
+    "url": "https://dorik.com",
+    "description": "No-code builder with CMS, blogging, and modern templates.",
+    "category": "website-builder",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "machine learning"
+      "landing pages"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Sas",
+    "url": "https://www.sas.com/en_si/software/machine-learning-cloud.html",
+    "description": "On-demand programming access to machine learning algorithms in the cloud.",
+    "category": "ai-ml",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "ai"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
@@ -287,11 +287,11 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "PageGuard",
-    "url": "https://pageguard.org",
-    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
+    "name": "Mixpanel",
+    "url": "https://mixpanel.com",
+    "description": "Advanced product analytics for tracking user engagement and retention.",
     "category": "analytics",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "analytics"
