@@ -56,7 +56,7 @@ Or download the same combined sample as a single ZIP from Gumroad (no signup): *
 
 ## Want everything?
 
-The **[Complete Developer Data Bundle](https://jhonnyronnie.gumroad.com/l/developer-data-bundle)** includes all 20 datasets (~55,000 records combined) for **$34** — 70% off vs $112 individual standalone total.
+The **[Complete Developer Data Bundle](https://jhonnyronnie.gumroad.com/l/developer-data-bundle)** includes all 20 datasets (~55,000 records combined) for **$34** — 83% off vs $198 individual standalone total.
 
 ### Themed sub-bundles (focused buyer personas)
 
