@@ -1,281 +1,289 @@
 [
   {
-    "name": "Wispr Flow",
-    "url": "https://wisprflow.ai/",
-    "description": "Flow makes writing quick with seamless voice dictation for any application on your computer.",
+    "name": "NSynth Super",
+    "url": "https://nsynthsuper.withgoogle.com",
+    "description": "AI experiment in sound.",
     "category": "audio",
-    "pricing": "freemium",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "audio",
-      "speech-to-text"
+      "interactive learning & tools"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "safetensors",
-    "url": "https://github.com/huggingface/safetensors",
-    "description": "Simple, safe way to store and distribute tensors. Fast, secure alternative to pickle for model serialization.",
+    "name": "MLJ.jl",
+    "url": "https://github.com/juliaai/mlj.jl",
+    "description": "Comprehensive Julia machine learning framework providing a unified interface to 200+ models with meta-algorithms for selection, tuning, and evaluation. MIT licensed.",
     "category": "code",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "contents",
       "1. core frameworks & libraries"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 1917
   },
   {
-    "name": "Advanced R by Hadley Wickham",
-    "url": "https://adv-r.hadley.nz/",
-    "description": "Advanced R by Hadley Wickham",
+    "name": "Elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch",
+    "description": "Distributed search and analytics engine with native k-NN vector search, hybrid search, and dense vector indexing. Industry-standard for full-text search now with powerful semantic search capabilities. AGPL-3.0/Elastic-2.0 dual licensed.",
     "category": "data",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "books and academic journals"
+      "contents",
+      "5. retrieval-augmented generation (rag) & knowledge"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific",
+    "githubStars": 76679
   },
   {
-    "name": "lucidrains/musiclm-pytorch",
-    "url": "https://github.com/lucidrains/musiclm-pytorch",
-    "description": "Implementation of MusicLM, Google's new SOTA model for music generation using attention networks, in Pytorch",
+    "name": "ThereforeGames/txt2mask",
+    "url": "https://github.com/thereforegames/txt2mask",
+    "description": "Automatically create masks for Stable Diffusion inpainting using natural language",
     "category": "image",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "image segmentation"
+      "image synthesis",
+      "inbox: stable diffusion"
     ],
     "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 523
+  },
+  {
+    "name": "PromptPal",
+    "url": "https://promptpal.net",
+    "description": "Search for prompts and bots, then use them with your favorite AI. All in one place.",
+    "category": "multimodal",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Multica",
-    "url": "https://github.com/multica-ai/multica",
-    "description": "Open-source managed agents platform to integrate AI coding agents (Claude Code, Copilot, etc.) into dev teams as first-class teammates. Features task assignment, progress tracking, and reusable skills. Intro",
-    "category": "multimodal",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "ai agent"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Teaching AI to Teach Us: A New Era of Personalized Education",
-    "url": "https://twitter.com/intuitmachine/status/1783079852578377788",
-    "description": "Teaching AI to Teach Us: A New Era of Personalized Education",
+    "name": "JSONFix",
+    "url": "https://jsonfix-lake.vercel.app/",
+    "description": "AI-powered JSON repair tool that instantly fixes malformed JSON with missing quotes, trailing commas, and syntax errors.",
     "category": "other",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "ai and education"
+      "web-based tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
   {
-    "name": "Convo",
-    "url": "https://www.itsconvo.com/",
-    "description": "AI meeting assistant that listens in real time, helps you respond smarter on calls, and automates your follow up workflow.",
+    "name": "Newelle",
+    "url": "https://github.com/qwersyk/newelle",
+    "description": "GNOME/Linux desktop virtual assistant with integrated file editor, global hotkeys, and profile manager.",
     "category": "productivity",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ai-related tools"
+      "contents",
+      "12. user interfaces & self-hosted platforms"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 1345
   },
   {
-    "name": "BestWebbs",
-    "url": "https://bestwebbs.com/",
-    "description": "\"one-stop destination for all AI Tools\"",
+    "name": "Nested Knowledge",
+    "url": "https://nested-knowledge.com/",
+    "description": "Powerful evidence synthesis tools for medical researchers. Accelerate, collaborate, automate and share.",
     "category": "search",
     "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "generative ai tools directories"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Kimi K2.5 (Moonshot AI)",
-    "url": "https://github.com/moonshotai/kimi-k2.5",
-    "description": "Frontier open-weight MoE model with 256K context, strong coding and reasoning performance, and native multimodal + tool-use support for agentic workflows.",
-    "category": "text",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "contents",
-      "2. open foundation models"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Vimeo Create",
-    "url": "https://vimeo.com/create",
-    "description": "AI-driven video creation.",
-    "category": "video",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "interactive learning & tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Audiolabs",
-    "url": "https://audiolabs-erlangen.de",
-    "description": "AI and sound research lab.",
-    "category": "audio",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "interactive learning & tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Vercel AI SDK",
-    "url": "https://github.com/vercel/ai",
-    "description": "Provider-agnostic TypeScript toolkit for building AI-powered applications and agents. Unified API for OpenAI, Anthropic, Google, and 20+ providers with first-class streaming, tool-calling, and structured output support. Apache 2.0 licensed.",
-    "category": "code",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "contents",
-      "13. developer tools & integrations"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "BeeAI Framework (IBM)",
-    "url": "https://github.com/i-am-bee/beeai-framework",
-    "description": "Production-ready multi-agent framework in Python and TypeScript. Features workflow orchestration, ACP/MCP protocol support, and deep watsonx integration. Part of Linux Foundation AI & Data program.",
-    "category": "data",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "contents",
-      "4. agentic ai & multi-agent systems"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OpenArt",
-    "url": "https://openart.ai/",
-    "description": "Search 10M+ of prompts, and generate AI art via Stable Diffusion, DALL·E 2.",
-    "category": "image",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "image",
-      "image libraries"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "instructkr/claw-code",
-    "url": "https://github.com/instructkr/claw-code",
-    "description": "A reimplementation of Anthropic's Claude Code agent harness, currently being rewritten in Rust for memory safety. Focuses on building a better tool harness for AI agents with legal/ethical reimplementation",
-    "category": "multimodal",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "ai agent"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "FAL.ai (Seedance 2.0)",
-    "url": "https://fal.ai/seedance-2.0",
-    "description": "FAL.ai (Seedance 2.0)",
-    "category": "other",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "interactive learning & tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Prompt Engineering Guide | Learn Prompting: Your Guide to Communicating with AI",
-    "url": "https://learnprompting.org/docs/intro",
-    "description": "Prompt Engineering Guide | Learn Prompting: Your Guide to Communicating with AI",
-    "category": "productivity",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "roadmaps, tracks, rails"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Undermind - AI-Powered Scientific Research Assistant",
-    "url": "https://undermind.ai/home",
-    "description": "an AI assistant that reads academic papers.",
-    "category": "search",
-    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "research ai tools",
       "ai tools for research"
     ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "corca-ai/awesome-llm-security",
+    "url": "https://github.com/corca-ai/awesome-llm-security",
+    "description": "A curation of awesome tools, documents and projects about LLM Security.",
+    "category": "text",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "large language models (llms)",
+      "attacks on llms"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 1582
+  },
+  {
+    "name": "Recast Studio",
+    "url": "https://recast.studio",
+    "description": "AI powered podcast marketing assistant.",
+    "category": "video",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "video"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "LocalePack",
-    "url": "https://localepack.app/",
-    "description": "AI-powered locale file translator for browser extensions, Next.js, i18next, and vue-i18n. Translates into 52 languages with placeholders and nested structure preserved. Pay once, no subscription.",
-    "category": "text",
+    "name": "Mutiny",
+    "url": "https://www.mutinyhq.com/",
+    "description": "Personalization platform to improve website conversions using AI.",
+    "category": "audio",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "additional ai and productivity tools"
+      "audio",
+      "marketing ai tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Welch Labs",
-    "url": "https://www.youtube.com/user/taylorns34",
-    "description": "Focusing on AI, neural networks, and deep learning.",
+    "name": "ChainForge",
+    "url": "https://github.com/ianarawjo/chainforge",
+    "description": "Visual programming environment for battle-testing prompts and evaluating LLM outputs. Features node-based prompt chains, multi-model comparison, and hypothesis testing. MIT licensed.",
+    "category": "code",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "contents",
+      "8. mlops / llmops & production"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 2982
+  },
+  {
+    "name": "SDG (Harbin Institute)",
+    "url": "https://github.com/hitsz-ids/synthetic-data-generator",
+    "description": "Specialized framework for generating high-quality structured tabular synthetic data with CTGAN models supporting billion-level data processing. Apache 2.0 licensed.",
+    "category": "data",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "contents",
+      "7. training & fine-tuning ecosystem"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 2417
+  },
+  {
+    "name": "Stable_Diffusion_WebUi_Simplified.ipynb - Colaboratory",
+    "url": "https://colab.research.google.com/github/pinilpypinilpy/sd-webui-colab-simplified/blob/main/stable_diffusion_webui_simplified.ipynb#scrollto=gk1tyba0arxt",
+    "description": "StableDiffusionWebUiSimplified.ipynb - Colaboratory",
+    "category": "image",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "image synthesis",
+      "inbox: stable diffusion"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "laion-aesthetic-6pls",
+    "url": "https://laion-aesthetic.datasette.io/laion-aesthetic-6pls/images",
+    "description": "exploring 12 million of the 2.3 billion images used to train Stable Diffusion's image generator",
+    "category": "multimodal",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "multimodal embedding space"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Where AI evolves from here",
+    "url": "https://www.axios.com/2023/05/18/ai-agi-artificial-general-intelligence",
+    "description": "Where AI evolves from here",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Hugging Face Discussions",
+    "url": "https://discuss.huggingface.co",
+    "description": "Largest open AI forum.",
+    "category": "productivity",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "contents",
+      "14. resources & learning"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "The Next Token of Progress: 4 Unlocks on the Generative AI Horizon | Andreessen Horowitz",
+    "url": "https://a16z.com/2023/06/23/the-next-token-of-progress-4-unlocks-on-the-generative-ai-horizon",
+    "description": "The Next Token of Progress: 4 Unlocks on the Generative AI Horizon | Andreessen Horowitz",
+    "category": "search",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "generative ai history, timelines, maps, and definitions"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Hexabot",
+    "url": "https://hexabot.ai",
+    "description": "A Open-source No-Code tool to build your AI Chatbot / Agent (multi-lingual, multi-channel, LLM, NLU, + ability to develop custom extensions)",
+    "category": "text",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "text",
+      "developer tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "AI Coffee Break with Letitia",
+    "url": "https://www.youtube.com/c/aicoffeebreak",
+    "description": "Brief and informative sessions on AI topics.",
     "category": "video",
     "pricing": "free",
     "hasApi": false,
@@ -283,7 +291,7 @@
       "youtube channels"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
 ]
