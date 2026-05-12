@@ -1,12 +1,13 @@
 [
   {
-    "name": "Open Web Analytics",
-    "url": "http://www.openwebanalytics.com/",
-    "description": "Google Analytics and Matomo alternative. (Source Code)",
+    "name": "Druid",
+    "url": "https://druid.apache.org",
+    "description": "Distributed, column-oriented, real-time analytics data store. (Source Code)",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "analytics"
     ],
     "urlDomainTier": "commercial",
@@ -14,28 +15,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Wayback",
-    "url": "https://github.com/wabarc/wayback",
-    "description": "A self-hosted toolkit for archiving webpages to the Internet Archive, archive.today, IPFS, and local file systems.",
+    "name": "Collective Access - Providence",
+    "url": "https://collectiveaccess.org/",
+    "description": "Highly configurable Web-based framework for management, description, and discovery of digital and physical collections supporting a variety of metadata standards, data types, and media formats. (Source Code)",
     "category": "archiving",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "archiving and digital preservation (dp)"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "keeweb",
-    "url": "https://keeweb.info/",
-    "description": "This webapp is a browser and desktop password manager compatible with KeePass databases. (Source Code)",
+    "name": "Bitwarden",
+    "url": "https://bitwarden.com/",
+    "description": "- Password manager with a webapp, browser extension, and mobile app. (Source Code)",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "password managers"
     ],
     "urlDomainTier": "commercial",
@@ -43,12 +45,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "SickRage",
-    "url": "http://sickrage.github.io/",
-    "description": "SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. (Source Code)",
+    "name": "Gekko",
+    "url": "https://gekko.wizb.it/",
+    "description": "Gekko is a Bitcoin TA trading and backtesting bot which support multiple exchanges and cryptocurrencies. (Source Code)",
     "category": "automation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "automation"
     ],
@@ -57,9 +59,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Chyrp Lite",
-    "url": "https://chyrplite.net",
-    "description": "Extra-awesome, extra-lightweight blog engine. (Source Code)",
+    "name": "Dotclear",
+    "url": "https://git.dotclear.org/dev/dotclear",
+    "description": "Take control over your blog.",
     "category": "blogging",
     "pricing": "open-source",
     "hasApi": false,
@@ -68,7 +70,7 @@
       "blogging platforms"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -100,9 +102,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Concrete 5 CMS",
-    "url": "https://www.concretecms.com",
-    "description": "Open source content management system. (Source Code)",
+    "name": "Wagtail",
+    "url": "https://wagtail.io/",
+    "description": "Django content management system focused on flexibility and user experience. (Source Code)",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
@@ -115,33 +117,34 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Scoold",
-    "url": "https://scoold.com",
-    "description": "Stack Overflow in a JAR. An enterprise-ready Q&A platform with full-text search, SAML, LDAP integration and social login support. (Demo, Source Code)",
+    "name": "PPnet",
+    "url": "https://github.com/pixelpark/ppnet",
+    "description": "Create and host your own social network.",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "communication - social networks and forums"
+      "communication systems",
+      "social networks and forums"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 119
   },
   {
-    "name": "Monica",
-    "url": "https://monicahq.com/",
-    "description": "Personal relationship manager, and a new kind of CRM to organize interactions with your friends and family. (Source Code)",
+    "name": "Django-CRM",
+    "url": "https://djangocrm.github.io/info",
+    "description": "Analytical CRM with tasks management, email marketing and many more. Django CRM is built for individual use, businesses of any size or freelancers and is designed to provide easy customization and quick development. (Source Code)",
     "category": "crm",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "software",
       "customer relationship management (crm)"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
@@ -160,9 +163,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "SPF Toolbox",
-    "url": "http://spftoolbox.com",
-    "description": "Application to look up DNS records such as SPF, MX, Whois, and more. (Source Code)",
+    "name": "nsupdate.info",
+    "url": "https://www.nsupdate.info/",
+    "description": "nsupdate.info is a dynamic DNS service. (Demo, Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
@@ -174,44 +177,42 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Signature PDF",
-    "url": "https://github.com/24eme/signaturepdf",
-    "description": "Sign and manipulate PDFs with collaboration, organization, compression and metadata editing. (Demo)",
+    "name": "Teedy",
+    "url": "https://teedy.io/",
+    "description": "(Ex SismicsDocs) Lightweight document management system packed with all the features you can expect from big expensive solutions. (Demo, Source Code)",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "document management"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "s-cart",
-    "url": "https://s-cart.org/",
-    "description": "E-commerce website for individuals and businesses, built on top of Laravel Framework. (Demo, Source Code)",
-    "category": "e-commerce",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "software",
-      "e-commerce"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Upvote RSS",
-    "url": "https://www.upvote-rss.com/",
-    "description": "- Generate rich RSS feeds from Reddit, Hacker News, Lemmy, Mbin, and more. (Demo, Source Code)",
-    "category": "feed-readers",
+    "name": "Pretix",
+    "url": "https://pretix.eu/",
+    "description": "Ticket sales platform for events. (Source Code)",
+    "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
+      "e-commerce"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Reader-Self",
+    "url": "http://readerself.com/",
+    "description": "Self-hosted rss reader (php / mysql or sqlite) - Google Reader alternative. (Source Code)",
+    "category": "feed-readers",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
       "feed readers"
     ],
     "urlDomainTier": "commercial",
@@ -219,53 +220,54 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Uploady",
-    "url": "https://github.com/farisc0de/uploady",
-    "description": "Uploady is a simple file uploader script with multi file upload support.",
+    "name": "PictShare",
+    "url": "https://www.pictshare.net/",
+    "description": "Multi lingual image hosting service with a simple resizing and upload API. (Source Code)",
     "category": "file-transfer",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "file transfer - single-click & drag-n-drop upload"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Akaunting",
-    "url": "https://akaunting.com/",
-    "description": "Akaunting is a free, online and open source accounting software designed for small businesses and freelancers. (Source Code)",
+    "name": "InvoicePlane",
+    "url": "https://www.invoiceplane.com/",
+    "description": "Manage quotes, invoices, payments and customers for your small business. (Source Code)",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "money, budgeting and management"
+      "software",
+      "money, budgeting & management"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Drop",
-    "url": "https://droposs.org",
-    "description": "Game distribution platform, designed for distributing and sharing DRM-free games efficiently (alternative to Steam, GameVault). (Source Code, Clients)",
+    "name": "r/RetroPie",
+    "url": "https://www.reddit.com/r/retropie",
+    "description": "r/RetroPie",
     "category": "games",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "games - administrative utilities & control panels"
+      "install from source",
+      "gaming"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Citadel",
-    "url": "https://www.citadel.org/",
-    "description": "Groupware including email, calendar/scheduling, address books, forums, mailing lists, IM, wiki and blog engines, RSS aggregation and more. (Source Code)",
+    "name": "Colanode",
+    "url": "https://colanode.com",
+    "description": "Collaboration suite with real-time messaging, rich text pages, file management, and dynamic databases - built for offline work (alternative to Slack, Notion). (Source Code)",
     "category": "groupware",
     "pricing": "open-source",
     "hasApi": false,
@@ -278,9 +280,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AMD Threadripper",
-    "url": "https://www.amd.com/en/processors/threadripper-creators",
-    "description": "AMD Threadripper",
+    "name": "Storinator™",
+    "url": "https://www.45drives.com/products/storage",
+    "description": "is a line of Ultra-Large, Direct-Wired storage Servers by 45Drives.",
     "category": "iot",
     "pricing": "open-source",
     "hasApi": false,
@@ -289,7 +291,7 @@
       "system hardware"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]
