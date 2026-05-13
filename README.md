@@ -4,6 +4,19 @@ Preview records from each curated developer dataset. Every sample contains **20 
 
 **20 datasets, ~55,000 records total.** All sourced from official APIs (npm registry, Homebrew, HuggingFace Hub, OpenRouter, VS Code Marketplace) or CC0/MIT/Apache-2.0 awesome-lists. Aggregation is license-clean for commercial repackaging.
 
+## What just landed (refresh as of 2026-05-13)
+
+Concrete numbers from the latest pass — these are the kind of signals that go stale fast and are exactly what monthly refresh catches:
+
+- **npm by weekly downloads** — `commander` 369M / `react-is` 280M / `react` 120M / `react-dom` 113M / `@types/react` 108M. The React ecosystem now dominates the top of npm; `ansi-styles` (was #1 weeks ago) got knocked off the top in the last refresh window.
+- **HuggingFace models by all-time downloads** — `sentence-transformers/all-MiniLM-L6-v2` 247M / `Qwen/Qwen3-VL-2B-Instruct` 187M / `google-bert/bert-base-uncased` 61M.
+- **AI Models Pricing** — 13 paid providers offering Llama 3.3 70B Instruct via API, with per-token pricing tracked per (provider × quantization × context-length). Useful for cost-comparison if you're routing across providers.
+- **Vector-DB / RAG ecosystem velocity** — Chroma went from 16K → 28K GitHub stars over the last 6 months (+75%). Vector-DB-engines went from 27% → 52% share of the RAG niche over the same window.
+- **AI agent frameworks: 6.6× growth in 8 days** — the catalog literally captures the ecosystem shifting. Frameworks count went from 200 records (25% of the dataset) → 1,324 records (65%).
+- **Median LLM context window: 128K → 200K** across 812 endpoints in the last 6 months. Provider race-to-context-length is real and quantifiable.
+
+These are baked into the actual records — the mega-sample below has 5 random records per dataset so you can see the schema and these signals first-hand.
+
 ## Datasets
 
 ### 🔧 Dev Stack — IDE plugins, packages, system tools
