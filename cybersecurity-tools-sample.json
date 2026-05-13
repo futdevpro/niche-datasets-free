@@ -1,26 +1,24 @@
 [
   {
-    "name": "PingCastle",
-    "url": "https://www.pingcastle.com/",
-    "description": "Active Directory vulnerability detection and reporting tool.",
+    "name": "ANSSI - Recommendations on multi-factor authentication and passwords",
+    "url": "https://messervices.cyber.gouv.fr/guides/recommandations-relatives-lauthentification-multifacteur-et-aux-mots-de-passe",
+    "description": "(2021, French)",
     "category": "authentication",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "windows-based defenses",
-      "active directory"
+      "authentication - passwords"
     ],
-    "isOpenSource": false,
     "toolType": "tool",
-    "targetPlatform": "windows",
+    "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Kubescape",
-    "url": "https://github.com/kubescape/kubescape",
-    "description": "[F] — K8s posture and compliance.",
+    "name": "Clair",
+    "url": "https://github.com/quay/clair",
+    "description": "[F] — Image vulnerability analysis.",
     "category": "cloud",
     "pricing": "open-source",
     "hasApi": false,
@@ -33,70 +31,35 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "githubStars": 11397
+    "githubStars": 10977
   },
   {
-    "name": "hashid",
-    "url": "https://github.com/psypanda/hashid",
-    "description": "[F] — Identify hash types.",
+    "name": "JWT Cracker",
+    "url": "https://github.com/lmammino/jwt-cracker",
+    "description": "Simple HS256 JSON Web Token (JWT) token brute force cracker.",
     "category": "cryptography",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "credentials, cracking & wordlists"
+      "hash cracking tools"
     ],
     "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 1457
-  },
-  {
-    "name": "CTFTime.org",
-    "url": "https://ctftime.org/",
-    "description": "Directory of upcoming and archive of past Capture The Flag (CTF) competitions with links to challenge writeups.",
-    "category": "ctf",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "conferences and events"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 1174
   },
   {
-    "name": "VPS Security Audit Script",
-    "url": "https://github.com/vernu/vps-audit",
-    "description": "A comprehensive Bash script for auditing the security and performance of your VPS (Virtual Private Server)",
-    "category": "endpoint",
+    "name": "CTF Field Guide",
+    "url": "https://trailofbits.github.io/ctf",
+    "description": "Everything you need to win your next CTF competition.",
+    "category": "ctf",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "tools to check security hardening",
-      "gnu/linux"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "linux",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1930
-  },
-  {
-    "name": "The Art of Network Penetration Testing",
-    "url": "https://www.manning.com/books/the-art-of-network-penetration-testing",
-    "description": "Book that is a hands-on guide to running your own penetration test on an enterprise network. (early access, published continuously, final release December 2020)",
-    "category": "exploit",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "ebooks"
+      "ctf tools"
     ],
     "isOpenSource": false,
     "toolType": "resource",
@@ -106,51 +69,124 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "HexEdit.js",
-    "url": "https://hexed.it",
-    "description": "Browser-based hex editing.",
-    "category": "forensics",
+    "name": "Apache HTTP Server documentation - Security Tips",
+    "url": "http://httpd.apache.org/docs/current/misc/security_tips.html",
+    "description": "Apache HTTP Server documentation - Security Tips",
+    "category": "endpoint",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "hex editors"
+      "services",
+      "web servers"
     ],
-    "toolType": "tool",
-    "targetPlatform": "web",
+    "toolType": "resource",
+    "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "CORTEX XSOAR",
-    "url": "https://www.paloaltonetworks.com/cortex/xsoar",
-    "description": "Paloalto security orchestration, automation and response platform with full Incident lifecycle management and many integrations to enhance automations.",
+    "name": "dnscat2",
+    "url": "https://github.com/iagox86/dnscat2",
+    "description": "Tool designed to create an encrypted command and control channel over the DNS protocol, which is an effective tunnel out of almost every network.",
+    "category": "exploit",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "exfiltration tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 3886
+  },
+  {
+    "name": "stenographer",
+    "url": "https://github.com/google/stenographer",
+    "description": "Stenographer is a packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets.",
+    "category": "forensics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "network",
+      "full packet capture / forensic"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 1799
+  },
+  {
+    "name": "Incident Response & Computer Forensics, Third Edition",
+    "url": "https://www.amazon.com/incident-response-computer-forensics-third/dp/0071798684",
+    "description": "The definitive guide to incident response.",
     "category": "incident-response",
     "pricing": "paid",
     "hasApi": false,
     "tags": [
       "ir tools collection",
-      "incident management"
+      "books"
     ],
     "isOpenSource": false,
-    "toolType": "platform",
+    "toolType": "resource",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Hybrid-Analysis",
-    "url": "https://www.hybrid-analysis.com/",
-    "description": "Free powerful online sandbox by CrowdStrike.",
+    "name": "Metadefender Cloud",
+    "url": "https://www.metadefender.com",
+    "description": "Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assessment of files.",
     "category": "malware-analysis",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "ir tools collection",
       "sandboxing/reversing tools"
     ],
     "isOpenSource": false,
+    "toolType": "platform",
+    "targetPlatform": "cloud",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Apktool",
+    "url": "https://github.com/ibotpeaches/apktool",
+    "description": "A tool for reverse engineering Android apk files.",
+    "category": "mobile",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "endpoint",
+      "mobile / android / ios"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "mobile",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 24487
+  },
+  {
+    "name": "Bridge.Leslibres",
+    "url": "https://bridge.leslibres.org",
+    "description": "Bridge.Leslibres",
+    "category": "monitoring",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "web monitoring"
+    ],
     "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
@@ -158,127 +194,93 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "MPT",
-    "url": "https://github.com/bytesnipers/mobile-pentest-toolkit",
-    "description": "MPT (Mobile Pentest Toolkit) is a must-have solutions for your android penetration testing workflow. It allows you to automate tasks.",
-    "category": "mobile",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "android utilities"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "mobile",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 69
-  },
-  {
-    "name": "Nagios",
-    "url": "https://nagios.org",
-    "description": "Popular network and service monitoring solution and reporting platform.",
-    "category": "monitoring",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "security monitoring",
-      "service and performance monitoring"
-    ],
-    "toolType": "platform",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Airgeddon",
-    "url": "https://github.com/v1s1t0r1sh3r3/airgeddon",
-    "description": "Multi-use bash script for Linux systems to audit wireless networks.",
+    "name": "Qubes OS",
+    "url": "https://www.qubes-os.org/",
+    "description": "Qubes OS is a free and open-source security-oriented operating system meant for single-user desktop computing.",
     "category": "network",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "network tools",
-      "wireless network tools"
+      "operating systems",
+      "privacy & security"
     ],
     "isOpenSource": true,
     "toolType": "tool",
-    "targetPlatform": "linux",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 7724
-  },
-  {
-    "name": "visually",
-    "url": "http://create.visual.ly",
-    "description": "visually — osint API",
-    "category": "osint",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "infographics and data visualization"
-    ],
-    "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Swiss Cyber Storm",
-    "url": "https://www.swisscyberstorm.com/",
-    "description": "Annual security conference in Lucerne, Switzerland.",
-    "category": "other",
-    "pricing": "paid",
+    "name": "DailyEarth",
+    "url": "http://dailyearth.com",
+    "description": "DailyEarth",
+    "category": "osint",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "conferences and events",
-      "europe"
+      "news"
     ],
     "isOpenSource": false,
-    "toolType": "resource",
+    "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Cyclops",
-    "url": "https://github.com/v8blink/chromium-based-xss-taint-tracking",
-    "description": "The Cyclops is a web browser with XSS detection feature, it is chromium-based xss detection that used to find the flows from a source to a sink.",
-    "category": "vulnerability-scanner",
+    "name": "lists",
+    "url": "https://github.com/jnv/lists",
+    "description": "The definitive list of (awesome) lists curated on GitHub.",
+    "category": "other",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "web",
-      "scanning / pentesting"
+      "other awesome lists",
+      "other common awesome lists"
     ],
     "isOpenSource": true,
     "toolType": "tool",
-    "targetPlatform": "web",
+    "targetPlatform": "unknown",
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 126
+    "categorizationTier": "other",
+    "githubStars": 11186
   },
   {
-    "name": "autochrome",
-    "url": "https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/march/autochrome",
-    "description": "Chrome browser profile preconfigured with appropriate settings needed for web application testing.",
+    "name": "FindBugs",
+    "url": "http://findbugs.sourceforge.net/",
+    "description": "Free software static analyzer to look for bugs in Java code.",
+    "category": "vulnerability-scanner",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "static analyzers"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "FuzzDB",
+    "url": "https://github.com/fuzzdb-project/fuzzdb",
+    "description": "Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.",
     "category": "web",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "web exploitation"
     ],
+    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 8897
   },
   {
     "name": "redoctober",
@@ -299,9 +301,9 @@
     "githubStars": 1417
   },
   {
-    "name": "S3Scanner",
-    "url": "https://github.com/abhn/s3scanner",
-    "description": "[F] — Public S3 bucket discovery.",
+    "name": "ScoutSuite",
+    "url": "https://github.com/nccgroup/scoutsuite",
+    "description": "[F] — Multi-cloud posture assessment.",
     "category": "cloud",
     "pricing": "open-source",
     "hasApi": false,
@@ -313,42 +315,42 @@
     "targetPlatform": "unknown",
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 7655
+  },
+  {
+    "name": "Mozilla SSL Configuration Generator",
+    "url": "https://ssl-config.mozilla.org/",
+    "description": "Mozilla SSL Configuration Generator",
+    "category": "cryptography",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tools to apply security hardening",
+      "tls/ssl"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "hashcat-utils",
-    "url": "https://github.com/hashcat/hashcat-utils",
-    "description": "[F] — Rule helpers and transforms.",
-    "category": "cryptography",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "credentials, cracking & wordlists"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 1578
-  },
-  {
-    "name": "OWASP Juice Shop",
-    "url": "https://github.com/bkimminich/juice-shop#docker-container--",
-    "description": "OWASP Juice Shop — ctf API",
+    "name": "Rawsec's CyberSecurity Inventory",
+    "url": "https://inventory.raw.pm/",
+    "description": "An open-source inventory of tools, resources, CTF platforms and Operating Systems about CyberSecurity. (Source)",
     "category": "ctf",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "intentionally vulnerable systems",
-      "intentionally vulnerable systems as docker containers"
+      "online resources",
+      "other lists online"
     ],
     "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]

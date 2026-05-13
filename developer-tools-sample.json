@@ -1,39 +1,39 @@
 [
   {
-    "name": "Audio Enhancer",
-    "url": "https://voice-clone.org/tools/audio-enhancer",
-    "description": "AI-powered audio enhancer SaaS that removes noise and echo while preserving natural vocal clarity. totally Free: unlimited one-click enhancements, no login required, supports MP3/WAV/FLAC",
+    "name": "CodeSquire",
+    "url": "https://codesquire.ai",
+    "description": "Browser extension for AI generation in Jupyter/BigQuery etc…",
     "category": "ai-coding",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "generative ai"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "here",
-    "url": "https://developer.here.com/",
-    "description": "APIs and SDKs for maps and location-aware apps. 250k transactions/month for free.",
-    "category": "analytics",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "data visualization on maps"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Scalekit",
-    "url": "https://scalekit.com",
-    "description": "Add enterprise SSO (SAML, OIDC), SCIM provisioning to your existing auth setup like Firebase, Auth0, or Cognito without rewrites. [](https://launchweek.dev/lw/2025)",
-    "category": "authentication",
     "pricing": "freemium",
     "hasApi": false,
+    "tags": [
+      "ai coding"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Google Analytics",
+    "url": "https://analytics.google.com/",
+    "description": "Google Analytics",
+    "category": "analytics",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "analytics, events and statistics"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Unkey",
+    "url": "https://www.unkey.com/",
+    "description": "Authentication, rate limiting and usage analytics for APIs. [](https://github.com/stack-auth/stack) [](https://launchweek.dev/lw/2024)",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
       "authentication & identity"
     ],
@@ -42,25 +42,25 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "ScrapingBee",
-    "url": "https://www.scrapingbee.com/",
-    "description": "Using headless browsers and proxies to scrape without being blocked.",
+    "name": "Shake",
+    "url": "https://www.shakebugs.com/",
+    "description": "In-app bug reporting and feedback tool for mobile apps. Free plan, ten bug reports per app/month.",
     "category": "automation",
-    "pricing": "freemium",
-    "hasApi": true,
+    "pricing": "free",
+    "hasApi": false,
     "tags": [
-      "scraping"
+      "issue tracking and project management"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "paraio.com",
-    "url": "https://paraio.com",
-    "description": "Backend service API with flexible authentication, full-text search and caching. Free for one app, 1GB of app data.",
+    "name": "zapier.com",
+    "url": "https://zapier.com/",
+    "description": "Connect the apps you use to automate tasks. Five zaps every 15 minutes and 100 tasks/month",
     "category": "backend-as-a-service",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
       "baas"
@@ -70,124 +70,122 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "GitLab CI/CD",
-    "url": "https://about.gitlab.com/stages-devops-lifecycle/continuous-integration",
-    "description": "A cloud-based CI/CD service used to automate building, testing, and deploying software projects hosted on GitLab. Supports various programming languages and platforms.",
+    "name": "Buildstash",
+    "url": "https://buildstash.com/",
+    "description": "Binary artifact and release management for app, game, and embedded software.",
     "category": "ci-cd",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "the awesome list",
-      "ci"
+      "repo"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Ghost",
-    "url": "https://ghost.org/",
-    "description": "Blog platform, can be used as headless CMS (ex. with Hexo). [](https://github.com/tryghost/ghost)",
+    "name": "Cosmic",
+    "url": "https://www.cosmicjs.com/",
+    "description": "Headless CMS and API toolkit. Free personal plans for developers.",
     "category": "cms",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": true,
     "tags": [
-      "cms (headless)"
+      "cms"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Namae",
-    "url": "https://namae.dev/",
-    "description": "Search various websites like GitHub, Gitlab, Heroku, Netlify, and many more for the availability of your project name.",
+    "name": "NPM Scan",
+    "url": "https://npmscan.com/",
+    "description": "Zero-setup npm package security scanner that detects malicious code, obfuscation, hidden scripts, and supply-chain risks before installing dependencies.",
     "category": "code-quality",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "code search and browsing"
+      "the awesome list",
+      "development tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "CrateDB",
-    "url": "https://crate.io/",
-    "description": "Distributed open-source SQL database for real-time analytics. [](https://github.com/crate/crate)",
+    "name": "CockroachDB Cloud",
+    "url": "https://www.cockroachlabs.com/pricing",
+    "description": "Free tier offers 50 million RUs and 10 GiB of storage (same as 15$ worth) free per month. (What's the Request Units)",
     "category": "database",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "databases & spreadsheets"
+      "managed data services"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Lightrun",
-    "url": "https://www.lightrun.com",
-    "description": "Debug production servers using a plugin in the IDE (on-prem or SaaS) that supports Java, Node.js, and Python.",
+    "name": "ReqBin",
+    "url": "https://reqbin.com/",
+    "description": "Post HTTP Requests Online. Popular Request Methods include GET, POST, PUT, DELETE, and HEAD. Supports Headers and Token Authentication. Includes a basic login system for saving your requests.",
     "category": "debugging",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "debugging"
+      "miscellaneous"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Digital Ocean App Platform",
-    "url": "https://www.digitalocean.com/products/app-platform",
-    "description": "Deploy and don't care about infrastructure, works with all major frameworks.",
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com/pricing",
+    "description": "Build and deploy three static sites for free on the App Platform Starter tier.",
     "category": "deployment-hosting",
-    "pricing": "freemium",
-    "hasApi": true,
+    "pricing": "free",
+    "hasApi": false,
     "tags": [
-      "deployment hosting"
+      "web hosting"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "impress.js",
-    "url": "https://github.com/impress/impress.js",
-    "description": "presentation framework based on the power of CSS3 transforms and transitions",
+    "name": "Exercism",
+    "url": "https://exercism.org",
+    "description": "Free, open-source programming education in over 75 programming languages, with human mentoring. A nonprofit organisation.",
     "category": "documentation",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "presentation"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 38179
-  },
-  {
-    "name": "Thoughtbot's",
-    "url": "https://github.com/thoughtbot/dotfiles",
-    "description": "A set of vim, zsh, git, and tmux configuration files",
-    "category": "environment-secrets",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "dotfiles"
+      "education and career development"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 8149
+    "categorizationTier": "specific"
   },
   {
-    "name": "LaunchDarkly",
-    "url": "https://launchdarkly.com/",
-    "description": "Feature flags-as-a-service platform. [](https://launchweek.dev)",
+    "name": "Doppler",
+    "url": "https://doppler.com/",
+    "description": "Environment variable management across projects, in one place.",
+    "category": "environment-secrets",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "environment & secret management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Flagsmith",
+    "url": "https://flagsmith.com/",
+    "description": "Feature flags-as-a-service platform simplified.",
     "category": "feature-flags",
     "pricing": "freemium",
     "hasApi": false,
@@ -195,70 +193,72 @@
       "feature flags"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "jetbrains.com",
-    "url": "https://jetbrains.com/products.html",
-    "description": "Productivity tools, IDEs and deploy tools (aka IntelliJ IDEA, PyCharm, etc). Free license for students, teachers, Open Source and user groups.",
+    "name": "atom-tree-view-git-status",
+    "url": "https://github.com/subesokun/atom-tree-view-git-status",
+    "description": "Show the Git repository status in the Atom tree-view.",
     "category": "ide-editor",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ide and code editing"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Nanobox",
-    "url": "https://github.com/nanobox-io/nanobox",
-    "description": "A micro-PaaS (μPaaS) for creating consistent, isolated, development environments deployable anywhere https://nanobox.io.",
-    "category": "infrastructure",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "orchestration"
+      "editors",
+      "atom"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 1628
+    "githubStars": 24
   },
   {
-    "name": "JSONGrid",
-    "url": "https://jsongrid.com",
-    "description": "Free tool to Visualize, Edit, Filter complex JSON data into beautiful tabular Grid. Save and Share JSON data over link link.",
-    "category": "integrations",
+    "name": "ByteTools URL Encoder",
+    "url": "https://bytetools.io/url-encoder",
+    "description": "Encode and decode URLs safely for query parameters and API endpoints.",
+    "category": "infrastructure",
     "pricing": "free",
     "hasApi": true,
     "tags": [
-      "apis, data, and ml"
+      "the awesome list",
+      "front-end"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "transifex.com",
-    "url": "https://www.transifex.com/",
-    "description": "Free for Open Source",
+    "name": "Hook Relay",
+    "url": "https://www.hookrelay.dev/",
+    "description": "Add webhook support to your app without the hassles: done-for-you queueing, retries with backoff, and logging. The free plan has 100 deliveries per day, 14-day retention, and 3 hook endpoints.",
+    "category": "integrations",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Loco",
+    "url": "https://localise.biz/",
+    "description": "Free up to 2000 translations, Unlimited translators, ten languages/project, 1000 translatable assets/project",
     "category": "localization",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "translation management"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Sendpulse",
-    "url": "https://sendpulse.com",
-    "description": "500 subscribers/month, 15,000 emails/month free",
+    "name": "temp-mail.io",
+    "url": "https://temp-mail.io",
+    "description": "Free disposable temporary email service with multiple emails at once and forwarding",
     "category": "mail",
     "pricing": "free",
     "hasApi": false,
@@ -266,21 +266,21 @@
       "email"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "transloadit.com",
-    "url": "https://transloadit.com/",
-    "description": "Handles file uploads and encoding of video, audio, images, documents. Free for Open source, charities, and students via the GitHub Student Developer Pack. Commercial applications get 2 GB free for test driving",
+    "name": "ImageEngine",
+    "url": "https://imageengine.io/",
+    "description": "ImageEngine is an easy to use global image CDN. Sub 60 sec setup. AVIF and JPEGXL support, WordPress-, Magento-, React-, Vue- plugins and more. Claim your free developer account here.",
     "category": "media",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
       "storage and media processing"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]

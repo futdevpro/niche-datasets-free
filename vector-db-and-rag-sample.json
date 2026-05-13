@@ -1,80 +1,8 @@
 [
   {
-    "name": "Self Reflective RAG",
-    "url": "https://selfrag.github.io/",
-    "description": "Models that dynamically adjust retrieval strategies based on model performance feedback.",
-    "category": "agentic-rag",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "vector-io",
-    "url": "https://github.com/ai-northstar-tech/vector-io",
-    "description": "Comprehensive Vector Data Tooling.",
-    "category": "rag-eval",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 267
-  },
-  {
-    "name": "Adaptive Retrieval",
-    "url": "https://arxiv.org/abs/2403.14403",
-    "description": "Adaptive Retrieval",
-    "category": "rag-framework",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "techniques",
-      "retrieval"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Typesense's Cloud",
-    "url": "https://cloud.typesense.org",
-    "description": "Typesense's Cloud",
-    "category": "search-engine",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Redis HNSW - A redis module for similarity search based on HNSW",
-    "url": "https://github.com/zhao-lang/redis_hnsw",
-    "description": "Redis HNSW - A redis module for similarity search based on HNSW",
-    "category": "vector-db-engine",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "awesome vector search engine",
-      "standalone service"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 59
-  },
-  {
-    "name": "InstructRAG",
-    "url": "https://github.com/weizhepei/instructrag",
-    "description": "Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality.",
+    "name": "GraphRAG",
+    "url": "https://github.com/microsoft/graphrag",
+    "description": "A structured approach using knowledge graphs for enhanced context integration and reasoning.",
     "category": "agentic-rag",
     "pricing": "open-source",
     "hasApi": false,
@@ -84,12 +12,12 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 147
+    "githubStars": 32913
   },
   {
-    "name": "MyScale's Vector Database Benchmark",
-    "url": "https://myscale.github.io/benchmark/#/benchmark",
-    "description": "MyScale's Vector Database Benchmark",
+    "name": "Qdrant's Vector Database Benchmarks",
+    "url": "https://qdrant.tech/benchmarks",
+    "description": "Qdrant's Vector Database Benchmarks",
     "category": "rag-eval",
     "pricing": "free",
     "hasApi": false,
@@ -101,87 +29,19 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Kreuzberg",
-    "url": "https://github.com/kreuzberg-dev/kreuzberg",
-    "description": "Polyglot document intelligence library (Rust core with Python, TypeScript, Go bindings) that extracts text, tables, and metadata from 62+ document formats for RAG ingestion pipelines.",
+    "name": "Verba",
+    "url": "https://github.com/weaviate/verba",
+    "description": "Open-source application for RAG out of the box.",
     "category": "rag-framework",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "frameworks that facilitate rag"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 8285
-  },
-  {
-    "name": "OpenSearch",
-    "url": "https://opensearch.org/",
-    "description": "OpenSearch",
-    "category": "search-engine",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Epsilla Cloud - The fully managed serverless vector database with 10X faster, cheaper and better.",
-    "url": "https://cloud.epsilla.com",
-    "description": "Epsilla Cloud - The fully managed serverless vector database with 10X faster, cheaper and better.",
-    "category": "vector-db-engine",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "awesome vector search engine",
-      "cloud service"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "VideoRAG",
-    "url": "https://arxiv.org/abs/2501.05874",
-    "description": "Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.",
-    "category": "agentic-rag",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "VectorHub",
-    "url": "https://github.com/superlinked/vectorhub",
-    "description": "a free, open-source learning website for people (software developers to senior ML architects) interested in adding vector retrieval to their ML stack.",
-    "category": "rag-eval",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 520
-  },
-  {
-    "name": "Denser Retriever",
-    "url": "https://denser.ai",
-    "description": "Denser Retriever",
-    "category": "rag-framework",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "githubStars": 7694
   },
   {
     "name": "Meilisearch",
@@ -196,24 +56,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "RAFT",
-    "url": "https://github.com/rapidsai/raft",
-    "description": "RAFT — vector-db-engine API",
+    "name": "brinicle",
+    "url": "https://github.com/bicardinal/brinicle",
+    "description": "Resource-efficient C++ vector index engine built for low-RAM production workloads",
     "category": "vector-db-engine",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "multidimensional data / vectors"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 1002
+    "githubStars": 11
   },
   {
-    "name": "RAG Fusion",
-    "url": "https://arxiv.org/abs/2402.03367",
-    "description": "Techniques combining multiple retrieval methods for improved context integration.",
+    "name": "FLARE",
+    "url": "https://medium.com/etoai/better-rag-with-active-retrieval-augmented-generation-flare-3b66646e2a9f",
+    "description": "An approach that incorporates active retrieval-augmented generation to improve response quality.",
     "category": "agentic-rag",
     "pricing": "free",
     "hasApi": false,
@@ -225,32 +85,33 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "2024 Competition",
-    "url": "https://sisap-challenges.github.io/2024",
-    "description": "2024 Competition",
+    "name": "Dot Product",
+    "url": "https://en.wikipedia.org/wiki/dot_product",
+    "description": "Dot Product",
     "category": "rag-eval",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "others"
+      "metrics & evaluation",
+      "similarity metrics for embeddings"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Document-Based Chunking",
-    "url": "https://medium.com/@david.richards.tech/document-chunking-for-rag-ai-applications-04363d48fbf7",
-    "description": "Document-Based Chunking",
+    "name": "Few-Shot Prompting",
+    "url": "https://python.langchain.com/docs/how_to/few_shot_examples",
+    "description": "Providing a few examples in the prompt to demonstrate the desired response format.",
     "category": "rag-framework",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "techniques",
-      "chunking"
+      "prompting"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -266,18 +127,162 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "SPANN: Highly-efficient Billion-scale Approximate Nearest Neighborhood Search - NEURIPS 2021",
-    "url": "https://proceedings.neurips.cc/paper/2021/hash/299dc35e747eb77177d9cea10a802da2-abstract.html",
-    "description": "SPANN: Highly-efficient Billion-scale Approximate Nearest Neighborhood Search - NEURIPS 2021",
+    "name": "seekdb",
+    "url": "https://github.com/oceanbase/seekdb",
+    "description": "seekdb — vector-db-engine API",
     "category": "vector-db-engine",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific",
+    "githubStars": 2567
+  },
+  {
+    "name": "A-RAG",
+    "url": "https://github.com/ayanami0730/arag",
+    "description": "Agentic RAG with hierarchical retrieval interfaces (keyword, semantic, chunk-level), enabling LLM agents to autonomously search and retrieve at multiple granularities. (Paper)",
+    "category": "agentic-rag",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 268
+  },
+  {
+    "name": "MyScale Vector Database Benchmark 🚀",
+    "url": "https://github.com/myscale/vector-db-benchmark",
+    "description": "MyScale Vector Database Benchmark 🚀",
+    "category": "rag-eval",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "comparisons"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 80
+  },
+  {
+    "name": "Self-Consistency",
+    "url": "https://www.promptingguide.ai/techniques/consistency",
+    "description": "Generating multiple reasoning paths and selecting the most consistent answer.",
+    "category": "rag-framework",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "awesome vector search engine",
-      "research papers"
+      "techniques",
+      "prompting"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenSearch",
+    "url": "https://opensearch.org/",
+    "description": "OpenSearch",
+    "category": "search-engine",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Vald - A Highly Scalable Distributed Vector Search Engine",
+    "url": "https://github.com/vdaas/vald",
+    "description": "Vald - A Highly Scalable Distributed Vector Search Engine",
+    "category": "vector-db-engine",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "awesome vector search engine",
+      "standalone service"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 1703
+  },
+  {
+    "name": "Cache-Augmented Generation (CAG)",
+    "url": "https://medium.com/@ronantech/cache-augmented-generation-cag-in-llms-a-step-by-step-tutorial-6ac35d415eec",
+    "description": "Preloads relevant documents into a model’s context and stores the inference state (Key-Value (KV) cache).",
+    "category": "agentic-rag",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Introduction to Information Retrieval",
+    "url": "https://nlp.stanford.edu/ir-book/information-retrieval-book.html",
+    "description": "Introduction to Information Retrieval",
+    "category": "rag-eval",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Mastra",
+    "url": "https://github.com/mastra-ai/mastra",
+    "description": "Typescript framework for building AI applications.",
+    "category": "rag-framework",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "frameworks that facilitate rag"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 23784
+  },
+  {
+    "name": "Typesense's Cloud",
+    "url": "https://cloud.typesense.org",
+    "description": "Typesense's Cloud",
+    "category": "search-engine",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "TarsosLSH - A Java library implementing practical nearest neighbour search algorithm for multidimensional vectors",
+    "url": "https://github.com/jorensix/tarsoslsh",
+    "description": "TarsosLSH - A Java library implementing practical nearest neighbour search algorithm for multidimensional vectors",
+    "category": "vector-db-engine",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "awesome vector search engine",
+      "library"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 203
   }
 ]

@@ -1,25 +1,25 @@
 [
   {
-    "name": "Hudson",
-    "url": "http://hudson-ci.org/",
-    "description": "Hudson — ci-cd-pipeline API",
+    "name": "Drill",
+    "url": "https://gitlab.com/aki237/drill",
+    "description": "Drill — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous integration",
-      "integration"
+      "build"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Portainer- container management for K8S and more",
-    "url": "https://www.portainer.io/",
-    "description": "Portainer- container management for K8S and more",
+    "name": "Dokku- Open source PAAS alternative to Heroku",
+    "url": "https://dokku.com/",
+    "description": "Dokku- Open source PAAS alternative to Heroku",
     "category": "container-orchestration",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— kubernetes, paas and cloud services"
@@ -44,32 +44,32 @@
     "githubStars": 6540
   },
   {
-    "name": "Ant Design- An enterprise-class UI design language and React UI library",
-    "url": "https://github.com/ant-design/ant-design",
-    "description": "Ant Design- An enterprise-class UI design language and React UI library",
+    "name": "Notepad++",
+    "url": "https://notepad-plus-plus.org/",
+    "description": "Notepad++ — developer-experience API",
     "category": "developer-experience",
-    "pricing": "open-source",
-    "hasApi": true,
+    "pricing": "unknown",
+    "hasApi": false,
     "tags": [
-      "tooling— frontend"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 97999
-  },
-  {
-    "name": "Radius app",
-    "url": "https://radapp.io/",
-    "description": "Open-source, cloud-native, application platform that enables developers and the operators that support them to define, deploy, and collaborate on cloud-native applications across public clouds and private infrastructure.",
-    "category": "developer-portal",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "internal developer portal"
+      "development",
+      "code editors and ides"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Stoplight - API Design, Testing, and Documentation",
+    "url": "https://stoplight.io/",
+    "description": "Stoplight - API Design, Testing, and Documentation",
+    "category": "developer-portal",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "tooling— development portal and documentation"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -87,24 +87,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Terrateam",
-    "url": "https://terrateam.io/",
-    "description": "Infrastructure as Code CI/CD for GitHub",
+    "name": "FluxCD",
+    "url": "https://fluxcd.io/",
+    "description": "FluxCD — ci-cd-pipeline API",
     "category": "gitops",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous delivery",
-      "automation and collaboration"
+      "deployment"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Terragrunt for deployment environments (dev/staging/prod) and other features",
-    "url": "https://github.com/gruntwork-io/terragrunt",
-    "description": "Terragrunt for deployment environments (dev/staging/prod) and other features",
+    "name": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
+    "url": "https://github.com/artipie/artipie",
+    "description": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
     "category": "iac-and-provisioning",
     "pricing": "open-source",
     "hasApi": false,
@@ -114,27 +114,26 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 9565
+    "githubStars": 680
   },
   {
-    "name": "Apache SkyWalking — Application Performance Monitoring",
-    "url": "https://github.com/apache/skywalking",
-    "description": "Apache SkyWalking — Application Performance Monitoring",
+    "name": "Zabbix",
+    "url": "https://www.zabbix.com/",
+    "description": "Zabbix — observability API",
     "category": "observability",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous monitoring"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 24795
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
   },
   {
-    "name": "xMatters",
-    "url": "https://www.xmatters.com/",
-    "description": "xMatters — other API",
+    "name": "Moogsoft",
+    "url": "https://www.moogsoft.com/",
+    "description": "Moogsoft — other API",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
@@ -144,23 +143,24 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Checkov Policy-as-code",
-    "url": "https://www.checkov.io/",
-    "description": "Checkov Policy-as-code",
+    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
+    "url": "https://github.com/checkmarx/kics",
+    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
     "category": "policy-and-governance",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— security and policies"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 2632
   },
   {
-    "name": "Casdoor- IAM/SSO platform with web UI",
-    "url": "https://github.com/casdoor/casdoor",
-    "description": "Casdoor- IAM/SSO platform with web UI",
+    "name": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
+    "url": "https://github.com/ory/keto",
+    "description": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -168,9 +168,9 @@
       "tooling— authentication and authorization"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 13589
+    "githubStars": 5334
   },
   {
     "name": "Backstage Software Catalog",
@@ -187,9 +187,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Kong- API Gateway and Service Connectivity Platform",
-    "url": "https://konghq.com/",
-    "description": "Kong- API Gateway and Service Connectivity Platform",
+    "name": "Traefik- Cloud Native Application Proxy",
+    "url": "https://traefik.io/",
+    "description": "Traefik- Cloud Native Application Proxy",
     "category": "service-mesh",
     "pricing": "unknown",
     "hasApi": true,
@@ -197,19 +197,18 @@
       "tooling— service mesh, api gateway and app proxies"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Hound CI",
-    "url": "https://houndci.com/",
-    "description": "Hound CI — ci-cd-pipeline API",
+    "name": "accelQ",
+    "url": "https://www.accelq.com/",
+    "description": "accelQ — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous integration",
-      "integration"
+      "continuous testing"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
@@ -231,62 +230,62 @@
     "githubStars": 92
   },
   {
-    "name": "Basecamp",
-    "url": "https://basecamp.com/",
-    "description": "Basecamp — developer-experience API",
+    "name": "Github Issues",
+    "url": "https://docs.github.com/en/issues/tracking-your-work-with-issues",
+    "description": "Github Issues",
     "category": "developer-experience",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "development",
-      "project management & issue tracking software"
+      "bug / defect tracking software"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Kubero",
-    "url": "https://github.com/kubero-dev/kubero",
-    "description": "A fully self-hosted Internal Developer Platform (IDP).",
+    "name": "Upbound",
+    "url": "https://www.upbound.io/",
+    "description": "The platform for platform teams.",
     "category": "developer-portal",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": true,
     "tags": [
       "internal developer portal"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 4273
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "werf",
-    "url": "https://werf.io/",
-    "description": "werf — ci-cd-pipeline API",
+    "name": "Terrateam",
+    "url": "https://terrateam.io/",
+    "description": "Infrastructure as Code CI/CD for GitHub",
     "category": "gitops",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous delivery",
-      "deployment"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "AWS Proton- Self-service infrastructure templates",
-    "url": "https://aws.amazon.com/proton",
-    "description": "AWS Proton- Self-service infrastructure templates",
-    "category": "iac-and-provisioning",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "tooling— infrastructure and artifacts management"
+      "automation and collaboration"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
+  },
+  {
+    "name": "Digger - Open Source Infratructure as Code management tool",
+    "url": "https://www.github.com/diggerhq/digger",
+    "description": "Digger - Open Source Infratructure as Code management tool",
+    "category": "iac-and-provisioning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 4934
   }
 ]

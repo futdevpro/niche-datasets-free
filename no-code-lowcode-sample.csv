@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,codeType,urlDomainTier,descriptionLengthTier,categorizationTier
-Vertex-AI,https://cloud.google.com/vertex-ai,"Build, deploy, and scale machine learning (ML) models faster, with fully managed ML tools for any use case.",ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
-Plausible,https://plausible.io,"Lightweight, GDPR-compliant website analytics with a simple interface.",analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
-Lowdefy,https://lowdefy.com,"An open-source low-code framework to build internal tools, web apps, admin panels, BI dashboards, workflows, and CRUD apps with ease by simply writing YAML.",app-builder,open-source,true,"[""business apps""]",low-code,commercial,normal,specific
-PegaSystems,https://www.pega.com/,Provides business process and customer relationship management solutions for organizations.,automation,paid,false,"[""platforms"",""business process management""]",both,commercial,normal,specific
-BotXO,https://www.botxo.ai/,Powerful AI chatbot builder made easy for businesses.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
-Almanac,https://almanac.io,Version-controlled docs and workflows built for async collaboration.,collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
-Kartra,https://kartra.com,Online Business Made Easy,crm,freemium,false,"[""crm""]",both,commercial,terse,specific
-Browse AI,https://browse.ai/,Train bots to monitor and extract data in minutes.,data-scraping,freemium,false,"[""scrapers""]",low-code,commercial,normal,specific
-DocuPotion,https://docupotion.com/,Generate PDFs at scale in Bubble and Airtable.,database,freemium,false,"[""misc""]",both,commercial,terse,specific
-Haikei,https://haikei.app,"Generate unique, customizable SVG shapes and gradients.",design,freemium,false,"[""design""]",no-code,commercial,normal,specific
-Memberstack,https://www.memberstack.com/,Beautiful user logins and payments for any website.,ecommerce,freemium,false,"[""membership""]",no-code,commercial,normal,specific
-Microsoft Forms,https://forms.office.com/,"Easily create surveys, quizzes, and polls.",forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
-Workato API Management,https://docs.workato.com/api-management.html,"Turn callable recipes into endpoints and organize the endpoints into API collections, making it easier for users to find and consume the endpoints through other recipes or third-party apps, without requiring access to your Workato account.",internal-tools,freemium,true,"[""platforms"",""low code api management platform""]",low-code,documentation,detailed,specific
-Stripo,https://stripo.email,Free email template builder.,marketing,free,false,"[""email""]",no-code,commercial,terse,specific
-Dropsource,https://www.dropsource.com/,Build and publish native mobile app without coding,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,normal,specific
-No Code Founders,https://www.nocodefounders.com/,Community for no-code builders.,other,free,false,"[""resources""]",no-code,commercial,terse,other
-Vuix,https://vuix.io,Design voice apps in minutes.,video,freemium,false,"[""voice""]",no-code,commercial,terse,specific
-Dorik,https://dorik.com,"No-code builder with CMS, blogging, and modern templates.",website-builder,freemium,false,"[""landing pages""]",no-code,commercial,normal,specific
-Sas,https://www.sas.com/en_si/software/machine-learning-cloud.html,On-demand programming access to machine learning algorithms in the cloud.,ai-ml,paid,false,"[""ai""]",low-code,commercial,normal,specific
-Mixpanel,https://mixpanel.com,Advanced product analytics for tracking user engagement and retention.,analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
+AI Builder,https://flow.microsoft.com/en-us/ai-builder,Bring intelligent automation to your business processes with AI that’s easy to train and configure in Power Automate.,ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
+Google Analytics,https://analytics.google.com,Free website analytics.,analytics,free,false,"[""analytics""]",low-code,commercial,terse,specific
+WeWeb,https://www.weweb.io/,A no-code frontend builder that connects to any backend to build scaable and secure web applications 10x faster.,app-builder,freemium,false,"[""visual programming""]",both,commercial,normal,specific
+Parabola,https://parabola.io,Drag-and-drop to automate your repetitive tasks.,automation,freemium,false,"[""automation""]",no-code,commercial,terse,specific
+Tidio,https://www.tidio.com,AI chatbot and live chat software for small businesses and ecommerce.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
+Trello,https://trello.com/louisveyret1/boards,All-in-one workspace and collaboration for businesses,collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
+Bonsai CRM,https://www.hellobonsai.com/crm,"Freelance-first CRM with contracts, invoices, and client tracking.",crm,free,false,"[""crm""]",both,commercial,normal,specific
+Webscraper.io,https://webscraper.io/,Chrome extension for creating sitemaps and scraping structured data.,data-scraping,freemium,true,"[""scrapers""]",low-code,commercial,normal,specific
+Forest Admin,https://www.forestadmin.com/,The admin panel framework,database,freemium,true,"[""database""]",both,commercial,terse,specific
+Penpot,https://penpot.app,"Open source, web-based interface design application.",design,open-source,false,"[""design""]",low-code,commercial,normal,specific
+Monto,https://monto.io,Product Reviews for Webflow (and Foxy).,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
+FormNX,https://formnx.com,"Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",forms,freemium,false,"[""forms""]",no-code,commercial,detailed,specific
+MuleSoft,https://www.mulesoft.com/platform/api-management,"Manage your API lifecycle, quickly design, test, and publish APIs.",internal-tools,freemium,true,"[""platforms"",""low code api management platform""]",low-code,commercial,normal,specific
+BEE,https://beefree.io,"Create beautiful emails, fast.",marketing,freemium,false,"[""email""]",no-code,commercial,terse,specific
+Utilize,https://www.utilize.app,"Apps from Google Sheets, in minutes.",mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
+NoCode.Tech Tools Directory,https://www.nocode.tech/tools,Extensive listing of no-code tools.,other,free,false,"[""resources""]",no-code,commercial,terse,other
+Loom,https://loom.com,"Seamless screen, mic, and camera recording for Chrome",video,freemium,false,"[""video""]",no-code,commercial,normal,specific
+Universe,https://onuniverse.com,Make an awesome website from your phone.,website-builder,freemium,false,"[""websites""]",no-code,commercial,terse,specific
+Fritz.ai,https://www.fritz.ai/,"ML platform for iOS, Android, and SnapML in Lens Studio.",ai-ml,paid,false,"[""machine learning""]",low-code,commercial,normal,specific
+PageGuard,https://pageguard.org,"Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",analytics,free,false,"[""analytics""]",low-code,commercial,normal,specific

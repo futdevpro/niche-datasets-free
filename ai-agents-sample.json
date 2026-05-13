@@ -1,8 +1,8 @@
 [
   {
-    "name": "KodeAgent",
-    "url": "https://github.com/barun-saha/kodeagent",
-    "description": "The Minimal Agent Engine, enabling seamless integration with your platform. KodeAgent offers tool-calling (ReAct) and sanboxed code-executing (CodeAct) agents, supported by planning and observation.",
+    "name": "ALF OS",
+    "url": "https://github.com/alamparelli/alf",
+    "description": "Self-hosted AI assistant daemon with encrypted credential vault, persistent memory, cron scheduler, multi-provider routing (Claude Code, Codex, GPT, Ollama, OpenRouter), Telegram bot with voice transcription, and web dashboard. Docker Compose, MIT.",
     "category": "autonomous",
     "pricing": "open-source",
     "hasApi": false,
@@ -12,9 +12,9 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific",
-    "githubStars": 40
+    "githubStars": 6
   },
   {
     "name": "LLM Stack",
@@ -32,12 +32,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "DB GPT",
-    "url": "https://github.com/csunny/db-gpt",
-    "description": "Interact your data and environment using the local GPT, no data leaks, 100% privately, 100% security",
+    "name": "Nous",
+    "url": "https://github.com/trafficguard/nous",
+    "description": "TypeScript AI agent platform with Autonomous agents, Software developer agents, AI code review agents and more.",
     "category": "coding",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software development"
     ],
@@ -45,15 +45,15 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 18718
+    "githubStars": 1187
   },
   {
-    "name": "Ginger",
-    "url": "https://ginger.com/",
-    "description": "On-demand mental healthcare. AI coaching + live therapists. CBT, DBT, mindfulness. Employer-sponsored.",
+    "name": "Elomia",
+    "url": "https://elomia.com/",
+    "description": "AI therapy chatbot. Clinician-designed, natural conversation. 85% feel better after chat. Anonymous, no data collection.",
     "category": "conversation",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "healthcare and therapy agents"
     ],
@@ -62,49 +62,49 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "HunyuanVideo",
-    "url": "https://github.com/tencent/hunyuanvideo",
-    "description": "Tencent OSS. Consumer GPU. Multi-style.",
+    "name": "FLUX 2",
+    "url": "https://blackforestlabs.ai/",
+    "description": "Open-weight. Best photorealism. 4K. 6x speed.",
     "category": "creative",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "video generation"
+      "image generation"
     ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 12083
+    "categorizationTier": "specific"
   },
   {
-    "name": "Zendesk AI",
-    "url": "https://zendesk.com/",
-    "description": "Ticket routing, sentiment detection, Answer Bot.",
+    "name": "Command R+ by Cohere",
+    "url": "https://txt.cohere.com/command-r-plus-microsoft-azure",
+    "description": "Cohere introduces Command R+, an advanced, scalable LLM optimized for enterprise needs with advanced RAG, multilingual support, and sophisticated tool-use capabilities for automating complex business workflows, available first on Microsoft Azure",
     "category": "customer-support",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "support agents"
+      "model providers with function calling support"
     ],
+    "openSource": false,
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "Blobr",
-    "url": "https://www.blobr.io/",
-    "description": "Blobr — AI agent",
+    "name": "Second Brain AI Agent",
+    "url": "https://github.com/flepied/second-brain-agent",
+    "description": "A streamlit app to dialog with your second brain notes using OpenAI and ChromaDB locally.",
     "category": "data",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "open-source"
+      "knowledge management"
     ],
     "openSource": true,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 295
   },
   {
     "name": "Skyvern",
@@ -123,9 +123,9 @@
     "githubStars": 21571
   },
   {
-    "name": "Ethics",
-    "url": "https://github.com/zulrich91/ethics",
-    "description": "The repository contains a number of interesting resources on ethics in general, ethics of AI and the ethical concerns of AI in medecine.",
+    "name": "Ethics-Education",
+    "url": "https://github.com/huggingface/ethics-education",
+    "description": "AI Ethics educational material 🤗",
     "category": "framework",
     "pricing": "open-source",
     "hasApi": false,
@@ -135,44 +135,44 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "githubStars": 0
+    "githubStars": 11
   },
   {
-    "name": "Bosun",
-    "url": "https://github.com/virtengine/bosun",
-    "description": "Open source workflow and control framework for engineering-focused AI agents.",
+    "name": "MutahunterAI",
+    "url": "https://github.com/codeintegrity-ai/mutahunter",
+    "description": "MutahunterAI — AI agent",
     "category": "multi-agent",
     "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "multi-agent orchestration"
-    ],
-    "openSource": true,
+    "hasApi": false,
+    "tags": [],
+    "openSource": false,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "githubStars": 268
+    "githubStars": 296
   },
   {
-    "name": "Weights and Biases Weave",
-    "url": "https://wandb.ai/site/weave",
-    "description": "Trace and evaluate LLM apps.",
+    "name": "Helicone",
+    "url": "https://github.com/helicone/helicone",
+    "description": "OSS LLM observability. One-line integration.",
     "category": "observability",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tracing and monitoring"
     ],
-    "urlDomainTier": "commercial",
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "categorizationTier": "specific",
+    "githubStars": 5645
   },
   {
-    "name": "从第一性原理看大模型Agent技术",
-    "url": "https://mp.weixin.qq.com/s/pl-qjlvvugufmrd4g0p-qq",
-    "description": "从第一性原理看大模型Agent技术",
+    "name": "ICLR'24 上大型语言模型代理的最新研究进展 | 代理评估重点",
+    "url": "https://medium.com/@aminerscholar_39923/latest-research-advancements-on-large-language-model-agents-at-iclr24-agent-evaluation-focus-aed420421365",
+    "description": "ICLR'24 上大型语言模型代理的最新研究进展 | 代理评估重点",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
@@ -185,60 +185,62 @@
     "categorizationTier": "other"
   },
   {
-    "name": "OpenRecall",
-    "url": "https://github.com/openrecall/openrecall",
-    "description": "OpenRecall is an open-source, privacy-focused digital memory tool capturing and indexing screenshots to enhance productivity without compromising privacy, usable across Windows, macOS, and Linux, and compatible with AI agents for personal assistance",
+    "name": "Bardeen",
+    "url": "https://www.bardeen.ai/",
+    "description": "Bardeen — AI agent",
     "category": "productivity",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "personal assistants",
+      "productivity sales",
       "open-source"
     ],
     "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 2831
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "A2A (Agent-to-Agent)",
-    "url": "https://github.com/google/a2a",
-    "description": "Google protocol for inter-agent communication. Horizontal agent collaboration.",
+    "name": "LangChainBitcoin",
+    "url": "https://github.com/lightninglabs/langchainbitcoin",
+    "description": "LangChainBitcoin — AI agent",
     "category": "protocol",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "protocols and standards"
+      "bitcoin",
+      "announcement github",
+      "open-source"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 142
+  },
+  {
+    "name": "Arize-Phoenix",
+    "url": "https://github.com/arize-ai/phoenix",
+    "description": "Arize-Phoenix is an open source library for agent testing, evaluation and observability.",
+    "category": "research",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "testing and evaluation"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 23724
+    "githubStars": 9618
   },
   {
-    "name": "TiOLi AGENTIS",
-    "url": "https://agentisexchange.com",
-    "description": "Financial exchange for AI agents with 23 MCP tools and 400+ REST endpoints, blockchain-verified. Agents can register, trade, hire each other, and build reputations website | github | docs",
-    "category": "research",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "learning",
-      "repositories"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Ai-Agent-Security",
-    "url": "https://github.com/securitylab-ucd/ai-agent-security",
-    "description": "This repository contains source code for the demos and attacks we present in our paper Security of AI Agents.",
+    "name": "Rgs",
+    "url": "https://github.com/mangelzabaladevelop/rgs",
+    "description": "Report Generative Security Tool developed for the Generative AI Agents Developer Contest organized by NVIDIA and LangChain.",
     "category": "security",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "building",
       "security"
@@ -247,12 +249,12 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 6
+    "githubStars": 3
   },
   {
-    "name": "ai-town",
-    "url": "https://github.com/a16z-infra/ai-town",
-    "description": "deployable starter kit for building and customizing your own version of AI town - a virtual town where AI characters live, chat and socialize.",
+    "name": "GPTTeam",
+    "url": "https://github.com/101dotxyz/gpteam",
+    "description": "The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.",
     "category": "simulation",
     "pricing": "open-source",
     "hasApi": false,
@@ -264,17 +266,17 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 9844
+    "githubStars": 1715
   },
   {
-    "name": "Talkscriber",
-    "url": "https://www.talkscriber.com",
-    "description": "Talkscriber is an enterprise-grade speech-to-text (STT) platform that offers industry-leading accuracy, security, and cost-effectiveness, enabling organizations to transform spoken language into digital text and unlock new possibilities in data analysis while hosting Whisper (OpenAI) model",
+    "name": "Twilio",
+    "url": "https://www.twilio.com",
+    "description": "Twilio is a cloud communications platform that enables developers to programmatically make phone calls, send and receive text messages, and integrate other communication features into their applications using its web APIs",
     "category": "voice",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "transcriber providers"
+      "phone number providers"
     ],
     "openSource": false,
     "urlDomainTier": "commercial",
@@ -298,19 +300,20 @@
     "githubStars": 140985
   },
   {
-    "name": "Zapier Central",
-    "url": "https://zapier.com/central",
-    "description": "Zapier Central — AI agent",
+    "name": "KodeAgent",
+    "url": "https://github.com/barun-saha/kodeagent",
+    "description": "The Minimal Agent Engine, enabling seamless integration with your platform. KodeAgent offers tool-calling (ReAct) and sanboxed code-executing (CodeAct) agents, supported by planning and observation.",
     "category": "autonomous",
-    "pricing": "freemium",
-    "hasApi": true,
+    "pricing": "open-source",
+    "hasApi": false,
     "tags": [
-      "build-your-own productivity general purpose",
-      "open-source"
+      "applications",
+      "autonomous agent task solver projects"
     ],
     "openSource": true,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 40
   }
 ]

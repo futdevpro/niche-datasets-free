@@ -1,8 +1,8 @@
 [
   {
-    "name": "Onshape",
-    "url": "https://www.onshape.com/",
-    "description": "a modeling software specially oriented to design technical and spare parts, was the first full-cloud 3D software created.",
+    "name": "3D Slash",
+    "url": "https://www.3dslash.net",
+    "description": "3D modeling tool, available on all devices and all OS, online and offline.",
     "category": "3d",
     "pricing": "unknown",
     "hasApi": false,
@@ -15,9 +15,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Accessibility Weekly",
-    "url": "https://a11yweekly.com/",
-    "description": "a weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday, curated by David A. Kennedy",
+    "name": "How type influences readability",
+    "url": "https://fonts.google.com/knowledge/readability_and_accessibility/how_type_influences_readability",
+    "description": "How type influences readability — accessibility API",
     "category": "accessibility",
     "pricing": "free",
     "hasApi": false,
@@ -25,13 +25,13 @@
       "research & accessibility (ux, usability, a11y)"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Spark AR Studio",
-    "url": "https://www.sparkar.com",
-    "description": "сreate AR experiences for Instagram without code.",
+    "name": "Layar",
+    "url": "https://www.layar.com/",
+    "description": "find various items based upon augmented reality technology.",
     "category": "augmented-reality",
     "pricing": "unknown",
     "hasApi": false,
@@ -40,58 +40,102 @@
       "augmented reality"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "MURAL",
-    "url": "https://mural.co/",
-    "description": "think and collaborate visually. Anywhere, anytime.",
+    "name": "Flawless App",
+    "url": "https://flawlessapp.io/",
+    "description": "a tool to compare the expected design and the real app right inside iOS Simulator (useful for designers who use Xcode or mobile developers).",
     "category": "collaboration",
     "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "table of content",
-      "collaboration tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Colorate",
-    "url": "https://colorate.azurewebsites.net/",
-    "description": "Color scheme tool for designers and developers. This will help you draw inspiration and serve as a resource for your color work.",
-    "category": "colors",
-    "pricing": "free",
     "hasApi": true,
     "tags": [
-      "colors"
+      "table of content",
+      "design handoff tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Endless Tools",
-    "url": "https://endlesstools.io/",
-    "description": "all-in-one web tool to quickly craft striking 3D visuals, animations, and unique effects — no heavy software or coding needed",
+    "name": "The Day's Color",
+    "url": "http://www.thedayscolor.com/",
+    "description": "is to find colorful inspiration from things that surround us. Daily.",
+    "category": "colors",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "color"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "pocoloco",
+    "url": "https://pocoloco.io/",
+    "description": "Generate dynamic backgrounds for your website",
     "category": "css-animations",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "animations, 3d and sound"
+      "css animations"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Gutenberg",
+    "url": "https://github.com/bafs/gutenberg",
+    "description": "Modern framework to print the web correctly.",
+    "category": "css-frameworks",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "css frameworks"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 4911
+  },
+  {
+    "name": "CreativeLive",
+    "url": "https://www.creativelive.com/",
+    "description": "CreativeLive",
+    "category": "design-inspiration",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "tutorial"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Storybook",
+    "url": "https://storybook.js.org/",
+    "description": "an open-source tool for developing UI components in isolation for React, Vue, and Angular.",
+    "category": "design-systems",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "design system tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "A Modern CSS Reset",
-    "url": "https://piccalil.li/blog/a-modern-css-reset",
-    "description": "Resets the css styling of all HTML elements to a consistent baseline across browsers.",
-    "category": "css-frameworks",
-    "pricing": "open-source",
+    "name": "Vertopal",
+    "url": "https://www.vertopal.com/",
+    "description": "Free online platform for converting computer files to a variety of file formats",
+    "category": "design-tools",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "others"
@@ -101,54 +145,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Treehouse",
-    "url": "https://teamtreehouse.com/tracks/web-design",
-    "description": "Brings affordable, technology education to people everywhere.",
-    "category": "design-inspiration",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "tutorials"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "StyleGuides.io",
-    "url": "http://styleguides.io/",
-    "description": "A directory of 500+ styleguides",
-    "category": "design-systems",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "design systems & style guides"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Excalidraw",
-    "url": "https://excalidraw.com/",
-    "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-    "category": "design-tools",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "online design tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Imageye - Image downloader",
-    "url": "https://chrome.google.com/webstore/detail/imageye-image-downloader/agionbommeaifngbhincahgmoflcikhm",
-    "description": "Find and download all images on a web page. With Imageye you can find, browse and download all the images present in a web page.",
+    "name": "Site Palette",
+    "url": "https://chrome.google.com/webstore/detail/site-palette/pekhihjiehdafocefoimckjpbkegknoh",
+    "description": "A must-have tool for designers and frontend developers to grab colors for any website.",
     "category": "extensions",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "chrome extensions"
     ],
@@ -157,9 +159,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Abstract Fonts",
-    "url": "http://www.abstractfonts.com/",
-    "description": "Fonts free for personal and commercial use",
+    "name": "Malayalam Fonts",
+    "url": "https://smc.org.in/fonts",
+    "description": "Malayalam fonts for free which are maintained by Swathanthra Malayalam Computing(SMC)",
     "category": "fonts",
     "pricing": "free",
     "hasApi": false,
@@ -167,41 +169,41 @@
       "fonts"
     ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "UXWing",
+    "url": "https://uxwing.com/",
+    "description": "Well Optimized, Free icons for commercial use",
+    "category": "icons",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "icons"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Lucide",
-    "url": "https://lucide.netlify.app/",
-    "description": "Lucide is an open-source icon library, a fork of Feather Icons.",
-    "category": "icons",
-    "pricing": "open-source",
+    "name": "Servier Medical Art",
+    "url": "https://smart.servier.com/",
+    "description": "3000 free medical images to illustrate your publications and PowerPoint presentations",
+    "category": "illustrations",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "icons"
+      "vectors & clip art"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "tldraw",
-    "url": "https://www.tldraw.com/",
-    "description": "A tiny little drawing app.",
-    "category": "illustrations",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "BulkResizePhotos",
-    "url": "https://bulkresizephotos.com/",
-    "description": "Bulk image resizing, compression & converting that perform all the tasks within the browser (It works offline)",
+    "name": "Optimizilla",
+    "url": "https://imagecompressor.com/",
+    "description": "Online JPEG and PNG optimizer / compressor with settings and archive download",
     "category": "image-compression",
     "pricing": "unknown",
     "hasApi": false,
@@ -213,76 +215,76 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "mo.js",
-    "url": "https://mojs.github.io/",
-    "description": "The motion graphics toolbelt for the web",
+    "name": "Nivo",
+    "url": "https://nivo.rocks/",
+    "description": "Nivo provides supercharged React components to easily build dataviz apps, it's built on top of d3. Also comes with server side rendering ability and fully declarative charts.",
     "category": "javascript-libraries",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "javascript animation libraries"
+      "javascript chart libraries"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "360 Mockups",
+    "url": "https://360mockups.com/",
+    "description": "Totally FREE to download PSD Mockups to present your works.",
+    "category": "mockups",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "mockup"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Apple - Human Interface Guidelines",
+    "url": "https://developer.apple.com/design/human-interface-guidelines",
+    "description": "Apple - Human Interface Guidelines",
+    "category": "other",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "design systems & frameworks",
+      "references and learning resources"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Mockuuups",
-    "url": "https://mockuuups.studio/",
-    "description": "drag-and-drop tool for creating beautiful app previews or any marketing materials.",
-    "category": "mockups",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "table of content",
-      "mockup tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Design Sphere",
-    "url": "https://www.designsphere.xyz/",
-    "description": "a curated selection of podcasts discussing UX/UI, branding, motion design, graphic design, design systems, & more.",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "podcasts"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
   {
-    "name": "Survey Monkey",
-    "url": "https://www.surveymonkey.com/",
-    "description": "online survey tool to capture the voices and opinions of the people who matter most to you.",
+    "name": "Overflow",
+    "url": "https://overflow.io/",
+    "description": "turn your designs into playable user flow diagrams that tell a story.",
     "category": "prototyping",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
-      "user research tools"
+      "user flow tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "FreePhotos.cc",
-    "url": "https://freephotos.cc/",
-    "description": "free stock photos for commercial use.",
+    "name": "Freerange",
+    "url": "https://freerangestock.com/",
+    "description": ":copyright: Quality stock photos for commercial and non-commercial use. For free.",
     "category": "stock-photos",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "stock photos tools"
+      "photography",
+      "custom license / usage"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]

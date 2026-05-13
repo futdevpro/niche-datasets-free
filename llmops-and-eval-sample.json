@@ -1,8 +1,143 @@
 [
   {
-    "name": "KAOS",
-    "url": "https://github.com/axsaucedo/kaos",
-    "description": "KAOS is a Kubernetes-native framework for deploying and orchestrating AI agents with tool access, multi-agent coordination, and seamless LLM integration.",
+    "name": "ComfyUI",
+    "url": "https://github.com/comfyanonymous/comfyui",
+    "description": "ComfyUI is a node-based interface and inference engine for generative AI, specifically designed to work with Stable Diffusion and other AI models. It allows users to create complex workflows for image, video, and other content generation through a visual, graph-like interface.",
+    "category": "agent-framework",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "agent interfaces"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific",
+    "githubStars": 112468
+  },
+  {
+    "name": "Dolt",
+    "url": "https://github.com/dolthub/dolt",
+    "description": "Git for Data.",
+    "category": "data-and-training",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "data management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "githubStars": 22645
+  },
+  {
+    "name": "Kserve",
+    "url": "https://github.com/kserve/kserve",
+    "description": "Standardized Serverless ML Inference Platform on Kubernetes",
+    "category": "deployment-and-infra",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ml platforms"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 5456
+  },
+  {
+    "name": "Katib",
+    "url": "https://github.com/kubeflow/katib",
+    "description": "Katib is a Kubernetes-native project for automated machine learning (AutoML).",
+    "category": "fine-tuning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "automl"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 1683
+  },
+  {
+    "name": "Plexiglass",
+    "url": "https://github.com/kortex-labs/plexiglass",
+    "description": "A Python Machine Learning Pentesting Toolbox for Adversarial Attacks. Works with LLMs, DNNs, and other machine learning algorithms.",
+    "category": "guardrails-and-safety",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "frameworks for llm security"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 154
+  },
+  {
+    "name": "Epsilla",
+    "url": "https://epsilla.com/",
+    "description": "An all-in-one platform to create vertical AI agents powered by your private data and knowledge.",
+    "category": "observability",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "llmops"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Latitude",
+    "url": "https://github.com/latitude-dev/latitude-llm",
+    "description": "Latitude is the open-source prompt engineering platform to build, evaluate, and refine prompts with AI. Features prompt management, playground testing, AI gateway, and evaluations.",
+    "category": "prompt-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "prompt engineering"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 3981
+  },
+  {
+    "name": "MLServer",
+    "url": "https://github.com/seldonio/mlserver",
+    "description": "An inference server for your machine learning models, including support for multiple frameworks, multi-model serving and more.",
+    "category": "serving",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "inference",
+      "inference engine"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 888
+  },
+  {
+    "name": "AquilaDB",
+    "url": "https://github.com/aquila-network/aquiladb",
+    "description": "An easy to use Neural Search Engine. Index latent vectors along with JSON metadata and do efficient k-NN search.",
+    "category": "vector-database",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "vector search"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "githubStars": 380
+  },
+  {
+    "name": "AIOpsLab",
+    "url": "https://github.com/microsoft/aiopslab",
+    "description": "AIOpsLab is a holistic framework to enable the design, development, and evaluation of autonomous AIOps agents.",
     "category": "agent-framework",
     "pricing": "open-source",
     "hasApi": true,
@@ -12,7 +147,7 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 249
+    "githubStars": 879
   },
   {
     "name": "LakeFS",
@@ -30,145 +165,9 @@
     "githubStars": 5364
   },
   {
-    "name": "Yunikorn",
-    "url": "https://github.com/apache/yunikorn-core",
-    "description": "Light-weight, universal resource scheduler for container orchestrator systems.",
-    "category": "deployment-and-infra",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "scheduling"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1010
-  },
-  {
-    "name": "AutoGL",
-    "url": "https://github.com/thumnlab/autogl",
-    "description": "An autoML framework & toolkit for machine learning on graphs",
-    "category": "fine-tuning",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "automl"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1135
-  },
-  {
-    "name": "Rogue",
-    "url": "https://github.com/qualifire-dev/rogue",
-    "description": "Rogue is an AI agent evaluator and red team platform for testing agents against business policies and security vulnerabilities.",
-    "category": "guardrails-and-safety",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "agent security"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1026
-  },
-  {
-    "name": "PraisonAI",
-    "url": "https://github.com/mervinpraison/praisonai",
-    "description": "Production-ready Multi-AI Agents framework with self-reflection. Fastest agent instantiation (3.77μs), 100+ LLM support via LiteLLM, MCP integration, agentic workflows (route/parallel/loop/repeat), built-in memory, Python & JS SDKs.",
-    "category": "observability",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "llmops"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 7107
-  },
-  {
-    "name": "ChainForge",
-    "url": "https://github.com/ianarawjo/chainforge",
-    "description": "ChainForge is an open-source visual programming environment for battle-testing prompts to LLMs. Compare across models, prompts, and prompt parameters using built-in visualizations.",
-    "category": "prompt-management",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "prompt engineering"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 2982
-  },
-  {
-    "name": "DeepSpeed-MII",
-    "url": "https://github.com/microsoft/deepspeed-mii",
-    "description": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.",
-    "category": "serving",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "large model serving"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 2110
-  },
-  {
-    "name": "pgvector",
-    "url": "https://github.com/pgvector/pgvector",
-    "description": "Open-source vector similarity search for Postgres.",
-    "category": "vector-database",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "vector search"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 21229
-  },
-  {
-    "name": "Mem0",
-    "url": "https://github.com/mem0ai/mem0",
-    "description": "The Memory layer for AI Agents.",
-    "category": "agent-framework",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "runtime",
-      "tool"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 55421
-  },
-  {
-    "name": "Pachyderm",
-    "url": "https://github.com/pachyderm/pachyderm",
-    "description": "Pachyderm is a version control system for data.",
-    "category": "data-and-training",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "data management"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 6295
-  },
-  {
-    "name": "Polyaxon",
-    "url": "https://github.com/polyaxon/polyaxon",
-    "description": "Machine Learning Management & Orchestration Platform.",
+    "name": "PAI",
+    "url": "https://github.com/microsoft/pai",
+    "description": "Resource scheduling and cluster management for AI.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
@@ -178,28 +177,27 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 3706
+    "githubStars": 2683
   },
   {
-    "name": "DLRover",
-    "url": "https://github.com/intelligent-machine-learning/dlrover",
-    "description": "DLRover: An Automatic Distributed Deep Learning System",
+    "name": "HPOlib2",
+    "url": "https://github.com/automl/hpolib2",
+    "description": "a library for hyperparameter optimization and black box optimization benchmarks.",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "training",
-      "framework"
+      "automl"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 1654
+    "githubStars": 167
   },
   {
-    "name": "Agentic Radar",
-    "url": "https://github.com/splx-ai/agentic-radar",
-    "description": "Agentic Radar is a security scanner for LLM agentic workflows for potential vulnerabilities.",
+    "name": "AI-Infra-Guard",
+    "url": "https://github.com/tencent/ai-infra-guard",
+    "description": "AI-Infra-Guard is an infrastructure security tool for AI systems.",
     "category": "guardrails-and-safety",
     "pricing": "open-source",
     "hasApi": false,
@@ -209,37 +207,36 @@
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 966
+    "githubStars": 3656
   },
   {
-    "name": "Great Expectations",
-    "url": "https://github.com/great-expectations/great_expectations",
-    "description": "Always know what to expect from your data.",
+    "name": "Vellum",
+    "url": "https://www.vellum.ai/",
+    "description": "An AI product development platform to experiment with, evaluate, and deploy advanced LLM apps.",
     "category": "observability",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "observability"
+      "llmops"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 11487
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "PromptSource",
-    "url": "https://github.com/bigscience-workshop/promptsource",
-    "description": "PromptSource is a toolkit for creating, sharing and using natural language prompts. Contains a growing collection of prompts (P3: Public Pool of Prompts) written in Jinja templating language.",
+    "name": "ell",
+    "url": "https://github.com/madcowd/ell",
+    "description": "ell is a language model programming library that treats prompts as programs. Features automatic versioning, serialization, and rich tooling for prompt engineering with Ell Studio for visualization.",
     "category": "prompt-management",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "prompt engineering"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 3013
+    "githubStars": 5871
   },
   {
     "name": "GLM-130B (ChatGLM)",
@@ -257,49 +254,48 @@
     "githubStars": 7653
   },
   {
-    "name": "txtai",
-    "url": "https://github.com/neuml/txtai",
-    "description": "Build AI-powered semantic search applications",
+    "name": "Lancedb",
+    "url": "https://github.com/lancedb/lancedb",
+    "description": "Developer-friendly, serverless vector database for AI applications. Easily add long-term memory to your LLM apps!",
     "category": "vector-database",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "vector search"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 12480
+    "githubStars": 10266
   },
   {
-    "name": "Stakpak",
-    "url": "https://github.com/stakpak/agent",
-    "description": "DevOps agent that won't accidentally tweet your AWS credentials 🦀",
+    "name": "AgentScope",
+    "url": "https://github.com/modelscope/agentscope",
+    "description": "AgentScope is a multi-agent platform designed to empower developers to build multi-agent applications with large-scale models.",
     "category": "agent-framework",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "runtime",
-      "ai terminal"
+      "agentic frameworks"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 1520
+    "githubStars": 24948
   },
   {
-    "name": "FATE",
-    "url": "https://github.com/federatedai/fate",
-    "description": "An Industrial Grade Federated Learning Framework",
+    "name": "JuiceFS",
+    "url": "https://github.com/juicedata/juicefs",
+    "description": "A distributed POSIX file system built on top of Redis and S3.",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "federated ml"
+      "data storage"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "githubStars": 6072
+    "githubStars": 13569
   }
 ]
