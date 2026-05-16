@@ -4,6 +4,8 @@ Preview records from each curated developer dataset. Every sample contains **20 
 
 **20 datasets, ~55,000 records total.** All sourced from official APIs (npm registry, Homebrew, HuggingFace Hub, OpenRouter, VS Code Marketplace) or CC0/MIT/Apache-2.0 awesome-lists. Aggregation is license-clean for commercial repackaging.
 
+> 🌐 **Browse on the web:** [futdevpro.github.io/niche-datasets-free](https://futdevpro.github.io/niche-datasets-free/) — same content with schema.org JSON-LD for [Google Dataset Search](https://datasetsearch.research.google.com/).
+
 ## What just landed (refresh as of 2026-05-13)
 
 Concrete numbers from the latest pass — these are the kind of signals that go stale fast and are exactly what monthly refresh catches:
