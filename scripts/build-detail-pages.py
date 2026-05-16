@@ -233,9 +233,10 @@ def build_jsonld(d):
 
 
 def build_sitemap():
-    today = "2026-05-16"
+    today = "2026-05-17"
     urls = [
         ("https://futdevpro.github.io/niche-datasets-free/", "1.0"),
+        ("https://futdevpro.github.io/niche-datasets-free/faq.html", "0.7"),
     ] + [
         (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8")
         for d in DATASETS
@@ -322,7 +323,7 @@ def main():
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(build_sitemap())
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+1} URLs) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}.")
+    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+2} URLs: root + faq + 20 detail) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}.")
 
 
 if __name__ == "__main__":
