@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>Platform Engineering & IDP Tooling Directory</h1>
 <p class="meta">390+ records · Free sample (20 records, JSON + CSV) · Full dataset $11</p>
 <p class="lead">Catalog of 390+ platform engineering tools across developer portals, GitOps, service mesh, IaC, observability, container orchestration, CI/CD, secrets, policy, feature flags, service catalog, cost management, and DX.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Stack selection for a new internal developer platform</strong> — Engineering org spinning up a "Platform Engineering" team needs to pick the foundational tools. Filter dataset by <code>category=developer-portal</code> → see Backstage / Port / Cortex / OpsLevel / Humanitec ranked by license + maturity. Filter by <code>category=gitops</code> → ArgoCD vs Flux comparison. Filter by <code>category=service-mesh</code> → Istio vs Linkerd vs Kuma. Saves the "evaluate 50 tools to pick 5" research week.</li>
+  <li><strong>CNCF landscape consolidation</strong> — The CNCF landscape page is overwhelming (500+ icons across 30+ categories). Buyers download this dataset, filter by their relevant categories, and get a 10-row shortlist instead of a 500-icon visual. Cross-reference license tier (permissive vs copyleft) and the result is a procurement-ready vendor list.</li>
+  <li><strong>SRE / Platform Engineer career mapping</strong> — SRE moving into a platform-engineering role uses the dataset to map "what tools should I learn?" by category. Filter <code>category=observability</code> → Prometheus + Grafana + OpenTelemetry + Datadog + Honeycomb. Each becomes a learning track. Cross-reference popularity (GitHub stars proxy via the urlDomainTier=repo-hosted records) to prioritize the most-deployed tools first.</li>
+  <li><strong>IDP RFP / vendor evaluation</strong> — Enterprise tech-PM evaluating Backstage vs Port vs Cortex vs OpsLevel for an internal-platform RFP. Filter <code>category=developer-portal</code> → all 5 vendors present with description + URL. Pair with the categorizer's keyword fallback (recognizing "internal developer platform" and similar terminology) to surface adjacent tools (Coherence, Qovery, Humanitec) the buyer didn't know existed.</li>
+  <li><strong>Comparison content / SEO</strong> — "Argo CD vs Flux: which GitOps engine?" / "Backstage vs Port vs Cortex: which IDP?" / "Istio vs Linkerd: service mesh tradeoff" comparison content series. Each category in the dataset becomes an evergreen comparison article. Drives organic search from buyer-intent queries.</li>
+  <li><strong>Internal tooling consolidation audit</strong> — Big-co platform team auditing their internal tools (Are we using too many CI/CD systems? Do we have 3 secrets managers?) downloads the dataset to benchmark "what's the standard" per category. Filter <code>category=secrets-management</code> → see Vault / AWS Secrets Manager / Sealed Secrets / Doppler / sops as the canonical options.</li>
+  <li><strong>Cross-sell into Dev Stack pack</strong> — Pair this dataset with <code>developer-tools</code> (broader OSS dev tools), <code>npm-packages</code> (JS/TS ecosystem), <code>homebrew-packages</code> (macOS CLI tooling), <code>vscode-extensions</code> (IDE layer), and <code>self-hosted-software</code> (broader OSS) → the complete platform-team toolkit from CLI to portal to runtime. Sub-bundle "Platform Builder Pack" $25-29 viable.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

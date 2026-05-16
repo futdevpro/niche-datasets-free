@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>Vector DB & RAG Infrastructure Directory</h1>
 <p class="meta">190+ records · Free sample (20 records, JSON + CSV) · Full dataset $11</p>
 <p class="lead">Catalog of 190+ vector databases and RAG infrastructure tools — embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Vector DB selection</strong> — "Pinecone vs Qdrant vs Weaviate vs Milvus at our scale" — filter <code>category=vector-db-engine</code> + sort by GitHub stars + filter by deployment-type (cloud / self-hosted) + scale tier. The dataset captures the 52% of records that ARE vector DB engines (118 of 225) so you don't sift through RAG frameworks too.</li>
+  <li><strong>RAG framework comparison</strong> — Building a new RAG pipeline. Filter <code>category=rag-framework</code> → see langchain RAG / llama_index / haystack / langroid / ragatouille all in one view. Compare features: streaming, source citation, multi-modal, reranking-built-in.</li>
+  <li><strong>Reranker shopping</strong> — RAG quality is plateauing. Filter <code>category=reranker</code> → cross-encoder vs Cohere reranker vs ColBERT vs BGE reranker. Each takes a different speed/quality trade-off — the dataset surfaces them all.</li>
+  <li><strong>Embedding library audit</strong> — Need to switch from OpenAI embeddings to self-hosted. Filter <code>category=embedding-library</code> + <code>category=embedding-model</code> → sentence-transformers / FastEmbed / Voyage / BGE / Nomic / E5. Cross-reference with <code>huggingface-models</code> (4,000 records) for the underlying open-weight models.</li>
+  <li><strong>RAG evaluation tooling</strong> — "How do I measure my RAG quality?" Filter <code>category=rag-eval</code> → 38 records: RAGAS / DeepEval / TruLens / continous-eval / BEIR benchmarks. Pick by RAG-specific eval support.</li>
+  <li><strong>Hybrid search architecture</strong> — Building production search. Filter <code>category=hybrid-search</code> for BM25 + dense combinations. Filter <code>category=search-engine</code> for Elasticsearch / OpenSearch / Meilisearch / Typesense alternatives. The two together cover the "search infrastructure" decision.</li>
+  <li><strong>Cross-sell ML 6-pack</strong> — Pair with <code>ai-models-pricing</code> (hosted APIs) + <code>huggingface-models</code> (open weights) + <code>huggingface-datasets</code> (training data) + <code>ai-prompts</code> (prompts) + <code>llmops-and-eval</code> (platform tooling) → complete LLM/ML engineering stack. The dataset's role: the retrieval layer that connects user query to model context.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

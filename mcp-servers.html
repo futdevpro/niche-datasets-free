@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,16 @@
 <h1>Open MCP Servers Directory</h1>
 <p class="meta">3,600+ records · Free sample (20 records, JSON + CSV) · Full dataset $9</p>
 <p class="lead">Catalog of 3,600+ Model Context Protocol (MCP) servers with GitHub stars, category, and capabilities.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Claude / Cursor / Cline integration sourcing</strong> — Every Claude Desktop, Claude Code, Cursor, Cline, etc. user shopping for MCP servers — 3,600+ records sorted by category. "What MCP server should I install for Postgres / GitHub / Slack / Notion / web search?" — answer is one filter away.</li>
+  <li><strong>Build an "MCP server registry" SaaS / open hub</strong> — The MCP ecosystem doesn't yet have a Spotlight-style 1-click registry. The dataset is the database — wrap it in a UI, charge for a hosted index, or open-source it as a Smithery competitor.</li>
+  <li><strong>Internal MCP catalog for an AI-using enterprise</strong> — A 100-person company adopting Claude / agents internally needs to know what MCPs are safe / vetted / category-ranked. The dataset filters by <code>pricing=open-source</code> (97% of records) → an internal "approved MCP" list.</li>
+  <li><strong>AI agent's tool-discovery layer</strong> — An agent that can dynamically choose MCPs at runtime needs a registry. Embed the dataset → agent's planner can semantic-search "give me an MCP that does {{X}}". 532 dev-tools MCPs, 258 AI-services MCPs, 336 finance MCPs.</li>
+  <li><strong>Lead-gen for MCP-as-a-service businesses</strong> — Anthropic's MCP partner program is forming. Companies running MCP servers (especially <code>community servers</code>: 227 records) are launch-ready B2B targets for tooling, monitoring, hosting, and security.</li>
+  <li><strong>"Awesome MCP" curation backbone</strong> — GitHub <code>awesome-mcp-servers</code> is one of the dataset's source lists — but messy. Use the structured version to power an actually-good "awesome list" alternative or curated newsletter.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

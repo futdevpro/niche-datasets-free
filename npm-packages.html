@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>npm Packages Directory</h1>
 <p class="meta">6,000+ records · Free sample (20 records, JSON + CSV) · Full dataset $11</p>
 <p class="lead">Catalog of 6,000+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Supply-chain risk audit</strong> — Security team needs to flag risky deps. For every package in your <code>package.json</code>, look up <code>maintenanceScore</code> from the dataset. Flag anything &lt; 0.5 — packages becoming unmaintained are supply-chain risks. The dataset has this for ~10% of top-6,000 packages.</li>
+  <li><strong>Dependency health dashboard</strong> — Build an internal dashboard showing your project's dependency stack with maintenance / popularity / quality scores. Cross-reference <code>lastPublished</code> to flag deps that haven't shipped in &gt; 18 months. Saves manual "is this still maintained?" research per quarter.</li>
+  <li><strong>Library selection for a new feature</strong> — PM picks "we need to add date manipulation to the app". Filter dataset by <code>category=utility-library</code> + <code>description</code> matches "date" → date-fns, dayjs, luxon, moment surface with their npm scores. Picker is a 2-minute decision, not a half-day research task.</li>
+  <li><strong>Internal "approved packages" catalog</strong> — Engineering manager wants a vetted list of allowed npm packages per category (HTTP clients, ORMs, testing). Filter dataset by <code>category</code> + <code>npmScore &gt; 0.7</code> + <code>license=MIT|Apache-2.0</code> → ship the list as an internal Confluence page. New devs pick from the list instead of yolo-installing whatever GitHub recommends.</li>
+  <li><strong>AI-and-ML JS SDK landscape research</strong> — You're building an AI feature in a JS app. Filter <code>category=ai-and-ml</code> → openai, anthropic, langchain, llamaindex, transformers.js, ollama-js all surface. Compare by <code>weeklyDownloads</code> to see which SDK has the strongest community.</li>
+  <li><strong>Newsletter / blog content sourcing</strong> — A weekly "underrated npm packages you should know" newsletter. Filter by <code>category</code> + filter for packages with <code>weeklyDownloads</code> between 10K-100K (high enough to be vetted, low enough to be unknown). Each becomes a tutorial post.</li>
+  <li><strong>Bootstrap script generator for a new project</strong> — You scaffold new JS/TS projects regularly. For each project type (frontend / backend / CLI / monorepo), the dataset's category buckets give you the canonical starter packages. Build a CLI <code>npx my-scaffold --type=cli</code> that pulls top-N from <code>cli-and-devops</code> category → pre-installs commander, yargs, chalk, ora, prompts.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

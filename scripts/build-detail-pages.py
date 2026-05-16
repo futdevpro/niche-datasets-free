@@ -7,10 +7,20 @@ points to the GitHub repo root. Google Dataset Search and other indexers prefer 
 URL per Dataset entity. This script emits 20 standalone landing pages (one per dataset)
 so each gets its own indexable URL, then updates sitemap.xml to include them.
 
+Also pulls each dataset's hand-crafted use-cases prose from the sibling repo
+(../niche-datasets/__agent/content/<slug>/use-cases.md) and injects it as long-tail
+SEO content into the detail page.
+
 Run from repo root:  python3 scripts/build-detail-pages.py
 """
 import json
 import os
+import re
+
+try:
+    import markdown
+except ImportError:
+    markdown = None
 
 DATASETS = [
     {"slug": "homebrew-packages", "name": "Homebrew Packages Directory", "records": "12,200+",
@@ -115,6 +125,8 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
   ul.dl li{{padding:.4rem 0;border-bottom:1px solid #f0f0f0}}
   footer{{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}}
   .nav{{font-size:.9rem;color:#666;margin-bottom:1rem}}
+  ol.use-cases{{padding-left:1.2rem}}
+  ol.use-cases li{{padding:.45rem 0;line-height:1.5}}
 </style>
 </head>
 <body>
@@ -124,6 +136,9 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <h1>{name}</h1>
 <p class="meta">{records} records · Free sample (20 records, JSON + CSV) · Full dataset ${price}</p>
 <p class="lead">{desc}</p>
+
+<h2>What you'd use this for</h2>
+{use_cases_html}
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">
@@ -150,6 +165,42 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
 </body>
 </html>
 """
+
+
+def load_use_cases(slug, repo_root):
+    """Read sibling repo's __agent/content/<slug>/use-cases.md and convert to HTML.
+
+    Returns HTML <ul>...</ul> with one <li> per use-case. Strips the markdown title
+    line and the trailing version footer. Falls back to '' if file unreachable so
+    detail-page generation never blocks on missing prose.
+    """
+    sibling_path = os.path.normpath(
+        os.path.join(repo_root, "..", "niche-datasets", "__agent", "content", slug, "use-cases.md")
+    )
+    if not os.path.isfile(sibling_path):
+        return ""
+    with open(sibling_path, "r", encoding="utf-8") as f:
+        text = f.read()
+    # Drop the H1 + the trailing "*v1 — date — Wonnie*" footer line.
+    text = re.sub(r"^#\s.*?\n", "", text, count=1)
+    text = re.sub(r"\n---\s*\n\s*\*v\d.*?\*\s*$", "", text, flags=re.DOTALL)
+    # Each use-case is "## N. Title\nbody..."; turn into <li><strong>Title</strong>: body</li>.
+    items = []
+    for block in re.split(r"\n(?=##\s)", text.strip()):
+        m = re.match(r"##\s*\d+\.\s*(.+?)\n+(.+)", block, flags=re.DOTALL)
+        if not m:
+            continue
+        title = m.group(1).strip()
+        body = " ".join(m.group(2).strip().split())
+        # Escape HTML in title/body for safety (use-cases authored by humans, but defensive).
+        title_safe = title.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        body_safe = body.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        # Re-render inline `code` back to <code>.
+        body_safe = re.sub(r"`([^`]+)`", r"<code>\1</code>", body_safe)
+        items.append(f"  <li><strong>{title_safe}</strong> — {body_safe}</li>")
+    if not items:
+        return ""
+    return "<ol class='use-cases'>\n" + "\n".join(items) + "\n</ol>"
 
 
 def build_jsonld(d):
@@ -239,15 +290,10 @@ def update_index_jsonld(repo_root):
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
     new_block = '<script type="application/ld+json">\n' + build_index_jsonld() + '\n</script>'
-    updated = re.sub(
-        r'<script type="application/ld\+json">.*?</script>',
-        lambda m: new_block,
-        html,
-        count=1,
-        flags=re.DOTALL,
-    )
-    if updated == html:
+    pattern = re.compile(r'<script type="application/ld\+json">.*?</script>', flags=re.DOTALL)
+    if not pattern.search(html):
         raise RuntimeError("index.html JSON-LD block not found — refusing to write")
+    updated = pattern.sub(lambda m: new_block, html, count=1)
     with open(path, "w", encoding="utf-8") as f:
         f.write(updated)
 
@@ -255,11 +301,18 @@ def update_index_jsonld(repo_root):
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     count = 0
+    use_case_hits = 0
     for d in DATASETS:
+        use_cases_html = load_use_cases(d["slug"], repo_root)
+        if use_cases_html:
+            use_case_hits += 1
+        else:
+            use_cases_html = "<p class='meta'>Use-cases coming soon.</p>"
         html = DETAIL_TEMPLATE.format(
             name=d["name"], desc=d["desc"], records=d["records"],
             slug=d["slug"], gumroad=d["gumroad"], price=d["price"],
             jsonld=build_jsonld(d),
+            use_cases_html=use_cases_html,
         )
         path = os.path.join(repo_root, f"{d['slug']}.html")
         with open(path, "w", encoding="utf-8") as f:
@@ -269,7 +322,7 @@ def main():
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(build_sitemap())
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+1} URLs) + updated index.html JSON-LD.")
+    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+1} URLs) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}.")
 
 
 if __name__ == "__main__":

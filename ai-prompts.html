@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>AI Prompts Directory</h1>
 <p class="meta">1,700+ records · Free sample (20 records, JSON + CSV) · Full dataset $9</p>
 <p class="lead">Catalog of 1,700+ AI prompts across text, structured, and image generation — categorized for developer workflows.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>AI app onboarding library</strong> — SaaS shipping a new "Talk to AI" feature wants users to discover what it can do. Embed the dataset → show users a categorized prompt-picker ("12 things you can ask"). Each bucket is a discovery channel: coding, writing, analysis, image-gen, etc.</li>
+  <li><strong>System-prompt scaffolding for an agent framework</strong> — Agent dev needs reliable system-prompt patterns. Filter <code>modelType=structured</code> (283 prompts) → JSON-style scaffolding ready to fork as base prompts. Skip the prose, get the structure. Saves hours of trial-and-error iteration.</li>
+  <li><strong>Prompt-engineering R&amp;D library</strong> — LLM team running A/B tests needs starting-point prompts to compare against. The dataset's 1,744 vetted prompts (each cited by Harvard / Columbia / Forbes) become the baseline corpus. Compare your custom prompts against the corpus's category averages.</li>
+  <li><strong>Fine-tuning data for a prompt-classification model</strong> — Training a classifier "what category of help does this user prompt want?" → use the dataset's <code>category</code> column as labels. 1,744 rows × 12 categories = ready-to-train classifier with ~145 examples per class. Bigger / cleaner than starting from scratch.</li>
+  <li><strong>Newsletter / blog content sourcing</strong> — A weekly "5 underrated LLM prompts for X" newsletter — sourcing from the long-tail categories (data-and-tools 1%, creative 2%) where competition for attention is low. Each prompt becomes a tutorial post with the dataset providing the source structure.</li>
+  <li><strong>AI-tutor education-product content library</strong> — Building an "Learn LLMs by example" course. Use the dataset's <code>learning-and-tutoring</code> bucket prompts as canonical examples per lesson. CC0 license means no attribution needed for commercial educational use.</li>
+  <li><strong>Internal team enablement library</strong> — Non-prompt-engineers in your org want to know "what's a good prompt for marketing copy?". Filter <code>category=marketing-and-sales</code> → curated list of vetted prompts ready to fork into your team's internal Notion / Confluence. Reduces "AI literacy" friction across the org.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>VS Code Extensions Directory</h1>
 <p class="meta">4,800+ records · Free sample (20 records, JSON + CSV) · Full dataset $9</p>
 <p class="lead">Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Internal "approved extensions" catalog for an engineering team</strong> — A 100-person dev team needs a curated default extension list per language. Filter <code>category=language-syntax</code> + sort by <code>installCount</code> → top extensions for Python, TypeScript, Go, Rust. Ship the list as a <code>.vscode/extensions.json</code> recommendation file. New hires get the right setup on day 1.</li>
+  <li><strong>Pair-programming setup baseline</strong> — Recommend a Devcontainer / Codespaces config with the top general-purpose extensions: Prettier (68M), Live Server (78M), GitHub Copilot (73M), GitLens. The dataset's installCount shows what your future colleagues are actually using.</li>
+  <li><strong>Plugin-ecosystem competitive analysis</strong> — You're building a JetBrains alternative. Filter the dataset by category → see VS Code's category-share-of-voice vs your own marketplace. The 46% language-syntax dominance shows where users invest the most plugin time.</li>
+  <li><strong>AI-assistant market research</strong> — Filter <code>category=ai-assistant</code> (60+ extensions). Top 2 (Copilot + Copilot Chat) hold 146M of the installs. Tabnine, Codeium, Continue, Cursor (extension version) are the contenders for the long tail. Useful for "what AI coding tools is the market actually buying" research.</li>
+  <li><strong>Theme-pack / icon-pack sourcing for a sister product</strong> — Building a code-editor app. The themes-and-icons category (12% of top-4800) shows what color schemes / icon packs developers actually install. Top: Dracula, Material Theme, One Dark Pro, Tokyo Night. License each + ship as defaults.</li>
+  <li><strong>Newsletter / "extension of the week" content series</strong> — Filter by <code>category</code> + sort by <code>lastUpdated</code> → recently-updated extensions in a specific category make for fresh content. "Best new Python extensions you missed in Q1" — sourced from this filter.</li>
+  <li><strong>Engineering platform team's onboarding kit</strong> — Platform team building a "new engineer setup" script. Extracts top-installed extensions from this dataset by language / category → generates a personalized VS Code config based on the engineer's role (backend / frontend / data / etc.). Kit gets engineering productive in hours, not days.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

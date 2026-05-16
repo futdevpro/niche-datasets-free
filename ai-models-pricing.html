@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>AI Models & Providers Pricing Matrix</h1>
 <p class="meta">800+ records · Free sample (20 records, JSON + CSV) · Full dataset $11</p>
 <p class="lead">Catalog of 800+ AI model endpoints with per-token pricing (prompt + completion), context length, modality, uptime, across providers and quantizations.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>AI cost-modeling spreadsheet for a launch decision</strong> — PM about to ship an AI feature wants to estimate monthly inference cost. Plug expected daily token volume into the dataset → instantly see the cheapest viable provider per model + the cost spread (5-15× between providers for the same model). Saves a week of manual provider-page scraping.</li>
+  <li><strong>Provider-rotation logic for production reliability</strong> — Production app needs failover when a provider goes down. The dataset's <code>uptimeLast30dPct</code> + <code>pricingPromptPerMillionUsd</code> per endpoint enables a programmatic "primary + 2 fallbacks per model" routing config. Pair high-uptime expensive primary with cheap-secondary fallbacks — your mean cost stays low, your tail latency stays bounded.</li>
+  <li><strong>Migrate from OpenAI direct → cheaper provider for the same model</strong> — The matrix surfaces that the same Llama 3.3 70B is on 15+ providers, with the cheapest at 1/15th of OpenAI's equivalent price. CFO-friendly cost-cut without changing the model.</li>
+  <li><strong>Compliance-driven provider selection (data-residency, vendor-list)</strong> — The dataset includes <code>providerHeadquarters</code> + <code>providerDatacenters</code>. EU-data-residency requirement → filter for HQ in EU + datacenters in EU. SOC2-vendor-list requirement → cross-reference with your approved vendor list. Selection becomes a 1-line filter instead of a procurement spreadsheet.</li>
+  <li><strong>Newsletter / market-analysis content</strong> — A monthly "LLM pricing recap" newsletter needs source data. The dataset provides the entire matrix; the newsletter writer just narrates the deltas (<code>new providers added</code>, <code>top price-drops</code>, <code>category trends</code>). Refresh-monthly cadence aligns perfectly with newsletter cadence.</li>
+  <li><strong>Quantization-vs-quality tradeoff dashboard</strong> — ML engineering team wants to know "if we drop from bf16 to fp8 on Llama 3.3, how much do we save?". Dataset surfaces both quantization tiers per provider with their pricing → instant savings calculation. Answer: usually 30-50% cost reduction.</li>
+  <li><strong>Capability-driven model picker for an agent framework</strong> — Agent framework needs to find "the cheapest model that supports <code>tools</code> AND <code>structured_outputs</code> AND has 128K+ context". Dataset's <code>supportedParameters</code> + <code>contextLength</code> + pricing in one schema → the picker is a 5-line query.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

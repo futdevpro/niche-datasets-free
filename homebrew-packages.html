@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>Homebrew Packages Directory</h1>
 <p class="meta">12,200+ records · Free sample (20 records, JSON + CSV) · Full dataset $11</p>
 <p class="lead">Catalog of 12,200+ Homebrew formulae and casks with install counts, package type, dependencies, tap, and deprecation status.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Dev-environment bootstrap script</strong> — You're hiring devs and need a <code>bootstrap.sh</code> that installs the canonical macOS dev stack. Filter dataset for top-N CLI tools by install count → script becomes "brew install gh awscli node python ..." with the most-vetted toolset, no guesswork.</li>
+  <li><strong>Devcontainer / Dockerfile base-image generator</strong> — You're building a Devcontainer image. Filter dataset by <code>category=cli-tool</code> + sort by <code>installCount365d</code> → top-N system tools that should be in your base image. Cross-reference with <code>npm-packages</code> for project deps and <code>vscode-extensions</code> for IDE plugins.</li>
+  <li><strong>Internal "approved packages" catalog for an enterprise</strong> — Compliance team needs an allowlist. Filter dataset by <code>license=apache-2.0|mit|bsd-*</code> (64% have license info) → ship as a brew-allowlist file. Engineers see "available packages" instead of free-form <code>brew install</code>.</li>
+  <li><strong>Deprecation audit for an existing dev environment</strong> — Run <code>brew list</code> on a long-running dev machine. Cross-reference each package's name against this dataset's <code>deprecated=true</code> filter (10% of catalog) → flag everything that's been deprecated. Replace with the dataset's <code>deprecation_replacement_formula</code> field. Saves a half-day audit.</li>
+  <li><strong>CLI-tool discovery / "what should I be using?" content</strong> — Newsletter or blog post: "Top 10 CLI tools you didn't know about". Filter dataset by <code>installCount365d &gt; 100K</code> (vetted) AND name not matching common-knowledge tools (git, curl, etc.) → underrated tools surface with their stats. Each becomes a tutorial.</li>
+  <li><strong>Cask / desktop-app catalog for a new Mac</strong> — Filter <code>packageType=cask</code> + sort by install count → top desktop apps brew-distributable: Slack, Zoom, VS Code, Chrome, Discord, etc. Build a "new Mac setup" script that brew-installs them in one command.</li>
+  <li><strong>AI-tooling adoption tracker for the macOS dev community</strong> — The brew package universe is starting to absorb AI tooling: ollama, llama.cpp, mlx-related packages, AI CLIs. Filter dataset by name match for AI keywords → trend cohort showing where Apple Silicon AI infrastructure is heading. Useful for AI-tooling startups picking distribution channels.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

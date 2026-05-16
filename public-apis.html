@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,16 @@
 <h1>Public APIs Directory</h1>
 <p class="meta">2,500+ records · Free sample (20 records, JSON + CSV) · Full dataset $12</p>
 <p class="lead">Catalog of 2,500+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>AI agent's tool-registry / function-calling backend</strong> — An agentic LLM needs a registry of "what APIs can I call". Filter the dataset to <code>auth=no-auth</code> (770 records) and <code>cors=true</code> (502 records) → the agent gets a list of APIs it can call from a browser without secrets management. Saves weeks of API integration plumbing.</li>
+  <li><strong>Hackathon / weekend-project starter</strong> — "What public API can I use this weekend?" — filter by category (<code>finance</code>, <code>games-comics</code>, <code>cryptocurrency</code>, <code>weather</code>) and <code>pricing=free</code>. The dataset becomes a 30-second project starter instead of a Google rabbit hole.</li>
+  <li><strong>Geocoding-API comparison engine</strong> — **163 geocoding APIs** in the dataset. Build a comparison microsite ("Best free geocoding API for {{country}}"), each row with auth, HTTPS, CORS flags. SEO content + affiliate revenue.</li>
+  <li><strong>Lead-gen for B2B fintech / cryptocurrency / open-data</strong> — 122 finance APIs, 76 cryptocurrency, 115 open-data — these are publishers and product owners. A growth team can use the dataset as a sourcing pipeline: vendors who maintain public APIs are usually B2B SaaS targets.</li>
+  <li><strong>"Free APIs that don't need a credit card" content site</strong> — 30.2% of all public APIs are entirely free (779 records). Content angle: "30 free APIs you can use today, no signup needed". The dataset is the table-of-contents.</li>
+  <li><strong>RAG / search index for AI tool builders</strong> — Embed the dataset into a vector store. Now your AI agent / IDE plugin can answer "find me a free API that returns ISO country codes with CORS support" by semantic search.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

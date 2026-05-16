@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>LLMOps & Eval Tooling Directory</h1>
 <p class="meta">490+ records · Free sample (20 records, JSON + CSV) · Full dataset $11</p>
 <p class="lead">Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Stack selection for a new LLM project</strong> — PM/Tech-lead about to ship an AI feature needs to assemble the platform stack. Filter dataset by category (eval / observability / serving / etc.) → instantly see top options per layer. Cross-reference license + GitHub stars to pick OSS-friendly + battle-tested defaults. Saves a week of "what tool should I use" research.</li>
+  <li><strong>AI engineering platform team buildout</strong> — Engineering org spinning up a "Platform AI" team. Filter by category=observability + license=apache-2.0 → vetted observability tools allowlist. Filter by category=guardrails-and-safety → safety-tooling shortlist for compliance review. Internal Notion page populated from the dataset.</li>
+  <li><strong>Comparison content / SEO</strong> — "DeepEval vs RAGAS vs promptfoo vs Inspect: which eval framework should you pick?" content series. Each category in the dataset becomes an evergreen comparison article. Drives organic search from buyer intent queries.</li>
+  <li><strong>AI eval-harness setup</strong> — ML team needs to evaluate their LLM feature. Filter <code>category=evaluation</code> → see DeepEval / RAGAS / promptfoo / openai-evals / Inspect / Giskard. Pair with <code>huggingface-datasets</code> (benchmark-and-eval bucket) for ready-made eval datasets.</li>
+  <li><strong>LLM observability rollout</strong> — Product launches a Copilot-style feature. Filter <code>category=observability</code> → top platforms: Langfuse, Helicone, Langsmith, Opik, Phoenix. Compare features (token-tracking, prompt-caching, span-tracing) and pick the one matching your stack.</li>
+  <li><strong>Trend analysis</strong> — <code>lastUpdated</code> per record + GitHub stars enable cohort analysis. Filter to "tools modified in last 6 months" + group by category → see which platform-tooling categories are growing fastest. This quarter's signal: agent-frameworks growing fastest, followed by RAG-specific tooling.</li>
+  <li><strong>Cross-sell ML 6-pack</strong> — Pair this dataset with <code>ai-models-pricing</code> (hosted APIs) + <code>huggingface-models</code> (open weights) + <code>huggingface-datasets</code> (training data) + <code>ai-prompts</code> (prompt library) + <code>vector-db-and-rag</code> (retrieval) → complete LLM/ML engineering stack. The dataset's role: the platform-tooling layer that makes everything else operational.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">

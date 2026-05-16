@@ -18,6 +18,8 @@
   ul.dl li{padding:.4rem 0;border-bottom:1px solid #f0f0f0}
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  ol.use-cases{padding-left:1.2rem}
+  ol.use-cases li{padding:.45rem 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -27,6 +29,17 @@
 <h1>HuggingFace Datasets Directory</h1>
 <p class="meta">2,600+ records · Free sample (20 records, JSON + CSV) · Full dataset $11</p>
 <p class="lead">Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.</p>
+
+<h2>What you'd use this for</h2>
+<ol class='use-cases'>
+  <li><strong>Fine-tuning starter dataset selection</strong> — Researcher fine-tuning a base model needs SFT data. Filter <code>category=instruct-and-chat</code> (101 records) → curated list of every viable SFT dataset on HF Hub. Pick by <code>downloads</code> (vetted) + <code>language</code> + <code>size_categories</code>. Skip the 250K-dataset Hub UI scroll.</li>
+  <li><strong>RLHF / preference-data hunting</strong> — DPO/RLHF training needs preference data. Filter <code>category=preference-and-rlhf</code> (10 records) → the entire viable open-source RLHF data set in one query. Anthropic HH-RLHF, ultrafeedback, nectar all surfaced.</li>
+  <li><strong>Eval-harness setup for a custom benchmark suite</strong> — Custom eval needs benchmark datasets. Filter <code>category=benchmark-and-eval</code> (494 records) → MMLU, GSM8K, HumanEval, BigBench, ARC-Challenge, HellaSwag, TruthfulQA all surfaced. Build the eval harness from the categorized subset instead of scrolling.</li>
+  <li><strong>Multimodal training-data scout</strong> — Building a vision-language model. Filter <code>category=multimodal</code> OR <code>modality=image</code> (cross-cut) → 600+ image+text datasets including CLIP-training data, VQA datasets, image-captioning corpora. The dataset's structured <code>task_categories</code> field surfaces VQA / DocVQA / image-to-text variants separately.</li>
+  <li><strong>License-compliance audit for an existing training pipeline</strong> — ML team has a multi-dataset training mix. Each dataset's license is buried in HF tags as <code>license:apache-2.0</code> strings. Cross-reference the dataset's <code>license</code> field with your training-mix manifest → flag any non-commercial-only datasets that would block commercial release of the trained model.</li>
+  <li><strong>Translation-model training-data picker</strong> — Building a translation model. Filter <code>category=translation</code> → 47 datasets including WMT, OPUS, Tatoeba, NLLB, FLORES. Sort by <code>language</code> + <code>size_categories</code> → pick the right corpus for your language pair without scrolling through pretraining datasets.</li>
+  <li><strong>Cohort analysis: what training data is the community converging on?</strong> — <code>lastModified</code> + <code>downloads</code> enables cohort tracking. Filter to "datasets modified in last 6 months" + sort by downloads → which dataset is the community currently most actively maintaining? Often signals where the next wave of fine-tunes will originate.</li>
+</ol>
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">
