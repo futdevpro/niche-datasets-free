@@ -67,10 +67,22 @@ Free samples are MIT-style permissive for evaluation. Full datasets licensed per
 {
   "@context": "https://schema.org/",
   "@type": "DataCatalog",
-  "name": "Niche Datasets — Free Samples",
+  "name": "Niche Datasets \u2014 Free Samples",
   "description": "Free 20-record samples of 20 curated developer and AI datasets: npm packages, MCP servers, HuggingFace models and datasets, Homebrew formulae, VS Code extensions, AI tools, AI agents, AI prompts, AI models pricing, public APIs, developer tools, self-hosted software, open-source alternatives, vector-DB / RAG infrastructure, LLMOps tooling, platform engineering, cybersecurity tools, design resources, no-code/low-code tools.",
   "url": "https://futdevpro.github.io/niche-datasets-free/",
-  "keywords": ["datasets", "developer tools", "npm packages", "mcp servers", "huggingface", "homebrew", "vscode extensions", "ai tools", "public apis", "vector database", "structured data"],
+  "keywords": [
+    "datasets",
+    "developer tools",
+    "npm packages",
+    "mcp servers",
+    "huggingface",
+    "homebrew",
+    "vscode extensions",
+    "ai tools",
+    "public apis",
+    "vector database",
+    "structured data"
+  ],
   "creator": {
     "@type": "Organization",
     "name": "Future Development Program",
@@ -81,260 +93,583 @@ Free samples are MIT-style permissive for evaluation. Full datasets licensed per
       "@type": "Dataset",
       "name": "Homebrew Packages Directory",
       "description": "Catalog of 12,200+ Homebrew formulae and casks with install counts, package type, dependencies, tap, and deprecation status. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["homebrew", "macos", "package manager", "cli tools"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/homebrew-packages.html",
+      "keywords": [
+        "homebrew",
+        "macos",
+        "package manager",
+        "cli tools"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "npm Packages Directory",
       "description": "Catalog of 6,000+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["npm", "javascript", "typescript", "packages"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/npm-packages.html",
+      "keywords": [
+        "npm",
+        "javascript",
+        "typescript",
+        "packages"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "VS Code Extensions Directory",
       "description": "Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["vscode", "extensions", "ide", "developer tools"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/vscode-extensions.html",
+      "keywords": [
+        "vscode",
+        "extensions",
+        "ide",
+        "developer tools"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "HuggingFace Models Directory",
       "description": "Catalog of 4,000 most-downloaded HuggingFace models with downloads, likes, license, pipeline tag, modality, and language. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["huggingface", "machine learning", "models", "ai"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/huggingface-models.html",
+      "keywords": [
+        "huggingface",
+        "machine learning",
+        "models",
+        "ai"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Open MCP Servers Directory",
       "description": "Catalog of 3,600+ Model Context Protocol (MCP) servers with GitHub stars, category, and capabilities. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["mcp", "model context protocol", "ai agents", "tooling"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/mcp-servers.html",
+      "keywords": [
+        "mcp",
+        "model context protocol",
+        "ai agents",
+        "tooling"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "AI Tools Directory",
       "description": "Catalog of 2,700+ AI tools and applications with category, pricing model, and API availability. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["ai tools", "artificial intelligence", "saas"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/ai-tools.html",
+      "keywords": [
+        "ai tools",
+        "artificial intelligence",
+        "saas"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Cybersecurity Tools Directory",
       "description": "Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["cybersecurity", "infosec", "pentesting", "security tools"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/cybersecurity-tools.html",
+      "keywords": [
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "security tools"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "HuggingFace Datasets Directory",
       "description": "Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["huggingface", "datasets", "machine learning", "training data"],
+      "url": "https://futdevpro.github.io/niche-datasets-free/huggingface-datasets.html",
+      "keywords": [
+        "huggingface",
+        "datasets",
+        "machine learning",
+        "training data"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Public APIs Directory",
-      "description": "Catalog of 2,500+ public APIs with auth type, HTTPS support, CORS, and category. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["public apis", "rest api", "web services"],
+      "description": "Catalog of 2,500+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/public-apis.html",
+      "keywords": [
+        "public apis",
+        "rest api",
+        "free api",
+        "no-auth api"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Self-Hosted Software Directory",
-      "description": "Catalog of 2,300+ self-hostable software applications across categories like media, productivity, monitoring, and communication. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["self-hosted", "selfhosted", "open source", "homelab"],
+      "description": "Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html",
+      "keywords": [
+        "self-hosted",
+        "open source",
+        "homelab",
+        "selfhost"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Design Resources Directory",
-      "description": "Catalog of 2,100+ design resources: UI component libraries, icon sets, design inspiration, color tools, and typography. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["design", "ui", "icons", "design resources"],
+      "description": "Catalog of 2,100+ design resources across design systems, UI kits, icons, illustrations, stock photos, and tools. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/design-resources.html",
+      "keywords": [
+        "design",
+        "ui kits",
+        "icons",
+        "illustrations",
+        "design systems"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "AI Agents Directory",
-      "description": "Catalog of 2,000+ AI agents and agent frameworks with category and open-source status. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["ai agents", "agent frameworks", "autonomous agents"],
+      "description": "Catalog of 2,000+ AI agent projects and frameworks \u2014 autonomous agents, multi-agent systems, agent-as-a-service tools. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/ai-agents.html",
+      "keywords": [
+        "ai agents",
+        "autonomous agents",
+        "agent frameworks",
+        "llm agents"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "AI Prompts Directory",
-      "description": "Catalog of 1,700+ AI prompts with prompt text, model type (text/structured/image), developer-oriented flag, and contributor. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["ai prompts", "prompt engineering", "llm prompts"],
+      "description": "Catalog of 1,700+ AI prompts across text, structured, and image generation \u2014 categorized for developer workflows. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/ai-prompts.html",
+      "keywords": [
+        "ai prompts",
+        "prompt engineering",
+        "llm prompts",
+        "chatgpt prompts"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Developer Tools Directory",
-      "description": "Catalog of 1,500+ developer tools spanning infrastructure, integrations, productivity, and platform categories. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["developer tools", "devtools", "software development"],
+      "description": "Catalog of 1,500+ developer tools across CLI tools, code editors, debuggers, profilers, and productivity utilities. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/developer-tools.html",
+      "keywords": [
+        "developer tools",
+        "dev tools",
+        "cli tools",
+        "productivity"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Open Source Alternatives Directory",
-      "description": "Catalog of 900+ open-source alternatives to proprietary software, mapped to the commercial products they replace. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["open source", "alternatives", "foss"],
+      "description": "Catalog of 900+ open-source alternatives to popular commercial software \u2014 each entry maps a proprietary product to OSS equivalents. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/open-source-alternatives.html",
+      "keywords": [
+        "open source",
+        "alternatives",
+        "saas alternatives",
+        "self-hostable"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "AI Models & Providers Pricing Matrix",
-      "description": "Catalog of 800+ AI model endpoints with per-token prompt/completion pricing, provider, quantization, modality, context length, and 30-day uptime. Refreshed monthly. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["ai pricing", "llm pricing", "openrouter", "model providers"],
+      "description": "Catalog of 800+ AI model endpoints with per-token pricing (prompt + completion), context length, modality, uptime, across providers and quantizations. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/ai-models-pricing.html",
+      "keywords": [
+        "ai models pricing",
+        "llm pricing",
+        "openrouter",
+        "model api cost"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "No-Code & Low-Code Tools Directory",
-      "description": "Catalog of 500+ no-code and low-code platforms across app builders, automation, internal tools, and database categories. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["no-code", "low-code", "app builders", "automation"],
+      "description": "Catalog of 500+ no-code and low-code tools across automation, app builders, internal tools, and integration platforms. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/no-code-lowcode.html",
+      "keywords": [
+        "no-code",
+        "low-code",
+        "automation",
+        "app builders"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "LLMOps & Eval Tooling Directory",
-      "description": "Catalog of 490+ LLMOps and evaluation tools across fine-tuning, observability, serving, agent frameworks, and deployment categories. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["llmops", "ml eval", "observability", "fine-tuning"],
+      "description": "Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/llmops-and-eval.html",
+      "keywords": [
+        "llmops",
+        "llm evaluation",
+        "ai observability",
+        "prompt management",
+        "model serving"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Platform Engineering & IDP Tooling Directory",
-      "description": "Catalog of 390+ platform engineering and internal developer platform tools across 14 categories: developer portals, GitOps, service mesh, IaC, observability, and more. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["platform engineering", "idp", "gitops", "devops"],
+      "description": "Catalog of 390+ platform engineering tools across developer portals, GitOps, service mesh, IaC, observability, container orchestration, CI/CD, secrets, policy, feature flags, service catalog, cost management, and DX. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/platform-engineering.html",
+      "keywords": [
+        "platform engineering",
+        "idp",
+        "developer portal",
+        "gitops",
+        "devops"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/platform-engineering-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/platform-engineering-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/platform-engineering-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/platform-engineering-sample.csv"
+        }
       ]
     },
     {
       "@type": "Dataset",
       "name": "Vector DB & RAG Infrastructure Directory",
-      "description": "Catalog of 190+ vector database engines and RAG infrastructure tools across vector-db-engine, RAG framework, RAG eval, and agentic RAG categories. Free sample: 20 records.",
-      "url": "https://github.com/futdevpro/niche-datasets-free",
-      "keywords": ["vector database", "rag", "retrieval augmented generation", "embeddings"],
+      "description": "Catalog of 190+ vector databases and RAG infrastructure tools \u2014 embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends. Free sample: 20 records.",
+      "url": "https://futdevpro.github.io/niche-datasets-free/vector-db-and-rag.html",
+      "keywords": [
+        "vector database",
+        "rag",
+        "embeddings",
+        "retrieval",
+        "semantic search"
+      ],
       "license": "https://opensource.org/licenses/MIT",
-      "creator": {"@type": "Organization", "name": "Future Development Program"},
+      "creator": {
+        "@type": "Organization",
+        "name": "Future Development Program"
+      },
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.json"},
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.csv"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.csv"
+        }
       ]
     }
   ]
