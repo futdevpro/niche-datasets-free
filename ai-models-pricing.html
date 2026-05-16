@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -39,6 +44,15 @@
   <li><strong>Newsletter / market-analysis content</strong> — A monthly "LLM pricing recap" newsletter needs source data. The dataset provides the entire matrix; the newsletter writer just narrates the deltas (<code>new providers added</code>, <code>top price-drops</code>, <code>category trends</code>). Refresh-monthly cadence aligns perfectly with newsletter cadence.</li>
   <li><strong>Quantization-vs-quality tradeoff dashboard</strong> — ML engineering team wants to know "if we drop from bf16 to fp8 on Llama 3.3, how much do we save?". Dataset surfaces both quantization tiers per provider with their pricing → instant savings calculation. Answer: usually 30-50% cost reduction.</li>
   <li><strong>Capability-driven model picker for an agent framework</strong> — Agent framework needs to find "the cheapest model that supports <code>tools</code> AND <code>structured_outputs</code> AND has 128K+ context". Dataset's <code>supportedParameters</code> + <code>contextLength</code> + pricing in one schema → the picker is a 5-line query.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">Google: Gemini 3 Flash Preview via Google [unknown]</span> — Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool... — 1,048,576 context, $0.50/M input, $3.00/M output vi <br><small><code>audio</code> · <code>paid</code> · <a href="https://openrouter.ai/google/gemini-3-flash-preview#provider=google-unknown" rel="nofollow noopener">https://openrouter.ai/google/gemini-3-flash-preview#provider=google-unknown</a></small></li>
+  <li><span class="name">Qwen: Qwen3 Coder 480B A35B via Google [unknown]</span> — Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over... — 262,144 context <br><small><code>chat</code> · <code>paid</code> · <a href="https://openrouter.ai/qwen/qwen3-coder#provider=google-unknown" rel="nofollow noopener">https://openrouter.ai/qwen/qwen3-coder#provider=google-unknown</a></small></li>
+  <li><span class="name">Mistral: Codestral 2508 via Mistral [unknown]</span> — Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation. [Blog Post](https://mistral.ai/new <br><small><code>code</code> · <code>paid</code> · <a href="https://openrouter.ai/mistralai/codestral-2508#provider=mistral-unknown" rel="nofollow noopener">https://openrouter.ai/mistralai/codestral-2508#provider=mistral-unknown</a></small></li>
+  <li><span class="name">Prime Intellect: INTELLECT-3 via Nebius [fp8]</span> — INTELLECT-3 is a 106B-parameter Mixture-of-Experts model (12B active) post-trained from GLM-4.5-Air-Base using supervised fine-tuning (SFT) followed by large-scale reinforcement learning (RL). It offers state-of-the-art performance for its  <br><small><code>fine-tunable</code> · <code>paid</code> · <a href="https://openrouter.ai/prime-intellect/intellect-3#provider=nebius-fp8" rel="nofollow noopener">https://openrouter.ai/prime-intellect/intellect-3#provider=nebius-fp8</a></small></li>
+  <li><span class="name">Google: Nano Banana (Gemini 2.5 Flash Image) via Google AI Studio [unknown]</span> — Gemini 2.5 Flash Image, a.k.a. "Nano Banana," is now generally available. It is a state of the art image generation model with contextual understanding. It is capable of image generation,... — 32,768 context, $0.30/M input, $2.50/M output v <br><small><code>image-generation</code> · <code>paid</code> · <a href="https://openrouter.ai/google/gemini-2.5-flash-image#provider=google-ai-studio-unknown" rel="nofollow noopener">https://openrouter.ai/google/gemini-2.5-flash-image#provider=google-ai-studio-unknown</a></small></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>

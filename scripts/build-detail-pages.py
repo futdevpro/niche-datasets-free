@@ -127,6 +127,11 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
   .nav{{font-size:.9rem;color:#666;margin-bottom:1rem}}
   ol.use-cases{{padding-left:1.2rem}}
   ol.use-cases li{{padding:.45rem 0;line-height:1.5}}
+  ol.preview{{padding-left:1.2rem;font-size:.93rem}}
+  ol.preview li{{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}}
+  ol.preview .name{{font-weight:600}}
+  ol.preview .tags{{color:#888;font-size:.85em}}
+  ol.preview a{{font-size:.88em;word-break:break-all}}
 </style>
 </head>
 <body>
@@ -139,6 +144,9 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 
 <h2>What you'd use this for</h2>
 {use_cases_html}
+
+<h2>Sample preview (first 5 records)</h2>
+{preview_html}
 
 <h2>Free sample (20 records)</h2>
 <ul class="dl">
@@ -201,6 +209,55 @@ def load_use_cases(slug, repo_root):
     if not items:
         return ""
     return "<ol class='use-cases'>\n" + "\n".join(items) + "\n</ol>"
+
+
+def load_preview(slug, repo_root, n=5):
+    """Load first N records from {slug}-sample.json and render as a structured <ol>.
+    Each record shows name, description, url, category, pricing, tags — common across
+    all 20 datasets. Returns '' if file unreachable."""
+    path = os.path.join(repo_root, f"{slug}-sample.json")
+    if not os.path.isfile(path):
+        return ""
+    with open(path, "r", encoding="utf-8") as f:
+        try:
+            data = json.load(f)
+        except Exception:
+            return ""
+    if not isinstance(data, list) or not data:
+        return ""
+
+    def esc(s):
+        return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    items = []
+    for rec in data[:n]:
+        if not isinstance(rec, dict):
+            continue
+        name = esc(rec.get("name", "(unnamed)"))
+        desc = esc(rec.get("description", ""))[:240]
+        url = rec.get("url", "")
+        category = esc(rec.get("category", ""))
+        pricing = esc(rec.get("pricing", ""))
+        tags = rec.get("tags", [])
+        if isinstance(tags, list):
+            tags_str = esc(", ".join(str(t) for t in tags[:5]))
+        else:
+            tags_str = ""
+        meta_bits = []
+        if category:
+            meta_bits.append(f"<code>{category}</code>")
+        if pricing:
+            meta_bits.append(f"<code>{pricing}</code>")
+        meta_str = " · ".join(meta_bits)
+        url_html = f'<a href="{esc(url)}" rel="nofollow noopener">{esc(url)}</a>' if url else ""
+        items.append(
+            f'  <li><span class="name">{name}</span> — {desc} '
+            f'<br><small>{meta_str}{" · " if meta_str and url_html else ""}{url_html}</small>'
+            f'{f"<br><span class=\"tags\">tags: {tags_str}</span>" if tags_str else ""}</li>'
+        )
+    if not items:
+        return ""
+    return "<ol class='preview'>\n" + "\n".join(items) + "\n</ol>"
 
 
 def build_jsonld(d):
@@ -303,17 +360,24 @@ def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     count = 0
     use_case_hits = 0
+    preview_hits = 0
     for d in DATASETS:
         use_cases_html = load_use_cases(d["slug"], repo_root)
         if use_cases_html:
             use_case_hits += 1
         else:
             use_cases_html = "<p class='meta'>Use-cases coming soon.</p>"
+        preview_html = load_preview(d["slug"], repo_root)
+        if preview_html:
+            preview_hits += 1
+        else:
+            preview_html = "<p class='meta'>Preview unavailable — see the sample files below.</p>"
         html = DETAIL_TEMPLATE.format(
             name=d["name"], desc=d["desc"], records=d["records"],
             slug=d["slug"], gumroad=d["gumroad"], price=d["price"],
             jsonld=build_jsonld(d),
             use_cases_html=use_cases_html,
+            preview_html=preview_html,
         )
         path = os.path.join(repo_root, f"{d['slug']}.html")
         with open(path, "w", encoding="utf-8") as f:
@@ -323,7 +387,7 @@ def main():
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(build_sitemap())
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+2} URLs: root + faq + 20 detail) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}.")
+    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+2} URLs: root + faq + 20 detail) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
 
 if __name__ == "__main__":

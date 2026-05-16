@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -39,6 +44,15 @@
   <li><strong>CLI-tool discovery / "what should I be using?" content</strong> — Newsletter or blog post: "Top 10 CLI tools you didn't know about". Filter dataset by <code>installCount365d &gt; 100K</code> (vetted) AND name not matching common-knowledge tools (git, curl, etc.) → underrated tools surface with their stats. Each becomes a tutorial.</li>
   <li><strong>Cask / desktop-app catalog for a new Mac</strong> — Filter <code>packageType=cask</code> + sort by install count → top desktop apps brew-distributable: Slack, Zoom, VS Code, Chrome, Discord, etc. Build a "new Mac setup" script that brew-installs them in one command.</li>
   <li><strong>AI-tooling adoption tracker for the macOS dev community</strong> — The brew package universe is starting to absorb AI tooling: ollama, llama.cpp, mlx-related packages, AI CLIs. Filter dataset by name match for AI keywords → trend cohort showing where Apple Silicon AI infrastructure is heading. Useful for AI-tooling startups picking distribution channels.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">xh</span> — Friendly and fast tool for sending HTTP requests <br><small><code>cli-tool</code> · <code>open-source</code> · <a href="https://github.com/ducaale/xh" rel="nofollow noopener">https://github.com/ducaale/xh</a></small><br><span class="tags">tags: core</span></li>
+  <li><span class="name">Aquafold Aqua Data Studio</span> — Database IDE with data management and visual analytics <br><small><code>database</code> · <code>free</code> · <a href="https://aquadatastudio.com/" rel="nofollow noopener">https://aquadatastudio.com/</a></small><br><span class="tags">tags: cask</span></li>
+  <li><span class="name">gaul</span> — Genetic Algorithm Utility Library <br><small><code>dev-library</code> · <code>open-source</code> · <a href="https://gaul.sourceforge.net/" rel="nofollow noopener">https://gaul.sourceforge.net/</a></small><br><span class="tags">tags: core</span></li>
+  <li><span class="name">Microsoft Visual Studio</span> — Integrated development environment <br><small><code>gui-app</code> · <code>free</code> · <a href="https://visualstudio.microsoft.com/vs/mac" rel="nofollow noopener">https://visualstudio.microsoft.com/vs/mac</a></small><br><span class="tags">tags: cask</span></li>
+  <li><span class="name">clojurescript</span> — Clojure to JS compiler <br><small><code>language-runtime</code> · <code>open-source</code> · <a href="https://github.com/clojure/clojurescript" rel="nofollow noopener">https://github.com/clojure/clojurescript</a></small><br><span class="tags">tags: core</span></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>

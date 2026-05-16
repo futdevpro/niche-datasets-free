@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -38,6 +43,15 @@
   <li><strong>Security education / curriculum builder</strong> — A bootcamp or MSSP training program builds a curriculum from the dataset's category breakdown — OSINT fundamentals (1,246 tools), network (225), endpoint (233), web (99), forensics (94). Each module has a built-in tool list.</li>
   <li><strong>Lead-gen / vertical mapping for cybersec SaaS vendors</strong> — The vendors in the dataset are often cybersecurity SaaS targets themselves. A growth team filters paid tools (109) and freemium (471) — these are the commercial cybersec vendors mappable as competition or partnership candidates.</li>
   <li><strong>AI agent for security automation</strong> — An AI agent that runs "what tool can I use for X security task" → embed the dataset, semantic-search by toolType + category. Useful for security copilots and automated triage.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">ANSSI - Recommendations on multi-factor authentication and passwords</span> — (2021, French) <br><small><code>authentication</code> · <code>unknown</code> · <a href="https://messervices.cyber.gouv.fr/guides/recommandations-relatives-lauthentification-multifacteur-et-aux-mots-de-passe" rel="nofollow noopener">https://messervices.cyber.gouv.fr/guides/recommandations-relatives-lauthentification-multifacteur-et-aux-mots-de-passe</a></small><br><span class="tags">tags: authentication - passwords</span></li>
+  <li><span class="name">Clair</span> — [F] — Image vulnerability analysis. <br><small><code>cloud</code> · <code>open-source</code> · <a href="https://github.com/quay/clair" rel="nofollow noopener">https://github.com/quay/clair</a></small><br><span class="tags">tags: containers &amp; kubernetes</span></li>
+  <li><span class="name">JWT Cracker</span> — Simple HS256 JSON Web Token (JWT) token brute force cracker. <br><small><code>cryptography</code> · <code>open-source</code> · <a href="https://github.com/lmammino/jwt-cracker" rel="nofollow noopener">https://github.com/lmammino/jwt-cracker</a></small><br><span class="tags">tags: hash cracking tools</span></li>
+  <li><span class="name">CTF Field Guide</span> — Everything you need to win your next CTF competition. <br><small><code>ctf</code> · <code>open-source</code> · <a href="https://trailofbits.github.io/ctf" rel="nofollow noopener">https://trailofbits.github.io/ctf</a></small><br><span class="tags">tags: ctf tools</span></li>
+  <li><span class="name">Apache HTTP Server documentation - Security Tips</span> — Apache HTTP Server documentation - Security Tips <br><small><code>endpoint</code> · <code>unknown</code> · <a href="http://httpd.apache.org/docs/current/misc/security_tips.html" rel="nofollow noopener">http://httpd.apache.org/docs/current/misc/security_tips.html</a></small><br><span class="tags">tags: services, web servers</span></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>

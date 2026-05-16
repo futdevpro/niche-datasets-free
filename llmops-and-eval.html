@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -39,6 +44,15 @@
   <li><strong>LLM observability rollout</strong> — Product launches a Copilot-style feature. Filter <code>category=observability</code> → top platforms: Langfuse, Helicone, Langsmith, Opik, Phoenix. Compare features (token-tracking, prompt-caching, span-tracing) and pick the one matching your stack.</li>
   <li><strong>Trend analysis</strong> — <code>lastUpdated</code> per record + GitHub stars enable cohort analysis. Filter to "tools modified in last 6 months" + group by category → see which platform-tooling categories are growing fastest. This quarter's signal: agent-frameworks growing fastest, followed by RAG-specific tooling.</li>
   <li><strong>Cross-sell ML 6-pack</strong> — Pair this dataset with <code>ai-models-pricing</code> (hosted APIs) + <code>huggingface-models</code> (open weights) + <code>huggingface-datasets</code> (training data) + <code>ai-prompts</code> (prompt library) + <code>vector-db-and-rag</code> (retrieval) → complete LLM/ML engineering stack. The dataset's role: the platform-tooling layer that makes everything else operational.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">ComfyUI</span> — ComfyUI is a node-based interface and inference engine for generative AI, specifically designed to work with Stable Diffusion and other AI models. It allows users to create complex workflows for image, video, and other content generation th <br><small><code>agent-framework</code> · <code>open-source</code> · <a href="https://github.com/comfyanonymous/comfyui" rel="nofollow noopener">https://github.com/comfyanonymous/comfyui</a></small><br><span class="tags">tags: agent interfaces</span></li>
+  <li><span class="name">Dolt</span> — Git for Data. <br><small><code>data-and-training</code> · <code>open-source</code> · <a href="https://github.com/dolthub/dolt" rel="nofollow noopener">https://github.com/dolthub/dolt</a></small><br><span class="tags">tags: data management</span></li>
+  <li><span class="name">Kserve</span> — Standardized Serverless ML Inference Platform on Kubernetes <br><small><code>deployment-and-infra</code> · <code>open-source</code> · <a href="https://github.com/kserve/kserve" rel="nofollow noopener">https://github.com/kserve/kserve</a></small><br><span class="tags">tags: ml platforms</span></li>
+  <li><span class="name">Katib</span> — Katib is a Kubernetes-native project for automated machine learning (AutoML). <br><small><code>fine-tuning</code> · <code>open-source</code> · <a href="https://github.com/kubeflow/katib" rel="nofollow noopener">https://github.com/kubeflow/katib</a></small><br><span class="tags">tags: automl</span></li>
+  <li><span class="name">Plexiglass</span> — A Python Machine Learning Pentesting Toolbox for Adversarial Attacks. Works with LLMs, DNNs, and other machine learning algorithms. <br><small><code>guardrails-and-safety</code> · <code>open-source</code> · <a href="https://github.com/kortex-labs/plexiglass" rel="nofollow noopener">https://github.com/kortex-labs/plexiglass</a></small><br><span class="tags">tags: frameworks for llm security</span></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>

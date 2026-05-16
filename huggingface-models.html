@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -39,6 +44,15 @@
   <li><strong>License-compliance audit for an existing pipeline</strong> — ML pipeline already uses 5-10 HF models. Each model's license is buried in the README. Cross-reference your model IDs with this dataset's <code>license</code> field → flagged in 30 seconds: "model X is gpl-3.0, will block commercial deployment".</li>
   <li><strong>Library-preference filter for engineering teams</strong> — "We standardized on PyTorch" → filter <code>library_name=transformers</code> (excludes mlx / tflite / onnx forks). "We're on Apple Silicon" → filter <code>library_name=mlx</code>. The dataset surfaces the lib boundary that's invisible on the HF UI.</li>
   <li><strong>Trend analysis: what's growing in open-weight ML?</strong> — <code>createdAt</code> + <code>downloads</code> enable cohort analysis. Filter to "models created in last 6 months" → see which categories the community is actively forking. This quarter's answer: multimodal + reasoning + MLX-targeted models.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">intfloat/e5-base</span> — sentence similarity (sentence-transformers) — license: mit — 354,418 downloads <br><small><code>embedding</code> · <code>open-source</code> · <a href="https://huggingface.co/intfloat/e5-base" rel="nofollow noopener">https://huggingface.co/intfloat/e5-base</a></small><br><span class="tags">tags: sentence-transformers, pytorch, safetensors, bert, mteb</span></li>
+  <li><span class="name">facebook/mask2former-swin-tiny-coco-instance</span> — image segmentation (transformers) — license: other — 62,374 downloads <br><small><code>image-classification</code> · <code>open-source</code> · <a href="https://huggingface.co/facebook/mask2former-swin-tiny-coco-instance" rel="nofollow noopener">https://huggingface.co/facebook/mask2former-swin-tiny-coco-instance</a></small><br><span class="tags">tags: transformers, pytorch, safetensors, mask2former, vision</span></li>
+  <li><span class="name">Comfy-Org/HunyuanImage_2.1_ComfyUI</span> — (diffusion-single-file) — 38,645 downloads <br><small><code>image-generation</code> · <code>open-source</code> · <a href="https://huggingface.co/comfy-org/hunyuanimage_2.1_comfyui" rel="nofollow noopener">https://huggingface.co/comfy-org/hunyuanimage_2.1_comfyui</a></small><br><span class="tags">tags: diffusion-single-file, comfyui</span></li>
+  <li><span class="name">OpenGVLab/InternVL2-1B</span> — image text to text (transformers) — license: mit — 671,559 downloads <br><small><code>multimodal</code> · <code>open-source</code> · <a href="https://huggingface.co/opengvlab/internvl2-1b" rel="nofollow noopener">https://huggingface.co/opengvlab/internvl2-1b</a></small><br><span class="tags">tags: transformers, safetensors, internvl_chat, feature-extraction, internvl</span></li>
+  <li><span class="name">docling-project/docling-layout-old</span> — — license: apache-2.0 — 99,770 downloads <br><small><code>object-detection</code> · <code>open-source</code> · <a href="https://huggingface.co/docling-project/docling-layout-old" rel="nofollow noopener">https://huggingface.co/docling-project/docling-layout-old</a></small><br><span class="tags">tags: safetensors, rt_detr</span></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>

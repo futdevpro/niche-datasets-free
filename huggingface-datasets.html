@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -39,6 +44,15 @@
   <li><strong>License-compliance audit for an existing training pipeline</strong> — ML team has a multi-dataset training mix. Each dataset's license is buried in HF tags as <code>license:apache-2.0</code> strings. Cross-reference the dataset's <code>license</code> field with your training-mix manifest → flag any non-commercial-only datasets that would block commercial release of the trained model.</li>
   <li><strong>Translation-model training-data picker</strong> — Building a translation model. Filter <code>category=translation</code> → 47 datasets including WMT, OPUS, Tatoeba, NLLB, FLORES. Sort by <code>language</code> + <code>size_categories</code> → pick the right corpus for your language pair without scrolling through pretraining datasets.</li>
   <li><strong>Cohort analysis: what training data is the community converging on?</strong> — <code>lastModified</code> + <code>downloads</code> enables cohort tracking. Filter to "datasets modified in last 6 months" + sort by downloads → which dataset is the community currently most actively maintaining? Often signals where the next wave of fine-tunes will originate.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">Narsil/image_dummy</span> — Narsil/image_dummy — audio API <br><small><code>audio</code> · <code>open-source</code> · <a href="https://huggingface.co/datasets/narsil/image_dummy" rel="nofollow noopener">https://huggingface.co/datasets/narsil/image_dummy</a></small><br><span class="tags">tags: size_categories:n&lt;1k, modality:audio, modality:image, modality:text</span></li>
+  <li><span class="name">MathLLMs/VoiceAssistant-Eval</span> — 🔥 VoiceAssistant-Eval: Benchmarking AI Assistants across Listening, Speaking, and Viewing [🌐 Homepage] [🔮 Visualization] [💻 Github] [📖 Paper] [📊 Leaderboard ] [📊 Detailed Leaderboard ] [📊 Roleplay Leaderboard ] 🚀 Data Usage from datasets im <br><small><code>benchmark-and-eval</code> · <code>open-source</code> · <a href="https://huggingface.co/datasets/mathllms/voiceassistant-eval" rel="nofollow noopener">https://huggingface.co/datasets/mathllms/voiceassistant-eval</a></small><br><span class="tags">tags: task_categories:question-answering, task_categories:visual-question-answering, task_categories:audio-to-audio, task_categories:any-to-any, task_categories:multiple-choice</span></li>
+  <li><span class="name">Saras583/marveldataset</span> — UltraData-Math 🤗 Dataset | 💻 Source Code | 🇨🇳 中文 README UltraData-Math is a large-scale, high-quality mathematical pre-training dataset totaling 290B+ tokens across three progressive tiers—L1 (170.5B tokens web corpus), L2 (33.7B tokens qua <br><small><code>code</code> · <code>open-source</code> · <a href="https://huggingface.co/datasets/saras583/marveldataset" rel="nofollow noopener">https://huggingface.co/datasets/saras583/marveldataset</a></small><br><span class="tags">tags: task_categories:text-generation, language:en, language:zh, size_categories:100m&lt;n&lt;1b, modality:text</span></li>
+  <li><span class="name">wendlerc/RenderedText</span> — This dataset has been created by Stability AI and LAION. This dataset contains 12 million 1024x1024 images of handwritten text written on a digital 3D sheet of paper generated using Blender geometry nodes and rendered using Blender Cycles.  <br><small><code>image</code> · <code>open-source</code> · <a href="https://huggingface.co/datasets/wendlerc/renderedtext" rel="nofollow noopener">https://huggingface.co/datasets/wendlerc/renderedtext</a></small><br><span class="tags">tags: task_categories:text-to-image, task_categories:image-to-text, language:en, size_categories:10m&lt;n&lt;100m, modality:image</span></li>
+  <li><span class="name">mihir-1999/nemotron-cc-v21-Parsed-QA4-filtered-1.7B-evensplit-RQ-8B-CoT-8B1-parts-0-126</span> — — 6,394 downloads <br><small><code>instruct-and-chat</code> · <code>open-source</code> · <a href="https://huggingface.co/datasets/mihir-1999/nemotron-cc-v21-parsed-qa4-filtered-1.7b-evensplit-rq-8b-cot-8b1-parts-0-126" rel="nofollow noopener">https://huggingface.co/datasets/mihir-1999/nemotron-cc-v21-parsed-qa4-filtered-1.7b-evensplit-rq-8b-cot-8b1-parts-0-126</a></small></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>

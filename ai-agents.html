@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -37,6 +42,15 @@
   <li><strong>Research agent / academic mapping</strong> — 75 research agents (autonomous deep-research bots, paper summarizers, etc.). Academics + market intel teams use the dataset to track the autonomous-research space.</li>
   <li><strong>"Build vs. adopt" decision support</strong> — Product teams asking "should we build our own agent or adopt {{framework}}?" — the dataset's <code>category=framework</code> filter (1,324 records) shows the OSS option-space, with <code>pricing</code> showing the build-or-buy economics.</li>
   <li><strong>AI-agent registry for an LLM playground</strong> — Embed the dataset → an LLM playground / IDE plugin that recommends agents based on user intent. "I want to scrape a website" → returns matching scraping agents from the dataset.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">ALF OS</span> — Self-hosted AI assistant daemon with encrypted credential vault, persistent memory, cron scheduler, multi-provider routing (Claude Code, Codex, GPT, Ollama, OpenRouter), Telegram bot with voice transcription, and web dashboard. Docker Compo <br><small><code>autonomous</code> · <code>open-source</code> · <a href="https://github.com/alamparelli/alf" rel="nofollow noopener">https://github.com/alamparelli/alf</a></small><br><span class="tags">tags: applications, autonomous agent task solver projects</span></li>
+  <li><span class="name">LLM Stack</span> — LLM Stack — AI agent <br><small><code>browser</code> · <code>freemium</code> · <a href="https://llmstack.ai/" rel="nofollow noopener">https://llmstack.ai/</a></small><br><span class="tags">tags: build-your-own no-code web ui</span></li>
+  <li><span class="name">Nous</span> — TypeScript AI agent platform with Autonomous agents, Software developer agents, AI code review agents and more. <br><small><code>coding</code> · <code>open-source</code> · <a href="https://github.com/trafficguard/nous" rel="nofollow noopener">https://github.com/trafficguard/nous</a></small><br><span class="tags">tags: software development</span></li>
+  <li><span class="name">Elomia</span> — AI therapy chatbot. Clinician-designed, natural conversation. 85% feel better after chat. Anonymous, no data collection. <br><small><code>conversation</code> · <code>freemium</code> · <a href="https://elomia.com/" rel="nofollow noopener">https://elomia.com/</a></small><br><span class="tags">tags: healthcare and therapy agents</span></li>
+  <li><span class="name">FLUX 2</span> — Open-weight. Best photorealism. 4K. 6x speed. <br><small><code>creative</code> · <code>freemium</code> · <a href="https://blackforestlabs.ai/" rel="nofollow noopener">https://blackforestlabs.ai/</a></small><br><span class="tags">tags: image generation</span></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>

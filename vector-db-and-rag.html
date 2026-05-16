@@ -20,6 +20,11 @@
   .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
   ol.use-cases{padding-left:1.2rem}
   ol.use-cases li{padding:.45rem 0;line-height:1.5}
+  ol.preview{padding-left:1.2rem;font-size:.93rem}
+  ol.preview li{padding:.5rem 0;line-height:1.45;border-bottom:1px solid #f4f4f4}
+  ol.preview .name{font-weight:600}
+  ol.preview .tags{color:#888;font-size:.85em}
+  ol.preview a{font-size:.88em;word-break:break-all}
 </style>
 </head>
 <body>
@@ -39,6 +44,15 @@
   <li><strong>RAG evaluation tooling</strong> — "How do I measure my RAG quality?" Filter <code>category=rag-eval</code> → 38 records: RAGAS / DeepEval / TruLens / continous-eval / BEIR benchmarks. Pick by RAG-specific eval support.</li>
   <li><strong>Hybrid search architecture</strong> — Building production search. Filter <code>category=hybrid-search</code> for BM25 + dense combinations. Filter <code>category=search-engine</code> for Elasticsearch / OpenSearch / Meilisearch / Typesense alternatives. The two together cover the "search infrastructure" decision.</li>
   <li><strong>Cross-sell ML 6-pack</strong> — Pair with <code>ai-models-pricing</code> (hosted APIs) + <code>huggingface-models</code> (open weights) + <code>huggingface-datasets</code> (training data) + <code>ai-prompts</code> (prompts) + <code>llmops-and-eval</code> (platform tooling) → complete LLM/ML engineering stack. The dataset's role: the retrieval layer that connects user query to model context.</li>
+</ol>
+
+<h2>Sample preview (first 5 records)</h2>
+<ol class='preview'>
+  <li><span class="name">GraphRAG</span> — A structured approach using knowledge graphs for enhanced context integration and reasoning. <br><small><code>agentic-rag</code> · <code>open-source</code> · <a href="https://github.com/microsoft/graphrag" rel="nofollow noopener">https://github.com/microsoft/graphrag</a></small><br><span class="tags">tags: advanced approaches</span></li>
+  <li><span class="name">Qdrant's Vector Database Benchmarks</span> — Qdrant's Vector Database Benchmarks <br><small><code>rag-eval</code> · <code>free</code> · <a href="https://qdrant.tech/benchmarks" rel="nofollow noopener">https://qdrant.tech/benchmarks</a></small><br><span class="tags">tags: others</span></li>
+  <li><span class="name">Verba</span> — Open-source application for RAG out of the box. <br><small><code>rag-framework</code> · <code>open-source</code> · <a href="https://github.com/weaviate/verba" rel="nofollow noopener">https://github.com/weaviate/verba</a></small><br><span class="tags">tags: frameworks that facilitate rag</span></li>
+  <li><span class="name">Meilisearch</span> — Meilisearch <br><small><code>search-engine</code> · <code>free</code> · <a href="https://www.meilisearch.com/solutions/vector-search" rel="nofollow noopener">https://www.meilisearch.com/solutions/vector-search</a></small></li>
+  <li><span class="name">brinicle</span> — Resource-efficient C++ vector index engine built for low-RAM production workloads <br><small><code>vector-db-engine</code> · <code>open-source</code> · <a href="https://github.com/bicardinal/brinicle" rel="nofollow noopener">https://github.com/bicardinal/brinicle</a></small><br><span class="tags">tags: multidimensional data / vectors</span></li>
 </ol>
 
 <h2>Free sample (20 records)</h2>
