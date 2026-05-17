@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "developer-tools",
+  "name": "Developer Tools Directory",
+  "recordCount": "1,500+",
+  "description": "Catalog of 1,500+ developer tools across CLI tools, code editors, debuggers, profilers, and productivity utilities.",
+  "keywords": [
+    "developer tools",
+    "dev tools",
+    "cli tools",
+    "productivity"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/developer-tools.html",
+  "fullDatasetPriceUsd": 9,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/developer-tools-directory",
+  "related": [
+    "npm-packages",
+    "homebrew-packages",
+    "vscode-extensions"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

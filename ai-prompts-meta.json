@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "ai-prompts",
+  "name": "AI Prompts Directory",
+  "recordCount": "1,700+",
+  "description": "Catalog of 1,700+ AI prompts across text, structured, and image generation \u2014 categorized for developer workflows.",
+  "keywords": [
+    "ai prompts",
+    "prompt engineering",
+    "llm prompts",
+    "chatgpt prompts"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-prompts.html",
+  "fullDatasetPriceUsd": 9,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-prompts-directory",
+  "related": [
+    "ai-tools",
+    "ai-agents",
+    "huggingface-datasets"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

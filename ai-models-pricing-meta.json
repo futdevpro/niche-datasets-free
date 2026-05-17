@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "ai-models-pricing",
+  "name": "AI Models & Providers Pricing Matrix",
+  "recordCount": "800+",
+  "description": "Catalog of 800+ AI model endpoints with per-token pricing (prompt + completion), context length, modality, uptime, across providers and quantizations.",
+  "keywords": [
+    "ai models pricing",
+    "llm pricing",
+    "openrouter",
+    "model api cost"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-models-pricing.html",
+  "fullDatasetPriceUsd": 11,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-models-pricing-matrix",
+  "related": [
+    "huggingface-models",
+    "llmops-and-eval",
+    "ai-agents"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

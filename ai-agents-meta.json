@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "ai-agents",
+  "name": "AI Agents Directory",
+  "recordCount": "2,000+",
+  "description": "Catalog of 2,000+ AI agent projects and frameworks \u2014 autonomous agents, multi-agent systems, agent-as-a-service tools.",
+  "keywords": [
+    "ai agents",
+    "autonomous agents",
+    "agent frameworks",
+    "llm agents"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-agents.html",
+  "fullDatasetPriceUsd": 7,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-agents-directory",
+  "related": [
+    "mcp-servers",
+    "llmops-and-eval",
+    "ai-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

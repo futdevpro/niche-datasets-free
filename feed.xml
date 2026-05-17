@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niche Datasets — Refresh Feed</title>
+    <link>https://futdevpro.github.io/niche-datasets-free/</link>
+    <atom:link href="https://futdevpro.github.io/niche-datasets-free/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Refresh notifications for the 20 curated developer and AI dataset samples. One item per dataset, updated on each monthly/quarterly refresh.</description>
+    <language>en-us</language>
+    <generator>build-detail-pages.py</generator>
+    <item>
+      <title>Homebrew Packages Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/homebrew-packages.html</link>
+      <guid isPermaLink="false">homebrew-packages-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 12,200+ Homebrew formulae and casks with install counts, package type, dependencies, tap, and deprecation status. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
+      <title>npm Packages Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/npm-packages.html</link>
+      <guid isPermaLink="false">npm-packages-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 6,000+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
+      <title>VS Code Extensions Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/vscode-extensions.html</link>
+      <guid isPermaLink="false">vscode-extensions-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
+      <title>HuggingFace Models Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/huggingface-models.html</link>
+      <guid isPermaLink="false">huggingface-models-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 4,000 most-downloaded HuggingFace models with downloads, likes, license, pipeline tag, modality, and language. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Open MCP Servers Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/mcp-servers.html</link>
+      <guid isPermaLink="false">mcp-servers-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 3,600+ Model Context Protocol (MCP) servers with GitHub stars, category, and capabilities. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
+      <title>AI Tools Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/ai-tools.html</link>
+      <guid isPermaLink="false">ai-tools-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,700+ AI tools and applications with category, pricing model, and API availability. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Cybersecurity Tools Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/cybersecurity-tools.html</link>
+      <guid isPermaLink="false">cybersecurity-tools-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
+      <title>HuggingFace Datasets Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/huggingface-datasets.html</link>
+      <guid isPermaLink="false">huggingface-datasets-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Public APIs Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/public-apis.html</link>
+      <guid isPermaLink="false">public-apis-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,500+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories. Full dataset $12 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Self-Hosted Software Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html</link>
+      <guid isPermaLink="false">self-hosted-software-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more. Full dataset $14 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Design Resources Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/design-resources.html</link>
+      <guid isPermaLink="false">design-resources-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,100+ design resources across design systems, UI kits, icons, illustrations, stock photos, and tools. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
+      <title>AI Agents Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/ai-agents.html</link>
+      <guid isPermaLink="false">ai-agents-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,000+ AI agent projects and frameworks — autonomous agents, multi-agent systems, agent-as-a-service tools. Full dataset $7 on Gumroad.</description>
+    </item>
+    <item>
+      <title>AI Prompts Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/ai-prompts.html</link>
+      <guid isPermaLink="false">ai-prompts-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 1,700+ AI prompts across text, structured, and image generation — categorized for developer workflows. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Developer Tools Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/developer-tools.html</link>
+      <guid isPermaLink="false">developer-tools-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 1,500+ developer tools across CLI tools, code editors, debuggers, profilers, and productivity utilities. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Open Source Alternatives Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/open-source-alternatives.html</link>
+      <guid isPermaLink="false">open-source-alternatives-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 900+ open-source alternatives to popular commercial software — each entry maps a proprietary product to OSS equivalents. Full dataset $7 on Gumroad.</description>
+    </item>
+    <item>
+      <title>AI Models &amp; Providers Pricing Matrix — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/ai-models-pricing.html</link>
+      <guid isPermaLink="false">ai-models-pricing-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 800+ AI model endpoints with per-token pricing (prompt + completion), context length, modality, uptime, across providers and quantizations. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
+      <title>No-Code &amp; Low-Code Tools Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/no-code-lowcode.html</link>
+      <guid isPermaLink="false">no-code-lowcode-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 500+ no-code and low-code tools across automation, app builders, internal tools, and integration platforms. Full dataset $7 on Gumroad.</description>
+    </item>
+    <item>
+      <title>LLMOps &amp; Eval Tooling Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/llmops-and-eval.html</link>
+      <guid isPermaLink="false">llmops-and-eval-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Platform Engineering &amp; IDP Tooling Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/platform-engineering.html</link>
+      <guid isPermaLink="false">platform-engineering-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 390+ platform engineering tools across developer portals, GitOps, service mesh, IaC, observability, container orchestration, CI/CD, secrets, policy, feature flags, service catalog, cost management, and DX. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
+      <title>Vector DB &amp; RAG Infrastructure Directory — refreshed 2026-05-13</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/vector-db-and-rag.html</link>
+      <guid isPermaLink="false">vector-db-and-rag-2026-05-13</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 190+ vector databases and RAG infrastructure tools — embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends. Full dataset $11 on Gumroad.</description>
+    </item>
+  </channel>
+</rss>

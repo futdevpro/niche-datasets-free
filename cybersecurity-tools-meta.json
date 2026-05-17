@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "cybersecurity-tools",
+  "name": "Cybersecurity Tools Directory",
+  "recordCount": "2,600+",
+  "description": "Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories.",
+  "keywords": [
+    "cybersecurity",
+    "infosec",
+    "pentesting",
+    "security tools"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/cybersecurity-tools.html",
+  "fullDatasetPriceUsd": 9,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/cybersecurity-tools",
+  "related": [
+    "open-source-alternatives",
+    "self-hosted-software",
+    "developer-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

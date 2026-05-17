@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "huggingface-datasets",
+  "name": "HuggingFace Datasets Directory",
+  "recordCount": "2,600+",
+  "description": "Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.",
+  "keywords": [
+    "huggingface",
+    "datasets",
+    "machine learning",
+    "training data"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/huggingface-datasets.html",
+  "fullDatasetPriceUsd": 11,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/huggingface-datasets-directory",
+  "related": [
+    "huggingface-models",
+    "ai-prompts",
+    "llmops-and-eval"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

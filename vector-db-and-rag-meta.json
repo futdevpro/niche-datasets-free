@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "vector-db-and-rag",
+  "name": "Vector DB & RAG Infrastructure Directory",
+  "recordCount": "190+",
+  "description": "Catalog of 190+ vector databases and RAG infrastructure tools \u2014 embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends.",
+  "keywords": [
+    "vector database",
+    "rag",
+    "embeddings",
+    "retrieval",
+    "semantic search"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/vector-db-and-rag.html",
+  "fullDatasetPriceUsd": 11,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/vector-db-and-rag-infrastructure",
+  "related": [
+    "llmops-and-eval",
+    "huggingface-datasets",
+    "ai-models-pricing"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

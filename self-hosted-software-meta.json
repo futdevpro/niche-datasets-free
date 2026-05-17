@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "self-hosted-software",
+  "name": "Self-Hosted Software Directory",
+  "recordCount": "2,300+",
+  "description": "Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more.",
+  "keywords": [
+    "self-hosted",
+    "open source",
+    "homelab",
+    "selfhost"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html",
+  "fullDatasetPriceUsd": 14,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/self-hosted-software-directory",
+  "related": [
+    "open-source-alternatives",
+    "platform-engineering",
+    "cybersecurity-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "vscode-extensions",
+  "name": "VS Code Extensions Directory",
+  "recordCount": "4,800+",
+  "description": "Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher.",
+  "keywords": [
+    "vscode",
+    "extensions",
+    "ide",
+    "developer tools"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/vscode-extensions.html",
+  "fullDatasetPriceUsd": 9,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/vscode-extensions-directory",
+  "related": [
+    "npm-packages",
+    "homebrew-packages",
+    "developer-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

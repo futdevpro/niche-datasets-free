@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "design-resources",
+  "name": "Design Resources Directory",
+  "recordCount": "2,100+",
+  "description": "Catalog of 2,100+ design resources across design systems, UI kits, icons, illustrations, stock photos, and tools.",
+  "keywords": [
+    "design",
+    "ui kits",
+    "icons",
+    "illustrations",
+    "design systems"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/design-resources.html",
+  "fullDatasetPriceUsd": 9,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/design-resources",
+  "related": [
+    "ai-tools",
+    "no-code-lowcode",
+    "developer-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

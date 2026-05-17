@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "homebrew-packages",
+  "name": "Homebrew Packages Directory",
+  "recordCount": "12,200+",
+  "description": "Catalog of 12,200+ Homebrew formulae and casks with install counts, package type, dependencies, tap, and deprecation status.",
+  "keywords": [
+    "homebrew",
+    "macos",
+    "package manager",
+    "cli tools"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/homebrew-packages.html",
+  "fullDatasetPriceUsd": 11,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/homebrew-packages-directory",
+  "related": [
+    "npm-packages",
+    "vscode-extensions",
+    "developer-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

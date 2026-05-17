@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "huggingface-models",
+  "name": "HuggingFace Models Directory",
+  "recordCount": "4,000",
+  "description": "Catalog of 4,000 most-downloaded HuggingFace models with downloads, likes, license, pipeline tag, modality, and language.",
+  "keywords": [
+    "huggingface",
+    "machine learning",
+    "models",
+    "ai"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/huggingface-models.html",
+  "fullDatasetPriceUsd": 11,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/huggingface-models-directory",
+  "related": [
+    "huggingface-datasets",
+    "ai-models-pricing",
+    "ai-agents"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

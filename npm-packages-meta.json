@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "npm-packages",
+  "name": "npm Packages Directory",
+  "recordCount": "6,000+",
+  "description": "Catalog of 6,000+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
+  "keywords": [
+    "npm",
+    "javascript",
+    "typescript",
+    "packages"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/npm-packages.html",
+  "fullDatasetPriceUsd": 11,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/npm-packages-directory",
+  "related": [
+    "homebrew-packages",
+    "vscode-extensions",
+    "developer-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

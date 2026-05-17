@@ -134,6 +134,8 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <title>{name} — Free Sample (CSV + JSON)</title>
 <meta name="description" content="{desc} Free sample: 20 records in JSON + CSV. Full dataset ${price} on Gumroad.">
 <link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/{slug}.html">
+<link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
+<link rel="alternate" type="application/json" title="{name} — JSON metadata" href="{slug}-meta.json">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/{slug}.html">
 <meta property="og:title" content="{name} — Free Sample (CSV + JSON)">
@@ -371,6 +373,7 @@ def build_sitemap():
         ("https://futdevpro.github.io/niche-datasets-free/", "1.0"),
         ("https://futdevpro.github.io/niche-datasets-free/faq.html", "0.7"),
         ("https://futdevpro.github.io/niche-datasets-free/examples.html", "0.7"),
+        ("https://futdevpro.github.io/niche-datasets-free/feed.xml", "0.6"),
     ] + [
         (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8")
         for d in DATASETS
@@ -431,6 +434,75 @@ def update_index_jsonld(repo_root):
     updated = pattern.sub(lambda m: new_block, html, count=1)
     with open(path, "w", encoding="utf-8") as f:
         f.write(updated)
+
+
+def build_dataset_endpoint(d, repo_root):
+    """Per-dataset metadata endpoint at /<slug>-meta.json (we use -meta suffix because
+    /<slug>.html already exists for the HTML detail page). Same shape as one
+    dataset entry inside /datasets.json, plus a 'lastRefreshed' field from the
+    sample-file mtime."""
+    site = "https://futdevpro.github.io/niche-datasets-free"
+    raw = "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main"
+    return json.dumps({
+        "schemaVersion": "1.0",
+        "slug": d["slug"],
+        "name": d["name"],
+        "recordCount": d["records"],
+        "description": d["desc"],
+        "keywords": d["keywords"],
+        "license": "https://opensource.org/licenses/MIT",
+        "lastRefreshed": get_refresh_date(d["slug"], repo_root),
+        "sampleJsonUrl": f"{raw}/{d['slug']}-sample.json",
+        "sampleCsvUrl": f"{raw}/{d['slug']}-sample.csv",
+        "detailPageUrl": f"{site}/{d['slug']}.html",
+        "fullDatasetPriceUsd": d["price"],
+        "fullDatasetUrl": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
+        "related": d.get("related", []),
+        "catalogUrl": f"{site}/datasets.json",
+    }, indent=2)
+
+
+def build_feed_xml(repo_root):
+    """RSS 2.0 feed of refresh events. Each dataset gets one <item> per known refresh,
+    derived from sample-file mtime. Subscribers (feed-aggregator bots, Bing's
+    feed-following crawler, individual devs) learn about new data on each refresh."""
+    site = "https://futdevpro.github.io/niche-datasets-free"
+    items = []
+    # Sort datasets by mtime DESC so newest refresh is on top
+    annotated = [(d, get_refresh_date(d["slug"], repo_root)) for d in DATASETS]
+    annotated.sort(key=lambda x: x[1], reverse=True)
+    for d, refresh in annotated:
+        items.append(f"""    <item>
+      <title>{esc_xml(d['name'])} — refreshed {refresh}</title>
+      <link>{site}/{d['slug']}.html</link>
+      <guid isPermaLink="false">{d['slug']}-{refresh}</guid>
+      <pubDate>{format_rfc822(refresh)}</pubDate>
+      <description>{esc_xml(d['desc'])} Full dataset ${d['price']} on Gumroad.</description>
+    </item>""")
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niche Datasets — Refresh Feed</title>
+    <link>{site}/</link>
+    <atom:link href="{site}/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Refresh notifications for the 20 curated developer and AI dataset samples. One item per dataset, updated on each monthly/quarterly refresh.</description>
+    <language>en-us</language>
+    <generator>build-detail-pages.py</generator>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+
+
+def esc_xml(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+
+def format_rfc822(iso_date):
+    """Convert YYYY-MM-DD to RFC 822 (RSS pubDate format)."""
+    d = datetime.date.fromisoformat(iso_date)
+    # Assume midnight UTC; good enough for daily-precision data
+    return d.strftime("%a, %d %b %Y 00:00:00 +0000")
 
 
 def build_catalog_json():
@@ -506,8 +578,17 @@ def main():
     catalog_path = os.path.join(repo_root, "datasets.json")
     with open(catalog_path, "w", encoding="utf-8") as f:
         f.write(build_catalog_json())
+    # Per-dataset metadata endpoints
+    for d in DATASETS:
+        meta_path = os.path.join(repo_root, f"{d['slug']}-meta.json")
+        with open(meta_path, "w", encoding="utf-8") as f:
+            f.write(build_dataset_endpoint(d, repo_root))
+    # RSS feed
+    feed_path = os.path.join(repo_root, "feed.xml")
+    with open(feed_path, "w", encoding="utf-8") as f:
+        f.write(build_feed_xml(repo_root))
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+3} URLs: root + faq + examples + 20 detail) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
+    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+4} URLs: root + faq + examples + feed + 20 detail) + datasets.json catalog + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
 
 if __name__ == "__main__":

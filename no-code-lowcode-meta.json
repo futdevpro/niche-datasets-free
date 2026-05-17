@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "no-code-lowcode",
+  "name": "No-Code & Low-Code Tools Directory",
+  "recordCount": "500+",
+  "description": "Catalog of 500+ no-code and low-code tools across automation, app builders, internal tools, and integration platforms.",
+  "keywords": [
+    "no-code",
+    "low-code",
+    "automation",
+    "app builders"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/no-code-lowcode.html",
+  "fullDatasetPriceUsd": 7,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/no-code-lowcode",
+  "related": [
+    "ai-tools",
+    "open-source-alternatives",
+    "design-resources"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "llmops-and-eval",
+  "name": "LLMOps & Eval Tooling Directory",
+  "recordCount": "490+",
+  "description": "Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks.",
+  "keywords": [
+    "llmops",
+    "llm evaluation",
+    "ai observability",
+    "prompt management",
+    "model serving"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/llmops-and-eval.html",
+  "fullDatasetPriceUsd": 11,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/llmops-and-eval-tooling-directory",
+  "related": [
+    "vector-db-and-rag",
+    "ai-models-pricing",
+    "ai-agents"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

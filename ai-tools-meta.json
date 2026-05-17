@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "ai-tools",
+  "name": "AI Tools Directory",
+  "recordCount": "2,700+",
+  "description": "Catalog of 2,700+ AI tools and applications with category, pricing model, and API availability.",
+  "keywords": [
+    "ai tools",
+    "artificial intelligence",
+    "saas"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-tools.html",
+  "fullDatasetPriceUsd": 9,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-tools-directory",
+  "related": [
+    "ai-agents",
+    "ai-prompts",
+    "no-code-lowcode"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

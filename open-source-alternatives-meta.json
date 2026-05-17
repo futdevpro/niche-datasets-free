@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "open-source-alternatives",
+  "name": "Open Source Alternatives Directory",
+  "recordCount": "900+",
+  "description": "Catalog of 900+ open-source alternatives to popular commercial software \u2014 each entry maps a proprietary product to OSS equivalents.",
+  "keywords": [
+    "open source",
+    "alternatives",
+    "saas alternatives",
+    "self-hostable"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/open-source-alternatives.html",
+  "fullDatasetPriceUsd": 7,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/open-source-alternatives",
+  "related": [
+    "self-hosted-software",
+    "cybersecurity-tools",
+    "no-code-lowcode"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "public-apis",
+  "name": "Public APIs Directory",
+  "recordCount": "2,500+",
+  "description": "Catalog of 2,500+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories.",
+  "keywords": [
+    "public apis",
+    "rest api",
+    "free api",
+    "no-auth api"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/public-apis.html",
+  "fullDatasetPriceUsd": 12,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/public-apis-directory",
+  "related": [
+    "developer-tools",
+    "npm-packages",
+    "ai-tools"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}

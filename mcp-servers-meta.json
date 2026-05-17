@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "mcp-servers",
+  "name": "Open MCP Servers Directory",
+  "recordCount": "3,600+",
+  "description": "Catalog of 3,600+ Model Context Protocol (MCP) servers with GitHub stars, category, and capabilities.",
+  "keywords": [
+    "mcp",
+    "model context protocol",
+    "ai agents",
+    "tooling"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "lastRefreshed": "2026-05-13",
+  "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.json",
+  "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.csv",
+  "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/mcp-servers.html",
+  "fullDatasetPriceUsd": 9,
+  "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/mcp-servers-directory",
+  "related": [
+    "ai-agents",
+    "ai-tools",
+    "llmops-and-eval"
+  ],
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+}
