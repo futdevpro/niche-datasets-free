@@ -27,83 +27,103 @@ DATASETS = [
     {"slug": "homebrew-packages", "name": "Homebrew Packages Directory", "records": "12,200+",
      "desc": "Catalog of 12,200+ Homebrew formulae and casks with install counts, package type, dependencies, tap, and deprecation status.",
      "keywords": ["homebrew", "macos", "package manager", "cli tools"],
-     "gumroad": "homebrew-packages-directory", "price": 11},
+     "gumroad": "homebrew-packages-directory", "price": 11,
+     "related": ["npm-packages", "vscode-extensions", "developer-tools"]},
     {"slug": "npm-packages", "name": "npm Packages Directory", "records": "6,000+",
      "desc": "Catalog of 6,000+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
      "keywords": ["npm", "javascript", "typescript", "packages"],
-     "gumroad": "npm-packages-directory", "price": 11},
+     "gumroad": "npm-packages-directory", "price": 11,
+     "related": ["homebrew-packages", "vscode-extensions", "developer-tools"]},
     {"slug": "vscode-extensions", "name": "VS Code Extensions Directory", "records": "4,800+",
      "desc": "Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher.",
      "keywords": ["vscode", "extensions", "ide", "developer tools"],
-     "gumroad": "vscode-extensions-directory", "price": 9},
+     "gumroad": "vscode-extensions-directory", "price": 9,
+     "related": ["npm-packages", "homebrew-packages", "developer-tools"]},
     {"slug": "huggingface-models", "name": "HuggingFace Models Directory", "records": "4,000",
      "desc": "Catalog of 4,000 most-downloaded HuggingFace models with downloads, likes, license, pipeline tag, modality, and language.",
      "keywords": ["huggingface", "machine learning", "models", "ai"],
-     "gumroad": "huggingface-models-directory", "price": 11},
+     "gumroad": "huggingface-models-directory", "price": 11,
+     "related": ["huggingface-datasets", "ai-models-pricing", "ai-agents"]},
     {"slug": "mcp-servers", "name": "Open MCP Servers Directory", "records": "3,600+",
      "desc": "Catalog of 3,600+ Model Context Protocol (MCP) servers with GitHub stars, category, and capabilities.",
      "keywords": ["mcp", "model context protocol", "ai agents", "tooling"],
-     "gumroad": "mcp-servers-directory", "price": 9},
+     "gumroad": "mcp-servers-directory", "price": 9,
+     "related": ["ai-agents", "ai-tools", "llmops-and-eval"]},
     {"slug": "ai-tools", "name": "AI Tools Directory", "records": "2,700+",
      "desc": "Catalog of 2,700+ AI tools and applications with category, pricing model, and API availability.",
      "keywords": ["ai tools", "artificial intelligence", "saas"],
-     "gumroad": "ai-tools-directory", "price": 9},
+     "gumroad": "ai-tools-directory", "price": 9,
+     "related": ["ai-agents", "ai-prompts", "no-code-lowcode"]},
     {"slug": "cybersecurity-tools", "name": "Cybersecurity Tools Directory", "records": "2,600+",
      "desc": "Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories.",
      "keywords": ["cybersecurity", "infosec", "pentesting", "security tools"],
-     "gumroad": "cybersecurity-tools", "price": 9},
+     "gumroad": "cybersecurity-tools", "price": 9,
+     "related": ["open-source-alternatives", "self-hosted-software", "developer-tools"]},
     {"slug": "huggingface-datasets", "name": "HuggingFace Datasets Directory", "records": "2,600+",
      "desc": "Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.",
      "keywords": ["huggingface", "datasets", "machine learning", "training data"],
-     "gumroad": "huggingface-datasets-directory", "price": 11},
+     "gumroad": "huggingface-datasets-directory", "price": 11,
+     "related": ["huggingface-models", "ai-prompts", "llmops-and-eval"]},
     {"slug": "public-apis", "name": "Public APIs Directory", "records": "2,500+",
      "desc": "Catalog of 2,500+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories.",
      "keywords": ["public apis", "rest api", "free api", "no-auth api"],
-     "gumroad": "public-apis-directory", "price": 12},
+     "gumroad": "public-apis-directory", "price": 12,
+     "related": ["developer-tools", "npm-packages", "ai-tools"]},
     {"slug": "self-hosted-software", "name": "Self-Hosted Software Directory", "records": "2,300+",
      "desc": "Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more.",
      "keywords": ["self-hosted", "open source", "homelab", "selfhost"],
-     "gumroad": "self-hosted-software-directory", "price": 14},
+     "gumroad": "self-hosted-software-directory", "price": 14,
+     "related": ["open-source-alternatives", "platform-engineering", "cybersecurity-tools"]},
     {"slug": "design-resources", "name": "Design Resources Directory", "records": "2,100+",
      "desc": "Catalog of 2,100+ design resources across design systems, UI kits, icons, illustrations, stock photos, and tools.",
      "keywords": ["design", "ui kits", "icons", "illustrations", "design systems"],
-     "gumroad": "design-resources", "price": 9},
+     "gumroad": "design-resources", "price": 9,
+     "related": ["ai-tools", "no-code-lowcode", "developer-tools"]},
     {"slug": "ai-agents", "name": "AI Agents Directory", "records": "2,000+",
      "desc": "Catalog of 2,000+ AI agent projects and frameworks — autonomous agents, multi-agent systems, agent-as-a-service tools.",
      "keywords": ["ai agents", "autonomous agents", "agent frameworks", "llm agents"],
-     "gumroad": "ai-agents-directory", "price": 7},
+     "gumroad": "ai-agents-directory", "price": 7,
+     "related": ["mcp-servers", "llmops-and-eval", "ai-tools"]},
     {"slug": "ai-prompts", "name": "AI Prompts Directory", "records": "1,700+",
      "desc": "Catalog of 1,700+ AI prompts across text, structured, and image generation — categorized for developer workflows.",
      "keywords": ["ai prompts", "prompt engineering", "llm prompts", "chatgpt prompts"],
-     "gumroad": "ai-prompts-directory", "price": 9},
+     "gumroad": "ai-prompts-directory", "price": 9,
+     "related": ["ai-tools", "ai-agents", "huggingface-datasets"]},
     {"slug": "developer-tools", "name": "Developer Tools Directory", "records": "1,500+",
      "desc": "Catalog of 1,500+ developer tools across CLI tools, code editors, debuggers, profilers, and productivity utilities.",
      "keywords": ["developer tools", "dev tools", "cli tools", "productivity"],
-     "gumroad": "developer-tools-directory", "price": 9},
+     "gumroad": "developer-tools-directory", "price": 9,
+     "related": ["npm-packages", "homebrew-packages", "vscode-extensions"]},
     {"slug": "open-source-alternatives", "name": "Open Source Alternatives Directory", "records": "900+",
      "desc": "Catalog of 900+ open-source alternatives to popular commercial software — each entry maps a proprietary product to OSS equivalents.",
      "keywords": ["open source", "alternatives", "saas alternatives", "self-hostable"],
-     "gumroad": "open-source-alternatives", "price": 7},
+     "gumroad": "open-source-alternatives", "price": 7,
+     "related": ["self-hosted-software", "cybersecurity-tools", "no-code-lowcode"]},
     {"slug": "ai-models-pricing", "name": "AI Models & Providers Pricing Matrix", "records": "800+",
      "desc": "Catalog of 800+ AI model endpoints with per-token pricing (prompt + completion), context length, modality, uptime, across providers and quantizations.",
      "keywords": ["ai models pricing", "llm pricing", "openrouter", "model api cost"],
-     "gumroad": "ai-models-pricing-matrix", "price": 11},
+     "gumroad": "ai-models-pricing-matrix", "price": 11,
+     "related": ["huggingface-models", "llmops-and-eval", "ai-agents"]},
     {"slug": "no-code-lowcode", "name": "No-Code & Low-Code Tools Directory", "records": "500+",
      "desc": "Catalog of 500+ no-code and low-code tools across automation, app builders, internal tools, and integration platforms.",
      "keywords": ["no-code", "low-code", "automation", "app builders"],
-     "gumroad": "no-code-lowcode", "price": 7},
+     "gumroad": "no-code-lowcode", "price": 7,
+     "related": ["ai-tools", "open-source-alternatives", "design-resources"]},
     {"slug": "llmops-and-eval", "name": "LLMOps & Eval Tooling Directory", "records": "490+",
      "desc": "Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks.",
      "keywords": ["llmops", "llm evaluation", "ai observability", "prompt management", "model serving"],
-     "gumroad": "llmops-and-eval-tooling-directory", "price": 11},
+     "gumroad": "llmops-and-eval-tooling-directory", "price": 11,
+     "related": ["vector-db-and-rag", "ai-models-pricing", "ai-agents"]},
     {"slug": "platform-engineering", "name": "Platform Engineering & IDP Tooling Directory", "records": "390+",
      "desc": "Catalog of 390+ platform engineering tools across developer portals, GitOps, service mesh, IaC, observability, container orchestration, CI/CD, secrets, policy, feature flags, service catalog, cost management, and DX.",
      "keywords": ["platform engineering", "idp", "developer portal", "gitops", "devops"],
-     "gumroad": "platform-engineering-tooling-directory", "price": 11},
+     "gumroad": "platform-engineering-tooling-directory", "price": 11,
+     "related": ["self-hosted-software", "developer-tools", "mcp-servers"]},
     {"slug": "vector-db-and-rag", "name": "Vector DB & RAG Infrastructure Directory", "records": "190+",
      "desc": "Catalog of 190+ vector databases and RAG infrastructure tools — embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends.",
      "keywords": ["vector database", "rag", "embeddings", "retrieval", "semantic search"],
-     "gumroad": "vector-db-and-rag-infrastructure", "price": 11},
+     "gumroad": "vector-db-and-rag-infrastructure", "price": 11,
+     "related": ["llmops-and-eval", "huggingface-datasets", "ai-models-pricing"]},
 ]
 
 DETAIL_TEMPLATE = """<!DOCTYPE html>
@@ -160,6 +180,9 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <p>The full <strong>{records}</strong> records with all enrichment fields, semantic enum tiers, and category buckets:</p>
 <a class="cta" href="https://jhonnyronnie.gumroad.com/l/{gumroad}">Get on Gumroad — ${price}</a>
 <p class="meta" style="margin-top:1rem">Or save with a themed sub-bundle (<a href="./#bundles">Dev Stack Pack / Platform Builder Pack / ML Builder Pack — $24–$29</a>) or the full <a href="https://jhonnyronnie.gumroad.com/l/developer-data-bundle">Complete Developer Data Bundle ($34, 83% off)</a>.</p>
+
+<h2>Related datasets</h2>
+{related_html}
 
 <h2>Schema + format</h2>
 <p>Each record follows a normalized schema with at minimum <code>name</code>, <code>url</code>, <code>description</code>, <code>category</code>, <code>pricing</code>, <code>hasApi</code>, <code>tags</code>, plus dataset-specific first-class fields. See the <a href="https://github.com/futdevpro/niche-datasets-free#format">repo README</a> for the full field reference.</p>
@@ -272,6 +295,22 @@ def get_refresh_date(slug, repo_root):
     if not os.path.isfile(path):
         return datetime.date.today().isoformat()
     return datetime.date.fromtimestamp(os.path.getmtime(path)).isoformat()
+
+
+def build_related_html(d):
+    by_slug = {x["slug"]: x for x in DATASETS}
+    related_slugs = d.get("related", [])
+    if not related_slugs:
+        return "<p class='meta'>Browse all 20 on the <a href='./'>index</a>.</p>"
+    items = []
+    for s in related_slugs:
+        r = by_slug.get(s)
+        if not r:
+            continue
+        name_safe = r["name"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        records_safe = r["records"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        items.append(f'  <li><a href="{s}.html">{name_safe}</a> — {records_safe} records · ${r["price"]}</li>')
+    return "<ul>\n" + "\n".join(items) + "\n</ul>"
 
 
 def build_breadcrumb_jsonld(d):
@@ -407,6 +446,7 @@ def main():
             breadcrumb_jsonld=build_breadcrumb_jsonld(d),
             use_cases_html=use_cases_html,
             preview_html=preview_html,
+            related_html=build_related_html(d),
         )
         path = os.path.join(repo_root, f"{d['slug']}.html")
         with open(path, "w", encoding="utf-8") as f:

@@ -105,6 +105,10 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
 {jsonld}
 </script>
 
+<script type="application/ld+json">
+{breadcrumb_jsonld}
+</script>
+
 </body>
 </html>
 """
@@ -137,9 +141,26 @@ def build_jsonld():
     }, indent=2)
 
 
+def build_breadcrumb_jsonld():
+    return json.dumps({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Niche Datasets",
+             "item": "https://futdevpro.github.io/niche-datasets-free/"},
+            {"@type": "ListItem", "position": 2, "name": "FAQ",
+             "item": "https://futdevpro.github.io/niche-datasets-free/faq.html"},
+        ],
+    }, indent=2)
+
+
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    html = PAGE.format(faq_html=build_faq_html(), jsonld=build_jsonld())
+    html = PAGE.format(
+        faq_html=build_faq_html(),
+        jsonld=build_jsonld(),
+        breadcrumb_jsonld=build_breadcrumb_jsonld(),
+    )
     path = os.path.join(repo_root, "faq.html")
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
