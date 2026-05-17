@@ -100,7 +100,7 @@ PAGE = """<!DOCTYPE html>
 </head>
 <body>
 
-<p class="nav"><a href="./">← All 20 datasets</a></p>
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a></p>
 
 <h1>FAQ — Free Developer Datasets</h1>
 <p class="lead">Common questions about the 20 free developer and AI dataset samples: what's included, how to download, formats, freshness, sources, licensing, and how to use them in machine-learning workflows.</p>

@@ -168,7 +168,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 
-<p class="nav"><a href="./">← All 20 datasets</a></p>
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
 
 <h1>{name}</h1>
 <p class="meta">{records} records · Free sample (20 records, JSON + CSV) · Full dataset ${price} · <span class="badge">Sample refreshed {refresh_date}</span></p>
@@ -370,6 +370,7 @@ def build_sitemap():
     urls = [
         ("https://futdevpro.github.io/niche-datasets-free/", "1.0"),
         ("https://futdevpro.github.io/niche-datasets-free/faq.html", "0.7"),
+        ("https://futdevpro.github.io/niche-datasets-free/examples.html", "0.7"),
     ] + [
         (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8")
         for d in DATASETS
@@ -466,7 +467,7 @@ def main():
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(build_sitemap())
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+2} URLs: root + faq + 20 detail) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
+    print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+3} URLs: root + faq + examples + 20 detail) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
 
 if __name__ == "__main__":

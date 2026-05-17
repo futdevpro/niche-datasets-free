@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Examples — How to Load the Niche Datasets (Python · JS · jq · R · DuckDB)</title>
+<meta name="description" content="Copy-pasteable code snippets for loading the niche-datasets samples — pandas, urllib, fetch, jq, R, DuckDB, curl. Works on all 20 datasets — change the slug in the URL.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/examples.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/examples.html">
+<meta property="og:title" content="Examples — How to Load the Niche Datasets (Python · JS · jq · R · DuckDB)">
+<meta property="og:description" content="Copy-pasteable code snippets for loading the niche-datasets samples — pandas, urllib, fetch, jq, R, DuckDB, curl. Works on all 20 datasets.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Code Examples — Loading the Niche Datasets">
+<meta name="twitter:description" content="Copy-pasteable snippets for pandas, urllib, fetch, jq, R, DuckDB, curl.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:880px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7rem;margin-bottom:.25rem}
+  h2{font-size:1.1rem;margin-top:2.2rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}
+  a{color:#0969da}
+  .lead{color:#444}
+  .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  pre{background:#0d1117;color:#e6edf3;padding:1rem;border-radius:6px;overflow-x:auto;font-size:.86rem;line-height:1.5}
+  pre code{background:transparent;padding:0;font-family:Menlo,Consolas,monospace}
+  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}
+  .intro{color:#444;margin:.5rem 0 .75rem 0}
+  .toc{background:#fafafa;padding:.8rem 1.2rem;border-radius:6px;font-size:.9rem;margin:1.2rem 0}
+  .toc ul{margin:.4rem 0;padding-left:1.2rem}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
+</style>
+</head>
+<body>
+
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
+
+<h1>Examples — How to Load the Niche Datasets</h1>
+<p class="lead">Copy-pasteable code snippets for loading the 20 free dataset samples in your preferred environment. All snippets use the <code>npm-packages</code> sample as the example URL — swap the slug for any of the other 19 datasets.</p>
+
+<div class="toc">
+<strong>Languages covered:</strong>
+<ul>  <li><a href="#python-pandas">Python · pandas</a></li>
+  <li><a href="#python-json">Python · stdlib json</a></li>
+  <li><a href="#javascript-fetch">JavaScript · fetch (browser or Node 18+)</a></li>
+  <li><a href="#nodejs">Node.js · node-fetch / undici</a></li>
+  <li><a href="#jq">jq CLI</a></li>
+  <li><a href="#r">R · read.csv</a></li>
+  <li><a href="#shell-pipe">curl + jq pipe (shell one-liner)</a></li>
+  <li><a href="#supply-chain">Pandas-style filter + join (npm + Homebrew supply-chain audit)</a></li>
+  <li><a href="#duckdb">DuckDB · query JSON/CSV remote URL</a></li></ul>
+</div>
+
+<h2 id="python-pandas">Python · pandas</h2>
+<p class="intro">Load the CSV directly from the GitHub raw URL into a DataFrame. Works for all 20 datasets — change the slug in the URL.</p>
+<pre><code>import pandas as pd
+
+df = pd.read_csv("https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv")
+print(df.shape)            # (20, N) — N varies per dataset
+print(df.columns.tolist())
+print(df.head(3))</code></pre>
+
+<h2 id="python-json">Python · stdlib json</h2>
+<p class="intro">No pandas dependency — pure stdlib via urllib + json. Returns a list of dicts you can filter directly.</p>
+<pre><code>import json, urllib.request
+
+with urllib.request.urlopen("https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json") as r:
+    records = json.load(r)
+
+# Filter: only open-source packages with an API
+oss_with_api = [r for r in records if r.get("pricing") == "open-source" and r.get("hasApi")]
+print(len(oss_with_api), "of", len(records))</code></pre>
+
+<h2 id="javascript-fetch">JavaScript · fetch (browser or Node 18+)</h2>
+<p class="intro">Native fetch in any modern browser or Node 18+. No dependencies.</p>
+<pre><code>const url = "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json";
+const records = await fetch(url).then(r =&gt; r.json());
+
+console.log(records.length, "records");
+console.log(records[0]);
+
+// Group by category
+const byCategory = Object.groupBy(records, r =&gt; r.category);
+console.log(Object.keys(byCategory));</code></pre>
+
+<h2 id="nodejs">Node.js · node-fetch / undici</h2>
+<p class="intro">If you're on older Node and need a fetch polyfill. Otherwise the JS snippet above already works in Node 18+.</p>
+<pre><code>// npm i undici
+import { fetch } from 'undici';
+
+const records = await fetch("https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json").then(r =&gt; r.json());
+console.log(records[0].name, records[0].url);</code></pre>
+
+<h2 id="jq">jq CLI</h2>
+<p class="intro">Pipe curl into jq. Great for one-off filtering or pre-pipeline data exploration without a script.</p>
+<pre><code># All names + categories
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json | jq -r '.[] | "\(.name)\t\(.category)"'
+
+# Just the ai-and-ml packages
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json | jq '.[] | select(.category == "ai-and-ml")'
+
+# Count by pricing bucket
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json | jq -r '[.[].pricing] | group_by(.) | map({key: .[0], count: length})'</code></pre>
+
+<h2 id="r">R · read.csv</h2>
+<p class="intro">Base R reads from a URL directly. No packages required.</p>
+<pre><code>df &lt;- read.csv("https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv", stringsAsFactors = FALSE)
+str(df)
+table(df$pricing)
+table(df$category)</code></pre>
+
+<h2 id="shell-pipe">curl + jq pipe (shell one-liner)</h2>
+<p class="intro">Useful for shell scripts, CI checks, or grepping the catalog from a Bash alias.</p>
+<pre><code># How many records?
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json | jq 'length'
+
+# Just URLs (one per line) — pipe into wget/curl for follow-up
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json | jq -r '.[].url'
+
+# Save the full catalog locally
+curl -o npm-packages.json https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json</code></pre>
+
+<h2 id="supply-chain">Pandas-style filter + join (npm + Homebrew supply-chain audit)</h2>
+<p class="intro">Real use-case: cross-reference two datasets. Load both, join on a key, surface risk.</p>
+<pre><code>import pandas as pd
+
+npm = pd.read_csv("https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv")
+brew = pd.read_csv("https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.csv")
+
+# Packages that appear in BOTH ecosystems (rare — usually a CLI tool with both an npm wrapper
+# and a Homebrew formula). Useful for supply-chain audits: a package that's distributed
+# through multiple package managers has more attack surface.
+overlap = pd.merge(npm[['name']], brew[['name']], on='name')
+print(f"{len(overlap)} packages in both registries")
+print(overlap.head())</code></pre>
+
+<h2 id="duckdb">DuckDB · query JSON/CSV remote URL</h2>
+<p class="intro">DuckDB reads CSV + JSON straight from HTTPS, no download. Perfect for ad-hoc SQL on the catalog.</p>
+<pre><code>-- in duckdb shell or via duckdb-python
+INSTALL httpfs; LOAD httpfs;
+
+SELECT category, COUNT(*) AS n
+FROM read_csv_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv')
+GROUP BY category
+ORDER BY n DESC;</code></pre>
+
+<h2>Switching to a different dataset</h2>
+<p>Every snippet above uses <code>npm-packages-sample.json</code> / <code>.csv</code>. To load a different one, change the slug in the URL. Available slugs:</p>
+<p style="font-size:.92rem;line-height:1.9">
+  <code>homebrew-packages</code> · <code>npm-packages</code> · <code>vscode-extensions</code> · <code>huggingface-models</code> · <code>mcp-servers</code> · <code>ai-tools</code> · <code>cybersecurity-tools</code> · <code>huggingface-datasets</code> · <code>public-apis</code> · <code>self-hosted-software</code> · <code>design-resources</code> · <code>ai-agents</code> · <code>ai-prompts</code> · <code>developer-tools</code> · <code>open-source-alternatives</code> · <code>ai-models-pricing</code> · <code>no-code-lowcode</code> · <code>llmops-and-eval</code> · <code>platform-engineering</code> · <code>vector-db-and-rag</code>
+</p>
+
+<h2>Schema reference</h2>
+<p>All 20 datasets share a base schema: <code>name</code>, <code>url</code>, <code>description</code>, <code>category</code>, <code>pricing</code> (free / freemium / paid / open-source), <code>hasApi</code>, <code>tags</code>. Each dataset adds first-class fields specific to its niche — see the per-dataset detail pages (e.g. <a href="npm-packages.html">npm-packages</a>) for the full reference, or the <a href="https://github.com/futdevpro/niche-datasets-free#format">repo README §Format</a>.</p>
+
+<footer>
+Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>. Built by <a href="https://github.com/jhonny-ronnie">Ronnie J</a> at <a href="https://github.com/futdevpro">Future Development Program</a>. Free samples are MIT-style permissive for evaluation; full datasets per <a href="https://jhonnyronnie.gumroad.com">Gumroad terms</a>.
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Examples \u2014 How to Load the Niche Datasets",
+  "description": "Copy-pasteable code snippets for loading the niche-datasets samples in Python (pandas, urllib), JavaScript (fetch, Node.js), jq CLI, R, curl, and DuckDB. Works on all 20 datasets.",
+  "url": "https://futdevpro.github.io/niche-datasets-free/examples.html",
+  "author": {
+    "@type": "Organization",
+    "name": "Future Development Program"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Future Development Program",
+    "url": "https://github.com/futdevpro"
+  },
+  "keywords": [
+    "pandas",
+    "load csv from url",
+    "jq json filter",
+    "fetch github raw json",
+    "duckdb httpfs csv",
+    "r read csv from url",
+    "huggingface dataset csv"
+  ],
+  "about": [
+    "data engineering",
+    "developer tools",
+    "machine learning"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Niche Datasets",
+      "item": "https://futdevpro.github.io/niche-datasets-free/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Examples",
+      "item": "https://futdevpro.github.io/niche-datasets-free/examples.html"
+    }
+  ]
+}
+</script>
+
+</body>
+</html>

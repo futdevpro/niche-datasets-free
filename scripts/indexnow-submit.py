@@ -18,6 +18,7 @@ SITE_ROOT = f"https://{HOST}/niche-datasets-free"
 URLS = [
     f"{SITE_ROOT}/",
     f"{SITE_ROOT}/faq.html",
+    f"{SITE_ROOT}/examples.html",
     f"{SITE_ROOT}/homebrew-packages.html",
     f"{SITE_ROOT}/npm-packages.html",
     f"{SITE_ROOT}/vscode-extensions.html",
