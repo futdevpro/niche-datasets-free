@@ -13,6 +13,7 @@ SEO content into the detail page.
 
 Run from repo root:  python3 scripts/build-detail-pages.py
 """
+import datetime
 import json
 import os
 import re
@@ -132,6 +133,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
   ol.preview .name{{font-weight:600}}
   ol.preview .tags{{color:#888;font-size:.85em}}
   ol.preview a{{font-size:.88em;word-break:break-all}}
+  .badge{{display:inline-block;padding:.1rem .45rem;background:#e6f4ea;color:#1e7a3a;border-radius:3px;font-size:.85em;font-weight:600}}
 </style>
 </head>
 <body>
@@ -139,7 +141,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <p class="nav"><a href="./">← All 20 datasets</a></p>
 
 <h1>{name}</h1>
-<p class="meta">{records} records · Free sample (20 records, JSON + CSV) · Full dataset ${price}</p>
+<p class="meta">{records} records · Free sample (20 records, JSON + CSV) · Full dataset ${price} · <span class="badge">Sample refreshed {refresh_date}</span></p>
 <p class="lead">{desc}</p>
 
 <h2>What you'd use this for</h2>
@@ -168,6 +170,10 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
 
 <script type="application/ld+json">
 {jsonld}
+</script>
+
+<script type="application/ld+json">
+{breadcrumb_jsonld}
 </script>
 
 </body>
@@ -258,6 +264,27 @@ def load_preview(slug, repo_root, n=5):
     if not items:
         return ""
     return "<ol class='preview'>\n" + "\n".join(items) + "\n</ol>"
+
+
+def get_refresh_date(slug, repo_root):
+    """Read mtime of {slug}-sample.json and format as YYYY-MM-DD. Falls back to today."""
+    path = os.path.join(repo_root, f"{slug}-sample.json")
+    if not os.path.isfile(path):
+        return datetime.date.today().isoformat()
+    return datetime.date.fromtimestamp(os.path.getmtime(path)).isoformat()
+
+
+def build_breadcrumb_jsonld(d):
+    return json.dumps({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Niche Datasets",
+             "item": "https://futdevpro.github.io/niche-datasets-free/"},
+            {"@type": "ListItem", "position": 2, "name": d["name"],
+             "item": f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html"},
+        ],
+    }, indent=2)
 
 
 def build_jsonld(d):
@@ -375,7 +402,9 @@ def main():
         html = DETAIL_TEMPLATE.format(
             name=d["name"], desc=d["desc"], records=d["records"],
             slug=d["slug"], gumroad=d["gumroad"], price=d["price"],
+            refresh_date=get_refresh_date(d["slug"], repo_root),
             jsonld=build_jsonld(d),
+            breadcrumb_jsonld=build_breadcrumb_jsonld(d),
             use_cases_html=use_cases_html,
             preview_html=preview_html,
         )
