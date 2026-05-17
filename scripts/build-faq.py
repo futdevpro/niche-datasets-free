@@ -79,9 +79,11 @@ PAGE = """<!DOCTYPE html>
 <meta property="og:title" content="FAQ — Free Developer Datasets (CSV + JSON)">
 <meta property="og:description" content="Frequently asked questions about the 20 free developer and AI dataset samples — formats, freshness, sources, licensing, schema, ML-pipeline use.">
 <meta property="og:site_name" content="Niche Datasets">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FAQ — Free Developer Datasets">
 <meta name="twitter:description" content="Common questions about the 20 free dataset samples — formats, freshness, sources, licensing, schema, ML use.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
 <style>
   body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}}
   h1{{font-size:1.7rem;margin-bottom:.25rem}}
