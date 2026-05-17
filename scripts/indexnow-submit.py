@@ -20,6 +20,7 @@ URLS = [
     f"{SITE_ROOT}/faq.html",
     f"{SITE_ROOT}/examples.html",
     f"{SITE_ROOT}/vs.html",
+    f"{SITE_ROOT}/quickstart.html",
     f"{SITE_ROOT}/feed.xml",
     f"{SITE_ROOT}/homebrew-packages.html",
     f"{SITE_ROOT}/npm-packages.html",

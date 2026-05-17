@@ -95,7 +95,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 
-<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="quickstart.html">5-min quickstart</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
 
 <h1>Niche Datasets vs. the alternatives</h1>
 <p class="lead">Honest comparison to the 6 places people normally look for tooling catalogs — awesome-* lists, Kaggle, HuggingFace datasets hub, ProductHunt, ad-hoc Google search, and paid custom scrapes. Each has its place; this page maps when to reach for which.</p>

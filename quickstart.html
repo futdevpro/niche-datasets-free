@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5-Minute Quickstart — Free Niche Datasets Eval Flow</title>
+<meta name="description" content="Try the niche-datasets samples in 5 minutes. Pick a dataset, download the sample, run a one-liner to inspect it. Decide whether to grab the full version. No signup.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/quickstart.html">
+<link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
+<link rel="alternate" type="application/json" title="Niche Datasets — Catalog" href="datasets.json">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/quickstart.html">
+<meta property="og:title" content="5-Minute Quickstart — Niche Datasets">
+<meta property="og:description" content="Try the niche-datasets samples in 5 minutes. Pick a dataset, download the sample, run a one-liner. No signup.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="5-Minute Quickstart">
+<meta name="twitter:description" content="Try the niche-datasets samples in 5 minutes. Pick a dataset, run a one-liner, decide.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7rem;margin-bottom:.5rem}
+  h2{font-size:1.15rem;margin-top:2.2rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}
+  a{color:#0969da}
+  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}
+  pre{background:#0d1117;color:#e6edf3;padding:1rem;border-radius:6px;overflow-x:auto;font-size:.86rem;line-height:1.5}
+  pre code{background:transparent;padding:0;font-family:Menlo,Consolas,monospace}
+  .lead{color:#444;font-size:1.05rem}
+  .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  .step{display:inline-block;background:#0969da;color:white;border-radius:50%;width:32px;height:32px;text-align:center;line-height:32px;font-weight:700;margin-right:.6rem;vertical-align:middle}
+  .timer{color:#666;font-size:.88em;font-style:italic;margin-left:.5rem}
+  .cta{display:inline-block;margin-top:1rem;padding:.7rem 1.2rem;background:#0969da;color:white;border-radius:6px;text-decoration:none;font-weight:600}
+  .cta.secondary{background:transparent;color:#0969da;border:1px solid #0969da}
+  .decision{background:#fafbfc;padding:1rem 1.3rem;border-left:3px solid #16a34a;border-radius:0 4px 4px 0;margin:1.5rem 0}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
+</style>
+</head>
+<body>
+
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="examples.html">More code examples</a> &nbsp;·&nbsp; <a href="vs.html">vs. alternatives</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
+
+<h1>5-Minute Quickstart</h1>
+<p class="lead">Goal: by the end of this page, you'll have downloaded a sample, inspected its schema in your editor, and decided whether to grab the full dataset. No signup, no API key.</p>
+
+<h2><span class="step">1</span> Pick a dataset <span class="timer">~30 seconds</span></h2>
+<p>Scan the <a href="./">20-dataset catalog</a>. The "Records" column tells you the size of the full version; the "Sample" column links you to a 20-record JSON or CSV preview. Pick the one closest to what you're trying to build.</p>
+<p>Don't know which to pick? Common starting points:</p>
+<ul>
+<li>Building a dev-tools comparison page → <a href="npm-packages.html">npm-packages</a> + <a href="homebrew-packages.html">homebrew-packages</a></li>
+<li>Building an AI agent / MCP integration → <a href="mcp-servers.html">mcp-servers</a> + <a href="ai-agents.html">ai-agents</a></li>
+<li>Pricing comparison across LLM providers → <a href="ai-models-pricing.html">ai-models-pricing</a></li>
+<li>HuggingFace ecosystem research → <a href="huggingface-models.html">huggingface-models</a> + <a href="huggingface-datasets.html">huggingface-datasets</a></li>
+<li>Internal "approved tools" catalog → <a href="developer-tools.html">developer-tools</a> + <a href="vscode-extensions.html">vscode-extensions</a></li>
+</ul>
+
+<h2><span class="step">2</span> Grab the sample <span class="timer">~10 seconds</span></h2>
+<p>From the dataset's detail page, click the JSON or CSV sample link. Or grab it directly via curl:</p>
+<pre><code>curl -O https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json
+# or for CSV:
+curl -O https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv</code></pre>
+<p>The sample is 20 records. Same schema, structure, and quality as the full version — just a random subset.</p>
+
+<h2><span class="step">3</span> Inspect the schema <span class="timer">~2 minutes</span></h2>
+<p>Open in your favorite tool:</p>
+<pre><code># jq: print all field names + types
+cat npm-packages-sample.json | jq '.[0] | to_entries | map({key: .key, type: (.value | type)})'
+
+# Python: dump first record
+python3 -c "import json; print(json.dumps(json.load(open('npm-packages-sample.json'))[0], indent=2))"
+
+# Or just open the .csv in Excel / Google Sheets / Numbers</code></pre>
+<p>Confirm the records have the fields you need. Every record has the base schema (<code>name</code>, <code>url</code>, <code>description</code>, <code>category</code>, <code>pricing</code>, <code>hasApi</code>, <code>tags</code>) plus dataset-specific first-class fields. See the per-dataset detail page for the field reference.</p>
+
+<h2><span class="step">4</span> Run a real query <span class="timer">~1 minute</span></h2>
+<p>Filter the sample to see if it answers a question you'd actually ask:</p>
+<pre><code># jq: all open-source records with an API
+jq '.[] | select(.pricing == "open-source" and .hasApi)' npm-packages-sample.json
+
+# jq: top 5 by category count
+jq '[.[].category] | group_by(.) | map({c: .[0], n: length}) | sort_by(.n) | reverse | .[:5]' npm-packages-sample.json
+
+# Python pandas
+python3 -c "
+import pandas as pd
+df = pd.read_csv('npm-packages-sample.csv')
+print(df.groupby('pricing').size())
+print(df.groupby('category').size().sort_values(ascending=False).head())
+"</code></pre>
+<p>If the sample answers your question correctly, the full version (~20-12,200 records depending on dataset) will scale the same query without changes.</p>
+
+<h2><span class="step">5</span> Decide <span class="timer">~30 seconds</span></h2>
+
+<div class="decision">
+  <strong>The sample answered your question:</strong> grab the full dataset on Gumroad ($7-$14 per dataset, $24-$34 for themed bundles, $34 for the complete bundle of all 20). One-time payment, instant download. The detail page for the dataset you picked has the direct Gumroad link.
+</div>
+
+<div class="decision" style="border-left-color:#dc2626">
+  <strong>The sample didn't fit:</strong> check the <a href="./">other 19 datasets</a>, or read <a href="vs.html">vs. alternatives</a> to see if Kaggle / HuggingFace / awesome-* / a custom scrape would be a better match. The samples are free — try as many as you want.
+</div>
+
+<h2>Common next steps</h2>
+<ul>
+<li><a href="examples.html">Code examples</a> — pandas, urllib, fetch, jq, R, DuckDB, curl one-liners (9 snippets across 8 languages).</li>
+<li><a href="faq.html">FAQ</a> — licensing, refresh cadence, sources, commercial use, ML-pipeline integration.</li>
+<li><a href="vs.html">vs. alternatives</a> — when to use this vs awesome-* / Kaggle / HuggingFace / ProductHunt / Google / custom scrapes.</li>
+<li><a href="datasets.json">datasets.json</a> — machine-readable catalog for programmatic discovery.</li>
+<li><a href="feed.xml">RSS feed</a> — get notified on each monthly/quarterly refresh.</li>
+</ul>
+
+<footer>
+Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>. Built by <a href="https://github.com/jhonny-ronnie">Ronnie J</a> at <a href="https://github.com/futdevpro">Future Development Program</a>. Free samples are MIT-style permissive for evaluation; full datasets per <a href="https://jhonnyronnie.gumroad.com">Gumroad terms</a>.
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "5-Minute Quickstart — Try the Niche Datasets",
+  "description": "5-step flow to evaluate the niche-datasets free samples and decide whether to buy the full version. No signup, no API key.",
+  "totalTime": "PT5M",
+  "step": [
+    {"@type": "HowToStep", "position": 1, "name": "Pick a dataset", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-1", "text": "Scan the 20-dataset catalog and pick the one closest to what you're building."},
+    {"@type": "HowToStep", "position": 2, "name": "Grab the sample", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-2", "text": "Download the 20-record JSON or CSV sample via curl or click."},
+    {"@type": "HowToStep", "position": 3, "name": "Inspect the schema", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-3", "text": "Use jq, Python, or Excel to view the field names and verify the records have what you need."},
+    {"@type": "HowToStep", "position": 4, "name": "Run a real query", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-4", "text": "Filter or group the sample to answer a question you'd actually ask. Use jq or pandas."},
+    {"@type": "HowToStep", "position": 5, "name": "Decide", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-5", "text": "If the sample fits, grab the full version on Gumroad. If not, try other samples or check the comparison page."}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Niche Datasets", "item": "https://futdevpro.github.io/niche-datasets-free/"},
+    {"@type": "ListItem", "position": 2, "name": "5-Minute Quickstart", "item": "https://futdevpro.github.io/niche-datasets-free/quickstart.html"}
+  ]
+}
+</script>
+
+</body>
+</html>
