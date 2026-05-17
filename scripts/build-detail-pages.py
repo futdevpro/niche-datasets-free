@@ -433,6 +433,43 @@ def update_index_jsonld(repo_root):
         f.write(updated)
 
 
+def build_catalog_json():
+    """Machine-readable catalog endpoint. Consumed by AI agents / aggregator bots /
+    programmatic discovery. Stable shape: top-level metadata + datasets[] array.
+    Versioned via 'schemaVersion' so consumers can adapt to future changes."""
+    site = "https://futdevpro.github.io/niche-datasets-free"
+    raw = "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main"
+    return json.dumps({
+        "schemaVersion": "1.0",
+        "name": "Niche Datasets — Free Samples Catalog",
+        "description": "20 curated developer and AI dataset samples with per-dataset metadata, download URLs (JSON + CSV), prices, and related datasets. Machine-readable; safe for programmatic enumeration.",
+        "homepage": site + "/",
+        "license": "https://opensource.org/licenses/MIT",
+        "publisher": {
+            "name": "Future Development Program",
+            "url": "https://github.com/futdevpro",
+        },
+        "datasetCount": len(DATASETS),
+        "datasets": [
+            {
+                "slug": d["slug"],
+                "name": d["name"],
+                "recordCount": d["records"],
+                "description": d["desc"],
+                "keywords": d["keywords"],
+                "license": "https://opensource.org/licenses/MIT",
+                "sampleJsonUrl": f"{raw}/{d['slug']}-sample.json",
+                "sampleCsvUrl": f"{raw}/{d['slug']}-sample.csv",
+                "detailPageUrl": f"{site}/{d['slug']}.html",
+                "fullDatasetPriceUsd": d["price"],
+                "fullDatasetUrl": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
+                "related": d.get("related", []),
+            }
+            for d in DATASETS
+        ],
+    }, indent=2)
+
+
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     count = 0
@@ -466,6 +503,9 @@ def main():
     sitemap_path = os.path.join(repo_root, "sitemap.xml")
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(build_sitemap())
+    catalog_path = os.path.join(repo_root, "datasets.json")
+    with open(catalog_path, "w", encoding="utf-8") as f:
+        f.write(build_catalog_json())
     update_index_jsonld(repo_root)
     print(f"Generated {count} detail pages + sitemap.xml ({len(DATASETS)+3} URLs: root + faq + examples + 20 detail) + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 

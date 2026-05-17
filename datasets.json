@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "1.0",
+  "name": "Niche Datasets \u2014 Free Samples Catalog",
+  "description": "20 curated developer and AI dataset samples with per-dataset metadata, download URLs (JSON + CSV), prices, and related datasets. Machine-readable; safe for programmatic enumeration.",
+  "homepage": "https://futdevpro.github.io/niche-datasets-free/",
+  "license": "https://opensource.org/licenses/MIT",
+  "publisher": {
+    "name": "Future Development Program",
+    "url": "https://github.com/futdevpro"
+  },
+  "datasetCount": 20,
+  "datasets": [
+    {
+      "slug": "homebrew-packages",
+      "name": "Homebrew Packages Directory",
+      "recordCount": "12,200+",
+      "description": "Catalog of 12,200+ Homebrew formulae and casks with install counts, package type, dependencies, tap, and deprecation status.",
+      "keywords": [
+        "homebrew",
+        "macos",
+        "package manager",
+        "cli tools"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/homebrew-packages-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/homebrew-packages.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/homebrew-packages-directory",
+      "related": [
+        "npm-packages",
+        "vscode-extensions",
+        "developer-tools"
+      ]
+    },
+    {
+      "slug": "npm-packages",
+      "name": "npm Packages Directory",
+      "recordCount": "6,000+",
+      "description": "Catalog of 6,000+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
+      "keywords": [
+        "npm",
+        "javascript",
+        "typescript",
+        "packages"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/npm-packages.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/npm-packages-directory",
+      "related": [
+        "homebrew-packages",
+        "vscode-extensions",
+        "developer-tools"
+      ]
+    },
+    {
+      "slug": "vscode-extensions",
+      "name": "VS Code Extensions Directory",
+      "recordCount": "4,800+",
+      "description": "Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher.",
+      "keywords": [
+        "vscode",
+        "extensions",
+        "ide",
+        "developer tools"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vscode-extensions-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/vscode-extensions.html",
+      "fullDatasetPriceUsd": 9,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/vscode-extensions-directory",
+      "related": [
+        "npm-packages",
+        "homebrew-packages",
+        "developer-tools"
+      ]
+    },
+    {
+      "slug": "huggingface-models",
+      "name": "HuggingFace Models Directory",
+      "recordCount": "4,000",
+      "description": "Catalog of 4,000 most-downloaded HuggingFace models with downloads, likes, license, pipeline tag, modality, and language.",
+      "keywords": [
+        "huggingface",
+        "machine learning",
+        "models",
+        "ai"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/huggingface-models.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/huggingface-models-directory",
+      "related": [
+        "huggingface-datasets",
+        "ai-models-pricing",
+        "ai-agents"
+      ]
+    },
+    {
+      "slug": "mcp-servers",
+      "name": "Open MCP Servers Directory",
+      "recordCount": "3,600+",
+      "description": "Catalog of 3,600+ Model Context Protocol (MCP) servers with GitHub stars, category, and capabilities.",
+      "keywords": [
+        "mcp",
+        "model context protocol",
+        "ai agents",
+        "tooling"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/mcp-servers-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/mcp-servers.html",
+      "fullDatasetPriceUsd": 9,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/mcp-servers-directory",
+      "related": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ]
+    },
+    {
+      "slug": "ai-tools",
+      "name": "AI Tools Directory",
+      "recordCount": "2,700+",
+      "description": "Catalog of 2,700+ AI tools and applications with category, pricing model, and API availability.",
+      "keywords": [
+        "ai tools",
+        "artificial intelligence",
+        "saas"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-tools.html",
+      "fullDatasetPriceUsd": 9,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-tools-directory",
+      "related": [
+        "ai-agents",
+        "ai-prompts",
+        "no-code-lowcode"
+      ]
+    },
+    {
+      "slug": "cybersecurity-tools",
+      "name": "Cybersecurity Tools Directory",
+      "recordCount": "2,600+",
+      "description": "Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories.",
+      "keywords": [
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "security tools"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/cybersecurity-tools.html",
+      "fullDatasetPriceUsd": 9,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/cybersecurity-tools",
+      "related": [
+        "open-source-alternatives",
+        "self-hosted-software",
+        "developer-tools"
+      ]
+    },
+    {
+      "slug": "huggingface-datasets",
+      "name": "HuggingFace Datasets Directory",
+      "recordCount": "2,600+",
+      "description": "Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.",
+      "keywords": [
+        "huggingface",
+        "datasets",
+        "machine learning",
+        "training data"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/huggingface-datasets.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/huggingface-datasets-directory",
+      "related": [
+        "huggingface-models",
+        "ai-prompts",
+        "llmops-and-eval"
+      ]
+    },
+    {
+      "slug": "public-apis",
+      "name": "Public APIs Directory",
+      "recordCount": "2,500+",
+      "description": "Catalog of 2,500+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories.",
+      "keywords": [
+        "public apis",
+        "rest api",
+        "free api",
+        "no-auth api"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/public-apis-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/public-apis.html",
+      "fullDatasetPriceUsd": 12,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/public-apis-directory",
+      "related": [
+        "developer-tools",
+        "npm-packages",
+        "ai-tools"
+      ]
+    },
+    {
+      "slug": "self-hosted-software",
+      "name": "Self-Hosted Software Directory",
+      "recordCount": "2,300+",
+      "description": "Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more.",
+      "keywords": [
+        "self-hosted",
+        "open source",
+        "homelab",
+        "selfhost"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html",
+      "fullDatasetPriceUsd": 14,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/self-hosted-software-directory",
+      "related": [
+        "open-source-alternatives",
+        "platform-engineering",
+        "cybersecurity-tools"
+      ]
+    },
+    {
+      "slug": "design-resources",
+      "name": "Design Resources Directory",
+      "recordCount": "2,100+",
+      "description": "Catalog of 2,100+ design resources across design systems, UI kits, icons, illustrations, stock photos, and tools.",
+      "keywords": [
+        "design",
+        "ui kits",
+        "icons",
+        "illustrations",
+        "design systems"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/design-resources-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/design-resources.html",
+      "fullDatasetPriceUsd": 9,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/design-resources",
+      "related": [
+        "ai-tools",
+        "no-code-lowcode",
+        "developer-tools"
+      ]
+    },
+    {
+      "slug": "ai-agents",
+      "name": "AI Agents Directory",
+      "recordCount": "2,000+",
+      "description": "Catalog of 2,000+ AI agent projects and frameworks \u2014 autonomous agents, multi-agent systems, agent-as-a-service tools.",
+      "keywords": [
+        "ai agents",
+        "autonomous agents",
+        "agent frameworks",
+        "llm agents"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-agents-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-agents.html",
+      "fullDatasetPriceUsd": 7,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-agents-directory",
+      "related": [
+        "mcp-servers",
+        "llmops-and-eval",
+        "ai-tools"
+      ]
+    },
+    {
+      "slug": "ai-prompts",
+      "name": "AI Prompts Directory",
+      "recordCount": "1,700+",
+      "description": "Catalog of 1,700+ AI prompts across text, structured, and image generation \u2014 categorized for developer workflows.",
+      "keywords": [
+        "ai prompts",
+        "prompt engineering",
+        "llm prompts",
+        "chatgpt prompts"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-prompts-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-prompts.html",
+      "fullDatasetPriceUsd": 9,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-prompts-directory",
+      "related": [
+        "ai-tools",
+        "ai-agents",
+        "huggingface-datasets"
+      ]
+    },
+    {
+      "slug": "developer-tools",
+      "name": "Developer Tools Directory",
+      "recordCount": "1,500+",
+      "description": "Catalog of 1,500+ developer tools across CLI tools, code editors, debuggers, profilers, and productivity utilities.",
+      "keywords": [
+        "developer tools",
+        "dev tools",
+        "cli tools",
+        "productivity"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/developer-tools-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/developer-tools.html",
+      "fullDatasetPriceUsd": 9,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/developer-tools-directory",
+      "related": [
+        "npm-packages",
+        "homebrew-packages",
+        "vscode-extensions"
+      ]
+    },
+    {
+      "slug": "open-source-alternatives",
+      "name": "Open Source Alternatives Directory",
+      "recordCount": "900+",
+      "description": "Catalog of 900+ open-source alternatives to popular commercial software \u2014 each entry maps a proprietary product to OSS equivalents.",
+      "keywords": [
+        "open source",
+        "alternatives",
+        "saas alternatives",
+        "self-hostable"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/open-source-alternatives.html",
+      "fullDatasetPriceUsd": 7,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/open-source-alternatives",
+      "related": [
+        "self-hosted-software",
+        "cybersecurity-tools",
+        "no-code-lowcode"
+      ]
+    },
+    {
+      "slug": "ai-models-pricing",
+      "name": "AI Models & Providers Pricing Matrix",
+      "recordCount": "800+",
+      "description": "Catalog of 800+ AI model endpoints with per-token pricing (prompt + completion), context length, modality, uptime, across providers and quantizations.",
+      "keywords": [
+        "ai models pricing",
+        "llm pricing",
+        "openrouter",
+        "model api cost"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-models-pricing.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/ai-models-pricing-matrix",
+      "related": [
+        "huggingface-models",
+        "llmops-and-eval",
+        "ai-agents"
+      ]
+    },
+    {
+      "slug": "no-code-lowcode",
+      "name": "No-Code & Low-Code Tools Directory",
+      "recordCount": "500+",
+      "description": "Catalog of 500+ no-code and low-code tools across automation, app builders, internal tools, and integration platforms.",
+      "keywords": [
+        "no-code",
+        "low-code",
+        "automation",
+        "app builders"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/no-code-lowcode-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/no-code-lowcode.html",
+      "fullDatasetPriceUsd": 7,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/no-code-lowcode",
+      "related": [
+        "ai-tools",
+        "open-source-alternatives",
+        "design-resources"
+      ]
+    },
+    {
+      "slug": "llmops-and-eval",
+      "name": "LLMOps & Eval Tooling Directory",
+      "recordCount": "490+",
+      "description": "Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks.",
+      "keywords": [
+        "llmops",
+        "llm evaluation",
+        "ai observability",
+        "prompt management",
+        "model serving"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/llmops-and-eval.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/llmops-and-eval-tooling-directory",
+      "related": [
+        "vector-db-and-rag",
+        "ai-models-pricing",
+        "ai-agents"
+      ]
+    },
+    {
+      "slug": "platform-engineering",
+      "name": "Platform Engineering & IDP Tooling Directory",
+      "recordCount": "390+",
+      "description": "Catalog of 390+ platform engineering tools across developer portals, GitOps, service mesh, IaC, observability, container orchestration, CI/CD, secrets, policy, feature flags, service catalog, cost management, and DX.",
+      "keywords": [
+        "platform engineering",
+        "idp",
+        "developer portal",
+        "gitops",
+        "devops"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/platform-engineering-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/platform-engineering-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/platform-engineering.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/platform-engineering-tooling-directory",
+      "related": [
+        "self-hosted-software",
+        "developer-tools",
+        "mcp-servers"
+      ]
+    },
+    {
+      "slug": "vector-db-and-rag",
+      "name": "Vector DB & RAG Infrastructure Directory",
+      "recordCount": "190+",
+      "description": "Catalog of 190+ vector databases and RAG infrastructure tools \u2014 embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends.",
+      "keywords": [
+        "vector database",
+        "rag",
+        "embeddings",
+        "retrieval",
+        "semantic search"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.json",
+      "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.csv",
+      "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/vector-db-and-rag.html",
+      "fullDatasetPriceUsd": 11,
+      "fullDatasetUrl": "https://jhonnyronnie.gumroad.com/l/vector-db-and-rag-infrastructure",
+      "related": [
+        "llmops-and-eval",
+        "huggingface-datasets",
+        "ai-models-pricing"
+      ]
+    }
+  ]
+}
