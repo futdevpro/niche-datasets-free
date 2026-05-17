@@ -134,6 +134,14 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <title>{name} — Free Sample (CSV + JSON)</title>
 <meta name="description" content="{desc} Free sample: 20 records in JSON + CSV. Full dataset ${price} on Gumroad.">
 <link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/{slug}.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/{slug}.html">
+<meta property="og:title" content="{name} — Free Sample (CSV + JSON)">
+<meta property="og:description" content="{desc} Free sample: 20 records in JSON + CSV. Full dataset ${price} on Gumroad.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{name} — Free Sample">
+<meta name="twitter:description" content="{records} records · {desc} Free sample 20 records. Full ${price}.">
 <style>
   body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}}
   h1{{font-size:1.6rem;margin-bottom:.25rem}}
