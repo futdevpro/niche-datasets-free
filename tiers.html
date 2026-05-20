@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Semantic Enum Tiers — Cross-Dataset Filter Reference</title>
+<meta name="description" content="Complete reference of every derived semantic enum tier across 20 niche datasets. 10 shared tiers + 40+ dataset-specific tiers. Filter once, answer everywhere.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/tiers.html">
+<link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
+<link rel="alternate" type="application/json" title="Niche Datasets — Catalog" href="datasets.json">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/tiers.html">
+<meta property="og:title" content="All Semantic Enum Tiers — Cross-Dataset Filter Reference">
+<meta property="og:description" content="10 shared + 40+ dataset-specific derived enum tiers. Complete filter reference across 20 datasets.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="All Semantic Enum Tiers — Filter Reference">
+<meta name="twitter:description" content="50+ enum tiers across 20 datasets, fully documented.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:920px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7rem;margin-bottom:.4rem}
+  h2{font-size:1.2rem;margin-top:2.2rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}
+  h3{font-size:1.05rem;margin-top:1.4rem;color:#222}
+  a{color:#0969da}
+  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}
+  .lead{color:#444;font-size:1.05rem}
+  .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+  th,td{border:1px solid #e5e7eb;padding:.42rem .6rem;text-align:left;vertical-align:top}
+  thead{background:#f6f8fa}
+  .shared{background:#e6f4ff}
+  .ds-block{background:#fafbfc;padding:1rem 1.2rem;border-left:3px solid #0969da;border-radius:0 4px 4px 0;margin:1.2rem 0}
+  .ds-block h3{margin-top:0}
+  .enum-list{font-size:.92rem;color:#444}
+  .enum-list li{margin:.25rem 0}
+  .badge{display:inline-block;background:#16a34a;color:white;padding:.05rem .4rem;border-radius:3px;font-size:.8em;margin-left:.4rem;vertical-align:middle}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TechArticle","headline":"All Semantic Enum Tiers — Cross-Dataset Filter Reference","datePublished":"2026-05-21","dateModified":"2026-05-21","author":{"@type":"Organization","name":"Niche Datasets"},"publisher":{"@type":"Organization","name":"Niche Datasets","url":"https://futdevpro.github.io/niche-datasets-free/"},"mainEntityOfPage":"https://futdevpro.github.io/niche-datasets-free/tiers.html","image":"https://futdevpro.github.io/niche-datasets-free/og-cover.svg","description":"Complete enum-tier reference across 20 niche datasets — 10 shared tiers plus 40+ dataset-specific."}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},{"@type":"ListItem","position":2,"name":"All Tiers","item":"https://futdevpro.github.io/niche-datasets-free/tiers.html"}]}
+</script>
+</head>
+<body>
+
+<p class="nav"><a href="./">Home</a> | <a href="quickstart.html">Quickstart</a> | <a href="buyers-guide.html">Buyer guide</a> | <a href="api.html">API</a> | <a href="blog-semantic-enum-tiers.html">Tier methodology</a> | <a href="faq.html">FAQ</a></p>
+
+<h1>All Semantic Enum Tiers</h1>
+<p class="lead">Every derived enum-tier field in the catalog, grouped by dataset and cross-referenced where tiers are shared across multiple datasets. Filter syntax is identical across datasets when the enum name matches.</p>
+<p>Methodology behind these tiers: <a href="blog-semantic-enum-tiers.html">Semantic enum tiers post</a>.</p>
+
+<h2>Shared tiers (same enum across 2+ datasets)</h2>
+<p>A query like <code>useCaseTier=code</code> returns matching records consistently across all listed datasets.</p>
+<table><thead><tr><th>Tier name</th><th>Datasets that ship it</th><th>x</th></tr></thead><tbody>
+<tr class="shared"><td><code>popularityTier</code></td><td><a href="homebrew-packages.html">homebrew-packages</a> | <a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a> | <a href="npm-packages.html">npm-packages</a> | <a href="vscode-extensions.html">vscode-extensions</a></td><td>5</td></tr>
+<tr class="shared"><td><code>licenseTier</code></td><td><a href="homebrew-packages.html">homebrew-packages</a> | <a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a> | <a href="npm-packages.html">npm-packages</a> | <a href="open-source-alternatives.html">open-source-alternatives</a></td><td>5</td></tr>
+<tr class="shared"><td><code>recencyTier</code></td><td><a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a> | <a href="npm-packages.html">npm-packages</a> | <a href="vscode-extensions.html">vscode-extensions</a></td><td>4</td></tr>
+<tr class="shared"><td><code>useCaseTier</code></td><td><a href="ai-models-pricing.html">ai-models-pricing</a> | <a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a></td><td>3</td></tr>
+<tr class="shared"><td><code>versionTier</code></td><td><a href="homebrew-packages.html">homebrew-packages</a> | <a href="npm-packages.html">npm-packages</a> | <a href="vscode-extensions.html">vscode-extensions</a></td><td>3</td></tr>
+<tr class="shared"><td><code>downloadVolumeTier</code></td><td><a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a> | <a href="npm-packages.html">npm-packages</a></td><td>3</td></tr>
+<tr class="shared"><td><code>modalityTier</code></td><td><a href="ai-models-pricing.html">ai-models-pricing</a> | <a href="huggingface-datasets.html">huggingface-datasets</a></td><td>2</td></tr>
+<tr class="shared"><td><code>installVolumeTier</code></td><td><a href="homebrew-packages.html">homebrew-packages</a> | <a href="vscode-extensions.html">vscode-extensions</a></td><td>2</td></tr>
+<tr class="shared"><td><code>languageTier</code></td><td><a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a></td><td>2</td></tr>
+<tr class="shared"><td><code>creatorTier</code></td><td><a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a></td><td>2</td></tr>
+</tbody></table>
+<h2>Per-dataset enum tiers</h2>
+<p>Each dataset lists every <em>derived</em> enum field (the source API does not expose these directly; the pipeline computes them).</p>
+<div class="ds-block">
+<h3><a href="ai-models-pricing.html">ai-models-pricing</a> <span class="badge">13 tiers</span></h3>
+<ul class="enum-list">
+<li><code>costEfficiencyScore</code><br><span style="font-size:.85em;color:#555">to <code>cheapest25pct</code> / <code>cheap50pct</code> / <code>midrange</code> / <code>expensive</code> / <code>unknown</code></span></li>
+<li><code>costTierAbsolute</code><br><span style="font-size:.85em;color:#555">to <code>free</code> / <code>cheap</code> / <code>mid</code> / <code>premium</code> / <code>flagship</code> / <code>unknown</code></span></li>
+<li><code>useCaseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>chat</code> / <code>code</code> / <code>vision</code> / <code>audio</code> / <code>multimodal</code> / <code>embedding</code> / <code>other</code> / <code>unknown</code></span></li>
+<li><code>contextTier</code><br><span style="font-size:.85em;color:#555">to <code>small</code> / <code>medium</code> / <code>large</code> / <code>xlarge</code> / <code>unknown</code></span></li>
+<li><code>modalityTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>text-only</code> / <code>multimodal-text-out</code> / <code>image-out</code> / <code>audio-io</code> / <code>unknown</code></span></li>
+<li><code>uptimeTier</code><br><span style="font-size:.85em;color:#555">to <code>excellent</code> / <code>good</code> / <code>acceptable</code> / <code>poor</code> / <code>unknown</code></span></li>
+<li><code>releaseRecencyTier</code><br><span style="font-size:.85em;color:#555">to <code>bleeding-edge</code> / <code>fresh</code> / <code>current</code> / <code>legacy</code> / <code>deprecated</code> / <code>unknown</code></span></li>
+<li><code>featureRichnessTier</code><br><span style="font-size:.85em;color:#555">to <code>advanced</code> / <code>rich</code> / <code>standard</code> / <code>basic</code> / <code>minimal</code> / <code>unknown</code></span></li>
+<li><code>quantizationTier</code><br><span style="font-size:.85em;color:#555">to <code>full-precision</code> / <code>half-precision</code> / <code>reduced-precision</code> / <code>integer-quantized</code> / <code>unknown</code></span></li>
+<li><code>maxOutputTier</code><br><span style="font-size:.85em;color:#555">to <code>small</code> / <code>medium</code> / <code>large</code> / <code>xlarge</code> / <code>unknown</code></span></li>
+<li><code>providerDiversityTier</code><br><span style="font-size:.85em;color:#555">to <code>single</code> / <code>multi</code> / <code>widespread</code> / <code>ubiquitous</code></span></li>
+<li><code>knowledgeCutoffRecencyTier</code><br><span style="font-size:.85em;color:#555">to <code>recent</code> / <code>current</code> / <code>dated</code> / <code>stale</code> / <code>unknown</code></span></li>
+<li><code>providerTier</code><br><span style="font-size:.85em;color:#555">to <code>frontier-lab</code> / <code>hyperscaler</code> / <code>aggregator</code> / <code>specialized</code> / <code>unknown</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="ai-prompts.html">ai-prompts</a> <span class="badge">1 tiers</span></h3>
+<ul class="enum-list">
+<li><code>modelType</code><br><span style="font-size:.85em;color:#555">to <code>text</code> / <code>structured</code> / <code>image</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="cybersecurity-tools.html">cybersecurity-tools</a> <span class="badge">3 tiers</span></h3>
+<ul class="enum-list">
+<li><code>toolType</code><br><span style="font-size:.85em;color:#555">to <code>framework</code> / <code>tool</code> / <code>library</code> / <code>platform</code> / <code>resource</code> / <code>other</code></span></li>
+<li><code>vendorTier</code><br><span style="font-size:.85em;color:#555">to <code>oss</code> / <code>commercial</code> / <code>dual</code> / <code>freeware</code> / <code>unknown</code></span></li>
+<li><code>targetPlatform</code><br><span style="font-size:.85em;color:#555">to <code>windows</code> / <code>linux</code> / <code>macos</code> / <code>web</code> / <code>cloud</code> / <code>mobile</code> / <code>hardware</code> / <code>cross-platform</code> / <code>unknown</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="homebrew-packages.html">homebrew-packages</a> <span class="badge">8 tiers</span></h3>
+<ul class="enum-list">
+<li><code>packageType</code><br><span style="font-size:.85em;color:#555">to <code>formula</code> / <code>cask</code></span></li>
+<li><code>popularityTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>transitiveDepFactor</code><br><span style="font-size:.85em;color:#555">to <code>foundation</code> / <code>core</code> / <code>shared</code> / <code>niche</code> / <code>leaf</code> / <code>unknown</code></span></li>
+<li><code>licenseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>permissive</code> / <code>weak-copyleft</code> / <code>strong-copyleft</code> / <code>proprietary</code> / <code>unknown</code></span></li>
+<li><code>statusTier</code><br><span style="font-size:.85em;color:#555">to <code>active</code> / <code>deprecated</code> / <code>disabled</code></span></li>
+<li><code>dependencyComplexityTier</code><br><span style="font-size:.85em;color:#555">to <code>zero</code> / <code>simple</code> / <code>moderate</code> / <code>complex</code> / <code>heavy</code></span></li>
+<li><code>versionTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>prerelease</code> / <code>early</code> / <code>stable</code> / <code>mature</code> / <code>veteran</code> / <code>unknown</code></span></li>
+<li><code>installVolumeTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>viral</code> / <code>mainstream</code> / <code>established</code> / <code>niche</code> / <code>emerging</code> / <code>unknown</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="huggingface-datasets.html">huggingface-datasets</a> <span class="badge">10 tiers</span></h3>
+<ul class="enum-list">
+<li><code>popularityTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>sizeCategoryTier</code><br><span style="font-size:.85em;color:#555">to <code>tiny</code> / <code>small</code> / <code>medium</code> / <code>large</code> / <code>huge</code> / <code>massive</code> / <code>unknown</code></span></li>
+<li><code>recencyTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>fresh</code> / <code>recent</code> / <code>older</code> / <code>stale</code> / <code>ancient</code> / <code>unknown</code></span></li>
+<li><code>languageTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>monolingual</code> / <code>bilingual</code> / <code>multilingual</code> / <code>massively-multilingual</code> / <code>unknown</code></span></li>
+<li><code>licenseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>permissive</code> / <code>weak-copyleft</code> / <code>strong-copyleft</code> / <code>proprietary</code> / <code>unknown</code></span></li>
+<li><code>modalityTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>text</code> / <code>image</code> / <code>audio</code> / <code>video</code> / <code>tabular</code> / <code>structured</code> / <code>unknown</code></span></li>
+<li><code>taskCategoryTier</code><br><span style="font-size:.85em;color:#555">to <code>generative</code> / <code>discriminative</code> / <code>multimodal</code> / <code>qa</code> / <code>specialized</code> / <code>unknown</code></span></li>
+<li><code>useCaseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>chat</code> / <code>embedding</code> / <code>vision</code> / <code>audio</code> / <code>code</code> / <code>multimodal</code> / <code>nlp-classic</code> / <code>tabular</code> / <code>other</code> / <code>unknown</code></span></li>
+<li><code>downloadVolumeTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>viral</code> / <code>mainstream</code> / <code>established</code> / <code>niche</code> / <code>emerging</code> / <code>unknown</code></span></li>
+<li><code>creatorTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>frontier-lab</code> / <code>research-org</code> / <code>benchmark-suite</code> / <code>community</code> / <code>unknown</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="huggingface-models.html">huggingface-models</a> <span class="badge">12 tiers</span></h3>
+<ul class="enum-list">
+<li><code>popularityTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>libraryRank</code><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>likesTier</code><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>recencyTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>fresh</code> / <code>recent</code> / <code>older</code> / <code>stale</code> / <code>ancient</code> / <code>unknown</code></span></li>
+<li><code>languageTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>monolingual</code> / <code>bilingual</code> / <code>multilingual</code> / <code>massively-multilingual</code> / <code>unknown</code></span></li>
+<li><code>licenseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>permissive</code> / <code>weak-copyleft</code> / <code>strong-copyleft</code> / <code>proprietary</code> / <code>unknown</code></span></li>
+<li><code>parameterSizeTier</code><br><span style="font-size:.85em;color:#555">to <code>tiny</code> / <code>small</code> / <code>medium</code> / <code>large</code> / <code>extra-large</code> / <code>massive</code> / <code>unknown</code></span></li>
+<li><code>formatTier</code><br><span style="font-size:.85em;color:#555">to <code>gguf-quantized</code> / <code>integer-quantized</code> / <code>mlx-format</code> / <code>onnx-format</code> / <code>safetensors</code> / <code>pytorch-legacy</code> / <code>tensorflow</code> / <code>unknown</code></span></li>
+<li><code>pipelineTaskTier</code><br><span style="font-size:.85em;color:#555">to <code>generative</code> / <code>discriminative</code> / <code>multimodal</code> / <code>qa</code> / <code>specialized</code> / <code>unknown</code></span></li>
+<li><code>useCaseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>chat</code> / <code>embedding</code> / <code>vision</code> / <code>audio</code> / <code>code</code> / <code>multimodal</code> / <code>nlp-classic</code> / <code>other</code> / <code>unknown</code></span></li>
+<li><code>downloadVolumeTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>viral</code> / <code>mainstream</code> / <code>established</code> / <code>niche</code> / <code>emerging</code> / <code>unknown</code></span></li>
+<li><code>creatorTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>frontier-lab</code> / <code>aggregator</code> / <code>community</code> / <code>unknown</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="no-code-lowcode.html">no-code-lowcode</a> <span class="badge">1 tiers</span></h3>
+<ul class="enum-list">
+<li><code>codeType</code><br><span style="font-size:.85em;color:#555">to <code>no-code</code> / <code>low-code</code> / <code>both</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="npm-packages.html">npm-packages</a> <span class="badge">8 tiers</span></h3>
+<ul class="enum-list">
+<li><code>popularityTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>supplyChainRisk</code><br><span style="font-size:.85em;color:#555">to <code>low</code> / <code>medium</code> / <code>high</code> / <code>unknown</code></span></li>
+<li><code>dependentTier</code><br><span style="font-size:.85em;color:#555">to <code>foundation</code> / <code>popular</code> / <code>moderate</code> / <code>niche</code> / <code>isolated</code> / <code>unknown</code></span></li>
+<li><code>recencyTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>fresh</code> / <code>recent</code> / <code>older</code> / <code>stale</code> / <code>ancient</code> / <code>unknown</code></span></li>
+<li><code>licenseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>permissive</code> / <code>weak-copyleft</code> / <code>strong-copyleft</code> / <code>proprietary</code> / <code>unknown</code></span></li>
+<li><code>versionTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>prerelease</code> / <code>early</code> / <code>stable</code> / <code>mature</code> / <code>veteran</code> / <code>unknown</code></span></li>
+<li><code>scopedTier</code><br><span style="font-size:.85em;color:#555">to <code>types-package</code> / <code>scoped-org</code> / <code>community</code></span></li>
+<li><code>downloadVolumeTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>viral</code> / <code>mainstream</code> / <code>established</code> / <code>niche</code> / <code>emerging</code> / <code>minimal</code> / <code>unknown</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="open-source-alternatives.html">open-source-alternatives</a> <span class="badge">1 tiers</span></h3>
+<ul class="enum-list">
+<li><code>licenseTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>permissive</code> / <code>weak-copyleft</code> / <code>strong-copyleft</code> / <code>proprietary</code> / <code>unknown</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="public-apis.html">public-apis</a> <span class="badge">1 tiers</span></h3>
+<ul class="enum-list">
+<li><code>auth</code><br><span style="font-size:.85em;color:#555">to <code>none</code> / <code>apiKey</code> / <code>oauth</code> / <code>user-agent</code> / <code>other</code></span></li>
+</ul></div>
+<div class="ds-block">
+<h3><a href="vscode-extensions.html">vscode-extensions</a> <span class="badge">5 tiers</span></h3>
+<ul class="enum-list">
+<li><code>popularityTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>publisherRank</code><br><span style="font-size:.85em;color:#555">to <code>top1pct</code> / <code>top5pct</code> / <code>top25pct</code> / <code>rest</code> / <code>unknown</code></span></li>
+<li><code>recencyTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>fresh</code> / <code>recent</code> / <code>older</code> / <code>stale</code> / <code>ancient</code> / <code>unknown</code></span></li>
+<li><code>versionTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>prerelease</code> / <code>stable</code> / <code>mature</code> / <code>veteran</code> / <code>unknown</code></span></li>
+<li><code>installVolumeTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>viral</code> / <code>mainstream</code> / <code>established</code> / <code>niche</code> / <code>emerging</code> / <code>unknown</code></span></li>
+</ul></div>
+<h2>Datasets without derived enum tiers (yet)</h2>
+<p>These are mostly awesome-list mirrors where the source data does not have enough structure to derive meaningful semantic tiers without LLM enrichment. Adding tiers to these is on the roadmap.</p>
+<ul>
+<li><a href="ai-agents.html">ai-agents</a></li>
+<li><a href="ai-tools.html">ai-tools</a></li>
+<li><a href="design-resources.html">design-resources</a></li>
+<li><a href="developer-tools.html">developer-tools</a></li>
+<li><a href="llmops-and-eval.html">llmops-and-eval</a></li>
+<li><a href="mcp-servers.html">mcp-servers</a></li>
+<li><a href="platform-engineering.html">platform-engineering</a></li>
+<li><a href="self-hosted-software.html">self-hosted-software</a></li>
+<li><a href="vector-db-and-rag.html">vector-db-and-rag</a></li>
+</ul>
+<p><a href="./">Browse all 20 datasets</a></p>
+<footer>Niche Datasets | <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> | <a href="https://jhonnyronnie.gumroad.com/">Gumroad storefront</a> | <a href="blog-semantic-enum-tiers.html">Tier methodology</a></footer>
+</body>
+</html>
+
