@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>13-Day Refresh Report — What Actually Changes Across 20 Dev/AI Datasets (2026-05-20)</title>
+<meta name="description" content="55,326 records across 20 developer + AI datasets, refreshed 13 days after the 2026-05-07 baseline. Hard numbers on what churned: npm 122% turnover, HuggingFace datasets 43%, MCP servers 0.8%, design-resources literally 0. Real distribution of how fast different niches move.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html">
+<link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
+<link rel="alternate" type="application/json" title="Niche Datasets — Catalog" href="datasets.json">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html">
+<meta property="og:title" content="13-Day Refresh Report — What Actually Changes Across 20 Dev/AI Datasets">
+<meta property="og:description" content="55,326 records refreshed 13 days after baseline. npm 122% turnover, HuggingFace datasets 43%, MCP servers 0.8%, design-resources 0. Per-dataset churn table.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="13-Day Refresh Report — 20 Dev/AI Datasets, Hard Churn Numbers">
+<meta name="twitter:description" content="55,326 records. npm 122%, HF datasets 43%, MCP 0.8%, design-resources 0. Per-dataset churn table.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:820px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7rem;margin-bottom:.4rem}
+  h2{font-size:1.2rem;margin-top:2.2rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}
+  h3{font-size:1.05rem;margin-top:1.6rem}
+  a{color:#0969da}
+  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}
+  .lead{color:#444;font-size:1.05rem}
+  .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  .meta{color:#666;font-size:.88rem;margin-bottom:1rem}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+  th,td{border:1px solid #e5e7eb;padding:.42rem .6rem;text-align:right}
+  th:first-child,td:first-child{text-align:left}
+  thead{background:#f6f8fa}
+  .pos{color:#16a34a}.neg{color:#b91c1c}.zero{color:#999}
+  tr.totalrow td{font-weight:600;background:#fafafa}
+  .takeaway{background:#fafbfc;padding:1rem 1.3rem;border-left:3px solid #16a34a;border-radius:0 4px 4px 0;margin:1.5rem 0}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "13-Day Refresh Report — What Actually Changes Across 20 Dev/AI Datasets",
+  "datePublished": "2026-05-20",
+  "dateModified": "2026-05-20",
+  "author": {"@type": "Organization", "name": "Niche Datasets"},
+  "publisher": {"@type": "Organization", "name": "Niche Datasets", "url": "https://futdevpro.github.io/niche-datasets-free/"},
+  "mainEntityOfPage": "https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html",
+  "image": "https://futdevpro.github.io/niche-datasets-free/og-cover.svg",
+  "description": "55,326 records refreshed 13 days after the 2026-05-07 baseline. Per-dataset churn numbers for 20 developer + AI datasets."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},
+    {"@type":"ListItem","position":2,"name":"13-Day Refresh Report","item":"https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="quickstart.html">Quickstart</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a> &nbsp;·&nbsp; <a href="vs.html">vs. alternatives</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
+
+<h1>13-Day Refresh Report — What Actually Changes Across 20 Dev/AI Datasets</h1>
+<p class="meta">Published 2026-05-20 · Niche Datasets · Sources refreshed between 06:35 and 16:02 CET</p>
+
+<p class="lead">Every dataset in this catalog got a fresh pull on 2026-05-20, 13 days after the 2026-05-07 baseline. <strong>55,326 records</strong> in total, validated, sorted, deduped, sample-regenerated, and pushed to the free preview surface. Here is exactly what changed.</p>
+
+<h2>Per-dataset churn table</h2>
+
+<table>
+<thead>
+<tr><th>Dataset</th><th>Total</th><th>+ Added</th><th>~ Updated</th><th>− Removed</th><th>Net</th><th>Churn %</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="npm-packages.html">npm-packages</a></td><td>6,171</td><td class="pos">+3,760</td><td>2,411</td><td class="neg">−3,775</td><td class="neg">−15</td><td><strong>122.1%</strong></td></tr>
+<tr><td><a href="huggingface-datasets.html">huggingface-datasets</a></td><td>2,821</td><td class="pos">+682</td><td>2,139</td><td class="neg">−539</td><td class="pos">+143</td><td><strong>43.3%</strong></td></tr>
+<tr><td>huggingface-models</td><td>4,000</td><td class="pos">+331</td><td>3,669</td><td class="neg">−331</td><td class="zero">0</td><td>16.6%</td></tr>
+<tr><td>ai-models-pricing</td><td>802</td><td class="pos">+40</td><td>762</td><td class="neg">−50</td><td class="neg">−10</td><td>11.2%</td></tr>
+<tr><td>ai-tools</td><td>2,807</td><td class="pos">+62</td><td>1,162</td><td class="neg">−48</td><td class="pos">+14</td><td>3.9%</td></tr>
+<tr><td><a href="public-apis.html">public-apis</a></td><td>2,658</td><td class="pos">+85</td><td>123</td><td class="neg">−6</td><td class="pos">+79</td><td>3.4%</td></tr>
+<tr><td><a href="ai-prompts.html">ai-prompts</a></td><td>1,805</td><td class="pos">+61</td><td>1,743</td><td class="zero">0</td><td class="pos">+61</td><td>3.4%</td></tr>
+<tr><td><a href="open-source-alternatives.html">open-source-alternatives</a></td><td>933</td><td class="pos">+11</td><td>90</td><td class="neg">−1</td><td class="pos">+10</td><td>1.3%</td></tr>
+<tr><td><a href="platform-engineering.html">platform-engineering</a></td><td>397</td><td class="pos">+5</td><td>62</td><td class="zero">0</td><td class="pos">+5</td><td>1.3%</td></tr>
+<tr><td><a href="developer-tools.html">developer-tools</a></td><td>1,634</td><td class="pos">+12</td><td>93</td><td class="neg">−4</td><td class="pos">+8</td><td>1.0%</td></tr>
+<tr><td><a href="mcp-servers.html">mcp-servers</a></td><td>3,658</td><td class="pos">+31</td><td>3,356</td><td class="zero">0</td><td class="pos">+31</td><td>0.8%</td></tr>
+<tr><td><a href="homebrew-packages.html">homebrew-packages</a></td><td>12,239</td><td class="pos">+52</td><td>11,780</td><td class="neg">−24</td><td class="pos">+28</td><td>0.6%</td></tr>
+<tr><td>ai-agents</td><td>2,026</td><td class="pos">+7</td><td>1,559</td><td class="neg">−2</td><td class="pos">+5</td><td>0.4%</td></tr>
+<tr><td><a href="vscode-extensions.html">vscode-extensions</a></td><td>4,845</td><td class="pos">+10</td><td>4,825</td><td class="neg">−11</td><td class="neg">−1</td><td>0.4%</td></tr>
+<tr><td><a href="self-hosted-software.html">self-hosted-software</a></td><td>2,320</td><td class="pos">+5</td><td>718</td><td class="neg">−5</td><td class="zero">0</td><td>0.4%</td></tr>
+<tr><td><a href="cybersecurity-tools.html">cybersecurity-tools</a></td><td>2,698</td><td class="pos">+9</td><td>801</td><td class="neg">−1</td><td class="pos">+8</td><td>0.4%</td></tr>
+<tr><td><a href="no-code-lowcode.html">no-code-lowcode</a></td><td>580</td><td class="pos">+2</td><td>30</td><td class="zero">0</td><td class="pos">+2</td><td>0.3%</td></tr>
+<tr><td><a href="design-resources.html">design-resources</a></td><td>2,166</td><td class="zero">0</td><td>69</td><td class="zero">0</td><td class="zero">0</td><td>0.0%</td></tr>
+<tr><td><a href="llmops-and-eval.html">llmops-and-eval</a></td><td>541</td><td class="zero">0</td><td>500</td><td class="zero">0</td><td class="zero">0</td><td>0.0%</td></tr>
+<tr><td><a href="vector-db-and-rag.html">vector-db-and-rag</a></td><td>225</td><td class="zero">0</td><td>219</td><td class="zero">0</td><td class="zero">0</td><td>0.0%</td></tr>
+<tr class="totalrow"><td>Total</td><td>55,326</td><td class="pos">+5,165</td><td>36,111</td><td class="neg">−4,797</td><td class="pos">+368</td><td>—</td></tr>
+</tbody>
+</table>
+
+<h2>What the numbers say</h2>
+
+<h3>npm is the loudest signal</h3>
+<p>The npm-packages dataset (top-N-by-downloads ranking) had a <strong>122% gross churn</strong> in 13 days — 3,760 packages broke into the top-6,000 and 3,775 dropped out, leaving the net total roughly flat. This is what an actively-ranked feed looks like: a static "top 6,000 npm packages" snapshot taken today and one taken two weeks ago disagree about <em>more than half</em> of their members. If you're building any kind of "popular libraries" UI, you cannot serve a stale snapshot.</p>
+
+<h3>HuggingFace datasets churn is heavy too</h3>
+<p>The HuggingFace datasets feed had <strong>43.3% gross churn</strong>: 682 new dataset uploads and 539 deletions across 13 days. HuggingFace Hub is publishing-active in a way that GitHub awesome-lists are not.</p>
+
+<h3>Awesome-list-backed datasets are mostly idle</h3>
+<p>Everything below 5% churn (14 of 20 datasets) is sourced from one or more <code>awesome-*</code> README files maintained by humans on GitHub. These move at PR-cadence: a few entries added per week, occasionally a stale link removed. <strong>llmops-and-eval, vector-db-and-rag, and design-resources had literal zero adds or removes</strong> in 13 days — the lists are not actively curated, only the metadata (descriptions, GitHub stars, etc.) refreshes when we re-crawl.</p>
+
+<h3>Implication for downstream users</h3>
+<p>If you're picking which of our datasets to subscribe to (or whether to bother subscribing at all vs taking the snapshot once), the table above is the actual refresh-value distribution. <strong>npm and the HF feeds justify high-frequency pulls. The awesome-list-backed ones do not.</strong> A monthly refresh is plenty for design-resources or vector-db-and-rag; nightly or weekly is correct for npm or HuggingFace.</p>
+
+<h2>Pipeline notes</h2>
+
+<ul>
+<li><strong>0 validation errors</strong> across 55,326 records — Zod schemas held cleanly through every refresh.</li>
+<li>Total wall-clock pipeline time across all 20 datasets: <strong>~85 seconds</strong> (sum of per-dataset pipeline runs, excluding intra-dataset wait and human-driven steps). The slowest single dataset was npm-packages at 21.8s; the median was under 3s.</li>
+<li>Every dataset had its 20-record JSON+CSV sample regenerated and synced to the free preview repo (<a href="https://github.com/futdevpro/niche-datasets-free">github.com/futdevpro/niche-datasets-free</a>) within the same tick.</li>
+<li>All 26 URLs of this site were re-submitted to IndexNow (Bing / Yandex / Seznam / Naver) after each push so search engines see the new freshness badges within minutes, not days.</li>
+</ul>
+
+<div class="takeaway">
+<strong>Takeaway for buyers:</strong> the value-per-refresh of these datasets is not uniform. It is heavily skewed toward the API-backed feeds (npm, HF, OpenRouter) and away from the human-curated awesome-list mirrors. We size pricing by record-count, not by churn — which means the high-churn datasets are objectively the better deal per refresh.
+</div>
+
+<h2>Try the data</h2>
+
+<p>Every dataset above links to its detail page, which has a 5-record HTML preview + a downloadable 20-record JSON + CSV sample. No signup, no email, no API key.</p>
+
+<p>Want the full version? Each detail page links to the Gumroad product (single-dataset SKUs $9–11, themed bundles $24–29). The full data ZIP includes the same data the table above describes, plus the field-level Zod schema and a README.</p>
+
+<p><a href="./">← Browse all 20 datasets</a></p>
+
+<footer>
+Niche Datasets · <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> · <a href="https://jhonnyronnie.gumroad.com/">Gumroad storefront</a><br>
+Methodology: per-dataset CHANGELOG entries written by the pipeline at <code>datasets/&lt;name&gt;/CHANGELOG.md</code>. Sample regenerator: <code>__agent/scripts/generate-samples.ts</code>. Source: <a href="https://github.com/futdevpro/niche-datasets">github.com/futdevpro/niche-datasets</a> (private; we publish the free 20-record samples to the public repo above).
+</footer>
+
+</body>
+</html>
