@@ -1,108 +1,105 @@
 [
   {
-    "name": "Publish7",
-    "url": "https://publish7.com/",
-    "description": "AI Agents to revolutionize digital marketing for Retail and E-commerce success.",
+    "name": "AI Mastering",
+    "url": "https://aimastering.com",
+    "description": "AI-powered audio mastering.",
     "category": "audio",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "audio",
-      "marketing ai tools"
+      "interactive learning & tools"
     ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "DeepCode",
+    "url": "https://github.com/hkuds/deepcode",
+    "description": "Transforms research papers and natural language into production-ready code. AI-powered research-to-code automation tool. MIT licensed.",
+    "category": "code",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "13. developer tools & integrations"
+    ],
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "GraphCast",
-    "url": "https://github.com/google-deepmind/graphcast",
-    "description": "Deep learning weather forecasting model from Google DeepMind. State-of-the-art AI weather prediction with 10-day global forecasts matching or exceeding traditional numerical methods. Apache 2.0 licensed.",
-    "category": "code",
+    "name": "Qdrant",
+    "url": "https://github.com/qdrant/qdrant",
+    "description": "High-performance vector search engine in Rust.",
+    "category": "data",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "contents",
-      "11. specialized domains"
+      "5. retrieval-augmented generation (rag) & knowledge"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 6640
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Learning Python for Data Analysis and Visualization by Jose Portilla",
-    "url": "https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization",
-    "description": "Learning Python for Data Analysis and Visualization by Jose Portilla",
-    "category": "data",
-    "pricing": "unknown",
+    "name": "ThereforeGames/txt2mask",
+    "url": "https://github.com/thereforegames/txt2mask",
+    "description": "Automatically create masks for Stable Diffusion inpainting using natural language",
+    "category": "image",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "books and academic journals"
+      "image synthesis",
+      "inbox: stable diffusion"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Z-Image",
-    "url": "https://github.com/tongyi-mai/z-image",
-    "description": "Z-Image is a high-performance image generation model recently open-sourced by Alibaba's Tongyi Lab. It strikes a balance between \"extreme speed\" and \"high quality,\" making it highly suitable for scenarios requiring rapid image generation. Z-Image-Turbo Online Demo:",
-    "category": "image",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "ai image creation"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 11236
-  },
-  {
-    "name": "Agentprobe",
-    "url": "https://agentprobe.fly.dev/",
-    "description": "Free agentic commerce readiness scorer. Probes any seller URL across 13 signals (llms.txt, OpenAPI spec, MCP endpoint, catalog/quote/checkout APIs, payment rails, fulfillment proof) and returns a 0–110 score. Tells AI shopping agents which storefronts they can actually transact with. CERTIFIED badge available.",
+    "name": "Mira",
+    "url": "https://github.com/vwww-droid/mira",
+    "description": "AI-assisted runtime protection analysis platform for third-party Android and iOS apps, enabling agents to use host-app-side shell, Java, Native, and Frida capabilities for environment risk detection and hardening validation.",
     "category": "multimodal",
-    "pricing": "freemium",
-    "hasApi": true,
+    "pricing": "open-source",
+    "hasApi": false,
     "tags": [
       "ai agent tools"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "Tracking AI",
-    "url": "https://trackingai.org/",
-    "description": "Monitoring Bias in Artificial Intelligence Chatbots",
+    "name": "The Age of AI has begun",
+    "url": "https://www.gatesnotes.com/the-age-of-ai-has-begun",
+    "description": "notes by Bill Gates",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "(1166) A Hackers' Guide to Language Models - YouTube",
-    "url": "https://www.youtube.com/watch?v=jkrnmkz9pwu&t=21s",
-    "description": "(1166) A Hackers' Guide to Language Models - YouTube",
+    "name": "Transformers Tutorials (Niels Rogge)",
+    "url": "https://github.com/nielsrogge/transformers-tutorials",
+    "description": "Comprehensive tutorials and demos using the Hugging Face Transformers library for NLP, vision, and multimodal tasks.",
     "category": "productivity",
-    "pricing": "free",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
-      "roadmaps, tracks, rails"
+      "14. resources & learning"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Altern",
-    "url": "https://altern.ai",
-    "description": "Find Best AI Tools",
+    "name": "AI for Productivity",
+    "url": "https://productivity.directory/category/ai",
+    "description": "Curated List of AI Apps for productivity",
     "category": "search",
     "pricing": "free",
     "hasApi": false,
@@ -114,40 +111,79 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "LLM Testing Guide",
-    "url": "https://go.kolena.com/llm-testing-guide",
-    "description": "Comprehensive Strategies for Testing and Behavior Analysis by Kolena",
+    "name": "GPT-3 Demo",
+    "url": "https://gpt3demo.com/",
+    "description": "Showcase with GPT-3 examples, demos, apps, showcase, and NLP use-cases.",
     "category": "text",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "large language models (llms)",
-      "llm evaluation"
+      "more lists"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "RunwayML",
-    "url": "https://runwayml.com/",
-    "description": "Magical AI tools, realtime collaboration, precision editing, and more. Your next-generation content creation suite.",
+    "name": "Melies",
+    "url": "https://melies.co",
+    "description": "AI Filmmaking software",
     "category": "video",
     "pricing": "unknown",
     "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ggerganov/whisper.cpp",
+    "url": "https://github.com/ggerganov/whisper.cpp",
+    "description": "Port of OpenAI's Whisper model in C/C++. It can be executed locally.",
+    "category": "audio",
+    "pricing": "open-source",
+    "hasApi": false,
     "tags": [
-      "video"
+      "speech-to-text (stt) and spoken content analysis"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SourceAI",
+    "url": "https://sourceai.dev/",
+    "description": "An AI-powered code generator that helps you write code faster.",
+    "category": "code",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "ai-powered compilers and code assistants"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "SoundAI",
-    "url": "https://sound.ai",
-    "description": "AI for sound recognition and analysis.",
-    "category": "audio",
-    "pricing": "freemium",
+    "name": "Quickwit",
+    "url": "https://github.com/quickwit-oss/quickwit",
+    "description": "Cloud-native search engine for observability. Open-source alternative to Datadog, Elasticsearch, Loki, and Tempo with native vector search support.",
+    "category": "data",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "5. retrieval-augmented generation (rag) & knowledge"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "GANPaint Studio",
+    "url": "https://ganpaint.io",
+    "description": "Interactive tool for semantic photo manipulation.",
+    "category": "image",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "interactive learning & tools"
@@ -157,130 +193,85 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "KoboldCpp",
-    "url": "https://github.com/lostruins/koboldcpp",
-    "description": "User-friendly llama.cpp fork focused on role-playing and creative writing.",
-    "category": "code",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "contents",
-      "3. inference engines & serving"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 10487
-  },
-  {
-    "name": "Data Science for Business by Foster Provost and Tom Fawcett",
-    "url": "https://www.oreilly.com/library/view/data-science-for/9781449374273",
-    "description": "Data Science for Business by Foster Provost and Tom Fawcett",
-    "category": "data",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [
-      "books and academic journals"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "fast-DreamBooth.ipynb - Colaboratory",
-    "url": "https://colab.research.google.com/github/thelastben/fast-stable-diffusion/blob/main/fast-dreambooth.ipynb",
-    "description": "train custom concepts from input images with this simplified DreamBooth colab",
-    "category": "image",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "image synthesis",
-      "hypertechniques"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Paperclip",
-    "url": "https://github.com/paperclipai/paperclip",
-    "description": "AI agent company and orchestration framework with 55K+ stars. MIT licensed.",
+    "name": "instructkr/claw-code",
+    "url": "https://github.com/instructkr/claw-code",
+    "description": "A reimplementation of Anthropic's Claude Code agent harness, currently being rewritten in Rust for memory safety. Focuses on building a better tool harness for AI agents with legal/ethical reimplementation",
     "category": "multimodal",
-    "pricing": "open-source",
-    "hasApi": true,
+    "pricing": "free",
+    "hasApi": false,
     "tags": [
-      "contents",
-      "4. agentic ai & multi-agent systems"
+      "ai agent"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 64457
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Architecture Helper",
-    "url": "https://architecturehelper.com",
-    "description": "Analyze any building architecture, and generate your own custom styles, in seconds.",
+    "name": "Cultures in AI/AI in Culture",
+    "url": "https://ai-cultures.github.io/",
+    "description": "NeurIPS 2022 Workshop webpage",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "CronAI",
-    "url": "https://cronai-nu.vercel.app/",
-    "description": "An AI-powered cron expression generator that converts natural language scheduling descriptions into valid cron syntax instantly.",
+    "name": "GOSH",
+    "url": "https://gosh.app",
+    "description": "Free AI Price Tracker - Track any price of any product at any store using AI",
     "category": "productivity",
-    "pricing": "unknown",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "new and emerging ai tools"
+      "text",
+      "productivity"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Cartography of generative AI",
-    "url": "https://cartography-of-generative-ai.net/",
-    "description": "\"What set of extractions, agencies, and resources allow us to converse online with a text-generating tool or to obtain images in a matter of seconds?\"",
+    "name": "Paper Player",
+    "url": "https://paperplayerapp.com/",
+    "description": "A new way for busy scientists and technologists to consume open science",
     "category": "search",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "generative ai history, timelines, maps, and definitions"
+      "research ai tools",
+      "ai tools for research"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "CatchTheTornado/text-extract-api",
-    "url": "https://github.com/catchthetornado/text-extract-api",
-    "description": "document (PDF, Word, PPTX ...) extraction and parse API using OCRs + Ollama supported models. Anonymize documents. Remove PII. Convert any document or picture to structured JSON or Markdown",
+    "name": "Generative Agent Simulations of 1,000 People | arxiv",
+    "url": "https://arxiv.org/abs/2411.10109",
+    "description": "[[GitHub: joonspk-research/genagents]](https://github.com/joonspk-research/genagents)",
     "category": "text",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "everything to markdown to llms"
+      "large language models (llms)",
+      "autonomous llm agents"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 3098
+    "categorizationTier": "specific"
   },
   {
-    "name": "Vimeo Create",
-    "url": "https://vimeo.com/create",
-    "description": "AI-driven video creation.",
+    "name": "Wave.video",
+    "url": "https://wave.video/",
+    "description": "AI for video marketing.",
     "category": "video",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "interactive learning & tools"
+      "ai-related tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
