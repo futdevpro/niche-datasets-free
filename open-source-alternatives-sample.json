@@ -1,56 +1,56 @@
 [
   {
-    "name": "Seldon",
-    "url": "https://seldon.io/",
-    "description": "Deployment & monitoring for machine learning at scale",
+    "name": "Botpress",
+    "url": "https://openalternative.co/botpress",
+    "description": "Build powerful AI agents with cutting-edge LLM technology",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-aws-sagemaker",
-      "alternative-to-google-vertex-ai"
+      "ai & machine learning",
+      "ai development platforms"
     ],
-    "alternativeTo": "AWS SageMaker, Google Vertex AI",
+    "license": "MIT",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Timeplus",
-    "url": "https://openalternative.co/timeplus",
-    "description": "Real-time stream processing made simple and affordable",
+    "name": "Vemetric",
+    "url": "https://openalternative.co/vemetric",
+    "description": "Simple, powerful web & product analytics for user insights",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "data & analytics",
-      "data engineering & integration"
+      "web & product analytics"
     ],
-    "license": "Apache-2.0",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Step CI",
-    "url": "https://stepci.com/",
-    "description": "API Testing and Monitoring",
+    "name": "Keploy",
+    "url": "https://keploy.io/",
+    "description": "e2e Testing and Data Mocking",
     "category": "api-tools",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "alternative-to-checkly",
-      "alternative-to-postman"
+      "alternative-to-smartbear",
+      "alternative-to-newman"
     ],
-    "alternativeTo": "Checkly, Postman",
+    "alternativeTo": "Smartbear, Newman",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "SuperTokens",
-    "url": "https://openalternative.co/supertokens",
-    "description": "Secure, customizable authentication for your applications",
+    "name": "Authgear",
+    "url": "https://openalternative.co/authgear",
+    "description": "Secure identity management and authentication for modern apps",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
@@ -58,30 +58,30 @@
       "security & privacy",
       "identity & access management (iam)"
     ],
+    "license": "Apache-2.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "ERPNext",
-    "url": "https://openalternative.co/erpnext",
-    "description": "Comprehensive business management, tailored for you",
+    "name": "RoboCorp",
+    "url": "https://robocorp.com/",
+    "description": "Set of tooling that allows to create automation packages",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "erp & operations"
+      "alternative-to-uipath"
     ],
-    "license": "GPL-3.0",
+    "alternativeTo": "UiPath",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "DataLens",
-    "url": "https://openalternative.co/datalens",
-    "description": "Scale your analytics with a powerful open-source BI platform",
+    "name": "Azimutt",
+    "url": "https://openalternative.co/azimutt",
+    "description": "Next-Gen ERD: Design, Explore, Document and Analyze your database.",
     "category": "business-intelligence",
     "pricing": "open-source",
     "hasApi": false,
@@ -89,47 +89,46 @@
       "data & analytics",
       "business intelligence & reporting"
     ],
-    "license": "Apache-2.0",
+    "license": "MIT",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenKM",
-    "url": "https://github.com/openkm/document-management-system",
-    "description": "OpenKM is a Open Source Document Management System.",
+    "name": "Sulu",
+    "url": "https://sulu.io/",
+    "description": "Modern Symfony based CMS",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-documentum"
+      "alternative-to-contentful"
     ],
-    "license": "GNU General Public License v2.0",
-    "alternativeTo": "Documentum",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 840
-  },
-  {
-    "name": "osTicket",
-    "url": "https://github.com/osticket",
-    "description": "Open-source alternative to Zendesk",
-    "category": "collaboration",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "alternative-to-zendesk"
-    ],
-    "alternativeTo": "Zendesk",
-    "urlDomainTier": "repo-hosted",
+    "alternativeTo": "Contentful",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Slugy",
-    "url": "https://openalternative.co/slugy",
-    "description": "Transform long URLs into beautiful, trackable short links",
+    "name": "Fluxer",
+    "url": "https://openalternative.co/fluxer",
+    "description": "Open source messaging with privacy and community focus",
+    "category": "collaboration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "business software",
+      "collaboration & communication"
+    ],
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Notifuse",
+    "url": "https://openalternative.co/notifuse",
+    "description": "Self-hosted email platform with visual editor & analytics",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
@@ -137,140 +136,139 @@
       "business software",
       "marketing & customer engagement"
     ],
-    "license": "MIT",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Loops",
-    "url": "https://openalternative.co/loops",
-    "description": "Federated short videos without corporate control",
+    "name": "LearnHouse",
+    "url": "https://openalternative.co/learnhouse",
+    "description": "Build, share & monetize courses with modern open-source LMS",
     "category": "community",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "community & social",
-      "social networking"
+      "community building platforms"
     ],
     "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "EspoCRM",
-    "url": "https://openalternative.co/espocrm",
-    "description": "Complete customer relationship management made simple",
+    "name": "SuiteCRM",
+    "url": "https://github.com/salesagility/suitecrm",
+    "description": "SuiteCRM - Open source CRM for the world.",
     "category": "crm",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "crm & sales"
+      "alternative-to-salesforce"
     ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "license": "GNU Affero General Public License v3.0",
+    "alternativeTo": "Salesforce",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Beekeeper Studio",
-    "url": "https://openalternative.co/beekeeper-studio",
-    "description": "Modern and intuitive SQL client for multiple databases",
+    "name": "Neo4j",
+    "url": "http://neo4j.com/",
+    "description": "Graph database platform",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "infrastructure & operations",
-      "databases"
+      "alternative-to-tigergraph",
+      "alternative-to-amazon-neptune"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Modulz",
-    "url": "https://www.modulz.app/",
-    "description": "Code-based tool for designing and prototyping",
-    "category": "design",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "alternative-to-figma"
-    ],
-    "alternativeTo": "Figma",
+    "alternativeTo": "TigerGraph, Amazon Neptune",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "AceBase",
-    "url": "https://acebase.io/",
-    "description": "Backend server with REST APIs to manage core backend needs",
+    "name": "GIMP",
+    "url": "https://openalternative.co/gimp",
+    "description": "Professional image editing without the price tag",
+    "category": "design",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous",
+      "design & prototyping"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Kodus",
+    "url": "https://openalternative.co/kodus",
+    "description": "Effortless Code Reviews, Tailored for You",
     "category": "developer-tools",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "alternative-to-firebase"
+      "developer tools",
+      "ai assisted coding"
     ],
-    "alternativeTo": "Firebase",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "YunoHost",
-    "url": "https://openalternative.co/yunohost",
-    "description": "Self-host your digital life with ease",
+    "name": "AutoMQ",
+    "url": "https://openalternative.co/automq",
+    "description": "S3-based serverless Kafka reinvented for cost efficiency",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "infrastructure & operations",
-      "server & vm management"
+      "cloud infrastructure management"
     ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "xyd",
-    "url": "https://openalternative.co/xyd",
-    "description": "Transform documentation with developer-focused simplicity",
-    "category": "documentation",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "content & publishing",
-      "documentation & knowledge base"
-    ],
-    "license": "MIT",
+    "license": "Apache-2.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Saleor",
-    "url": "https://openalternative.co/saleor",
-    "description": "Flexible e-commerce platform for modern businesses",
-    "category": "e-commerce",
+    "name": "Papermark",
+    "url": "https://openalternative.co/papermark",
+    "description": "Open-source document sharing with powerful analytics",
+    "category": "documentation",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
-      "e-commerce platforms"
+      "document management & e-signatures"
     ],
-    "license": "BSD-3-Clause",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "LocalSend",
-    "url": "https://openalternative.co/localsend",
-    "description": "Share files securely across all devices without servers",
+    "name": "Saleor Commerce",
+    "url": "https://github.com/mirumee/saleor",
+    "description": "Open-source alternative to Shopify",
+    "category": "e-commerce",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-shopify"
+    ],
+    "alternativeTo": "Shopify",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenCloud",
+    "url": "https://openalternative.co/opencloud",
+    "description": "Secure cloud file sharing with complete data sovereignty",
     "category": "file-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -284,35 +282,34 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Suprascribe",
-    "url": "https://openalternative.co/suprascribe",
-    "description": "Automatically discover hidden subscriptions from your inbox",
+    "name": "Firefly III",
+    "url": "https://openalternative.co/firefly-iii",
+    "description": "Track every dollar with double-entry bookkeeping and smart automation",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "finance & accounting"
+      "productivity & utilities",
+      "personal finance management"
     ],
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Janssen",
-    "url": "https://github.com/janssenproject/jans",
-    "description": "The Janssen Project maintains open source IAM components, featuring Agama for identity orchestration, and the Cedarling, a WASM or embedded policy evaluation engine.",
+    "name": "LimeSurvey",
+    "url": "https://openalternative.co/limesurvey",
+    "description": "Create engaging surveys and gather valuable insights",
     "category": "forms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "alternative-to-auth0"
+      "business software",
+      "forms & surveys"
     ],
-    "license": "Apache License 2.0",
-    "alternativeTo": "Auth0",
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 629
+    "categorizationTier": "specific"
   }
 ]
