@@ -50,6 +50,13 @@
       <description>Catalog of 2,700+ AI tools and applications with category, pricing model, and API availability. Full dataset $9 on Gumroad.</description>
     </item>
     <item>
+      <title>Cybersecurity Tools Directory — refreshed 2026-05-20</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/cybersecurity-tools.html</link>
+      <guid isPermaLink="false">cybersecurity-tools-2026-05-20</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
       <title>HuggingFace Datasets Directory — refreshed 2026-05-20</title>
       <link>https://futdevpro.github.io/niche-datasets-free/huggingface-datasets.html</link>
       <guid isPermaLink="false">huggingface-datasets-2026-05-20</guid>
@@ -76,13 +83,6 @@
       <guid isPermaLink="false">ai-models-pricing-2026-05-20</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
       <description>Catalog of 800+ AI model endpoints with per-token pricing (prompt + completion), context length, modality, uptime, across providers and quantizations. Full dataset $11 on Gumroad.</description>
-    </item>
-    <item>
-      <title>Cybersecurity Tools Directory — refreshed 2026-05-13</title>
-      <link>https://futdevpro.github.io/niche-datasets-free/cybersecurity-tools.html</link>
-      <guid isPermaLink="false">cybersecurity-tools-2026-05-13</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-      <description>Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories. Full dataset $9 on Gumroad.</description>
     </item>
     <item>
       <title>Public APIs Directory — refreshed 2026-05-13</title>

@@ -1,210 +1,189 @@
 [
   {
-    "name": "ANSSI - Recommendations on multi-factor authentication and passwords",
-    "url": "https://messervices.cyber.gouv.fr/guides/recommandations-relatives-lauthentification-multifacteur-et-aux-mots-de-passe",
-    "description": "(2021, French)",
+    "name": "Vault",
+    "url": "https://www.vaultproject.io/",
+    "description": "An encrypted datastore secure enough to hold environment and application secrets.",
     "category": "authentication",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "authentication - passwords"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Clair",
-    "url": "https://github.com/quay/clair",
-    "description": "[F] — Image vulnerability analysis.",
-    "category": "cloud",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "containers & kubernetes"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "cloud",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 10977
-  },
-  {
-    "name": "JWT Cracker",
-    "url": "https://github.com/lmammino/jwt-cracker",
-    "description": "Simple HS256 JSON Web Token (JWT) token brute force cracker.",
-    "category": "cryptography",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "hash cracking tools"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1174
-  },
-  {
-    "name": "CTF Field Guide",
-    "url": "https://trailofbits.github.io/ctf",
-    "description": "Everything you need to win your next CTF competition.",
-    "category": "ctf",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ctf tools"
+      "datastores"
     ],
     "isOpenSource": false,
-    "toolType": "resource",
+    "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Apache HTTP Server documentation - Security Tips",
-    "url": "http://httpd.apache.org/docs/current/misc/security_tips.html",
-    "description": "Apache HTTP Server documentation - Security Tips",
-    "category": "endpoint",
+    "name": "Cloudsplaining",
+    "url": "https://cloudsplaining.readthedocs.io/",
+    "description": "Identifies violations of least privilege in AWS IAM policies and generates a pretty HTML report with a triage worksheet.",
+    "category": "cloud",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "services",
-      "web servers"
-    ],
-    "toolType": "resource",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "dnscat2",
-    "url": "https://github.com/iagox86/dnscat2",
-    "description": "Tool designed to create an encrypted command and control channel over the DNS protocol, which is an effective tunnel out of almost every network.",
-    "category": "exploit",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "exfiltration tools"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 3886
-  },
-  {
-    "name": "stenographer",
-    "url": "https://github.com/google/stenographer",
-    "description": "Stenographer is a packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets.",
-    "category": "forensics",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "network",
-      "full packet capture / forensic"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1799
-  },
-  {
-    "name": "Incident Response & Computer Forensics, Third Edition",
-    "url": "https://www.amazon.com/incident-response-computer-forensics-third/dp/0071798684",
-    "description": "The definitive guide to incident response.",
-    "category": "incident-response",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "books"
-    ],
-    "isOpenSource": false,
-    "toolType": "resource",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Metadefender Cloud",
-    "url": "https://www.metadefender.com",
-    "description": "Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assessment of files.",
-    "category": "malware-analysis",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "sandboxing/reversing tools"
+      "cloud platform attack tools"
     ],
     "isOpenSource": false,
     "toolType": "platform",
     "targetPlatform": "cloud",
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Apktool",
-    "url": "https://github.com/ibotpeaches/apktool",
-    "description": "A tool for reverse engineering Android apk files.",
+    "name": "hashcat-utils",
+    "url": "https://github.com/hashcat/hashcat-utils",
+    "description": "[F] — Rule helpers and transforms.",
+    "category": "cryptography",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "credentials, cracking & wordlists"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Vulnerability as a service: Heartbleed",
+    "url": "https://hub.docker.com/r/hmlio/vaas-cve-2014-0160",
+    "description": "Vulnerability as a service: Heartbleed — ctf API",
+    "category": "ctf",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "intentionally vulnerable systems",
+      "intentionally vulnerable systems as docker containers"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Neo23x0/auditd",
+    "url": "https://github.com/neo23x0/auditd",
+    "description": "Best Practice Auditd Configuration",
+    "category": "endpoint",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "gnu/linux"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "linux",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Merlin",
+    "url": "https://github.com/ne0nd0g/merlin",
+    "description": "Cross-platform post-exploitation HTTP/2 Command and Control server and agent written in Golang.",
+    "category": "exploit",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "web exploitation",
+      "web shells and c2 frameworks"
+    ],
+    "isOpenSource": true,
+    "toolType": "platform",
+    "targetPlatform": "cross-platform",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Timesketch",
+    "url": "https://github.com/google/timesketch",
+    "description": "Open source tool for collaborative forensic timeline analysis.",
+    "category": "forensics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "timeline tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Phantom Community Playbooks",
+    "url": "https://github.com/phantomcyber/playbooks",
+    "description": "Phantom Community Playbooks for Splunk but also customizable for other use.",
+    "category": "incident-response",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "playbooks"
+    ],
+    "isOpenSource": true,
+    "toolType": "resource",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Mastiff",
+    "url": "https://github.com/korelogicsecurity/mastiff",
+    "description": "Static analysis framework that automates the process of extracting key characteristics from a number of different file formats.",
+    "category": "malware-analysis",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "ir tools collection",
+      "sandboxing/reversing tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "framework",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "cSploit",
+    "url": "https://github.com/csploit/android",
+    "description": "Advanced IT security professional toolkit on Android featuring an integrated Metasploit daemon and MITM capabilities.",
     "category": "mobile",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "endpoint",
-      "mobile / android / ios"
+      "android utilities"
     ],
     "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "mobile",
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 24487
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Bridge.Leslibres",
-    "url": "https://bridge.leslibres.org",
-    "description": "Bridge.Leslibres",
+    "name": "Kushtaka",
+    "url": "https://kushtaka.org",
+    "description": "Sustainable all-in-one honeypot and honeytoken orchestrator for under-resourced blue teams.",
     "category": "monitoring",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "web monitoring"
+      "honeypots"
     ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Qubes OS",
-    "url": "https://www.qubes-os.org/",
-    "description": "Qubes OS is a free and open-source security-oriented operating system meant for single-user desktop computing.",
-    "category": "network",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "operating systems",
-      "privacy & security"
-    ],
-    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
@@ -212,9 +191,26 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "DailyEarth",
-    "url": "http://dailyearth.com",
-    "description": "DailyEarth",
+    "name": "DPDK",
+    "url": "http://dpdk.org/",
+    "description": "DPDK is a set of libraries and drivers for fast packet processing.",
+    "category": "network",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "network",
+      "fast packet processing"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "WorldNews",
+    "url": "http://wn.com",
+    "description": "WorldNews — osint API",
     "category": "osint",
     "pricing": "unknown",
     "hasApi": false,
@@ -225,13 +221,13 @@
     "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "lists",
-    "url": "https://github.com/jnv/lists",
-    "description": "The definitive list of (awesome) lists curated on GitHub.",
+    "name": "Movies For Hacker",
+    "url": "https://github.com/k4m4/movies-for-hackers",
+    "description": "A curated list of movies every hacker & cyberpunk must watch.",
     "category": "other",
     "pricing": "open-source",
     "hasApi": false,
@@ -244,113 +240,111 @@
     "targetPlatform": "unknown",
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "other",
-    "githubStars": 11186
+    "categorizationTier": "other"
   },
   {
-    "name": "FindBugs",
-    "url": "http://findbugs.sourceforge.net/",
-    "description": "Free software static analyzer to look for bugs in Java code.",
+    "name": "Pompem",
+    "url": "https://github.com/rfunix/pompem",
+    "description": "Pompem is an open source tool, which is designed to automate the search for exploits in major databases. Developed in Python, has a system of advanced search, thus facilitating the work of pentesters and ethical hackers. In its current version, performs searches in databases: Exploit-db, 1337day, Packetstorm Security...",
     "category": "vulnerability-scanner",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "static analyzers"
+      "network",
+      "scanning / pentesting"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Sleipnir",
+    "url": "http://www.fenrir-inc.com/jp/sleipnir",
+    "description": "Sleipnir — web API",
+    "category": "web",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "browsers"
     ],
     "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "\"Admin Free\" Active Directory and Windows, Part 1- Understanding Privileged Groups in AD",
+    "url": "https://blogs.technet.microsoft.com/lrobins/2011/06/23/admin-free-active-directory-and-windows-part-1-understanding-privileged-groups-in-ad",
+    "description": "\"Admin Free\" Active Directory and Windows, Part 1- Understanding Privileged Groups in AD",
+    "category": "authentication",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "services",
+      "active directory"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "windows",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "FuzzDB",
-    "url": "https://github.com/fuzzdb-project/fuzzdb",
-    "description": "Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.",
-    "category": "web",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "web exploitation"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 8897
-  },
-  {
-    "name": "redoctober",
-    "url": "https://github.com/cloudflare/redoctober",
-    "description": "Server for two-man rule style file encryption and decryption.",
-    "category": "authentication",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "datastores"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1417
-  },
-  {
-    "name": "ScoutSuite",
-    "url": "https://github.com/nccgroup/scoutsuite",
-    "description": "[F] — Multi-cloud posture assessment.",
+    "name": "kube-bench",
+    "url": "https://github.com/aquasecurity/kube-bench",
+    "description": "[F] — CIS K8s benchmarks.",
     "category": "cloud",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "cloud security"
+      "containers & kubernetes"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "cloud",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "duplicut",
+    "url": "https://github.com/nil0x42/duplicut",
+    "description": "Quickly remove duplicates, without changing the order, and without getting OOM on huge wordlists.",
+    "category": "cryptography",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "hash cracking tools"
     ],
     "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 7655
-  },
-  {
-    "name": "Mozilla SSL Configuration Generator",
-    "url": "https://ssl-config.mozilla.org/",
-    "description": "Mozilla SSL Configuration Generator",
-    "category": "cryptography",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "tools to apply security hardening",
-      "tls/ssl"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Rawsec's CyberSecurity Inventory",
-    "url": "https://inventory.raw.pm/",
-    "description": "An open-source inventory of tools, resources, CTF platforms and Operating Systems about CyberSecurity. (Source)",
+    "name": "Vulnerability as a service: SambaCry",
+    "url": "https://hub.docker.com/r/vulnerables/cve-2017-7494",
+    "description": "Vulnerability as a service: SambaCry — ctf API",
     "category": "ctf",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "online resources",
-      "other lists online"
+      "intentionally vulnerable systems",
+      "intentionally vulnerable systems as docker containers"
     ],
-    "isOpenSource": true,
+    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   }
 ]
