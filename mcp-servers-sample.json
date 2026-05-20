@@ -1,28 +1,27 @@
 [
   {
-    "name": "rplryan/x402-discovery-mcp",
-    "url": "https://github.com/rplryan/x402-discovery-mcp",
-    "description": "Runtime discovery layer for x402-payable APIs. Agents discover and route to pay-per-call x402 endpoints by capability, get quality-ranked results with trust scores (0-100), and pay per query via x402. Includes MCP server, Python SDK, and CLI (npm install -g x402scout).",
+    "name": "edgarriba/prolink",
+    "url": "https://github.com/edgarriba/prolink",
+    "description": "Agent-to-agent marketplace middleware — MCP-native discovery, negotiation, and transaction between AI agents",
     "category": "aggregators",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "aggregators",
       "open-source"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 2
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "SubDownload/subdownload-mcp",
-    "url": "https://github.com/subdownload/subdownload-mcp",
-    "description": "YouTube knowledge base for AI agents. Summarize videos, fetch full transcripts (including videos without captions, via AI ASR), search channels and playlists, and save everything into a per-user knowledge base for cross-session recall. OAuth 2.1 with Dynamic Client Registration. Hosted at subdownload.com. https://api.subdownload.com/mcp, free credits on signup.",
+    "name": "GetCacheOverflow/CacheOverflow",
+    "url": "https://github.com/getcacheoverflow/cacheoverflow",
+    "description": "AI agent knowledge marketplace where agents share solutions and earn tokens. Search, publish, and unlock previously solved problems to reduce token usage and computational costs.",
     "category": "ai-services",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "knowledge & memory",
       "open-source",
@@ -30,35 +29,31 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 2
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "aliafsahnoudeh/shahnameh-mcp-server",
-    "url": "https://github.com/aliafsahnoudeh/shahnameh-mcp-server",
-    "description": "MCP server for accessing the Shahnameh (Book of Kings) Persian epic poem by Ferdowsi, including sections, verses and explanations.",
+    "name": "Ukenn2112/BangumiMCP",
+    "url": "https://github.com/ukenn2112/bangumimcp",
+    "description": "Facilitates interaction with BangumiTV's API for accessing anime, manga, music, and game data.",
     "category": "art-literature",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "art & culture",
-      "open-source",
+      "art, culture & media",
       "art-literature"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 3
+    "categorizationTier": "specific"
   },
   {
-    "name": "reza-gholizade/k8s-mcp-server",
-    "url": "https://github.com/reza-gholizade/k8s-mcp-server",
-    "description": "A Kubernetes Model Context Protocol (MCP) server that provides tools for interacting with Kubernetes clusters through a standardized interface, including API resource discovery, resource management, pod logs, metrics, and events.",
+    "name": "ofershap/mcp-server-cloudflare",
+    "url": "https://github.com/ofershap/mcp-server-cloudflare",
+    "description": "Manage Cloudflare Workers, KV, R2, Pages, DNS, and cache from your IDE.",
     "category": "cloud-platforms",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "cloud platforms",
       "open-source",
@@ -66,47 +61,45 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 155
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "FunnyPuppet/mcp-s3-server",
-    "url": "https://github.com/funnypuppet/mcp-s3-server",
-    "description": "Facilitates object storage operations with a comprehensive set of commands for managing buckets and objects.",
+    "name": "4everland/4everland-hosting-mcp",
+    "url": "https://github.com/4everland/4everland-hosting-mcp",
+    "description": "An MCP server implementation for 4EVERLAND Hosting enabling instant deployment of AI-generated code to decentralized storage networks like Greenfield, IPFS, and Arweave.",
     "category": "cloud-storage",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "infrastructure",
+      "official servers",
+      "open-source",
       "cloud-storage"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 0
-  },
-  {
-    "name": "arpitbatra123/mcp-googletasks",
-    "url": "https://github.com/arpitbatra123/mcp-googletasks",
-    "description": "An MCP server to interface with the Google Tasks API",
-    "category": "communication",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "communication",
-      "open-source"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 38
+    "categorizationTier": "specific"
   },
   {
-    "name": "Pandoc",
-    "url": "https://github.com/vivekvells/mcp-pandoc",
-    "description": "MCP server for seamless document format conversion using Pandoc, supporting Markdown, HTML, and plain text, with other formats like PDF, csv and docx in development.",
+    "name": "va99/Napier-mcp",
+    "url": "https://github.com/va99/napier-mcp",
+    "description": "Facilitates AI-driven interactions with WhatsApp by bridging local environments to the WhatsApp web API, enabling message retrieval and media handling through a Python MCP server.",
+    "category": "communication",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "communication & messaging",
+      "communication"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Apple Shortcuts",
+    "url": "https://github.com/recursechat/mcp-server-apple-shortcuts",
+    "description": "An MCP Server Integration with Apple Shortcuts",
     "category": "community",
     "pricing": "open-source",
     "hasApi": false,
@@ -116,121 +109,110 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 534
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
   },
   {
-    "name": "Fathom Analytics",
-    "url": "https://github.com/mackenly/mcp-fathom-analytics",
-    "description": "Access and analyze Fathom Analytics data and reports",
+    "name": "saikiyusuke/registep-mcp",
+    "url": "https://github.com/saikiyusuke/registep-mcp",
+    "description": "AI-powered POS & sales analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales data querying, AI chat analysis, and weather correlation features.",
     "category": "data-platforms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "community servers",
+      "data platforms",
       "open-source",
       "data-platforms"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 3
+    "categorizationTier": "specific"
   },
   {
-    "name": "sbroenne/mcp-server-excel",
-    "url": "https://github.com/sbroenne/mcp-server-excel",
-    "description": "Full-featured Excel MCP server. 173 operations: Power Query, DAX, VBA, PivotTables, Tables, Charts, ranges, formatting. 100% Excel compatibility - uses Excel app instead of creating .xlsx files. Windows only.",
+    "name": "Project Manager",
+    "url": "https://github.com/croffasia/mcp-project-manager",
+    "description": "Hierarchical task management (ideas → epics → tasks) with CLI dashboard",
     "category": "data-visualization",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
+      "community servers",
       "open-source",
       "data-visualization"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 151
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
   },
   {
-    "name": "TiDB",
-    "url": "https://github.com/c4pt0r/mcp-server-tidb",
-    "description": "MCP server implementation for TiDB (serverless) database.",
+    "name": "tkz24589/mcp_mongodb",
+    "url": "https://github.com/tkz24589/mcp_mongodb",
+    "description": "Facilitates AI-driven interactions with MongoDB through natural language queries, supporting seamless data management and retrieval.",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "databases",
-      "open-source"
+      "databases"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 23
+    "categorizationTier": "specific"
   },
   {
-    "name": "tobiassteidle/Spring-Boot-Sample-MCP-Server",
-    "url": "https://github.com/tobiassteidle/spring-boot-sample-mcp-server",
-    "description": "A Spring Boot-based server that facilitates AI model interactions through the Model Context Protocol, offering seamless integration and enhanced capabilities for AI assistants like Claude.",
+    "name": "mettamatt/code-reasoning",
+    "url": "https://github.com/mettamatt/code-reasoning",
+    "description": "Enhances Claude's problem-solving capabilities by breaking down complex programming tasks into manageable steps using structured, sequential thinking.",
     "category": "development-tools",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "frameworks",
+      "code analysis & quality",
       "development-tools"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 1
+    "categorizationTier": "specific"
   },
   {
-    "name": "mrslbt/rakuten-mcp",
-    "url": "https://github.com/mrslbt/rakuten-mcp",
-    "description": "Rakuten API integration for product search, hotel and travel booking, and recipe lookup across Japan's largest e-commerce platform. Install via npx rakuten-mcp.",
+    "name": "samrothschild23/intelligence-api",
+    "url": "https://github.com/samrothschild23/intelligence-api",
+    "description": "E-commerce and business intelligence MCP server. Analyze any Shopify store, research Amazon products with Opportunity Score and FBA profitability estimates, and find qualified sales leads from Google Maps with Lead Quality Scoring. Pay-per-call via x402 (USDC on Base).",
     "category": "e-commerce",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "e-commerce",
       "open-source"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 0
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
   },
   {
-    "name": "UseJunior/safe-docx",
-    "url": "https://github.com/usejunior/safe-docx",
-    "description": "Surgical editing of existing Word .docx files with formatting preservation, tracked changes, comments, footnotes, and document comparison.",
+    "name": "danielsuguimoto/readonly-filesystem-mcp",
+    "url": "https://github.com/danielsuguimoto/readonly-filesystem-mcp",
+    "description": "Node.js server for readonly filesystem operations using Model Context Protocol.",
     "category": "file-systems",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "file systems",
-      "open-source",
+      "filesystems",
       "file-systems"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 25
+    "categorizationTier": "specific"
   },
   {
-    "name": "sophymarine/openregistry",
-    "url": "https://github.com/sophymarine/openregistry",
-    "description": "Live official data from 27 national company registries (UK Companies House, France RNE, Germany Handelsregister, Korea OpenDART, Canada CBCA, 10 US states, and more) for KYC / AML / due-diligence workflows. Raw official records, no intermediaries. A platform by sophymarine. Hosted at openregistry.sophymarine.com/mcp — OAuth 2.1, streamable HTTP, free anonymous tier.",
+    "name": "Handshake58/DRAIN-marketplace",
+    "url": "https://github.com/handshake58/drain-marketplace",
+    "description": "Open marketplace for AI services — LLMs, image/video generation, web scraping, model hosting, data extraction, and more. Agents pay per use with USDC micropayments on Polygon. No API keys, no subscriptions.",
     "category": "finance",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "finance & fintech",
       "open-source",
@@ -239,16 +221,15 @@
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific",
-    "githubStars": 4
+    "categorizationTier": "specific"
   },
   {
-    "name": "stefan-xyz/mcp-server-runescape",
-    "url": "https://github.com/stefan-xyz/mcp-server-runescape",
-    "description": "An MCP server with tools for interacting with RuneScape (RS) and Old School RuneScape (OSRS) data, including item prices, player hiscores, and more.",
+    "name": "rkocosmergon/cosmergon-agent",
+    "url": "https://github.com/rkocosmergon/cosmergon-agent",
+    "description": "Living economy for AI agents — Conway's Game of Life physics, energy currency, marketplace. 4 tools: observe state, execute actions, benchmark reports, game rules. Auto-registers, no API key needed.",
     "category": "gaming",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "gaming",
       "open-source"
@@ -256,8 +237,7 @@
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 11
+    "categorizationTier": "specific"
   },
   {
     "name": "Keycloak",
@@ -273,29 +253,29 @@
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 42
+    "categorizationTier": "specific"
   },
   {
-    "name": "coffeenmusic/altium-mcp",
-    "url": "https://github.com/coffeenmusic/altium-mcp",
-    "description": "Facilitates interaction with Altium Designer for PCB design manipulation and querying through a Python-based MCP server.",
+    "name": "XixianLiang/HarmonyOS-mcp-server",
+    "url": "https://github.com/xixianliang/harmonyos-mcp-server",
+    "description": "Control HarmonyOS-next devices with AI through MCP. Support device control and UI automation.",
     "category": "iot",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "hardware & iot",
+      "developer tools",
+      "open-source",
       "iot"
     ],
+    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 76
+    "categorizationTier": "specific"
   },
   {
-    "name": "louis030195/gptzero-mcp",
-    "url": "https://github.com/louis030195/gptzero-mcp",
-    "description": "AI detection for text content with GPTZero API. Detect AI-generated text, get confidence scores, multilingual support (French/Spanish), and detailed probability breakdowns.",
+    "name": "AgiMaulana/HuaweiAppGalleryMcp",
+    "url": "https://github.com/agimaulana/huaweiappgallerymcp",
+    "description": "Huawei AppGallery Connect publishing: upload APK/AAB, update metadata and localizations, submit for review, and manage phased rollouts.",
     "category": "language-translation",
     "pricing": "open-source",
     "hasApi": true,
@@ -307,42 +287,36 @@
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 0
+    "categorizationTier": "specific"
   },
   {
-    "name": "srinath1510/alltrails-mcp-server",
-    "url": "https://github.com/srinath1510/alltrails-mcp-server",
-    "description": "A MCP server that provides access to AllTrails data, allowing you to search for hiking trails and get detailed trail information",
+    "name": "aldotestino/weather-mcp",
+    "url": "https://github.com/aldotestino/weather-mcp",
+    "description": "Provides real-time weather and geolocation data for seamless integration with AI-native environments using the OpenWeather API.",
     "category": "location-services",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "travel & transportation",
-      "open-source",
+      "location & maps",
       "location-services"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 11
+    "categorizationTier": "specific"
   },
   {
-    "name": "mikusnuz/meta-ads-mcp",
-    "url": "https://github.com/mikusnuz/meta-ads-mcp",
-    "description": "MCP server for Meta Marketing API v25.0 — 123 tools for Facebook & Instagram ad campaigns, audiences, creatives, insights, catalogs, and automated rules.",
+    "name": "d-stoll/attio-js",
+    "url": "https://github.com/d-stoll/attio-js",
+    "description": "A JavaScript/TypeScript SDK for Attio that doubles as an MCP server, enabling AI applications to invoke CRM-related operations.",
     "category": "marketing",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "marketing",
-      "open-source"
+      "marketing, sales & crm",
+      "marketing"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "githubStars": 42
+    "categorizationTier": "specific"
   }
 ]
