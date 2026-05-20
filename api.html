@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API — Niche Datasets Free Sample Catalog (OpenAPI 3.1)</title>
+<meta name="description" content="Free, no-auth, no-signup REST API for the 20-dataset niche-datasets catalog. /datasets.json enumerates all, /{slug}-meta.json returns per-dataset metadata, /feed.xml RSS. OpenAPI 3.1 spec at /openapi.json — auto-generate clients with openapi-generator.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/api.html">
+<link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
+<link rel="alternate" type="application/json" title="Niche Datasets — Catalog" href="datasets.json">
+<link rel="alternate" type="application/json" title="Niche Datasets — OpenAPI 3.1 spec" href="openapi.json">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/api.html">
+<meta property="og:title" content="API — Niche Datasets Free Sample Catalog (OpenAPI 3.1)">
+<meta property="og:description" content="Free, no-auth REST API. 3 endpoints, OpenAPI 3.1 spec, agent-friendly. Auto-generate clients with openapi-generator.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="API — Niche Datasets (OpenAPI 3.1)">
+<meta name="twitter:description" content="Free, no-auth REST API. Agent-discoverable. OpenAPI 3.1 spec.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:820px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7rem;margin-bottom:.4rem}
+  h2{font-size:1.2rem;margin-top:2.2rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}
+  h3{font-size:1.05rem;margin-top:1.4rem;color:#222}
+  a{color:#0969da}
+  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}
+  pre{background:#0d1117;color:#e6edf3;padding:1rem;border-radius:6px;overflow-x:auto;font-size:.86rem;line-height:1.5}
+  pre code{background:transparent;padding:0;font-family:Menlo,Consolas,monospace}
+  .lead{color:#444;font-size:1.05rem}
+  .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  .endpoint{background:#fafbfc;padding:.9rem 1.2rem;border-left:3px solid #0969da;border-radius:0 4px 4px 0;margin:1rem 0}
+  .method{display:inline-block;background:#16a34a;color:white;padding:.1rem .5rem;border-radius:3px;font-size:.85em;font-weight:600;margin-right:.5rem}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+  th,td{border:1px solid #e5e7eb;padding:.42rem .6rem;text-align:left;vertical-align:top}
+  thead{background:#f6f8fa}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "API — Niche Datasets Free Sample Catalog (OpenAPI 3.1)",
+  "datePublished": "2026-05-20",
+  "dateModified": "2026-05-20",
+  "author": {"@type": "Organization", "name": "Niche Datasets"},
+  "publisher": {"@type": "Organization", "name": "Niche Datasets", "url": "https://futdevpro.github.io/niche-datasets-free/"},
+  "mainEntityOfPage": "https://futdevpro.github.io/niche-datasets-free/api.html",
+  "image": "https://futdevpro.github.io/niche-datasets-free/og-cover.svg",
+  "description": "Free, no-auth, no-signup REST API for the 20-dataset niche-datasets catalog."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},
+    {"@type":"ListItem","position":2,"name":"API","item":"https://futdevpro.github.io/niche-datasets-free/api.html"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="quickstart.html">Quickstart</a> &nbsp;·&nbsp; <a href="buyers-guide.html">Buyer's guide</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
+
+<h1>API — Free Sample Catalog (OpenAPI 3.1)</h1>
+<p class="lead">3 read-only endpoints. No auth, no signup, no rate limit (Pages CDN bounds apply). Suitable for agents that need to enumerate the catalog programmatically.</p>
+
+<p>Machine-readable spec: <a href="openapi.json"><code>/openapi.json</code></a> (OpenAPI 3.1). Drop it into <a href="https://openapi-generator.tech/">openapi-generator</a> or your favourite client codegen to get a typed SDK in your language.</p>
+
+<h2>Endpoints</h2>
+
+<div class="endpoint">
+<h3><span class="method">GET</span> <a href="datasets.json"><code>/datasets.json</code></a></h3>
+<p><strong>Enumerate all 20 datasets.</strong> Returns the full catalog as a single JSON document: name, description, license, homepage + the 20 dataset entries with slug, recordCount, refresh date, sample/full URLs, related-slug list.</p>
+<p>Safe to poll daily.  ~21 KB.</p>
+<pre><code>curl -s https://futdevpro.github.io/niche-datasets-free/datasets.json | jq '.datasets | length'
+# → 20</code></pre>
+</div>
+
+<div class="endpoint">
+<h3><span class="method">GET</span> <code>/{slug}-meta.json</code></h3>
+<p><strong>Metadata for one dataset.</strong> Returns a single dataset's metadata object — same shape as the entries inside <code>/datasets.json</code> but addressable on its own URL.</p>
+<p>Useful for thin clients that only care about one or two datasets.</p>
+<pre><code>curl -s https://futdevpro.github.io/niche-datasets-free/ai-models-pricing-meta.json | jq .recordCount
+# → "800+"</code></pre>
+<p>Valid slugs (20): <code>ai-agents</code>, <code>ai-models-pricing</code>, <code>ai-prompts</code>, <code>ai-tools</code>, <code>cybersecurity-tools</code>, <code>design-resources</code>, <code>developer-tools</code>, <code>homebrew-packages</code>, <code>huggingface-datasets</code>, <code>huggingface-models</code>, <code>llmops-and-eval</code>, <code>mcp-servers</code>, <code>no-code-lowcode</code>, <code>npm-packages</code>, <code>open-source-alternatives</code>, <code>platform-engineering</code>, <code>public-apis</code>, <code>self-hosted-software</code>, <code>vector-db-and-rag</code>, <code>vscode-extensions</code>.</p>
+</div>
+
+<div class="endpoint">
+<h3><span class="method">GET</span> <a href="feed.xml"><code>/feed.xml</code></a></h3>
+<p><strong>RSS 2.0 refresh feed.</strong> One entry per dataset, ordered by lastRefreshed. Subscribe in your feed reader to be notified when any dataset re-pulls.</p>
+</div>
+
+<h2>Auto-generate a client</h2>
+
+<p>The spec is OpenAPI 3.1, so any codegen that supports the 3.1 schema works:</p>
+
+<pre><code># Python
+npx @openapitools/openapi-generator-cli generate \
+  -i https://futdevpro.github.io/niche-datasets-free/openapi.json \
+  -g python \
+  -o ./niche-datasets-client
+
+# TypeScript / fetch
+npx openapi-typescript \
+  https://futdevpro.github.io/niche-datasets-free/openapi.json \
+  -o niche-datasets.d.ts</code></pre>
+
+<h2>Caching, freshness, rate limit</h2>
+
+<table>
+<thead><tr><th>Concern</th><th>Behavior</th></tr></thead>
+<tbody>
+<tr><td>Cache</td><td>GitHub Pages CDN; default <code>Cache-Control: max-age=600</code>. Responses are freshness-stamped via the embedded <code>lastRefreshed</code> field — trust that over the HTTP cache header.</td></tr>
+<tr><td>Rate limit</td><td>None on Pages itself. GitHub may rate-limit raw.githubusercontent.com on the sample URLs at extreme volume (~10k req/min from one IP) — back off with jitter.</td></tr>
+<tr><td>Refresh cadence</td><td>Per-source. The fastest-moving (npm, HuggingFace) get nightly-to-weekly pulls. The slowest (awesome-list mirrors) get monthly. See <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a> for the per-source churn numbers that drive this cadence.</td></tr>
+<tr><td>Auth</td><td>None on the sample tier. Full data ZIPs are gated on <a href="https://jhonnyronnie.gumroad.com/">Gumroad purchase</a>.</td></tr>
+</tbody>
+</table>
+
+<h2>Schema versioning</h2>
+
+<p>Every JSON response includes a <code>schemaVersion</code> field. Breaking changes will bump it; additive changes will not. Clients should ignore unknown fields (forward-compat).</p>
+
+<h2>For agents specifically</h2>
+
+<p>This is a <strong>free</strong> tier — designed for inspection, prototyping, and low-volume agent enumeration. If you need higher-volume access, per-call billing, or full-dataset live endpoints (not just samples), the project is currently in distribution-model planning. Watch the <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> for updates, or open an issue describing your use case.</p>
+
+<p><a href="./">← Browse all 20 datasets</a></p>
+
+<footer>
+Niche Datasets · <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> · <a href="https://jhonnyronnie.gumroad.com/">Gumroad storefront</a> · <a href="openapi.json"><code>/openapi.json</code></a>
+</footer>
+
+</body>
+</html>

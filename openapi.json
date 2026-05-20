@@ -1,0 +1,163 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Niche Datasets — Free Samples API",
+    "version": "1.0.0",
+    "summary": "Programmatically enumerable catalog of 20 developer + AI dataset samples.",
+    "description": "Read-only, no-auth API for machine discovery of the niche-datasets free preview surface. Returns dataset metadata (record count, sample URLs, refresh date, related datasets, full-version URL). Suitable for agents that need to query the catalog without browsing.\n\n**Distribution notes for agent-callers:** the free tier is a static GitHub Pages surface — no rate limit, no API key, no signup. For per-call billing or higher-volume access patterns, see the project status updates linked from the homepage. (As of 2026-05-20, the distribution model is under planning.)",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "contact": {
+      "name": "Niche Datasets",
+      "url": "https://futdevpro.github.io/niche-datasets-free/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://futdevpro.github.io/niche-datasets-free",
+      "description": "GitHub Pages — free preview surface"
+    }
+  ],
+  "tags": [
+    {"name": "catalog", "description": "Multi-dataset discovery endpoint"},
+    {"name": "dataset", "description": "Per-dataset metadata + sample download URLs"},
+    {"name": "samples", "description": "Raw 20-record JSON+CSV samples (hosted on GitHub raw, not Pages)"}
+  ],
+  "paths": {
+    "/datasets.json": {
+      "get": {
+        "tags": ["catalog"],
+        "operationId": "getCatalog",
+        "summary": "Enumerate all 20 datasets",
+        "description": "Returns the full catalog: name, description, license, homepage + the 20 dataset entries (slug, recordCount, refreshDate, sample/full URLs, related slugs).\n\nSafe to poll. The Pages CDN caches with a short TTL; daily polling is plenty since the refresh cadence is per-source (see /blog-2026-05-20-13-day-refresh.html for the per-source churn data).",
+        "responses": {
+          "200": {
+            "description": "Catalog object",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/Catalog"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/{slug}-meta.json": {
+      "get": {
+        "tags": ["dataset"],
+        "operationId": "getDatasetMeta",
+        "summary": "Metadata for one dataset",
+        "description": "Returns a single dataset's metadata object: slug, name, recordCount, description, keywords, sample URLs, related datasets, full-version pricing + URL.",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ai-agents",
+                "ai-models-pricing",
+                "ai-prompts",
+                "ai-tools",
+                "cybersecurity-tools",
+                "design-resources",
+                "developer-tools",
+                "homebrew-packages",
+                "huggingface-datasets",
+                "huggingface-models",
+                "llmops-and-eval",
+                "mcp-servers",
+                "no-code-lowcode",
+                "npm-packages",
+                "open-source-alternatives",
+                "platform-engineering",
+                "public-apis",
+                "self-hosted-software",
+                "vector-db-and-rag",
+                "vscode-extensions"
+              ]
+            },
+            "description": "Dataset slug (kebab-case)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Dataset metadata",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/DatasetMeta"}
+              }
+            }
+          },
+          "404": {"description": "Unknown slug (Pages returns the default 404 HTML)."}
+        }
+      }
+    },
+    "/feed.xml": {
+      "get": {
+        "tags": ["catalog"],
+        "operationId": "getRefreshFeed",
+        "summary": "RSS 2.0 refresh feed",
+        "description": "RSS 2.0 feed of recent dataset refreshes — one entry per dataset, ordered by lastRefreshed. Subscribe to be notified when any dataset is re-pulled.",
+        "responses": {
+          "200": {
+            "description": "RSS 2.0 XML",
+            "content": {"application/rss+xml": {}}
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Catalog": {
+        "type": "object",
+        "required": ["schemaVersion", "name", "datasets"],
+        "properties": {
+          "schemaVersion": {"type": "string", "example": "1.0"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "homepage": {"type": "string", "format": "uri"},
+          "license": {"type": "string", "format": "uri"},
+          "lastRefreshed": {"type": "string", "format": "date", "example": "2026-05-20"},
+          "datasets": {
+            "type": "array",
+            "items": {"$ref": "#/components/schemas/DatasetMeta"}
+          }
+        }
+      },
+      "DatasetMeta": {
+        "type": "object",
+        "required": ["schemaVersion", "slug", "name", "sampleJsonUrl", "sampleCsvUrl", "detailPageUrl"],
+        "properties": {
+          "schemaVersion": {"type": "string", "example": "1.0"},
+          "slug": {"type": "string", "example": "ai-models-pricing"},
+          "name": {"type": "string"},
+          "recordCount": {
+            "type": "string",
+            "description": "Round-floor record count with '+' suffix (e.g. '800+', '12,200+'). String not number — preserves the marketing format used across the catalog.",
+            "example": "800+"
+          },
+          "description": {"type": "string"},
+          "keywords": {"type": "array", "items": {"type": "string"}},
+          "license": {"type": "string", "format": "uri"},
+          "lastRefreshed": {"type": "string", "format": "date", "example": "2026-05-20"},
+          "sampleJsonUrl": {"type": "string", "format": "uri", "description": "20-record JSON sample on GitHub raw."},
+          "sampleCsvUrl": {"type": "string", "format": "uri", "description": "20-record CSV sample on GitHub raw."},
+          "detailPageUrl": {"type": "string", "format": "uri", "description": "HTML detail page on Pages."},
+          "fullDatasetPriceUsd": {"type": "number"},
+          "fullDatasetUrl": {"type": "string", "format": "uri", "description": "Gumroad product URL for the full version."},
+          "related": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Slugs of thematically-near datasets."
+          },
+          "catalogUrl": {"type": "string", "format": "uri"}
+        }
+      }
+    }
+  }
+}
