@@ -1,8 +1,8 @@
 [
   {
-    "name": "3D Slash",
-    "url": "https://www.3dslash.net",
-    "description": "3D modeling tool, available on all devices and all OS, online and offline.",
+    "name": "SketchUp",
+    "url": "https://www.sketchup.com",
+    "description": "3D design software that truly makes 3D modeling for everyone, with a simple to learn yet robust toolset.",
     "category": "3d",
     "pricing": "unknown",
     "hasApi": false,
@@ -15,23 +15,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "How type influences readability",
-    "url": "https://fonts.google.com/knowledge/readability_and_accessibility/how_type_influences_readability",
-    "description": "How type influences readability — accessibility API",
+    "name": "WAVE",
+    "url": "https://wave.webaim.org/",
+    "description": "allows you to evaluate web content for accessibility issues directly within Chrome and Firefox. It's a web accessibility checker.",
     "category": "accessibility",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "research & accessibility (ux, usability, a11y)"
+      "table of content",
+      "accessibility tools"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Layar",
-    "url": "https://www.layar.com/",
-    "description": "find various items based upon augmented reality technology.",
+    "name": "Spark AR Studio",
+    "url": "https://www.sparkar.com",
+    "description": "сreate AR experiences for Instagram without code.",
     "category": "augmented-reality",
     "pricing": "unknown",
     "hasApi": false,
@@ -40,101 +41,58 @@
       "augmented reality"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Flawless App",
-    "url": "https://flawlessapp.io/",
-    "description": "a tool to compare the expected design and the real app right inside iOS Simulator (useful for designers who use Xcode or mobile developers).",
+    "name": "Freedcamp",
+    "url": "https://freedcamp.com/",
+    "description": "the most innovative way to manage projects, completely free... forever.",
     "category": "collaboration",
-    "pricing": "unknown",
-    "hasApi": true,
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
       "table of content",
-      "design handoff tools"
+      "collaboration tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "The Day's Color",
-    "url": "http://www.thedayscolor.com/",
-    "description": "is to find colorful inspiration from things that surround us. Daily.",
+    "name": "Color",
+    "url": "https://color.adobe.com/explore/?filter=most-popular&time=month",
+    "description": "create color schemes with the color wheel or browse thousands of color combinations from the Color community. Made by Adobe.",
     "category": "colors",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "color"
+      "table of content",
+      "color picker tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "pocoloco",
-    "url": "https://pocoloco.io/",
-    "description": "Generate dynamic backgrounds for your website",
+    "name": "Endless Tools",
+    "url": "https://endlesstools.io/",
+    "description": "all-in-one web tool to quickly craft striking 3D visuals, animations, and unique effects — no heavy software or coding needed",
     "category": "css-animations",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "css animations"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Gutenberg",
-    "url": "https://github.com/bafs/gutenberg",
-    "description": "Modern framework to print the web correctly.",
-    "category": "css-frameworks",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "css frameworks"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "githubStars": 4911
-  },
-  {
-    "name": "CreativeLive",
-    "url": "https://www.creativelive.com/",
-    "description": "CreativeLive",
-    "category": "design-inspiration",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "tutorial"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Storybook",
-    "url": "https://storybook.js.org/",
-    "description": "an open-source tool for developing UI components in isolation for React, Vue, and Angular.",
-    "category": "design-systems",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "table of content",
-      "design system tools"
+      "animations, 3d and sound"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Vertopal",
-    "url": "https://www.vertopal.com/",
-    "description": "Free online platform for converting computer files to a variety of file formats",
-    "category": "design-tools",
+    "name": "CSS Ribbon Generator",
+    "url": "https://www.cssportal.com/css-ribbon-generator",
+    "description": "This generator will assist in creating a pure CSS corner ribbon.",
+    "category": "css-frameworks",
     "pricing": "free",
     "hasApi": false,
     "tags": [
@@ -145,53 +103,96 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Site Palette",
-    "url": "https://chrome.google.com/webstore/detail/site-palette/pekhihjiehdafocefoimckjpbkegknoh",
-    "description": "A must-have tool for designers and frontend developers to grab colors for any website.",
-    "category": "extensions",
+    "name": "Responsive Web Design Podcast",
+    "url": "https://responsivewebdesign.com/podcast",
+    "description": "Karen and Ethan interview the people who make responsive redesigns happen.",
+    "category": "design-inspiration",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "podcast"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "DSK",
+    "url": "https://rundsk.com",
+    "description": "short for “Design System Kit” – a workbench for collaboratively creating Design Systems.",
+    "category": "design-systems",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "table of content",
+      "design system tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ExtendsClass",
+    "url": "https://extendsclass.com/",
+    "description": "Free online tools for developers, including image compressors/encoders, code formatters, code playgrounds, and many other handy utilities.",
+    "category": "design-tools",
     "pricing": "free",
     "hasApi": true,
     "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "JSON Lite",
+    "url": "https://github.com/lauriro/json-lite",
+    "description": "Browser extension for viewing JSON files.",
+    "category": "extensions",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
       "chrome extensions"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Malayalam Fonts",
-    "url": "https://smc.org.in/fonts",
-    "description": "Malayalam fonts for free which are maintained by Swathanthra Malayalam Computing(SMC)",
-    "category": "fonts",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "fonts"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "UXWing",
-    "url": "https://uxwing.com/",
-    "description": "Well Optimized, Free icons for commercial use",
-    "category": "icons",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "icons"
-    ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Servier Medical Art",
-    "url": "https://smart.servier.com/",
-    "description": "3000 free medical images to illustrate your publications and PowerPoint presentations",
+    "name": "SFWin",
+    "url": "https://github.com/blaisck/sfwin",
+    "description": "San Francisco Fonts for Windows 10 and non-Apple Platform",
+    "category": "fonts",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "fonts"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Smashicons",
+    "url": "https://smashicons.com/",
+    "description": "is the largest and most distinct Icon Pack in the World. Smashicons offers the simplest, effortless way to use icons.",
+    "category": "icons",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "icon and logo"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "trianglify.io",
+    "url": "https://trianglify.io/",
+    "description": "Generate low-poly backgrounds, textures, and vectors",
     "category": "illustrations",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "vectors & clip art"
@@ -201,90 +202,89 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Optimizilla",
-    "url": "https://imagecompressor.com/",
-    "description": "Online JPEG and PNG optimizer / compressor with settings and archive download",
+    "name": "Promo Image Resizer",
+    "url": "https://promo.com/tools/image-resizer",
+    "description": "Free Image and Photo Resizer",
     "category": "image-compression",
-    "pricing": "unknown",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "image compression"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Nivo",
-    "url": "https://nivo.rocks/",
-    "description": "Nivo provides supercharged React components to easily build dataviz apps, it's built on top of d3. Also comes with server side rendering ability and fully declarative charts.",
+    "name": "Particles.js",
+    "url": "https://vincentgarreau.com/particles.js",
+    "description": "A lightweight JavaScript library for creating particles",
     "category": "javascript-libraries",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "javascript chart libraries"
+      "javascript animation libraries"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "360 Mockups",
-    "url": "https://360mockups.com/",
-    "description": "Totally FREE to download PSD Mockups to present your works.",
+    "name": "Frrames",
+    "url": "https://frrames.com/",
+    "description": "Frrames mockups is perfectly crafted responsive windows mockups for your ideal presentation.",
     "category": "mockups",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "mockup"
+      "table of content",
+      "mockup tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Apple - Human Interface Guidelines",
-    "url": "https://developer.apple.com/design/human-interface-guidelines",
-    "description": "Apple - Human Interface Guidelines",
+    "name": "About Face: The Essentials of Interaction Design",
+    "url": "https://www.amazon.com/gp/product/1118766571/ref=as_li_qf_sp_asin_il_tl?ie=utf8&camp=1789&creative=9325&creativeasin=1118766571&linkcode=as2&tag=office03a70-20&linkid=i5tmkuxhz43shhpe",
+    "description": "About Face: The Essentials of Interaction Design",
     "category": "other",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "design systems & frameworks",
-      "references and learning resources"
+      "book"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "Overflow",
-    "url": "https://overflow.io/",
-    "description": "turn your designs into playable user flow diagrams that tell a story.",
+    "name": "Mixpanel",
+    "url": "https://mixpanel.com/",
+    "description": "get insights across all of your user-centric data to make smarter decisions and act faster based on how customers use your product or website.",
     "category": "prototyping",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
-      "user flow tools"
+      "experience monitoring"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Freerange",
-    "url": "https://freerangestock.com/",
-    "description": ":copyright: Quality stock photos for commercial and non-commercial use. For free.",
+    "name": "Stokpic",
+    "url": "http://stokpic.com/",
+    "description": "Stokpic — stock-photos API",
     "category": "stock-photos",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "photography",
-      "custom license / usage"
+      "stock"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   }
 ]
