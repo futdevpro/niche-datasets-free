@@ -1,13 +1,13 @@
 [
   {
-    "name": "AI Builder",
-    "url": "https://flow.microsoft.com/en-us/ai-builder",
-    "description": "Bring intelligent automation to your business processes with AI that’s easy to train and configure in Power Automate.",
+    "name": "CreateML",
+    "url": "https://developer.apple.com/machine-learning/create-ml",
+    "description": "Experience an entirely new way of training machine learning models on your Mac.",
     "category": "ai-ml",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "ai"
+      "machine learning"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
@@ -30,39 +30,39 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "WeWeb",
-    "url": "https://www.weweb.io/",
-    "description": "A no-code frontend builder that connects to any backend to build scaable and secure web applications 10x faster.",
+    "name": "MeterCall",
+    "url": "https://metercall.ai",
+    "description": "Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing.",
     "category": "app-builder",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "free",
+    "hasApi": true,
     "tags": [
-      "visual programming"
+      "agentic apps"
     ],
-    "codeType": "both",
+    "codeType": "low-code",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Parabola",
-    "url": "https://parabola.io",
-    "description": "Drag-and-drop to automate your repetitive tasks.",
+    "name": "Iotellect",
+    "url": "https://iotellect.com",
+    "description": "Low-code IoT platform for device integration, data collection, and real-time dashboards. Supports MQTT, OPC UA, Modbus, and 50+ industrial protocols.",
     "category": "automation",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "automation"
     ],
-    "codeType": "no-code",
+    "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Tidio",
-    "url": "https://www.tidio.com",
-    "description": "AI chatbot and live chat software for small businesses and ecommerce.",
+    "name": "Botsify",
+    "url": "https://botsify.com",
+    "description": "Create your own automated chatbots online.",
     "category": "chatbot",
     "pricing": "freemium",
     "hasApi": false,
@@ -71,13 +71,13 @@
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Trello",
-    "url": "https://trello.com/louisveyret1/boards",
-    "description": "All-in-one workspace and collaboration for businesses",
+    "name": "Slite",
+    "url": "https://slite.com",
+    "description": "Async-first documentation and knowledge base.",
     "category": "collaboration",
     "pricing": "freemium",
     "hasApi": false,
@@ -86,7 +86,7 @@
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -105,54 +105,54 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Webscraper.io",
-    "url": "https://webscraper.io/",
-    "description": "Chrome extension for creating sitemaps and scraping structured data.",
+    "name": "Parsehub",
+    "url": "https://parsehub.com",
+    "description": "Free web scraping.",
     "category": "data-scraping",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": true,
     "tags": [
       "scrapers"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Forest Admin",
-    "url": "https://www.forestadmin.com/",
-    "description": "The admin panel framework",
+    "name": "Trevor",
+    "url": "https://www.trevor.io",
+    "description": "Query your live data, without code.",
     "category": "database",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "database"
     ],
-    "codeType": "both",
+    "codeType": "no-code",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Penpot",
-    "url": "https://penpot.app",
-    "description": "Open source, web-based interface design application.",
+    "name": "LottieFiles",
+    "url": "https://lottiefiles.com",
+    "description": "Discover and use lightweight animations.",
     "category": "design",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "design"
     ],
-    "codeType": "low-code",
+    "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Monto",
-    "url": "https://monto.io",
-    "description": "Product Reviews for Webflow (and Foxy).",
+    "name": "Gumroad",
+    "url": "https://gumroad.com",
+    "description": "Sell anything directly to anyone.",
     "category": "ecommerce",
     "pricing": "freemium",
     "hasApi": false,
@@ -165,9 +165,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "FormNX",
-    "url": "https://formnx.com",
-    "description": "Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",
+    "name": "Paperform",
+    "url": "https://paperform.co",
+    "description": "Beautiful Forms That Feel Like Yours",
     "category": "forms",
     "pricing": "freemium",
     "hasApi": false,
@@ -176,7 +176,7 @@
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -196,24 +196,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "BEE",
-    "url": "https://beefree.io",
-    "description": "Create beautiful emails, fast.",
+    "name": "TinyTools",
+    "url": "https://tinytools-smoky.vercel.app/",
+    "description": "Free single-purpose marketing utilities (no signup, browser-based): OG image generator, SEO meta tag generator, AI robots.txt generator, AI content disclosure generator (EU AI Act compliant), favicon generator, color palette generator, and a domain name generator. Open source.",
     "category": "marketing",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "email"
+      "marketing"
     ],
-    "codeType": "no-code",
+    "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "Utilize",
-    "url": "https://www.utilize.app",
-    "description": "Apps from Google Sheets, in minutes.",
+    "name": "Bravo Studio",
+    "url": "https://www.bravostudio.app/",
+    "description": "Where your designs become real native apps",
     "category": "mobile",
     "pricing": "freemium",
     "hasApi": false,
@@ -241,24 +241,24 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Loom",
-    "url": "https://loom.com",
-    "description": "Seamless screen, mic, and camera recording for Chrome",
+    "name": "Anchor",
+    "url": "https://anchor.fm/",
+    "description": "The best way to create your podcast",
     "category": "video",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "video"
+      "podcast"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Universe",
-    "url": "https://onuniverse.com",
-    "description": "Make an awesome website from your phone.",
+    "name": "Linkz.ai",
+    "url": "https://linkz.ai",
+    "description": "Immersive hyperlink previews to keep visitors on your website",
     "category": "website-builder",
     "pricing": "freemium",
     "hasApi": false,
@@ -267,18 +267,18 @@
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Fritz.ai",
-    "url": "https://www.fritz.ai/",
-    "description": "ML platform for iOS, Android, and SnapML in Lens Studio.",
+    "name": "Landing AI",
+    "url": "https://landing.ai/",
+    "description": "Building computer vision systems in minutes via natural prompting interactions.",
     "category": "ai-ml",
-    "pricing": "paid",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "machine learning"
+      "ai"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
@@ -286,11 +286,11 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "PageGuard",
-    "url": "https://pageguard.org",
-    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
+    "name": "VisualSitemaps",
+    "url": "https://visualsitemaps.com",
+    "description": "Autogenerate Visual Sitemaps & Screenshots in Seconds",
     "category": "analytics",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "analytics"

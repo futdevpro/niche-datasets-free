@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,codeType,urlDomainTier,descriptionLengthTier,categorizationTier
-AI Builder,https://flow.microsoft.com/en-us/ai-builder,Bring intelligent automation to your business processes with AI that’s easy to train and configure in Power Automate.,ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
+CreateML,https://developer.apple.com/machine-learning/create-ml,Experience an entirely new way of training machine learning models on your Mac.,ai-ml,free,false,"[""machine learning""]",low-code,commercial,normal,specific
 Google Analytics,https://analytics.google.com,Free website analytics.,analytics,free,false,"[""analytics""]",low-code,commercial,terse,specific
-WeWeb,https://www.weweb.io/,A no-code frontend builder that connects to any backend to build scaable and secure web applications 10x faster.,app-builder,freemium,false,"[""visual programming""]",both,commercial,normal,specific
-Parabola,https://parabola.io,Drag-and-drop to automate your repetitive tasks.,automation,freemium,false,"[""automation""]",no-code,commercial,terse,specific
-Tidio,https://www.tidio.com,AI chatbot and live chat software for small businesses and ecommerce.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
-Trello,https://trello.com/louisveyret1/boards,All-in-one workspace and collaboration for businesses,collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
+MeterCall,https://metercall.ai,"Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing.",app-builder,free,true,"[""agentic apps""]",low-code,commercial,normal,specific
+Iotellect,https://iotellect.com,"Low-code IoT platform for device integration, data collection, and real-time dashboards. Supports MQTT, OPC UA, Modbus, and 50+ industrial protocols.",automation,freemium,false,"[""automation""]",low-code,commercial,normal,specific
+Botsify,https://botsify.com,Create your own automated chatbots online.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,terse,specific
+Slite,https://slite.com,Async-first documentation and knowledge base.,collaboration,freemium,false,"[""collaboration""]",both,commercial,terse,specific
 Bonsai CRM,https://www.hellobonsai.com/crm,"Freelance-first CRM with contracts, invoices, and client tracking.",crm,free,false,"[""crm""]",both,commercial,normal,specific
-Webscraper.io,https://webscraper.io/,Chrome extension for creating sitemaps and scraping structured data.,data-scraping,freemium,true,"[""scrapers""]",low-code,commercial,normal,specific
-Forest Admin,https://www.forestadmin.com/,The admin panel framework,database,freemium,true,"[""database""]",both,commercial,terse,specific
-Penpot,https://penpot.app,"Open source, web-based interface design application.",design,open-source,false,"[""design""]",low-code,commercial,normal,specific
-Monto,https://monto.io,Product Reviews for Webflow (and Foxy).,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
-FormNX,https://formnx.com,"Create Powerful Forms That Converts Without Coding. It provides a lot of form templates, drag-n-drop interface, Smart Conditional Logic, Spam Protection, Reporting & Charts, Automation, Password Protection, integrations & lot more.",forms,freemium,false,"[""forms""]",no-code,commercial,detailed,specific
+Parsehub,https://parsehub.com,Free web scraping.,data-scraping,free,true,"[""scrapers""]",low-code,commercial,terse,specific
+Trevor,https://www.trevor.io,"Query your live data, without code.",database,freemium,false,"[""database""]",no-code,commercial,terse,specific
+LottieFiles,https://lottiefiles.com,Discover and use lightweight animations.,design,freemium,false,"[""design""]",no-code,commercial,terse,specific
+Gumroad,https://gumroad.com,Sell anything directly to anyone.,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
+Paperform,https://paperform.co,Beautiful Forms That Feel Like Yours,forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
 MuleSoft,https://www.mulesoft.com/platform/api-management,"Manage your API lifecycle, quickly design, test, and publish APIs.",internal-tools,freemium,true,"[""platforms"",""low code api management platform""]",low-code,commercial,normal,specific
-BEE,https://beefree.io,"Create beautiful emails, fast.",marketing,freemium,false,"[""email""]",no-code,commercial,terse,specific
-Utilize,https://www.utilize.app,"Apps from Google Sheets, in minutes.",mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
+TinyTools,https://tinytools-smoky.vercel.app/,"Free single-purpose marketing utilities (no signup, browser-based): OG image generator, SEO meta tag generator, AI robots.txt generator, AI content disclosure generator (EU AI Act compliant), favicon generator, color palette generator, and a domain name generator. Open source.",marketing,open-source,false,"[""marketing""]",low-code,commercial,detailed,specific
+Bravo Studio,https://www.bravostudio.app/,Where your designs become real native apps,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
 NoCode.Tech Tools Directory,https://www.nocode.tech/tools,Extensive listing of no-code tools.,other,free,false,"[""resources""]",no-code,commercial,terse,other
-Loom,https://loom.com,"Seamless screen, mic, and camera recording for Chrome",video,freemium,false,"[""video""]",no-code,commercial,normal,specific
-Universe,https://onuniverse.com,Make an awesome website from your phone.,website-builder,freemium,false,"[""websites""]",no-code,commercial,terse,specific
-Fritz.ai,https://www.fritz.ai/,"ML platform for iOS, Android, and SnapML in Lens Studio.",ai-ml,paid,false,"[""machine learning""]",low-code,commercial,normal,specific
-PageGuard,https://pageguard.org,"Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",analytics,free,false,"[""analytics""]",low-code,commercial,normal,specific
+Anchor,https://anchor.fm/,The best way to create your podcast,video,freemium,false,"[""podcast""]",no-code,commercial,terse,specific
+Linkz.ai,https://linkz.ai,Immersive hyperlink previews to keep visitors on your website,website-builder,freemium,false,"[""websites""]",no-code,commercial,normal,specific
+Landing AI,https://landing.ai/,Building computer vision systems in minutes via natural prompting interactions.,ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
+VisualSitemaps,https://visualsitemaps.com,Autogenerate Visual Sitemaps & Screenshots in Seconds,analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
