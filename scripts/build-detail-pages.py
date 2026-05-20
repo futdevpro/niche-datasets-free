@@ -380,6 +380,7 @@ def build_sitemap():
         ("https://futdevpro.github.io/niche-datasets-free/buyers-guide.html", "0.9"),
         ("https://futdevpro.github.io/niche-datasets-free/api.html", "0.8"),
         ("https://futdevpro.github.io/niche-datasets-free/openapi.json", "0.6"),
+        ("https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html", "0.8"),
     ] + [
         (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8")
         for d in DATASETS
@@ -594,7 +595,7 @@ def main():
     with open(feed_path, "w", encoding="utf-8") as f:
         f.write(build_feed_xml(repo_root))
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+10} URLs: root + faq + examples + vs + quickstart + feed + blog + buyers-guide + api + openapi + 20 detail) + datasets.json catalog + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
+    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+11} URLs: root + faq + examples + vs + quickstart + feed + blog + buyers-guide + api + openapi + blog-enum-tiers + 20 detail) + datasets.json catalog + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
 
 if __name__ == "__main__":

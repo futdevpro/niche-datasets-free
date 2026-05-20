@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semantic Enum Tiers — How We Make Niche Datasets Filterable Across Sources</title>
+<meta name="description" content="Buyer-aligned absolute-threshold enum fields (costTierAbsolute, useCaseTier, uptimeTier, popularityTier) that survive refresh-shifts and let one filter work consistently across npm / HuggingFace / OpenRouter. Engineering notes from 20 niche datasets.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html">
+<link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
+<link rel="alternate" type="application/json" title="Niche Datasets — Catalog" href="datasets.json">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html">
+<meta property="og:title" content="Semantic Enum Tiers — Buyer-Aligned Filtering Across 20 Datasets">
+<meta property="og:description" content="costTierAbsolute, useCaseTier, uptimeTier, popularityTier. Absolute thresholds beat percentile-relative ranks for cross-refresh stability and cross-dataset symmetry.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Semantic Enum Tiers — Buyer-Aligned Filtering">
+<meta name="twitter:description" content="costTierAbsolute / useCaseTier / uptimeTier / popularityTier — absolute thresholds beat percentile ranks for cross-refresh stability.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:820px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7rem;margin-bottom:.4rem}
+  h2{font-size:1.2rem;margin-top:2.4rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}
+  h3{font-size:1.05rem;margin-top:1.4rem;color:#222}
+  a{color:#0969da}
+  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}
+  pre{background:#0d1117;color:#e6edf3;padding:1rem;border-radius:6px;overflow-x:auto;font-size:.86rem;line-height:1.5}
+  pre code{background:transparent;padding:0;font-family:Menlo,Consolas,monospace}
+  .lead{color:#444;font-size:1.05rem}
+  .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  .meta{color:#666;font-size:.88rem;margin-bottom:1rem}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+  th,td{border:1px solid #e5e7eb;padding:.42rem .6rem;text-align:left;vertical-align:top}
+  thead{background:#f6f8fa}
+  .takeaway{background:#fafbfc;padding:1rem 1.3rem;border-left:3px solid #16a34a;border-radius:0 4px 4px 0;margin:1.5rem 0}
+  .anti{background:#fff5f5;padding:.8rem 1.2rem;border-left:3px solid #b91c1c;border-radius:0 4px 4px 0;margin:1rem 0;color:#7f1d1d;font-size:.92rem}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Semantic Enum Tiers — How We Make Niche Datasets Filterable Across Sources",
+  "datePublished": "2026-05-20",
+  "dateModified": "2026-05-20",
+  "author": {"@type": "Organization", "name": "Niche Datasets"},
+  "publisher": {"@type": "Organization", "name": "Niche Datasets", "url": "https://futdevpro.github.io/niche-datasets-free/"},
+  "mainEntityOfPage": "https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html",
+  "image": "https://futdevpro.github.io/niche-datasets-free/og-cover.svg",
+  "description": "Buyer-aligned absolute-threshold enum fields (costTierAbsolute, useCaseTier, uptimeTier, popularityTier) for cross-dataset symmetric filtering."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},
+    {"@type":"ListItem","position":2,"name":"Semantic Enum Tiers","item":"https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="quickstart.html">Quickstart</a> &nbsp;·&nbsp; <a href="buyers-guide.html">Buyer's guide</a> &nbsp;·&nbsp; <a href="api.html">API</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a> &nbsp;·&nbsp; <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a></p>
+
+<h1>Semantic Enum Tiers — Filtering That Survives Refreshes and Crosses Datasets</h1>
+<p class="meta">2026-05-20 · Engineering notes from running 20 niche datasets in production</p>
+
+<p class="lead">Every dataset in this catalog ships with extra enum fields that the source itself does not have — <code>costTierAbsolute</code>, <code>useCaseTier</code>, <code>uptimeTier</code>, <code>popularityTier</code>, <code>recencyTier</code>, <code>licenseTier</code>, and ~30 more. They look like noise next to the raw API fields. They are the most-used fields in every buyer query we've ever observed.</p>
+
+<h2>Why source-fields aren't enough</h2>
+
+<p>An npm package object has <code>downloads</code>: a number. A HuggingFace model has <code>pipeline_tag</code>: a string from a controlled vocabulary of ~30 entries. An OpenRouter endpoint has <code>pricing.prompt</code>: a USD-per-token decimal.</p>
+
+<p>If you give these to a buyer, they cannot answer their own buyer-question. Specifically:</p>
+
+<ul>
+<li>"Show me cheap models" — what's cheap? <code>pricing.prompt &lt; 0.000001</code> means nothing to a non-API-fluent human, and the threshold shifts every time a new flagship launches.</li>
+<li>"Show me production-grade providers" — what's production-grade? <code>uptime &gt; 0.999</code>? Why 3 nines vs 4? Where's the SLA mapping?</li>
+<li>"Show me trending packages" — top 1%? Top 100? Top by downloads, by stars, by lifetime-vs-recent ratio?</li>
+<li>"Show me chat models" — there are 5 different HuggingFace pipeline_tags that all mean "this is a chat assistant" — <code>text-generation</code>, <code>text2text-generation</code>, <code>conversational</code>, and edge cases.</li>
+</ul>
+
+<p>The buyer wants <strong>buyer-aligned tiers with stable thresholds</strong>. We compute these once during the pipeline run and ship them as first-class fields.</p>
+
+<h2>Tier design rule #1 — absolute over percentile</h2>
+
+<p>Most catalogs that bother with tiering use percentile ranks: "this model is in the top-25% by downloads". That sounds rigorous and falls apart immediately for the buyer.</p>
+
+<div class="anti">
+<strong>Percentile tier problem:</strong> If 4,000 new models launch on HuggingFace this week, every existing model drops a percentile bucket — even though nothing changed about it. "Top 5% by downloads" today and "top 25% by downloads" next month is the same model with the same downloads. The label moved because the cohort changed.
+</div>
+
+<p>For most buyer-questions, an <strong>absolute threshold</strong> is more useful. If <code>downloads &gt; 1,000,000</code> = "viral", that label is stable across refreshes regardless of how the cohort shifts. Same model, same data, same label, week after week.</p>
+
+<p>So we use percentile-ranks <em>only</em> for fields where "relative position" is genuinely what the buyer wants (e.g. <code>popularityTier</code> = "rest" vs "top25pct" vs "top5pct" vs "top1pct" — buyer-question is "is this a giant or a niche?", a percentile question). For everything else we hardcode absolute thresholds tied to real-world buyer meaning.</p>
+
+<h3>Worked example — ai-models-pricing has both</h3>
+
+<p>The ai-models-pricing dataset has <em>two</em> cost tiers, deliberately:</p>
+
+<table>
+<thead><tr><th>Field</th><th>Type</th><th>Values</th><th>Buyer-question it answers</th></tr></thead>
+<tbody>
+<tr><td><code>costEfficiencyScore</code></td><td>percentile</td><td>cheapest25pct / cheap50pct / midrange / expensive / unknown</td><td>"How does this model compare to the rest of the catalog right now?"</td></tr>
+<tr><td><code>costTierAbsolute</code></td><td>absolute</td><td>free / cheap (&lt;$1/M) / mid ($1-10/M) / premium ($10-50/M) / flagship (&gt;$50/M)</td><td>"Is this within my budget per million tokens?"</td></tr>
+</tbody>
+</table>
+
+<p>Both are useful, for different reasons. The percentile tier is comparative; the absolute tier is budgetary. A buyer running cost-modeling for production traffic only cares about the absolute one.</p>
+
+<h2>Tier design rule #2 — same enum across datasets when the buyer-question is the same</h2>
+
+<p>A buyer asking "show me chat models" wants the same answer whether they're querying <a href="huggingface-models.html">huggingface-models</a>, <a href="huggingface-datasets.html">huggingface-datasets</a>, or <a href="ai-models-pricing.html">ai-models-pricing</a>. Three different source schemas, three different controlled vocabularies for what "chat" means. The buyer doesn't care.</p>
+
+<p>So <code>useCaseTier</code> is the same enum across all three:</p>
+
+<pre><code>chat
+embedding
+vision
+audio
+code
+multimodal
+nlp-classic     (token-classification / translation / fill-mask / etc.)
+tabular         (huggingface-datasets only — models rarely target tabular)
+other
+unknown</code></pre>
+
+<p>Each dataset's extractor computes the field from <em>its own</em> source vocabulary, but the output enum is identical. A buyer running a single agent query across all three datasets can filter <code>useCaseTier=code</code> and get models, training datasets, and priced endpoints in one consistent result set.</p>
+
+<h2>Tier design rule #3 — name the absolute threshold after a real-world concept</h2>
+
+<p>Uptime is the cleanest example. The SLA industry has named the thresholds for 30 years:</p>
+
+<table>
+<thead><tr><th>Industry term</th><th><code>uptimeTier</code> value</th><th>Threshold</th></tr></thead>
+<tbody>
+<tr><td>"four nines"</td><td><code>excellent</code></td><td>≥99.9%</td></tr>
+<tr><td>"three nines"</td><td><code>good</code></td><td>99.0–99.89%</td></tr>
+<tr><td>"two nines"</td><td><code>acceptable</code></td><td>95.0–98.99%</td></tr>
+<tr><td>(below 2 nines)</td><td><code>poor</code></td><td>&lt;95%</td></tr>
+<tr><td>(no data)</td><td><code>unknown</code></td><td>—</td></tr>
+</tbody>
+</table>
+
+<p>A buyer doesn't have to learn our taxonomy. They look at <code>uptimeTier=excellent</code> and know exactly what it means, because it maps to the industry concept they already use to write SLAs.</p>
+
+<h2>What this looks like in a real query</h2>
+
+<p>From the free <a href="ai-models-pricing-sample.json">ai-models-pricing sample</a>:</p>
+
+<pre><code>jq '
+  .[]
+  | select(.useCaseTier == "chat"
+        and .costTierAbsolute == "cheap"
+        and .uptimeTier == "excellent"
+        and .contextTier == "large")
+  | {name, provider, pricingPromptPerMillionUsd, contextLength}
+' ai-models-pricing-sample.json</code></pre>
+
+<p>Reads exactly like the buyer's mental query: "give me a cheap chat model from a reliable provider with a big context window." 4 enum filters do what would otherwise take 4 inequality predicates with magic numbers + 5 OR-clauses for synonymous pipeline tags + a percentile cutoff that drifts every refresh.</p>
+
+<div class="takeaway">
+<strong>Takeaway:</strong> the value of a catalog is not its row count. It's how easily the buyer can ask their own buyer-question against it without learning the schema. Semantic enum tiers — absolute where buyers think absolutely, percentile where they think relatively, same enum across datasets where the question is the same — are the single most-used filter in every workflow we've observed.
+</div>
+
+<h2>Audit log</h2>
+
+<p>Per-dataset tier additions are written into <code>datasets/&lt;name&gt;/CHANGELOG.md</code>. Recent additions:</p>
+
+<ul>
+<li>2026-05-20: <code>useCaseTier</code> added to <a href="huggingface-models.html">huggingface-models</a>, <a href="huggingface-datasets.html">huggingface-datasets</a>, <a href="ai-models-pricing.html">ai-models-pricing</a> — cross-symmetric.</li>
+<li>2026-05-20: <code>costTierAbsolute</code> added to <a href="ai-models-pricing.html">ai-models-pricing</a> — absolute $/M tiers next to the existing percentile-relative <code>costEfficiencyScore</code>.</li>
+<li>2026-05-07: <code>uptimeTier</code>, <code>recencyTier</code>, <code>popularityTier</code>, <code>publisherRank</code>, <code>modalityTier</code>, ~30 more.</li>
+</ul>
+
+<p><a href="./">← Browse all 20 datasets</a> · <a href="buyers-guide.html">Buyer's guide</a> · <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a></p>
+
+<footer>
+Niche Datasets · <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> · <a href="https://jhonnyronnie.gumroad.com/">Gumroad storefront</a>
+</footer>
+
+</body>
+</html>
