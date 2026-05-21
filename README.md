@@ -39,21 +39,21 @@ These are baked into the actual records — the mega-sample below has 5 random r
 | Dataset | Records | Sample | Full Dataset |
 |---------|---------|--------|-------------|
 | Homebrew Packages Directory | 12,200+ | [JSON](homebrew-packages-sample.json) · [CSV](homebrew-packages-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/homebrew-packages-directory) |
-| npm Packages Directory | 6,000+ | [JSON](npm-packages-sample.json) · [CSV](npm-packages-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/npm-packages-directory) |
+| npm Packages Directory | 6,100+ | [JSON](npm-packages-sample.json) · [CSV](npm-packages-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/npm-packages-directory) |
 | VS Code Extensions Directory | 4,800+ | [JSON](vscode-extensions-sample.json) · [CSV](vscode-extensions-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/vscode-extensions-directory) |
 | Open MCP Servers Directory | 3,600+ | [JSON](mcp-servers-sample.json) · [CSV](mcp-servers-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/mcp-servers-directory) |
-| Public APIs Directory | 2,500+ | [JSON](public-apis-sample.json) · [CSV](public-apis-sample.csv) | [$12 on Gumroad](https://jhonnyronnie.gumroad.com/l/public-apis-directory) |
-| Developer Tools Directory | 1,500+ | [JSON](developer-tools-sample.json) · [CSV](developer-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/developer-tools-directory) |
+| Public APIs Directory | 2,600+ | [JSON](public-apis-sample.json) · [CSV](public-apis-sample.csv) | [$12 on Gumroad](https://jhonnyronnie.gumroad.com/l/public-apis-directory) |
+| Developer Tools Directory | 1,600+ | [JSON](developer-tools-sample.json) · [CSV](developer-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/developer-tools-directory) |
 
 ### 🤖 AI / ML — models, datasets, prompts, pricing, infrastructure
 
 | Dataset | Records | Sample | Full Dataset |
 |---------|---------|--------|-------------|
 | HuggingFace Models Directory | 4,000 | [JSON](huggingface-models-sample.json) · [CSV](huggingface-models-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/huggingface-models-directory) |
-| AI Tools Directory | 2,700+ | [JSON](ai-tools-sample.json) · [CSV](ai-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-tools-directory) |
-| HuggingFace Datasets Directory | 2,600+ | [JSON](huggingface-datasets-sample.json) · [CSV](huggingface-datasets-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/huggingface-datasets-directory) |
+| AI Tools Directory | 2,800+ | [JSON](ai-tools-sample.json) · [CSV](ai-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-tools-directory) |
+| HuggingFace Datasets Directory | 2,800+ | [JSON](huggingface-datasets-sample.json) · [CSV](huggingface-datasets-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/huggingface-datasets-directory) |
 | AI Agents Directory | 2,000+ | [JSON](ai-agents-sample.json) · [CSV](ai-agents-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-agents-directory) |
-| AI Prompts Directory | 1,700+ | [JSON](ai-prompts-sample.json) · [CSV](ai-prompts-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-prompts-directory) |
+| AI Prompts Directory | 1,800+ | [JSON](ai-prompts-sample.json) · [CSV](ai-prompts-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-prompts-directory) |
 | AI Models & Providers Pricing Matrix | 800+ | [JSON](ai-models-pricing-sample.json) · [CSV](ai-models-pricing-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/ai-models-pricing-matrix) |
 | LLMOps & Eval Tooling Directory | 490+ | [JSON](llmops-and-eval-sample.json) · [CSV](llmops-and-eval-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/llmops-and-eval-tooling-directory) |
 | Vector DB & RAG Infrastructure Directory | 190+ | [JSON](vector-db-and-rag-sample.json) · [CSV](vector-db-and-rag-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/vector-db-and-rag-infrastructure) |
@@ -69,7 +69,7 @@ These are baked into the actual records — the mega-sample below has 5 random r
 
 | Dataset | Records | Sample | Full Dataset |
 |---------|---------|--------|-------------|
-| Cybersecurity Tools Directory | 2,600+ | [JSON](cybersecurity-tools-sample.json) · [CSV](cybersecurity-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/cybersecurity-tools) |
+| Cybersecurity Tools Directory | 2,700+ | [JSON](cybersecurity-tools-sample.json) · [CSV](cybersecurity-tools-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/cybersecurity-tools) |
 | Design Resources Directory | 2,100+ | [JSON](design-resources-sample.json) · [CSV](design-resources-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/design-resources) |
 | Open Source Alternatives Directory | 900+ | [JSON](open-source-alternatives-sample.json) · [CSV](open-source-alternatives-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/open-source-alternatives) |
 | No-Code & Low-Code Tools Directory | 500+ | [JSON](no-code-lowcode-sample.json) · [CSV](no-code-lowcode-sample.csv) | [$7 on Gumroad](https://jhonnyronnie.gumroad.com/l/no-code-lowcode) |
