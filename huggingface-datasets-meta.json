@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "slug": "huggingface-datasets",
   "name": "HuggingFace Datasets Directory",
-  "recordCount": "2,600+",
-  "description": "Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.",
+  "recordCount": "2,800+",
+  "description": "Catalog of 2,800+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.",
   "keywords": [
     "huggingface",
     "datasets",

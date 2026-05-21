@@ -36,8 +36,8 @@
     {
       "slug": "npm-packages",
       "name": "npm Packages Directory",
-      "recordCount": "6,000+",
-      "description": "Catalog of 6,000+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
+      "recordCount": "6,100+",
+      "description": "Catalog of 6,100+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
       "keywords": [
         "npm",
         "javascript",
@@ -128,8 +128,8 @@
     {
       "slug": "ai-tools",
       "name": "AI Tools Directory",
-      "recordCount": "2,700+",
-      "description": "Catalog of 2,700+ AI tools and applications with category, pricing model, and API availability.",
+      "recordCount": "2,800+",
+      "description": "Catalog of 2,800+ AI tools and applications with category, pricing model, and API availability.",
       "keywords": [
         "ai tools",
         "artificial intelligence",
@@ -150,8 +150,8 @@
     {
       "slug": "cybersecurity-tools",
       "name": "Cybersecurity Tools Directory",
-      "recordCount": "2,600+",
-      "description": "Catalog of 2,600+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories.",
+      "recordCount": "2,700+",
+      "description": "Catalog of 2,700+ cybersecurity tools across pentesting, defensive, forensics, and monitoring categories.",
       "keywords": [
         "cybersecurity",
         "infosec",
@@ -173,8 +173,8 @@
     {
       "slug": "huggingface-datasets",
       "name": "HuggingFace Datasets Directory",
-      "recordCount": "2,600+",
-      "description": "Catalog of 2,600+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.",
+      "recordCount": "2,800+",
+      "description": "Catalog of 2,800+ most-downloaded HuggingFace datasets with downloads, likes, license, task categories, and language.",
       "keywords": [
         "huggingface",
         "datasets",
@@ -196,8 +196,8 @@
     {
       "slug": "public-apis",
       "name": "Public APIs Directory",
-      "recordCount": "2,500+",
-      "description": "Catalog of 2,500+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories.",
+      "recordCount": "2,600+",
+      "description": "Catalog of 2,600+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories.",
       "keywords": [
         "public apis",
         "rest api",
@@ -289,8 +289,8 @@
     {
       "slug": "ai-prompts",
       "name": "AI Prompts Directory",
-      "recordCount": "1,700+",
-      "description": "Catalog of 1,700+ AI prompts across text, structured, and image generation \u2014 categorized for developer workflows.",
+      "recordCount": "1,800+",
+      "description": "Catalog of 1,800+ AI prompts across text, structured, and image generation \u2014 categorized for developer workflows.",
       "keywords": [
         "ai prompts",
         "prompt engineering",
@@ -312,8 +312,8 @@
     {
       "slug": "developer-tools",
       "name": "Developer Tools Directory",
-      "recordCount": "1,500+",
-      "description": "Catalog of 1,500+ developer tools across CLI tools, code editors, debuggers, profilers, and productivity utilities.",
+      "recordCount": "1,600+",
+      "description": "Catalog of 1,600+ developer tools across CLI tools, code editors, debuggers, profilers, and productivity utilities.",
       "keywords": [
         "developer tools",
         "dev tools",
