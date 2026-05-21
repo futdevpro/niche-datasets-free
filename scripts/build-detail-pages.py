@@ -412,27 +412,28 @@ def build_jsonld(d, repo_root=None):
 
 def build_sitemap():
     today = datetime.date.today().isoformat()
+    # (url, priority, changefreq)
     urls = [
-        ("https://futdevpro.github.io/niche-datasets-free/", "1.0"),
-        ("https://futdevpro.github.io/niche-datasets-free/faq.html", "0.7"),
-        ("https://futdevpro.github.io/niche-datasets-free/examples.html", "0.7"),
-        ("https://futdevpro.github.io/niche-datasets-free/vs.html", "0.7"),
-        ("https://futdevpro.github.io/niche-datasets-free/quickstart.html", "0.8"),
-        ("https://futdevpro.github.io/niche-datasets-free/feed.xml", "0.6"),
-        ("https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html", "0.8"),
-        ("https://futdevpro.github.io/niche-datasets-free/buyers-guide.html", "0.9"),
-        ("https://futdevpro.github.io/niche-datasets-free/api.html", "0.8"),
-        ("https://futdevpro.github.io/niche-datasets-free/openapi.json", "0.6"),
-        ("https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html", "0.8"),
-        ("https://futdevpro.github.io/niche-datasets-free/tiers.html", "0.8"),
-        ("https://futdevpro.github.io/niche-datasets-free/changelog.html", "0.7"),
+        ("https://futdevpro.github.io/niche-datasets-free/",                                       "1.0", "weekly"),
+        ("https://futdevpro.github.io/niche-datasets-free/buyers-guide.html",                      "0.9", "monthly"),
+        ("https://futdevpro.github.io/niche-datasets-free/tiers.html",                             "0.9", "weekly"),
+        ("https://futdevpro.github.io/niche-datasets-free/quickstart.html",                        "0.8", "monthly"),
+        ("https://futdevpro.github.io/niche-datasets-free/api.html",                               "0.8", "monthly"),
+        ("https://futdevpro.github.io/niche-datasets-free/examples.html",                          "0.7", "monthly"),
+        ("https://futdevpro.github.io/niche-datasets-free/vs.html",                                "0.7", "monthly"),
+        ("https://futdevpro.github.io/niche-datasets-free/faq.html",                               "0.7", "monthly"),
+        ("https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html",    "0.7", "yearly"),
+        ("https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html",          "0.7", "yearly"),
+        ("https://futdevpro.github.io/niche-datasets-free/changelog.html",                         "0.6", "weekly"),
+        ("https://futdevpro.github.io/niche-datasets-free/feed.xml",                               "0.6", "weekly"),
+        ("https://futdevpro.github.io/niche-datasets-free/openapi.json",                           "0.5", "yearly"),
     ] + [
-        (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8")
+        (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8", "weekly")
         for d in DATASETS
     ]
     body = "\n".join(
-        f"  <url>\n    <loc>{u}</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>{p}</priority>\n  </url>"
-        for u, p in urls
+        f"  <url>\n    <loc>{u}</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>{cf}</changefreq>\n    <priority>{p}</priority>\n  </url>"
+        for u, p, cf in urls
     )
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
 
