@@ -407,7 +407,7 @@ def build_jsonld(d):
 
 
 def build_sitemap():
-    today = "2026-05-20"
+    today = "2026-05-21"
     urls = [
         ("https://futdevpro.github.io/niche-datasets-free/", "1.0"),
         ("https://futdevpro.github.io/niche-datasets-free/faq.html", "0.7"),
