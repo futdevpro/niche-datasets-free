@@ -51,7 +51,8 @@
   <li><a href="#supply-chain">Pandas-style filter + join (npm + Homebrew supply-chain audit)</a></li>
   <li><a href="#duckdb">DuckDB · query JSON/CSV remote URL</a></li>
   <li><a href="#tier-filters-pandas">Semantic enum tier filters (Python · pandas)</a></li>
-  <li><a href="#tier-filters">Semantic enum tier filters (jq)</a></li></ul>
+  <li><a href="#tier-filters">Semantic enum tier filters (jq)</a></li>
+  <li><a href="#tier-filters-node">Semantic enum tier filters (Node.js · fetch)</a></li></ul>
 </div>
 
 <h2 id="python-pandas">Python · pandas</h2>
@@ -197,6 +198,38 @@ curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm
 curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.json \
   | jq '.[] | select(.vendorTier == "oss" and .targetPlatform == "network")
         | {name, description}'</code></pre>
+
+<h2 id="tier-filters-node">Semantic enum tier filters (Node.js · fetch)</h2>
+<p class="intro">JavaScript / Node.js (18+) with native fetch. Same buyer-questions as the jq + pandas snippets, in JS. Useful for agent-builders, API gateways, frontend filtering UIs.</p>
+<pre><code>const BASE = 'https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main';
+
+// AI Models Pricing — cheap chat models with production-grade uptime
+const pricing = await (await fetch(`${BASE}/ai-models-pricing-sample.json`)).json();
+const cheapChat = pricing.filter(r =&gt;
+  r.useCaseTier === 'chat' &amp;&amp;
+  r.costTierAbsolute === 'cheap' &amp;&amp;
+  r.uptimeTier === 'excellent'
+);
+console.log(cheapChat.map(r =&gt; ({
+  name: r.name, provider: r.provider,
+  pricePerM: r.pricingPromptPerMillionUsd, ctx: r.contextLength,
+})));
+
+// HuggingFace Models — embedding models only, permissively licensed
+const hf = await (await fetch(`${BASE}/huggingface-models-sample.json`)).json();
+const embPerm = hf.filter(r =&gt;
+  r.useCaseTier === 'embedding' &amp;&amp; r.licenseTier === 'permissive'
+);
+console.log(embPerm.map(({ modelId, downloads, license }) =&gt; ({ modelId, downloads, license })));
+
+// npm Packages — popular, safe, fresh
+const npm = await (await fetch(`${BASE}/npm-packages-sample.json`)).json();
+const trusted = npm.filter(r =&gt;
+  r.popularityTier === 'top25pct' &amp;&amp;
+  r.supplyChainRisk === 'low' &amp;&amp;
+  r.recencyTier === 'fresh'
+);
+console.log(trusted.map(({ name, weeklyDownloads, lastPublished }) =&gt; ({ name, weeklyDownloads, lastPublished })));</code></pre>
 
 <h2>Switching to a different dataset</h2>
 <p>Every snippet above uses <code>npm-packages-sample.json</code> / <code>.csv</code>. To load a different one, change the slug in the URL. Available slugs:</p>

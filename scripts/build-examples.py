@@ -190,6 +190,40 @@ curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cyb
   | jq '.[] | select(.vendorTier == "oss" and .targetPlatform == "network")
         | {name, description}'""",
     },
+    {
+        "lang": "Semantic enum tier filters (Node.js · fetch)",
+        "id": "tier-filters-node",
+        "intro": "JavaScript / Node.js (18+) with native fetch. Same buyer-questions as the jq + pandas snippets, in JS. Useful for agent-builders, API gateways, frontend filtering UIs.",
+        "code": """const BASE = 'https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main';
+
+// AI Models Pricing — cheap chat models with production-grade uptime
+const pricing = await (await fetch(`${BASE}/ai-models-pricing-sample.json`)).json();
+const cheapChat = pricing.filter(r =>
+  r.useCaseTier === 'chat' &&
+  r.costTierAbsolute === 'cheap' &&
+  r.uptimeTier === 'excellent'
+);
+console.log(cheapChat.map(r => ({
+  name: r.name, provider: r.provider,
+  pricePerM: r.pricingPromptPerMillionUsd, ctx: r.contextLength,
+})));
+
+// HuggingFace Models — embedding models only, permissively licensed
+const hf = await (await fetch(`${BASE}/huggingface-models-sample.json`)).json();
+const embPerm = hf.filter(r =>
+  r.useCaseTier === 'embedding' && r.licenseTier === 'permissive'
+);
+console.log(embPerm.map(({ modelId, downloads, license }) => ({ modelId, downloads, license })));
+
+// npm Packages — popular, safe, fresh
+const npm = await (await fetch(`${BASE}/npm-packages-sample.json`)).json();
+const trusted = npm.filter(r =>
+  r.popularityTier === 'top25pct' &&
+  r.supplyChainRisk === 'low' &&
+  r.recencyTier === 'fresh'
+);
+console.log(trusted.map(({ name, weeklyDownloads, lastPublished }) => ({ name, weeklyDownloads, lastPublished })));""",
+    },
 ]
 
 
