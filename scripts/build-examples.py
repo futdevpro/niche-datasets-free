@@ -136,6 +136,37 @@ GROUP BY category
 ORDER BY n DESC;""",
     },
     {
+        "lang": "Semantic enum tier filters (Python · pandas)",
+        "id": "tier-filters-pandas",
+        "intro": "Same buyer-question, in Python. Loads from the sample URL straight into pandas, filters by semantic enum tier fields with one boolean-mask combo per use case.",
+        "code": """import pandas as pd
+
+BASE = "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main"
+
+# AI Models Pricing — cheap chat models with production-grade uptime
+pricing = pd.read_json(f"{BASE}/ai-models-pricing-sample.json")
+cheap_chat = pricing[
+    (pricing["useCaseTier"] == "chat") &
+    (pricing["costTierAbsolute"] == "cheap") &
+    (pricing["uptimeTier"] == "excellent")
+]
+print(cheap_chat[["name", "provider", "pricingPromptPerMillionUsd", "contextLength"]])
+
+# HuggingFace Models — embedding models only, permissively licensed
+hf = pd.read_json(f"{BASE}/huggingface-models-sample.json")
+emb_perm = hf[(hf["useCaseTier"] == "embedding") & (hf["licenseTier"] == "permissive")]
+print(emb_perm[["modelId", "downloads", "license"]])
+
+# npm Packages — popular, safe, fresh
+npm = pd.read_json(f"{BASE}/npm-packages-sample.json")
+trusted = npm[
+    (npm["popularityTier"] == "top25pct") &
+    (npm["supplyChainRisk"] == "low") &
+    (npm["recencyTier"] == "fresh")
+]
+print(trusted[["name", "weeklyDownloads", "lastPublished"]])""",
+    },
+    {
         "lang": "Semantic enum tier filters (jq)",
         "id": "tier-filters",
         "intro": "Filter by derived enum tier fields — same enum names work across datasets where the buyer-question is the same. Full reference at /tiers.html, methodology at /blog-semantic-enum-tiers.html.",
