@@ -9,6 +9,7 @@ Each snippet uses a real sample URL so the reader can run it as-is.
 
 Run from repo root:  python3 scripts/build-examples.py
 """
+import datetime
 import json
 import os
 
@@ -332,12 +333,15 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
 
 
 def build_jsonld():
+    today_iso = datetime.date.today().isoformat()
     return json.dumps({
         "@context": "https://schema.org",
         "@type": "TechArticle",
         "headline": "Examples — How to Load the Niche Datasets",
         "description": "Copy-pasteable code snippets for loading the niche-datasets samples in Python (pandas, urllib), JavaScript (fetch, Node.js), jq CLI, R, curl, and DuckDB. Works on all 20 datasets.",
         "url": "https://futdevpro.github.io/niche-datasets-free/examples.html",
+        "datePublished": "2026-05-17",
+        "dateModified": today_iso,
         "author": {"@type": "Organization", "name": "Future Development Program"},
         "publisher": {"@type": "Organization", "name": "Future Development Program",
                       "url": "https://github.com/futdevpro"},

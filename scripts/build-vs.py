@@ -9,6 +9,7 @@ Targets long-tail comparison queries like 'awesome-list vs structured dataset',
 
 Run from repo root:  python3 scripts/build-vs.py
 """
+import datetime
 import json
 import os
 
@@ -154,12 +155,15 @@ def build_comparisons_html():
 
 
 def build_jsonld():
+    today_iso = datetime.date.today().isoformat()
     return json.dumps({
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Niche Datasets vs. Alternatives — awesome-lists, Kaggle, HuggingFace, ProductHunt, Custom Scrapes",
         "description": "How the Niche Datasets catalog compares to the common alternatives. When to use which.",
         "url": "https://futdevpro.github.io/niche-datasets-free/vs.html",
+        "datePublished": "2026-05-17",
+        "dateModified": today_iso,
         "author": {"@type": "Organization", "name": "Future Development Program"},
         "publisher": {"@type": "Organization", "name": "Future Development Program",
                       "url": "https://github.com/futdevpro"},
