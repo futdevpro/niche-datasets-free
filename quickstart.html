@@ -99,13 +99,22 @@ print(df.groupby('category').size().sort_values(ascending=False).head())
   <strong>The sample didn't fit:</strong> check the <a href="./">other 19 datasets</a>, or read <a href="vs.html">vs. alternatives</a> to see if Kaggle / HuggingFace / awesome-* / a custom scrape would be a better match. The samples are free — try as many as you want.
 </div>
 
+<h2><span class="step">6</span> Optional — try a semantic tier filter <span class="timer">~1 minute</span></h2>
+<p>Every record carries derived enum-tier fields (<code>useCaseTier</code>, <code>costTierAbsolute</code>, <code>uptimeTier</code>, <code>licenseTier</code>, <code>popularityTier</code>, <code>vendorTier</code>, +40 more — <a href="tiers.html">full reference</a>). Filter by enum names that survive refreshes and stay consistent across datasets. Example query on the AI Models Pricing sample:</p>
+<pre><code>curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json \
+  | jq '.[] | select(.useCaseTier == "chat" and .costTierAbsolute == "cheap")
+        | {name, provider, pricingPromptPerMillionUsd}'</code></pre>
+<p>Same patterns in <a href="examples.html#tier-filters">pandas, Node.js fetch, and DuckDB SQL</a>. Methodology: <a href="blog-semantic-enum-tiers.html">semantic enum tiers post</a>.</p>
+
 <h2>Common next steps</h2>
 <ul>
-<li><a href="examples.html">Code examples</a> — pandas, urllib, fetch, jq, R, DuckDB, curl one-liners (9 snippets across 8 languages).</li>
+<li><a href="examples.html">Code examples</a> — pandas, urllib, fetch, jq, R, DuckDB, curl one-liners (13 snippets across 9+ languages).</li>
+<li><a href="tiers.html">All tier-enum reference</a> — 10 shared + 40+ dataset-specific filter fields.</li>
+<li><a href="buyers-guide.html">Buyer's guide</a> — 8 use cases mapped to specific datasets + bundles.</li>
 <li><a href="faq.html">FAQ</a> — licensing, refresh cadence, sources, commercial use, ML-pipeline integration.</li>
 <li><a href="vs.html">vs. alternatives</a> — when to use this vs awesome-* / Kaggle / HuggingFace / ProductHunt / Google / custom scrapes.</li>
-<li><a href="datasets.json">datasets.json</a> — machine-readable catalog for programmatic discovery.</li>
-<li><a href="feed.xml">RSS feed</a> — get notified on each monthly/quarterly refresh.</li>
+<li><a href="api.html">/api.html</a> — OpenAPI 3.1 spec + agent-callable codegen example.</li>
+<li><a href="feed.xml">RSS feed</a> — get notified on each refresh.</li>
 </ul>
 
 <footer>
