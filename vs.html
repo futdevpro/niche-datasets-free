@@ -110,6 +110,9 @@
 
 <p>You'd reach for an alternative if: you need <em>training data</em> (Kaggle / HuggingFace), <em>brand-new launches</em> (ProductHunt), or <em>a bespoke catalog</em> not in our list of 20 (custom scrape).</p>
 
+<h2>The common thread — semantic enum tiers</h2>
+<p>Every alternative above hands you raw data and expects you to invent your own filtering vocabulary. We ship <strong>derived semantic enum tier fields</strong> on every record: <code>costTierAbsolute</code>, <code>useCaseTier</code>, <code>uptimeTier</code>, <code>licenseTier</code>, <code>popularityTier</code>, <code>vendorTier</code>, and ~40 more. Filter by enum names that survive refresh-shifts (absolute thresholds) and stay consistent across datasets (same enum name across HF models + HF datasets + ai-models-pricing). Full reference: <a href="tiers.html">all tiers</a> · methodology: <a href="blog-semantic-enum-tiers.html">semantic enum tiers post</a>.</p>
+
 <p><a class="cta" href="./">Browse the 20 datasets</a> &nbsp;·&nbsp; <a href="examples.html">Code examples for loading</a></p>
 
 <footer>
