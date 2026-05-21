@@ -224,6 +224,36 @@ const trusted = npm.filter(r =>
 );
 console.log(trusted.map(({ name, weeklyDownloads, lastPublished }) => ({ name, weeklyDownloads, lastPublished })));""",
     },
+    {
+        "lang": "Semantic enum tier filters (DuckDB · SQL)",
+        "id": "tier-filters-duckdb",
+        "intro": "Same buyer-questions, in SQL via DuckDB reading the JSON straight from HTTPS. Useful when you already have a DuckDB warehouse + want to join the niche-datasets samples against your own tables.",
+        "code": """-- in duckdb shell, duckdb-python, or duckdb-wasm
+INSTALL httpfs; LOAD httpfs;
+
+-- AI Models Pricing — cheap chat models with production-grade uptime
+SELECT name, provider, pricingPromptPerMillionUsd, contextLength
+FROM read_json_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json')
+WHERE useCaseTier = 'chat'
+  AND costTierAbsolute = 'cheap'
+  AND uptimeTier = 'excellent'
+ORDER BY pricingPromptPerMillionUsd ASC;
+
+-- HuggingFace Models — embedding models only, permissively licensed
+SELECT modelId, downloads, license
+FROM read_json_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json')
+WHERE useCaseTier = 'embedding'
+  AND licenseTier = 'permissive'
+ORDER BY downloads DESC;
+
+-- npm Packages — popular, safe, fresh
+SELECT name, weeklyDownloads, lastPublished
+FROM read_json_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json')
+WHERE popularityTier = 'top25pct'
+  AND supplyChainRisk = 'low'
+  AND recencyTier = 'fresh'
+ORDER BY weeklyDownloads DESC;""",
+    },
 ]
 
 

@@ -52,7 +52,8 @@
   <li><a href="#duckdb">DuckDB · query JSON/CSV remote URL</a></li>
   <li><a href="#tier-filters-pandas">Semantic enum tier filters (Python · pandas)</a></li>
   <li><a href="#tier-filters">Semantic enum tier filters (jq)</a></li>
-  <li><a href="#tier-filters-node">Semantic enum tier filters (Node.js · fetch)</a></li></ul>
+  <li><a href="#tier-filters-node">Semantic enum tier filters (Node.js · fetch)</a></li>
+  <li><a href="#tier-filters-duckdb">Semantic enum tier filters (DuckDB · SQL)</a></li></ul>
 </div>
 
 <h2 id="python-pandas">Python · pandas</h2>
@@ -230,6 +231,34 @@ const trusted = npm.filter(r =&gt;
   r.recencyTier === 'fresh'
 );
 console.log(trusted.map(({ name, weeklyDownloads, lastPublished }) =&gt; ({ name, weeklyDownloads, lastPublished })));</code></pre>
+
+<h2 id="tier-filters-duckdb">Semantic enum tier filters (DuckDB · SQL)</h2>
+<p class="intro">Same buyer-questions, in SQL via DuckDB reading the JSON straight from HTTPS. Useful when you already have a DuckDB warehouse + want to join the niche-datasets samples against your own tables.</p>
+<pre><code>-- in duckdb shell, duckdb-python, or duckdb-wasm
+INSTALL httpfs; LOAD httpfs;
+
+-- AI Models Pricing — cheap chat models with production-grade uptime
+SELECT name, provider, pricingPromptPerMillionUsd, contextLength
+FROM read_json_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json')
+WHERE useCaseTier = 'chat'
+  AND costTierAbsolute = 'cheap'
+  AND uptimeTier = 'excellent'
+ORDER BY pricingPromptPerMillionUsd ASC;
+
+-- HuggingFace Models — embedding models only, permissively licensed
+SELECT modelId, downloads, license
+FROM read_json_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json')
+WHERE useCaseTier = 'embedding'
+  AND licenseTier = 'permissive'
+ORDER BY downloads DESC;
+
+-- npm Packages — popular, safe, fresh
+SELECT name, weeklyDownloads, lastPublished
+FROM read_json_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json')
+WHERE popularityTier = 'top25pct'
+  AND supplyChainRisk = 'low'
+  AND recencyTier = 'fresh'
+ORDER BY weeklyDownloads DESC;</code></pre>
 
 <h2>Switching to a different dataset</h2>
 <p>Every snippet above uses <code>npm-packages-sample.json</code> / <code>.csv</code>. To load a different one, change the slug in the URL. Available slugs:</p>
