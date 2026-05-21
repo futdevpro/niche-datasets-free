@@ -377,7 +377,10 @@ def build_breadcrumb_jsonld(d):
     }, indent=2)
 
 
-def build_jsonld(d):
+def build_jsonld(d, repo_root=None):
+    refresh_date = (
+        get_refresh_date(d["slug"], repo_root) if repo_root else datetime.date.today().isoformat()
+    )
     return json.dumps({
         "@context": "https://schema.org/",
         "@type": "Dataset",
@@ -386,6 +389,7 @@ def build_jsonld(d):
         "url": f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html",
         "keywords": d["keywords"],
         "license": "https://opensource.org/licenses/MIT",
+        "dateModified": refresh_date,
         "creator": {
             "@type": "Organization",
             "name": "Future Development Program",
@@ -663,7 +667,7 @@ def main():
             slug=d["slug"], gumroad=d["gumroad"], price=d["price"],
             refresh_date=get_refresh_date(d["slug"], repo_root),
             tier_badge=tier_badge,
-            jsonld=build_jsonld(d),
+            jsonld=build_jsonld(d, repo_root),
             breadcrumb_jsonld=build_breadcrumb_jsonld(d),
             use_cases_html=use_cases_html,
             preview_html=preview_html,
