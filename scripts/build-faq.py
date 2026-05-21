@@ -36,6 +36,18 @@ FAQS = [
         "a": "The free 20-record samples are MIT-style permissive — yes, including commercial. The full paid datasets are licensed per the Gumroad terms (also commercially usable, but covered by the purchase). The catalog metadata itself (the structured records about open-source projects) is factual data and clean for commercial repackaging. Per-record licenses, where applicable to the underlying project (e.g. an MIT-licensed npm package), are surfaced as first-class license fields."
     },
     {
+        "q": "What are 'derived enum tiers' and why do you ship them?",
+        "a": "Source data is raw — npm gives a downloads number, HuggingFace gives a pipeline tag, OpenRouter gives a per-token price. Buyer questions are categorical: 'cheap models', 'production-grade providers', 'permissively-licensed packages', 'chat-only models'. We compute the derived enum-tier fields once during the pipeline run and ship them as first-class fields: costTierAbsolute, useCaseTier, uptimeTier, licenseTier, popularityTier, vendorTier, and ~40 more. Filter by them directly instead of writing your own threshold-and-OR-clause query. Full reference: /tiers.html and /blog-semantic-enum-tiers.html for the methodology."
+    },
+    {
+        "q": "Are tiers consistent across datasets?",
+        "a": "Where the buyer-question is the same, yes — same enum name, same enum values. useCaseTier=chat returns matching records consistently across huggingface-models, huggingface-datasets, and ai-models-pricing. licenseTier=permissive does the same across HF models, HF datasets, npm-packages, homebrew-packages, and open-source-alternatives. Cross-dataset filters work without remapping. The /tiers.html page lists which datasets share which tiers."
+    },
+    {
+        "q": "Do you ship percentile-based ranks or absolute thresholds?",
+        "a": "Both, deliberately. popularityTier is percentile-based (top1pct/top5pct/top25pct/rest) because buyers asking 'show me giants' want a relative position. costTierAbsolute and uptimeTier are absolute thresholds (cheap=<$1/M, excellent=>99.9%) because buyers asking 'fits my budget' or 'production-grade' want stability across refreshes. A model that's top-5% today and top-25% next month is the same model — only percentile tiers shift; absolute tiers do not."
+    },
+    {
         "q": "How big is each full dataset?",
         "a": "Homebrew Packages: 12,200+ records. npm Packages: 6,100+. VS Code Extensions: 4,800+. HuggingFace Models: 4,000. MCP Servers: 3,600+. AI Tools: 2,800+. Cybersecurity Tools: 2,700+. HuggingFace Datasets: 2,800+. Public APIs: 2,600+. Self-Hosted Software: 2,300+. Design Resources: 2,100+. AI Agents: 2,000+. AI Prompts: 1,800+. Developer Tools: 1,600+. Open Source Alternatives: 900+. AI Models Pricing: 800+. No-Code/Low-Code: 500+. LLMOps & Eval: 490+. Platform Engineering: 390+. Vector DB & RAG: 190+. Total: ~55,000 records across 20 datasets."
     },
@@ -62,18 +74,6 @@ FAQS = [
     {
         "q": "Where can I report a missing or wrong entry?",
         "a": "File an issue on the GitHub repo at github.com/futdevpro/niche-datasets-free. PRs welcome for the samples; the full datasets are regenerated from sources on the monthly/quarterly refresh, so corrections to the source (e.g. fixing an awesome-list upstream) propagate automatically. For specific source-data complaints (e.g. 'this MCP server is mislabeled'), the relevant source repo / API is the right place to fix it at the root."
-    },
-    {
-        "q": "What are 'derived enum tiers' and why do you ship them?",
-        "a": "Source data is raw — npm gives a downloads number, HuggingFace gives a pipeline tag, OpenRouter gives a per-token price. Buyer questions are categorical: 'cheap models', 'production-grade providers', 'permissively-licensed packages', 'chat-only models'. We compute the derived enum-tier fields once during the pipeline run and ship them as first-class fields: costTierAbsolute, useCaseTier, uptimeTier, licenseTier, popularityTier, vendorTier, and ~40 more. Filter by them directly instead of writing your own threshold-and-OR-clause query. Full reference: /tiers.html and /blog-semantic-enum-tiers.html for the methodology."
-    },
-    {
-        "q": "Are tiers consistent across datasets?",
-        "a": "Where the buyer-question is the same, yes — same enum name, same enum values. useCaseTier=chat returns matching records consistently across huggingface-models, huggingface-datasets, and ai-models-pricing. licenseTier=permissive does the same across HF models, HF datasets, npm-packages, homebrew-packages, and open-source-alternatives. Cross-dataset filters work without remapping. The /tiers.html page lists which datasets share which tiers."
-    },
-    {
-        "q": "Do you ship percentile-based ranks or absolute thresholds?",
-        "a": "Both, deliberately. popularityTier is percentile-based (top1pct/top5pct/top25pct/rest) because buyers asking 'show me giants' want a relative position. costTierAbsolute and uptimeTier are absolute thresholds (cheap=<$1/M, excellent=>99.9%) because buyers asking 'fits my budget' or 'production-grade' want stability across refreshes. A model that's top-5% today and top-25% next month is the same model — only percentile tiers shift; absolute tiers do not."
     },
     {
         "q": "What refresh cadence should I expect per dataset?",
