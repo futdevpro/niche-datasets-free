@@ -124,6 +124,35 @@ HEAD = """<!DOCTYPE html>
 def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
     out: list[str] = [HEAD]
 
+    total_tier_fields = sum(len(v) for v in data.values())
+    shared_count = sum(1 for v in share.values() if len(v) >= 2)
+    no_tier_count = len(ALL_DATASETS) - len(data)
+    out.append("<h2>At a glance</h2>")
+    out.append("<table><thead><tr><th>Stat</th><th>Value</th></tr></thead><tbody>")
+    out.append(
+        f'<tr><td>Datasets with derived enum tiers</td>'
+        f'<td><strong>{len(data)}</strong> of {len(ALL_DATASETS)}</td></tr>'
+    )
+    out.append(
+        f'<tr><td>Total tier-fields across the catalog</td>'
+        f'<td><strong>{total_tier_fields}</strong></td></tr>'
+    )
+    out.append(
+        f'<tr><td>Shared tiers (used in 2+ datasets)</td>'
+        f'<td><strong>{shared_count}</strong></td></tr>'
+    )
+    out.append(
+        f'<tr><td>Datasets without tiers (awesome-list mirrors, mostly)</td>'
+        f'<td><strong>{no_tier_count}</strong></td></tr>'
+    )
+    if data:
+        densest = max(data.items(), key=lambda kv: len(kv[1]))
+        out.append(
+            f'<tr><td>Most tier-dense dataset</td>'
+            f'<td><a href="{densest[0]}.html">{densest[0]}</a> ({len(densest[1])} tiers)</td></tr>'
+        )
+    out.append("</tbody></table>")
+
     out.append("<h2>Shared tiers (same enum across 2+ datasets)</h2>")
     out.append("<p>A query like <code>useCaseTier=code</code> returns matching records consistently across all listed datasets.</p>")
     out.append("<table><thead><tr><th>Tier name</th><th>Datasets that ship it</th><th>x</th></tr></thead><tbody>")
