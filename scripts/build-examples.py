@@ -135,6 +135,30 @@ FROM read_csv_auto('{SAMPLE_URL_CSV}')
 GROUP BY category
 ORDER BY n DESC;""",
     },
+    {
+        "lang": "Semantic enum tier filters (jq)",
+        "id": "tier-filters",
+        "intro": "Filter by derived enum tier fields — same enum names work across datasets where the buyer-question is the same. Full reference at /tiers.html, methodology at /blog-semantic-enum-tiers.html.",
+        "code": """# AI Models Pricing — cheap chat models with production-grade uptime
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json \\
+  | jq '.[] | select(.useCaseTier == "chat" and .costTierAbsolute == "cheap" and .uptimeTier == "excellent")
+        | {name, provider, pricingPromptPerMillionUsd, contextLength}'
+
+# HuggingFace Models — embedding models only, permissively licensed
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json \\
+  | jq '.[] | select(.useCaseTier == "embedding" and .licenseTier == "permissive")
+        | {modelId, downloads, license}'
+
+# npm Packages — popular (top-25%), no supply-chain risk, recently published
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json \\
+  | jq '.[] | select(.popularityTier == "top25pct" and .supplyChainRisk == "low" and .recencyTier == "fresh")
+        | {name, weeklyDownloads, lastPublished}'
+
+# Cybersecurity Tools — OSS only, network-targeting
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.json \\
+  | jq '.[] | select(.vendorTier == "oss" and .targetPlatform == "network")
+        | {name, description}'""",
+    },
 ]
 
 

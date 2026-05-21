@@ -49,7 +49,8 @@
   <li><a href="#r">R · read.csv</a></li>
   <li><a href="#shell-pipe">curl + jq pipe (shell one-liner)</a></li>
   <li><a href="#supply-chain">Pandas-style filter + join (npm + Homebrew supply-chain audit)</a></li>
-  <li><a href="#duckdb">DuckDB · query JSON/CSV remote URL</a></li></ul>
+  <li><a href="#duckdb">DuckDB · query JSON/CSV remote URL</a></li>
+  <li><a href="#tier-filters">Semantic enum tier filters (jq)</a></li></ul>
 </div>
 
 <h2 id="python-pandas">Python · pandas</h2>
@@ -144,6 +145,28 @@ SELECT category, COUNT(*) AS n
 FROM read_csv_auto('https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv')
 GROUP BY category
 ORDER BY n DESC;</code></pre>
+
+<h2 id="tier-filters">Semantic enum tier filters (jq)</h2>
+<p class="intro">Filter by derived enum tier fields — same enum names work across datasets where the buyer-question is the same. Full reference at /tiers.html, methodology at /blog-semantic-enum-tiers.html.</p>
+<pre><code># AI Models Pricing — cheap chat models with production-grade uptime
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json \
+  | jq '.[] | select(.useCaseTier == "chat" and .costTierAbsolute == "cheap" and .uptimeTier == "excellent")
+        | {name, provider, pricingPromptPerMillionUsd, contextLength}'
+
+# HuggingFace Models — embedding models only, permissively licensed
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-models-sample.json \
+  | jq '.[] | select(.useCaseTier == "embedding" and .licenseTier == "permissive")
+        | {modelId, downloads, license}'
+
+# npm Packages — popular (top-25%), no supply-chain risk, recently published
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json \
+  | jq '.[] | select(.popularityTier == "top25pct" and .supplyChainRisk == "low" and .recencyTier == "fresh")
+        | {name, weeklyDownloads, lastPublished}'
+
+# Cybersecurity Tools — OSS only, network-targeting
+curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/cybersecurity-tools-sample.json \
+  | jq '.[] | select(.vendorTier == "oss" and .targetPlatform == "network")
+        | {name, description}'</code></pre>
 
 <h2>Switching to a different dataset</h2>
 <p>Every snippet above uses <code>npm-packages-sample.json</code> / <code>.csv</code>. To load a different one, change the slug in the URL. Available slugs:</p>
