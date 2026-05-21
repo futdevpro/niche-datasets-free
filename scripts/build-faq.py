@@ -87,6 +87,18 @@ FAQS = [
         "q": "How do I auto-generate a typed client for the API?",
         "a": "Use the /openapi.json spec with openapi-generator (any language) or openapi-typescript (TypeScript). The /api.html page has copy-pasteable commands for Python and TypeScript codegen. The spec covers all 3 free endpoints (catalog, per-dataset metadata, RSS feed) with full request/response schemas and the 20-slug enum for the per-dataset path. Idempotent — same spec across releases unless a schemaVersion bump."
     },
+    {
+        "q": "Are there rate limits on the free API?",
+        "a": "No explicit rate limit on /datasets.json, /<slug>-meta.json, or /feed.xml — they are static files served from GitHub Pages CDN. Pages applies its own bandwidth fair-use (~100GB/month per repo) but for a no-key catalog enumeration that's not a real cap. The sample JSON/CSV files served from raw.githubusercontent.com may rate-limit at extreme volume (~10K req/min from one IP) — back off with jitter if you see HTTP 429. For higher-volume access patterns, see the in-planning distribution-model note in /api.html."
+    },
+    {
+        "q": "Can an LLM agent use this catalog directly?",
+        "a": "Yes — by design. The /openapi.json spec is OpenAPI 3.1 (LLM-friendly), the /datasets.json and per-dataset meta endpoints are flat JSON (easy to parse with no client SDK), every record has derived semantic enum tier fields (filterable without numeric thresholds the LLM might hallucinate), and the FAQ + buyer's-guide pages have schema.org markup that AI Overview / Bing Copilot / Perplexity will cite. The /api.html page has an end-to-end Python agent-callable example using openapi-python-client."
+    },
+    {
+        "q": "Is there a refund policy on the paid datasets?",
+        "a": "Yes — 30 days, no questions asked, via your Gumroad library page. If the data does not match what is described (record count, schema, freshness), request the refund within 30 days of purchase. Refund policy is also embedded in every Gumroad product description and on the project's storefront page."
+    },
 ]
 
 

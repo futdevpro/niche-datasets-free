@@ -109,6 +109,18 @@
   <summary>How do I auto-generate a typed client for the API?</summary>
   <p>Use the /openapi.json spec with openapi-generator (any language) or openapi-typescript (TypeScript). The /api.html page has copy-pasteable commands for Python and TypeScript codegen. The spec covers all 3 free endpoints (catalog, per-dataset metadata, RSS feed) with full request/response schemas and the 20-slug enum for the per-dataset path. Idempotent — same spec across releases unless a schemaVersion bump.</p>
 </details>
+<details>
+  <summary>Are there rate limits on the free API?</summary>
+  <p>No explicit rate limit on /datasets.json, /&lt;slug&gt;-meta.json, or /feed.xml — they are static files served from GitHub Pages CDN. Pages applies its own bandwidth fair-use (~100GB/month per repo) but for a no-key catalog enumeration that's not a real cap. The sample JSON/CSV files served from raw.githubusercontent.com may rate-limit at extreme volume (~10K req/min from one IP) — back off with jitter if you see HTTP 429. For higher-volume access patterns, see the in-planning distribution-model note in /api.html.</p>
+</details>
+<details>
+  <summary>Can an LLM agent use this catalog directly?</summary>
+  <p>Yes — by design. The /openapi.json spec is OpenAPI 3.1 (LLM-friendly), the /datasets.json and per-dataset meta endpoints are flat JSON (easy to parse with no client SDK), every record has derived semantic enum tier fields (filterable without numeric thresholds the LLM might hallucinate), and the FAQ + buyer's-guide pages have schema.org markup that AI Overview / Bing Copilot / Perplexity will cite. The /api.html page has an end-to-end Python agent-callable example using openapi-python-client.</p>
+</details>
+<details>
+  <summary>Is there a refund policy on the paid datasets?</summary>
+  <p>Yes — 30 days, no questions asked, via your Gumroad library page. If the data does not match what is described (record count, schema, freshness), request the refund within 30 days of purchase. Refund policy is also embedded in every Gumroad product description and on the project's storefront page.</p>
+</details>
 
 <footer>
 Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>. Built by <a href="https://github.com/jhonny-ronnie">Ronnie J</a> at <a href="https://github.com/futdevpro">Future Development Program</a>. Free samples are MIT-style permissive for evaluation; full datasets per <a href="https://jhonnyronnie.gumroad.com">Gumroad terms</a>.
@@ -261,6 +273,30 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the /openapi.json spec with openapi-generator (any language) or openapi-typescript (TypeScript). The /api.html page has copy-pasteable commands for Python and TypeScript codegen. The spec covers all 3 free endpoints (catalog, per-dataset metadata, RSS feed) with full request/response schemas and the 20-slug enum for the per-dataset path. Idempotent \u2014 same spec across releases unless a schemaVersion bump."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there rate limits on the free API?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No explicit rate limit on /datasets.json, /<slug>-meta.json, or /feed.xml \u2014 they are static files served from GitHub Pages CDN. Pages applies its own bandwidth fair-use (~100GB/month per repo) but for a no-key catalog enumeration that's not a real cap. The sample JSON/CSV files served from raw.githubusercontent.com may rate-limit at extreme volume (~10K req/min from one IP) \u2014 back off with jitter if you see HTTP 429. For higher-volume access patterns, see the in-planning distribution-model note in /api.html."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an LLM agent use this catalog directly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes \u2014 by design. The /openapi.json spec is OpenAPI 3.1 (LLM-friendly), the /datasets.json and per-dataset meta endpoints are flat JSON (easy to parse with no client SDK), every record has derived semantic enum tier fields (filterable without numeric thresholds the LLM might hallucinate), and the FAQ + buyer's-guide pages have schema.org markup that AI Overview / Bing Copilot / Perplexity will cite. The /api.html page has an end-to-end Python agent-callable example using openapi-python-client."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a refund policy on the paid datasets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes \u2014 30 days, no questions asked, via your Gumroad library page. If the data does not match what is described (record count, schema, freshness), request the refund within 30 days of purchase. Refund policy is also embedded in every Gumroad product description and on the project's storefront page."
       }
     }
   ]
