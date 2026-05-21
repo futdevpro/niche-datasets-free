@@ -161,12 +161,13 @@ python3 scripts/build-faq.py           # FAQ Q&A
 python3 scripts/build-examples.py      # code snippets
 python3 scripts/build-vs.py            # vs. alternatives
 python3 scripts/build-changelog.py     # last 60 refresh events
+python3 scripts/build-tiers.py         # all enum tiers cross-reference
 
 # 4. Notify search engines (Bing, Yandex, Seznam, Naver via IndexNow)
 python3 scripts/indexnow-submit.py
 ```
 
-All scripts are idempotent; safe to re-run. The build-changelog.py and build-detail-pages.py scripts both read from `../niche-datasets/datasets/<slug>/` in the sibling factory repo.
+All scripts are idempotent; safe to re-run. The build-changelog.py, build-detail-pages.py, and build-tiers.py scripts all read from `../niche-datasets/datasets/<slug>/` in the sibling factory repo (CHANGELOG.md, samples/, and config.json respectively).
 
 ---
 
