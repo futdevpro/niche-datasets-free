@@ -479,6 +479,45 @@ def build_index_jsonld(repo_root=None):
     }, indent=2)
 
 
+def build_index_table_html():
+    """Generate the homepage <tbody> rows from the DATASETS list.
+
+    Single source of truth for record-count floors: when DATASETS bumps,
+    rebuild auto-syncs the table. Eliminates dual-maintenance between
+    DATASETS records and the hand-typed table cells.
+    """
+    rows = []
+    for d in DATASETS:
+        # mirror the existing HTML structure exactly
+        name = d["name"].replace("&", "&amp;")
+        slug = d["slug"]
+        rows.append(
+            f'<tr><td>{name}</td><td>{d["records"]}</td>'
+            f'<td><a href="{slug}-sample.json">JSON</a> · '
+            f'<a href="{slug}-sample.csv">CSV</a></td></tr>'
+        )
+    return "\n".join(rows)
+
+
+def update_index_table(repo_root):
+    """Replace the index.html dataset <tbody> with regenerated rows.
+
+    Operates on the table that lives between <tbody> and </tbody>.
+    """
+    import re
+    path = os.path.join(repo_root, "index.html")
+    with open(path, "r", encoding="utf-8") as f:
+        html = f.read()
+    new_body = build_index_table_html()
+    # Match the FIRST <tbody>...</tbody> block (the dataset table).
+    pattern = re.compile(r'(<tbody>)(.*?)(</tbody>)', flags=re.DOTALL)
+    if not pattern.search(html):
+        raise RuntimeError("index.html <tbody> block not found — refusing to write")
+    updated = pattern.sub(lambda m: f'{m.group(1)}\n{new_body}\n{m.group(3)}', html, count=1)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(updated)
+
+
 def update_index_jsonld(repo_root):
     """Replace the existing <script type="application/ld+json">...</script> block in index.html
     with regenerated content where each Dataset.url points to its detail page."""
@@ -699,6 +738,7 @@ def main():
     feed_path = os.path.join(repo_root, "feed.xml")
     with open(feed_path, "w", encoding="utf-8") as f:
         f.write(build_feed_xml(repo_root))
+    update_index_table(repo_root)
     update_index_jsonld(repo_root)
     print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+13} URLs: root + faq + examples + vs + quickstart + feed + blog + buyers-guide + api + openapi + blog-enum-tiers + tiers + changelog + 20 detail) + datasets.json catalog + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
