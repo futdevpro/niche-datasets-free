@@ -75,6 +75,18 @@ FAQS = [
         "q": "Do you ship percentile-based ranks or absolute thresholds?",
         "a": "Both, deliberately. popularityTier is percentile-based (top1pct/top5pct/top25pct/rest) because buyers asking 'show me giants' want a relative position. costTierAbsolute and uptimeTier are absolute thresholds (cheap=<$1/M, excellent=>99.9%) because buyers asking 'fits my budget' or 'production-grade' want stability across refreshes. A model that's top-5% today and top-25% next month is the same model — only percentile tiers shift; absolute tiers do not."
     },
+    {
+        "q": "What refresh cadence should I expect per dataset?",
+        "a": "Per-source — not uniform. API-backed datasets that change daily (npm registry, HuggingFace Hub) need at least weekly refresh. The OpenRouter pricing matrix shifts with provider price changes (medium cadence). Awesome-list-mirror datasets (mcp-servers, ai-agents, cybersecurity-tools, design-resources, vector-db-and-rag, llmops-and-eval) only move when humans PR new entries — monthly or quarterly is enough. The 13-day refresh report (linked from the homepage) documents actual per-source churn so you can pick the right cadence for your use case."
+    },
+    {
+        "q": "Can I subscribe to refresh notifications?",
+        "a": "Yes. Each dataset publishes an RSS feed entry every time it refreshes — subscribe to /feed.xml in your reader (Feedly, NetNewsWire, miniflux, etc.) and you'll see new entries when any dataset re-pulls. The entry includes the dataset slug + the lastRefreshed date so you can decide whether to re-download. Programmatic alternative: poll /datasets.json daily and compare each dataset's lastRefreshed timestamp."
+    },
+    {
+        "q": "How do I auto-generate a typed client for the API?",
+        "a": "Use the /openapi.json spec with openapi-generator (any language) or openapi-typescript (TypeScript). The /api.html page has copy-pasteable commands for Python and TypeScript codegen. The spec covers all 3 free endpoints (catalog, per-dataset metadata, RSS feed) with full request/response schemas and the 20-slug enum for the per-dataset path. Idempotent — same spec across releases unless a schemaVersion bump."
+    },
 ]
 
 

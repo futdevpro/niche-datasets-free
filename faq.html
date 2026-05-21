@@ -97,6 +97,18 @@
   <summary>Do you ship percentile-based ranks or absolute thresholds?</summary>
   <p>Both, deliberately. popularityTier is percentile-based (top1pct/top5pct/top25pct/rest) because buyers asking 'show me giants' want a relative position. costTierAbsolute and uptimeTier are absolute thresholds (cheap=&lt;$1/M, excellent=&gt;99.9%) because buyers asking 'fits my budget' or 'production-grade' want stability across refreshes. A model that's top-5% today and top-25% next month is the same model — only percentile tiers shift; absolute tiers do not.</p>
 </details>
+<details>
+  <summary>What refresh cadence should I expect per dataset?</summary>
+  <p>Per-source — not uniform. API-backed datasets that change daily (npm registry, HuggingFace Hub) need at least weekly refresh. The OpenRouter pricing matrix shifts with provider price changes (medium cadence). Awesome-list-mirror datasets (mcp-servers, ai-agents, cybersecurity-tools, design-resources, vector-db-and-rag, llmops-and-eval) only move when humans PR new entries — monthly or quarterly is enough. The 13-day refresh report (linked from the homepage) documents actual per-source churn so you can pick the right cadence for your use case.</p>
+</details>
+<details>
+  <summary>Can I subscribe to refresh notifications?</summary>
+  <p>Yes. Each dataset publishes an RSS feed entry every time it refreshes — subscribe to /feed.xml in your reader (Feedly, NetNewsWire, miniflux, etc.) and you'll see new entries when any dataset re-pulls. The entry includes the dataset slug + the lastRefreshed date so you can decide whether to re-download. Programmatic alternative: poll /datasets.json daily and compare each dataset's lastRefreshed timestamp.</p>
+</details>
+<details>
+  <summary>How do I auto-generate a typed client for the API?</summary>
+  <p>Use the /openapi.json spec with openapi-generator (any language) or openapi-typescript (TypeScript). The /api.html page has copy-pasteable commands for Python and TypeScript codegen. The spec covers all 3 free endpoints (catalog, per-dataset metadata, RSS feed) with full request/response schemas and the 20-slug enum for the per-dataset path. Idempotent — same spec across releases unless a schemaVersion bump.</p>
+</details>
 
 <footer>
 Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>. Built by <a href="https://github.com/jhonny-ronnie">Ronnie J</a> at <a href="https://github.com/futdevpro">Future Development Program</a>. Free samples are MIT-style permissive for evaluation; full datasets per <a href="https://jhonnyronnie.gumroad.com">Gumroad terms</a>.
@@ -225,6 +237,30 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both, deliberately. popularityTier is percentile-based (top1pct/top5pct/top25pct/rest) because buyers asking 'show me giants' want a relative position. costTierAbsolute and uptimeTier are absolute thresholds (cheap=<$1/M, excellent=>99.9%) because buyers asking 'fits my budget' or 'production-grade' want stability across refreshes. A model that's top-5% today and top-25% next month is the same model \u2014 only percentile tiers shift; absolute tiers do not."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What refresh cadence should I expect per dataset?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Per-source \u2014 not uniform. API-backed datasets that change daily (npm registry, HuggingFace Hub) need at least weekly refresh. The OpenRouter pricing matrix shifts with provider price changes (medium cadence). Awesome-list-mirror datasets (mcp-servers, ai-agents, cybersecurity-tools, design-resources, vector-db-and-rag, llmops-and-eval) only move when humans PR new entries \u2014 monthly or quarterly is enough. The 13-day refresh report (linked from the homepage) documents actual per-source churn so you can pick the right cadence for your use case."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I subscribe to refresh notifications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Each dataset publishes an RSS feed entry every time it refreshes \u2014 subscribe to /feed.xml in your reader (Feedly, NetNewsWire, miniflux, etc.) and you'll see new entries when any dataset re-pulls. The entry includes the dataset slug + the lastRefreshed date so you can decide whether to re-download. Programmatic alternative: poll /datasets.json daily and compare each dataset's lastRefreshed timestamp."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I auto-generate a typed client for the API?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the /openapi.json spec with openapi-generator (any language) or openapi-typescript (TypeScript). The /api.html page has copy-pasteable commands for Python and TypeScript codegen. The spec covers all 3 free endpoints (catalog, per-dataset metadata, RSS feed) with full request/response schemas and the 20-slug enum for the per-dataset path. Idempotent \u2014 same spec across releases unless a schemaVersion bump."
       }
     }
   ]
