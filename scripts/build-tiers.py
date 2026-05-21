@@ -11,6 +11,7 @@ Run from repo root:  python3 scripts/build-tiers.py
 
 from __future__ import annotations
 
+import datetime
 import json
 import os
 from collections import defaultdict
@@ -105,7 +106,7 @@ HEAD = """<!DOCTYPE html>
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"TechArticle","headline":"All Semantic Enum Tiers — Cross-Dataset Filter Reference","datePublished":"2026-05-21","dateModified":"2026-05-21","author":{"@type":"Organization","name":"Niche Datasets"},"publisher":{"@type":"Organization","name":"Niche Datasets","url":"https://futdevpro.github.io/niche-datasets-free/"},"mainEntityOfPage":"https://futdevpro.github.io/niche-datasets-free/tiers.html","image":"https://futdevpro.github.io/niche-datasets-free/og-cover.svg","description":"Complete enum-tier reference across 20 niche datasets."}
+{"@context":"https://schema.org","@type":"TechArticle","headline":"All Semantic Enum Tiers — Cross-Dataset Filter Reference","datePublished":"2026-05-21","dateModified":"__TODAY__","author":{"@type":"Organization","name":"Niche Datasets"},"publisher":{"@type":"Organization","name":"Niche Datasets","url":"https://futdevpro.github.io/niche-datasets-free/"},"mainEntityOfPage":"https://futdevpro.github.io/niche-datasets-free/tiers.html","image":"https://futdevpro.github.io/niche-datasets-free/og-cover.svg","description":"Complete enum-tier reference across 20 niche datasets."}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},{"@type":"ListItem","position":2,"name":"All Tiers","item":"https://futdevpro.github.io/niche-datasets-free/tiers.html"}]}
@@ -122,7 +123,8 @@ HEAD = """<!DOCTYPE html>
 
 
 def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
-    out: list[str] = [HEAD]
+    today_iso = datetime.date.today().isoformat()
+    out: list[str] = [HEAD.replace("__TODAY__", today_iso)]
 
     total_tier_fields = sum(len(v) for v in data.values())
     shared_count = sum(1 for v in share.values() if len(v) >= 2)

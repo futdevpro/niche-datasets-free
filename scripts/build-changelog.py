@@ -11,6 +11,7 @@ Run from repo root:  python3 scripts/build-changelog.py
 
 from __future__ import annotations
 
+import datetime
 import json
 import os
 import re
@@ -91,7 +92,7 @@ HEAD = """<!DOCTYPE html>
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"TechArticle","headline":"Changelog — Recent Refreshes Across 20 Niche Datasets","datePublished":"2026-05-21","dateModified":"2026-05-21","author":{"@type":"Organization","name":"Niche Datasets"},"publisher":{"@type":"Organization","name":"Niche Datasets","url":"https://futdevpro.github.io/niche-datasets-free/"},"mainEntityOfPage":"https://futdevpro.github.io/niche-datasets-free/changelog.html","image":"https://futdevpro.github.io/niche-datasets-free/og-cover.svg","description":"Last 60 dataset-refresh events across the catalog."}
+{"@context":"https://schema.org","@type":"TechArticle","headline":"Changelog — Recent Refreshes Across 20 Niche Datasets","datePublished":"2026-05-21","dateModified":"__TODAY__","author":{"@type":"Organization","name":"Niche Datasets"},"publisher":{"@type":"Organization","name":"Niche Datasets","url":"https://futdevpro.github.io/niche-datasets-free/"},"mainEntityOfPage":"https://futdevpro.github.io/niche-datasets-free/changelog.html","image":"https://futdevpro.github.io/niche-datasets-free/og-cover.svg","description":"Last 60 dataset-refresh events across the catalog."}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},{"@type":"ListItem","position":2,"name":"Changelog","item":"https://futdevpro.github.io/niche-datasets-free/changelog.html"}]}
@@ -109,7 +110,11 @@ HEAD = """<!DOCTYPE html>
 
 
 def render(events: list[dict]) -> str:
-    out: list[str] = [HEAD.replace("__LIMIT__", str(len(events)))]
+    today_iso = datetime.date.today().isoformat()
+    out: list[str] = [
+        HEAD.replace("__LIMIT__", str(len(events)))
+            .replace("__TODAY__", today_iso)
+    ]
     by_date: dict[str, list[dict]] = {}
     for e in events:
         by_date.setdefault(e["date"], []).append(e)
