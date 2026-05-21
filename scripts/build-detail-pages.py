@@ -173,7 +173,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="quickstart.html">5-min quickstart</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a> &nbsp;·&nbsp; <a href="vs.html">vs. alternatives</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
 
 <h1>{name}</h1>
-<p class="meta">{records} records · Free sample (20 records, JSON + CSV) · Full dataset ${price} · <span class="badge">Sample refreshed {refresh_date}</span></p>
+<p class="meta">{records} records · Free sample (20 records, JSON + CSV) · Full dataset ${price} · <span class="badge">Sample refreshed {refresh_date}</span>{tier_badge}</p>
 <p class="lead">{desc}</p>
 
 <h2>What you'd use this for</h2>
@@ -214,6 +214,35 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
 </body>
 </html>
 """
+
+
+_SKIP_TIER_ENUMS = {
+    "category", "pricing", "urlDomainTier", "categorizationTier",
+    "descriptionLengthTier",
+}
+
+
+def count_tier_enums(slug, repo_root):
+    """Count derived enum-tier fields in sibling repo's datasets/<slug>/config.json.
+
+    Skips core auto-fields that exist on every dataset. Returns 0 if config not
+    reachable or has no enum fields.
+    """
+    sibling_path = os.path.normpath(
+        os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "config.json")
+    )
+    if not os.path.isfile(sibling_path):
+        return 0
+    try:
+        with open(sibling_path, "r", encoding="utf-8") as f:
+            cfg = __import__("json").load(f)
+    except Exception:
+        return 0
+    n = 0
+    for fld in cfg.get("schema", {}).get("fields", []):
+        if fld.get("type") == "enum" and fld.get("name") not in _SKIP_TIER_ENUMS:
+            n += 1
+    return n
 
 
 def load_use_cases(slug, repo_root):
@@ -566,10 +595,16 @@ def main():
             preview_hits += 1
         else:
             preview_html = "<p class='meta'>Preview unavailable — see the sample files below.</p>"
+        tier_n = count_tier_enums(d["slug"], repo_root)
+        tier_badge = (
+            f' · <a href="tiers.html" class="badge" style="background:#e6f4ff;color:#0969da;text-decoration:none">{tier_n} derived enum tiers</a>'
+            if tier_n > 0 else ""
+        )
         html = DETAIL_TEMPLATE.format(
             name=d["name"], desc=d["desc"], records=d["records"],
             slug=d["slug"], gumroad=d["gumroad"], price=d["price"],
             refresh_date=get_refresh_date(d["slug"], repo_root),
+            tier_badge=tier_badge,
             jsonld=build_jsonld(d),
             breadcrumb_jsonld=build_breadcrumb_jsonld(d),
             use_cases_html=use_cases_html,
