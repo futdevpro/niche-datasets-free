@@ -6,18 +6,31 @@ Preview records from each curated developer dataset. Every sample contains **20 
 
 > 🌐 **Browse on the web:** [futdevpro.github.io/niche-datasets-free](https://futdevpro.github.io/niche-datasets-free/) — same content with schema.org JSON-LD for [Google Dataset Search](https://datasetsearch.research.google.com/).
 
-## What just landed (refresh as of 2026-05-13)
+## What just landed (refresh 2026-05-20)
 
-Concrete numbers from the latest pass — these are the kind of signals that go stale fast and are exactly what monthly refresh catches:
+Every dataset got a fresh pull on 2026-05-20 after a 13-day gap. **55,326 records total, 0 validation errors.** Per-source churn varies by 3 orders of magnitude:
 
-- **npm by weekly downloads** — `commander` 369M / `react-is` 280M / `react` 120M / `react-dom` 113M / `@types/react` 108M. The React ecosystem now dominates the top of npm; `ansi-styles` (was #1 weeks ago) got knocked off the top in the last refresh window.
-- **HuggingFace models by all-time downloads** — `sentence-transformers/all-MiniLM-L6-v2` 247M / `Qwen/Qwen3-VL-2B-Instruct` 187M / `google-bert/bert-base-uncased` 61M.
-- **AI Models Pricing** — 13 paid providers offering Llama 3.3 70B Instruct via API, with per-token pricing tracked per (provider × quantization × context-length). Useful for cost-comparison if you're routing across providers.
-- **Vector-DB / RAG ecosystem velocity** — Chroma went from 16K → 28K GitHub stars over the last 6 months (+75%). Vector-DB-engines went from 27% → 52% share of the RAG niche over the same window.
-- **AI agent frameworks: 6.6× growth in 8 days** — the catalog literally captures the ecosystem shifting. Frameworks count went from 200 records (25% of the dataset) → 1,324 records (65%).
-- **Median LLM context window: 128K → 200K** across 812 endpoints in the last 6 months. Provider race-to-context-length is real and quantifiable.
+- **npm-packages: 122% gross churn** (+3,760 / -3,775 out of 6,171) — top-by-downloads ranking rolls over more than half its members in 2 weeks. Daily-to-weekly refresh required.
+- **huggingface-datasets: 43% churn** (+682 / -539) — very active publishing.
+- **huggingface-models: 17% churn** on the 4,000-cap top-by-downloads list.
+- **ai-models-pricing: 11%** — OpenRouter price changes + new model launches.
+- **mcp-servers: 0.8%**, **homebrew-packages: 0.6%**, **vscode-extensions: 0.4%** — mature ecosystems.
+- **llmops-and-eval / vector-db-and-rag / design-resources: literal 0** — awesome-list mirrors with no recent edits.
 
-These are baked into the actual records — the mega-sample below has 5 random records per dataset so you can see the schema and these signals first-hand.
+Full per-dataset table: [13-day refresh report](https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html).
+
+## What makes this different — semantic enum tier fields
+
+Every record carries derived enum-tier fields the source data doesn't have: `costTierAbsolute`, `useCaseTier`, `uptimeTier`, `licenseTier`, `popularityTier`, `vendorTier`, +40 more. Filter by enum names that survive refreshes (absolute thresholds tied to real-world concepts: SLA classes for uptime, `$`/M ranges for cost) and stay consistent across datasets (same enum name across HF models + HF datasets + ai-models-pricing).
+
+Reference + methodology:
+- 📋 [All tiers reference](https://futdevpro.github.io/niche-datasets-free/tiers.html) — 10 shared + 40+ dataset-specific.
+- 🧪 [Methodology blog](https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html) — why absolute beats percentile, how cross-dataset symmetry works.
+- 💻 [jq filter examples](https://futdevpro.github.io/niche-datasets-free/examples.html#tier-filters) — paste-and-run code.
+- 🤝 [Buyer's guide](https://futdevpro.github.io/niche-datasets-free/buyers-guide.html) — 8 use cases mapped to specific datasets.
+- 🔌 [OpenAPI 3.1 spec](https://futdevpro.github.io/niche-datasets-free/openapi.json) for the 3 free endpoints (catalog / per-dataset meta / RSS).
+
+These are baked into the actual records — the mega-sample below has 5 random records per dataset so you can see the schema and tier-fields first-hand.
 
 ## Datasets
 
