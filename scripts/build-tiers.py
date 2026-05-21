@@ -153,6 +153,29 @@ def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
         )
     out.append("</tbody></table>")
 
+    out.append("<h2>Recently added (2026-05-21)</h2>")
+    out.append('<ul class="enum-list">')
+    out.append(
+        '<li><code>vendorTier</code> on <a href="cybersecurity-tools.html">cybersecurity-tools</a> '
+        '— buyer-aligned <code>oss</code> / <code>commercial</code> / <code>dual</code> / <code>freeware</code> / <code>unknown</code> '
+        'derived from <code>isOpenSource × pricing</code> + text-pattern detection (open-core, '
+        'community+enterprise, AGPL+commercial).</li>'
+    )
+    out.append(
+        '<li><code>licenseTier</code> on <a href="open-source-alternatives.html">open-source-alternatives</a> '
+        '— now matches the same enum across <a href="huggingface-models.html">HF models</a>, '
+        '<a href="huggingface-datasets.html">HF datasets</a>, <a href="npm-packages.html">npm</a>, '
+        'and <a href="homebrew-packages.html">Homebrew</a> (5 datasets total share this enum).</li>'
+    )
+    out.append(
+        '<li><code>useCaseTier</code> on <a href="ai-models-pricing.html">ai-models-pricing</a> '
+        '(2026-05-20) — completes the cross-symmetric trio with <a href="huggingface-models.html">HF '
+        'models</a> and <a href="huggingface-datasets.html">HF datasets</a>. <code>useCaseTier=code</code> '
+        'now filters all three consistently.</li>'
+    )
+    out.append("</ul>")
+    out.append("<p>See <a href=\"blog-semantic-enum-tiers.html\">tier methodology</a> for the design rules.</p>")
+
     out.append("<h2>Shared tiers (same enum across 2+ datasets)</h2>")
     out.append("<p>A query like <code>useCaseTier=code</code> returns matching records consistently across all listed datasets.</p>")
     out.append("<table><thead><tr><th>Tier name</th><th>Datasets that ship it</th><th>x</th></tr></thead><tbody>")
