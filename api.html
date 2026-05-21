@@ -126,6 +126,35 @@ npx openapi-typescript \
 
 <p>Every JSON response includes a <code>schemaVersion</code> field. Breaking changes will bump it; additive changes will not. Clients should ignore unknown fields (forward-compat).</p>
 
+<h2>Agent-callable example — Python with openapi-python-client</h2>
+
+<p>End-to-end: install the generator, point it at <code>/openapi.json</code>, get a typed client, enumerate the catalog from agent code.</p>
+
+<pre><code># 1. Generate the client
+pip install openapi-python-client
+openapi-python-client generate \
+  --url https://futdevpro.github.io/niche-datasets-free/openapi.json
+cd niche-datasets-free-api-client
+pip install -e .
+
+# 2. Use it from agent / LLM-app code
+from niche_datasets_free_api_client import Client
+from niche_datasets_free_api_client.api.catalog import get_catalog
+from niche_datasets_free_api_client.api.dataset import get_dataset_meta
+
+client = Client(base_url="https://futdevpro.github.io/niche-datasets-free")
+
+# enumerate all 20 datasets
+catalog = get_catalog.sync(client=client)
+print(f"{len(catalog.datasets)} datasets, last refreshed {catalog.last_refreshed}")
+
+# fetch one dataset's metadata
+meta = get_dataset_meta.sync(client=client, slug="ai-models-pricing")
+print(f"{meta.name}: {meta.record_count} records, ${meta.full_dataset_price_usd}")
+print(f"Free sample: {meta.sample_json_url}")</code></pre>
+
+<p>For a TypeScript agent runtime, swap the codegen for <code>openapi-typescript</code> (see <a href="#auto-generate-a-client">Auto-generate a client</a> above) and use the same flow with the typed <code>fetch</code> wrapper it produces.</p>
+
 <h2>For agents specifically</h2>
 
 <p>This is a <strong>free</strong> tier — designed for inspection, prototyping, and low-volume agent enumeration. If you need higher-volume access, per-call billing, or full-dataset live endpoints (not just samples), the project is currently in distribution-model planning. Watch the <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> for updates, or open an issue describing your use case.</p>
