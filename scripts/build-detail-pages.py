@@ -437,10 +437,14 @@ def build_sitemap():
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
 
 
-def build_index_jsonld():
+def build_index_jsonld(repo_root=None):
     """DataCatalog wrapper with 20 Dataset entries, each pointing to its own detail page."""
+    today_iso = datetime.date.today().isoformat()
     datasets = []
     for d in DATASETS:
+        refresh = (
+            get_refresh_date(d["slug"], repo_root) if repo_root else today_iso
+        )
         datasets.append({
             "@type": "Dataset",
             "name": d["name"],
@@ -448,6 +452,7 @@ def build_index_jsonld():
             "url": f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html",
             "keywords": d["keywords"],
             "license": "https://opensource.org/licenses/MIT",
+            "dateModified": refresh,
             "creator": {"@type": "Organization", "name": "Future Development Program"},
             "distribution": [
                 {"@type": "DataDownload", "encodingFormat": "application/json",
@@ -463,6 +468,7 @@ def build_index_jsonld():
         "description": "Free 20-record samples of 20 curated developer and AI datasets: npm packages, MCP servers, HuggingFace models and datasets, Homebrew formulae, VS Code extensions, AI tools, AI agents, AI prompts, AI models pricing, public APIs, developer tools, self-hosted software, open-source alternatives, vector-DB / RAG infrastructure, LLMOps tooling, platform engineering, cybersecurity tools, design resources, no-code/low-code tools.",
         "url": "https://futdevpro.github.io/niche-datasets-free/",
         "keywords": ["datasets", "developer tools", "npm packages", "mcp servers", "huggingface", "homebrew", "vscode extensions", "ai tools", "public apis", "vector database", "structured data"],
+        "dateModified": today_iso,
         "creator": {
             "@type": "Organization",
             "name": "Future Development Program",
@@ -479,7 +485,7 @@ def update_index_jsonld(repo_root):
     path = os.path.join(repo_root, "index.html")
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
-    new_block = '<script type="application/ld+json">\n' + build_index_jsonld() + '\n</script>'
+    new_block = '<script type="application/ld+json">\n' + build_index_jsonld(repo_root) + '\n</script>'
     pattern = re.compile(r'<script type="application/ld\+json">.*?</script>', flags=re.DOTALL)
     if not pattern.search(html):
         raise RuntimeError("index.html JSON-LD block not found — refusing to write")
