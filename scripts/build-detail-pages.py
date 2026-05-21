@@ -228,21 +228,31 @@ def count_tier_enums(slug, repo_root):
     Skips core auto-fields that exist on every dataset. Returns 0 if config not
     reachable or has no enum fields.
     """
+    return len(list_tier_enums(slug, repo_root))
+
+
+def list_tier_enums(slug, repo_root):
+    """Return the list of derived enum-tier field names for a dataset.
+
+    Sibling repo lookup, core auto-fields skipped. Empty list if config
+    unreachable or has no enum fields.
+    """
     sibling_path = os.path.normpath(
         os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "config.json")
     )
     if not os.path.isfile(sibling_path):
-        return 0
+        return []
     try:
         with open(sibling_path, "r", encoding="utf-8") as f:
             cfg = __import__("json").load(f)
     except Exception:
-        return 0
-    n = 0
+        return []
+    out = []
     for fld in cfg.get("schema", {}).get("fields", []):
-        if fld.get("type") == "enum" and fld.get("name") not in _SKIP_TIER_ENUMS:
-            n += 1
-    return n
+        name = fld.get("name", "")
+        if fld.get("type") == "enum" and name not in _SKIP_TIER_ENUMS:
+            out.append(name)
+    return out
 
 
 def load_use_cases(slug, repo_root):
@@ -596,11 +606,20 @@ def main():
             preview_hits += 1
         else:
             preview_html = "<p class='meta'>Preview unavailable — see the sample files below.</p>"
-        tier_n = count_tier_enums(d["slug"], repo_root)
-        tier_badge = (
-            f' · <a href="tiers.html" class="badge" style="background:#e6f4ff;color:#0969da;text-decoration:none">{tier_n} derived enum tiers</a>'
-            if tier_n > 0 else ""
-        )
+        tier_list = list_tier_enums(d["slug"], repo_root)
+        tier_n = len(tier_list)
+        if tier_n > 0:
+            tier_names = ", ".join(f"<code>{t}</code>" for t in tier_list)
+            tier_badge = (
+                f' · <a href="tiers.html" class="badge" style="background:#e6f4ff;color:#0969da;text-decoration:none" '
+                f'title="Tier-enums on this dataset: {", ".join(tier_list)}">{tier_n} derived enum tiers</a>'
+            )
+            tier_badge += (
+                f'<br><span style="font-size:.85em;color:#555;display:inline-block;margin-top:.2rem">'
+                f'Filter by: {tier_names}</span>'
+            )
+        else:
+            tier_badge = ""
         html = DETAIL_TEMPLATE.format(
             name=d["name"], desc=d["desc"], records=d["records"],
             slug=d["slug"], gumroad=d["gumroad"], price=d["price"],
