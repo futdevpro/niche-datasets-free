@@ -129,13 +129,15 @@
 <strong>Takeaway for buyers:</strong> the value-per-refresh of these datasets is not uniform. It is heavily skewed toward the API-backed feeds (npm, HF, OpenRouter) and away from the human-curated awesome-list mirrors. We size pricing by record-count, not by churn — which means the high-churn datasets are objectively the better deal per refresh.
 </div>
 
-<h2>Try the data</h2>
+<h2>Try the data — runnable filters</h2>
 
-<p>Every dataset above links to its detail page, which has a 5-record HTML preview + a downloadable 20-record JSON + CSV sample. No signup, no email, no API key.</p>
+<p>Every record in every dataset above carries derived <a href="tiers.html">semantic enum tier fields</a> (<code>useCaseTier</code>, <code>costTierAbsolute</code>, <code>uptimeTier</code>, <code>licenseTier</code>, <code>popularityTier</code>, +40 more) — designed so a buyer's query reads like the buyer's mental model. <a href="examples.html#tier-filters">Copy-pasteable filter snippets in 4 languages</a> (jq · pandas · Node.js fetch · DuckDB SQL) demonstrate the same buyer-question across multiple datasets. Methodology: <a href="blog-semantic-enum-tiers.html">semantic enum tiers post</a>.</p>
+
+<p>Every dataset also links to its detail page with a 5-record HTML preview + downloadable 20-record JSON + CSV sample. No signup, no email, no API key.</p>
 
 <p>Want the full version? Each detail page links to the Gumroad product (single-dataset SKUs $9–11, themed bundles $24–29). The full data ZIP includes the same data the table above describes, plus the field-level Zod schema and a README.</p>
 
-<p><a href="./">← Browse all 20 datasets</a></p>
+<p><a href="./">← Browse all 20 datasets</a> &nbsp;·&nbsp; <a href="buyers-guide.html">Buyer's guide</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a></p>
 
 <footer>
 Niche Datasets · <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> · <a href="https://jhonnyronnie.gumroad.com/">Gumroad storefront</a><br>
