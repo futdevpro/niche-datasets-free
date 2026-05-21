@@ -590,8 +590,46 @@ def build_catalog_json():
     }, indent=2)
 
 
+def audit_record_floors(repo_root):
+    """Warn when a DATASETS records floor like '6,000+' has fallen below the
+    actual record count from the live data file. Advisory only — doesn't
+    rewrite the list, since the per-dataset desc strings also reference the
+    number and a blind rewrite would create inconsistencies.
+
+    Threshold: warn if actual >= floor + 100 (or +1000 for 10k+ datasets).
+    """
+    import re
+    stale = []
+    for d in DATASETS:
+        slug = d["slug"]
+        floor_str = d["records"].rstrip("+").replace(",", "")
+        try:
+            floor = int(floor_str)
+        except ValueError:
+            continue
+        data_path = os.path.normpath(
+            os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "data", f"{slug}.json")
+        )
+        if not os.path.isfile(data_path):
+            continue
+        try:
+            with open(data_path, "r", encoding="utf-8") as f:
+                actual = len(__import__("json").load(f))
+        except Exception:
+            continue
+        bump = 1000 if floor >= 10000 else 100
+        new_floor = (actual // bump) * bump
+        if new_floor >= floor + bump:
+            stale.append((slug, d["records"], actual, new_floor))
+    if stale:
+        print("[audit] WARNING: stale record-count floors:")
+        for slug, current, actual, new_floor in stale:
+            print(f"  {slug}: current={current} actual={actual} suggested={new_floor:,}+")
+
+
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    audit_record_floors(repo_root)
     count = 0
     use_case_hits = 0
     preview_hits = 0
