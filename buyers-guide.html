@@ -156,6 +156,21 @@
 </tbody>
 </table>
 
+<h2>Pro-tip — filter by semantic enum tier instead of writing thresholds</h2>
+
+<p>Every record carries derived enum-tier fields (<a href="tiers.html">full reference</a>) so a query reads like the buyer's mental model. Example for use case 1 (LLM pricing comparison):</p>
+
+<pre><code># cheap chat models with production-grade uptime, large context
+jq '.[] | select(.useCaseTier == "chat"
+              and .costTierAbsolute == "cheap"
+              and .uptimeTier == "excellent"
+              and .contextTier == "large")' \
+  ai-models-pricing-sample.json</code></pre>
+
+<p>4 enum filters do what 4 inequality predicates + 5 OR-clauses for synonymous pipeline tags + a percentile cutoff that drifts every refresh would do otherwise. Same tier names work across related datasets: <code>useCaseTier=code</code> filters HF models + HF datasets + ai-models-pricing consistently.</p>
+
+<p>Same patterns in <a href="examples.html#tier-filters">pandas, Node.js fetch, and DuckDB SQL</a>.</p>
+
 <h2>Still unsure — try free first</h2>
 
 <p>Every dataset has a free 20-record JSON+CSV sample on this site. No signup, no email, no API key. Open the detail page, click the "Download sample" link, run a one-liner from the <a href="quickstart.html">5-minute quickstart</a>, decide whether it fits your workload before paying anything.</p>
