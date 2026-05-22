@@ -122,9 +122,24 @@ npx openapi-typescript \
 </tbody>
 </table>
 
+<h2>Two record-count fields — when to use which</h2>
+
+<p>Every dataset entry ships with both <code>recordCount</code> and <code>liveRecordCount</code>:</p>
+
+<ul>
+<li><code>recordCount</code> — string with round-floor and <code>+</code> suffix (e.g. <code>"6,100+"</code>). Marketing format, stable across small refresh diffs. Use for human-facing UIs.</li>
+<li><code>liveRecordCount</code> — integer with the exact count from the live data file (e.g. <code>6171</code>). Use for size estimation, pagination, change-detection. May be omitted if the live file is unreachable at build time — treat absence as "unknown".</li>
+</ul>
+
+<pre><code>curl -s https://futdevpro.github.io/niche-datasets-free/datasets.json \
+  | jq '.datasets[] | {slug, recordCount, liveRecordCount}'
+# {"slug": "npm-packages", "recordCount": "6,100+", "liveRecordCount": 6171}
+# {"slug": "homebrew-packages", "recordCount": "12,200+", "liveRecordCount": 12239}
+# ...</code></pre>
+
 <h2>Schema versioning</h2>
 
-<p>Every JSON response includes a <code>schemaVersion</code> field. Breaking changes will bump it; additive changes will not. Clients should ignore unknown fields (forward-compat).</p>
+<p>Every JSON response includes a <code>schemaVersion</code> field. Breaking changes will bump it; additive changes will not. Clients should ignore unknown fields (forward-compat). The OpenAPI spec itself has a separate <code>info.version</code> that follows semver — currently <strong>1.1.0</strong> (additive change since 1.0.0: <code>liveRecordCount</code> in DatasetMeta).</p>
 
 <h2>Agent-callable example — Python with openapi-python-client</h2>
 
