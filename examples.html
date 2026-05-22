@@ -53,7 +53,8 @@
   <li><a href="#tier-filters-pandas">Semantic enum tier filters (Python · pandas)</a></li>
   <li><a href="#tier-filters">Semantic enum tier filters (jq)</a></li>
   <li><a href="#tier-filters-node">Semantic enum tier filters (Node.js · fetch)</a></li>
-  <li><a href="#tier-filters-duckdb">Semantic enum tier filters (DuckDB · SQL)</a></li></ul>
+  <li><a href="#tier-filters-duckdb">Semantic enum tier filters (DuckDB · SQL)</a></li>
+  <li><a href="#change-detection">Change-detection between refreshes (Python · liveRecordCount)</a></li></ul>
 </div>
 
 <h2 id="python-pandas">Python · pandas</h2>
@@ -260,6 +261,37 @@ WHERE popularityTier = 'top25pct'
   AND recencyTier = 'fresh'
 ORDER BY weeklyDownloads DESC;</code></pre>
 
+<h2 id="change-detection">Change-detection between refreshes (Python · liveRecordCount)</h2>
+<p class="intro">Poll /datasets.json, compare liveRecordCount per dataset against a saved snapshot, alert when anything moves. Use this if you mirror our catalog into your own pipeline and want a 'pull only what changed' loop. Documented in /api.html under 'Two record-count fields'.</p>
+<pre><code>import json, urllib.request, pathlib
+
+URL = 'https://futdevpro.github.io/niche-datasets-free/datasets.json'
+SNAPSHOT = pathlib.Path('niche-datasets-snapshot.json')
+
+# Fetch current catalog
+with urllib.request.urlopen(URL) as r:
+    current = {d['slug']: d.get('liveRecordCount') for d in json.load(r)['datasets']}
+
+# Load previous snapshot (or treat first run as 'everything changed')
+prev = json.loads(SNAPSHOT.read_text()) if SNAPSHOT.exists() else {}
+
+# Diff
+changed = {
+    slug: (prev.get(slug), n) for slug, n in current.items()
+    if prev.get(slug) != n and n is not None
+}
+
+if changed:
+    print(f'{len(changed)} datasets changed since last poll:')
+    for slug, (was, now) in sorted(changed.items()):
+        delta = '+new' if was is None else f'{now - was:+d}'
+        print(f'  {slug}: {was} -&gt; {now} ({delta})')
+else:
+    print('No changes since last poll.')
+
+# Save current as next snapshot
+SNAPSHOT.write_text(json.dumps(current, indent=2))</code></pre>
+
 <h2>Switching to a different dataset</h2>
 <p>Every snippet above uses <code>npm-packages-sample.json</code> / <code>.csv</code>. To load a different one, change the slug in the URL. Available slugs:</p>
 <p style="font-size:.92rem;line-height:1.9">
@@ -281,7 +313,7 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
   "description": "Copy-pasteable code snippets for loading the niche-datasets samples in Python (pandas, urllib), JavaScript (fetch, Node.js), jq CLI, R, curl, and DuckDB. Works on all 20 datasets.",
   "url": "https://futdevpro.github.io/niche-datasets-free/examples.html",
   "datePublished": "2026-05-17",
-  "dateModified": "2026-05-21",
+  "dateModified": "2026-05-23",
   "author": {
     "@type": "Organization",
     "name": "Future Development Program"

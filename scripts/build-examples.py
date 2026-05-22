@@ -255,6 +255,39 @@ WHERE popularityTier = 'top25pct'
   AND recencyTier = 'fresh'
 ORDER BY weeklyDownloads DESC;""",
     },
+    {
+        "lang": "Change-detection between refreshes (Python · liveRecordCount)",
+        "id": "change-detection",
+        "intro": "Poll /datasets.json, compare liveRecordCount per dataset against a saved snapshot, alert when anything moves. Use this if you mirror our catalog into your own pipeline and want a 'pull only what changed' loop. Documented in /api.html under 'Two record-count fields'.",
+        "code": """import json, urllib.request, pathlib
+
+URL = 'https://futdevpro.github.io/niche-datasets-free/datasets.json'
+SNAPSHOT = pathlib.Path('niche-datasets-snapshot.json')
+
+# Fetch current catalog
+with urllib.request.urlopen(URL) as r:
+    current = {d['slug']: d.get('liveRecordCount') for d in json.load(r)['datasets']}
+
+# Load previous snapshot (or treat first run as 'everything changed')
+prev = json.loads(SNAPSHOT.read_text()) if SNAPSHOT.exists() else {}
+
+# Diff
+changed = {
+    slug: (prev.get(slug), n) for slug, n in current.items()
+    if prev.get(slug) != n and n is not None
+}
+
+if changed:
+    print(f'{len(changed)} datasets changed since last poll:')
+    for slug, (was, now) in sorted(changed.items()):
+        delta = '+new' if was is None else f'{now - was:+d}'
+        print(f'  {slug}: {was} -> {now} ({delta})')
+else:
+    print('No changes since last poll.')
+
+# Save current as next snapshot
+SNAPSHOT.write_text(json.dumps(current, indent=2))""",
+    },
 ]
 
 
