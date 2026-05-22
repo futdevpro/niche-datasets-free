@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Niche Datasets — Free Samples API",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "summary": "Programmatically enumerable catalog of 20 developer + AI dataset samples.",
     "description": "Read-only, no-auth API for machine discovery of the niche-datasets free preview surface. Returns dataset metadata (record count, sample URLs, refresh date, related datasets, full-version URL). Suitable for agents that need to query the catalog without browsing.\n\n**Distribution notes for agent-callers:** the free tier is a static GitHub Pages surface — no rate limit, no API key, no signup. For per-call billing or higher-volume access patterns, see the project status updates linked from the homepage. (As of 2026-05-20, the distribution model is under planning.)",
     "license": {
@@ -138,8 +138,13 @@
           "name": {"type": "string"},
           "recordCount": {
             "type": "string",
-            "description": "Round-floor record count with '+' suffix (e.g. '800+', '12,200+'). String not number — preserves the marketing format used across the catalog.",
+            "description": "Round-floor record count with '+' suffix (e.g. '800+', '12,200+'). String not number — preserves the marketing format used across the catalog. For exact counts use liveRecordCount.",
             "example": "800+"
+          },
+          "liveRecordCount": {
+            "type": "integer",
+            "description": "Exact record count from the live dataset file. Useful for agents that need precision (size estimation, pagination, change detection). May be omitted on datasets where the live file is unreachable at build time — clients should treat absence as 'unknown'.",
+            "example": 802
           },
           "description": {"type": "string"},
           "keywords": {"type": "array", "items": {"type": "string"}},
