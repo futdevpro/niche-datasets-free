@@ -479,20 +479,56 @@ def build_index_jsonld(repo_root=None):
     }, indent=2)
 
 
-def build_index_table_html():
+def auto_records_floor(slug, repo_root, fallback):
+    """Compute the displayed 'X,XXX+' floor from the live data file.
+
+    Bumps automatically when actual exceeds the static fallback floor by a
+    full bump-unit (100 for sub-10k datasets, 1000 for 10k+). Falls back
+    to the hand-maintained `fallback` string when the data file isn't
+    reachable, or when actual hasn't crossed the next bump-threshold yet
+    (so a hand-floor of '4,000' on huggingface-models stays as-is).
+    """
+    data_path = os.path.normpath(
+        os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "data", f"{slug}.json")
+    )
+    if not os.path.isfile(data_path):
+        return fallback
+    try:
+        with open(data_path, "r", encoding="utf-8") as f:
+            actual = len(__import__("json").load(f))
+    except Exception:
+        return fallback
+    # Parse fallback floor like '4,800+' or '4,000'
+    has_plus = fallback.endswith("+")
+    floor_str = fallback.rstrip("+").replace(",", "")
+    try:
+        floor = int(floor_str)
+    except ValueError:
+        return fallback
+    bump = 1000 if floor >= 10000 else 100
+    new_floor = (actual // bump) * bump
+    if new_floor >= floor + bump:
+        return f"{new_floor:,}+"
+    return fallback
+
+
+def build_index_table_html(repo_root=None):
     """Generate the homepage <tbody> rows from the DATASETS list.
 
     Single source of truth for record-count floors: when DATASETS bumps,
-    rebuild auto-syncs the table. Eliminates dual-maintenance between
-    DATASETS records and the hand-typed table cells.
+    rebuild auto-syncs the table. Also auto-bumps the displayed floor
+    when live actual exceeds the static floor by a full bump-unit.
     """
     rows = []
     for d in DATASETS:
-        # mirror the existing HTML structure exactly
         name = d["name"].replace("&", "&amp;")
         slug = d["slug"]
+        records = (
+            auto_records_floor(slug, repo_root, d["records"])
+            if repo_root else d["records"]
+        )
         rows.append(
-            f'<tr><td>{name}</td><td>{d["records"]}</td>'
+            f'<tr><td>{name}</td><td>{records}</td>'
             f'<td><a href="{slug}-sample.json">JSON</a> · '
             f'<a href="{slug}-sample.csv">CSV</a></td></tr>'
         )
@@ -508,7 +544,7 @@ def update_index_table(repo_root):
     path = os.path.join(repo_root, "index.html")
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
-    new_body = build_index_table_html()
+    new_body = build_index_table_html(repo_root)
     # Match the FIRST <tbody>...</tbody> block (the dataset table).
     pattern = re.compile(r'(<tbody>)(.*?)(</tbody>)', flags=re.DOTALL)
     if not pattern.search(html):
