@@ -99,6 +99,10 @@ FAQS = [
         "q": "Is there a refund policy on the paid datasets?",
         "a": "Yes — 30 days, no questions asked, via your Gumroad library page. If the data does not match what is described (record count, schema, freshness), request the refund within 30 days of purchase. Refund policy is also embedded in every Gumroad product description and on the project's storefront page."
     },
+    {
+        "q": "How do I get the exact record count instead of the 'X,XXX+' marketing string?",
+        "a": "Use the liveRecordCount field on /datasets.json or any /<slug>-meta.json — it's an integer with the exact count from the live data file (e.g. 6171 for npm-packages, alongside the recordCount string '6,100+'). Useful for size estimation, pagination, and change-detection between refreshes. Documented in /api.html under 'Two record-count fields'."
+    },
 ]
 
 
