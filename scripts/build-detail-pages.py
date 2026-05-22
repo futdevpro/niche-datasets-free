@@ -664,12 +664,35 @@ def format_rfc822(iso_date):
     return d.strftime("%a, %d %b %Y 00:00:00 +0000")
 
 
-def build_catalog_json():
+def build_catalog_json(repo_root=None):
     """Machine-readable catalog endpoint. Consumed by AI agents / aggregator bots /
     programmatic discovery. Stable shape: top-level metadata + datasets[] array.
-    Versioned via 'schemaVersion' so consumers can adapt to future changes."""
+    Versioned via 'schemaVersion' so consumers can adapt to future changes.
+
+    Each dataset entry includes liveRecordCount (exact int from live data file)
+    alongside the marketing-shaped recordCount string."""
     site = "https://futdevpro.github.io/niche-datasets-free"
     raw = "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main"
+    datasets = []
+    for d in DATASETS:
+        entry = {
+            "slug": d["slug"],
+            "name": d["name"],
+            "recordCount": d["records"],
+            "description": d["desc"],
+            "keywords": d["keywords"],
+            "license": "https://opensource.org/licenses/MIT",
+            "sampleJsonUrl": f"{raw}/{d['slug']}-sample.json",
+            "sampleCsvUrl": f"{raw}/{d['slug']}-sample.csv",
+            "detailPageUrl": f"{site}/{d['slug']}.html",
+            "fullDatasetPriceUsd": d["price"],
+            "fullDatasetUrl": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
+            "related": d.get("related", []),
+        }
+        live = _live_record_count(d["slug"], repo_root)
+        if live is not None:
+            entry["liveRecordCount"] = live
+        datasets.append(entry)
     return json.dumps({
         "schemaVersion": "1.0",
         "name": "Niche Datasets — Free Samples Catalog",
@@ -681,23 +704,7 @@ def build_catalog_json():
             "url": "https://github.com/futdevpro",
         },
         "datasetCount": len(DATASETS),
-        "datasets": [
-            {
-                "slug": d["slug"],
-                "name": d["name"],
-                "recordCount": d["records"],
-                "description": d["desc"],
-                "keywords": d["keywords"],
-                "license": "https://opensource.org/licenses/MIT",
-                "sampleJsonUrl": f"{raw}/{d['slug']}-sample.json",
-                "sampleCsvUrl": f"{raw}/{d['slug']}-sample.csv",
-                "detailPageUrl": f"{site}/{d['slug']}.html",
-                "fullDatasetPriceUsd": d["price"],
-                "fullDatasetUrl": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
-                "related": d.get("related", []),
-            }
-            for d in DATASETS
-        ],
+        "datasets": datasets,
     }, indent=2)
 
 
@@ -789,7 +796,7 @@ def main():
         f.write(build_sitemap())
     catalog_path = os.path.join(repo_root, "datasets.json")
     with open(catalog_path, "w", encoding="utf-8") as f:
-        f.write(build_catalog_json())
+        f.write(build_catalog_json(repo_root))
     # Per-dataset metadata endpoints
     for d in DATASETS:
         meta_path = os.path.join(repo_root, f"{d['slug']}-meta.json")
