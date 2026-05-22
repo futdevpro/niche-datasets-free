@@ -22,5 +22,6 @@
     "llmops-and-eval",
     "ai-tools"
   ],
-  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json",
+  "liveRecordCount": 2026
 }

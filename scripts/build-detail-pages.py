@@ -570,14 +570,35 @@ def update_index_jsonld(repo_root):
         f.write(updated)
 
 
+def _live_record_count(slug, repo_root):
+    """Read the exact record count from the live data file. Returns None on
+    any failure (file missing, parse error, repo_root unset)."""
+    if not repo_root:
+        return None
+    data_path = os.path.normpath(
+        os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "data", f"{slug}.json")
+    )
+    if not os.path.isfile(data_path):
+        return None
+    try:
+        with open(data_path, "r", encoding="utf-8") as f:
+            return len(__import__("json").load(f))
+    except Exception:
+        return None
+
+
 def build_dataset_endpoint(d, repo_root):
-    """Per-dataset metadata endpoint at /<slug>-meta.json (we use -meta suffix because
-    /<slug>.html already exists for the HTML detail page). Same shape as one
-    dataset entry inside /datasets.json, plus a 'lastRefreshed' field from the
-    sample-file mtime."""
+    """Per-dataset metadata endpoint at /<slug>-meta.json.
+
+    Same shape as one dataset entry inside /datasets.json plus:
+    - lastRefreshed (sample-file mtime)
+    - liveRecordCount (exact int from the live data file) — agents that
+      need precision use this; marketing-shaped recordCount ('X,XXX+')
+      stays for human-facing surfaces.
+    """
     site = "https://futdevpro.github.io/niche-datasets-free"
     raw = "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main"
-    return json.dumps({
+    out = {
         "schemaVersion": "1.0",
         "slug": d["slug"],
         "name": d["name"],
@@ -593,7 +614,11 @@ def build_dataset_endpoint(d, repo_root):
         "fullDatasetUrl": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
         "related": d.get("related", []),
         "catalogUrl": f"{site}/datasets.json",
-    }, indent=2)
+    }
+    live = _live_record_count(d["slug"], repo_root)
+    if live is not None:
+        out["liveRecordCount"] = live
+    return json.dumps(out, indent=2)
 
 
 def build_feed_xml(repo_root):

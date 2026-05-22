@@ -23,5 +23,6 @@
     "huggingface-datasets",
     "ai-models-pricing"
   ],
-  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json"
+  "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json",
+  "liveRecordCount": 225
 }
