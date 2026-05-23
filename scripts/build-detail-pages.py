@@ -669,6 +669,10 @@ def build_dataset_endpoint(d, repo_root):
         "fullDatasetUrl": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
         "related": d.get("related", []),
         "catalogUrl": f"{site}/datasets.json",
+        "bundles": [
+            {"name": b["name"], "url": b["url"]}
+            for b in _bundle_membership(d["slug"])
+        ],
     }
     live = _live_record_count(d["slug"], repo_root)
     if live is not None:
@@ -743,6 +747,10 @@ def build_catalog_json(repo_root=None):
             "fullDatasetPriceUsd": d["price"],
             "fullDatasetUrl": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
             "related": d.get("related", []),
+            "bundles": [
+                {"name": b["name"], "url": b["url"]}
+                for b in _bundle_membership(d["slug"])
+            ],
         }
         live = _live_record_count(d["slug"], repo_root)
         if live is not None:

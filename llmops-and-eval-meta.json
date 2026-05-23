@@ -24,5 +24,15 @@
     "ai-agents"
   ],
   "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json",
+  "bundles": [
+    {
+      "name": "Complete Developer Data Bundle",
+      "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
+    },
+    {
+      "name": "ML Builder Pack",
+      "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
+    }
+  ],
   "liveRecordCount": 541
 }
