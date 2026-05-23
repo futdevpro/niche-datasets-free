@@ -1,12 +1,13 @@
 [
   {
-    "name": "Snowplow",
-    "url": "http://snowplowanalytics.com/",
-    "description": "Have every single event, from your websites, mobile apps, desktop applications and server-side systems, stored in your own data warehouse and available to action in real-time. (Source Code)",
+    "name": "Superset",
+    "url": "http://superset.apache.org/",
+    "description": "Modern data exploration and visualization platform. (Source Code)",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "analytics"
     ],
     "urlDomainTier": "commercial",
@@ -14,12 +15,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "bitmagnet",
-    "url": "https://bitmagnet.io",
-    "description": "BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration. (Source Code)",
+    "name": "ArchivesSpace",
+    "url": "https://archivesspace.org/",
+    "description": "Archives information management application for managing and providing Web access to archives, manuscripts and digital objects. (Demo, Source Code)",
     "category": "archiving",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "software",
       "archiving and digital preservation (dp)"
@@ -29,43 +30,42 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "2FAuth",
-    "url": "https://github.com/bubka/2fauth",
-    "description": "Manage your Two-Factor Authentication (2FA) accounts and generate their security codes. (Demo)",
+    "name": "Padloc",
+    "url": "https://padloc.app/",
+    "description": "A modern, open source password manager for individuals and teams. (Source Code)",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "miscellaneous"
+      "password managers"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "homebank-converter",
-    "url": "https://github.com/binnette/homebank-converter",
-    "description": "Web app to convert an export bank file to compatible Homebank csv. (Demo)",
+    "name": "Dagu",
+    "url": "https://docs.dagu.cloud/",
+    "description": "Powerful Cron alternative with a Web UI. It allows you to define dependencies between commands as a Directed Acyclic Graph (DAG) in a declarative YAML format. (Source Code)",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "automation"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Haven",
-    "url": "https://havenweb.org/",
-    "description": "Private blogging system with markdown editing and built in RSS reader. (Demo, Source Code)",
+    "name": "Postleaf",
+    "url": "https://www.postleaf.org/",
+    "description": "Open source blogging platform with inline editing, handlebar templates, and a beautiful user interface. (Source Code)",
     "category": "blogging",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "blogging platforms"
     ],
     "urlDomainTier": "commercial",
@@ -73,12 +73,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Grimoire",
-    "url": "https://grimoire.pro",
-    "description": "Bookmark manager with a modern UI, automatic content & metadata extraction, categorization, filtering, and more. It has fully documented REST API, and Docker image for easy deployment. (Source Code)",
+    "name": "LinkWarden",
+    "url": "https://linkwarden.app/",
+    "description": "Bookmark and archive manager to store your useful links. (Source Code)",
     "category": "bookmarks",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "software",
       "bookmarks and link sharing"
@@ -88,9 +88,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AgenDAV",
-    "url": "http://agendav.org/",
-    "description": "Multilanguage CalDAV web client with a rich AJAX interface and shared calendars support. (Source Code)",
+    "name": "InfCloud",
+    "url": "https://www.inf-it.com/open-source/clients/infcloud",
+    "description": "Open source CalDAV/CardDAV web client implementation. (Demo, Source Code)",
     "category": "calendar-contacts",
     "pricing": "open-source",
     "hasApi": false,
@@ -102,13 +102,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Redaxscript",
-    "url": "https://redaxscript.com",
-    "description": "Ultra lightweight CMS for MySQL, SQLite and PostgreSQL. (Demo, Source Code)",
+    "name": "MODX",
+    "url": "https://modx.com/",
+    "description": "Advanced content management and publishing platform. The current version is called 'Revolution'. (Source Code)",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "content management systems (cms)"
     ],
     "urlDomainTier": "commercial",
@@ -116,9 +117,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Hawkpost",
-    "url": "https://hawkpost.co",
-    "description": "HawkPost is a web app that lets you create unique links that you can share with a person that desires to send you important information but doesn't know how to encrypt it. The message is encrypted in their browser and sent to your email address. (Source Code)",
+    "name": "Node-Chat",
+    "url": "https://github.com/igorantun/node-chat",
+    "description": "Not-so-basic open-source chat with admin features.",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
@@ -126,14 +127,14 @@
       "communication systems",
       "custom communication systems"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "SuiteCRM",
-    "url": "https://suitecrm.com",
-    "description": "The award-winning, enterprise-class open source CRM. (Source Code)",
+    "name": "Twenty",
+    "url": "https://twenty.com",
+    "description": "A modern CRM offering the flexibility of open source, advanced features, and a sleek design. (Source Code)",
     "category": "crm",
     "pricing": "open-source",
     "hasApi": false,
@@ -146,24 +147,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "ChartDB",
-    "url": "https://chartdb.io/",
-    "description": "Database diagrams editor that allows you to visualize and design your DB with a single query. (Demo, Source Code)",
+    "name": "Limbas",
+    "url": "https://www.limbas.com/en",
+    "description": "Database framework for creating database-driven business applications. As a graphical database frontend, it enables the efficient processing of data stocks and the flexible development of comfortable database applications. (Source Code)",
     "category": "database",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "database management"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "nsupdate.info",
-    "url": "https://www.nsupdate.info/",
-    "description": "nsupdate.info is a dynamic DNS service. (Demo, Source Code)",
+    "name": "SPF Toolbox",
+    "url": "http://spftoolbox.com",
+    "description": "Application to look up DNS records such as SPF, MX, Whois, and more. (Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
@@ -175,23 +176,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Polar Bookshelf",
-    "url": "https://getpolarized.io/",
-    "description": "Polar is a personal knowledge repository for PDF and web content supporting incremental reading and document annotation. (Source Code)",
+    "name": "BentoPDF",
+    "url": "https://bentopdf.com",
+    "description": "- Powerful, privacy-first, client-side PDF toolkit that allows you to manipulate, edit, merge, and process PDF files directly in your browser. (Demo, Source Code)",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "e-books and integrated library systems (ils)"
+      "software",
+      "document management"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "E-Label",
-    "url": "https://filipecarneiro.github.io/elabel",
-    "description": "Solution for electronic labels, with QR Codes, on wine bottles sold within the European Union. (Source Code)",
+    "name": "OpenOlitor",
+    "url": "https://openolitor.org/",
+    "description": "Administration platform for Community Supported Agriculture groups. (Source Code)",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
@@ -204,9 +206,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Tiny Tiny RSS",
-    "url": "https://tt-rss.org",
-    "description": "Web-based news feed (RSS/Atom) reader and aggregator. (Source Code)",
+    "name": "Yarr",
+    "url": "https://github.com/nkanaev/yarr",
+    "description": "Yarr (yet another rss reader) is a web-based feed aggregator which can be used both as a desktop application and a personal self-hosted server.",
     "category": "feed-readers",
     "pricing": "open-source",
     "hasApi": false,
@@ -214,14 +216,14 @@
       "software",
       "feed readers"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Up1",
-    "url": "https://github.com/upload/up1",
-    "description": "Client-side Encrypted Image Host.",
+    "name": "imgpush",
+    "url": "https://github.com/hauxir/imgpush",
+    "description": "imgpush is a self-hosted file upload service that can easily be integrated into other webapps.",
     "category": "file-transfer",
     "pricing": "open-source",
     "hasApi": false,
@@ -229,13 +231,13 @@
       "file sharing and synchronization"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Firefly III",
-    "url": "https://firefly-iii.org/",
-    "description": "Firefly III is a modern financial manager. It helps you to keep track of your money and make budget forecasts. It supports credit cards, has an advanced rule engine and can import data from many banks. (Demo, Source Code)",
+    "name": "Mybucks.online",
+    "url": "https://mybucks.online",
+    "description": "Secure, browser-based, password-only self-custodial cryptocurrency wallet. (Demo, Source Code)",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
@@ -244,18 +246,17 @@
       "money, budgeting & management"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Red Eclipse 2",
-    "url": "https://www.redeclipse.net/",
-    "description": "Arena first-person shooter similar to Unreal Tournament. (Source Code)",
+    "name": "Teeworlds",
+    "url": "https://www.teeworlds.com",
+    "description": "Open source 2D retro multiplayer shooter. (Source Code)",
     "category": "games",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "games"
     ],
     "urlDomainTier": "commercial",
@@ -263,9 +264,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "egroupware",
-    "url": "https://www.egroupware.org/",
-    "description": "Software suite including calendars, address books, notepad, project management tools, client relationship management tools (CRM), knowledge management tools, a wiki and a CMS. (Source Code)",
+    "name": "Cozy Cloud",
+    "url": "https://cozy.io/",
+    "description": "Personal cloud where you can manage and sync your files, notes, contacts, passwords, and documents. (Source Code, Clients)",
     "category": "groupware",
     "pricing": "open-source",
     "hasApi": false,
@@ -278,9 +279,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AMD Ryzen G-Series",
-    "url": "https://cpuarchive.com/cpu/amd/ryzen",
-    "description": "AMD Ryzen G-Series",
+    "name": "Intel Celeron Processor N Series",
+    "url": "https://ark.intel.com/content/www/us/en/ark/products/series/87282/intel-celeron-processor-n-series.html",
+    "description": "Intel Celeron Processor N Series",
     "category": "iot",
     "pricing": "open-source",
     "hasApi": false,

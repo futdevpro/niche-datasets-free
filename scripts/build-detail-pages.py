@@ -69,7 +69,7 @@ DATASETS = [
      "keywords": ["public apis", "rest api", "free api", "no-auth api"],
      "gumroad": "public-apis-directory", "price": 12,
      "related": ["developer-tools", "npm-packages", "ai-tools"]},
-    {"slug": "self-hosted-software", "name": "Self-Hosted Software Directory", "records": "2,300+",
+    {"slug": "self-hosted-software", "name": "Self-Hosted Software Directory", "records": "2,200+",
      "desc": "Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more.",
      "keywords": ["self-hosted", "open source", "homelab", "selfhost"],
      "gumroad": "self-hosted-software-directory", "price": 14,

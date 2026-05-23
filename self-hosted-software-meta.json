@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "slug": "self-hosted-software",
   "name": "Self-Hosted Software Directory",
-  "recordCount": "2,300+",
+  "recordCount": "2,200+",
   "description": "Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more.",
   "keywords": [
     "self-hosted",
@@ -11,7 +11,7 @@
     "selfhost"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-23",
+  "lastRefreshed": "2026-05-24",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html",
@@ -33,5 +33,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
     }
   ],
-  "liveRecordCount": 2319
+  "liveRecordCount": 2294
 }

@@ -8,6 +8,13 @@
     <language>en-us</language>
     <generator>build-detail-pages.py</generator>
     <item>
+      <title>Self-Hosted Software Directory — refreshed 2026-05-24</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html</link>
+      <guid isPermaLink="false">self-hosted-software-2026-05-24</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more. Full dataset $14 on Gumroad.</description>
+    </item>
+    <item>
       <title>Vector DB &amp; RAG Infrastructure Directory — refreshed 2026-05-24</title>
       <link>https://futdevpro.github.io/niche-datasets-free/vector-db-and-rag.html</link>
       <guid isPermaLink="false">vector-db-and-rag-2026-05-24</guid>
@@ -76,13 +83,6 @@
       <guid isPermaLink="false">public-apis-2026-05-23</guid>
       <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
       <description>Catalog of 2,600+ free and freemium public APIs with auth, HTTPS, and CORS flags per row, across 50+ categories. Full dataset $12 on Gumroad.</description>
-    </item>
-    <item>
-      <title>Self-Hosted Software Directory — refreshed 2026-05-23</title>
-      <link>https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html</link>
-      <guid isPermaLink="false">self-hosted-software-2026-05-23</guid>
-      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-      <description>Catalog of 2,300+ self-hostable open-source applications across communication, file transfer, smart home, and more. Full dataset $14 on Gumroad.</description>
     </item>
     <item>
       <title>Design Resources Directory — refreshed 2026-05-23</title>
