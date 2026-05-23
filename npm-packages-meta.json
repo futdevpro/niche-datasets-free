@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "slug": "npm-packages",
   "name": "npm Packages Directory",
-  "recordCount": "6,100+",
-  "description": "Catalog of 6,100+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
+  "recordCount": "6,300+",
+  "description": "Catalog of 6,300+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
   "keywords": [
     "npm",
     "javascript",
@@ -11,7 +11,7 @@
     "packages"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-20",
+  "lastRefreshed": "2026-05-23",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/npm-packages.html",
@@ -37,5 +37,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/dev-stack-pack"
     }
   ],
-  "liveRecordCount": 6171
+  "liveRecordCount": 6396
 }

@@ -49,7 +49,7 @@ FAQS = [
     },
     {
         "q": "How big is each full dataset?",
-        "a": "Homebrew Packages: 12,200+ records. npm Packages: 6,100+. VS Code Extensions: 4,800+. HuggingFace Models: 4,000. MCP Servers: 3,600+. AI Tools: 2,800+. Cybersecurity Tools: 2,700+. HuggingFace Datasets: 2,800+. Public APIs: 2,600+. Self-Hosted Software: 2,300+. Design Resources: 2,100+. AI Agents: 2,000+. AI Prompts: 1,800+. Developer Tools: 1,600+. Open Source Alternatives: 900+. AI Models Pricing: 800+. No-Code/Low-Code: 500+. LLMOps & Eval: 490+. Platform Engineering: 390+. Vector DB & RAG: 190+. Total: ~55,000 records across 20 datasets."
+        "a": "Homebrew Packages: 12,200+ records. npm Packages: 6,300+. VS Code Extensions: 4,800+. HuggingFace Models: 4,000. MCP Servers: 3,600+. AI Tools: 2,800+. Cybersecurity Tools: 2,700+. HuggingFace Datasets: 2,800+. Public APIs: 2,600+. Self-Hosted Software: 2,300+. Design Resources: 2,100+. AI Agents: 2,000+. AI Prompts: 1,800+. Developer Tools: 1,600+. Open Source Alternatives: 900+. AI Models Pricing: 800+. No-Code/Low-Code: 500+. LLMOps & Eval: 490+. Platform Engineering: 390+. Vector DB & RAG: 190+. Total: ~55,000 records across 20 datasets."
     },
     {
         "q": "Is there a free sample of everything combined?",

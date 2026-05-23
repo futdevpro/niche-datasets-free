@@ -51,8 +51,8 @@
     {
       "slug": "npm-packages",
       "name": "npm Packages Directory",
-      "recordCount": "6,100+",
-      "description": "Catalog of 6,100+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
+      "recordCount": "6,300+",
+      "description": "Catalog of 6,300+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository.",
       "keywords": [
         "npm",
         "javascript",
@@ -84,7 +84,7 @@
           "url": "https://jhonnyronnie.gumroad.com/l/dev-stack-pack"
         }
       ],
-      "liveRecordCount": 6171
+      "liveRecordCount": 6396
     },
     {
       "slug": "vscode-extensions",

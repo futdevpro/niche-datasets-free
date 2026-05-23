@@ -8,6 +8,13 @@
     <language>en-us</language>
     <generator>build-detail-pages.py</generator>
     <item>
+      <title>npm Packages Directory — refreshed 2026-05-23</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/npm-packages.html</link>
+      <guid isPermaLink="false">npm-packages-2026-05-23</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 6,300+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository. Full dataset $11 on Gumroad.</description>
+    </item>
+    <item>
       <title>Cybersecurity Tools Directory — refreshed 2026-05-21</title>
       <link>https://futdevpro.github.io/niche-datasets-free/cybersecurity-tools.html</link>
       <guid isPermaLink="false">cybersecurity-tools-2026-05-21</guid>
@@ -27,13 +34,6 @@
       <guid isPermaLink="false">homebrew-packages-2026-05-20</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
       <description>Catalog of 12,200+ Homebrew formulae and casks with install counts, package type, dependencies, tap, and deprecation status. Full dataset $11 on Gumroad.</description>
-    </item>
-    <item>
-      <title>npm Packages Directory — refreshed 2026-05-20</title>
-      <link>https://futdevpro.github.io/niche-datasets-free/npm-packages.html</link>
-      <guid isPermaLink="false">npm-packages-2026-05-20</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <description>Catalog of 6,100+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository. Full dataset $11 on Gumroad.</description>
     </item>
     <item>
       <title>VS Code Extensions Directory — refreshed 2026-05-20</title>

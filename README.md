@@ -39,7 +39,7 @@ These are baked into the actual records — the mega-sample below has 5 random r
 | Dataset | Records | Sample | Full Dataset |
 |---------|---------|--------|-------------|
 | Homebrew Packages Directory | 12,200+ | [JSON](homebrew-packages-sample.json) · [CSV](homebrew-packages-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/homebrew-packages-directory) |
-| npm Packages Directory | 6,100+ | [JSON](npm-packages-sample.json) · [CSV](npm-packages-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/npm-packages-directory) |
+| npm Packages Directory | 6,300+ | [JSON](npm-packages-sample.json) · [CSV](npm-packages-sample.csv) | [$11 on Gumroad](https://jhonnyronnie.gumroad.com/l/npm-packages-directory) |
 | VS Code Extensions Directory | 4,800+ | [JSON](vscode-extensions-sample.json) · [CSV](vscode-extensions-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/vscode-extensions-directory) |
 | Open MCP Servers Directory | 3,600+ | [JSON](mcp-servers-sample.json) · [CSV](mcp-servers-sample.csv) | [$9 on Gumroad](https://jhonnyronnie.gumroad.com/l/mcp-servers-directory) |
 | Public APIs Directory | 2,600+ | [JSON](public-apis-sample.json) · [CSV](public-apis-sample.csv) | [$12 on Gumroad](https://jhonnyronnie.gumroad.com/l/public-apis-directory) |
