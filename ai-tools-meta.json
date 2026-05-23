@@ -10,7 +10,7 @@
     "saas"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-20",
+  "lastRefreshed": "2026-05-23",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-tools-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/ai-tools.html",
@@ -28,5 +28,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
     }
   ],
-  "liveRecordCount": 2807
+  "liveRecordCount": 2809
 }
