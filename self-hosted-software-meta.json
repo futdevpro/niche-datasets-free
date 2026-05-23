@@ -11,7 +11,7 @@
     "selfhost"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-20",
+  "lastRefreshed": "2026-05-23",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html",
@@ -33,5 +33,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
     }
   ],
-  "liveRecordCount": 2320
+  "liveRecordCount": 2319
 }
