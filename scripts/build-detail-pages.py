@@ -515,6 +515,7 @@ def build_index_jsonld(repo_root=None):
                     "url": "https://jhonnyronnie.gumroad.com/",
                 },
             },
+            "isPartOf": _bundle_membership(d["slug"]),
         })
     return json.dumps({
         "@context": "https://schema.org/",
