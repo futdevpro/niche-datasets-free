@@ -120,7 +120,7 @@ def render(events: list[dict]) -> str:
         by_date.setdefault(e["date"], []).append(e)
     for date in sorted(by_date.keys(), reverse=True):
         rows = by_date[date]
-        out.append(f"<h2>{date}</h2>")
+        out.append(f'<h2 id="{date}">{date}</h2>')
         out.append('<table><thead><tr><th>Dataset</th><th>+ Added</th><th>~ Updated</th><th>- Removed</th><th>Net</th></tr></thead><tbody>')
         tot_a = tot_u = tot_r = 0
         for r in sorted(rows, key=lambda x: -(x["added"] + x["removed"])):
