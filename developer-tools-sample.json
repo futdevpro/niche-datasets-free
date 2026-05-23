@@ -1,13 +1,13 @@
 [
   {
-    "name": "Braintrust",
-    "url": "https://www.braintrustdata.com/",
-    "description": "Evals, prompt playground, and data management for Gen AI. Free plan gives upto 1,000 private eval rows/week.",
+    "name": "v0 by Vercel",
+    "url": "https://v0.link/dev",
+    "description": "Generate UI from a prompt, all of the UI is streamed and runs as client side components.",
     "category": "ai-coding",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "generative ai"
+      "gen ui"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
@@ -28,12 +28,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Aserto",
-    "url": "https://www.aserto.com",
-    "description": "Cloud-native authorization for applications and APIs.",
+    "name": "Stack Auth",
+    "url": "https://stack-auth.com/",
+    "description": "Open-source Auth0 alternative. [](https://github.com/stack-auth/stack) [](https://launchweek.dev/lw/2024/mega)",
     "category": "authentication",
-    "pricing": "freemium",
-    "hasApi": true,
+    "pricing": "open-source",
+    "hasApi": false,
     "tags": [
       "authentication & identity"
     ],
@@ -42,54 +42,54 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "browserless",
-    "url": "https://browserless.io",
-    "description": "Browser automation deployed to the cloud. [](https://github.com/browserless/browserless)",
+    "name": "thumbnail.ws",
+    "url": "https://thumbnail.ws",
+    "description": "API for generating thumbnails of websites. Free 1,000 requests/month.",
     "category": "automation",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": true,
     "tags": [
-      "scraping"
+      "screenshot apis"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Flutter Flow",
-    "url": "https://flutterflow.io",
-    "description": "Build your Flutter App UI without writing a single line of code. Also has a Firebase integration. The free plan includes full access to UI Builder and Free templates.",
+    "name": "Microsoft 365 Developer Program",
+    "url": "https://developer.microsoft.com/microsoft-365/dev-program",
+    "description": "Get a free sandbox, tools, and other resources you need to build solutions for the Microsoft 365 platform. The subscription is a 90-day Microsoft 365 E5 Subscription (Windows excluded) which is renewable. It is renewed if you're active in development(measured using telemetry data & algorithms).",
     "category": "backend-as-a-service",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "baas"
+      "other free resources"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "Mergify",
-    "url": "https://mergify.com",
-    "description": "workflow automation and merge queue for GitHub - Free for public GitHub repositories",
+    "name": "paperspace",
+    "url": "https://www.paperspace.com/",
+    "description": "Build & scale AI models, Develop, train, and deploy AI applications, free plan: public projects, 5Gb storage, basic instances.",
     "category": "ci-cd",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "ci and cd"
+      "artifact repos"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Solo",
-    "url": "https://soloist.ai",
-    "description": "Free AI website creator from Mozilla, create a beautiful website for your business from a few simple inputs. Free custom domain, no credit card needed.",
+    "name": "Cosmic",
+    "url": "https://www.cosmicjs.com/",
+    "description": "Headless CMS and API toolkit. Free personal plans for developers.",
     "category": "cms",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "cms"
     ],
@@ -98,87 +98,87 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "DiffText",
-    "url": "https://difftext.com",
-    "description": "Instantly find the differences between two blocks of code. Completely free to use.",
+    "name": "ag",
+    "url": "https://github.com/ggreer/the_silver_searcher",
+    "description": "A C based code-searching tool similar to ack, but faster",
     "category": "code-quality",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "code quality"
+      "text"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Upstash",
-    "url": "https://upstash.com/",
-    "description": "Serverless tailored redis provider.",
+    "name": "8base.com",
+    "url": "https://www.8base.com/",
+    "description": "8base is a full-stack low-code development platform built for JavaScript developers built on top of MySQL and GraphQL and serverless backend-as-a-service. It allows you to start building web applications quickly using a UI app builder and scale quickly, The Free tier includes rows: 2,500, Storage: 500, Serverless computing: 1Gb/h, and client app users: 5.",
     "category": "database",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "free",
+    "hasApi": true,
     "tags": [
-      "databases & spreadsheets"
+      "managed data services"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "HTTP Toolkit",
-    "url": "https://httptoolkit.tech",
-    "description": "an HTTP inspection & debugging desktop application",
+    "name": "glances",
+    "url": "https://github.com/nicolargo/glances",
+    "description": "glances — debugging API",
     "category": "debugging",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "misc"
+      "diagnostics"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "codenameone.com",
-    "url": "https://www.codenameone.com/",
-    "description": "Open source, cross-platform, mobile app development toolchain for Java/Kotlin developers. Free for commercial use with an unlimited number of projects",
+    "name": "Versoly",
+    "url": "https://versoly.com/",
+    "description": "SaaS-focused website builder - unlimited websites, 70+ blocks, five templates, custom CSS, favicon, SEO and forms. No custom domain.",
     "category": "deployment-hosting",
-    "pricing": "open-source",
-    "hasApi": true,
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
-      "paas"
+      "web hosting"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Carbone",
-    "url": "https://carbone.io/",
-    "description": "JSON into PDF, DOCX, XLSX, PPTX, ODS... API.",
+    "name": "Apidog",
+    "url": "https://apidog.com/",
+    "description": "All-in-one API documentation tool, 1-click to generate API documentation from requests.",
     "category": "documentation",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "reports generation"
+      "documentation"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "zgen",
-    "url": "https://github.com/tarjoilija/zgen",
-    "description": "Faster framework for managing your zsh configuration, backward compatible with oh-my-zsh plugins",
+    "name": "Ubiq",
+    "url": "https://www.ubiqsecurity.com/",
+    "description": "Encryption APIs with secret management.",
     "category": "environment-secrets",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "shell"
+      "environment & secret management"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -196,51 +196,52 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Pipe Viewer",
-    "url": "http://www.ivarch.com/programs/pv.shtml",
-    "description": "a tool for monitoring the progress of data through a pipeline",
+    "name": "Completor",
+    "url": "https://github.com/maralla/completor.vim",
+    "description": "async autocomplete with support for omni and semantic completion.",
     "category": "ide-editor",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "terminal"
+      "editors",
+      "vim"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Azure Pipelines",
-    "url": "https://azure.microsoft.com/services/devops/pipelines",
-    "description": "10 free parallel jobs with unlimited minutes for open source for Linux, macOS, and Windows",
+    "name": "Elastic Load Balancing",
+    "url": "https://aws.amazon.com/elasticloadbalancing",
+    "description": "750 hours per month(12mo)",
     "category": "infrastructure",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "major cloud providers"
     ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "HeyForm.net",
+    "url": "https://heyform.net/",
+    "description": "Drag and drop online form builder. The free tier lets you create unlimited forms and collect unlimited submissions. Comes with pre-built templates, anti-spam, and 100MB file storage.",
+    "category": "integrations",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "forms"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Mockerito",
-    "url": "https://mockerito.com/",
-    "description": "Free mock REST API service providing realistic data across 9 domains (e-commerce, finance, healthcare, education, recruitment, social media, stock markets, weather, and aviation). No mandatory signup, no API keys, unlimited requests. Perfect for frontend prototyping, API testing, learning and teaching web development.",
-    "category": "integrations",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "apis, data, and ml"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Lingo.dev",
-    "url": "https://lingo.dev/",
-    "description": "AI localization infrastructure. [](https://launchweek.dev/lw/2024/mega)",
+    "name": "Locize",
+    "url": "https://locize.com",
+    "description": "The translation management system created by the creators of i18next. Work with writers in dev/stage env before hitting prod.",
     "category": "localization",
     "pricing": "freemium",
     "hasApi": false,
@@ -252,11 +253,11 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "temp-mail.io",
-    "url": "https://temp-mail.io",
-    "description": "Free disposable temporary email service with multiple emails at once and forwarding",
+    "name": "Mailcheck.ai",
+    "url": "https://www.mailcheck.ai/",
+    "description": "Prevent users to sign up with temporary email addresses, 120 requests/hour (~86,400 per month)",
     "category": "mail",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "email"
@@ -266,17 +267,17 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "ImageKit",
-    "url": "https://imagekit.io/",
-    "description": "Automate image optimization, transformation, and delivery.",
+    "name": "AndroidFileHost",
+    "url": "https://androidfilehost.com/",
+    "description": "Free file-sharing platform with unlimited speed, bandwidth, file count, download count, etc. It is mainly aimed for Android dev-related files like APK build, custom ROM & modifications, etc. But seems to accept any other files as well.",
     "category": "media",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "media"
+      "storage and media processing"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   }
 ]
