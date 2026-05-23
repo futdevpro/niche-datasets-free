@@ -256,6 +256,37 @@ WHERE popularityTier = 'top25pct'
 ORDER BY weeklyDownloads DESC;""",
     },
     {
+        "lang": "Bundle vs single-SKU price comparison (jq)",
+        "id": "bundle-compare",
+        "intro": "Pick a target use case (e.g. 'agent registry'), enumerate the datasets you need, sum their single-SKU prices, compare against the bundle that includes them. Decision-support for the buyer's guide use-case mapping.",
+        "code": """# Use case: build an agent / MCP registry.
+# Needed datasets: mcp-servers + ai-agents + ai-tools.
+# Compare per-dataset sum vs Platform Builder Pack (which includes platform + dev tools).
+
+curl -s https://futdevpro.github.io/niche-datasets-free/datasets.json \\
+  | jq '
+      .datasets
+      | map(select(.slug | IN("mcp-servers", "ai-agents", "ai-tools")))
+      | {
+          single_skus_total: (map(.fullDatasetPriceUsd) | add),
+          single_skus:       map({slug, price: .fullDatasetPriceUsd}),
+          bundle_options:    (.[0].bundles // [])
+        }'
+
+# Output (illustrative):
+# {
+#   "single_skus_total": 33,
+#   "single_skus": [
+#     {"slug": "ai-agents",  "price": 11},
+#     {"slug": "ai-tools",   "price": 11},
+#     {"slug": "mcp-servers","price": 11}
+#   ],
+#   "bundle_options": [
+#     {"name": "Complete Developer Data Bundle", "url": "...l/developer-data-bundle"}
+#   ]
+# }""",
+    },
+    {
         "lang": "Change-detection between refreshes (Python · liveRecordCount)",
         "id": "change-detection",
         "intro": "Poll /datasets.json, compare liveRecordCount per dataset against a saved snapshot, alert when anything moves. Use this if you mirror our catalog into your own pipeline and want a 'pull only what changed' loop. Documented in /api.html under 'Two record-count fields'.",
