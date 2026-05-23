@@ -1,22 +1,22 @@
 [
   {
-    "name": "InstructRAG",
-    "url": "https://github.com/weizhepei/instructrag",
-    "description": "Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality.",
+    "name": "VideoRAG",
+    "url": "https://arxiv.org/abs/2501.05874",
+    "description": "Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.",
     "category": "agentic-rag",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "advanced approaches"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "2023 Competition",
-    "url": "https://sisap-challenges.github.io/2023",
-    "description": "2023 Competition",
+    "name": "MyScale's Vector Database Benchmark",
+    "url": "https://myscale.github.io/benchmark/#/benchmark",
+    "description": "MyScale's Vector Database Benchmark",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
@@ -28,16 +28,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Verba",
-    "url": "https://github.com/weaviate/verba",
-    "description": "Open-source application for RAG out of the box.",
+    "name": "Denser Retriever",
+    "url": "https://denser.ai",
+    "description": "Denser Retriever",
     "category": "rag-framework",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
-    "tags": [
-      "frameworks that facilitate rag"
-    ],
-    "urlDomainTier": "repo-hosted",
+    "tags": [],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
@@ -54,24 +52,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Qdrant - Vector Similarity Search Engine with extended filtering support",
-    "url": "https://github.com/qdrant/qdrant",
-    "description": "Qdrant - Vector Similarity Search Engine with extended filtering support",
+    "name": "Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",
+    "url": "https://cassandra.apache.org",
+    "description": "Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",
     "category": "vector-db-engine",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "awesome vector search engine",
       "standalone service"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "VideoRAG",
-    "url": "https://arxiv.org/abs/2501.05874",
-    "description": "Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.",
+    "name": "RAG Fusion",
+    "url": "https://arxiv.org/abs/2402.03367",
+    "description": "Techniques combining multiple retrieval methods for improved context integration.",
     "category": "agentic-rag",
     "pricing": "unknown",
     "hasApi": false,
@@ -83,33 +81,31 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Weights & Biases",
-    "url": "https://wandb.ai/wandb-japan/rag-hands-on/reports/step-for-developing-and-evaluating-rag-application-with-w-b--vmlldzo1nzu4otax",
-    "description": "Tracks experiments, logs metrics, and visualizes performance.",
+    "name": "Foundations of Vector Retrieval",
+    "url": "https://arxiv.org/abs/2401.09350",
+    "description": "Foundations of Vector Retrieval",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "metrics & evaluation",
-      "response evaluation metrics"
+      "others"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Prompt Caching",
-    "url": "https://medium.com/@1kg/prompt-cache-what-is-prompt-caching-a-comprehensive-guide-e6cbae48e6a3",
-    "description": "Optimizes LLMs by storing and reusing precomputed attention states.",
+    "name": "Tantivy",
+    "url": "https://github.com/quickwit-oss/tantivy",
+    "description": "Tantivy — rag-framework API",
     "category": "rag-framework",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "techniques",
-      "prompting"
+      "texts"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
@@ -125,21 +121,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "MyScale",
-    "url": "https://myscale.com",
-    "description": "MyScale — vector-db-engine API",
+    "name": "USearch",
+    "url": "https://github.com/unum-cloud/usearch",
+    "description": "USearch — vector-db-engine API",
     "category": "vector-db-engine",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "REFRAG",
-    "url": "https://arxiv.org/pdf/2509.01092",
-    "description": "Optimizes RAG decoding by compressing retrieved context into embeddings before generation, reducing latency while maintaining output quality.",
+    "name": "Agentic RAG",
+    "url": "https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag",
+    "description": "Also known as retrieval agents, can make decisions on retrieval processes.",
     "category": "agentic-rag",
     "pricing": "unknown",
     "hasApi": false,
@@ -151,32 +149,32 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Jaccard Similarity",
-    "url": "https://en.wikipedia.org/wiki/jaccard_index",
-    "description": "Jaccard Similarity",
+    "name": "VectorDBZ",
+    "url": "https://github.com/vectordbz/vectordbz",
+    "description": "GUI desktop app for exploring and debugging vector databases",
     "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "metrics & evaluation",
-      "similarity metrics for embeddings"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Agentset",
-    "url": "https://github.com/agentset-ai/agentset",
-    "description": "Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and multimodal support.",
-    "category": "rag-framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "frameworks that facilitate rag"
+      "others"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Recursive Chunking",
+    "url": "https://medium.com/@abhiramivs/chunking-methods-all-to-know-about-it-65c10aa7b24e",
+    "description": "Recursive Chunking",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "chunking"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -192,57 +190,59 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "OasysDB",
-    "url": "https://github.com/oasysai/oasysdb",
-    "description": "[Notebook]",
+    "name": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
+    "url": "https://arxiv.org/abs/1603.09320",
+    "description": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
     "category": "vector-db-engine",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "multidimensional data / vectors"
+      "awesome vector search engine",
+      "research papers"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "A-RAG",
-    "url": "https://github.com/ayanami0730/arag",
-    "description": "Agentic RAG with hierarchical retrieval interfaces (keyword, semantic, chunk-level), enabling LLM agents to autonomously search and retrieve at multiple granularities. (Paper)",
+    "name": "Plan-then-RAG",
+    "url": "https://arxiv.org/abs/2406.12430",
+    "description": "(PlanRAG): Strategies involving planning stages before executing RAG for complex tasks.",
     "category": "agentic-rag",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "WFGY Problem Map",
+    "url": "https://github.com/onestardao/wfgy/tree/main/problemmap",
+    "description": "16-mode checklist for diagnosing RAG and LLM failures.",
+    "category": "rag-eval",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "metrics & evaluation",
+      "response evaluation metrics"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Neural Search In Action",
-    "url": "https://matsui528.github.io/cvpr2023_tutorial_neural_search",
-    "description": "Neural Search In Action",
-    "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Hypothetical Questions",
-    "url": "https://pixion.co/blog/rag-strategies-hypothetical-questions-hyde",
-    "description": "Hypothetical Questions",
+    "name": "Agentic Chunking",
+    "url": "https://youtu.be/8ojc21t2sl4?si=8vnyaguabmtzhcsg&t=2882",
+    "description": "Agentic Chunking",
     "category": "rag-framework",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "techniques",
-      "retrieval"
+      "chunking"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
@@ -261,16 +261,16 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Vald",
-    "url": "https://vald.vdaas.org/",
-    "description": "Vald — vector-db-engine API",
+    "name": "vsag",
+    "url": "https://github.com/alipay/vsag",
+    "description": "vsag — vector-db-engine API",
     "category": "vector-db-engine",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "multidimensional data / vectors"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   }

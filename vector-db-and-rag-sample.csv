@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,urlDomainTier,descriptionLengthTier,categorizationTier
-InstructRAG,https://github.com/weizhepei/instructrag,Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality.,agentic-rag,open-source,false,"[""advanced approaches""]",repo-hosted,normal,specific
-2023 Competition,https://sisap-challenges.github.io/2023,2023 Competition,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
-Verba,https://github.com/weaviate/verba,Open-source application for RAG out of the box.,rag-framework,open-source,false,"[""frameworks that facilitate rag""]",repo-hosted,terse,specific
-OpenSearch's AlibabaCloud,https://www.alibabacloud.com/product/opensearch,OpenSearch's AlibabaCloud,search-engine,unknown,false,[],commercial,terse,specific
-Qdrant - Vector Similarity Search Engine with extended filtering support,https://github.com/qdrant/qdrant,Qdrant - Vector Similarity Search Engine with extended filtering support,vector-db-engine,open-source,false,"[""awesome vector search engine"",""standalone service""]",repo-hosted,normal,specific
 VideoRAG,https://arxiv.org/abs/2501.05874,Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.,agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
-Weights & Biases,https://wandb.ai/wandb-japan/rag-hands-on/reports/step-for-developing-and-evaluating-rag-application-with-w-b--vmlldzo1nzu4otax,"Tracks experiments, logs metrics, and visualizes performance.",rag-eval,unknown,false,"[""metrics & evaluation"",""response evaluation metrics""]",commercial,normal,specific
-Prompt Caching,https://medium.com/@1kg/prompt-cache-what-is-prompt-caching-a-comprehensive-guide-e6cbae48e6a3,Optimizes LLMs by storing and reusing precomputed attention states.,rag-framework,unknown,false,"[""techniques"",""prompting""]",commercial,normal,specific
+MyScale's Vector Database Benchmark,https://myscale.github.io/benchmark/#/benchmark,MyScale's Vector Database Benchmark,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
+Denser Retriever,https://denser.ai,Denser Retriever,rag-framework,unknown,false,[],commercial,terse,specific
+OpenSearch's AlibabaCloud,https://www.alibabacloud.com/product/opensearch,OpenSearch's AlibabaCloud,search-engine,unknown,false,[],commercial,terse,specific
+"Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",https://cassandra.apache.org,"Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",vector-db-engine,unknown,false,"[""awesome vector search engine"",""standalone service""]",commercial,normal,specific
+RAG Fusion,https://arxiv.org/abs/2402.03367,Techniques combining multiple retrieval methods for improved context integration.,agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
+Foundations of Vector Retrieval,https://arxiv.org/abs/2401.09350,Foundations of Vector Retrieval,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
+Tantivy,https://github.com/quickwit-oss/tantivy,Tantivy — rag-framework API,rag-framework,open-source,false,"[""texts""]",repo-hosted,absent,specific
 Typesense's Cloud,https://cloud.typesense.org,Typesense's Cloud,search-engine,unknown,false,[],commercial,terse,specific
-MyScale,https://myscale.com,MyScale — vector-db-engine API,vector-db-engine,unknown,false,[],commercial,absent,specific
-REFRAG,https://arxiv.org/pdf/2509.01092,"Optimizes RAG decoding by compressing retrieved context into embeddings before generation, reducing latency while maintaining output quality.",agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
-Jaccard Similarity,https://en.wikipedia.org/wiki/jaccard_index,Jaccard Similarity,rag-eval,unknown,false,"[""metrics & evaluation"",""similarity metrics for embeddings""]",commercial,terse,specific
-Agentset,https://github.com/agentset-ai/agentset,"Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and multimodal support.",rag-framework,open-source,false,"[""frameworks that facilitate rag""]",repo-hosted,normal,specific
+USearch,https://github.com/unum-cloud/usearch,USearch — vector-db-engine API,vector-db-engine,open-source,false,"[""multidimensional data / vectors""]",repo-hosted,absent,specific
+Agentic RAG,https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag,"Also known as retrieval agents, can make decisions on retrieval processes.",agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
+VectorDBZ,https://github.com/vectordbz/vectordbz,GUI desktop app for exploring and debugging vector databases,rag-eval,open-source,false,"[""others""]",repo-hosted,normal,specific
+Recursive Chunking,https://medium.com/@abhiramivs/chunking-methods-all-to-know-about-it-65c10aa7b24e,Recursive Chunking,rag-framework,unknown,false,"[""techniques"",""chunking""]",commercial,terse,specific
 OpenSearch,https://opensearch.org/,OpenSearch,search-engine,unknown,false,[],commercial,terse,specific
-OasysDB,https://github.com/oasysai/oasysdb,[Notebook],vector-db-engine,open-source,false,"[""multidimensional data / vectors""]",repo-hosted,terse,specific
-A-RAG,https://github.com/ayanami0730/arag,"Agentic RAG with hierarchical retrieval interfaces (keyword, semantic, chunk-level), enabling LLM agents to autonomously search and retrieve at multiple granularities. (Paper)",agentic-rag,open-source,false,"[""advanced approaches""]",repo-hosted,normal,specific
-Neural Search In Action,https://matsui528.github.io/cvpr2023_tutorial_neural_search,Neural Search In Action,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
-Hypothetical Questions,https://pixion.co/blog/rag-strategies-hypothetical-questions-hyde,Hypothetical Questions,rag-framework,unknown,false,"[""techniques"",""retrieval""]",commercial,terse,specific
+Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs,https://arxiv.org/abs/1603.09320,Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs,vector-db-engine,unknown,false,"[""awesome vector search engine"",""research papers""]",commercial,normal,specific
+Plan-then-RAG,https://arxiv.org/abs/2406.12430,(PlanRAG): Strategies involving planning stages before executing RAG for complex tasks.,agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
+WFGY Problem Map,https://github.com/onestardao/wfgy/tree/main/problemmap,16-mode checklist for diagnosing RAG and LLM failures.,rag-eval,open-source,false,"[""metrics & evaluation"",""response evaluation metrics""]",repo-hosted,normal,specific
+Agentic Chunking,https://youtu.be/8ojc21t2sl4?si=8vnyaguabmtzhcsg&t=2882,Agentic Chunking,rag-framework,unknown,false,"[""techniques"",""chunking""]",commercial,terse,specific
 Meilisearch,https://www.meilisearch.com/solutions/vector-search,Meilisearch,search-engine,unknown,false,[],commercial,terse,specific
-Vald,https://vald.vdaas.org/,Vald — vector-db-engine API,vector-db-engine,unknown,false,"[""multidimensional data / vectors""]",commercial,absent,specific
+vsag,https://github.com/alipay/vsag,vsag — vector-db-engine API,vector-db-engine,open-source,false,"[""multidimensional data / vectors""]",repo-hosted,absent,specific
