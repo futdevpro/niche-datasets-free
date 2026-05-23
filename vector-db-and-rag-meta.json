@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "slug": "vector-db-and-rag",
   "name": "Vector DB & RAG Infrastructure Directory",
-  "recordCount": "190+",
+  "recordCount": "200+",
   "description": "Catalog of 190+ vector databases and RAG infrastructure tools \u2014 embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends.",
   "keywords": [
     "vector database",
@@ -12,7 +12,7 @@
     "semantic search"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-23",
+  "lastRefreshed": "2026-05-24",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/vector-db-and-rag.html",
@@ -34,5 +34,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
     }
   ],
-  "liveRecordCount": 227
+  "liveRecordCount": 224
 }

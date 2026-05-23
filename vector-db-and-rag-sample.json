@@ -1,22 +1,22 @@
 [
   {
-    "name": "VideoRAG",
-    "url": "https://arxiv.org/abs/2501.05874",
-    "description": "Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.",
+    "name": "GraphRAG",
+    "url": "https://github.com/microsoft/graphrag",
+    "description": "A structured approach using knowledge graphs for enhanced context integration and reasoning.",
     "category": "agentic-rag",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "advanced approaches"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "MyScale's Vector Database Benchmark",
-    "url": "https://myscale.github.io/benchmark/#/benchmark",
-    "description": "MyScale's Vector Database Benchmark",
+    "name": "Billion-scale ANNS Benchmarks",
+    "url": "https://big-ann-benchmarks.com",
+    "description": "Billion-scale ANNS Benchmarks",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
@@ -28,224 +28,18 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Denser Retriever",
-    "url": "https://denser.ai",
-    "description": "Denser Retriever",
-    "category": "rag-framework",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OpenSearch's AlibabaCloud",
-    "url": "https://www.alibabacloud.com/product/opensearch",
-    "description": "OpenSearch's AlibabaCloud",
-    "category": "search-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",
-    "url": "https://cassandra.apache.org",
-    "description": "Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",
-    "category": "vector-db-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "awesome vector search engine",
-      "standalone service"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "RAG Fusion",
-    "url": "https://arxiv.org/abs/2402.03367",
-    "description": "Techniques combining multiple retrieval methods for improved context integration.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Foundations of Vector Retrieval",
-    "url": "https://arxiv.org/abs/2401.09350",
-    "description": "Foundations of Vector Retrieval",
-    "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Tantivy",
-    "url": "https://github.com/quickwit-oss/tantivy",
-    "description": "Tantivy — rag-framework API",
-    "category": "rag-framework",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "texts"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Typesense's Cloud",
-    "url": "https://cloud.typesense.org",
-    "description": "Typesense's Cloud",
-    "category": "search-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "USearch",
-    "url": "https://github.com/unum-cloud/usearch",
-    "description": "USearch — vector-db-engine API",
-    "category": "vector-db-engine",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "multidimensional data / vectors"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Agentic RAG",
-    "url": "https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag",
-    "description": "Also known as retrieval agents, can make decisions on retrieval processes.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "VectorDBZ",
-    "url": "https://github.com/vectordbz/vectordbz",
-    "description": "GUI desktop app for exploring and debugging vector databases",
-    "category": "rag-eval",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Recursive Chunking",
-    "url": "https://medium.com/@abhiramivs/chunking-methods-all-to-know-about-it-65c10aa7b24e",
-    "description": "Recursive Chunking",
+    "name": "Tagging and Labeling",
+    "url": "https://python.langchain.com/v0.1/docs/use_cases/tagging",
+    "description": "Adding semantic tags or labels to retrieved data to enhance relevance.",
     "category": "rag-framework",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "techniques",
-      "chunking"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OpenSearch",
-    "url": "https://opensearch.org/",
-    "description": "OpenSearch",
-    "category": "search-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
-    "url": "https://arxiv.org/abs/1603.09320",
-    "description": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
-    "category": "vector-db-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "awesome vector search engine",
-      "research papers"
+      "prompting"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Plan-then-RAG",
-    "url": "https://arxiv.org/abs/2406.12430",
-    "description": "(PlanRAG): Strategies involving planning stages before executing RAG for complex tasks.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "WFGY Problem Map",
-    "url": "https://github.com/onestardao/wfgy/tree/main/problemmap",
-    "description": "16-mode checklist for diagnosing RAG and LLM failures.",
-    "category": "rag-eval",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "metrics & evaluation",
-      "response evaluation metrics"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Agentic Chunking",
-    "url": "https://youtu.be/8ojc21t2sl4?si=8vnyaguabmtzhcsg&t=2882",
-    "description": "Agentic Chunking",
-    "category": "rag-framework",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "techniques",
-      "chunking"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -261,9 +55,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "vsag",
-    "url": "https://github.com/alipay/vsag",
-    "description": "vsag — vector-db-engine API",
+    "name": "pgvector",
+    "url": "https://github.com/pgvector/pgvector",
+    "description": "pgvector — vector-db-engine API",
     "category": "vector-db-engine",
     "pricing": "open-source",
     "hasApi": false,
@@ -272,6 +66,211 @@
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Vision-RAG",
+    "url": "https://www.youtube.com/watch?v=npkp4msweeg",
+    "description": "Embeds entire pages as images, allowing vision models to handle reasoning directly without parsing text-RAG.",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Qdrant's Vector Database Benchmarks",
+    "url": "https://qdrant.tech/benchmarks",
+    "description": "Qdrant's Vector Database Benchmarks",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenAgent",
+    "url": "https://github.com/the-open-agent/openagent",
+    "description": "Open-source personal AI assistant platform combining LLMs, RAG knowledge base, and autonomous agent loops with browser-use, shell execution, and MCP tool support.",
+    "category": "rag-framework",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "frameworks that facilitate rag"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Typesense's Cloud",
+    "url": "https://cloud.typesense.org",
+    "description": "Typesense's Cloud",
+    "category": "search-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "brinicle",
+    "url": "https://github.com/bicardinal/brinicle",
+    "description": "Resource-efficient C++ vector index engine built for low-RAM production workloads",
+    "category": "vector-db-engine",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "InstructRAG",
+    "url": "https://github.com/weizhepei/instructrag",
+    "description": "Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality.",
+    "category": "agentic-rag",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Vector Database Group @ NTU",
+    "url": "https://vectordb-ntu.github.io",
+    "description": "Vector Database Research Group at Nanyang Technological University [Github]",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Token-Oriented Object Notation",
+    "url": "https://github.com/toon-format/toon",
+    "description": "A compact, deterministic JSON format for LLM prompts.",
+    "category": "rag-framework",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "prompting"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenSearch",
+    "url": "https://opensearch.org/",
+    "description": "OpenSearch",
+    "category": "search-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SuperDuperDB",
+    "url": "https://github.com/superduperdb/superduperdb",
+    "description": "SuperDuperDB",
+    "category": "vector-db-engine",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Cache-Augmented Generation (CAG)",
+    "url": "https://medium.com/@ronantech/cache-augmented-generation-cag-in-llms-a-step-by-step-tutorial-6ac35d415eec",
+    "description": "Preloads relevant documents into a model’s context and stores the inference state (Key-Value (KV) cache).",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "MyScale Vector Database Benchmark 🚀",
+    "url": "https://github.com/myscale/vector-db-benchmark",
+    "description": "MyScale Vector Database Benchmark 🚀",
+    "category": "rag-eval",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "comparisons"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Zero-Shot Prompting",
+    "url": "https://www.promptingguide.ai/techniques/zeroshot",
+    "description": "Designing prompts that guide the model without any examples.",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "prompting"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenSearch's AlibabaCloud",
+    "url": "https://www.alibabacloud.com/product/opensearch",
+    "description": "OpenSearch's AlibabaCloud",
+    "category": "search-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Picking a vector database",
+    "url": "https://benchmark.vectorview.ai/vectordbs.html",
+    "description": "Picking a vector database",
+    "category": "vector-db-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "databases",
+      "benchmarks"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
 ]

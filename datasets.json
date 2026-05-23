@@ -575,7 +575,7 @@
     {
       "slug": "llmops-and-eval",
       "name": "LLMOps & Eval Tooling Directory",
-      "recordCount": "490+",
+      "recordCount": "500+",
       "description": "Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks.",
       "keywords": [
         "llmops",
@@ -645,7 +645,7 @@
     {
       "slug": "vector-db-and-rag",
       "name": "Vector DB & RAG Infrastructure Directory",
-      "recordCount": "190+",
+      "recordCount": "200+",
       "description": "Catalog of 190+ vector databases and RAG infrastructure tools \u2014 embeddings stores, retrieval engines, RAG frameworks, hybrid-search backends.",
       "keywords": [
         "vector database",
@@ -675,7 +675,7 @@
           "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
         }
       ],
-      "liveRecordCount": 227
+      "liveRecordCount": 224
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "slug": "llmops-and-eval",
   "name": "LLMOps & Eval Tooling Directory",
-  "recordCount": "490+",
+  "recordCount": "500+",
   "description": "Catalog of 490+ LLM platform tools spanning evaluation frameworks, observability, prompt management, model serving, fine-tuning, routing/gateway, guardrails, and agent frameworks.",
   "keywords": [
     "llmops",

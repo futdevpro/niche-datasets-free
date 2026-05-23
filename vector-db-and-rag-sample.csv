@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,urlDomainTier,descriptionLengthTier,categorizationTier
-VideoRAG,https://arxiv.org/abs/2501.05874,Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.,agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
-MyScale's Vector Database Benchmark,https://myscale.github.io/benchmark/#/benchmark,MyScale's Vector Database Benchmark,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
-Denser Retriever,https://denser.ai,Denser Retriever,rag-framework,unknown,false,[],commercial,terse,specific
-OpenSearch's AlibabaCloud,https://www.alibabacloud.com/product/opensearch,OpenSearch's AlibabaCloud,search-engine,unknown,false,[],commercial,terse,specific
-"Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",https://cassandra.apache.org,"Apache Cassandra 5.0 – Vector search (cep-30), Strict Serialisable ACID (cep-15), horizontally scaling database",vector-db-engine,unknown,false,"[""awesome vector search engine"",""standalone service""]",commercial,normal,specific
-RAG Fusion,https://arxiv.org/abs/2402.03367,Techniques combining multiple retrieval methods for improved context integration.,agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
-Foundations of Vector Retrieval,https://arxiv.org/abs/2401.09350,Foundations of Vector Retrieval,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
-Tantivy,https://github.com/quickwit-oss/tantivy,Tantivy — rag-framework API,rag-framework,open-source,false,"[""texts""]",repo-hosted,absent,specific
-Typesense's Cloud,https://cloud.typesense.org,Typesense's Cloud,search-engine,unknown,false,[],commercial,terse,specific
-USearch,https://github.com/unum-cloud/usearch,USearch — vector-db-engine API,vector-db-engine,open-source,false,"[""multidimensional data / vectors""]",repo-hosted,absent,specific
-Agentic RAG,https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag,"Also known as retrieval agents, can make decisions on retrieval processes.",agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
-VectorDBZ,https://github.com/vectordbz/vectordbz,GUI desktop app for exploring and debugging vector databases,rag-eval,open-source,false,"[""others""]",repo-hosted,normal,specific
-Recursive Chunking,https://medium.com/@abhiramivs/chunking-methods-all-to-know-about-it-65c10aa7b24e,Recursive Chunking,rag-framework,unknown,false,"[""techniques"",""chunking""]",commercial,terse,specific
-OpenSearch,https://opensearch.org/,OpenSearch,search-engine,unknown,false,[],commercial,terse,specific
-Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs,https://arxiv.org/abs/1603.09320,Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs,vector-db-engine,unknown,false,"[""awesome vector search engine"",""research papers""]",commercial,normal,specific
-Plan-then-RAG,https://arxiv.org/abs/2406.12430,(PlanRAG): Strategies involving planning stages before executing RAG for complex tasks.,agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
-WFGY Problem Map,https://github.com/onestardao/wfgy/tree/main/problemmap,16-mode checklist for diagnosing RAG and LLM failures.,rag-eval,open-source,false,"[""metrics & evaluation"",""response evaluation metrics""]",repo-hosted,normal,specific
-Agentic Chunking,https://youtu.be/8ojc21t2sl4?si=8vnyaguabmtzhcsg&t=2882,Agentic Chunking,rag-framework,unknown,false,"[""techniques"",""chunking""]",commercial,terse,specific
+GraphRAG,https://github.com/microsoft/graphrag,A structured approach using knowledge graphs for enhanced context integration and reasoning.,agentic-rag,open-source,false,"[""advanced approaches""]",repo-hosted,normal,specific
+Billion-scale ANNS Benchmarks,https://big-ann-benchmarks.com,Billion-scale ANNS Benchmarks,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
+Tagging and Labeling,https://python.langchain.com/v0.1/docs/use_cases/tagging,Adding semantic tags or labels to retrieved data to enhance relevance.,rag-framework,unknown,false,"[""techniques"",""prompting""]",commercial,normal,specific
 Meilisearch,https://www.meilisearch.com/solutions/vector-search,Meilisearch,search-engine,unknown,false,[],commercial,terse,specific
-vsag,https://github.com/alipay/vsag,vsag — vector-db-engine API,vector-db-engine,open-source,false,"[""multidimensional data / vectors""]",repo-hosted,absent,specific
+pgvector,https://github.com/pgvector/pgvector,pgvector — vector-db-engine API,vector-db-engine,open-source,false,"[""multidimensional data / vectors""]",repo-hosted,absent,specific
+Vision-RAG,https://www.youtube.com/watch?v=npkp4msweeg,"Embeds entire pages as images, allowing vision models to handle reasoning directly without parsing text-RAG.",agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
+Qdrant's Vector Database Benchmarks,https://qdrant.tech/benchmarks,Qdrant's Vector Database Benchmarks,rag-eval,unknown,false,"[""others""]",commercial,terse,specific
+OpenAgent,https://github.com/the-open-agent/openagent,"Open-source personal AI assistant platform combining LLMs, RAG knowledge base, and autonomous agent loops with browser-use, shell execution, and MCP tool support.",rag-framework,open-source,false,"[""frameworks that facilitate rag""]",repo-hosted,normal,specific
+Typesense's Cloud,https://cloud.typesense.org,Typesense's Cloud,search-engine,unknown,false,[],commercial,terse,specific
+brinicle,https://github.com/bicardinal/brinicle,Resource-efficient C++ vector index engine built for low-RAM production workloads,vector-db-engine,open-source,false,"[""multidimensional data / vectors""]",repo-hosted,normal,specific
+InstructRAG,https://github.com/weizhepei/instructrag,Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality.,agentic-rag,open-source,false,"[""advanced approaches""]",repo-hosted,normal,specific
+Vector Database Group @ NTU,https://vectordb-ntu.github.io,Vector Database Research Group at Nanyang Technological University [Github],rag-eval,unknown,false,"[""others""]",commercial,normal,specific
+Token-Oriented Object Notation,https://github.com/toon-format/toon,"A compact, deterministic JSON format for LLM prompts.",rag-framework,open-source,false,"[""techniques"",""prompting""]",repo-hosted,normal,specific
+OpenSearch,https://opensearch.org/,OpenSearch,search-engine,unknown,false,[],commercial,terse,specific
+SuperDuperDB,https://github.com/superduperdb/superduperdb,SuperDuperDB,vector-db-engine,open-source,false,[],repo-hosted,terse,specific
+Cache-Augmented Generation (CAG),https://medium.com/@ronantech/cache-augmented-generation-cag-in-llms-a-step-by-step-tutorial-6ac35d415eec,Preloads relevant documents into a model’s context and stores the inference state (Key-Value (KV) cache).,agentic-rag,unknown,false,"[""advanced approaches""]",commercial,normal,specific
+MyScale Vector Database Benchmark 🚀,https://github.com/myscale/vector-db-benchmark,MyScale Vector Database Benchmark 🚀,rag-eval,open-source,false,"[""comparisons""]",repo-hosted,terse,specific
+Zero-Shot Prompting,https://www.promptingguide.ai/techniques/zeroshot,Designing prompts that guide the model without any examples.,rag-framework,unknown,false,"[""techniques"",""prompting""]",commercial,normal,specific
+OpenSearch's AlibabaCloud,https://www.alibabacloud.com/product/opensearch,OpenSearch's AlibabaCloud,search-engine,unknown,false,[],commercial,terse,specific
+Picking a vector database,https://benchmark.vectorview.ai/vectordbs.html,Picking a vector database,vector-db-engine,unknown,false,"[""databases"",""benchmarks""]",commercial,terse,specific
