@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Niche Datasets — Free Samples API",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "summary": "Programmatically enumerable catalog of 20 developer + AI dataset samples.",
     "description": "Read-only, no-auth API for machine discovery of the niche-datasets free preview surface. Returns dataset metadata (record count, sample URLs, refresh date, related datasets, full-version URL). Suitable for agents that need to query the catalog without browsing.\n\n**Distribution notes for agent-callers:** the free tier is a static GitHub Pages surface — no rate limit, no API key, no signup. For per-call billing or higher-volume access patterns, see the project status updates linked from the homepage. (As of 2026-05-20, the distribution model is under planning.)",
     "license": {
@@ -160,7 +160,18 @@
             "items": {"type": "string"},
             "description": "Slugs of thematically-near datasets."
           },
-          "catalogUrl": {"type": "string", "format": "uri"}
+          "catalogUrl": {"type": "string", "format": "uri"},
+          "bundles": {
+            "type": "array",
+            "description": "Themed bundles that include this dataset. Mirror of the schema.org isPartOf graph in the JSON-LD payload, exposed as flat JSON for non-JSON-LD consumers.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string", "example": "Dev Stack Pack"},
+                "url": {"type": "string", "format": "uri"}
+              }
+            }
+          }
         }
       }
     }
