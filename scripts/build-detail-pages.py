@@ -467,6 +467,18 @@ def build_index_jsonld(repo_root=None):
                 {"@type": "DataDownload", "encodingFormat": "text/csv",
                  "contentUrl": f"https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/{d['slug']}-sample.csv"},
             ],
+            "offers": {
+                "@type": "Offer",
+                "price": d["price"],
+                "priceCurrency": "USD",
+                "url": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                    "@type": "Organization",
+                    "name": "Future Development Program",
+                    "url": "https://jhonnyronnie.gumroad.com/",
+                },
+            },
         })
     return json.dumps({
         "@context": "https://schema.org/",
