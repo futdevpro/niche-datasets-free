@@ -117,7 +117,7 @@ npx openapi-typescript \
 <tbody>
 <tr><td>Cache</td><td>GitHub Pages CDN; default <code>Cache-Control: max-age=600</code>. Responses are freshness-stamped via the embedded <code>lastRefreshed</code> field — trust that over the HTTP cache header.</td></tr>
 <tr><td>Rate limit</td><td>None on Pages itself. GitHub may rate-limit raw.githubusercontent.com on the sample URLs at extreme volume (~10k req/min from one IP) — back off with jitter.</td></tr>
-<tr><td>Refresh cadence</td><td>Per-source. The fastest-moving (npm, HuggingFace) get nightly-to-weekly pulls. The slowest (awesome-list mirrors) get monthly. See <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a> for the per-source churn numbers that drive this cadence.</td></tr>
+<tr><td>Refresh cadence</td><td>Per-source. The fastest-moving (npm, HuggingFace) get nightly-to-weekly pulls. The slowest (awesome-list mirrors) get monthly. See the <a href="blog-2026-05-23-3-day-update.html">3-day update (2026-05-23)</a> and <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a> for the per-source churn numbers that drive this cadence.</td></tr>
 <tr><td>Auth</td><td>None on the sample tier. Full data ZIPs are gated on <a href="https://jhonnyronnie.gumroad.com/">Gumroad purchase</a>.</td></tr>
 </tbody>
 </table>

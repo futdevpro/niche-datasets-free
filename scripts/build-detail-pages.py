@@ -464,6 +464,7 @@ def build_sitemap():
         ("https://futdevpro.github.io/niche-datasets-free/examples.html",                          "0.7", "monthly"),
         ("https://futdevpro.github.io/niche-datasets-free/vs.html",                                "0.7", "monthly"),
         ("https://futdevpro.github.io/niche-datasets-free/faq.html",                               "0.7", "monthly"),
+        ("https://futdevpro.github.io/niche-datasets-free/blog-2026-05-23-3-day-update.html",      "0.7", "yearly"),
         ("https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html",    "0.7", "yearly"),
         ("https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html",          "0.7", "yearly"),
         ("https://futdevpro.github.io/niche-datasets-free/changelog.html",                         "0.6", "weekly"),
