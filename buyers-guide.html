@@ -138,6 +138,15 @@
 <p class="pick"><strong>Why bundle here:</strong> training data wants <em>breadth</em>, not depth. One dataset = narrow agent. The mega-bundle has 55,000+ records spanning every developer-adjacent niche in one schema-validated format.</p>
 </div>
 
+<h2 id="use-case-9">Use case 9 — Mirror our catalog into your own pipeline</h2>
+
+<div class="use-case">
+<h3>"I want to subscribe to a maintained catalog without rebuilding the scrapers myself, and refresh-cycle whenever something actually changes."</h3>
+<p class="pick"><strong>Primary surface:</strong> <a href="datasets.json">/datasets.json</a> + 20 × <code>/&lt;slug&gt;-meta.json</code> endpoints — each entry carries <code>liveRecordCount</code> (exact int) alongside the marketing <code>recordCount</code> string. Poll daily, diff against your saved snapshot, pull only what changed.</p>
+<p class="pick"><strong>Runnable example:</strong> the <a href="examples.html#change-detection">change-detection Python loop</a> on <code>/examples.html</code> does this in ~20 lines. Same numbers as the <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a> table — reproducible.</p>
+<p class="pick"><strong>For per-dataset depth:</strong> grab the full ZIP from Gumroad (single SKU or any bundle). Subscribe to <a href="feed.xml">/feed.xml</a> RSS for refresh notifications instead of polling.</p>
+</div>
+
 <h2 id="decision-table">Quick decision table</h2>
 
 <table>
@@ -153,6 +162,7 @@
 <tr><td>OSS alternatives site</td><td>open-source-alternatives + self-hosted ($22)</td><td>ai-models-pricing (off-topic)</td></tr>
 <tr><td>Security tool catalog</td><td>cybersecurity-tools ($11)</td><td>design-resources (off-topic)</td></tr>
 <tr><td>LLM training data (broad)</td><td>Platform Builder Pack ($29)</td><td>single SKUs (narrow)</td></tr>
+<tr><td>Mirror catalog into your pipeline</td><td>Free /datasets.json + liveRecordCount poll loop</td><td>Re-scraping the sources yourself</td></tr>
 </tbody>
 </table>
 
