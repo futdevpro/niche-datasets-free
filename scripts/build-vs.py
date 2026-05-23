@@ -103,12 +103,12 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 
 {comparisons_html}
 
-<h2>TL;DR — when to use Niche Datasets</h2>
+<h2 id="tldr">TL;DR — when to use Niche Datasets</h2>
 <p>You want a <strong>structured enumeration of a developer or AI tooling space</strong> (npm, MCP servers, HuggingFace models, Homebrew formulae, vector DBs, AI agents, etc.) that you can filter / sort / join / repackage. Monthly-or-quarterly refresh, license-clean for commercial use, $7-$14 per dataset or $24-$34 in bundles. Free 20-record samples to evaluate the schema before buying.</p>
 
 <p>You'd reach for an alternative if: you need <em>training data</em> (Kaggle / HuggingFace), <em>brand-new launches</em> (ProductHunt), or <em>a bespoke catalog</em> not in our list of 20 (custom scrape).</p>
 
-<h2>The common thread — semantic enum tiers</h2>
+<h2 id="common-thread">The common thread — semantic enum tiers</h2>
 <p>Every alternative above hands you raw data and expects you to invent your own filtering vocabulary. We ship <strong>derived semantic enum tier fields</strong> on every record: <code>costTierAbsolute</code>, <code>useCaseTier</code>, <code>uptimeTier</code>, <code>licenseTier</code>, <code>popularityTier</code>, <code>vendorTier</code>, and ~40 more. Filter by enum names that survive refresh-shifts (absolute thresholds) and stay consistent across datasets (same enum name across HF models + HF datasets + ai-models-pricing). Full reference: <a href="tiers.html">all tiers</a> · methodology: <a href="blog-semantic-enum-tiers.html">semantic enum tiers post</a>.</p>
 
 <p><a class="cta" href="./">Browse the 20 datasets</a> &nbsp;·&nbsp; <a href="examples.html">Code examples for loading</a></p>
@@ -135,12 +135,13 @@ def esc(s):
 
 
 def build_comparisons_html():
+    import re as _re
     parts = []
     for c in COMPARISONS:
         alt_safe = esc(c["alt"])
-        # use_case/good_at/weak_at/vs_us can contain inline HTML (code, em, strong) — don't escape
+        anchor = _re.sub(r"[^a-z0-9]+", "-", c["alt"].lower()).strip("-")
         parts.append(
-            f"<h2>vs. {alt_safe}</h2>\n"
+            f'<h2 id="vs-{anchor}">vs. {alt_safe}</h2>\n'
             f"<div class='row'>\n"
             f"  <h3>When to use it</h3>\n"
             f"  <p>{c['use_case']}</p>\n"
