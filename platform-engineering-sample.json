@@ -1,14 +1,14 @@
 [
   {
-    "name": "TeamCity",
-    "url": "https://www.jetbrains.com/teamcity",
-    "description": "TeamCity — ci-cd-pipeline API",
+    "name": "MS Build",
+    "url": "https://www.microsoft.com/en-us/build",
+    "description": "MS Build — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous integration",
-      "integration"
+      "build"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
@@ -29,26 +29,27 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Open Platform for Enterprise AI",
-    "url": "https://opea.dev",
-    "description": "An ecosystem orchestration framework to integrate performant GenAI technologies & workflows leading to quicker GenAI adoption and business value.",
+    "name": "Wrike",
+    "url": "https://www.wrike.com/",
+    "description": "Wrike — developer-experience API",
     "category": "developer-experience",
     "pricing": "unknown",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "specifications"
+      "development",
+      "project management & issue tracking software"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "API docs with Swagger- OpenAPI Specification",
-    "url": "https://swagger.io/specification",
-    "description": "API docs with Swagger- OpenAPI Specification",
+    "name": "MkDocs- documentation with Markdown",
+    "url": "https://www.mkdocs.org/",
+    "description": "MkDocs- documentation with Markdown",
     "category": "developer-portal",
     "pricing": "unknown",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "tooling— development portal and documentation"
     ],
@@ -71,9 +72,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Terragrunt for deployment environments (dev/staging/prod) and other features",
-    "url": "https://github.com/gruntwork-io/terragrunt",
-    "description": "Terragrunt for deployment environments (dev/staging/prod) and other features",
+    "name": "Terrateam - GitOps-first open-source IaC automation for Terraform, OpenTofu, and more",
+    "url": "https://github.com/terrateamio/terrateam",
+    "description": "Terrateam - GitOps-first open-source IaC automation for Terraform, OpenTofu, and more",
     "category": "iac-and-provisioning",
     "pricing": "open-source",
     "hasApi": false,
@@ -85,17 +86,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "loggly",
-    "url": "https://www.loggly.com/",
-    "description": "loggly — observability API",
+    "name": "AlertManager",
+    "url": "https://prometheus.io/docs/alerting/latest/alertmanager",
+    "description": "AlertManager",
     "category": "observability",
     "pricing": "unknown",
     "hasApi": false,
-    "tags": [
-      "continuous monitoring"
-    ],
+    "tags": [],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -111,9 +110,9 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Wazuh",
-    "url": "https://wazuh.com/",
-    "description": "Wazuh — policy-and-governance API",
+    "name": "Qualys Cloud Platform",
+    "url": "https://www.qualys.com/cloud-platform",
+    "description": "Qualys Cloud Platform",
     "category": "policy-and-governance",
     "pricing": "unknown",
     "hasApi": false,
@@ -121,29 +120,29 @@
       "security"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Casdoor- IAM/SSO platform with web UI",
-    "url": "https://github.com/casdoor/casdoor",
-    "description": "Casdoor- IAM/SSO platform with web UI",
-    "category": "secrets-management",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— authentication and authorization"
-    ],
-    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Istio- open source service mesh",
-    "url": "https://istio.io/",
-    "description": "Istio- open source service mesh",
+    "name": "Permit.io - Authorization as a service with a no-code UI",
+    "url": "https://permit.io/",
+    "description": "Permit.io - Authorization as a service with a no-code UI",
+    "category": "secrets-management",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— authentication and authorization"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Traefik- Cloud Native Application Proxy",
+    "url": "https://traefik.io/",
+    "description": "Traefik- Cloud Native Application Proxy",
     "category": "service-mesh",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": true,
     "tags": [
       "tooling— service mesh, api gateway and app proxies"
@@ -153,52 +152,53 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Scalr",
-    "url": "https://www.scalr.com/",
-    "description": "Scalr — ci-cd-pipeline API",
+    "name": "Badwolf",
+    "url": "https://github.com/bosondata/badwolf",
+    "description": "Badwolf — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "continuous delivery",
-      "infrastructure orchestration"
+      "continuous integration",
+      "integration"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
-    "url": "https://github.com/kubestellar/console",
-    "description": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
+    "name": "Dokku- Open source PAAS alternative to Heroku",
+    "url": "https://dokku.com/",
+    "description": "Dokku- Open source PAAS alternative to Heroku",
     "category": "container-orchestration",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— kubernetes, paas and cloud services"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Cherwell",
-    "url": "https://www.cherwell.com/products/it-service-management",
-    "description": "Cherwell — developer-experience API",
+    "name": "Shortcut",
+    "url": "https://www.shortcut.com/",
+    "description": "Shortcut — developer-experience API",
     "category": "developer-experience",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "it service management"
+      "development",
+      "project management & issue tracking software"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Backstage Software Catalog",
-    "url": "https://backstage.io/",
-    "description": "Backstage Software Catalog",
+    "name": "Mogenius",
+    "url": "https://mogenius.com",
+    "description": "The Kubernetes Operations Platform.",
     "category": "developer-portal",
     "pricing": "unknown",
     "hasApi": true,
@@ -210,23 +210,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Digger - Open Source Infratructure as Code management tool",
-    "url": "https://www.github.com/diggerhq/digger",
-    "description": "Digger - Open Source Infratructure as Code management tool",
+    "name": "AWS Proton- Self-service infrastructure templates",
+    "url": "https://aws.amazon.com/proton",
+    "description": "AWS Proton- Self-service infrastructure templates",
     "category": "iac-and-provisioning",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "tooling— infrastructure and artifacts management"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Hydrozen.io",
-    "url": "https://hydrozen.io",
-    "description": "Uptime monitoring & Statuspages",
+    "name": "NewRelic",
+    "url": "https://newrelic.com/",
+    "description": "NewRelic — observability API",
     "category": "observability",
     "pricing": "unknown",
     "hasApi": false,
@@ -234,39 +234,39 @@
       "continuous monitoring"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Pagerly",
-    "url": "https://pagerly.io",
-    "description": "Manage Oncalls and Incidents on Slack",
+    "name": "SLO exporter",
+    "url": "https://github.com/seznam/slo-exporter",
+    "description": "SLO exporter",
     "category": "other",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "Aqua Security",
-    "url": "https://www.aquasec.com/",
-    "description": "Aqua Security",
+    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
+    "url": "https://github.com/checkmarx/kics",
+    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
     "category": "policy-and-governance",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "security"
+      "tooling— security and policies"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "SuperTokens- Open Source User Authentication",
-    "url": "https://github.com/supertokens/supertokens-core",
-    "description": "SuperTokens- Open Source User Authentication",
+    "name": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
+    "url": "https://github.com/ory/keto",
+    "description": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -274,7 +274,7 @@
       "tooling— authentication and authorization"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]
