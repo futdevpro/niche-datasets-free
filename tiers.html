@@ -39,7 +39,7 @@
   footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"TechArticle","headline":"All Semantic Enum Tiers — Cross-Dataset Filter Reference","datePublished":"2026-05-21","dateModified":"2026-05-21","author":{"@type":"Organization","name":"Niche Datasets"},"publisher":{"@type":"Organization","name":"Niche Datasets","url":"https://futdevpro.github.io/niche-datasets-free/"},"mainEntityOfPage":"https://futdevpro.github.io/niche-datasets-free/tiers.html","image":"https://futdevpro.github.io/niche-datasets-free/og-cover.svg","description":"Complete enum-tier reference across 20 niche datasets."}
+{"@context":"https://schema.org","@type":"TechArticle","headline":"All Semantic Enum Tiers — Cross-Dataset Filter Reference","datePublished":"2026-05-21","dateModified":"2026-05-23","author":{"@type":"Organization","name":"Niche Datasets"},"publisher":{"@type":"Organization","name":"Niche Datasets","url":"https://futdevpro.github.io/niche-datasets-free/"},"mainEntityOfPage":"https://futdevpro.github.io/niche-datasets-free/tiers.html","image":"https://futdevpro.github.io/niche-datasets-free/og-cover.svg","description":"Complete enum-tier reference across 20 niche datasets."}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},{"@type":"ListItem","position":2,"name":"All Tiers","item":"https://futdevpro.github.io/niche-datasets-free/tiers.html"}]}
@@ -53,7 +53,7 @@
 <p class="lead">Every derived enum-tier field in the catalog, grouped by dataset and cross-referenced where tiers are shared across multiple datasets. Filter syntax is identical across datasets when the enum name matches.</p>
 <p>Methodology behind these tiers: <a href="blog-semantic-enum-tiers.html">Semantic enum tiers post</a>.</p>
 
-<h2>At a glance</h2>
+<h2 id="at-a-glance">At a glance</h2>
 <table><thead><tr><th>Stat</th><th>Value</th></tr></thead><tbody>
 <tr><td>Datasets with derived enum tiers</td><td><strong>11</strong> of 20</td></tr>
 <tr><td>Total tier-fields across the catalog</td><td><strong>63</strong></td></tr>
@@ -61,14 +61,14 @@
 <tr><td>Datasets without tiers (awesome-list mirrors, mostly)</td><td><strong>9</strong></td></tr>
 <tr><td>Most tier-dense dataset</td><td><a href="ai-models-pricing.html">ai-models-pricing</a> (13 tiers)</td></tr>
 </tbody></table>
-<h2>Recently added (2026-05-21)</h2>
+<h2 id="recently-added">Recently added (2026-05-21)</h2>
 <ul class="enum-list">
 <li><code>vendorTier</code> on <a href="cybersecurity-tools.html">cybersecurity-tools</a> — buyer-aligned <code>oss</code> / <code>commercial</code> / <code>dual</code> / <code>freeware</code> / <code>unknown</code> derived from <code>isOpenSource × pricing</code> + text-pattern detection (open-core, community+enterprise, AGPL+commercial).</li>
 <li><code>licenseTier</code> on <a href="open-source-alternatives.html">open-source-alternatives</a> — now matches the same enum across <a href="huggingface-models.html">HF models</a>, <a href="huggingface-datasets.html">HF datasets</a>, <a href="npm-packages.html">npm</a>, and <a href="homebrew-packages.html">Homebrew</a> (5 datasets total share this enum).</li>
 <li><code>useCaseTier</code> on <a href="ai-models-pricing.html">ai-models-pricing</a> (2026-05-20) — completes the cross-symmetric trio with <a href="huggingface-models.html">HF models</a> and <a href="huggingface-datasets.html">HF datasets</a>. <code>useCaseTier=code</code> now filters all three consistently.</li>
 </ul>
 <p>See <a href="blog-semantic-enum-tiers.html">tier methodology</a> for the design rules.</p>
-<h2>Shared tiers (same enum across 2+ datasets)</h2>
+<h2 id="shared">Shared tiers (same enum across 2+ datasets)</h2>
 <p>A query like <code>useCaseTier=code</code> returns matching records consistently across all listed datasets.</p>
 <table><thead><tr><th>Tier name</th><th>Datasets that ship it</th><th>x</th></tr></thead><tbody>
 <tr class="shared"><td><code>popularityTier</code></td><td><a href="homebrew-packages.html">homebrew-packages</a> | <a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a> | <a href="npm-packages.html">npm-packages</a> | <a href="vscode-extensions.html">vscode-extensions</a></td><td>5</td></tr>
@@ -82,7 +82,7 @@
 <tr class="shared"><td><code>languageTier</code></td><td><a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a></td><td>2</td></tr>
 <tr class="shared"><td><code>creatorTier</code></td><td><a href="huggingface-datasets.html">huggingface-datasets</a> | <a href="huggingface-models.html">huggingface-models</a></td><td>2</td></tr>
 </tbody></table>
-<h2>Per-dataset enum tiers</h2>
+<h2 id="per-dataset">Per-dataset enum tiers</h2>
 <p>Each dataset lists every <em>derived</em> enum field (the source API does not expose these directly; the pipeline computes them).</p>
 <div class="ds-block">
 <h3><a href="ai-models-pricing.html">ai-models-pricing</a> <span class="badge">13 tiers</span></h3>
@@ -191,7 +191,7 @@
 <li><code>versionTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>prerelease</code> / <code>stable</code> / <code>mature</code> / <code>veteran</code> / <code>unknown</code></span></li>
 <li><code>installVolumeTier</code> <span class="badge">shared</span><br><span style="font-size:.85em;color:#555">to <code>viral</code> / <code>mainstream</code> / <code>established</code> / <code>niche</code> / <code>emerging</code> / <code>unknown</code></span></li>
 </ul></div>
-<h2>Datasets without derived enum tiers (yet)</h2>
+<h2 id="no-tiers">Datasets without derived enum tiers (yet)</h2>
 <p>These are mostly awesome-list mirrors where the source data does not have enough structure to derive meaningful semantic tiers without LLM enrichment. Adding tiers to these is on the roadmap.</p>
 <ul>
 <li><a href="ai-agents.html">ai-agents</a></li>

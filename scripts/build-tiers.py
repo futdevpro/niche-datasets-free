@@ -129,7 +129,7 @@ def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
     total_tier_fields = sum(len(v) for v in data.values())
     shared_count = sum(1 for v in share.values() if len(v) >= 2)
     no_tier_count = len(ALL_DATASETS) - len(data)
-    out.append("<h2>At a glance</h2>")
+    out.append('<h2 id="at-a-glance">At a glance</h2>')
     out.append("<table><thead><tr><th>Stat</th><th>Value</th></tr></thead><tbody>")
     out.append(
         f'<tr><td>Datasets with derived enum tiers</td>'
@@ -155,7 +155,7 @@ def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
         )
     out.append("</tbody></table>")
 
-    out.append("<h2>Recently added (2026-05-21)</h2>")
+    out.append('<h2 id="recently-added">Recently added (2026-05-21)</h2>')
     out.append('<ul class="enum-list">')
     out.append(
         '<li><code>vendorTier</code> on <a href="cybersecurity-tools.html">cybersecurity-tools</a> '
@@ -178,7 +178,7 @@ def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
     out.append("</ul>")
     out.append("<p>See <a href=\"blog-semantic-enum-tiers.html\">tier methodology</a> for the design rules.</p>")
 
-    out.append("<h2>Shared tiers (same enum across 2+ datasets)</h2>")
+    out.append('<h2 id="shared">Shared tiers (same enum across 2+ datasets)</h2>')
     out.append("<p>A query like <code>useCaseTier=code</code> returns matching records consistently across all listed datasets.</p>")
     out.append("<table><thead><tr><th>Tier name</th><th>Datasets that ship it</th><th>x</th></tr></thead><tbody>")
     shared_sorted = sorted(
@@ -193,7 +193,7 @@ def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
         )
     out.append("</tbody></table>")
 
-    out.append("<h2>Per-dataset enum tiers</h2>")
+    out.append('<h2 id="per-dataset">Per-dataset enum tiers</h2>')
     out.append("<p>Each dataset lists every <em>derived</em> enum field (the source API does not expose these directly; the pipeline computes them).</p>")
     for ds in sorted(data.keys()):
         enums = data[ds]
@@ -218,7 +218,7 @@ def render(data: dict[str, list[dict]], share: dict[str, list[str]]) -> str:
 
     no_enum = [d for d in ALL_DATASETS if d not in data]
     if no_enum:
-        out.append("<h2>Datasets without derived enum tiers (yet)</h2>")
+        out.append('<h2 id="no-tiers">Datasets without derived enum tiers (yet)</h2>')
         out.append("<p>These are mostly awesome-list mirrors where the source data does not have enough structure to derive meaningful semantic tiers without LLM enrichment. Adding tiers to these is on the roadmap.</p>")
         out.append("<ul>")
         for ds in no_enum:
