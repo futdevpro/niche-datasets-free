@@ -406,6 +406,12 @@ def build_jsonld(d, repo_root=None):
             "price": d["price"],
             "priceCurrency": "USD",
             "url": f"https://jhonnyronnie.gumroad.com/l/{d['gumroad']}",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Future Development Program",
+                "url": "https://jhonnyronnie.gumroad.com/",
+            },
         },
     }, indent=2)
 
