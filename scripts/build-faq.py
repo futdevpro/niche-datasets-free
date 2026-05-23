@@ -111,6 +111,10 @@ FAQS = [
         "q": "Are there bundle discounts?",
         "a": "Yes — 4 themed bundles. Dev Stack Pack ($24, 40% off, 4 datasets), Platform Builder Pack ($29, 55% off, 6 datasets), ML Builder Pack ($29, 55% off, 6 datasets), Complete Developer Data Bundle ($34, 83% off list, all 20 datasets). Listed on the homepage at /#bundles with direct Gumroad links. Single-dataset SKUs stay at $9-11; bundles are strictly cheaper than buying the included datasets individually."
     },
+    {
+        "q": "How does an agent figure out which bundles include a given dataset?",
+        "a": "Every /datasets.json catalog entry and /<slug>-meta.json endpoint ships a bundles[] array of {name, url} objects — flat-JSON mirror of the schema.org isPartOf graph in the JSON-LD. E.g. npm-packages → bundles[] lists Complete Developer Data Bundle + Platform Builder Pack + Dev Stack Pack. Use this to programmatically compare per-SKU total vs bundle price, or to surface relevant bundles in an affiliate / referral UI. See /api.html#bundles-field for a worked jq snippet and /examples.html#bundle-compare for a full price-comparison loop."
+    },
 ]
 
 
