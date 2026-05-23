@@ -103,6 +103,10 @@ FAQS = [
         "q": "How do I get the exact record count instead of the 'X,XXX+' marketing string?",
         "a": "Use the liveRecordCount field on /datasets.json or any /<slug>-meta.json — it's an integer with the exact count from the live data file (e.g. 6171 for npm-packages, alongside the recordCount string '6,100+'). Useful for size estimation, pagination, and change-detection between refreshes. Documented in /api.html under 'Two record-count fields'."
     },
+    {
+        "q": "schemaVersion in the JSON payload vs OpenAPI info.version — what's the difference?",
+        "a": "Two independent version numbers. (a) schemaVersion='1.0' lives in each response payload and is the data-contract version — bumps only on breaking changes to the response shape. Clients should ignore unknown fields (forward-compat). (b) OpenAPI info.version='1.1.0' lives in /openapi.json and follows semver for the documentation — additive field additions like liveRecordCount bump the minor (1.0.0→1.1.0), breaking changes would bump the major. The two are independent: an additive OpenAPI version-bump does NOT bump the data schemaVersion."
+    },
 ]
 
 
