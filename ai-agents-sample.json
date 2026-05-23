@@ -1,101 +1,117 @@
 [
   {
-    "name": "ChartGPT",
-    "url": "https://chartgpt.io",
-    "description": "ChartGPT offers AI-driven services like table summarization, charting, and code generation, featuring pay-as-you-go pricing, trusted by major companies, emphasizing data security, ease of use, and 24/7 customer support",
+    "name": "Q, ChatGPT for Slack",
+    "url": "https://q-bot.suchica.com/",
+    "description": "Q, ChatGPT for Slack — AI agent",
     "category": "autonomous",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "ai agents"
-    ],
-    "openSource": false,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "LLM Stack",
-    "url": "https://llmstack.ai/",
-    "description": "LLM Stack — AI agent",
-    "category": "browser",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "build-your-own no-code web ui"
-    ],
-    "openSource": false,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Blinky",
-    "url": "https://github.com/seahyinghang8/blinky",
-    "description": "Blinky — AI agent",
-    "category": "coding",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "coding debugging"
+      "open-source"
     ],
-    "openSource": false,
-    "urlDomainTier": "repo-hosted",
+    "openSource": true,
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Youper",
-    "url": "https://youper.ai/",
-    "description": "Emotional health assistant. CBT + ACT. Mood tracking. Stanford-tested clinically effective.",
-    "category": "conversation",
-    "pricing": "freemium",
+    "name": "Promptly",
+    "url": "https://www.trypromptly.com/",
+    "description": "Promptly — AI agent",
+    "category": "browser",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "healthcare and therapy agents"
+      "build-your-own no-code web ui",
+      "open-source"
     ],
+    "openSource": true,
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Agentify",
+    "url": "https://github.com/koriyoshi2041/agentify",
+    "description": "CLI to transform OpenAPI specs into 9 agent formats (MCP, AGENTS.md, Claude tools, etc.). npx agentify-cli.",
+    "category": "coding",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "protocol tooling"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "LTX Video",
-    "url": "https://github.com/lightricks/ltx-video",
-    "description": "OSS. Licensed data. Clear commercial terms.",
-    "category": "creative",
+    "name": "Gobii",
+    "url": "https://github.com/gobii-ai/gobii-platform",
+    "description": "Gobii is an open-source platform for deploying and managing browser-use agents at scale with a conversational interface and API",
+    "category": "conversation",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "video generation"
+      "conversational / general agents"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Udio",
+    "url": "https://udio.com/",
+    "description": "High-fidelity music gen. Fine control.",
+    "category": "creative",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "music and audio"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Lavender",
-    "url": "https://lavender.ai/",
-    "description": "AI email coach. Real-time scoring.",
+    "name": "Intercom Fin",
+    "url": "https://intercom.com/",
+    "description": "Resolves 50%+ tickets. Learns from help center.",
     "category": "customer-support",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "sales and outreach agents"
+      "support agents"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Second Brain AI Agent",
-    "url": "https://github.com/flepied/second-brain-agent",
-    "description": "A streamlit app to dialog with your second brain notes using OpenAI and ChromaDB locally.",
+    "name": "Verve",
+    "url": "https://x.com/annieliao_2000/status/1792175562712285645",
+    "description": "Verve — AI agent",
     "category": "data",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "knowledge management"
+      "build club"
+    ],
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Plasmate",
+    "url": "https://github.com/plasmate-labs/plasmate",
+    "description": "Headless browser compiling HTML to structured JSON (SOM). 17.5x compression, 13 MCP tools. First browser tool on MCP Registry. Rust, Apache-2.0.",
+    "category": "devops",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "developer infrastructure"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -103,29 +119,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Browserbase",
-    "url": "https://browserbase.com/",
-    "description": "Cloud browser infra for agents. Headless at scale.",
-    "category": "devops",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "developer infrastructure"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Airflow-Cookbook",
-    "url": "https://github.com/bahchis/airflow-cookbook",
-    "description": "Airflow workflow management platform chef cookbook.",
+    "name": "Ethics",
+    "url": "https://github.com/zulrich91/ethics",
+    "description": "The repository contains a number of interesting resources on ethics in general, ethics of AI and the ethical concerns of AI in medecine.",
     "category": "framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "building",
-      "workflows"
+      "ethics"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -133,33 +135,33 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Agent4Rec",
-    "url": "https://github.com/lehengthu/agent4rec",
-    "description": "Agent4Rec — AI agent",
+    "name": "swarm-orchestrator",
+    "url": "https://github.com/moonrunnerkc/swarm-orchestrator",
+    "description": "Contract-first multi-agent orchestrator that races persona candidates per typed obligation, verifies before commit, and logs every action in an append-only hash-chained ledger; deterministic offline default with optional Claude, Codex, Copilot, and local LLM (Ollama, llama.cpp, vLLM) providers. Ships with a GitHub Action.",
     "category": "multi-agent",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "general purpose build your own multi-agent"
+      "applications",
+      "multi-agent task solver projects"
     ],
-    "openSource": false,
+    "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "model-watchdog",
-    "url": "https://github.com/feralghost/model-watchdog",
-    "description": "Auto-rollback for AI agent config changes. Monitors health endpoint, reverts config + restarts service on failures. Zero deps.",
+    "name": "Weights and Biases Weave",
+    "url": "https://wandb.ai/site/weave",
+    "description": "Trace and evaluate LLM apps.",
     "category": "observability",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "tracing and monitoring"
     ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -178,62 +180,30 @@
     "categorizationTier": "other"
   },
   {
-    "name": "LiveRecall",
-    "url": "https://github.com/vedankpurohit/liverecall",
-    "description": "LiveRecall, an open-source alternative to Microsoft's Recall, utilizes semantic search and encryption to capture and retrieve screen snapshots, enabling AI agents to assist creators in researching and augmenting tasks like journaling or blog post creation based on indexed personal activities",
+    "name": "Diagram",
+    "url": "https://diagram.com/",
+    "description": "Diagram — AI agent",
     "category": "productivity",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "personal assistants",
+      "design content creation",
       "open-source"
     ],
     "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "LangChainBitcoin",
-    "url": "https://github.com/lightninglabs/langchainbitcoin",
-    "description": "LangChainBitcoin — AI agent",
-    "category": "protocol",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "bitcoin",
-      "announcement github",
-      "open-source"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "ARC-AGI-2",
-    "url": "https://arcprize.org/",
-    "description": "⭐ New frontier benchmark. Gemini 3.1 Pro leads.",
-    "category": "research",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "benchmarks"
-    ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "IvyCheck",
-    "url": "https://github.com/ivycheck/ivycheck-python-sdk",
-    "description": "IvyCheck offers an API for real-time AI application safety checks, preventing prompt injection attacks, PII data leakage, and hallucinations in agentic AI development",
-    "category": "security",
+    "name": "MCP (Model Context Protocol)",
+    "url": "https://github.com/modelcontextprotocol",
+    "description": "Anthropic open standard. \"USB-C for AI.\" Donated to Linux Foundation. Industry standard for agent tools.",
+    "category": "protocol",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "safety guardrails safeguarding",
-      "open-source"
+      "protocols and standards"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -241,9 +211,39 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "generative_agents",
-    "url": "https://github.com/joonspk-research/generative_agents",
-    "description": "Interactive Simulacra of Human Behavior",
+    "name": "Perplexity Pro",
+    "url": "https://perplexity.ai/",
+    "description": "AI search with deep research mode. Real-time citations.",
+    "category": "research",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "deep research"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Council-Of-Ai",
+    "url": "https://github.com/seanpixel/council-of-ai",
+    "description": "Security measure for agentic LLMs using a council of AIs moderted by a veto system. The council judges an agent's actions outputs based o…",
+    "category": "security",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "building",
+      "security"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ai-town",
+    "url": "https://github.com/a16z-infra/ai-town",
+    "description": "deployable starter kit for building and customizing your own version of AI town - a virtual town where AI characters live, chat and socialize.",
     "category": "simulation",
     "pricing": "open-source",
     "hasApi": false,
@@ -253,22 +253,22 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Vocode",
-    "url": "https://github.com/vocodedev/vocode-python",
-    "description": "OSS voice-based LLM agents.",
+    "name": "Talkscriber",
+    "url": "https://www.talkscriber.com",
+    "description": "Talkscriber is an enterprise-grade speech-to-text (STT) platform that offers industry-leading accuracy, security, and cost-effectiveness, enabling organizations to transform spoken language into digital text and unlock new possibilities in data analysis while hosting Whisper (OpenAI) model",
     "category": "voice",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "open-source voice"
+      "transcriber providers"
     ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
@@ -287,19 +287,18 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "PrivateGPT",
-    "url": "https://github.com/zylon-ai/private-gpt",
-    "description": "PrivateGPT is a secure, offline-capable AI tool for querying documents with Large Language Models, offering high-level and low-level APIs for privacy-conscious, context-aware application development",
+    "name": "ChartGPT",
+    "url": "https://chartgpt.io",
+    "description": "ChartGPT offers AI-driven services like table summarization, charting, and code generation, featuring pay-as-you-go pricing, trusted by major companies, emphasizing data security, ease of use, and 24/7 customer support",
     "category": "autonomous",
-    "pricing": "open-source",
-    "hasApi": true,
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
-      "local inference",
-      "open-source"
+      "ai agents"
     ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   }
 ]
