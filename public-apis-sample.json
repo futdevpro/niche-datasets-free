@@ -1,181 +1,171 @@
 [
   {
-    "name": "Dogs",
-    "url": "https://dog.ceo/dog-api",
-    "description": "Based on the Stanford Dogs Dataset",
+    "name": "Cats",
+    "url": "https://docs.thecatapi.com/",
+    "description": "Pictures of cats from Tumblr",
     "category": "animals",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "animals",
-      "no-auth",
-      "cors-enabled"
+      "animals"
     ],
-    "auth": "none",
+    "auth": "apiKey",
     "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
+    "cors": "no",
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "AnimeChan",
-    "url": "https://github.com/rocktimsaikia/anime-chan",
-    "description": "Anime quotes (over 10k+)",
+    "name": "Nekosia API",
+    "url": "https://nekosia.cat/",
+    "description": "Anime API with cute random images",
     "category": "anime",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "anime",
       "no-auth"
     ],
     "auth": "none",
     "https": true,
-    "cors": "no",
-    "urlDomainTier": "repo-hosted",
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "URLhaus",
-    "url": "https://urlhaus-api.abuse.ch/",
-    "description": "Bulk queries and Download Malware Samples",
+    "name": "Web of Trust",
+    "url": "https://support.mywot.com/hc/en-us/sections/360004477734-api-",
+    "description": "IP/domain/URL reputation",
     "category": "anti-malware",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "anti-malware",
-      "no-auth",
-      "cors-enabled"
+      "anti-malware"
     ],
-    "auth": "none",
+    "auth": "apiKey",
     "https": true,
-    "cors": "yes",
+    "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Pixel Encounter",
-    "url": "https://pixelencounter.com/api",
-    "description": "SVG Icon Generator",
+    "name": "Noun Project",
+    "url": "http://api.thenounproject.com/index.html",
+    "description": "Noun Project — art-design API",
     "category": "art-design",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "art & design",
-      "no-auth"
+      "art & design"
     ],
-    "auth": "none",
-    "https": true,
-    "cors": "no",
+    "auth": "oauth",
+    "https": false,
+    "cors": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "MojoAuth",
-    "url": "https://mojoauth.com/",
-    "description": "Secure and modern passwordless authentication platform",
+    "name": "Stytch",
+    "url": "https://stytch.com/",
+    "description": "User infrastructure for modern applications",
     "category": "authentication",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "authentication & authorization",
-      "cors-enabled"
+      "authentication & authorization"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "yes",
+    "cors": "no",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Nownodes",
+    "url": "https://nownodes.io/",
+    "description": "Blockchain-as-a-service solution that provides high-quality connection via API",
+    "category": "blockchain",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "blockchain"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Etherscan",
-    "url": "https://etherscan.io/apis",
-    "description": "Ethereum explorer API",
-    "category": "blockchain",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "blockchain",
-      "cors-enabled"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Penguin Publishing",
-    "url": "http://www.penguinrandomhouse.biz/webservices/rest",
-    "description": "Books, book covers and related data",
+    "name": "Vedic Society",
+    "url": "https://aninditabasu.github.io/indica/html/vs.html",
+    "description": "Descriptions of all nouns (names, places, animals, things) from vedic literature",
     "category": "books",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "books",
-      "no-auth",
-      "cors-enabled"
+      "no-auth"
     ],
     "auth": "none",
     "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Chartie",
-    "url": "http://www.chartie.io/docs.php",
-    "description": "Free web API that mines the relevant trend patterns from your signal.",
-    "category": "business",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "table of contents",
-      "analytics"
-    ],
     "cors": "unknown",
-    "auth": "apiKey",
-    "https": false,
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Namedays Calendar",
-    "url": "https://nameday.abalin.net/",
-    "description": "Provides namedays for multiple countries",
+    "name": "Square",
+    "url": "https://developer.squareup.com/reference/square",
+    "description": "Easy way to take payments, manage refunds, and help customers checkout online",
+    "category": "business",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "business"
+    ],
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Church Calendar",
+    "url": "http://calapi.inadiutorium.cz/",
+    "description": "Catholic liturgical calendar",
     "category": "calendar",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "calendar",
-      "no-auth",
-      "cors-enabled"
+      "no-auth"
     ],
     "auth": "none",
-    "https": true,
-    "cors": "yes",
+    "https": false,
+    "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "CircleCI",
-    "url": "https://circleci.com/docs/api/v1-reference",
-    "description": "Automate the software development process using continuous integration and continuous delivery",
+    "name": "Buddy",
+    "url": "https://buddy.works/docs/api/getting-started/overview",
+    "description": "The fastest continuous integration and continuous delivery platform",
     "category": "ci-cd",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "continuous integration"
     ],
-    "auth": "apiKey",
+    "auth": "oauth",
     "https": true,
     "cors": "unknown",
     "urlDomainTier": "commercial",
@@ -183,90 +173,70 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Quip",
-    "url": "https://quip.com/dev/automation/documentation",
-    "description": "File Sharing and Storage for groups",
+    "name": "Google Drive API",
+    "url": "https://developers.google.com/drive/v2/reference",
+    "description": "The API to interact with Google Drive. v3",
     "category": "cloud-storage",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "cloud storage & file sharing",
+      "table of contents",
+      "google"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "FTX",
+    "url": "https://docs.ftx.com/",
+    "description": "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs",
+    "category": "cryptocurrency",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "cryptocurrency",
       "cors-enabled"
     ],
     "auth": "apiKey",
     "https": true,
     "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Gemini",
-    "url": "https://docs.gemini.com/rest-api",
-    "description": "Cryptocurrencies Exchange",
-    "category": "cryptocurrency",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "cryptocurrency",
-      "no-auth"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "unknown",
     "urlDomainTier": "documentation",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "National Bank of Poland",
-    "url": "http://api.nbp.pl/en.html",
-    "description": "A collection of currency exchange rates (data in XML and JSON)",
-    "category": "currency",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "currency exchange",
-      "no-auth",
-      "cors-enabled"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Lob.com",
-    "url": "https://lob.com/",
-    "description": "US Address Verification",
+    "name": "Amdoren",
+    "url": "https://www.amdoren.com/currency-api",
+    "description": "Free currency API with over 150 currencies",
+    "category": "currency",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "currency exchange"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "DataScreenIQ",
+    "url": "https://datascreeniq.com/",
+    "description": "Screen data for schema drift, type mismatches, and null rate anomalies",
     "category": "data-validation",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "data validation"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "addr.zone",
-    "url": "https://addr.zone/",
-    "description": "IP Classification and Intelligence API. Detect Proxies, Datacenter, Malicious IPs, ...",
-    "category": "development",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "development",
-      "no-auth",
+      "data validation",
       "cors-enabled"
     ],
-    "auth": "none",
+    "auth": "apiKey",
     "https": true,
     "cors": "yes",
     "urlDomainTier": "commercial",
@@ -274,9 +244,26 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Wordnik",
-    "url": "https://developer.wordnik.com/",
-    "description": "Dictionary Data",
+    "name": "Open Build Service API",
+    "url": "https://openbuildservice.org/",
+    "description": "The _Open Build Service API_ is a XML API. To authenticate, use [HTTP basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) by passing the _Authorization_ header in the form of `Authorization: Basic `. There is no API versioning as there is no need for it right now. Only rudimentary rate limiting is implemented, so please be gentle when using the API concurrently, especially with potentially expensive operations. In case of abuse, we will limit/remove your access. F...",
+    "category": "development",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "developer-tools"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "verbose",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Merriam-Webster",
+    "url": "https://dictionaryapi.com/",
+    "description": "Dictionary and Thesaurus Data",
     "category": "dictionaries",
     "pricing": "freemium",
     "hasApi": false,
@@ -308,48 +295,49 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "PaperClean",
-    "url": "https://paperclean.ip1.cc/api/docs",
-    "description": "Clean document photos for printing, remove shadows, fix lighting",
+    "name": "PandaDoc",
+    "url": "https://developers.pandadoc.com/",
+    "description": "DocGen and eSignatures API",
     "category": "documents",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "documents & productivity",
-      "cors-enabled"
+      "documents & productivity"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "yes",
+    "cors": "no",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "iQualify Management API",
-    "url": "https://iqualify.com",
-    "description": "The iQualify API offers management responses for building learning experiences using your iQualify instance data. Once you’ve registered with iQualify, you can request an API access token by navigating to the API access section of the \"Account Settings\" area. Find out how to [Request your API access token](https://www.iqualify.com/help/connecting-iqualify-to-other-systems/api/how-to-access-and-manage-your-api-token) on our Knowledge base. All endpoints are only accessible via https and are lo...",
+    "name": "Current Affairs",
+    "url": "https://rapidapi.com/malaithiru370/api/current-affairs-of-india",
+    "description": "Current International Affairs, quizzes and more",
     "category": "education",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "education"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown",
+    "cors": "no",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "verbose",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "LinQR",
-    "url": "https://linqr.app",
-    "description": "This is LinQR QR Code API documentation. This API allows you to generate custom, visually attractive QR Codes. The cloud infrastructure guarantees high availability and autoscalability of the service. You can generate hundreds of thousands of images this way and use them however you like. We realize that your API use case may require custom solutions, and perhaps we lack functionality that is very important to you. In that case feel free to write an email to our support and tell us about it. ...",
+    "name": "VictorOps",
+    "url": "https://victorops.com",
+    "description": "This API allows you to interact with the VictorOps platform in various ways. Your account may be limited to a total number of API calls per month. Also, some of these API calls have rate limits. NOTE: In this documentation when creating a sample curl request (clicking the TRY IT OUT! button), in some API viewing interfaces, the '@' in an email address may be encoded. Please note that the REST endpoints will not process the encoded version. Make sure that the encoded character '%40' is changed...",
     "category": "email",
     "pricing": "freemium",
     "hasApi": true,
-    "tags": [],
+    "tags": [
+      "developer-tools"
+    ],
     "auth": "apiKey",
     "https": true,
     "cors": "unknown",
