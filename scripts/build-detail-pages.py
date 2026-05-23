@@ -377,6 +377,41 @@ def build_breadcrumb_jsonld(d):
     }, indent=2)
 
 
+_BUNDLES = {
+    "developer-data-bundle": {
+        "name": "Complete Developer Data Bundle",
+        "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle",
+        "members": None,   # all 20
+    },
+    "ml-builder-pack": {
+        "name": "ML Builder Pack",
+        "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack",
+        "members": {"ai-models-pricing", "huggingface-models", "huggingface-datasets",
+                    "ai-prompts", "llmops-and-eval", "vector-db-and-rag"},
+    },
+    "platform-builder-pack": {
+        "name": "Platform Builder Pack",
+        "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack",
+        "members": {"platform-engineering", "self-hosted-software", "developer-tools",
+                    "npm-packages", "homebrew-packages", "vscode-extensions"},
+    },
+    "dev-stack-pack": {
+        "name": "Dev Stack Pack",
+        "url": "https://jhonnyronnie.gumroad.com/l/dev-stack-pack",
+        "members": {"npm-packages", "vscode-extensions", "homebrew-packages", "developer-tools"},
+    },
+}
+
+
+def _bundle_membership(slug):
+    """Returns list of bundles that contain this dataset as schema.org Product refs."""
+    out = []
+    for _key, b in _BUNDLES.items():
+        if b["members"] is None or slug in b["members"]:
+            out.append({"@type": "Product", "name": b["name"], "url": b["url"]})
+    return out
+
+
 def build_jsonld(d, repo_root=None):
     refresh_date = (
         get_refresh_date(d["slug"], repo_root) if repo_root else datetime.date.today().isoformat()
@@ -413,6 +448,7 @@ def build_jsonld(d, repo_root=None):
                 "url": "https://jhonnyronnie.gumroad.com/",
             },
         },
+        "isPartOf": _bundle_membership(d["slug"]),
     }, indent=2)
 
 
