@@ -12,7 +12,7 @@
     "model serving"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-20",
+  "lastRefreshed": "2026-05-23",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/llmops-and-eval-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/llmops-and-eval.html",
@@ -34,5 +34,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
     }
   ],
-  "liveRecordCount": 541
+  "liveRecordCount": 573
 }
