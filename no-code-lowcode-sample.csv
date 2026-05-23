@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,codeType,urlDomainTier,descriptionLengthTier,categorizationTier
-CreateML,https://developer.apple.com/machine-learning/create-ml,Experience an entirely new way of training machine learning models on your Mac.,ai-ml,free,false,"[""machine learning""]",low-code,commercial,normal,specific
-Google Analytics,https://analytics.google.com,Free website analytics.,analytics,free,false,"[""analytics""]",low-code,commercial,terse,specific
-MeterCall,https://metercall.ai,"Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing.",app-builder,free,true,"[""agentic apps""]",low-code,commercial,normal,specific
-Iotellect,https://iotellect.com,"Low-code IoT platform for device integration, data collection, and real-time dashboards. Supports MQTT, OPC UA, Modbus, and 50+ industrial protocols.",automation,freemium,false,"[""automation""]",low-code,commercial,normal,specific
-Botsify,https://botsify.com,Create your own automated chatbots online.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,terse,specific
-Slite,https://slite.com,Async-first documentation and knowledge base.,collaboration,freemium,false,"[""collaboration""]",both,commercial,terse,specific
-Bonsai CRM,https://www.hellobonsai.com/crm,"Freelance-first CRM with contracts, invoices, and client tracking.",crm,free,false,"[""crm""]",both,commercial,normal,specific
+SaegMaker,https://aws.amazon.com/sagemaker,Machine learning for every data scientist and developer.,ai-ml,freemium,true,"[""ai""]",low-code,commercial,normal,specific
+Posthog,https://posthog.com/,Open source product analytics.,analytics,open-source,false,"[""analytics""]",low-code,commercial,terse,specific
+Botpress,https://botpress.com/,An all-in-one platform for building AI agents powered by the latest LLMs.,app-builder,unknown,false,"[""ai platforms""]",both,commercial,normal,specific
+Uipath,https://www.uipath.com/,We make robots so people don’t have to be robots.,automation,paid,false,"[""automation""]",both,commercial,terse,specific
+Manychat,https://manychat.com,Create a Messenger bot to engage your audience. No coding!,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
+Notion,https://notion.so,"The all-in-one workspace - notes, tasks, wikis, & databases.",collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
+Folk,https://folk.app,Lightweight modern CRM for personal networks and freelancers.,crm,free,false,"[""crm""]",both,commercial,normal,specific
 Parsehub,https://parsehub.com,Free web scraping.,data-scraping,free,true,"[""scrapers""]",low-code,commercial,terse,specific
-Trevor,https://www.trevor.io,"Query your live data, without code.",database,freemium,false,"[""database""]",no-code,commercial,terse,specific
-LottieFiles,https://lottiefiles.com,Discover and use lightweight animations.,design,freemium,false,"[""design""]",no-code,commercial,terse,specific
-Gumroad,https://gumroad.com,Sell anything directly to anyone.,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
-Paperform,https://paperform.co,Beautiful Forms That Feel Like Yours,forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
-MuleSoft,https://www.mulesoft.com/platform/api-management,"Manage your API lifecycle, quickly design, test, and publish APIs.",internal-tools,freemium,true,"[""platforms"",""low code api management platform""]",low-code,commercial,normal,specific
-TinyTools,https://tinytools-smoky.vercel.app/,"Free single-purpose marketing utilities (no signup, browser-based): OG image generator, SEO meta tag generator, AI robots.txt generator, AI content disclosure generator (EU AI Act compliant), favicon generator, color palette generator, and a domain name generator. Open source.",marketing,open-source,false,"[""marketing""]",low-code,commercial,detailed,specific
-Bravo Studio,https://www.bravostudio.app/,Where your designs become real native apps,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
-NoCode.Tech Tools Directory,https://www.nocode.tech/tools,Extensive listing of no-code tools.,other,free,false,"[""resources""]",no-code,commercial,terse,other
-Anchor,https://anchor.fm/,The best way to create your podcast,video,freemium,false,"[""podcast""]",no-code,commercial,terse,specific
-Linkz.ai,https://linkz.ai,Immersive hyperlink previews to keep visitors on your website,website-builder,freemium,false,"[""websites""]",no-code,commercial,normal,specific
-Landing AI,https://landing.ai/,Building computer vision systems in minutes via natural prompting interactions.,ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
-VisualSitemaps,https://visualsitemaps.com,Autogenerate Visual Sitemaps & Screenshots in Seconds,analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
+PostGraphile,https://www.graphile.org/,Extensible high-performance automatic GraphQL API for PostgreSQL,database,open-source,true,"[""database""]",low-code,commercial,normal,specific
+Canva,https://canva.com,"Design stunning social posts, ads, and banners.",design,freemium,false,"[""marketing""]",no-code,commercial,terse,specific
+ShopSavvy,https://shopsavvy.com,Price comparison across thousands of retailers with price alerts and deal discovery.,ecommerce,unknown,false,"[""ecommerce""]",no-code,commercial,normal,specific
+Feathery,https://feathery.io,Powerful form builder for product teams,forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
+InVideo,https://invideo.io,Turn text into professional videos with templates.,internal-tools,freemium,false,"[""video""]",low-code,commercial,normal,specific
+AuditWidget,https://auditwidget.app/?utm_source=github&utm_medium=awesome_list&utm_campaign=awesome_nocode_lowcode,Embeddable SEO audit widget for marketing sites. Drop a single script tag — visitors run a 12-point analysis and share their email to unlock the full report.,marketing,unknown,false,"[""marketing""]",no-code,commercial,normal,specific
+Appspotr,https://appspotr.com,Create epic apps without coding,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
+FreeCodeCamp: No-Code Playlist,https://www.youtube.com/playlist?list=plwkjhjtqvabnse1qunmg7abpmjig54u88,YouTube playlist of no-code tutorials.,other,free,false,"[""learning""]",no-code,commercial,terse,other
+Loom,https://loom.com,"Seamless screen, mic, and camera recording for Chrome",video,freemium,false,"[""video""]",no-code,commercial,normal,specific
+Weld,https://www.weld.io,Be creative without code – Interactive content tool,website-builder,freemium,false,"[""websites""]",no-code,commercial,normal,specific
+RemoteOpenClaw,https://remoteopenclaw.com,Open marketplace for AI skills and personas built on OpenClaw.,ai-ml,unknown,false,"[""machine learning""]",low-code,commercial,normal,specific
+Plausible,https://plausible.io,"Lightweight, GDPR-compliant website analytics with a simple interface.",analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
