@@ -43,7 +43,7 @@
 <h1>5-Minute Quickstart</h1>
 <p class="lead">Goal: by the end of this page, you'll have downloaded a sample, inspected its schema in your editor, and decided whether to grab the full dataset. No signup, no API key.</p>
 
-<h2><span class="step">1</span> Pick a dataset <span class="timer">~30 seconds</span></h2>
+<h2 id="step-1"><span class="step">1</span> Pick a dataset <span class="timer">~30 seconds</span></h2>
 <p>Scan the <a href="./">20-dataset catalog</a>. The "Records" column tells you the size of the full version; the "Sample" column links you to a 20-record JSON or CSV preview. Pick the one closest to what you're trying to build.</p>
 <p>Don't know which to pick? Common starting points:</p>
 <ul>
@@ -54,14 +54,14 @@
 <li>Internal "approved tools" catalog → <a href="developer-tools.html">developer-tools</a> + <a href="vscode-extensions.html">vscode-extensions</a></li>
 </ul>
 
-<h2><span class="step">2</span> Grab the sample <span class="timer">~10 seconds</span></h2>
+<h2 id="step-2"><span class="step">2</span> Grab the sample <span class="timer">~10 seconds</span></h2>
 <p>From the dataset's detail page, click the JSON or CSV sample link. Or grab it directly via curl:</p>
 <pre><code>curl -O https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json
 # or for CSV:
 curl -O https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv</code></pre>
 <p>The sample is 20 records. Same schema, structure, and quality as the full version — just a random subset.</p>
 
-<h2><span class="step">3</span> Inspect the schema <span class="timer">~2 minutes</span></h2>
+<h2 id="step-3"><span class="step">3</span> Inspect the schema <span class="timer">~2 minutes</span></h2>
 <p>Open in your favorite tool:</p>
 <pre><code># jq: print all field names + types
 cat npm-packages-sample.json | jq '.[0] | to_entries | map({key: .key, type: (.value | type)})'
@@ -72,7 +72,7 @@ python3 -c "import json; print(json.dumps(json.load(open('npm-packages-sample.js
 # Or just open the .csv in Excel / Google Sheets / Numbers</code></pre>
 <p>Confirm the records have the fields you need. Every record has the base schema (<code>name</code>, <code>url</code>, <code>description</code>, <code>category</code>, <code>pricing</code>, <code>hasApi</code>, <code>tags</code>) plus dataset-specific first-class fields. See the per-dataset detail page for the field reference.</p>
 
-<h2><span class="step">4</span> Run a real query <span class="timer">~1 minute</span></h2>
+<h2 id="step-4"><span class="step">4</span> Run a real query <span class="timer">~1 minute</span></h2>
 <p>Filter the sample to see if it answers a question you'd actually ask:</p>
 <pre><code># jq: all open-source records with an API
 jq '.[] | select(.pricing == "open-source" and .hasApi)' npm-packages-sample.json
@@ -89,7 +89,7 @@ print(df.groupby('category').size().sort_values(ascending=False).head())
 "</code></pre>
 <p>If the sample answers your question correctly, the full version (~20-12,200 records depending on dataset) will scale the same query without changes.</p>
 
-<h2><span class="step">5</span> Decide <span class="timer">~30 seconds</span></h2>
+<h2 id="step-5"><span class="step">5</span> Decide <span class="timer">~30 seconds</span></h2>
 
 <div class="decision">
   <strong>The sample answered your question:</strong> grab the full dataset on Gumroad ($7-$14 per dataset, $24-$34 for themed bundles, $34 for the complete bundle of all 20). One-time payment, instant download. The detail page for the dataset you picked has the direct Gumroad link.
@@ -99,7 +99,7 @@ print(df.groupby('category').size().sort_values(ascending=False).head())
   <strong>The sample didn't fit:</strong> check the <a href="./">other 19 datasets</a>, or read <a href="vs.html">vs. alternatives</a> to see if Kaggle / HuggingFace / awesome-* / a custom scrape would be a better match. The samples are free — try as many as you want.
 </div>
 
-<h2><span class="step">6</span> Optional — try a semantic tier filter <span class="timer">~1 minute</span></h2>
+<h2 id="step-6"><span class="step">6</span> Optional — try a semantic tier filter <span class="timer">~1 minute</span></h2>
 <p>Every record carries derived enum-tier fields (<code>useCaseTier</code>, <code>costTierAbsolute</code>, <code>uptimeTier</code>, <code>licenseTier</code>, <code>popularityTier</code>, <code>vendorTier</code>, +40 more — <a href="tiers.html">full reference</a>). Filter by enum names that survive refreshes and stay consistent across datasets. Example query on the AI Models Pricing sample:</p>
 <pre><code>curl -s https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/ai-models-pricing-sample.json \
   | jq '.[] | select(.useCaseTier == "chat" and .costTierAbsolute == "cheap")
