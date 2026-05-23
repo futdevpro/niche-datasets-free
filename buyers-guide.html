@@ -72,7 +72,7 @@
 
 <p class="lead">If you already know what you want to build, this page tells you exactly which dataset(s) to grab. If you don't — start with the workload that most matches yours; skip the others.</p>
 
-<h2>Use case 1 — Build an LLM pricing comparison page</h2>
+<h2 id="use-case-1">Use case 1 — Build an LLM pricing comparison page</h2>
 
 <div class="use-case">
 <h3>"I want a table or chart comparing GPT vs Claude vs Llama by price/M tokens."</h3>
@@ -80,7 +80,7 @@
 <p class="pick skip"><strong>Don't bother with:</strong> huggingface-models (no pricing data, just downloads), ai-tools (high-level catalog, no per-token pricing).</p>
 </div>
 
-<h2>Use case 2 — Build a "what's trending on HuggingFace" feed</h2>
+<h2 id="use-case-2">Use case 2 — Build a "what's trending on HuggingFace" feed</h2>
 
 <div class="use-case">
 <h3>"I want to surface fast-moving ML model launches + new datasets weekly."</h3>
@@ -88,7 +88,7 @@
 <p class="pick"><strong>Or grab both + the LLM pricing for the full AI-buyer stack:</strong> <a href="https://jhonnyronnie.gumroad.com/l/ml-builder-pack">ML Builder Pack</a> ($29, save 55% vs $66 standalone) — 6 AI/ML datasets including these two + ai-models-pricing + ai-prompts + llmops-and-eval + vector-db-and-rag.</p>
 </div>
 
-<h2>Use case 3 — Build a directory site for developer tools (npm / Homebrew / VS Code)</h2>
+<h2 id="use-case-3">Use case 3 — Build a directory site for developer tools (npm / Homebrew / VS Code)</h2>
 
 <div class="use-case">
 <h3>"I want a SEO-targeted directory of the top developer tools across languages."</h3>
@@ -97,7 +97,7 @@
 <p class="pick"><strong>Refresh-cadence warning:</strong> npm has 122% churn in 13 days. Refresh nightly or your top-10 will be wrong by next week. Homebrew + VS Code: monthly is fine.</p>
 </div>
 
-<h2>Use case 4 — Build an AI agent / MCP server registry</h2>
+<h2 id="use-case-4">Use case 4 — Build an AI agent / MCP server registry</h2>
 
 <div class="use-case">
 <h3>"I want a catalog of agent frameworks + MCP servers + AI tools for an LLM-app builder."</h3>
@@ -105,7 +105,7 @@
 <p class="pick"><strong>Skip:</strong> public-apis (general-purpose, not AI-specific), ai-prompts (prompt-library only, not agent registry).</p>
 </div>
 
-<h2>Use case 5 — Build a RAG / vector-DB infrastructure picker</h2>
+<h2 id="use-case-5">Use case 5 — Build a RAG / vector-DB infrastructure picker</h2>
 
 <div class="use-case">
 <h3>"I'm picking my retrieval layer. Which vector DBs + embedding models + LLMOps tooling exists?"</h3>
@@ -114,7 +114,7 @@
 <p class="pick"><strong>Refresh-cadence note:</strong> these two had literal 0 churn in the last 13 days. Monthly or even quarterly snapshots are plenty.</p>
 </div>
 
-<h2>Use case 6 — Build a "best open-source alternatives to $SAAS" site</h2>
+<h2 id="use-case-6">Use case 6 — Build a "best open-source alternatives to $SAAS" site</h2>
 
 <div class="use-case">
 <h3>"I want to capture the OSS-vs-paid-SaaS market mapping."</h3>
@@ -122,7 +122,7 @@
 <p class="pick"><strong>Add for completeness:</strong> <a href="design-resources.html">design-resources</a> ($9, 2,166 free design assets) — adjacent niche.</p>
 </div>
 
-<h2>Use case 7 — Build a security-tool / red-team / blue-team catalog</h2>
+<h2 id="use-case-7">Use case 7 — Build a security-tool / red-team / blue-team catalog</h2>
 
 <div class="use-case">
 <h3>"I want a curated security-engineering toolset."</h3>
@@ -130,7 +130,7 @@
 <p class="pick"><strong>Adjacent:</strong> <a href="platform-engineering.html">platform-engineering</a> for infra-side security tools.</p>
 </div>
 
-<h2>Use case 8 — Train or fine-tune an LLM agent on developer-tooling knowledge</h2>
+<h2 id="use-case-8">Use case 8 — Train or fine-tune an LLM agent on developer-tooling knowledge</h2>
 
 <div class="use-case">
 <h3>"I'm building an AI assistant that recommends dev tools. I need structured training data."</h3>
@@ -138,7 +138,7 @@
 <p class="pick"><strong>Why bundle here:</strong> training data wants <em>breadth</em>, not depth. One dataset = narrow agent. The mega-bundle has 55,000+ records spanning every developer-adjacent niche in one schema-validated format.</p>
 </div>
 
-<h2>Quick decision table</h2>
+<h2 id="decision-table">Quick decision table</h2>
 
 <table>
 <thead>
@@ -156,7 +156,7 @@
 </tbody>
 </table>
 
-<h2>Pro-tip — filter by semantic enum tier instead of writing thresholds</h2>
+<h2 id="pro-tip">Pro-tip — filter by semantic enum tier instead of writing thresholds</h2>
 
 <p>Every record carries derived enum-tier fields (<a href="tiers.html">full reference</a>) so a query reads like the buyer's mental model. Example for use case 1 (LLM pricing comparison):</p>
 
@@ -171,7 +171,7 @@ jq '.[] | select(.useCaseTier == "chat"
 
 <p>Same patterns in <a href="examples.html#tier-filters">pandas, Node.js fetch, and DuckDB SQL</a>.</p>
 
-<h2>Still unsure — try free first</h2>
+<h2 id="try-free">Still unsure — try free first</h2>
 
 <p>Every dataset has a free 20-record JSON+CSV sample on this site. No signup, no email, no API key. Open the detail page, click the "Download sample" link, run a one-liner from the <a href="quickstart.html">5-minute quickstart</a>, decide whether it fits your workload before paying anything.</p>
 
