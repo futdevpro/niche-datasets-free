@@ -71,7 +71,7 @@
 
 <p class="lead">Every dataset in this catalog ships with extra enum fields that the source itself does not have — <code>costTierAbsolute</code>, <code>useCaseTier</code>, <code>uptimeTier</code>, <code>popularityTier</code>, <code>recencyTier</code>, <code>licenseTier</code>, and ~30 more. They look like noise next to the raw API fields. They are the most-used fields in every buyer query we've ever observed.</p>
 
-<h2>Why source-fields aren't enough</h2>
+<h2 id="why-not-enough">Why source-fields aren't enough</h2>
 
 <p>An npm package object has <code>downloads</code>: a number. A HuggingFace model has <code>pipeline_tag</code>: a string from a controlled vocabulary of ~30 entries. An OpenRouter endpoint has <code>pricing.prompt</code>: a USD-per-token decimal.</p>
 
@@ -86,7 +86,7 @@
 
 <p>The buyer wants <strong>buyer-aligned tiers with stable thresholds</strong>. We compute these once during the pipeline run and ship them as first-class fields.</p>
 
-<h2>Tier design rule #1 — absolute over percentile</h2>
+<h2 id="rule-1">Tier design rule #1 — absolute over percentile</h2>
 
 <p>Most catalogs that bother with tiering use percentile ranks: "this model is in the top-25% by downloads". That sounds rigorous and falls apart immediately for the buyer.</p>
 
@@ -112,7 +112,7 @@
 
 <p>Both are useful, for different reasons. The percentile tier is comparative; the absolute tier is budgetary. A buyer running cost-modeling for production traffic only cares about the absolute one.</p>
 
-<h2>Tier design rule #2 — same enum across datasets when the buyer-question is the same</h2>
+<h2 id="rule-2">Tier design rule #2 — same enum across datasets when the buyer-question is the same</h2>
 
 <p>A buyer asking "show me chat models" wants the same answer whether they're querying <a href="huggingface-models.html">huggingface-models</a>, <a href="huggingface-datasets.html">huggingface-datasets</a>, or <a href="ai-models-pricing.html">ai-models-pricing</a>. Three different source schemas, three different controlled vocabularies for what "chat" means. The buyer doesn't care.</p>
 
@@ -131,7 +131,7 @@ unknown</code></pre>
 
 <p>Each dataset's extractor computes the field from <em>its own</em> source vocabulary, but the output enum is identical. A buyer running a single agent query across all three datasets can filter <code>useCaseTier=code</code> and get models, training datasets, and priced endpoints in one consistent result set.</p>
 
-<h2>Tier design rule #3 — name the absolute threshold after a real-world concept</h2>
+<h2 id="rule-3">Tier design rule #3 — name the absolute threshold after a real-world concept</h2>
 
 <p>Uptime is the cleanest example. The SLA industry has named the thresholds for 30 years:</p>
 
@@ -148,7 +148,7 @@ unknown</code></pre>
 
 <p>A buyer doesn't have to learn our taxonomy. They look at <code>uptimeTier=excellent</code> and know exactly what it means, because it maps to the industry concept they already use to write SLAs.</p>
 
-<h2>What this looks like in a real query</h2>
+<h2 id="real-query">What this looks like in a real query</h2>
 
 <p>From the free <a href="ai-models-pricing-sample.json">ai-models-pricing sample</a>:</p>
 
@@ -167,7 +167,7 @@ unknown</code></pre>
 <strong>Takeaway:</strong> the value of a catalog is not its row count. It's how easily the buyer can ask their own buyer-question against it without learning the schema. Semantic enum tiers — absolute where buyers think absolutely, percentile where they think relatively, same enum across datasets where the question is the same — are the single most-used filter in every workflow we've observed.
 </div>
 
-<h2>Audit log</h2>
+<h2 id="audit-log">Audit log</h2>
 
 <p>Per-dataset tier additions are written into <code>datasets/&lt;name&gt;/CHANGELOG.md</code>. Recent additions (live, auto-regenerated): see the <a href="tiers.html#recently-added">Recently added section on /tiers.html</a>. As of 2026-05-21:</p>
 

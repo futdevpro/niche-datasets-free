@@ -71,7 +71,7 @@
 
 <p class="lead">Every dataset in this catalog got a fresh pull on 2026-05-20, 13 days after the 2026-05-07 baseline. <strong>55,326 records</strong> in total, validated, sorted, deduped, sample-regenerated, and pushed to the free preview surface. Here is exactly what changed.</p>
 
-<h2>Per-dataset churn table</h2>
+<h2 id="churn-table">Per-dataset churn table</h2>
 
 <table>
 <thead>
@@ -102,7 +102,7 @@
 </tbody>
 </table>
 
-<h2>What the numbers say</h2>
+<h2 id="what-the-numbers-say">What the numbers say</h2>
 
 <h3>npm is the loudest signal</h3>
 <p>The npm-packages dataset (top-N-by-downloads ranking) had a <strong>122% gross churn</strong> in 13 days — 3,760 packages broke into the top-6,000 and 3,775 dropped out, leaving the net total roughly flat. This is what an actively-ranked feed looks like: a static "top 6,000 npm packages" snapshot taken today and one taken two weeks ago disagree about <em>more than half</em> of their members. If you're building any kind of "popular libraries" UI, you cannot serve a stale snapshot.</p>
@@ -116,7 +116,7 @@
 <h3>Implication for downstream users</h3>
 <p>If you're picking which of our datasets to subscribe to (or whether to bother subscribing at all vs taking the snapshot once), the table above is the actual refresh-value distribution. <strong>npm and the HF feeds justify high-frequency pulls. The awesome-list-backed ones do not.</strong> A monthly refresh is plenty for design-resources or vector-db-and-rag; nightly or weekly is correct for npm or HuggingFace.</p>
 
-<h2>Pipeline notes</h2>
+<h2 id="pipeline-notes">Pipeline notes</h2>
 
 <ul>
 <li><strong>0 validation errors</strong> across 55,326 records — Zod schemas held cleanly through every refresh.</li>
@@ -129,7 +129,7 @@
 <strong>Takeaway for buyers:</strong> the value-per-refresh of these datasets is not uniform. It is heavily skewed toward the API-backed feeds (npm, HF, OpenRouter) and away from the human-curated awesome-list mirrors. We size pricing by record-count, not by churn — which means the high-churn datasets are objectively the better deal per refresh.
 </div>
 
-<h2>Try the data — runnable filters</h2>
+<h2 id="try-data">Try the data — runnable filters</h2>
 
 <p>Every record in every dataset above carries derived <a href="tiers.html">semantic enum tier fields</a> (<code>useCaseTier</code>, <code>costTierAbsolute</code>, <code>uptimeTier</code>, <code>licenseTier</code>, <code>popularityTier</code>, +40 more) — designed so a buyer's query reads like the buyer's mental model. <a href="examples.html#tier-filters">Copy-pasteable filter snippets in 4 languages</a> (jq · pandas · Node.js fetch · DuckDB SQL) demonstrate the same buyer-question across multiple datasets. Methodology: <a href="blog-semantic-enum-tiers.html">semantic enum tiers post</a>.</p>
 
