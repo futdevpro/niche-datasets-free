@@ -129,6 +129,10 @@
   <summary>schemaVersion in the JSON payload vs OpenAPI info.version — what's the difference?</summary>
   <p>Two independent version numbers. (a) schemaVersion='1.0' lives in each response payload and is the data-contract version — bumps only on breaking changes to the response shape. Clients should ignore unknown fields (forward-compat). (b) OpenAPI info.version='1.1.0' lives in /openapi.json and follows semver for the documentation — additive field additions like liveRecordCount bump the minor (1.0.0→1.1.0), breaking changes would bump the major. The two are independent: an additive OpenAPI version-bump does NOT bump the data schemaVersion.</p>
 </details>
+<details>
+  <summary>Are there bundle discounts?</summary>
+  <p>Yes — 4 themed bundles. Dev Stack Pack ($24, 40% off, 4 datasets), Platform Builder Pack ($29, 55% off, 6 datasets), ML Builder Pack ($29, 55% off, 6 datasets), Complete Developer Data Bundle ($34, 83% off list, all 20 datasets). Listed on the homepage at /#bundles with direct Gumroad links. Single-dataset SKUs stay at $9-11; bundles are strictly cheaper than buying the included datasets individually.</p>
+</details>
 
 <footer>
 Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>. Built by <a href="https://github.com/jhonny-ronnie">Ronnie J</a> at <a href="https://github.com/futdevpro">Future Development Program</a>. Free samples are MIT-style permissive for evaluation; full datasets per <a href="https://jhonnyronnie.gumroad.com">Gumroad terms</a>.
@@ -321,6 +325,14 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Two independent version numbers. (a) schemaVersion='1.0' lives in each response payload and is the data-contract version \u2014 bumps only on breaking changes to the response shape. Clients should ignore unknown fields (forward-compat). (b) OpenAPI info.version='1.1.0' lives in /openapi.json and follows semver for the documentation \u2014 additive field additions like liveRecordCount bump the minor (1.0.0\u21921.1.0), breaking changes would bump the major. The two are independent: an additive OpenAPI version-bump does NOT bump the data schemaVersion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there bundle discounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes \u2014 4 themed bundles. Dev Stack Pack ($24, 40% off, 4 datasets), Platform Builder Pack ($29, 55% off, 6 datasets), ML Builder Pack ($29, 55% off, 6 datasets), Complete Developer Data Bundle ($34, 83% off list, all 20 datasets). Listed on the homepage at /#bundles with direct Gumroad links. Single-dataset SKUs stay at $9-11; bundles are strictly cheaper than buying the included datasets individually."
       }
     }
   ]
