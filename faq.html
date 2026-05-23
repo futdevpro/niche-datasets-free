@@ -137,6 +137,14 @@
   <summary>How does an agent figure out which bundles include a given dataset?</summary>
   <p>Every /datasets.json catalog entry and /&lt;slug&gt;-meta.json endpoint ships a bundles[] array of {name, url} objects — flat-JSON mirror of the schema.org isPartOf graph in the JSON-LD. E.g. npm-packages → bundles[] lists Complete Developer Data Bundle + Platform Builder Pack + Dev Stack Pack. Use this to programmatically compare per-SKU total vs bundle price, or to surface relevant bundles in an affiliate / referral UI. See /api.html#bundles-field for a worked jq snippet and /examples.html#bundle-compare for a full price-comparison loop.</p>
 </details>
+<details>
+  <summary>How do you handle noise records from upstream awesome-list READMEs?</summary>
+  <p>Two crawler-level filters strip the most common section-header-as-list-item patterns at extraction time: (a) year-prefix headers (e.g. "2021 Result", "2023 Competition" — typical for benchmark/conference references nested under a h2), and (b) self-section pointers (bare github.com/&lt;owner&gt;/&lt;repo&gt;#anchor URLs where the link name alnum-matches the anchor — typical when a README's table-of-contents leaks into the entry list). Recent sweep: 3 noise records removed from vector-db-and-rag and 27 from self-hosted-software, zero false positives across the other 18 datasets. Filters live in shared/extract-markdown.ts isSkippable() and apply to every awesome-list refresh going forward.</p>
+</details>
+<details>
+  <summary>Is the published per-source churn rate stable enough to make a refresh-cadence decision on?</summary>
+  <p>For the high-churn API-backed feeds: yes, with two confirmations now in. The 13-day refresh window (2026-05-07 → 2026-05-20) measured npm-packages at 122% gross churn. The 3-day window immediately after (2026-05-20 → 2026-05-23) measured 103.7% — both windows of very different length landed north of 100%. The fortnightly churn rate is therefore not a one-off measurement; it is the steady-state. Same logic for huggingface-models (continuous ~5% per-pull metadata churn on a population-pinned set) and homebrew-packages (high update rate, low add/remove). The awesome-list-backed datasets vary by curator activity, so weekly polling is enough to catch bursts. Full per-source numbers and the methodology are in the <a href="blog-2026-05-23-3-day-update.html">3-day update</a> and <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a>.</p>
+</details>
 
 <footer>
 Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>. Built by <a href="https://github.com/jhonny-ronnie">Ronnie J</a> at <a href="https://github.com/futdevpro">Future Development Program</a>. Free samples are MIT-style permissive for evaluation; full datasets per <a href="https://jhonnyronnie.gumroad.com">Gumroad terms</a>.
@@ -345,6 +353,22 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Every /datasets.json catalog entry and /<slug>-meta.json endpoint ships a bundles[] array of {name, url} objects \u2014 flat-JSON mirror of the schema.org isPartOf graph in the JSON-LD. E.g. npm-packages \u2192 bundles[] lists Complete Developer Data Bundle + Platform Builder Pack + Dev Stack Pack. Use this to programmatically compare per-SKU total vs bundle price, or to surface relevant bundles in an affiliate / referral UI. See /api.html#bundles-field for a worked jq snippet and /examples.html#bundle-compare for a full price-comparison loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle noise records from upstream awesome-list READMEs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two crawler-level filters strip the most common section-header-as-list-item patterns at extraction time: (a) year-prefix headers (e.g. '2021 Result', '2023 Competition' \u2014 typical for benchmark/conference references nested under a h2), and (b) self-section pointers (bare github.com/<owner>/<repo>#anchor URLs where the link name alnum-matches the anchor \u2014 typical when a README table-of-contents leaks into the entry list). Recent sweep: 3 noise records removed from vector-db-and-rag and 27 from self-hosted-software, zero false positives across the other 18 datasets. Filters live in shared/extract-markdown.ts isSkippable() and apply to every awesome-list refresh going forward."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the published per-source churn rate stable enough to make a refresh-cadence decision on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For the high-churn API-backed feeds: yes, with two confirmations now in. The 13-day refresh window (2026-05-07 \u2192 2026-05-20) measured npm-packages at 122% gross churn. The 3-day window immediately after (2026-05-20 \u2192 2026-05-23) measured 103.7% \u2014 both windows of very different length landed north of 100%. The fortnightly churn rate is therefore not a one-off measurement; it is the steady-state. Same logic for huggingface-models (continuous ~5% per-pull metadata churn on a population-pinned set) and homebrew-packages (high update rate, low add/remove). The awesome-list-backed datasets vary by curator activity, so weekly polling is enough to catch bursts."
       }
     }
   ]
