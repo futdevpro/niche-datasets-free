@@ -15,12 +15,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "WAVE",
-    "url": "https://wave.webaim.org/",
-    "description": "allows you to evaluate web content for accessibility issues directly within Chrome and Firefox. It's a web accessibility checker.",
+    "name": "Contrast",
+    "url": "https://usecontrast.com/",
+    "description": "a macOS app for designers and developers to get quick access to WCAG color contrast ratios.",
     "category": "accessibility",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "table of content",
       "accessibility tools"
@@ -30,9 +30,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Spark AR Studio",
-    "url": "https://www.sparkar.com",
-    "description": "сreate AR experiences for Instagram without code.",
+    "name": "Layar",
+    "url": "https://www.layar.com/",
+    "description": "find various items based upon augmented reality technology.",
     "category": "augmented-reality",
     "pricing": "unknown",
     "hasApi": false,
@@ -41,15 +41,15 @@
       "augmented reality"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Freedcamp",
-    "url": "https://freedcamp.com/",
-    "description": "the most innovative way to manage projects, completely free... forever.",
+    "name": "Lumeer",
+    "url": "https://www.lumeer.io/",
+    "description": "an easy visual collaborative tool to plan, organize and track anything, anywhere, anytime.",
     "category": "collaboration",
-    "pricing": "freemium",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
@@ -60,26 +60,25 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Color",
-    "url": "https://color.adobe.com/explore/?filter=most-popular&time=month",
-    "description": "create color schemes with the color wheel or browse thousands of color combinations from the Color community. Made by Adobe.",
+    "name": "HTML CSS Color",
+    "url": "https://www.htmlcsscolor.com/",
+    "description": "Free online Color (USA) or Colour (British) tools: information, gradient generator, color wheels etc.",
     "category": "colors",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "color picker tools"
+      "colors"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Endless Tools",
-    "url": "https://endlesstools.io/",
-    "description": "all-in-one web tool to quickly craft striking 3D visuals, animations, and unique effects — no heavy software or coding needed",
+    "name": "Spline",
+    "url": "https://spline.design/",
+    "description": "a free 3D design software with real-time collaboration to create web interactive experiences in the browser",
     "category": "css-animations",
-    "pricing": "unknown",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "animations, 3d and sound"
@@ -89,122 +88,122 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "CSS Ribbon Generator",
-    "url": "https://www.cssportal.com/css-ribbon-generator",
-    "description": "This generator will assist in creating a pure CSS corner ribbon.",
+    "name": "98.css",
+    "url": "https://jdan.github.io/98.css",
+    "description": "A design system for building faithful recreations of old UIs",
     "category": "css-frameworks",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "others"
+      "css frameworks"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Responsive Web Design Podcast",
-    "url": "https://responsivewebdesign.com/podcast",
-    "description": "Karen and Ethan interview the people who make responsive redesigns happen.",
+    "name": "Ultimate Guide",
+    "url": "https://www.moveoapps.com/ultimate-guide-to-mobile-app-design-principles",
+    "description": "The ultimate guide to mobile app design principles that make your app shine.",
     "category": "design-inspiration",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "podcast"
+      "guidelines"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "DSK",
-    "url": "https://rundsk.com",
-    "description": "short for “Design System Kit” – a workbench for collaboratively creating Design Systems.",
+    "name": "ETrade Design System",
+    "url": "https://etrade.design/",
+    "description": "Guides and toolkits that blend finance with simplicity and ease of use",
     "category": "design-systems",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "design system tools"
+      "design systems & style guides"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "ExtendsClass",
-    "url": "https://extendsclass.com/",
-    "description": "Free online tools for developers, including image compressors/encoders, code formatters, code playgrounds, and many other handy utilities.",
+    "name": "Gifox",
+    "url": "https://gifox.io",
+    "description": "delightful GIF recording and sharing app.",
     "category": "design-tools",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "JSON Lite",
-    "url": "https://github.com/lauriro/json-lite",
-    "description": "Browser extension for viewing JSON files.",
-    "category": "extensions",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "chrome extensions"
+      "table of content",
+      "screenshot software"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "SFWin",
-    "url": "https://github.com/blaisck/sfwin",
-    "description": "San Francisco Fonts for Windows 10 and non-Apple Platform",
-    "category": "fonts",
-    "pricing": "open-source",
+    "name": "Fonts Ninja",
+    "url": "https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh",
+    "description": "Identify fonts from any website, bookmark, try, and buy them.",
+    "category": "extensions",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "fonts"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Smashicons",
-    "url": "https://smashicons.com/",
-    "description": "is the largest and most distinct Icon Pack in the World. Smashicons offers the simplest, effortless way to use icons.",
-    "category": "icons",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "icon and logo"
+      "chrome extensions"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "trianglify.io",
-    "url": "https://trianglify.io/",
-    "description": "Generate low-poly backgrounds, textures, and vectors",
-    "category": "illustrations",
+    "name": "FontGet",
+    "url": "https://www.fontget.com/",
+    "description": "Has a variety of fonts available to download and sorted neatly with tags",
+    "category": "fonts",
     "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "fonts"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "3DICONS",
+    "url": "https://3dicons.co/",
+    "description": "Beautifully crafted open source 3D icons",
+    "category": "icons",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "icons"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Delesign",
+    "url": "https://delesign.com/free-designs/graphics",
+    "description": "A collection of free illustrations and more",
+    "category": "illustrations",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "vectors & clip art"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Promo Image Resizer",
-    "url": "https://promo.com/tools/image-resizer",
-    "description": "Free Image and Photo Resizer",
+    "name": "JPEG Compressor",
+    "url": "https://jpegcompressor.com/",
+    "description": "free image compressor tool and it support JPEG, PNG, SVG, JPG, WEBP and GIF.",
     "category": "image-compression",
     "pricing": "free",
     "hasApi": false,
@@ -212,13 +211,13 @@
       "image compression"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Particles.js",
-    "url": "https://vincentgarreau.com/particles.js",
-    "description": "A lightweight JavaScript library for creating particles",
+    "name": "Atropos",
+    "url": "https://atroposjs.com/",
+    "description": "Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.",
     "category": "javascript-libraries",
     "pricing": "open-source",
     "hasApi": false,
@@ -230,24 +229,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Frrames",
-    "url": "https://frrames.com/",
-    "description": "Frrames mockups is perfectly crafted responsive windows mockups for your ideal presentation.",
+    "name": "Facebook Devices",
+    "url": "https://facebook.design/devices",
+    "description": "Images and Sketch files of popular devices",
     "category": "mockups",
-    "pricing": "unknown",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "mockup tools"
+      "product & image mockups"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "About Face: The Essentials of Interaction Design",
-    "url": "https://www.amazon.com/gp/product/1118766571/ref=as_li_qf_sp_asin_il_tl?ie=utf8&camp=1789&creative=9325&creativeasin=1118766571&linkcode=as2&tag=office03a70-20&linkid=i5tmkuxhz43shhpe",
-    "description": "About Face: The Essentials of Interaction Design",
+    "name": "Simple and Usable Web, Mobile, and Interaction Design",
+    "url": "https://www.amazon.com/gp/product/0321703545",
+    "description": "Simple and Usable Web, Mobile, and Interaction Design",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
@@ -255,36 +253,37 @@
       "book"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
   {
-    "name": "Mixpanel",
-    "url": "https://mixpanel.com/",
-    "description": "get insights across all of your user-centric data to make smarter decisions and act faster based on how customers use your product or website.",
+    "name": "Pidoco",
+    "url": "https://pidoco.com/en",
+    "description": "software that lets you quickly create click-through wireframes and fully interactive UX prototypes.",
     "category": "prototyping",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
-      "experience monitoring"
+      "wireframing tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Stokpic",
-    "url": "http://stokpic.com/",
-    "description": "Stokpic — stock-photos API",
+    "name": "NYPL Digital Collections",
+    "url": "https://digitalcollections.nypl.org/",
+    "description": ":copyright: 180.000 items are Public Domain since January 6th 2016 Public Domain Collections: Free to Share & Reuse",
     "category": "stock-photos",
-    "pricing": "unknown",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "stock"
+      "photography",
+      "public domain"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]
