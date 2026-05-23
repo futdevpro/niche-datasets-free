@@ -133,6 +133,8 @@
 
 <p>Every record in every dataset above carries derived <a href="tiers.html">semantic enum tier fields</a> (<code>useCaseTier</code>, <code>costTierAbsolute</code>, <code>uptimeTier</code>, <code>licenseTier</code>, <code>popularityTier</code>, +40 more) — designed so a buyer's query reads like the buyer's mental model. <a href="examples.html#tier-filters">Copy-pasteable filter snippets in 4 languages</a> (jq · pandas · Node.js fetch · DuckDB SQL) demonstrate the same buyer-question across multiple datasets. Methodology: <a href="blog-semantic-enum-tiers.html">semantic enum tiers post</a>.</p>
 
+<p>Want to reproduce this churn table on your own pipeline? Each dataset entry in <a href="datasets.json">/datasets.json</a> ships <code>liveRecordCount</code> (exact int from the live data file). A small <a href="examples.html#change-detection">change-detection Python loop</a> polls the catalog, diffs against your saved snapshot, and tells you exactly which datasets moved between refreshes — same +N / −N / net numbers you see above.</p>
+
 <p>Every dataset also links to its detail page with a 5-record HTML preview + downloadable 20-record JSON + CSV sample. No signup, no email, no API key.</p>
 
 <p>Want the full version? Each detail page links to the Gumroad product (single-dataset SKUs $9–11, themed bundles $24–29). The full data ZIP includes the same data the table above describes, plus the field-level Zod schema and a README.</p>
