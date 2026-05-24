@@ -932,7 +932,7 @@ def main():
         f.write(build_feed_xml(repo_root))
     update_index_table(repo_root)
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+13} URLs: root + faq + examples + vs + quickstart + feed + blog + buyers-guide + api + openapi + blog-enum-tiers + tiers + changelog + 20 detail) + datasets.json catalog + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
+    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+15} URLs: root + buyers-guide + tiers + quickstart + api + examples + vs + faq + blog-3day + blog-13day + blog-enum-tiers + changelog + feed + openapi + cross-dataset-overlap + 20 detail) + datasets.json catalog + cross-dataset-overlap.json + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
 
 if __name__ == "__main__":

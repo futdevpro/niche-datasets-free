@@ -48,6 +48,13 @@
 
 <p>For commentary, see the <a href="blog-2026-05-23-3-day-update.html">3-day update (2026-05-23)</a> and the original <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a>.</p>
 
+<h2 id="highlights-2026-05-24">Catalog highlights — 2026-05-24</h2>
+<ul>
+  <li><strong>Two new crawler noise filters:</strong> year-prefix section-headers (e.g. "2021 Result", "2023 Competition") and bare github.com self-section pointers (e.g. <code>github.com/foo/awesome-bar#books</code> where the entry name alnum-matches the anchor). Recent scrubs removed 3 records from <code>vector-db-and-rag</code> and 27 from <code>self-hosted-software</code>; zero false positives across the other 18 datasets. Verifiable buyer-side via <a href="examples.html#noise-audit">noise-audit jq snippets</a>. Methodology: <a href="faq.html">FAQ Q26</a>, <a href="api.html#data-quality">api.html#data-quality</a>.</li>
+  <li><strong>New endpoint <code>/cross-dataset-overlap.json</code>:</strong> lists every URL that appears in 3+ of the 20 catalog datasets (currently 208). Cross-leverage signal for buyer-agents doing market-mapping; bundle-justification reference for the buyer's guide. Documented in OpenAPI 1.3.0 schema <code>CrossDatasetOverlap</code>. Worked jq snippets in <a href="examples.html#cross-leverage">examples #cross-leverage</a>.</li>
+  <li><strong>Two stale hand-floors corrected:</strong> <code>llmops-and-eval</code> 490+ → 500+ (actual 573), <code>vector-db-and-rag</code> 190+ → 200+ (actual 224). <code>self-hosted-software</code> 2,300+ → 2,200+ (post-noise-scrub 2,294 dropped below floor).</li>
+</ul>
+
 <h2 id="2026-05-21">2026-05-21</h2>
 <table><thead><tr><th>Dataset</th><th>+ Added</th><th>~ Updated</th><th>- Removed</th><th>Net</th></tr></thead><tbody>
 <tr><td><a href="cybersecurity-tools.html">cybersecurity-tools</a></td><td><span class="pos">+4</span></td><td><span class="zero">0</span></td><td><span class="neg">-1</span></td><td><span class="pos">+3</span></td></tr>
