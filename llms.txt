@@ -1,0 +1,54 @@
+# Niche Datasets — Free Sample Catalog
+
+> 20 curated developer + AI datasets (~55,000 records total) with consistent schema, 40+ semantic enum tier fields, per-record enrichment, refresh-cadence signals, and bundle membership graph. Designed for buyer-agents that need to programmatically enumerate, compare, and pull structured tool catalogs without re-scraping the sources.
+
+Catalog homepage: https://futdevpro.github.io/niche-datasets-free/
+GitHub repo: https://github.com/futdevpro/niche-datasets-free
+Full datasets (paid): https://jhonnyronnie.gumroad.com/
+
+## Programmatic entry points
+
+- [Machine-readable catalog](https://futdevpro.github.io/niche-datasets-free/datasets.json): 20 datasets with liveRecordCount, recordCount, sampleJsonUrl, sampleCsvUrl, price, bundles, related-datasets array. Single fetch, no auth.
+- [OpenAPI 3.1 spec](https://futdevpro.github.io/niche-datasets-free/openapi.json): 1.3.0, four endpoints (/datasets.json, /{slug}-meta.json, /feed.xml, /cross-dataset-overlap.json). Generate a typed client with openapi-python-client or any OAS3 codegen.
+- [Per-dataset metadata](https://futdevpro.github.io/niche-datasets-free/npm-packages-meta.json): one /{slug}-meta.json per dataset (20 endpoints).
+- [Cross-dataset URL overlap](https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json): 208 URLs appearing in 3+ datasets. Use for market-mapping and cross-sell discovery.
+- [RSS refresh feed](https://futdevpro.github.io/niche-datasets-free/feed.xml): subscribe for refresh notifications, no polling needed.
+
+## Sample downloads (CC0 / MIT-style permissive for evaluation)
+
+Each dataset has a 20-record JSON + CSV sample at /{slug}-sample.json and /{slug}-sample.csv. Schema-validated, same fields as the full dataset. No signup, no email, no API key required.
+
+The 20 dataset slugs:
+ai-agents, ai-models-pricing, ai-prompts, ai-tools, cybersecurity-tools, design-resources, developer-tools, homebrew-packages, huggingface-datasets, huggingface-models, llmops-and-eval, mcp-servers, no-code-lowcode, npm-packages, open-source-alternatives, platform-engineering, public-apis, self-hosted-software, vector-db-and-rag, vscode-extensions
+
+## Public documentation
+
+- [Quickstart (5 min)](https://futdevpro.github.io/niche-datasets-free/quickstart.html): 6-step copy-paste path to first useful query.
+- [API + agent-callable guide](https://futdevpro.github.io/niche-datasets-free/api.html): endpoints, caching, schema versioning, data-quality guarantees, bundles-graph, agent-callable Python example.
+- [Code examples](https://futdevpro.github.io/niche-datasets-free/examples.html): jq / pandas / Node.js fetch / DuckDB SQL, plus tier-filter snippets, change-detection, cross-leverage discovery, noise-audit verification probes.
+- [Buyer's guide](https://futdevpro.github.io/niche-datasets-free/buyers-guide.html): 9 workload-to-dataset mappings, bundle-justification with verified cross-leverage numbers, decision table.
+- [vs alternatives](https://futdevpro.github.io/niche-datasets-free/vs.html): comparisons with awesome-list mirrors, Kaggle, HuggingFace hub, ProductHunt, ad-hoc Google, custom scrapes.
+- [Semantic enum tiers methodology](https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html): why absolute-threshold enum tiers beat percentile-rank thresholds for cross-refresh stability.
+
+## Engineering posts (data-quality + churn methodology)
+
+- [14,331 URLs Restored — URL Canonicalization Bug (2026-05-24)](https://futdevpro.github.io/niche-datasets-free/blog-2026-05-24-url-canonicalization.html): post-mortem of a normalizer bug that mangled case-sensitive paths; refresh sweep restored 26% of the catalog's URLs to correct case.
+- [3-Day Update — npm Churned Another 103.7% (2026-05-23)](https://futdevpro.github.io/niche-datasets-free/blog-2026-05-23-3-day-update.html): second per-source churn measurement confirms npm-packages reshuffles ~100% per fortnight.
+- [13-Day Refresh Report (2026-05-20)](https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html): per-dataset churn baseline (npm 122%, HF datasets 43%, MCP 0.8%, design-resources literal 0).
+
+## Catalog features designed for AI agents
+
+- **liveRecordCount**: exact int in every /datasets.json entry + /{slug}-meta.json — pull-only-what-changed loops work cleanly.
+- **bundles[]**: flat-JSON mirror of schema.org isPartOf — programmatic price comparison (per-SKU total vs bundle).
+- **cross-dataset-overlap.json**: 208 URLs appearing in 3+ datasets — market-mapping signal.
+- **Crawler noise filters** (year-prefix section-headers + github.com bare-repo self-section pointers): documented in /api.html#data-quality, verifiable via /examples.html#noise-audit jq probes that return 0 across all 20 samples.
+- **schemaVersion** in every JSON payload + OpenAPI semver: clients can adapt to additive changes without breaking on unknown fields.
+
+## License + commercial use
+
+Samples are MIT-style permissive for evaluation. Full datasets (downloaded as ZIPs from Gumroad) per Gumroad terms. Single-dataset SKUs $9–11. Themed bundles $24–29. Complete Developer Data Bundle $34 (all 20).
+
+## Contact
+
+GitHub Issues: https://github.com/futdevpro/niche-datasets-free/issues
+Project author: https://github.com/jhonny-ronnie at https://github.com/futdevpro

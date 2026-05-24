@@ -475,6 +475,7 @@ def build_sitemap():
         ("https://futdevpro.github.io/niche-datasets-free/openapi.json",                           "0.5", "yearly"),
         ("https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json",             "0.6", "weekly"),
         ("https://futdevpro.github.io/niche-datasets-free/cross-leverage.html",                    "0.8", "weekly"),
+        ("https://futdevpro.github.io/niche-datasets-free/llms.txt",                               "0.5", "monthly"),
     ] + [
         (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8", "weekly")
         for d in DATASETS
@@ -1155,7 +1156,7 @@ def main():
         f.write(build_feed_xml(repo_root))
     update_index_table(repo_root)
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+17} URLs: root + buyers-guide + tiers + quickstart + api + examples + vs + faq + blog-url-fix + blog-3day + blog-13day + blog-enum-tiers + changelog + feed + openapi + cross-dataset-overlap + cross-leverage + 20 detail) + datasets.json catalog + cross-dataset-overlap.json + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
+    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+18} URLs: root + buyers-guide + tiers + quickstart + api + examples + vs + faq + blog-url-fix + blog-3day + blog-13day + blog-enum-tiers + changelog + feed + openapi + cross-dataset-overlap + cross-leverage + llms.txt + 20 detail) + datasets.json catalog + cross-dataset-overlap.json + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
 
 if __name__ == "__main__":
