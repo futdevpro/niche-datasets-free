@@ -95,6 +95,11 @@
 <p><strong>RSS 2.0 refresh feed.</strong> One entry per dataset, ordered by lastRefreshed. Subscribe in your feed reader to be notified when any dataset re-pulls.</p>
 </div>
 
+<div class="endpoint">
+<h3><span class="method">GET</span> <a href="cross-dataset-overlap.json"><code>/cross-dataset-overlap.json</code></a></h3>
+<p><strong>Cross-dataset URL overlap.</strong> 208 URLs appearing in 3+ of the 20 catalog datasets. Use for market-mapping and cross-sell discovery. Schema: <code>CrossDatasetOverlap</code>. Recomputed on every catalog refresh. Human-readable view: <a href="cross-leverage.html"><code>/cross-leverage.html</code></a>.</p>
+</div>
+
 <h2 id="auto-generate-a-client">Auto-generate a client</h2>
 
 <p>The spec is OpenAPI 3.1, so any codegen that supports the 3.1 schema works:</p>
