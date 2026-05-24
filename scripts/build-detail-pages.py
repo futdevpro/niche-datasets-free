@@ -470,6 +470,7 @@ def build_sitemap():
         ("https://futdevpro.github.io/niche-datasets-free/changelog.html",                         "0.6", "weekly"),
         ("https://futdevpro.github.io/niche-datasets-free/feed.xml",                               "0.6", "weekly"),
         ("https://futdevpro.github.io/niche-datasets-free/openapi.json",                           "0.5", "yearly"),
+        ("https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json",             "0.6", "weekly"),
     ] + [
         (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8", "weekly")
         for d in DATASETS
@@ -772,6 +773,62 @@ def build_catalog_json(repo_root=None):
     }, indent=2)
 
 
+def build_cross_dataset_overlap_json(repo_root):
+    """Catalog endpoint listing URLs that appear in 3+ datasets — the
+    high-cross-leverage tools in the catalog. Useful for buyer-agents doing
+    market-mapping ("which tools span the most developer niches?") and for
+    cross-sell discovery ("buyers of vector-db-and-rag likely also want
+    ai-agents because Qdrant appears in both").
+
+    Source-of-truth: live data files under ../niche-datasets/datasets/<slug>/data/.
+    Threshold of 3+ keeps the output to a manageable ~200 entries (vs ~1,300 at 2+).
+    """
+    from collections import defaultdict
+    url_to_entries = defaultdict(list)
+    for d in DATASETS:
+        slug = d["slug"]
+        data_path = os.path.normpath(
+            os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "data", f"{slug}.json")
+        )
+        if not os.path.isfile(data_path):
+            continue
+        try:
+            with open(data_path, "r", encoding="utf-8") as f:
+                records = json.load(f)
+        except Exception:
+            continue
+        for r in records:
+            u = (r.get("url") or "").strip().rstrip("/").lower()
+            if not u:
+                continue
+            name = (r.get("name") or "").strip()
+            url_to_entries[u].append({"dataset": slug, "name": name})
+
+    top = []
+    for url, entries in url_to_entries.items():
+        slugs = sorted({e["dataset"] for e in entries})
+        if len(slugs) < 3:
+            continue
+        names = sorted({e["name"] for e in entries if e["name"]})
+        top.append({
+            "url": url,
+            "appearsIn": slugs,
+            "count": len(slugs),
+            "nameVariants": names,
+        })
+    top.sort(key=lambda x: (-x["count"], x["url"]))
+
+    return json.dumps({
+        "schemaVersion": "1.0",
+        "generated": datetime.date.today().isoformat(),
+        "name": "Niche Datasets — Cross-Dataset URL Overlap",
+        "description": "URLs that appear in 3 or more of the 20 catalog datasets. High-cross-leverage tools spanning multiple developer niches. Use for market-mapping, cross-sell discovery, or to identify which tools justify a multi-dataset bundle purchase.",
+        "threshold": "appearsIn >= 3 datasets",
+        "totalUrlsAboveThreshold": len(top),
+        "topByCount": top,
+    }, indent=2)
+
+
 def audit_record_floors(repo_root):
     """Warn when a DATASETS records floor like '6,000+' has fallen below the
     actual record count from the live data file. Advisory only — doesn't
@@ -861,6 +918,9 @@ def main():
     catalog_path = os.path.join(repo_root, "datasets.json")
     with open(catalog_path, "w", encoding="utf-8") as f:
         f.write(build_catalog_json(repo_root))
+    overlap_path = os.path.join(repo_root, "cross-dataset-overlap.json")
+    with open(overlap_path, "w", encoding="utf-8") as f:
+        f.write(build_cross_dataset_overlap_json(repo_root))
     # Per-dataset metadata endpoints
     for d in DATASETS:
         meta_path = os.path.join(repo_root, f"{d['slug']}-meta.json")

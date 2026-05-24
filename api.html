@@ -153,6 +153,15 @@ npx openapi-typescript \
 
 <p>Useful for buyer-agents that compare per-dataset price vs. bundle price programmatically, or for affiliate / referral systems that need to know which Gumroad SKUs to surface for a given dataset.</p>
 
+<h2 id="cross-dataset-overlap">Cross-dataset URL overlap — high-cross-leverage tools</h2>
+
+<p>The endpoint <a href="cross-dataset-overlap.json"><code>/cross-dataset-overlap.json</code></a> lists every URL that appears in 3+ of the 20 catalog datasets — the high-cross-leverage tools that span developer niches. Currently 208 URLs above the threshold; the top entries (5 datasets) include ClickUp (developer-tools + homebrew + no-code-lowcode + platform-engineering + public-apis), Snyk (ai-agents + cybersecurity + developer-tools + homebrew + public-apis), and KubeStellar Console (ai-agents + ai-tools + llmops-and-eval + mcp-servers + platform-engineering).</p>
+
+<pre><code>curl -s https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json \
+  | jq '.topByCount[] | select(.count &gt;= 4) | {url, count, appearsIn}'</code></pre>
+
+<p>Useful for market-mapping (which tools span the most niches?), cross-sell discovery (buyers of one dataset likely want adjacent ones if their target tool spans both), or for bundle-pricing decisions ("Qdrant appears in 4 of our datasets → justifies the ML Builder Pack").</p>
+
 <h2 id="data-quality">Data quality — crawler-level noise filters</h2>
 
 <p>Awesome-list READMEs sometimes leak section-header structure into the entry stream. Two extractor-level filters strip the patterns at ingest, before normalization and dedupe see the records:</p>

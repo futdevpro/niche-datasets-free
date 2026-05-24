@@ -1,0 +1,2718 @@
+{
+  "schemaVersion": "1.0",
+  "generated": "2026-05-24",
+  "name": "Niche Datasets \u2014 Cross-Dataset URL Overlap",
+  "description": "URLs that appear in 3 or more of the 20 catalog datasets. High-cross-leverage tools spanning multiple developer niches. Use for market-mapping, cross-sell discovery, or to identify which tools justify a multi-dataset bundle purchase.",
+  "threshold": "appearsIn >= 3 datasets",
+  "totalUrlsAboveThreshold": 208,
+  "topByCount": [
+    {
+      "url": "https://clickup.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "no-code-lowcode",
+        "platform-engineering",
+        "public-apis"
+      ],
+      "count": 5,
+      "nameVariants": [
+        "ClickUp",
+        "Clickup",
+        "clickup.com",
+        "clickup20"
+      ]
+    },
+    {
+      "url": "https://github.com/kubestellar/console",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "mcp-servers",
+        "platform-engineering"
+      ],
+      "count": 5,
+      "nameVariants": [
+        "KubeStellar Console",
+        "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
+        "kubestellar/console"
+      ]
+    },
+    {
+      "url": "https://snyk.io",
+      "appearsIn": [
+        "ai-agents",
+        "cybersecurity-tools",
+        "developer-tools",
+        "homebrew-packages",
+        "public-apis"
+      ],
+      "count": 5,
+      "nameVariants": [
+        "Snyk",
+        "Snyk API",
+        "Snyk Code",
+        "snyk-cli"
+      ]
+    },
+    {
+      "url": "https://airtable.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages",
+        "no-code-lowcode"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Airtable"
+      ]
+    },
+    {
+      "url": "https://appwrite.io",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Appwrite",
+        "appwrite"
+      ]
+    },
+    {
+      "url": "https://asana.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Asana"
+      ]
+    },
+    {
+      "url": "https://code.visualstudio.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering",
+        "vscode-extensions"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Microsoft Visual Studio Code",
+        "Official website",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "url": "https://elevenlabs.io",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "no-code-lowcode",
+        "public-apis"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "ElevenLabs",
+        "ElevenLabs API Documentation"
+      ]
+    },
+    {
+      "url": "https://github.com/coder/code-server",
+      "appearsIn": [
+        "ai-tools",
+        "homebrew-packages",
+        "llmops-and-eval",
+        "self-hosted-software"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Code Server",
+        "code server",
+        "code-server"
+      ]
+    },
+    {
+      "url": "https://github.com/facebookresearch/faiss",
+      "appearsIn": [
+        "ai-tools",
+        "homebrew-packages",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "FAISS",
+        "Faiss",
+        "facebookresearch/faiss",
+        "faiss"
+      ]
+    },
+    {
+      "url": "https://github.com/lobehub/lobe-chat",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "homebrew-packages",
+        "llmops-and-eval"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Lobe Chat",
+        "LobeChat",
+        "LobeHub"
+      ]
+    },
+    {
+      "url": "https://github.com/mervinpraison/praisonai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "no-code-lowcode"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "PraisonAI"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/autogen",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "no-code-lowcode"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "AutoGen",
+        "autogen"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Semantic Kernel",
+        "microsoft/semantic-kernel"
+      ]
+    },
+    {
+      "url": "https://github.com/mnfst/manifest",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "open-source-alternatives"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Manifest"
+      ]
+    },
+    {
+      "url": "https://github.com/neuml/txtai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Txtai",
+        "neuml/txtai",
+        "txtai"
+      ]
+    },
+    {
+      "url": "https://github.com/pgvector/pgvector",
+      "appearsIn": [
+        "ai-tools",
+        "homebrew-packages",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "pgvector"
+      ]
+    },
+    {
+      "url": "https://github.com/qdrant/qdrant",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Qdrant",
+        "Qdrant - Vector Similarity Search Engine with extended filtering support"
+      ]
+    },
+    {
+      "url": "https://github.com/sortlist/overloop-cli",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "no-code-lowcode",
+        "open-source-alternatives"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Overloop CLI"
+      ]
+    },
+    {
+      "url": "https://github.com/splx-ai/agentic-radar",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "cybersecurity-tools",
+        "llmops-and-eval"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Agentic Radar"
+      ]
+    },
+    {
+      "url": "https://github.com/vectorize-io/hindsight",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "mcp-servers"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Hindsight",
+        "vectorize-io/hindsight"
+      ]
+    },
+    {
+      "url": "https://github.com/writbase/writbase",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval",
+        "mcp-servers"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "WritBase",
+        "Writbase/writbase"
+      ]
+    },
+    {
+      "url": "https://keploy.io",
+      "appearsIn": [
+        "ai-tools",
+        "developer-tools",
+        "homebrew-packages",
+        "open-source-alternatives"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Keploy",
+        "keploy"
+      ]
+    },
+    {
+      "url": "https://langfuse.com",
+      "appearsIn": [
+        "ai-tools",
+        "developer-tools",
+        "llmops-and-eval",
+        "self-hosted-software"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Langfuse",
+        "Langfuse \ud83e\udea2"
+      ]
+    },
+    {
+      "url": "https://obsidian.md",
+      "appearsIn": [
+        "ai-tools",
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "no-code-lowcode"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Obsidian"
+      ]
+    },
+    {
+      "url": "https://replit.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Replit",
+        "Replit Agent"
+      ]
+    },
+    {
+      "url": "https://slack.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages",
+        "public-apis"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Slack",
+        "Slack AI Plugin",
+        "slack.com"
+      ]
+    },
+    {
+      "url": "https://webflow.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "no-code-lowcode",
+        "public-apis"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Lucidtech API",
+        "Webflow"
+      ]
+    },
+    {
+      "url": "https://www.canva.com",
+      "appearsIn": [
+        "ai-tools",
+        "cybersecurity-tools",
+        "design-resources",
+        "homebrew-packages"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Canva"
+      ]
+    },
+    {
+      "url": "https://www.taskade.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 4,
+      "nameVariants": [
+        "Taskade",
+        "taskade.com"
+      ]
+    },
+    {
+      "url": "https://about.gitlab.com",
+      "appearsIn": [
+        "developer-tools",
+        "platform-engineering",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "GitLab",
+        "Gitlab",
+        "gitlab.com"
+      ]
+    },
+    {
+      "url": "https://aider.chat",
+      "appearsIn": [
+        "ai-tools",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Aider",
+        "aider"
+      ]
+    },
+    {
+      "url": "https://airflow.apache.org",
+      "appearsIn": [
+        "llmops-and-eval",
+        "public-apis",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Airflow",
+        "Airflow API (Stable)",
+        "Apache Airflow"
+      ]
+    },
+    {
+      "url": "https://bitwarden.com",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Bitwarden",
+        "bitwarden-cli"
+      ]
+    },
+    {
+      "url": "https://bubble.io",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Bubble"
+      ]
+    },
+    {
+      "url": "https://camunda.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Camunda",
+        "Camunda Modeler"
+      ]
+    },
+    {
+      "url": "https://chatgpt.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "url": "https://circleci.com",
+      "appearsIn": [
+        "developer-tools",
+        "platform-engineering",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "CircleCI",
+        "CircleCI REST API"
+      ]
+    },
+    {
+      "url": "https://cloud.google.com/vertex-ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Google Vertex AI Agent Builder",
+        "Vertex AI",
+        "Vertex-AI"
+      ]
+    },
+    {
+      "url": "https://code.kryo.se/iodine",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Iodine",
+        "iodine"
+      ]
+    },
+    {
+      "url": "https://coderabbit.ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "CodeRabbit",
+        "CodeRabbit AI"
+      ]
+    },
+    {
+      "url": "https://configcat.com",
+      "appearsIn": [
+        "developer-tools",
+        "platform-engineering",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "ConfigCat",
+        "ConfigCat - Privacy-first feature flag service",
+        "ConfigCat Public Management API"
+      ]
+    },
+    {
+      "url": "https://cube.dev",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "open-source-alternatives"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Cube",
+        "Cube.js",
+        "cubejs-cli"
+      ]
+    },
+    {
+      "url": "https://d3js.org",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "design-resources",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "D3.js",
+        "D3js",
+        "Data Driven Documents (D3)"
+      ]
+    },
+    {
+      "url": "https://depot.dev",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Depot",
+        "depot"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/studio",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Android SDK Command-line Tools",
+        "Android Studio",
+        "Xcode / Android Studio"
+      ]
+    },
+    {
+      "url": "https://ente.io",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Ente"
+      ]
+    },
+    {
+      "url": "https://flowiseai.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Flowise",
+        "FlowiseAI"
+      ]
+    },
+    {
+      "url": "https://ghost.org",
+      "appearsIn": [
+        "developer-tools",
+        "public-apis",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Ghost"
+      ]
+    },
+    {
+      "url": "https://git-scm.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Git",
+        "git"
+      ]
+    },
+    {
+      "url": "https://github.com/aden-hive/hive",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Hive",
+        "Hive (Aden)"
+      ]
+    },
+    {
+      "url": "https://github.com/agentops-ai/agentops",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "AgentOps",
+        "agentops"
+      ]
+    },
+    {
+      "url": "https://github.com/agentset-ai/agentset",
+      "appearsIn": [
+        "ai-agents",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Agentset"
+      ]
+    },
+    {
+      "url": "https://github.com/agno-agi/agno",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Agno"
+      ]
+    },
+    {
+      "url": "https://github.com/aquasecurity/kube-bench",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "kube-bench",
+        "kube-bench checks whether Kubernetes security is aording to CIS K8S Benchmark"
+      ]
+    },
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Argo Workflows",
+        "Argo-Workflows"
+      ]
+    },
+    {
+      "url": "https://github.com/arize-ai/phoenix",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Arize-Phoenix",
+        "Phoenix (Arize)"
+      ]
+    },
+    {
+      "url": "https://github.com/askbudi/roundtable",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Roundtable",
+        "askbudi/roundtable"
+      ]
+    },
+    {
+      "url": "https://github.com/av/harbor",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Harbor",
+        "LLM Harbor"
+      ]
+    },
+    {
+      "url": "https://github.com/browser-use/browser-use",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Browser Use",
+        "browser-use"
+      ]
+    },
+    {
+      "url": "https://github.com/burntsushi/ripgrep",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "ripgrep"
+      ]
+    },
+    {
+      "url": "https://github.com/camel-ai/camel",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "CAMEL",
+        "camel"
+      ]
+    },
+    {
+      "url": "https://github.com/chroma-core/chroma",
+      "appearsIn": [
+        "ai-agents",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Chroma"
+      ]
+    },
+    {
+      "url": "https://github.com/composiohq/composio",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Composio",
+        "composio"
+      ]
+    },
+    {
+      "url": "https://github.com/connerlambden/bgpt-mcp",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "BGPT MCP",
+        "connerlambden/bgpt-mcp"
+      ]
+    },
+    {
+      "url": "https://github.com/crewaiinc/crewai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "CrewAI",
+        "crewAI"
+      ]
+    },
+    {
+      "url": "https://github.com/e2b-dev/e2b",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "E2B",
+        "e2b",
+        "e2b-dev/e2b"
+      ]
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "GitHub Copilot"
+      ]
+    },
+    {
+      "url": "https://github.com/flowiseai/flowise",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Flowise"
+      ]
+    },
+    {
+      "url": "https://github.com/geekan/metagpt",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "MetaGPT"
+      ]
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "llama.cpp"
+      ]
+    },
+    {
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "appearsIn": [
+        "ai-agents",
+        "homebrew-packages",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Gemini CLI",
+        "gemini-cli"
+      ]
+    },
+    {
+      "url": "https://github.com/google/adk-python",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Agent Development Kit (ADK)",
+        "Agent Development Kit (Google)",
+        "Google ADK"
+      ]
+    },
+    {
+      "url": "https://github.com/huggingface/smolagents",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "smolagents"
+      ]
+    },
+    {
+      "url": "https://github.com/infiniflow/ragflow",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "RAGFlow"
+      ]
+    },
+    {
+      "url": "https://github.com/jerryjliu/llama_index",
+      "appearsIn": [
+        "ai-agents",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "LlamaIndex"
+      ]
+    },
+    {
+      "url": "https://github.com/jlowin/fastmcp",
+      "appearsIn": [
+        "ai-agents",
+        "llmops-and-eval",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "FastMCP",
+        "Fastmcp"
+      ]
+    },
+    {
+      "url": "https://github.com/juspay/neurolink",
+      "appearsIn": [
+        "ai-agents",
+        "llmops-and-eval",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "NeuroLink",
+        "Neurolink",
+        "juspay/neurolink"
+      ]
+    },
+    {
+      "url": "https://github.com/juyterman1000/entroly",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Entroly"
+      ]
+    },
+    {
+      "url": "https://github.com/kyegomez/swarms",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Swarms"
+      ]
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "LangGraph"
+      ]
+    },
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "appearsIn": [
+        "ai-agents",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "LangFuse",
+        "Langfuse"
+      ]
+    },
+    {
+      "url": "https://github.com/langgenius/dify",
+      "appearsIn": [
+        "ai-agents",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Dify"
+      ]
+    },
+    {
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "MCP-Agent",
+        "mcp-agent"
+      ]
+    },
+    {
+      "url": "https://github.com/latitude-dev/latitude-llm",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Latitude",
+        "Latitude-Llm"
+      ]
+    },
+    {
+      "url": "https://github.com/learningcircuit/local-deep-research",
+      "appearsIn": [
+        "ai-tools",
+        "self-hosted-software",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Local Deep Research"
+      ]
+    },
+    {
+      "url": "https://github.com/livekit/agents",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Agents",
+        "LiveKit Agents"
+      ]
+    },
+    {
+      "url": "https://github.com/lm-sys/fastchat",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "FastChat",
+        "FastChat (Vicuna)"
+      ]
+    },
+    {
+      "url": "https://github.com/marqo-ai/marqo",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Marqo",
+        "marqo"
+      ]
+    },
+    {
+      "url": "https://github.com/mastra-ai/mastra",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Mastra"
+      ]
+    },
+    {
+      "url": "https://github.com/mem0ai/mem0",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Mem0",
+        "mem0"
+      ]
+    },
+    {
+      "url": "https://github.com/meta-llama/purplellama",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Purple Llama",
+        "PurpleLlama (Meta)",
+        "Purplellama"
+      ]
+    },
+    {
+      "url": "https://github.com/michael-a-kuykendall/shimmy",
+      "appearsIn": [
+        "ai-tools",
+        "homebrew-packages",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Shimmy",
+        "shimmy"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/graphrag",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "GraphRAG",
+        "GraphRAG (Microsoft)"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "appearsIn": [
+        "ai-agents",
+        "homebrew-packages",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Playwright",
+        "Playwright MCP",
+        "playwright-mcp"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/vscode",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "vscode-extensions"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Dev Git Repo",
+        "Source code",
+        "code-cli"
+      ]
+    },
+    {
+      "url": "https://github.com/milvus-io/milvus",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Milvus"
+      ]
+    },
+    {
+      "url": "https://github.com/mintplex-labs/anything-llm",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Anything LLM",
+        "AnythingLLM"
+      ]
+    },
+    {
+      "url": "https://github.com/msoedov/agentic_security",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Agentic Security",
+        "Agentic_Security"
+      ]
+    },
+    {
+      "url": "https://github.com/open-webui/open-webui",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Open WebUI"
+      ]
+    },
+    {
+      "url": "https://github.com/openai/codex",
+      "appearsIn": [
+        "ai-agents",
+        "homebrew-packages",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Codex",
+        "OpenAI Codex CLI"
+      ]
+    },
+    {
+      "url": "https://github.com/openai/openai-agents-python",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "OpenAI Agents SDK"
+      ]
+    },
+    {
+      "url": "https://github.com/openai/swarm",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Swarm",
+        "openai/swarm"
+      ]
+    },
+    {
+      "url": "https://github.com/pathwaycom/llm-app",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "LLM App",
+        "LLMApp",
+        "Pathway AI Pipelines"
+      ]
+    },
+    {
+      "url": "https://github.com/pathwaycom/pathway",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Pathway"
+      ]
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Pydantic AI",
+        "PydanticAI",
+        "pydantic/pydantic-ai"
+      ]
+    },
+    {
+      "url": "https://github.com/quickwit-oss/tantivy",
+      "appearsIn": [
+        "ai-tools",
+        "open-source-alternatives",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Tantivy"
+      ]
+    },
+    {
+      "url": "https://github.com/qwenlm/qwen-agent",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Qwen-Agent"
+      ]
+    },
+    {
+      "url": "https://github.com/screenpipe/screenpipe",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Screenpipe",
+        "screenpipe/screenpipe"
+      ]
+    },
+    {
+      "url": "https://github.com/semi-technologies/weaviate",
+      "appearsIn": [
+        "llmops-and-eval",
+        "self-hosted-software",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Weaviate",
+        "Weaviate - A cloud-native, real-time vector search engine"
+      ]
+    },
+    {
+      "url": "https://github.com/significant-gravitas/autogpt",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Auto-GPT",
+        "AutoGPT"
+      ]
+    },
+    {
+      "url": "https://github.com/sipyourdrink-ltd/bernstein",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "mcp-servers"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Bernstein",
+        "sipyourdrink-ltd/bernstein"
+      ]
+    },
+    {
+      "url": "https://github.com/sortlist/signals-cli",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "open-source-alternatives"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Signals CLI"
+      ]
+    },
+    {
+      "url": "https://github.com/stanfordnlp/dspy",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "DSPy",
+        "stanfordnlp/dspy"
+      ]
+    },
+    {
+      "url": "https://github.com/swarmclawai/swarmclaw",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "SwarmClaw"
+      ]
+    },
+    {
+      "url": "https://github.com/tencent/ncnn",
+      "appearsIn": [
+        "ai-tools",
+        "homebrew-packages",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "NCNN",
+        "ncnn"
+      ]
+    },
+    {
+      "url": "https://github.com/the-open-agent/openagent",
+      "appearsIn": [
+        "ai-agents",
+        "mcp-servers",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "OpenAgent"
+      ]
+    },
+    {
+      "url": "https://github.com/thudm/agentbench",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "AgentBench",
+        "AgentBench (THUDM)"
+      ]
+    },
+    {
+      "url": "https://github.com/valeriansaliou/sonic",
+      "appearsIn": [
+        "homebrew-packages",
+        "open-source-alternatives",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Sonic",
+        "sonic"
+      ]
+    },
+    {
+      "url": "https://github.com/vdaas/vald",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Vald",
+        "Vald - A Highly Scalable Distributed Vector Search Engine"
+      ]
+    },
+    {
+      "url": "https://github.com/vearch/vearch",
+      "appearsIn": [
+        "ai-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Vearch",
+        "Vearch - A scalable distributed system for efficient similarity search of deep learning vectors"
+      ]
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "vLLM",
+        "vllm"
+      ]
+    },
+    {
+      "url": "https://github.com/weaviate/weaviate",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Weaviate"
+      ]
+    },
+    {
+      "url": "https://goteleport.com",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Teleport",
+        "teleport"
+      ]
+    },
+    {
+      "url": "https://hasura.io",
+      "appearsIn": [
+        "homebrew-packages",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Hasura",
+        "hasura-cli"
+      ]
+    },
+    {
+      "url": "https://healthchecks.io",
+      "appearsIn": [
+        "developer-tools",
+        "platform-engineering",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Healthchecks",
+        "Healthchecks.io",
+        "healthchecks.io"
+      ]
+    },
+    {
+      "url": "https://heyform.net",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "HeyForm",
+        "HeyForm.net"
+      ]
+    },
+    {
+      "url": "https://huggingface.co",
+      "appearsIn": [
+        "ai-tools",
+        "developer-tools",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Hugging Face",
+        "huggingface.co"
+      ]
+    },
+    {
+      "url": "https://huly.io",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Huly"
+      ]
+    },
+    {
+      "url": "https://icons8.com",
+      "appearsIn": [
+        "design-resources",
+        "homebrew-packages",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Icons8",
+        "Icons8 App",
+        "Use a [New Version](https://icons8.github.io/icons8-docs/) Instead"
+      ]
+    },
+    {
+      "url": "https://iconscout.com",
+      "appearsIn": [
+        "design-resources",
+        "homebrew-packages",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "IconScout",
+        "Iconscout"
+      ]
+    },
+    {
+      "url": "https://inkscape.org",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "design-resources",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Inkscape"
+      ]
+    },
+    {
+      "url": "https://insomnia.rest",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Insomnia"
+      ]
+    },
+    {
+      "url": "https://ipinfo.io",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "IP Address Details",
+        "IPinfo",
+        "cidr2range"
+      ]
+    },
+    {
+      "url": "https://istio.io",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Istio",
+        "Istio- open source service mesh",
+        "istioctl"
+      ]
+    },
+    {
+      "url": "https://jmeter.apache.org",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Apache JMeter",
+        "Apache jMeter",
+        "jmeter"
+      ]
+    },
+    {
+      "url": "https://keybase.io",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Keybase"
+      ]
+    },
+    {
+      "url": "https://kilocode.ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Kilo Code"
+      ]
+    },
+    {
+      "url": "https://leonardo.ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "design-resources"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Leonardo AI",
+        "Leonardo Ai",
+        "Leonardo.Ai"
+      ]
+    },
+    {
+      "url": "https://linear.app",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Linear"
+      ]
+    },
+    {
+      "url": "https://lmstudio.ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "LM Studio"
+      ]
+    },
+    {
+      "url": "https://marvelapp.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Marvel",
+        "Marvel App",
+        "marvelapp.com"
+      ]
+    },
+    {
+      "url": "https://mixpanel.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Mixpanel"
+      ]
+    },
+    {
+      "url": "https://monday.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Monday CRM (Lexi)",
+        "Monday.com"
+      ]
+    },
+    {
+      "url": "https://n8n.io",
+      "appearsIn": [
+        "ai-tools",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "n8n"
+      ]
+    },
+    {
+      "url": "https://neovim.io",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Neovim",
+        "Nvim",
+        "neovim"
+      ]
+    },
+    {
+      "url": "https://nextcloud.com",
+      "appearsIn": [
+        "design-resources",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Nextcloud"
+      ]
+    },
+    {
+      "url": "https://nodered.org",
+      "appearsIn": [
+        "homebrew-packages",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Node RED",
+        "Node-RED",
+        "node-red"
+      ]
+    },
+    {
+      "url": "https://ollama.com",
+      "appearsIn": [
+        "ai-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Ollama",
+        "ollama"
+      ]
+    },
+    {
+      "url": "https://openai.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "OpenAI",
+        "OpenAI API"
+      ]
+    },
+    {
+      "url": "https://opentelemetry.io",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "OpenTelemetry",
+        "opentelemetry-cpp"
+      ]
+    },
+    {
+      "url": "https://penpot.app",
+      "appearsIn": [
+        "design-resources",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Penpot",
+        "penpot"
+      ]
+    },
+    {
+      "url": "https://pieces.app",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Pieces"
+      ]
+    },
+    {
+      "url": "https://pipedream.com",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "open-source-alternatives"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Pipedream",
+        "pipedream",
+        "pipedream.com"
+      ]
+    },
+    {
+      "url": "https://plausible.io",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Plausible",
+        "Plausible Analytics"
+      ]
+    },
+    {
+      "url": "https://play.ht",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Play.ht",
+        "PlayHT"
+      ]
+    },
+    {
+      "url": "https://portkey.ai",
+      "appearsIn": [
+        "ai-tools",
+        "developer-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Portkey"
+      ]
+    },
+    {
+      "url": "https://posthog.com",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "PostHog",
+        "Posthog"
+      ]
+    },
+    {
+      "url": "https://prometheus.io",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Prometheus",
+        "node_exporter"
+      ]
+    },
+    {
+      "url": "https://rivestack.io",
+      "appearsIn": [
+        "developer-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Rivestack"
+      ]
+    },
+    {
+      "url": "https://robohash.org",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "ROBOHASH",
+        "RoboHash"
+      ]
+    },
+    {
+      "url": "https://rocket.chat",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Rocket.Chat"
+      ]
+    },
+    {
+      "url": "https://runwayml.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Runway Gen-4.5",
+        "RunwayML"
+      ]
+    },
+    {
+      "url": "https://sendgrid.com",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Email Activity (beta)",
+        "Sendgrid"
+      ]
+    },
+    {
+      "url": "https://serpapi.com",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "developer-tools",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "SerpApi"
+      ]
+    },
+    {
+      "url": "https://sonic-pi.net",
+      "appearsIn": [
+        "ai-tools",
+        "design-resources",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Sonic Pi"
+      ]
+    },
+    {
+      "url": "https://storybook.js.org",
+      "appearsIn": [
+        "design-resources",
+        "no-code-lowcode",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Storybook"
+      ]
+    },
+    {
+      "url": "https://subversion.apache.org",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Subversion",
+        "Subversion (SVN)",
+        "subversion"
+      ]
+    },
+    {
+      "url": "https://tailscale.com",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Tailscale",
+        "tailscale"
+      ]
+    },
+    {
+      "url": "https://tailwindcss.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Tailwind CSS",
+        "tailwindcss"
+      ]
+    },
+    {
+      "url": "https://thenounproject.com",
+      "appearsIn": [
+        "design-resources",
+        "homebrew-packages",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Noun Project",
+        "The Noun Project"
+      ]
+    },
+    {
+      "url": "https://tilda.cc",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Tilda",
+        "tilda.cc"
+      ]
+    },
+    {
+      "url": "https://traefik.io",
+      "appearsIn": [
+        "homebrew-packages",
+        "platform-engineering",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Traefik",
+        "Traefik- Cloud Native Application Proxy",
+        "traefik"
+      ]
+    },
+    {
+      "url": "https://trello.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Trello"
+      ]
+    },
+    {
+      "url": "https://uibakery.io",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "UI Bakery",
+        "Ui Bakery"
+      ]
+    },
+    {
+      "url": "https://v0.dev",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "v0",
+        "v0 by Vercel",
+        "v0.dev"
+      ]
+    },
+    {
+      "url": "https://whimsical.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Whimsical",
+        "whimsical.com"
+      ]
+    },
+    {
+      "url": "https://www.activepieces.com",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Activepieces"
+      ]
+    },
+    {
+      "url": "https://www.algolia.com",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Algolia",
+        "algolia"
+      ]
+    },
+    {
+      "url": "https://www.ansible.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Ansible",
+        "ansible"
+      ]
+    },
+    {
+      "url": "https://www.appsmith.com",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Appsmith",
+        "appsmith",
+        "appsmith_"
+      ]
+    },
+    {
+      "url": "https://www.atlassian.com/software/jira",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Jira"
+      ]
+    },
+    {
+      "url": "https://www.comet.com/site/products/opik",
+      "appearsIn": [
+        "ai-tools",
+        "developer-tools",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Opik"
+      ]
+    },
+    {
+      "url": "https://www.cursor.com",
+      "appearsIn": [
+        "ai-tools",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Cursor"
+      ]
+    },
+    {
+      "url": "https://www.datadoghq.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Datadog",
+        "Datadog Agent",
+        "datadoghq.com"
+      ]
+    },
+    {
+      "url": "https://www.eclipse.org/che",
+      "appearsIn": [
+        "developer-tools",
+        "platform-engineering",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Eclipse Che"
+      ]
+    },
+    {
+      "url": "https://www.factory.ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Factory"
+      ]
+    },
+    {
+      "url": "https://www.framer.com",
+      "appearsIn": [
+        "design-resources",
+        "homebrew-packages",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Framer"
+      ]
+    },
+    {
+      "url": "https://www.goatcounter.com",
+      "appearsIn": [
+        "developer-tools",
+        "open-source-alternatives",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "GoatCounter"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "JetBrains AI"
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/idea",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "IntelliJ IDEA",
+        "IntelliJ IDEA Ultimate"
+      ]
+    },
+    {
+      "url": "https://www.metabase.com",
+      "appearsIn": [
+        "homebrew-packages",
+        "no-code-lowcode",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Metabase",
+        "metabase"
+      ]
+    },
+    {
+      "url": "https://www.openfaas.com",
+      "appearsIn": [
+        "homebrew-packages",
+        "platform-engineering",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "OpenFaaS",
+        "OpenFaaS- deploy serverless functions and existing code to Kubernetes",
+        "faas-cli"
+      ]
+    },
+    {
+      "url": "https://www.passbolt.com",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "self-hosted-software"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Passbolt",
+        "go-passbolt-cli",
+        "passbolt"
+      ]
+    },
+    {
+      "url": "https://www.phind.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "cybersecurity-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Phind"
+      ]
+    },
+    {
+      "url": "https://www.pinecone.io",
+      "appearsIn": [
+        "developer-tools",
+        "llmops-and-eval",
+        "vector-db-and-rag"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Pinecone"
+      ]
+    },
+    {
+      "url": "https://www.pulumi.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Pulumi",
+        "pulumi"
+      ]
+    },
+    {
+      "url": "https://www.qodo.ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Qodo"
+      ]
+    },
+    {
+      "url": "https://www.remove.bg",
+      "appearsIn": [
+        "ai-tools",
+        "design-resources",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "RemoveBG",
+        "remove.bg"
+      ]
+    },
+    {
+      "url": "https://www.rescuetime.com",
+      "appearsIn": [
+        "ai-tools",
+        "design-resources",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "RescueTime"
+      ]
+    },
+    {
+      "url": "https://www.sublimetext.com",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Sublime Text"
+      ]
+    },
+    {
+      "url": "https://www.tabnine.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Tabnine",
+        "tabnine"
+      ]
+    },
+    {
+      "url": "https://www.typeform.com",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "no-code-lowcode"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Typeform",
+        "Typeform.com"
+      ]
+    },
+    {
+      "url": "https://www.vim.org",
+      "appearsIn": [
+        "developer-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Vim",
+        "vim"
+      ]
+    },
+    {
+      "url": "https://www.wordware.ai",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "llmops-and-eval"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Wordware"
+      ]
+    },
+    {
+      "url": "https://www.zabbix.com",
+      "appearsIn": [
+        "cybersecurity-tools",
+        "homebrew-packages",
+        "platform-engineering"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Zabbix",
+        "zabbix"
+      ]
+    },
+    {
+      "url": "https://zapier.com",
+      "appearsIn": [
+        "developer-tools",
+        "no-code-lowcode",
+        "public-apis"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Zapier",
+        "Zapier Natural Language Actions (NLA) API - Beta",
+        "zapier.com"
+      ]
+    },
+    {
+      "url": "https://zeplin.io",
+      "appearsIn": [
+        "design-resources",
+        "developer-tools",
+        "homebrew-packages"
+      ],
+      "count": 3,
+      "nameVariants": [
+        "Zeplin"
+      ]
+    }
+  ]
+}
