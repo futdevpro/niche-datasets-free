@@ -125,6 +125,8 @@ Plus 40+ semantic enum tiers across all datasets — `urlDomainTier`, `descripti
 
 **New 2026-05-12 (`githubStars` field):** ~8,600 GitHub-hosted records across 13 of 20 datasets now have a `githubStars` integer field — sortable popularity signal for filters like "top 20 mature vector DBs" or "MCP servers above 1K stars". Top across catalog: openclaw 370K, Python Programming by @vinta 297K, Awesome-Selfhosted 291K (curated meta-lists); TensorFlow 195K, n8n 187K, oh-my-zsh 186K, Auto-GPT 184K, Ollama 171K.
 
+**New 2026-05-23 (crawler noise filters):** the awesome-list extractor strips two common section-header-as-list-item patterns at ingest — (a) year-prefix headers like "2021 Result" / "2023 Competition", and (b) self-section pointers (bare `github.com/<owner>/<repo>#anchor` URLs where the name alnum-matches the anchor). Recent scrub removed 3 noise records from `vector-db-and-rag` and 27 from `self-hosted-software`, zero false positives across the other 18 datasets. Verify against any sample with the [noise-audit jq snippets](https://futdevpro.github.io/niche-datasets-free/examples.html#noise-audit) — both probes return 0.
+
 ## License
 
 Samples are free to use for evaluation. Full datasets are licensed per the [Gumroad terms](https://jhonnyronnie.gumroad.com).
