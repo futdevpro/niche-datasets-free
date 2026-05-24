@@ -1,8 +1,8 @@
 [
   {
-    "name": "OpenSCAD",
-    "url": "https://www.openscad.org/",
-    "description": "a software for creating solid 3D CAD objects.",
+    "name": "SketchUp",
+    "url": "https://www.sketchup.com",
+    "description": "3D design software that truly makes 3D modeling for everyone, with a simple to learn yet robust toolset.",
     "category": "3d",
     "pricing": "unknown",
     "hasApi": false,
@@ -11,22 +11,22 @@
       "three d modeling software"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "PA11Y",
-    "url": "http://pa11y.org/",
-    "description": "accessibility testing tool to find issues with your web pages. It runs HTML CodeSniffer from the command line for programmatic accessibility reporting. It's an accessibility developer tool.",
+    "name": "ANDI",
+    "url": "https://www.ssa.gov/accessibility/andi/help/install.html",
+    "description": "accessibility testing tool for web content (bookmarklet). It will automatically detect accessibility issues, give suggestions to improve online accessibility and check 508 compliance. [](https://github.com/SSAgov/ANDI)",
     "category": "accessibility",
     "pricing": "free",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "table of content",
       "accessibility tools"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
@@ -45,43 +45,43 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Notion",
-    "url": "https://www.notion.so",
-    "description": "write, plan, collaborate, and get organized. Notion is all you need — in one tool.",
+    "name": "Design Talks",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeKT_LC8kKTzJ4JjmgVQVpfl24i1qBkjJ7TYyQcNHL7fBQkYQ/viewform?c=0&w=1",
+    "description": "A community for UI/UX design, web design, freelancing, design critiques, etc.",
     "category": "collaboration",
-    "pricing": "unknown",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "slack teams"
+    ],
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Color Hexa",
+    "url": "https://www.colorhexa.com/",
+    "description": "free color tool providing information about any color and generating matching color palettes for designs.",
+    "category": "colors",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "table of content",
-      "collaboration tools"
+      "color picker tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Colorate",
-    "url": "https://colorate.azurewebsites.net/",
-    "description": "Color scheme tool for designers and developers. This will help you draw inspiration and serve as a resource for your color work.",
-    "category": "colors",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "colors"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Abstract 3d vol.2",
-    "url": "https://abstract-vol2.wannathis.one/",
-    "description": "playful set of different shapes to enhance your design projects",
+    "name": "SVG Artista",
+    "url": "https://svgartista.net/",
+    "description": "A useful tool to animate stroke and fill properties in SVG images with plain CSS code",
     "category": "css-animations",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "animations, 3d and sound"
+      "css animations"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
@@ -102,52 +102,51 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Resource.fyi",
-    "url": "https://resource.fyi/",
-    "description": "products, Resources, and Tools handpicked for developers, designers, marketers, tech enthusiasts, and professionals",
+    "name": "Reeoo",
+    "url": "http://reeoo.com/",
+    "description": "provides web design inspiration and gallery for web designers.",
     "category": "design-inspiration",
     "pricing": "free",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "news & blogs (curated resources, newsletters)"
+      "read and digest"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "The Design System Guide",
-    "url": "https://thedesignsystem.guide/",
-    "description": "all the essential resources for setting up the design system",
+    "name": "BBC",
+    "url": "http://www.bbc.co.uk/gel",
+    "description": "BBC — design-systems API",
     "category": "design-systems",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "design systems & frameworks",
-      "references and learning resources"
+      "styleguide and branding"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Octopus",
-    "url": "https://octopus.do/",
-    "description": "Sitemap builder",
+    "name": "Angle.sh",
+    "url": "https://angle.sh",
+    "description": "vector device mockups for Sketch, Figma, and XD",
     "category": "design-tools",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "online design tools"
+      "templates (landing pages, presentations, mockups)"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Fonts Ninja",
-    "url": "https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh",
-    "description": "Identify fonts from any website, bookmark, try, and buy them.",
+    "name": "Awesome Screenshot & Screen Recorder",
+    "url": "https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en",
+    "description": "Full page screen capture and screen recorder - 2 in 1. Share screencast video instantly",
     "category": "extensions",
     "pricing": "free",
     "hasApi": false,
@@ -159,11 +158,11 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Befonts",
-    "url": "https://befonts.com/",
-    "description": "High quality fonts for free",
+    "name": "FontPair",
+    "url": "https://fontpair.co/",
+    "description": "Helps you pair Google Fonts together",
     "category": "fonts",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "fonts"
@@ -173,40 +172,39 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Logo Design Team",
-    "url": "https://www.logodesignteam.com/",
-    "description": "offers affordable professional custom logo design and brand design services.",
+    "name": "Feather Icons",
+    "url": "https://feathericons.com/",
+    "description": "Beautiful, customizable open source icons",
     "category": "icons",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "logo design"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Bioicons",
-    "url": "https://bioicons.com/",
-    "description": ":copyright: High quality science illustrations.",
-    "category": "illustrations",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "vector graphics"
+      "icons"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "JPEG Compressor",
-    "url": "https://jpegcompressor.com/",
-    "description": "free image compressor tool and it support JPEG, PNG, SVG, JPG, WEBP and GIF.",
+    "name": "Vector",
+    "url": "https://vector.ma/",
+    "description": "Awesome website for all kinds of Moroccan vectors.",
+    "category": "illustrations",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "vectors & clip art"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Watermarkly",
+    "url": "https://watermarkly.com/compress-jpeg",
+    "description": "Private, client-side compression of JPEG images. The app does not send images to a server for processing.",
     "category": "image-compression",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "image compression"
@@ -216,25 +214,25 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "kangax-js-compat-table",
-    "url": "https://compat-table.github.io/compat-table/es6",
-    "description": "Check JavaScript versions (ES5, ES6, ES2016+ etc.) compatibility across different compilers, servers/runtimes and platforms (Desktop and Mobile).",
+    "name": "Slick",
+    "url": "https://kenwheeler.github.io/slick",
+    "description": "Fully responsive carousel",
     "category": "javascript-libraries",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "others"
+      "javascript animation libraries"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "The Mockup Club",
-    "url": "https://themockup.club/",
-    "description": "a directory of the best free design mockups for Photoshop, Sketch, Figma and InVision Studio.",
+    "name": "Ramotion Store",
+    "url": "https://store.ramotion.com/",
+    "description": "carefully crafted Apple and Android mockups for Sketch and Photoshop.",
     "category": "mockups",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
@@ -245,44 +243,44 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Share on Facebook",
-    "url": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://github.com/neutraltone/awesome-stock-resources&p[images][0]=&p[title]=Awesome%20Stock%20Resources&p[summary]=",
-    "description": "Share on Facebook",
+    "name": "Wise Design Identity",
+    "url": "https://wise.design/",
+    "description": "Wise Design Identity",
     "category": "other",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "how to share"
+      "design systems & frameworks",
+      "references and learning resources"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "Feedback Lite",
-    "url": "https://www.feedbacklite.com/",
-    "description": "collect high quality customer feedback using Voice of Customer solutions designed to improve your website performance and boost customer engagement.",
+    "name": "everysize.kibalabs.com",
+    "url": "https://everysize.kibalabs.com/",
+    "description": "Check your awesome responsive webpage looks great in every size",
     "category": "prototyping",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "user research tools"
+      "others"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Freerange",
-    "url": "https://freerangestock.com/",
-    "description": ":copyright: Quality stock photos for commercial and non-commercial use. For free.",
+    "name": "Free Nature Stock",
+    "url": "https://freenaturestock.com/",
+    "description": "Royalty-free, use them however you want, Nature Stock Photos.",
     "category": "stock-photos",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "photography",
-      "custom license / usage"
+      "cc0-license"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
