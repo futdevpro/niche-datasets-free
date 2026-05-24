@@ -153,6 +153,17 @@ npx openapi-typescript \
 
 <p>Useful for buyer-agents that compare per-dataset price vs. bundle price programmatically, or for affiliate / referral systems that need to know which Gumroad SKUs to surface for a given dataset.</p>
 
+<h2 id="data-quality">Data quality — crawler-level noise filters</h2>
+
+<p>Awesome-list READMEs sometimes leak section-header structure into the entry stream. Two extractor-level filters strip the patterns at ingest, before normalization and dedupe see the records:</p>
+
+<ul>
+  <li><strong>Year-prefix section-header</strong>: <code>^(19|20)\d{2}\s+[A-Z][a-z]+$</code> — e.g. "2021 Result", "2023 Competition". Typical for benchmark/conference references nested as list items under an h2.</li>
+  <li><strong>Self-section pointer</strong>: bare <code>github.com/&lt;owner&gt;/&lt;repo&gt;#anchor</code> URL where the link name (alnum-normalized) equals the anchor (alnum-normalized). Typical when a README's table-of-contents leaks into the entry list.</li>
+</ul>
+
+<p>Both filters live in <code>shared/extract-markdown.ts</code> <code>isSkippable()</code> and apply on every awesome-list refresh. Most recent sweep: 3 records removed from <code>vector-db-and-rag</code>, 27 from <code>self-hosted-software</code>, zero false positives across the remaining 18 datasets. Verify against any sample yourself with the <a href="examples.html#noise-audit">noise-audit jq snippets</a>.</p>
+
 <h2 id="agent-callable">Agent-callable example — Python with openapi-python-client</h2>
 
 <p>End-to-end: install the generator, point it at <code>/openapi.json</code>, get a typed client, enumerate the catalog from agent code.</p>
