@@ -196,6 +196,8 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <h2>Related datasets</h2>
 {related_html}
 
+{cross_leverage_html}
+
 <h2>Schema + format</h2>
 <p>Each record follows a normalized schema with at minimum <code>name</code>, <code>url</code>, <code>description</code>, <code>category</code>, <code>pricing</code>, <code>hasApi</code>, <code>tags</code>, plus dataset-specific first-class fields. See the <a href="https://github.com/futdevpro/niche-datasets-free#format">repo README</a> for the full field reference.</p>
 
@@ -831,6 +833,78 @@ def build_cross_dataset_overlap_json(repo_root):
     }, indent=2)
 
 
+def build_cross_leverage_section_for_dataset(slug, repo_root):
+    """Per-dataset cross-leverage stats block. Counts URLs from this dataset's
+    live data file that also appear in 1+ other catalog dataset. Returns the
+    full <h2> + body HTML or '' if the dataset has no cross-niche tools.
+    """
+    from collections import defaultdict
+    this_path = os.path.normpath(
+        os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "data", f"{slug}.json")
+    )
+    if not os.path.isfile(this_path):
+        return ""
+    url_to_datasets = defaultdict(set)
+    url_to_name = {}
+    for d in DATASETS:
+        dp = os.path.normpath(
+            os.path.join(repo_root, "..", "niche-datasets", "datasets", d["slug"], "data", f"{d['slug']}.json")
+        )
+        if not os.path.isfile(dp):
+            continue
+        try:
+            with open(dp, "r", encoding="utf-8") as f:
+                records = json.load(f)
+        except Exception:
+            continue
+        for r in records:
+            u = (r.get("url") or "").strip().rstrip("/").lower()
+            if not u:
+                continue
+            url_to_datasets[u].add(d["slug"])
+            if d["slug"] == slug:
+                name = (r.get("name") or "").strip()
+                if name:
+                    url_to_name[u] = name
+
+    this_overlap = []
+    for u, name in url_to_name.items():
+        others = url_to_datasets[u] - {slug}
+        if others:
+            this_overlap.append({"url": u, "name": name, "others": sorted(others), "count": len(others) + 1})
+    if not this_overlap:
+        return ""
+    this_overlap.sort(key=lambda x: (-x["count"], x["url"]))
+    top5 = this_overlap[:5]
+
+    try:
+        with open(this_path, "r", encoding="utf-8") as f:
+            total_records = len(json.load(f))
+    except Exception:
+        total_records = 0
+
+    rows = []
+    for e in top5:
+        slugs_html = ", ".join(f'<a href="{s}.html">{s}</a>' for s in e["others"])
+        rows.append(
+            f'<li><a href="{e["url"]}" target="_blank" rel="noopener noreferrer nofollow">{e["name"]}</a> '
+            f'— spans <strong>{e["count"]}</strong> datasets (also in: {slugs_html})</li>'
+        )
+    rows_html = "\n".join(rows)
+
+    pct = len(this_overlap) / total_records * 100 if total_records else 0
+    return (
+        '<h2 id="cross-niche">Cross-niche tools (also appear in other datasets)</h2>\n'
+        f'<p><strong>{len(this_overlap)} of {total_records} tools</strong> in this dataset '
+        f'({pct:.1f}%) also appear in at least one other dataset in our 20-catalog set. '
+        'High-cross-leverage tools — buyers of this dataset who care about these tools may '
+        f'also want the adjacent datasets where they appear. Top 5 by span:</p>\n'
+        f'<ul>\n{rows_html}\n</ul>\n'
+        '<p class="meta">Full cross-leverage table: <a href="cross-leverage.html">/cross-leverage.html</a> · '
+        'Programmatic: <a href="cross-dataset-overlap.json"><code>/cross-dataset-overlap.json</code></a>.</p>'
+    )
+
+
 def build_cross_leverage_html(repo_root):
     """Generate /cross-leverage.html — public-readable view of /cross-dataset-overlap.json.
     Lists the top tools by cross-dataset span as an SEO-discoverable HTML page (the
@@ -1052,6 +1126,7 @@ def main():
             use_cases_html=use_cases_html,
             preview_html=preview_html,
             related_html=build_related_html(d),
+            cross_leverage_html=build_cross_leverage_section_for_dataset(d["slug"], repo_root),
         )
         path = os.path.join(repo_root, f"{d['slug']}.html")
         with open(path, "w", encoding="utf-8") as f:
