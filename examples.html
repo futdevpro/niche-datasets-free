@@ -322,6 +322,20 @@ else:
 # Save current as next snapshot
 SNAPSHOT.write_text(json.dumps(current, indent=2))</code></pre>
 
+<h2 id="cross-leverage">Cross-leverage discovery (jq · which tools span the most datasets)</h2>
+<p class="intro">/cross-dataset-overlap.json ships every URL that appears in 3+ datasets, sorted by appearance count. Use it for market-mapping ("which tools cover the most developer niches?"), or for cross-sell discovery (if a tool spans 4 datasets, buyers of any of those 4 are likely interested in the other 3). Schema: <code>CrossDatasetOverlap</code> in OpenAPI 1.3.0.</p>
+<pre><code># Top 5 tools by cross-dataset span:
+curl -s https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json \
+  | jq '.topByCount[:5] | .[] | {count, url, datasets: .appearsIn}'
+
+# Which datasets does a specific URL appear in?
+curl -s https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json \
+  | jq '.topByCount[] | select(.url | contains("qdrant")) | .appearsIn'
+
+# All URLs spanning 4+ datasets (the highest-leverage tools):
+curl -s https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json \
+  | jq '.topByCount[] | select(.count &gt;= 4) | .url'</code></pre>
+
 <h2 id="noise-audit">Data quality audit (jq · verify zero section-header noise)</h2>
 <p class="intro">The crawler strips two common awesome-list noise patterns at extraction time: (a) year-prefix section-headers captured as list items (e.g. "2021 Result", "2023 Competition"), and (b) self-section pointers where a github.com/&lt;owner&gt;/&lt;repo&gt;#anchor URL alnum-matches the record name. The snippet below re-runs both checks against any sample file — for any clean sample, both counts return 0. Use this as a one-shot quality probe before signing off on a dataset for your pipeline. Methodology: <a href="faq.html">FAQ Q26</a>.</p>
 <pre><code># Year-prefix section-header noise (should be 0):

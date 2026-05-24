@@ -139,7 +139,7 @@ npx openapi-typescript \
 
 <h2 id="schema-versioning">Schema versioning</h2>
 
-<p>Every JSON response includes a <code>schemaVersion</code> field. Breaking changes will bump it; additive changes will not. Clients should ignore unknown fields (forward-compat). The OpenAPI spec itself has a separate <code>info.version</code> that follows semver — currently <strong>1.2.0</strong> (additive changes since 1.0.0: <code>liveRecordCount</code> + <code>bundles</code> in DatasetMeta).</p>
+<p>Every JSON response includes a <code>schemaVersion</code> field. Breaking changes will bump it; additive changes will not. Clients should ignore unknown fields (forward-compat). The OpenAPI spec itself has a separate <code>info.version</code> that follows semver — currently <strong>1.3.0</strong> (additive changes since 1.0.0: <code>liveRecordCount</code> + <code>bundles</code> in DatasetMeta, <code>/cross-dataset-overlap.json</code> endpoint + <code>CrossDatasetOverlap</code> schema).</p>
 
 <h2 id="bundles-field">Bundles graph — find which bundles include a dataset</h2>
 

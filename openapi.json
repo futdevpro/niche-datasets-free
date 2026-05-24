@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Niche Datasets — Free Samples API",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "summary": "Programmatically enumerable catalog of 20 developer + AI dataset samples.",
     "description": "Read-only, no-auth API for machine discovery of the niche-datasets free preview surface. Returns dataset metadata (record count, sample URLs, refresh date, related datasets, full-version URL). Suitable for agents that need to query the catalog without browsing.\n\n**Distribution notes for agent-callers:** the free tier is a static GitHub Pages surface — no rate limit, no API key, no signup. For per-call billing or higher-volume access patterns, see the project status updates linked from the homepage. (As of 2026-05-20, the distribution model is under planning.)",
     "license": {
@@ -109,6 +109,24 @@
           }
         }
       }
+    },
+    "/cross-dataset-overlap.json": {
+      "get": {
+        "tags": ["catalog"],
+        "operationId": "getCrossDatasetOverlap",
+        "summary": "Cross-dataset URL overlap — high-cross-leverage tools",
+        "description": "URLs that appear in 3 or more of the 20 catalog datasets. Useful for market-mapping ('which tools span the most niches?'), cross-sell discovery, and bundle-pricing decisions. Recomputed on every refresh.",
+        "responses": {
+          "200": {
+            "description": "Cross-dataset overlap payload (~200 entries).",
+            "content": {
+              "application/json": {
+                "schema": {"$ref": "#/components/schemas/CrossDatasetOverlap"}
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -169,6 +187,40 @@
               "properties": {
                 "name": {"type": "string", "example": "Dev Stack Pack"},
                 "url": {"type": "string", "format": "uri"}
+              }
+            }
+          }
+        }
+      },
+      "CrossDatasetOverlap": {
+        "type": "object",
+        "required": ["schemaVersion", "totalUrlsAboveThreshold", "topByCount"],
+        "properties": {
+          "schemaVersion": {"type": "string", "example": "1.0"},
+          "generated": {"type": "string", "format": "date", "example": "2026-05-24"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "threshold": {"type": "string", "example": "appearsIn >= 3 datasets"},
+          "totalUrlsAboveThreshold": {"type": "integer", "example": 208},
+          "topByCount": {
+            "type": "array",
+            "description": "Entries sorted by descending appearance count, then URL ascending.",
+            "items": {
+              "type": "object",
+              "required": ["url", "appearsIn", "count"],
+              "properties": {
+                "url": {"type": "string", "format": "uri"},
+                "appearsIn": {
+                  "type": "array",
+                  "description": "Sorted list of dataset slugs containing this URL.",
+                  "items": {"type": "string", "example": "vector-db-and-rag"}
+                },
+                "count": {"type": "integer", "minimum": 3, "example": 4},
+                "nameVariants": {
+                  "type": "array",
+                  "description": "Unique non-empty name strings observed for this URL across datasets.",
+                  "items": {"type": "string"}
+                }
               }
             }
           }
