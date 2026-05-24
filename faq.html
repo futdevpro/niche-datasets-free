@@ -131,11 +131,11 @@
 </details>
 <details>
   <summary>Are there bundle discounts?</summary>
-  <p>Yes — 4 themed bundles. Dev Stack Pack ($24, 40% off, 4 datasets), Platform Builder Pack ($29, 55% off, 6 datasets), ML Builder Pack ($29, 55% off, 6 datasets), Complete Developer Data Bundle ($34, 83% off list, all 20 datasets). Listed on the homepage at /#bundles with direct Gumroad links. Single-dataset SKUs stay at $9-11; bundles are strictly cheaper than buying the included datasets individually.</p>
+  <p>Yes — 3 themed bundles. Dev Stack Pack ($24, 40% off, 4 datasets), Platform Builder Pack ($29, 55% off, 6 datasets), ML Builder Pack ($29, 55% off, 6 datasets). Listed on the homepage at /#bundles with direct Gumroad links. Single-dataset SKUs stay at $9-11; bundles are strictly cheaper than buying the included datasets individually.</p>
 </details>
 <details>
   <summary>How does an agent figure out which bundles include a given dataset?</summary>
-  <p>Every /datasets.json catalog entry and /&lt;slug&gt;-meta.json endpoint ships a bundles[] array of {name, url} objects — flat-JSON mirror of the schema.org isPartOf graph in the JSON-LD. E.g. npm-packages → bundles[] lists Complete Developer Data Bundle + Platform Builder Pack + Dev Stack Pack. Use this to programmatically compare per-SKU total vs bundle price, or to surface relevant bundles in an affiliate / referral UI. See /api.html#bundles-field for a worked jq snippet and /examples.html#bundle-compare for a full price-comparison loop.</p>
+  <p>Every /datasets.json catalog entry and /&lt;slug&gt;-meta.json endpoint ships a bundles[] array of {name, url} objects — flat-JSON mirror of the schema.org isPartOf graph in the JSON-LD. E.g. npm-packages → bundles[] lists Platform Builder Pack + Dev Stack Pack. Use this to programmatically compare per-SKU total vs bundle price, or to surface relevant bundles in an affiliate / referral UI. See /api.html#bundles-field for a worked jq snippet and /examples.html#bundle-compare for a full price-comparison loop.</p>
 </details>
 <details>
   <summary>How do you handle noise records from upstream awesome-list READMEs?</summary>
@@ -352,7 +352,7 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
       "name": "Are there bundle discounts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes \u2014 4 themed bundles. Dev Stack Pack ($24, 40% off, 4 datasets), Platform Builder Pack ($29, 55% off, 6 datasets), ML Builder Pack ($29, 55% off, 6 datasets), Complete Developer Data Bundle ($34, 83% off list, all 20 datasets). Listed on the homepage at /#bundles with direct Gumroad links. Single-dataset SKUs stay at $9-11; bundles are strictly cheaper than buying the included datasets individually."
+        "text": "Yes \u2014 3 themed bundles. Dev Stack Pack ($24, 40% off, 4 datasets), Platform Builder Pack ($29, 55% off, 6 datasets), ML Builder Pack ($29, 55% off, 6 datasets). Listed on the homepage at /#bundles with direct Gumroad links. Single-dataset SKUs stay at $9-11; bundles are strictly cheaper than buying the included datasets individually."
       }
     },
     {
@@ -360,7 +360,7 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
       "name": "How does an agent figure out which bundles include a given dataset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Every /datasets.json catalog entry and /<slug>-meta.json endpoint ships a bundles[] array of {name, url} objects \u2014 flat-JSON mirror of the schema.org isPartOf graph in the JSON-LD. E.g. npm-packages \u2192 bundles[] lists Complete Developer Data Bundle + Platform Builder Pack + Dev Stack Pack. Use this to programmatically compare per-SKU total vs bundle price, or to surface relevant bundles in an affiliate / referral UI. See /api.html#bundles-field for a worked jq snippet and /examples.html#bundle-compare for a full price-comparison loop."
+        "text": "Every /datasets.json catalog entry and /<slug>-meta.json endpoint ships a bundles[] array of {name, url} objects \u2014 flat-JSON mirror of the schema.org isPartOf graph in the JSON-LD. E.g. npm-packages \u2192 bundles[] lists Platform Builder Pack + Dev Stack Pack. Use this to programmatically compare per-SKU total vs bundle price, or to surface relevant bundles in an affiliate / referral UI. See /api.html#bundles-field for a worked jq snippet and /examples.html#bundle-compare for a full price-comparison loop."
       }
     },
     {
