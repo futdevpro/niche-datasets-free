@@ -11,7 +11,8 @@ Full datasets (paid): https://jhonnyronnie.gumroad.com/
 - [Machine-readable catalog](https://futdevpro.github.io/niche-datasets-free/datasets.json): 20 datasets with liveRecordCount, recordCount, sampleJsonUrl, sampleCsvUrl, price, bundles, related-datasets array. Single fetch, no auth.
 - [OpenAPI 3.1 spec](https://futdevpro.github.io/niche-datasets-free/openapi.json): 1.3.0, four endpoints (/datasets.json, /{slug}-meta.json, /feed.xml, /cross-dataset-overlap.json). Generate a typed client with openapi-python-client or any OAS3 codegen.
 - [Per-dataset metadata](https://futdevpro.github.io/niche-datasets-free/npm-packages-meta.json): one /{slug}-meta.json per dataset (20 endpoints).
-- [Cross-dataset URL overlap](https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json): 208 URLs appearing in 3+ datasets. Use for market-mapping and cross-sell discovery.
+- [Cross-dataset URL overlap (JSON)](https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json): 208 URLs appearing in 3+ datasets. Use for market-mapping and cross-sell discovery.
+- [Cross-niche tools (human-readable)](https://futdevpro.github.io/niche-datasets-free/cross-leverage.html): top-40 inline table of the same data with member-dataset cross-links.
 - [RSS refresh feed](https://futdevpro.github.io/niche-datasets-free/feed.xml): subscribe for refresh notifications, no polling needed.
 
 ## Sample downloads (CC0 / MIT-style permissive for evaluation)
@@ -26,7 +27,7 @@ ai-agents, ai-models-pricing, ai-prompts, ai-tools, cybersecurity-tools, design-
 - [Quickstart (5 min)](https://futdevpro.github.io/niche-datasets-free/quickstart.html): 6-step copy-paste path to first useful query.
 - [API + agent-callable guide](https://futdevpro.github.io/niche-datasets-free/api.html): endpoints, caching, schema versioning, data-quality guarantees, bundles-graph, agent-callable Python example.
 - [Code examples](https://futdevpro.github.io/niche-datasets-free/examples.html): jq / pandas / Node.js fetch / DuckDB SQL, plus tier-filter snippets, change-detection, cross-leverage discovery, noise-audit verification probes.
-- [Buyer's guide](https://futdevpro.github.io/niche-datasets-free/buyers-guide.html): 9 workload-to-dataset mappings, bundle-justification with verified cross-leverage numbers, decision table.
+- [Buyer's guide](https://futdevpro.github.io/niche-datasets-free/buyers-guide.html): 10 workload-to-dataset mappings, bundle-justification with verified cross-leverage numbers, decision table.
 - [vs alternatives](https://futdevpro.github.io/niche-datasets-free/vs.html): comparisons with awesome-list mirrors, Kaggle, HuggingFace hub, ProductHunt, ad-hoc Google, custom scrapes.
 - [Semantic enum tiers methodology](https://futdevpro.github.io/niche-datasets-free/blog-semantic-enum-tiers.html): why absolute-threshold enum tiers beat percentile-rank thresholds for cross-refresh stability.
 
