@@ -46,8 +46,8 @@
   <h3>Good at</h3>
   <p>Discovery + community moderation. Free, accessible, well-known.</p>
   <h3>Weak at</h3>
-  <p>Unstructured markdown — can't filter, sort, group, or join. No enrichment fields (downloads, stars, pricing, freshness). Stale links accumulate. Schema inconsistent across lists.</p>
-  <div class='vs'><strong>Niche Datasets:</strong> Niche Datasets normalize the same awesome-list source material into JSON+CSV with consistent schema + 40+ semantic enum tiers + per-record enrichment (GitHub stars, install counts, pricing, etc.). You can <code>filter / sort / join</code> across the catalog instead of bullet-scrolling.</div>
+  <p>Unstructured markdown — can't filter, sort, group, or join. No enrichment fields (downloads, stars, pricing, freshness). Stale links accumulate. Schema inconsistent across lists. Section-header noise leaks into the entry stream: e.g. <em>mikeroyal/self-hosting-guide</em> has 27 section-pointer entries (Books, Containers, Cloud, …) that point back to the README's own table-of-contents — anything parsing the markdown naively will treat these as real tool records.</p>
+  <div class='vs'><strong>Niche Datasets:</strong> Niche Datasets normalize the same awesome-list source material into JSON+CSV with consistent schema + 40+ semantic enum tiers + per-record enrichment (GitHub stars, install counts, pricing, etc.). You can <code>filter / sort / join</code> across the catalog instead of bullet-scrolling. The crawler also strips two common upstream-noise patterns at extraction time (year-prefix section-headers like "2021 Result", and self-section pointers like the 27 self-hosting-guide TOC entries) — verifiable buyer-side via the <a href="examples.html#noise-audit">noise-audit jq snippets</a>. Methodology in <a href="faq.html">FAQ Q26</a>.</div>
 </div>
 
 <h2 id="vs-kaggle-datasets">vs. Kaggle datasets</h2>
