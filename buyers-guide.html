@@ -145,6 +145,7 @@
 <p class="pick"><strong>Primary surface:</strong> <a href="datasets.json">/datasets.json</a> + 20 × <code>/&lt;slug&gt;-meta.json</code> endpoints — each entry carries <code>liveRecordCount</code> (exact int) alongside the marketing <code>recordCount</code> string. Poll daily, diff against your saved snapshot, pull only what changed.</p>
 <p class="pick"><strong>Runnable example:</strong> the <a href="examples.html#change-detection">change-detection Python loop</a> on <code>/examples.html</code> does this in ~20 lines. Same numbers as the <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a> table — reproducible.</p>
 <p class="pick"><strong>For per-dataset depth:</strong> grab the full ZIP from Gumroad (single SKU or any bundle). Subscribe to <a href="feed.xml">/feed.xml</a> RSS for refresh notifications instead of polling.</p>
+<p class="pick"><strong>Quality you don't have to police:</strong> the crawler strips two common awesome-list noise patterns at extraction (year-prefix section-headers, github.com bare-repo self-section pointers) so a naive "load JSON, treat as records" path doesn't pick up table-of-contents or benchmark-year sub-headers as if they were tools. Verify the promise yourself with the <a href="examples.html#noise-audit">noise-audit jq snippets</a> — both probes return 0 across all 20 samples. Documented in <a href="api.html#data-quality">api.html#data-quality</a> + <a href="faq.html">FAQ Q26</a>.</p>
 </div>
 
 <h2 id="decision-table">Quick decision table</h2>
