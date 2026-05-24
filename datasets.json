@@ -34,10 +34,6 @@
       ],
       "bundles": [
         {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
-        {
           "name": "Platform Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
         },
@@ -71,10 +67,6 @@
         "developer-tools"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "Platform Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
@@ -110,10 +102,6 @@
       ],
       "bundles": [
         {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
-        {
           "name": "Platform Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
         },
@@ -148,10 +136,6 @@
       ],
       "bundles": [
         {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
-        {
           "name": "ML Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
         }
@@ -180,12 +164,7 @@
         "ai-tools",
         "llmops-and-eval"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 3662
     },
     {
@@ -209,12 +188,7 @@
         "ai-prompts",
         "no-code-lowcode"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 2811
     },
     {
@@ -239,12 +213,7 @@
         "self-hosted-software",
         "developer-tools"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 2702
     },
     {
@@ -270,10 +239,6 @@
         "llmops-and-eval"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "ML Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
@@ -303,12 +268,7 @@
         "npm-packages",
         "ai-tools"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 2659
     },
     {
@@ -334,10 +294,6 @@
         "cybersecurity-tools"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "Platform Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
@@ -368,12 +324,7 @@
         "no-code-lowcode",
         "developer-tools"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 2166
     },
     {
@@ -398,12 +349,7 @@
         "llmops-and-eval",
         "ai-tools"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 2026
     },
     {
@@ -429,10 +375,6 @@
         "huggingface-datasets"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "ML Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
@@ -463,10 +405,6 @@
         "vscode-extensions"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "Platform Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
@@ -500,12 +438,7 @@
         "cybersecurity-tools",
         "no-code-lowcode"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 938
     },
     {
@@ -531,10 +464,6 @@
         "ai-agents"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "ML Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
@@ -564,12 +493,7 @@
         "open-source-alternatives",
         "design-resources"
       ],
-      "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        }
-      ],
+      "bundles": [],
       "liveRecordCount": 582
     },
     {
@@ -596,10 +520,6 @@
         "ai-agents"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "ML Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
@@ -632,10 +552,6 @@
       ],
       "bundles": [
         {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
-        {
           "name": "Platform Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
         }
@@ -666,10 +582,6 @@
         "ai-models-pricing"
       ],
       "bundles": [
-        {
-          "name": "Complete Developer Data Bundle",
-          "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-        },
         {
           "name": "ML Builder Pack",
           "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"

@@ -25,10 +25,6 @@
   "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json",
   "bundles": [
     {
-      "name": "Complete Developer Data Bundle",
-      "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-    },
-    {
       "name": "Platform Builder Pack",
       "url": "https://jhonnyronnie.gumroad.com/l/platform-builder-pack"
     },

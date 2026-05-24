@@ -23,11 +23,6 @@
     "llmops-and-eval"
   ],
   "catalogUrl": "https://futdevpro.github.io/niche-datasets-free/datasets.json",
-  "bundles": [
-    {
-      "name": "Complete Developer Data Bundle",
-      "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
-    }
-  ],
+  "bundles": [],
   "liveRecordCount": 3662
 }

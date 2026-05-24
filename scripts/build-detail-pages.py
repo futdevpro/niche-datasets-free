@@ -191,7 +191,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <h2>Full dataset</h2>
 <p>The full <strong>{records}</strong> records with all enrichment fields, semantic enum tiers, and category buckets:</p>
 <a class="cta" href="https://jhonnyronnie.gumroad.com/l/{gumroad}">Get on Gumroad — ${price}</a>
-<p class="meta" style="margin-top:1rem">Or save with a themed sub-bundle (<a href="./#bundles">Dev Stack Pack / Platform Builder Pack / ML Builder Pack — $24–$29</a>) or the full <a href="https://jhonnyronnie.gumroad.com/l/developer-data-bundle">Complete Developer Data Bundle ($34, 83% off)</a>.</p>
+<p class="meta" style="margin-top:1rem">Or save with a themed sub-bundle (<a href="./#bundles">Dev Stack Pack / Platform Builder Pack / ML Builder Pack — $24–$29</a>).</p>
 
 <h2>Related datasets</h2>
 {related_html}
@@ -380,11 +380,9 @@ def build_breadcrumb_jsonld(d):
 
 
 _BUNDLES = {
-    "developer-data-bundle": {
-        "name": "Complete Developer Data Bundle",
-        "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle",
-        "members": None,   # all 20
-    },
+    # NOTE 2026-05-24: "developer-data-bundle" (all-20-dataset SKU) is currently
+    # sold_out on Gumroad and not returned by /v2/products API. Removed from
+    # graph until Doc re-publishes. See USER_INPUT.md [ACTION-REQUIRED 2026-05-24].
     "ml-builder-pack": {
         "name": "ML Builder Pack",
         "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack",
