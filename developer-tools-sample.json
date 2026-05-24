@@ -1,11 +1,11 @@
 [
   {
-    "name": "Braintrust",
-    "url": "https://www.braintrustdata.com/",
-    "description": "Evals, prompt playground, and data management for Gen AI. Free plan gives upto 1,000 private eval rows/week.",
+    "name": "ReportGPT",
+    "url": "https://reportgpt.app",
+    "description": "AI Powered Writing Assistant. The entire platform is free as long as you bring your own API key.",
     "category": "ai-coding",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "free",
+    "hasApi": true,
     "tags": [
       "generative ai"
     ],
@@ -14,24 +14,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Power BI",
-    "url": "https://powerbi.microsoft.com/",
-    "description": "A cloud-based business analytics service by Microsoft that provides interactive visualizations and business intelligence capabilities. Can be used on Windows, macOS, and mobile devices.",
+    "name": "maps.stamen.com",
+    "url": "http://maps.stamen.com/",
+    "description": "Free map tiles and tile hosting.",
     "category": "analytics",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "the awesome list",
-      "data analytics"
+      "data visualization on maps"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Descope",
-    "url": "https://www.descope.com/",
-    "description": "Highly customizable AuthN flows, has both a no-code and API/SDK approach, Free 7,500 active users/month, 50 tenants (up to 5 SAML/SSO tenants).",
+    "name": "Authress",
+    "url": "https://authress.io/",
+    "description": "Authentication login and access control, unlimited identity providers for any project. Facebook, Google, Twitter and more. The first 1000 API calls are free.",
     "category": "authentication",
     "pricing": "freemium",
     "hasApi": true,
@@ -43,26 +42,26 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Wikifactory",
-    "url": "https://wikifactory.com/",
-    "description": "Product designing Service with Projects, VCS & Issues. The free plan offers unlimited projects & collaborators and 3GB storage.",
+    "name": "Esper",
+    "url": "https://esper.io",
+    "description": "MDM and MAM for Android Devices with DevOps. One hundred devices free with one user license and 25 MB Application Storage.",
     "category": "automation",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "issue tracking and project management"
+      "management system"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Supabase",
-    "url": "https://supabase.com/",
-    "description": "Hosted and open-source managed Postgres DB like Firebase. [](https://github.com/supabase/supabase) [](https://launchweek.dev/lw/2024/mega)",
+    "name": "Appwrite",
+    "url": "https://appwrite.io/",
+    "description": "End-to-end backend server for frontend and mobile developers. [](https://github.com/appwrite/appwrite) [](https://launchweek.dev)",
     "category": "backend-as-a-service",
-    "pricing": "open-source",
-    "hasApi": false,
+    "pricing": "freemium",
+    "hasApi": true,
     "tags": [
       "backend-as-a-service"
     ],
@@ -71,9 +70,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "LocalOps",
-    "url": "https://localops.co/",
-    "description": "Deploy your app on AWS/GCP/Azure in under 30 minutes. Setup standardised app environments on any cloud, which come with in-built continuous deployment automation and advanced observability. The free plan allows 1 user and 1 app environment.",
+    "name": "codemagic.io",
+    "url": "https://codemagic.io/",
+    "description": "Free 500 build minutes/month",
     "category": "ci-cd",
     "pricing": "free",
     "hasApi": false,
@@ -81,70 +80,69 @@
       "ci and cd"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Storyblok",
-    "url": "https://www.storyblok.com",
-    "description": "A Headless CMS for developers and marketers that works with all modern frameworks. The Community (free) tier offers Management API, Visual Editor, ten sources, Custom Field Types, Internationalization (unlimited languages/locales), Asset Manager (up to 2500 assets), Image Optimizing Service, Search Query, Webhook + 250GB Traffic/month included.",
+    "name": "WPJack",
+    "url": "https://wpjack.com",
+    "description": "Set up WordPress on any cloud in less than 5 minutes! The free tier includes 1 server, 2 sites, free SSL certificates, and unlimited cron jobs. No time limits or expirations-your website, your way.",
     "category": "cms",
     "pricing": "free",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "cms"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Git",
-    "url": "https://git-scm.com/",
-    "description": "A free and open-source distributed version control system that allows developers to collaborate on projects and track changes to code. Available for Windows, Linux, and macOS.",
-    "category": "code-quality",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "the awesome list",
-      "development tools"
-    ],
-    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "CrateDB",
-    "url": "https://crate.io/",
-    "description": "Distributed open-source SQL database for real-time analytics. [](https://github.com/crate/crate)",
-    "category": "database",
-    "pricing": "open-source",
+    "name": "BinShare.net",
+    "url": "https://binshare.net",
+    "description": "Create & share code or binaries. Available to share as a beautiful image e.g. for Twitter / Facebook post or as a link e.g. for chats or forums.",
+    "category": "code-quality",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "databases & spreadsheets"
+      "miscellaneous"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Mockoon",
-    "url": "https://mockoon.com",
-    "description": "an API / HTTP REST mocking desktop application",
-    "category": "debugging",
-    "pricing": "open-source",
+    "name": "Apitable",
+    "url": "https://apitable.com/",
+    "description": "API-oritented Airtable alternative.",
+    "category": "database",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "misc"
+      "databases & spreadsheets"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Adaptable",
-    "url": "https://adaptable.io/",
-    "description": "Deploy apps and DBs via common templates.",
+    "name": "Linear",
+    "url": "https://linear.app/",
+    "description": "Issue tracking built for developers.",
+    "category": "debugging",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "debugging"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Kinsta",
+    "url": "https://kinsta.com/",
+    "description": "Deploy static sites, apps, and databases from GitHub, GitLab, or Bitbucket and host headless WordPress.",
     "category": "deployment-hosting",
     "pricing": "freemium",
     "hasApi": false,
@@ -152,86 +150,87 @@
       "deployment hosting"
     ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ReadMe",
+    "url": "https://readme.com/",
+    "description": "Personalized and dynamic developer docs.",
+    "category": "documentation",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "documentation"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "CloudCertPrep",
-    "url": "https://cloudcertprep.io",
-    "description": "Free, open-source AWS certification practice exams with 1,050+ questions for CLF-C02. Features timed mock exams, domain practice, spaced repetition, and progress tracking.",
-    "category": "documentation",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "education and career development"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "oh-my-fish",
-    "url": "https://github.com/oh-my-fish/oh-my-fish",
-    "description": "Framework for managing your fish shell configuration inspired by oh-my-zsh.",
+    "name": "zsh quickstart kit",
+    "url": "https://github.com/unixorn/zsh-quickstart-kit",
+    "description": "Quick intro for getting set up with zsh and zgen",
     "category": "environment-secrets",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "shell"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "LaunchDarkly",
-    "url": "https://launchdarkly.com/",
-    "description": "Feature flags-as-a-service platform. [](https://launchweek.dev)",
+    "name": "Rollgate",
+    "url": "https://rollgate.io",
+    "description": "Feature flag management with scheduled releases, instant rollback, and A/B testing. 13 SDKs included. Free plan up to 500K API requests/month, unlimited flags, 3 team members, no credit card required.",
     "category": "feature-flags",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "feature flags"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Sublime Text",
-    "url": "https://www.sublimetext.com/",
-    "description": "A lightweight code editor used to write and edit code in various programming languages. Provides a range of features for code editing and customization. Available for Windows, Linux, and macOS.",
-    "category": "ide-editor",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "the awesome list",
-      "development tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "4EVERLAND",
-    "url": "https://www.4everland.org/",
-    "description": "Compatible with AWS S3 - APIs, interface operations, CLI, and other upload methods, upload and store files from the IPFS and Arweave networks in a safe, convenient, and efficient manner. Registered users can get 6 GB of IPFS storage and 300MB of Arweave storage for free. Any Arweave file uploads smaller than 150 KB are free.",
-    "category": "infrastructure",
     "pricing": "free",
     "hasApi": true,
     "tags": [
-      "iaas"
+      "feature toggles management platforms"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "Dataimporter.io",
-    "url": "https://www.dataimporter.io",
-    "description": "Tool for connecting, cleaning, and importing data into Salesforce. Free Plan includes up to 20,000 records per month.",
-    "category": "integrations",
+    "name": "MarkdownEditing",
+    "url": "https://github.com/SublimeText-Markdown/MarkdownEditing",
+    "description": "Markdown syntax understanding and good color schemes.",
+    "category": "ide-editor",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "editors",
+      "sublime text 3"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Xamarin",
+    "url": "https://dotnet.microsoft.com/apps/xamarin",
+    "description": "a Microsoft-owned platform for building native Android, iOS, and Windows apps with .NET and C#",
+    "category": "infrastructure",
     "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "the awesome list",
+      "front-end"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "CurlHub",
+    "url": "https://curlhub.io",
+    "description": "Proxy service for inspecting and debugging API calls. The free plan includes 10,000 requests per month.",
+    "category": "integrations",
+    "pricing": "freemium",
     "hasApi": true,
     "tags": [
       "apis, data, and ml"
@@ -241,11 +240,11 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AutoLocalise.com",
-    "url": "https://www.autolocalise.com/",
-    "description": "Instantly localize without managing translation files. Free for up to 10,000 characters/month, unlimited languages.",
+    "name": "Localhero.ai",
+    "url": "https://localhero.ai",
+    "description": "Automatic on-brand translations on every pull request, with glossary and translation memory. Free for 1 project, 250 translation credits/month (~4,000 words).",
     "category": "localization",
-    "pricing": "free",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "translation management"
@@ -255,12 +254,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Maileroo",
-    "url": "https://maileroo.com",
-    "description": "SMTP relay and email API for developers. 5,000 emails per month, unlimited domains, free email verification, blacklist monitoring, mail tester and more.",
+    "name": "dkimvalidator.com",
+    "url": "https://dkimvalidator.com/",
+    "description": "Test if the email's DNS/SPF/DKIM/DMARC settings are correct, free service by roundsphere.com",
     "category": "mail",
     "pricing": "free",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "email"
     ],
@@ -269,14 +268,155 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Proton Drive",
-    "url": "https://proton.me/drive",
-    "description": "Ultra-secure cloud storage for files and key documents. Free plan offers 5gb of storage space.",
+    "name": "kraken.io",
+    "url": "https://kraken.io/",
+    "description": "Image optimization for website performance as a service, free plan up to 1 MB file size",
     "category": "media",
-    "pricing": "freemium",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "storage and media processing"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "twist.com",
+    "url": "https://twist.com",
+    "description": "An asynchronous-friendly team communication app where conversations stay organized and on-topic. Free and Unlimited plans are available. Discounts are provided for eligible teams.",
+    "category": "messaging",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "tools for teams and collaboration"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Future AGI",
+    "url": "https://futureagi.com/",
+    "description": "Open-source self-hostable end-to-end LLMOps platform unifying tracing, evals, simulations, datasets, gateway, and guardrails. [](https://github.com/future-agi/future-agi)",
+    "category": "monitoring",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "monitoring"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "zilore.com",
+    "url": "https://zilore.com/en/dns",
+    "description": "Free DNS hosting for 5 domains.",
+    "category": "networking",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "dns"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "daily.dev",
+    "url": "https://daily.dev/",
+    "description": "Personalized developer news feed aggregating from 1000+ tech sources with community discussion. [](https://github.com/dailydotdev/daily)",
+    "category": "other",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "misc"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "RevenueCat",
+    "url": "https://www.revenuecat.com/",
+    "description": "Hosted backend for in-app purchases and subscriptions (iOS and Android). Free up to $2.5k/mo in tracked revenue.",
+    "category": "payments",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "payment and billing integration"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Algolia",
+    "url": "https://www.algolia.com/",
+    "description": "Search as a service and full suite of search APIs.",
+    "category": "search",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "search"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Ketch",
+    "url": "https://www.ketch.com/",
+    "description": "Consent management and privacy framework tool. The free tier offers most features with a limited visitor count.",
+    "category": "security",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "privacy management"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Vaadin",
+    "url": "https://vaadin.com",
+    "description": "Build scalable UIs in Java or TypeScript, and use the integrated tooling, components, and design system to iterate faster, design better, and simplify the development process. Unlimited Projects with five years of free maintenance.",
+    "category": "testing",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "testing"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "CodeParrot",
+    "url": "https://codeparrot.ai/",
+    "description": "Frontend component AI assistant for VS Code.",
+    "category": "ai-coding",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "ai coding"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Databricks",
+    "url": "https://databricks.com/",
+    "description": "A cloud-based data engineering, data science, and analytics platform used to build data-driven applications. Supports various programming languages and data sources.",
+    "category": "analytics",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "the awesome list",
+      "data analytics"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",

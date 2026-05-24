@@ -1,14 +1,47 @@
 [
   {
-    "name": "Envoy AI Gateway",
-    "url": "https://openalternative.co/envoy-ai-gateway",
-    "description": "Route GenAI traffic with confidence using open source",
+    "name": "Arize Phoenix",
+    "url": "https://openalternative.co/arize-phoenix",
+    "description": "Open-source LLM tracing & evaluation for AI optimization",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "ai & machine learning",
       "ai development platforms"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "Castled",
+    "url": "https://castled.io/",
+    "description": "Data synchronization framework focused on external apps",
+    "category": "analytics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-hightouch",
+      "alternative-to-newrelic"
+    ],
+    "alternativeTo": "Hightouch, NewRelic",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "Gravitee",
+    "url": "https://openalternative.co/gravitee",
+    "description": "Unified API, event, and AI agent management platform",
+    "category": "api-tools",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "developer tools",
+      "api development & testing"
     ],
     "license": "Apache-2.0",
     "urlDomainTier": "commercial",
@@ -17,41 +50,9 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "Bklit",
-    "url": "https://openalternative.co/bklit",
-    "description": "Privacy-first web analytics with 3-line setup",
-    "category": "analytics",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "data & analytics",
-      "web & product analytics"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "licenseTier": "unknown"
-  },
-  {
-    "name": "Fusio",
-    "url": "https://github.com/apioo/fusio",
-    "description": "API management platform",
-    "category": "api-tools",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "alternative-to-postman"
-    ],
-    "alternativeTo": "Postman",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "licenseTier": "unknown"
-  },
-  {
-    "name": "Cerbos",
-    "url": "https://openalternative.co/cerbos",
-    "description": "Secure, policy-based access control for modern applications",
+    "name": "Ory",
+    "url": "https://openalternative.co/ory",
+    "description": "A certified and battle-tested identity solution",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
@@ -61,31 +62,31 @@
     ],
     "license": "Apache-2.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
   },
   {
-    "name": "Drone",
-    "url": "https://github.com/harness/drone",
-    "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
+    "name": "Jenkins",
+    "url": "https://github.com/jenkinsci/jenkins",
+    "description": "Jenkins automation server.",
     "category": "automation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "alternative-to-circleci"
     ],
-    "license": "Apache License 2.0",
+    "license": "MIT License",
     "alternativeTo": "CircleCI",
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "licenseTier": "unknown"
+    "licenseTier": "permissive"
   },
   {
-    "name": "DataLens",
-    "url": "https://openalternative.co/datalens",
-    "description": "Scale your analytics with a powerful open-source BI platform",
+    "name": "Grist",
+    "url": "https://openalternative.co/grist",
+    "description": "Flexible spreadsheets with database power",
     "category": "business-intelligence",
     "pricing": "open-source",
     "hasApi": false,
@@ -95,31 +96,31 @@
     ],
     "license": "Apache-2.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
   },
   {
-    "name": "Vvveb CMS",
-    "url": "https://openalternative.co/vvveb-cms",
-    "description": "Open source CMS with powerful drag-and-drop builder",
+    "name": "LogicalDOC",
+    "url": "https://github.com/logicaldoc/community",
+    "description": "LogicalDOC Community open source document management system https://www.logicaldoc.com.",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "content & publishing",
-      "content management systems (cms)"
+      "alternative-to-documentum"
     ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
+    "license": "GNU Lesser General Public License v3.0",
+    "alternativeTo": "Documentum",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "licenseTier": "strong-copyleft"
+    "licenseTier": "unknown"
   },
   {
-    "name": "Mezon",
-    "url": "https://openalternative.co/mezon",
-    "description": "Create custom spaces to chat, game, and connect globally",
+    "name": "Campfire",
+    "url": "https://openalternative.co/campfire",
+    "description": "Self-hosted group chat without recurring subscription fees",
     "category": "collaboration",
     "pricing": "open-source",
     "hasApi": false,
@@ -127,27 +128,28 @@
       "business software",
       "collaboration & communication"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "licenseTier": "unknown"
-  },
-  {
-    "name": "OpenSEO",
-    "url": "https://openalternative.co/openseo",
-    "description": "Open source SEO tools without the enterprise price tag",
-    "category": "communication",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "business software",
-      "marketing & customer engagement"
-    ],
     "license": "MIT",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
+  },
+  {
+    "name": "DoubleZero",
+    "url": "https://openalternative.co/doublezero",
+    "description": "Self-hosted email infrastructure for developers",
+    "category": "communication",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "productivity & utilities",
+      "email & communication"
+    ],
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "licenseTier": "strong-copyleft"
   },
   {
     "name": "Bluesky",
@@ -167,15 +169,49 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "Krayin",
-    "url": "https://openalternative.co/krayin",
-    "description": "Self-hosted CRM for enhanced business relationships",
+    "name": "Customermates",
+    "url": "https://github.com/customermates/customermates",
+    "description": "Open-source CRM with native n8n workflow automation, built for small B2B teams. Alternative to Pipedrive/HubSpot.",
     "category": "crm",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "business software",
-      "crm & sales"
+      "alternative-to-salesforce"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "alternativeTo": "Salesforce",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "ArangoDB",
+    "url": "https://www.arangodb.com/",
+    "description": "Graph database and document store",
+    "category": "databases",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-tigergraph",
+      "alternative-to-amazon-neptune"
+    ],
+    "alternativeTo": "TigerGraph, Amazon Neptune",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "OpenPencil",
+    "url": "https://openalternative.co/openpencil",
+    "description": "Open-source Figma alternative with AI and full programmability",
+    "category": "design",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous",
+      "design & prototyping"
     ],
     "license": "MIT",
     "urlDomainTier": "commercial",
@@ -184,58 +220,26 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "OceanBase",
-    "url": "https://openalternative.co/oceanbase",
-    "description": "High-performance distributed database for all workloads",
-    "category": "databases",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "infrastructure & operations",
-      "databases"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "licenseTier": "unknown"
-  },
-  {
-    "name": "Modulz",
-    "url": "https://www.modulz.app/",
-    "description": "Code-based tool for designing and prototyping",
-    "category": "design",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "alternative-to-figma"
-    ],
-    "alternativeTo": "Figma",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "licenseTier": "unknown"
-  },
-  {
-    "name": "Hatchet",
-    "url": "https://openalternative.co/hatchet",
-    "description": "Effortless CI/CD for modern cloud applications",
+    "name": "Plandex",
+    "url": "https://openalternative.co/plandex",
+    "description": "AI coding agent that handles large-scale development tasks",
     "category": "developer-tools",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "developer tools",
-      "frameworks & platforms"
+      "ai assisted coding"
     ],
     "license": "MIT",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
   },
   {
-    "name": "Dokploy",
-    "url": "https://openalternative.co/dokploy",
-    "description": "Effortless deployment and management for any VPS",
+    "name": "Nitric",
+    "url": "https://openalternative.co/nitric",
+    "description": "Cloud-native framework for infrastructure from code",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": true,
@@ -243,41 +247,43 @@
       "developer tools",
       "build & deployment"
     ],
+    "license": "Apache-2.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "licenseTier": "unknown"
+    "licenseTier": "permissive"
   },
   {
-    "name": "Graphite Docs",
-    "url": "https://github.com/Graphite-Docs",
-    "description": "Open-source alternative to Google Docs",
+    "name": "Scalar",
+    "url": "https://openalternative.co/scalar",
+    "description": "Open-source API documentation and testing platform",
     "category": "documentation",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "alternative-to-google-docs"
+      "content & publishing",
+      "documentation & knowledge base"
     ],
-    "alternativeTo": "Google Docs",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "licenseTier": "unknown"
+    "licenseTier": "permissive"
   },
   {
-    "name": "Bagisto",
-    "url": "https://openalternative.co/bagisto",
-    "description": "Open source Laravel eCommerce platform for modern businesses",
+    "name": "Medusa",
+    "url": "https://openalternative.co/medusa",
+    "description": "Open-source e-commerce for modern developers",
     "category": "e-commerce",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "business software",
       "e-commerce platforms"
     ],
     "license": "MIT",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
   },
@@ -299,15 +305,181 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "Captable",
-    "url": "https://openalternative.co/captable",
-    "description": "Simplify equity management for startups and investors",
+    "name": "Fincept Terminal",
+    "url": "https://openalternative.co/fincept-terminal",
+    "description": "Open-source financial terminal for data-driven insights",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "miscellaneous",
+      "finance & fintech"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "Palform",
+    "url": "https://openalternative.co/palform",
+    "description": "Secure, encrypted forms with advanced features",
+    "category": "forms",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
       "business software",
-      "finance & accounting"
+      "forms & surveys"
+    ],
+    "license": "AGPL-3.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "licenseTier": "strong-copyleft"
+  },
+  {
+    "name": "Godot",
+    "url": "https://openalternative.co/godot",
+    "description": "Create 2D & 3D games with complete creative freedom",
+    "category": "gaming",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous",
+      "gaming"
+    ],
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "permissive"
+  },
+  {
+    "name": "Home Assistant",
+    "url": "https://openalternative.co/home-assistant",
+    "description": "Local control smart home automation with privacy first",
+    "category": "iot",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "miscellaneous",
+      "internet of things (iot)"
+    ],
+    "license": "Apache-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "permissive"
+  },
+  {
+    "name": "TechBlitz",
+    "url": "https://openalternative.co/techblitz",
+    "description": "Free coding education platform for aspiring developers",
+    "category": "learning",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "content & publishing",
+      "learning management systems (lms)"
+    ],
+    "license": "Apache-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "permissive"
+  },
+  {
+    "name": "Lychee",
+    "url": "https://openalternative.co/lychee",
+    "description": "Self-hosted photo management with full control",
+    "category": "media",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "content & publishing",
+      "digital asset management (dam)"
+    ],
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "licenseTier": "permissive"
+  },
+  {
+    "name": "Wachd",
+    "url": "https://openalternative.co/wachd",
+    "description": "AI-powered root cause analysis for on-call alerts, self-hosted and air-gapped",
+    "category": "monitoring",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "infrastructure & operations",
+      "monitoring & observability"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "OpenVPN",
+    "url": "https://openalternative.co/openvpn",
+    "description": "Zero Trust VPN solutions for secure business networking",
+    "category": "networking",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "infrastructure & operations",
+      "networking & connectivity"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "Justnote",
+    "url": "https://openalternative.co/justnote",
+    "description": "Privacy-focused note-taking made simple and fast",
+    "category": "note-taking",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "productivity & utilities",
+      "note taking & knowledge management"
+    ],
+    "license": "GPL-2.0",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "licenseTier": "strong-copyleft"
+  },
+  {
+    "name": "Overloop CLI",
+    "url": "https://github.com/sortlist/overloop-cli",
+    "description": "Open-source alternative to Apollo.io",
+    "category": "other",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-apollo-io"
+    ],
+    "alternativeTo": "Apollo.io",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "Padloc",
+    "url": "https://openalternative.co/padloc",
+    "description": "Secure password manager with end-to-end encryption",
+    "category": "password-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "productivity & utilities",
+      "password & secret management"
     ],
     "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
@@ -316,19 +488,20 @@
     "licenseTier": "strong-copyleft"
   },
   {
-    "name": "LimeSurvey",
-    "url": "https://openalternative.co/limesurvey",
-    "description": "Create engaging surveys and gather valuable insights",
-    "category": "forms",
+    "name": "Reqcore",
+    "url": "https://openalternative.co/reqcore",
+    "description": "Own your hiring data with unlimited seats forever",
+    "category": "productivity",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
-      "forms & surveys"
+      "human resources (hr)"
     ],
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "licenseTier": "unknown"
+    "licenseTier": "strong-copyleft"
   }
 ]

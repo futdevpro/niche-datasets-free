@@ -132,19 +132,19 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{name} — Free Sample (CSV + JSON)</title>
-<meta name="description" content="{desc} Free sample: 20 records in JSON + CSV. Full dataset ${price} on Gumroad.">
+<meta name="description" content="{desc} Free sample: 30 records in JSON + CSV. Full dataset ${price} on Gumroad.">
 <link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/{slug}.html">
 <link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
 <link rel="alternate" type="application/json" title="{name} — JSON metadata" href="{slug}-meta.json">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/{slug}.html">
 <meta property="og:title" content="{name} — Free Sample (CSV + JSON)">
-<meta property="og:description" content="{desc} Free sample: 20 records in JSON + CSV. Full dataset ${price} on Gumroad.">
+<meta property="og:description" content="{desc} Free sample: 30 records in JSON + CSV. Full dataset ${price} on Gumroad.">
 <meta property="og:site_name" content="Niche Datasets">
 <meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{name} — Free Sample">
-<meta name="twitter:description" content="{records} records · {desc} Free sample 20 records. Full ${price}.">
+<meta name="twitter:description" content="{records} records · {desc} Free sample 30 records. Full ${price}.">
 <meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
 <style>
   body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}}
@@ -173,7 +173,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="quickstart.html">5-min quickstart</a> &nbsp;·&nbsp; <a href="examples.html">Code examples</a> &nbsp;·&nbsp; <a href="vs.html">vs. alternatives</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
 
 <h1>{name}</h1>
-<p class="meta">{records} records · Free sample (20 records, JSON + CSV) · Full dataset ${price} · <span class="badge">Sample refreshed {refresh_date}</span>{tier_badge}</p>
+<p class="meta">{records} records · Free sample (30 records, JSON + CSV) · Full dataset ${price} · <span class="badge">Sample refreshed {refresh_date}</span>{tier_badge}</p>
 <p class="lead">{desc}</p>
 
 <h2>What you'd use this for</h2>
@@ -182,7 +182,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <h2>Sample preview (first 5 records)</h2>
 {preview_html}
 
-<h2>Free sample (20 records)</h2>
+<h2>Free sample (30 records)</h2>
 <ul class="dl">
   <li><a href="{slug}-sample.json">{slug}-sample.json</a> — JSON format</li>
   <li><a href="{slug}-sample.csv">{slug}-sample.csv</a> — CSV format</li>
@@ -422,7 +422,7 @@ def build_jsonld(d, repo_root=None):
         "@context": "https://schema.org/",
         "@type": "Dataset",
         "name": d["name"],
-        "description": f"{d['desc']} Free sample: 20 records.",
+        "description": f"{d['desc']} Free sample: 30 records.",
         "url": f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html",
         "keywords": d["keywords"],
         "license": "https://opensource.org/licenses/MIT",
@@ -498,7 +498,7 @@ def build_index_jsonld(repo_root=None):
         datasets.append({
             "@type": "Dataset",
             "name": d["name"],
-            "description": f"{d['desc']} Free sample: 20 records.",
+            "description": f"{d['desc']} Free sample: 30 records.",
             "url": f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html",
             "keywords": d["keywords"],
             "license": "https://opensource.org/licenses/MIT",
@@ -528,7 +528,7 @@ def build_index_jsonld(repo_root=None):
         "@context": "https://schema.org/",
         "@type": "DataCatalog",
         "name": "Niche Datasets — Free Samples",
-        "description": "Free 20-record samples of 20 curated developer and AI datasets: npm packages, MCP servers, HuggingFace models and datasets, Homebrew formulae, VS Code extensions, AI tools, AI agents, AI prompts, AI models pricing, public APIs, developer tools, self-hosted software, open-source alternatives, vector-DB / RAG infrastructure, LLMOps tooling, platform engineering, cybersecurity tools, design resources, no-code/low-code tools.",
+        "description": "Free 30-record samples of 20 curated developer and AI datasets: npm packages, MCP servers, HuggingFace models and datasets, Homebrew formulae, VS Code extensions, AI tools, AI agents, AI prompts, AI models pricing, public APIs, developer tools, self-hosted software, open-source alternatives, vector-DB / RAG infrastructure, LLMOps tooling, platform engineering, cybersecurity tools, design resources, no-code/low-code tools.",
         "url": "https://futdevpro.github.io/niche-datasets-free/",
         "keywords": ["datasets", "developer tools", "npm packages", "mcp servers", "huggingface", "homebrew", "vscode extensions", "ai tools", "public apis", "vector database", "structured data"],
         "dateModified": today_iso,

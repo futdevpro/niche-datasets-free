@@ -1,8 +1,8 @@
 [
   {
-    "name": "Self Reflective RAG",
-    "url": "https://selfrag.github.io/",
-    "description": "Models that dynamically adjust retrieval strategies based on model performance feedback.",
+    "name": "Vision-RAG",
+    "url": "https://www.youtube.com/watch?v=npkp4mSweEg",
+    "description": "Embeds entire pages as images, allowing vision models to handle reasoning directly without parsing text-RAG.",
     "category": "agentic-rag",
     "pricing": "unknown",
     "hasApi": false,
@@ -14,38 +14,35 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Jaccard Similarity",
-    "url": "https://en.wikipedia.org/wiki/Jaccard_index",
-    "description": "Jaccard Similarity",
+    "name": "Characterizing the Dilemma of Performance and Index Size in Billion-Scale Vector Search and Breaking It with Second-Tier Memory",
+    "url": "https://arxiv.org/pdf/2405.03267",
+    "description": "Characterizing the Dilemma of Performance and Index Size in Billion-Scale Vector Search and Breaking It with Second-Tier Memory",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "metrics & evaluation",
-      "similarity metrics for embeddings"
+      "others"
     ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Denser Retriever",
+    "url": "https://denser.ai",
+    "description": "Denser Retriever",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Cognita",
-    "url": "https://github.com/truefoundry/cognita",
-    "description": "Open-source RAG framework for building modular and production ready applications.",
-    "category": "rag-framework",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "frameworks that facilitate rag"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OpenSearch",
-    "url": "https://opensearch.org/",
-    "description": "OpenSearch",
+    "name": "Typesense's Cloud",
+    "url": "https://cloud.typesense.org",
+    "description": "Typesense's Cloud",
     "category": "search-engine",
     "pricing": "unknown",
     "hasApi": false,
@@ -55,15 +52,17 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "QdrantCloud",
-    "url": "https://cloud.qdrant.io/",
-    "description": "QdrantCloud",
+    "name": "seekdb",
+    "url": "https://github.com/oceanbase/seekdb",
+    "description": "seekdb — vector-db-engine API",
     "category": "vector-db-engine",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
@@ -81,86 +80,18 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Foundations of Multidimensional and Metric Data Structures",
-    "url": "https://www.amazon.com/Foundations-Multidimensional-Structures-Kaufmann-Computer/dp/0123694469",
-    "description": "Foundations of Multidimensional and Metric Data Structures",
+    "name": "Weights & Biases",
+    "url": "https://wandb.ai/wandb-japan/rag-hands-on/reports/Step-for-developing-and-evaluating-RAG-application-with-W-B--Vmlldzo1NzU4OTAx",
+    "description": "Tracks experiments, logs metrics, and visualizes performance.",
     "category": "rag-eval",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "others"
+      "metrics & evaluation",
+      "response evaluation metrics"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Agentset",
-    "url": "https://github.com/agentset-ai/agentset",
-    "description": "Open-source production-ready RAG platform with built-in agentic reasoning, hybrid search, and multimodal support.",
-    "category": "rag-framework",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "frameworks that facilitate rag"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Meilisearch",
-    "url": "https://www.meilisearch.com/solutions/vector-search",
-    "description": "Meilisearch",
-    "category": "search-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "DataStax Astra Vector - Multi-cloud, serverless vector DBaaS",
-    "url": "https://www.datastax.com/products/vector-search",
-    "description": "DataStax Astra Vector - Multi-cloud, serverless vector DBaaS",
-    "category": "vector-db-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "awesome vector search engine",
-      "cloud service"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Multimodal RAG",
-    "url": "https://developer.nvidia.com/blog/an-easy-introduction-to-multimodal-retrieval-augmented-generation",
-    "description": "Extends RAG to handle multiple modalities such as text, images, and audio.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Neural Search In Action",
-    "url": "https://matsui528.github.io/cvpr2023_tutorial_neural_search",
-    "description": "Neural Search In Action",
-    "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -179,6 +110,75 @@
     "categorizationTier": "specific"
   },
   {
+    "name": "Meilisearch",
+    "url": "https://www.meilisearch.com/solutions/vector-search",
+    "description": "Meilisearch",
+    "category": "search-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Epsilla Cloud - The fully managed serverless vector database with 10X faster, cheaper and better.",
+    "url": "https://cloud.epsilla.com",
+    "description": "Epsilla Cloud - The fully managed serverless vector database with 10X faster, cheaper and better.",
+    "category": "vector-db-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "awesome vector search engine",
+      "cloud service"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VideoRAG",
+    "url": "https://arxiv.org/abs/2501.05874",
+    "description": "Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VectorDBZ",
+    "url": "https://github.com/vectordbz/vectordbz",
+    "description": "GUI desktop app for exploring and debugging vector databases",
+    "category": "rag-eval",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "CocoIndex",
+    "url": "https://github.com/cocoindex-io/cocoindex",
+    "description": "ETL framework to index data for AI, such as RAG; with realtime incremental updates.",
+    "category": "rag-framework",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "frameworks that facilitate rag"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
     "name": "OpenSearch's AlibabaCloud",
     "url": "https://www.alibabacloud.com/product/opensearch",
     "description": "OpenSearch's AlibabaCloud",
@@ -191,24 +191,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "FAISS",
-    "url": "https://github.com/facebookresearch/faiss",
-    "description": "A library for efficient similarity search and clustering of dense vectors, designed to handle large-scale datasets and optimized for fast retrieval of nearest neighbors.",
+    "name": "RAFT",
+    "url": "https://github.com/rapidsai/raft",
+    "description": "RAFT — vector-db-engine API",
     "category": "vector-db-engine",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "databases",
-      "vector search libraries and tools:"
+      "multidimensional data / vectors"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Vision-RAG",
-    "url": "https://www.youtube.com/watch?v=npkp4mSweEg",
-    "description": "Embeds entire pages as images, allowing vision models to handle reasoning directly without parsing text-RAG.",
+    "name": "FLARE",
+    "url": "https://medium.com/etoai/better-rag-with-active-retrieval-augmented-generation-flare-3b66646e2a9f",
+    "description": "An approach that incorporates active retrieval-augmented generation to improve response quality.",
     "category": "agentic-rag",
     "pricing": "unknown",
     "hasApi": false,
@@ -235,24 +234,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Chain of Verification (CoVe)",
-    "url": "https://sourajit16-02-93.medium.com/chain-of-verification-cove-understanding-implementation-e7338c7f4cb5",
-    "description": "Prompting the model to verify each step of its reasoning for accuracy.",
+    "name": "Re-ranking",
+    "url": "https://developer.nvidia.com/blog/enhancing-rag-pipelines-with-re-ranking",
+    "description": "Enhances search results in RAG pipelines by reordering initially retrieved documents, prioritizing those most semantically relevant to the query.",
     "category": "rag-framework",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "techniques",
-      "prompting"
+      "retrieval"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Typesense's Cloud",
-    "url": "https://cloud.typesense.org",
-    "description": "Typesense's Cloud",
+    "name": "OpenSearch",
+    "url": "https://opensearch.org/",
+    "description": "OpenSearch",
     "category": "search-engine",
     "pricing": "unknown",
     "hasApi": false,
@@ -262,9 +261,67 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "tinyvector",
-    "url": "https://github.com/0hq/tinyvector",
-    "description": "tinyvector",
+    "name": "CassIO - CassIO is the ultimate solution for seamlessly integrating Apache Cassandra® with generative artificial intelligence and other machine learning workloads",
+    "url": "https://cassio.org",
+    "description": "CassIO - CassIO is the ultimate solution for seamlessly integrating Apache Cassandra® with generative artificial intelligence and other machine learning workloads",
+    "category": "vector-db-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "awesome vector search engine",
+      "library"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "REFRAG",
+    "url": "https://arxiv.org/pdf/2509.01092",
+    "description": "Optimizes RAG decoding by compressing retrieved context into embeddings before generation, reducing latency while maintaining output quality.",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VectorHub",
+    "url": "https://github.com/superlinked/VectorHub",
+    "description": "a free, open-source learning website for people (software developers to senior ML architects) interested in adding vector retrieval to their ML stack.",
+    "category": "rag-eval",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Security Guide",
+    "url": "https://hiddenlayer.com/innovation-hub/prompt-injection-attacks-on-llms",
+    "description": "Understanding and preventing prompt injection attacks",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "response quality & safety"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "USearch",
+    "url": "https://github.com/unum-cloud/usearch",
+    "description": "USearch — vector-db-engine API",
     "category": "vector-db-engine",
     "pricing": "open-source",
     "hasApi": false,
@@ -272,7 +329,92 @@
       "multidimensional data / vectors"
     ],
     "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "RAG Fusion",
+    "url": "https://arxiv.org/abs/2402.03367",
+    "description": "Techniques combining multiple retrieval methods for improved context integration.",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Deep Learning for Search",
+    "url": "https://www.manning.com/books/deep-learning-for-search",
+    "description": "Deep Learning for Search",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Query Reformulation and Expansion",
+    "url": "https://haystack.deepset.ai/cookbook/query-expansion",
+    "description": "Query Reformulation and Expansion",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "retrieval"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "milvus",
+    "url": "https://milvus.io/",
+    "description": "milvus — vector-db-engine API",
+    "category": "vector-db-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Retrieval-Augmented Fine-Tuning",
+    "url": "https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/raft-a-new-way-to-teach-llms-to-be-better-at-rag/ba-p/4084674",
+    "description": "(RAFT): Techniques to fine-tune LLMs specifically for enhanced retrieval and generation tasks.",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "BEIR",
+    "url": "https://github.com/beir-cellar/beir",
+    "description": "BEIR — rag-eval API",
+    "category": "rag-eval",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   }
 ]

@@ -1,16 +1,16 @@
 [
   {
-    "name": "Gravity-AI",
-    "url": "https://www.gravity-ai.com/",
-    "description": "The fastest & most secure way to solve business problems with A.I.",
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks.",
     "category": "ai-ml",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
       "ai"
     ],
     "codeType": "low-code",
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -30,29 +30,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Frontman",
-    "url": "https://github.com/frontman-ai/frontman",
-    "description": "Open-source AI coding agent that lives in your browser — click any element, describe changes in plain English, and get real code edits. Designed for cross-functional teams.",
+    "name": "VisionX",
+    "url": "https://visionx.sibvisions.com/",
+    "description": "Lowcode Development Platform.",
     "category": "app-builder",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "visual programming"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Linx",
-    "url": "https://linx.software",
-    "description": "Low-code Development for IT Pros",
-    "category": "automation",
     "pricing": "paid",
     "hasApi": false,
     "tags": [
-      "automation"
+      "enterprise platforms"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
@@ -60,14 +45,89 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Voiceflow",
-    "url": "https://www.voiceflow.com/",
-    "description": "Prototype and launch conversational apps.",
+    "name": "Process.st",
+    "url": "https://www.process.st/",
+    "description": "Simple, free and powerful way to manage your team's recurring checklists and procedures.",
+    "category": "automation",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "automation and workflows"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "YourGPT",
+    "url": "https://yourgpt.ai",
+    "description": "AI-first platform to build no-code chatbots for support, sales, and automation.",
     "category": "chatbot",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "more (uncategorized)"
+      "chatbots"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Trello",
+    "url": "https://trello.com/louisveyret1/boards",
+    "description": "All-in-one workspace and collaboration for businesses",
+    "category": "collaboration",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "collaboration"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Folk",
+    "url": "https://folk.app",
+    "description": "Lightweight modern CRM for personal networks and freelancers.",
+    "category": "crm",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "crm"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "APIFY",
+    "url": "https://apify.com/",
+    "description": "Extract data from any website",
+    "category": "data-scraping",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "data & scraping"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Tadabase",
+    "url": "https://tadabase.io",
+    "description": "No Code Database Web App Builder",
+    "category": "database",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "database"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
@@ -75,9 +135,219 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Quip",
-    "url": "https://quip.com",
-    "description": "One place for all your team’s work.",
+    "name": "unDraw",
+    "url": "https://undraw.co",
+    "description": "Free, open-source illustrations for every project.",
+    "category": "design",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "design"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Stripe",
+    "url": "https://stripe.com/fr-us",
+    "description": "Payment integration and management",
+    "category": "ecommerce",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "payment"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Convertigo",
+    "url": "https://www.convertigo.com/",
+    "description": "Create Forms based applications with no coding.",
+    "category": "forms",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "forms"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Algolia",
+    "url": "https://www.algolia.com/",
+    "description": "Flexible Search & Discovery Hosted APIs.",
+    "category": "internal-tools",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "misc"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Rewardful",
+    "url": "https://www.getrewardful.com",
+    "description": "Instant Affiliate & Referral Programs for Stripe",
+    "category": "marketing",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "marketing"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Lightwell",
+    "url": "https://lightwell.pro/",
+    "description": "A simple tool for creating native iOS apps on Mac.",
+    "category": "mobile",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "mobile apps"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Doc Willianms",
+    "url": "https://www.youtube.com/channel/UCXv_CS0DaUVS25tFGkRALoA",
+    "description": "No Code tutorials.",
+    "category": "other",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "educational"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "CCHub",
+    "url": "https://github.com/Moresl/cchub",
+    "description": "A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).",
+    "category": "video",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "video"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Exposure",
+    "url": "https://www.exposure.co/",
+    "description": "A website builder for your stories.",
+    "category": "website-builder",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "portfolios"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Obviously AI",
+    "url": "https://www.obviously.ai/",
+    "description": "Machine learning tool that makes data science effortless by enabling anyone to instantly run accurate predictions as well as analytics on their data by asking questions in natural language.",
+    "category": "ai-ml",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "machine learning"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VisualSitemaps",
+    "url": "https://visualsitemaps.com",
+    "description": "Autogenerate Visual Sitemaps & Screenshots in Seconds",
+    "category": "analytics",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "analytics"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Rosebud AI",
+    "url": "https://rosebud.ai",
+    "description": "Vibe coding platform for creating 3D games and interactive web apps with AI.",
+    "category": "app-builder",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "games"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Overloop CLI",
+    "url": "https://github.com/sortlist/overloop-cli",
+    "description": "AI-powered outbound engine. Source 450M+ contacts, launch email + LinkedIn campaigns, manage conversations. JSON output, agent-native.",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "automation"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Tars",
+    "url": "https://hellotars.com/",
+    "description": "Optimize your conversion funnels, automate customer service interactions, and redefine customer experience.",
+    "category": "chatbot",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "chatbots"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Slite",
+    "url": "https://slite.com",
+    "description": "Async-first documentation and knowledge base.",
     "category": "collaboration",
     "pricing": "freemium",
     "hasApi": false,
@@ -90,14 +360,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Kartra",
-    "url": "https://kartra.com",
-    "description": "Online Business Made Easy",
+    "name": "Zendesk",
+    "url": "https://www.zendesk.com/",
+    "description": "Build the best customer experiences.",
     "category": "crm",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "crm"
+      "misc"
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
@@ -105,29 +375,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "SmartXML",
-    "url": "https://redata.dev/smartxml",
-    "description": "An application for parsing XML of any complexity with support SQLite and PostgreSQL",
+    "name": "Parsehub",
+    "url": "https://parsehub.com",
+    "description": "Free web scraping.",
     "category": "data-scraping",
     "pricing": "free",
     "hasApi": true,
     "tags": [
-      "data & scraping"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Hasura",
-    "url": "https://hasura.io/",
-    "description": "Get realtime GraphQL APIs instantly",
-    "category": "database",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "database"
+      "scrapers"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
@@ -135,24 +390,39 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Figma",
-    "url": "https://figma.com",
-    "description": "The first interface design tool with real-time collaboration",
+    "name": "NocoDB",
+    "url": "https://github.com/nocodb/nocodb",
+    "description": "Free & Open Source Airtable Alternative - turns any SQL databases into smart spreadsheet.",
+    "category": "database",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "database"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "IconScout",
+    "url": "https://iconscout.com",
+    "description": "Library of icons, illustrations, and 3D assets.",
     "category": "design",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "design"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Hingeto",
-    "url": "https://www.hingeto.com/",
-    "description": "Start your own Amazon-style marketplace",
+    "name": "Big Cartel",
+    "url": "https://www.bigcartel.com",
+    "description": "Easy online stores for artists & makers",
     "category": "ecommerce",
     "pricing": "freemium",
     "hasApi": false,
@@ -175,126 +445,6 @@
       "forms"
     ],
     "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Nuclino",
-    "url": "https://nuclino.com",
-    "description": "Part knowledge base, part collaboration space 🧠",
-    "category": "internal-tools",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "internal"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Microsoft Clarity",
-    "url": "https://clarity.microsoft.com",
-    "description": "Free heatmaps, session recordings, and user insights with no sampling.",
-    "category": "marketing",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "analytics"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "miniAppMaker",
-    "url": "https://miniappmaker.com",
-    "description": "Make mobile apps using Airtable!",
-    "category": "mobile",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "mobile apps"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "How to Use JavaScript Code in Zapier Zaps",
-    "url": "https://zapier.com/help/create/code-webhooks/use-javascript-code-in-zaps",
-    "description": "How to Use JavaScript Code in Zapier Zaps",
-    "category": "other",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "blog posts"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "PlayHT",
-    "url": "https://play.ht",
-    "description": "Realistic voice synthesis for podcasts and narration.",
-    "category": "video",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "voice"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Weebly",
-    "url": "https://www.weebly.com",
-    "description": "Build a Free Website or Online Store",
-    "category": "website-builder",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "websites"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "RunwayML",
-    "url": "https://runwayml.com/",
-    "description": "Makes machine learning accessible to creative practitioners from a wide range of disciplines.",
-    "category": "ai-ml",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "machine learning"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Plausible",
-    "url": "https://plausible.io",
-    "description": "Lightweight, GDPR-compliant website analytics with a simple interface.",
-    "category": "analytics",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "analytics"
-    ],
-    "codeType": "low-code",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"

@@ -44,7 +44,7 @@
 <p class="lead">Goal: by the end of this page, you'll have downloaded a sample, inspected its schema in your editor, and decided whether to grab the full dataset. No signup, no API key.</p>
 
 <h2 id="step-1"><span class="step">1</span> Pick a dataset <span class="timer">~30 seconds</span></h2>
-<p>Scan the <a href="./">20-dataset catalog</a>. The "Records" column tells you the size of the full version; the "Sample" column links you to a 20-record JSON or CSV preview. Pick the one closest to what you're trying to build.</p>
+<p>Scan the <a href="./">20-dataset catalog</a>. The "Records" column tells you the size of the full version; the "Sample" column links you to a 30-record JSON or CSV preview. Pick the one closest to what you're trying to build.</p>
 <p>Don't know which to pick? Common starting points:</p>
 <ul>
 <li>Building a dev-tools comparison page → <a href="npm-packages.html">npm-packages</a> + <a href="homebrew-packages.html">homebrew-packages</a></li>
@@ -59,7 +59,7 @@
 <pre><code>curl -O https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json
 # or for CSV:
 curl -O https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv</code></pre>
-<p>The sample is 20 records. Same schema, structure, and quality as the full version — just a random subset.</p>
+<p>The sample is 30 records. Same schema, structure, and quality as the full version — just a random subset.</p>
 
 <h2 id="step-3"><span class="step">3</span> Inspect the schema <span class="timer">~2 minutes</span></h2>
 <p>Open in your favorite tool:</p>
@@ -130,7 +130,7 @@ Part of <a href="./">Niche Datasets — 20 curated developer and AI datasets</a>
   "totalTime": "PT5M",
   "step": [
     {"@type": "HowToStep", "position": 1, "name": "Pick a dataset", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-1", "text": "Scan the 20-dataset catalog and pick the one closest to what you're building."},
-    {"@type": "HowToStep", "position": 2, "name": "Grab the sample", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-2", "text": "Download the 20-record JSON or CSV sample via curl or click."},
+    {"@type": "HowToStep", "position": 2, "name": "Grab the sample", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-2", "text": "Download the 30-record JSON or CSV sample via curl or click."},
     {"@type": "HowToStep", "position": 3, "name": "Inspect the schema", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-3", "text": "Use jq, Python, or Excel to view the field names and verify the records have what you need."},
     {"@type": "HowToStep", "position": 4, "name": "Run a real query", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-4", "text": "Filter or group the sample to answer a question you'd actually ask. Use jq or pandas."},
     {"@type": "HowToStep", "position": 5, "name": "Decide", "url": "https://futdevpro.github.io/niche-datasets-free/quickstart.html#step-5", "text": "If the sample fits, grab the full version on Gumroad. If not, try other samples or check the comparison page."},

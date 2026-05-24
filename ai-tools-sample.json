@@ -1,69 +1,70 @@
 [
   {
-    "name": "ggerganov/whisper.cpp",
-    "url": "https://github.com/ggerganov/whisper.cpp",
-    "description": "Port of OpenAI's Whisper model in C/C++. It can be executed locally.",
+    "name": "Boppy",
+    "url": "https://boppy.me",
+    "description": "Free AI music generator — describe a song, AI writes lyrics and generates full audio. Any genre, no signup.",
     "category": "audio",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "speech-to-text (stt) and spoken content analysis"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Quickly share ML WebApps from Google Colab using ngrok for Free | by AbdulMajedRaja RS | Towards Data Science",
-    "url": "https://towardsdatascience.com/quickly-share-ml-webapps-from-google-colab-using-ngrok-for-free-ae899ca2661a",
-    "description": "Quickly share ML WebApps from Google Colab using ngrok for Free | by AbdulMajedRaja RS | Towards Data Science",
-    "category": "code",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "improving google colab experience"
+      "interactive learning & tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Search-R1",
-    "url": "https://github.com/PeterGriffinJin/Search-R1",
-    "description": "RL training framework for reasoning and search engine calling. Enables LLMs to interleave reasoning with real-time web search for enhanced knowledge retrieval. Built on veRL with efficient distributed training. Apache 2.0 licensed.",
-    "category": "data",
-    "pricing": "open-source",
+    "name": "CostGoat",
+    "url": "https://costgoat.com",
+    "description": "Privacy-first menubar app for tracking AI agent quotas (Claude Code, Codex, Kimi, Z.ai) and LLM API costs (OpenAI, OpenRouter, Anthropic, ElevenLabs) in real-time. Also covers cloud spend and SaaS subscriptions.",
+    "category": "code",
+    "pricing": "unknown",
     "hasApi": true,
     "tags": [
-      "7. training & fine-tuning ecosystem"
+      "agent infrastructure",
+      "usage analytics & cost tracking"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "Misread",
-    "url": "https://misread.io",
-    "description": "AI communication scanner that detects gaslighting, manipulation, and 40+ toxic patterns in text messages and emails.",
-    "category": "image",
-    "pricing": "unknown",
+    "name": "SDV (Synthetic Data Vault)",
+    "url": "https://github.com/sdv-dev/SDV",
+    "description": "High-fidelity tabular and relational synthetic data.",
+    "category": "data",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "tools for better image prompting"
+      "7. training & fine-tuning ecosystem"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "llama.cpp",
-    "url": "https://github.com/ggml-org/llama.cpp",
-    "description": "High-performance local inference engine for LLMs and multimodal models, supporting CPU/GPU execution, quantization, and broad model compatibility.",
-    "category": "multimodal",
+    "name": "gsplat (3D Gaussian Splatting tools)",
+    "url": "https://github.com/nerfstudio-project/gsplat",
+    "description": "High-performance 3D Gaussian Splatting library.",
+    "category": "image",
     "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "6. generative media tools"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Dexter",
+    "url": "https://github.com/virattt/dexter",
+    "description": "Autonomous financial research agent designed to perform deep analysis by thinking, planning, and learning through iteration. Specialized for the financial domain. Intro",
+    "category": "multimodal",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "ai agent tools"
+      "ai agent"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
@@ -82,53 +83,54 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Smart2Brain",
-    "url": "https://github.com/your-papa/obsidian-Smart2Brain",
-    "description": "Privacy-focused Obsidian plugin for AI-powered second brain functionality. Chat with your notes using local or remote LLMs including Ollama and OpenAI. MIT licensed.",
+    "name": "Chat With PDF by Copilot.us",
+    "url": "https://copilot.us/apps/chat-with-pdf",
+    "description": "An AI app that enables dialogue with PDF documents, supporting interactions with multiple files simultaneously through language models.",
     "category": "productivity",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
-    "tags": [
-      "12. user interfaces & self-hosted platforms"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "ClawHub",
-    "url": "https://github.com/openclaw/clawhub",
-    "description": "Skill directory",
-    "category": "search",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "openclaw ecosystem",
-      "ecosystem & extensions"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Haystack",
-    "url": "https://haystack.deepset.ai/",
-    "description": "A framework for building NLP applications (e.g. agents, semantic search, question-answering) with language models.",
-    "category": "text",
-    "pricing": "freemium",
-    "hasApi": true,
     "tags": [
       "text",
-      "developer tools"
+      "productivity"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Two Minute Papers",
-    "url": "https://www.youtube.com/user/keeroyz",
-    "description": "Two Minute Papers",
+    "name": "TalkToPapers - namuan/dr-doc-search: Converse with book - Built with GPT-3",
+    "url": "https://github.com/namuan/dr-doc-search",
+    "description": "a github util where AI will do the paper reading for you instead",
+    "category": "search",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "research ai tools",
+      "ai tools for research"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "LangChain Cheatsheet",
+    "url": "https://pub.towardsai.net/langchain-cheatsheet-all-secrets-on-a-single-page-8be26b721cde",
+    "description": "All Secrets on a Single Page | by Ivan Reznikov | Nov, 2023 | Towards AI",
+    "category": "text",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "large language models (llms)",
+      "langchain"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Yannic Kilcher",
+    "url": "https://www.youtube.com/c/YannicKilcher",
+    "description": "Deep dive into AI research papers.",
     "category": "video",
     "pricing": "free",
     "hasApi": false,
@@ -140,10 +142,52 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Jukedeck",
-    "url": "https://www.jukedeck.com",
-    "description": "Create unique music for videos.",
+    "name": "COVAL",
+    "url": "https://app.coval.dev/the-ultimate-voice-ai-stack",
+    "description": "architecture of voice AI, from speech recognition to emotional intelligence, and learn how to build, scale, and evaluate them",
     "category": "audio",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "text-to-speech (tts) and avatars"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "AIChat",
+    "url": "https://github.com/sigoden/aichat",
+    "description": "All-in-one LLM CLI in Rust featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents. Supports 20+ providers. MIT/Apache 2.0 licensed.",
+    "category": "code",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "13. developer tools & integrations"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "HelixDB",
+    "url": "https://github.com/HelixDB/helix-db",
+    "description": "Graph-vector database for retrieval systems that need relationship traversal alongside semantic search.",
+    "category": "data",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "5. retrieval-augmented generation (rag) & knowledge"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Deep Angel",
+    "url": "https://deepangel.media.mit.edu",
+    "description": "AI-driven tool for removing objects from images.",
+    "category": "image",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
@@ -154,66 +198,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "TraceRoot AI",
-    "url": "https://traceroot.ai/",
-    "description": "AI-native observability tool that uses AI agents to automatically fix production bugs.",
-    "category": "code",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "automated workflows",
-      "ci/cd & testing automation"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "AutoRAG",
-    "url": "https://github.com/Marker-Inc-Korea/AutoRAG",
-    "description": "RAG AutoML tool for automatically finding optimal RAG pipelines. Evaluates and optimizes retrieval-augmented generation with AutoML-style automation for your own data and use-case. Apache 2.0 licensed.",
-    "category": "data",
+    "name": "OpenClaw",
+    "url": "https://openclaw.ai/",
+    "description": "Open-source personal AI assistant / agent framework",
+    "category": "multimodal",
     "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "9. evaluation, benchmarks & datasets"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Video-P2P UI - a Hugging Face Space by video-p2p-library",
-    "url": "https://huggingface.co/spaces/video-p2p-library/Video-P2P-Demo",
-    "description": "video editing with cross-attention control [[tweet]](https://twitter.com/akhaliq/status/1637838648463749120)",
-    "category": "image",
-    "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "image segmentation"
-    ],
-    "urlDomainTier": "registry-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Unitree Robotics B1",
-    "url": "https://www.unitree.com/products/b1",
-    "description": "A new quadruped robot with industrial-grade capabilities, rugged design, and powerful AI-driven functionality.",
-    "category": "multimodal",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "ai driven robots and robotic dogs"
+      "openclaw ecosystem",
+      "core"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "The AIKEA Effect",
-    "url": "https://piszek.com/2023/08/28/aikea-effect",
-    "description": "by Artur Piszek",
+    "name": "Where AI evolves from here",
+    "url": "https://www.axios.com/2023/05/18/ai-agi-artificial-general-intelligence",
+    "description": "Where AI evolves from here",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
@@ -223,12 +225,12 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Regie.ai",
-    "url": "https://www.regie.ai/",
-    "description": "AI writing tool specifically designed for sales teams to automate and enhance email campaigns and sales communications.",
+    "name": "Scenario GG",
+    "url": "https://www.scenario.gg/",
+    "description": "AI platform tailored for game developers to create custom assets and environments using generative models.",
     "category": "productivity",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "unknown",
+    "hasApi": true,
     "tags": [
       "new and emerging ai tools"
     ],
@@ -237,45 +239,188 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Toolify",
-    "url": "https://www.toolify.ai/",
-    "description": "AI Tools Directory & AI Tools List",
+    "name": "Kazimir.ai",
+    "url": "https://kazimir.ai/",
+    "description": "A search engine designed to search AI-generated images.",
     "category": "search",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "generative ai tools directories"
+      "text",
+      "search engines"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Llama Hub",
+    "url": "https://llamahub.ai/",
+    "description": "a repository of data loaders for LlamaIndex (GPT Index) and LangChain",
+    "category": "text",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "large language models (llms)",
+      "embeddings and semantic search"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "KLING AI",
+    "url": "https://kling.ai/",
+    "description": "Tools for creating imaginative images and videos.",
+    "category": "video",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "video"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Chonkie",
-    "url": "https://github.com/chonkie-inc/chonkie",
-    "description": "Lightweight document chunking library for fast, efficient RAG pipelines. Memory-safe with multiple chunking strategies (semantic, token, recursive) and direct vector DB integration. MIT licensed.",
-    "category": "text",
-    "pricing": "open-source",
+    "name": "AIVA",
+    "url": "https://www.aiva.ai",
+    "description": "Review - AI composer specializing in classical and cinematic music creation.",
+    "category": "audio",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "audio",
+      "ai music generators"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "windsurf.vim",
+    "url": "https://github.com/Exafunction/windsurf.vim",
+    "description": "Free, ultrafast Copilot alternative for Vim and Neovim. AI-powered code completion with low latency and large context window. MIT licensed.",
+    "category": "code",
+    "pricing": "free",
     "hasApi": true,
     "tags": [
-      "5. retrieval-augmented generation (rag) & knowledge"
+      "13. developer tools & integrations"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Dreamina",
-    "url": "https://dreamina.capcut.com/",
-    "description": "AI image and video creation tool by ByteDance/CapCut. Powered by Seedance 2.0 model. Supports text-to-image, text-to-video, image-to-video with 2K ultra-clear output",
-    "category": "video",
-    "pricing": "freemium",
-    "hasApi": false,
+    "name": "Practical Deep Learning for Cloud, Mobile, and Edge by Anirudh Koul, Siddha Ganju, and Meher Kasam",
+    "url": "https://www.oreilly.com/library/view/practical-deep-learning/9781492034858",
+    "description": "Practical Deep Learning for Cloud, Mobile, and Edge by Anirudh Koul, Siddha Ganju, and Meher Kasam",
+    "category": "data",
+    "pricing": "unknown",
+    "hasApi": true,
     "tags": [
-      "video creation"
+      "books and academic journals"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Stable Diffusion Models",
+    "url": "https://rentry.org/sdmodels",
+    "description": "A comprehensive list of Stable Diffusion checkpoints on rentry.org.",
+    "category": "image",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "image",
+      "model libraries"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Agency Swarm",
+    "url": "https://github.com/VRSEN/agency-swarm",
+    "description": "Reliable multi-agent orchestration framework built on top of the OpenAI Assistants API with organizational structure modeling.",
+    "category": "multimodal",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "4. agentic ai & multi-agent systems"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Cultures in AI/AI in Culture",
+    "url": "https://ai-cultures.github.io/",
+    "description": "NeurIPS 2022 Workshop webpage",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Grokking Stable Diffusion: Textual Inversion.ipynb - Colaboratory - Part 2",
+    "url": "https://colab.research.google.com/drive/1RTHDzE-otzmZOuy8w1WEOxmn9pNcEz3u?usp=sharing",
+    "description": "sequel to Grokking Stable Diffusion by @johnowhitaker that focus on Text Inversion",
+    "category": "productivity",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "courses and educational materials"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Large Language Models and Where to Use Them: Part 2",
+    "url": "https://txt.cohere.ai/llm-use-cases-p2",
+    "description": "Large Language Models and Where to Use Them: Part 2",
+    "category": "search",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "generative ai history, timelines, maps, and definitions"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VILA (NVIDIA)",
+    "url": "https://github.com/NVlabs/VILA",
+    "description": "Family of state-of-the-art vision language models for diverse multimodal AI tasks across edge, data center, and cloud. Features NVILA 8B/15B with efficient training and deployment. Apache 2.0 licensed.",
+    "category": "text",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "2. open foundation models"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenFang",
+    "url": "https://github.com/RightNow-AI/openfang",
+    "description": "Open-source Agent Operating System built in Rust (137K LOC, 14 crates, 1,767+ tests, zero Clippy warnings). Ships as a single ~32 MB binary with 7 autonomous \"Hands\" that run on schedules without you prompting them (Researcher, Lead, Browser, Clip, Collector, Predictor, Twitter), 40 channel adapters, 16 security layers (WASM sandbox, Merkle audit trail, taint tracking, SSRF protection, etc.), and a FangHub skill marketplace. Apache-2.0 / MIT. → Website",
+    "category": "video",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "other ai agents",
+      "personal / always-on agents"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   }
 ]
