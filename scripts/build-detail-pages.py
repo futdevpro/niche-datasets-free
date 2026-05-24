@@ -472,6 +472,7 @@ def build_sitemap():
         ("https://futdevpro.github.io/niche-datasets-free/feed.xml",                               "0.6", "weekly"),
         ("https://futdevpro.github.io/niche-datasets-free/openapi.json",                           "0.5", "yearly"),
         ("https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json",             "0.6", "weekly"),
+        ("https://futdevpro.github.io/niche-datasets-free/cross-leverage.html",                    "0.8", "weekly"),
     ] + [
         (f"https://futdevpro.github.io/niche-datasets-free/{d['slug']}.html", "0.8", "weekly")
         for d in DATASETS
@@ -830,6 +831,149 @@ def build_cross_dataset_overlap_json(repo_root):
     }, indent=2)
 
 
+def build_cross_leverage_html(repo_root):
+    """Generate /cross-leverage.html — public-readable view of /cross-dataset-overlap.json.
+    Lists the top tools by cross-dataset span as an SEO-discoverable HTML page (the
+    JSON-only endpoint doesn't surface in search for queries like 'developer tools
+    across categories'). Top 40 rows are inlined; full 208-entry list stays in JSON.
+    """
+    from collections import defaultdict
+    url_to_entries = defaultdict(list)
+    for d in DATASETS:
+        slug = d["slug"]
+        data_path = os.path.normpath(
+            os.path.join(repo_root, "..", "niche-datasets", "datasets", slug, "data", f"{slug}.json")
+        )
+        if not os.path.isfile(data_path):
+            continue
+        try:
+            with open(data_path, "r", encoding="utf-8") as f:
+                records = json.load(f)
+        except Exception:
+            continue
+        for r in records:
+            u = (r.get("url") or "").strip().rstrip("/").lower()
+            if not u:
+                continue
+            name = (r.get("name") or "").strip()
+            url_to_entries[u].append({"dataset": slug, "name": name})
+
+    top = []
+    for url, entries in url_to_entries.items():
+        slugs = sorted({e["dataset"] for e in entries})
+        if len(slugs) < 3:
+            continue
+        names = [e["name"] for e in entries if e["name"]]
+        short = min(names, key=len) if names else url
+        top.append({"url": url, "name": short, "count": len(slugs), "in": slugs})
+    top.sort(key=lambda x: (-x["count"], x["url"]))
+    top40 = top[:40]
+
+    rows = []
+    for e in top40:
+        span_html = "<br>".join(f'<a href="{s}.html">{s}</a>' for s in e["in"])
+        rows.append(
+            f'<tr><td><a href="{e["url"]}" target="_blank" rel="noopener noreferrer nofollow">{e["name"]}</a></td>'
+            f'<td style="text-align:center"><strong>{e["count"]}</strong></td>'
+            f'<td>{span_html}</td></tr>'
+        )
+    rows_html = "\n".join(rows)
+    total = len(top)
+    five_span = sum(1 for e in top if e["count"] == 5)
+    today_iso = datetime.date.today().isoformat()
+
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cross-Niche Developer Tools — Tools That Span 3+ of Our 20 Datasets</title>
+<meta name="description" content="{total} developer + AI tools appear in 3 or more of our 20 curated catalog datasets. Top tools span 5 niches at once (ClickUp, KubeStellar Console, Snyk, Taskade). Useful for market-mapping, cross-sell discovery, and bundle-purchase decisions. Reproducible from /cross-dataset-overlap.json.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/cross-leverage.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/cross-leverage.html">
+<meta property="og:title" content="Cross-Niche Developer Tools — Tools Spanning 3+ Datasets">
+<meta property="og:description" content="{total} tools span 3+ developer niches at once. {five_span} span 5 niches. Reproducible from /cross-dataset-overlap.json.">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cross-Niche Developer Tools — {total} Tools, Up to 5-Dataset Span">
+<meta name="twitter:description" content="ClickUp, Snyk, KubeStellar, Taskade hit 5 niches. Full top-40 table with member-dataset links.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:920px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}}
+  h1{{font-size:1.7rem;margin-bottom:.4rem}}
+  h2{{font-size:1.2rem;margin-top:2.2rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}}
+  a{{color:#0969da}}
+  code{{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}}
+  .lead{{color:#444;font-size:1.05rem}}
+  .nav{{font-size:.9rem;color:#666;margin-bottom:1rem}}
+  .meta{{color:#666;font-size:.88rem;margin-bottom:1rem}}
+  table{{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}}
+  th,td{{border:1px solid #e5e7eb;padding:.5rem .6rem;text-align:left;vertical-align:top}}
+  thead{{background:#f6f8fa}}
+  footer{{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}}
+</style>
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Niche Datasets — Cross-Niche Tools",
+  "description": "Public table of {total} developer + AI tools that appear in 3 or more of the Niche Datasets catalog's 20 curated datasets. Recomputed on every refresh.",
+  "url": "https://futdevpro.github.io/niche-datasets-free/cross-leverage.html",
+  "distribution": [{{
+    "@type": "DataDownload",
+    "contentUrl": "https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json",
+    "encodingFormat": "application/json"
+  }}],
+  "dateModified": "{today_iso}",
+  "license": "https://opensource.org/licenses/MIT",
+  "creator": {{"@type": "Organization", "name": "Future Development Program", "url": "https://github.com/futdevpro"}}
+}}
+</script>
+</head>
+<body>
+
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="buyers-guide.html">Buyer's guide</a> &nbsp;·&nbsp; <a href="examples.html#cross-leverage">jq examples</a> &nbsp;·&nbsp; <a href="api.html#cross-dataset-overlap">API docs</a> &nbsp;·&nbsp; <a href="cross-dataset-overlap.json">Full JSON</a></p>
+
+<h1>Cross-Niche Developer Tools — Tools That Span 3+ Datasets</h1>
+<p class="meta">Auto-generated {today_iso} from the live data files · {total} tools above threshold · {five_span} at the 5-dataset cap</p>
+
+<p class="lead">Most developer + AI tools live in exactly one niche. But a small set — currently <strong>{total} tools</strong> across the catalog — show up in 3 or more of the 20 datasets at once, because they genuinely span multiple categories. ClickUp is a no-code-lowcode tool, a public-API, a platform-engineering tool, available in homebrew, and listed under developer-tools. The same kind of cross-niche depth applies to {five_span} other "5-span" tools below. Useful for market-mapping ("which tools cover the most niches?"), cross-sell discovery, and bundle-purchase decisions.</p>
+
+<h2 id="top-40">Top {len(top40)} by cross-dataset span</h2>
+
+<table>
+<thead><tr><th>Tool</th><th>Datasets</th><th>Appears in</th></tr></thead>
+<tbody>
+{rows_html}
+</tbody>
+</table>
+
+<h2 id="full-list">Full list, programmatic access</h2>
+
+<p>The full {total}-entry list is served as JSON at <a href="cross-dataset-overlap.json"><code>/cross-dataset-overlap.json</code></a> (schema: <code>CrossDatasetOverlap</code> in OpenAPI 1.3.0). Recomputed on every catalog refresh from the live <code>liveRecordCount</code> data files. Worked jq snippets at <a href="examples.html#cross-leverage">examples.html#cross-leverage</a>:</p>
+
+<pre style="background:#f6f8fa;padding:.8rem 1rem;border-radius:6px;overflow-x:auto;font-size:.88rem"><code>curl -s https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json \\
+  | jq '.topByCount[] | select(.count &gt;= 4) | .url'</code></pre>
+
+<h2 id="how-it-works">How the count is computed</h2>
+
+<p>Each entry in every catalog dataset has a canonical <code>url</code> field. We aggregate URLs case-insensitively, group by dataset slug, and emit any URL that appears in 3+ distinct slugs. Threshold of 3 keeps the output to ~200 entries (vs ~1,300 at 2+, which is dominated by near-duplicates and not very useful). Methodology in <a href="buyers-guide.html#cross-leverage">buyer's guide #cross-leverage</a> and <a href="faq.html">FAQ Q28</a>.</p>
+
+<p>The crawler also strips two common upstream noise patterns at extraction time, so the cross-niche counts reflect real tools — not section-headers leaked into the entry stream. See <a href="api.html#data-quality">api.html#data-quality</a> for details and <a href="examples.html#noise-audit">examples.html#noise-audit</a> for a buyer-runnable verification jq probe.</p>
+
+<p><a href="./">← Browse all 20 datasets</a> &nbsp;·&nbsp; <a href="buyers-guide.html">Buyer's guide</a> &nbsp;·&nbsp; <a href="changelog.html">Refresh changelog</a></p>
+
+<footer>
+Niche Datasets · <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> · <a href="https://jhonnyronnie.gumroad.com/">Gumroad storefront</a><br>
+Page auto-generated from <code>scripts/build-detail-pages.py</code> on every catalog refresh. Source-of-truth: the live <code>datasets/&lt;slug&gt;/data/&lt;slug&gt;.json</code> files in the private factory repo.
+</footer>
+
+</body>
+</html>
+'''
+
+
 def audit_record_floors(repo_root):
     """Warn when a DATASETS records floor like '6,000+' has fallen below the
     actual record count from the live data file. Advisory only — doesn't
@@ -922,6 +1066,9 @@ def main():
     overlap_path = os.path.join(repo_root, "cross-dataset-overlap.json")
     with open(overlap_path, "w", encoding="utf-8") as f:
         f.write(build_cross_dataset_overlap_json(repo_root))
+    cross_leverage_path = os.path.join(repo_root, "cross-leverage.html")
+    with open(cross_leverage_path, "w", encoding="utf-8") as f:
+        f.write(build_cross_leverage_html(repo_root))
     # Per-dataset metadata endpoints
     for d in DATASETS:
         meta_path = os.path.join(repo_root, f"{d['slug']}-meta.json")
@@ -933,7 +1080,7 @@ def main():
         f.write(build_feed_xml(repo_root))
     update_index_table(repo_root)
     update_index_jsonld(repo_root)
-    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+16} URLs: root + buyers-guide + tiers + quickstart + api + examples + vs + faq + blog-url-fix + blog-3day + blog-13day + blog-enum-tiers + changelog + feed + openapi + cross-dataset-overlap + 20 detail) + datasets.json catalog + cross-dataset-overlap.json + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
+    print(f"Generated {count} detail pages + {count} -meta.json endpoints + sitemap.xml ({len(DATASETS)+17} URLs: root + buyers-guide + tiers + quickstart + api + examples + vs + faq + blog-url-fix + blog-3day + blog-13day + blog-enum-tiers + changelog + feed + openapi + cross-dataset-overlap + cross-leverage + 20 detail) + datasets.json catalog + cross-dataset-overlap.json + feed.xml RSS + updated index.html JSON-LD. Use-cases injected: {use_case_hits}/{count}. Previews injected: {preview_hits}/{count}.")
 
 
 if __name__ == "__main__":
