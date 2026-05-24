@@ -182,6 +182,18 @@ jq '.[] | select(.useCaseTier == "chat"
 
 <p>Same patterns in <a href="examples.html#tier-filters">pandas, Node.js fetch, and DuckDB SQL</a>.</p>
 
+<h2 id="cross-leverage">Bundle justification — verify the cross-leverage before you pay</h2>
+
+<p>Each themed bundle has a distinct value shape. You can verify what kind by reading <a href="cross-dataset-overlap.json">/cross-dataset-overlap.json</a> (208 URLs appearing in 3+ datasets) and checking how it intersects the bundle's member datasets. Specifics from the live data:</p>
+
+<ul>
+  <li><strong>Platform Builder Pack</strong> ($29, 6 datasets: developer-tools, homebrew-packages, npm-packages, platform-engineering, self-hosted-software, vscode-extensions) — strongest cross-leverage. <strong>VS Code itself spans 4 of these 6</strong> (dev-tools + homebrew + platform-engineering + vscode-extensions). ClickUp, Appwrite, Asana, GitLab, and Depot each span 3 of 6. This is the bundle where buying once vs separately is a measurable saving on the tools you actually use across niches.</li>
+  <li><strong>Dev Stack Pack</strong> ($24, 4 datasets: developer-tools, homebrew-packages, npm-packages, vscode-extensions) — <strong>VS Code spans 3 of the 4</strong> (dev-tools + homebrew + vscode-extensions); the same for the microsoft/vscode repo entry. ClickUp, Snyk, Airtable, and Appwrite each span 2 of 4.</li>
+  <li><strong>ML Builder Pack</strong> ($29, 6 datasets: ai-models-pricing, ai-prompts, huggingface-datasets, huggingface-models, llmops-and-eval, vector-db-and-rag) — different shape: no single tool spans 3+ of these specific six. Six tools (FAISS, Qdrant, pgvector, Semantic Kernel, Txtai, Agentset) span the llmops-and-eval + vector-db-and-rag axis. The bundle's value is <em>topic coherence</em> (the entire LLM-app retrieval + eval + pricing layer in one purchase), not single-tool overlap.</li>
+</ul>
+
+<p>The point: cross-leverage shows up differently per bundle. Platform Builder is "VS Code + ClickUp are everywhere, pay once". ML Builder is "you need the whole layer, buying piecemeal misses adjacency". Either way you can probe before paying: <a href="examples.html#cross-leverage">jq snippets</a> · <a href="api.html#cross-dataset-overlap">api.html docs</a>.</p>
+
 <h2 id="try-free">Still unsure — try free first</h2>
 
 <p>Every dataset has a free 20-record JSON+CSV sample on this site. No signup, no email, no API key. Open the detail page, click the "Download sample" link, run a one-liner from the <a href="quickstart.html">5-minute quickstart</a>, decide whether it fits your workload before paying anything.</p>
