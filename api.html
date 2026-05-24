@@ -160,7 +160,7 @@ npx openapi-typescript \
 <pre><code>curl -s https://futdevpro.github.io/niche-datasets-free/cross-dataset-overlap.json \
   | jq '.topByCount[] | select(.count &gt;= 4) | {url, count, appearsIn}'</code></pre>
 
-<p>Useful for market-mapping (which tools span the most niches?), cross-sell discovery (buyers of one dataset likely want adjacent ones if their target tool spans both), or for bundle-pricing decisions ("Qdrant appears in 4 of our datasets → justifies the ML Builder Pack").</p>
+<p>Useful for market-mapping (which tools span the most niches?), cross-sell discovery (buyers of one dataset likely want adjacent ones if their target tool spans both), or for bundle-pricing decisions ("Qdrant appears in 4 of our datasets → justifies the ML Builder Pack"). Human-readable view of the same data: <a href="cross-leverage.html">/cross-leverage.html</a> (auto-rebuilt per refresh, top-40 inline table). Per-dataset entry: every detail page ships a <code>#cross-niche</code> section showing exactly which of its tools also appear in other datasets — e.g. <a href="vector-db-and-rag.html#cross-niche">vector-db-and-rag #cross-niche</a>.</p>
 
 <h2 id="data-quality">Data quality — crawler-level noise filters</h2>
 
