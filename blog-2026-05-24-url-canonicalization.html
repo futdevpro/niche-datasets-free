@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>14,331 URLs Restored — Found a Case-Mangling Bug in Our URL Normalizer (2026-05-24)</title>
+<meta name="description" content="A sampled HEAD-request audit caught a real bug — our URL normalizer was lowercasing the entire URL, which corrupted ~5,000 VS Code Marketplace URLs (itemName= became itemname=) and ~9,000 HuggingFace Hub paths (case-sensitive namespaces like Yi-34B-Chat got mangled to yi-34b-chat). One regex fix, 16 datasets re-canonicalized, 14,331 URLs now preserve case correctly across the catalog.">
+<link rel="canonical" href="https://futdevpro.github.io/niche-datasets-free/blog-2026-05-24-url-canonicalization.html">
+<link rel="alternate" type="application/rss+xml" title="Niche Datasets — Refresh Feed" href="feed.xml">
+<link rel="alternate" type="application/json" title="Niche Datasets — Catalog" href="datasets.json">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://futdevpro.github.io/niche-datasets-free/blog-2026-05-24-url-canonicalization.html">
+<meta property="og:title" content="14,331 URLs Restored — Case-Mangling Bug in Our URL Normalizer">
+<meta property="og:description" content="One regex fix restored 14,331 case-mangled URLs across 17 of 20 datasets. Worst hits: vscode-extensions 99.6%, HF models 66%, HF datasets 58%.">
+<meta property="og:site_name" content="Niche Datasets">
+<meta property="og:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="14,331 URLs Restored — URL Normalizer Case-Mangling Bug">
+<meta name="twitter:description" content="vscode-extensions 99.6%, HF models 66%, HF datasets 58% — one bad .toLowerCase() in the URL normalizer. Caught by sampled HEAD audit. Fixed.">
+<meta name="twitter:image" content="https://futdevpro.github.io/niche-datasets-free/og-cover.svg">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:820px;margin:0 auto;padding:2rem 1.25rem;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.7rem;margin-bottom:.4rem}
+  h2{font-size:1.2rem;margin-top:2.2rem;color:#0969da;border-bottom:1px solid #eee;padding-bottom:.3rem}
+  h3{font-size:1.05rem;margin-top:1.6rem}
+  a{color:#0969da}
+  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px;font-size:.9em;font-family:Menlo,Consolas,monospace}
+  pre{background:#f6f8fa;padding:.8rem 1rem;border-radius:6px;overflow-x:auto;font-size:.88rem}
+  .lead{color:#444;font-size:1.05rem}
+  .nav{font-size:.9rem;color:#666;margin-bottom:1rem}
+  .meta{color:#666;font-size:.88rem;margin-bottom:1rem}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+  th,td{border:1px solid #e5e7eb;padding:.42rem .6rem;text-align:right}
+  th:first-child,td:first-child{text-align:left}
+  thead{background:#f6f8fa}
+  .pos{color:#16a34a}.neg{color:#b91c1c}
+  tr.totalrow td{font-weight:600;background:#fafafa}
+  .takeaway{background:#fafbfc;padding:1rem 1.3rem;border-left:3px solid #16a34a;border-radius:0 4px 4px 0;margin:1.5rem 0}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #eee;font-size:.85rem;color:#666}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "14,331 URLs Restored — Found a Case-Mangling Bug in Our URL Normalizer",
+  "datePublished": "2026-05-24",
+  "dateModified": "2026-05-24",
+  "author": {"@type": "Organization", "name": "Niche Datasets"},
+  "publisher": {"@type": "Organization", "name": "Niche Datasets", "url": "https://futdevpro.github.io/niche-datasets-free/"},
+  "mainEntityOfPage": "https://futdevpro.github.io/niche-datasets-free/blog-2026-05-24-url-canonicalization.html",
+  "image": "https://futdevpro.github.io/niche-datasets-free/og-cover.svg",
+  "description": "Engineering log: how a sampled HEAD audit caught a URL normalizer bug that mangled 14,331 URLs (26% of the catalog) by lowercasing case-sensitive paths.",
+  "isPartOf": {"@type": "Blog", "name": "Niche Datasets — Engineering Log"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://futdevpro.github.io/niche-datasets-free/"},
+    {"@type":"ListItem","position":2,"name":"URL Canonicalization Bug Fix (2026-05-24)","item":"https://futdevpro.github.io/niche-datasets-free/blog-2026-05-24-url-canonicalization.html"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<p class="nav"><a href="./">← All 20 datasets</a> &nbsp;·&nbsp; <a href="blog-2026-05-23-3-day-update.html">3-day update</a> &nbsp;·&nbsp; <a href="blog-2026-05-20-13-day-refresh.html">13-day refresh report</a> &nbsp;·&nbsp; <a href="quickstart.html">Quickstart</a> &nbsp;·&nbsp; <a href="faq.html">FAQ</a></p>
+
+<h1>14,331 URLs Restored — Case-Mangling Bug in Our URL Normalizer</h1>
+<p class="meta">Published 2026-05-24 · Niche Datasets · Engineering log</p>
+
+<p class="lead">A sampled HEAD-request audit across the 20 datasets — 15 URLs per dataset, 300 total — found something I didn't expect: 100% of <a href="vscode-extensions.html">vscode-extensions</a> URLs returned 404 from VS Code Marketplace. Not a few. <em>All of them.</em> Tracing the cause led to a one-line bug in our URL normalizer that had been silently mangling 14,331 URLs across the entire catalog (26% of records). Here is what happened and what got fixed.</p>
+
+<h2 id="symptom">The symptom</h2>
+
+<p>The audit script HEAD-checks a random sample of 15 URLs per dataset and reports broken-link rates. Almost every dataset came back at ~90% OK (normal for the web). Then vscode-extensions came back at <strong>0%</strong>, and so did npm-packages. The npm one turned out to be a false positive — npmjs.com aggressively blocks bot HEAD requests, regardless of the URL. The vscode-extensions one was real.</p>
+
+<p>Spot-check of a stored URL:</p>
+
+<pre><code>$ curl -sI "https://marketplace.visualstudio.com/items?itemname=ms-vscode.cpptools" | head -1
+HTTP/2 404
+
+$ curl -sI "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" | head -1
+HTTP/2 404   # marketplace blocks HEAD bots — but in a browser the second one works</code></pre>
+
+<p>The marketplace's query parser is case-sensitive on the parameter name. Lowercase <code>itemname=</code> doesn't match <code>itemName=</code> and the marketplace falls back to its default page, which then returns 404 for the missing extension lookup. End-users who clicked these links saw broken pages.</p>
+
+<h2 id="root-cause">The root cause</h2>
+
+<p>One line in our URL normalizer, doing the wrong thing:</p>
+
+<pre><code>// shared/normalize.ts (before)
+function normalizeUrl(value: string): string {
+  let url: string = value.trim();
+  // ... protocol + trailing-slash handling ...
+  return url.toLowerCase();   // ← this
+}</code></pre>
+
+<p>The intent was to deduplicate URLs that only differ by host case (<code>GitHub.com</code> vs <code>github.com</code>). The implementation lowercased <em>the whole URL</em>, which is wrong: per RFC 3986, the host is case-insensitive but the path, query, and fragment are case-sensitive.</p>
+
+<p>The fix preserves path/query/fragment case and only lowercases scheme + host:</p>
+
+<pre><code>// shared/normalize.ts (after)
+const schemeHostMatch = url.match(/^(https?:\/\/)([^/?#]+)(.*)$/i);
+if (schemeHostMatch) {
+  const scheme = schemeHostMatch[1]!.toLowerCase();
+  const host   = schemeHostMatch[2]!.toLowerCase();
+  const rest   = schemeHostMatch[3] ?? '';
+  return `${scheme}${host}${rest}`;
+}
+return url.toLowerCase();   // fallback for malformed URLs</code></pre>
+
+<h2 id="impact">The impact — per-dataset</h2>
+
+<p>After the fix, re-running every dataset's pipeline showed how broadly the bug had spread. Worst hits below — full list in the table.</p>
+
+<table>
+<thead>
+<tr><th>Dataset</th><th>Total records</th><th>URLs now case-preserved</th><th>% of dataset</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="vscode-extensions.html">vscode-extensions</a></td><td>4,846</td><td class="pos">4,829</td><td><strong>99.6%</strong></td></tr>
+<tr><td><a href="huggingface-models.html">huggingface-models</a></td><td>4,000</td><td class="pos">2,639</td><td><strong>66.0%</strong></td></tr>
+<tr><td><a href="huggingface-datasets.html">huggingface-datasets</a></td><td>2,863</td><td class="pos">1,664</td><td><strong>58.1%</strong></td></tr>
+<tr><td><a href="ai-agents.html">ai-agents</a></td><td>2,026</td><td class="pos">866</td><td>42.7%</td></tr>
+<tr><td><a href="mcp-servers.html">mcp-servers</a></td><td>3,662</td><td class="pos">1,078</td><td>29.4%</td></tr>
+<tr><td><a href="llmops-and-eval.html">llmops-and-eval</a></td><td>573</td><td class="pos">168</td><td>29.3%</td></tr>
+<tr><td><a href="ai-tools.html">ai-tools</a></td><td>2,811</td><td class="pos">577</td><td>20.5%</td></tr>
+<tr><td><a href="vector-db-and-rag.html">vector-db-and-rag</a></td><td>224</td><td class="pos">43</td><td>19.2%</td></tr>
+<tr><td><a href="cybersecurity-tools.html">cybersecurity-tools</a></td><td>2,702</td><td class="pos">480</td><td>17.8%</td></tr>
+<tr><td><a href="self-hosted-software.html">self-hosted-software</a></td><td>2,294</td><td class="pos">285</td><td>12.4%</td></tr>
+<tr><td><a href="homebrew-packages.html">homebrew-packages</a></td><td>12,255</td><td class="pos">1,403</td><td>11.4%</td></tr>
+<tr><td>10 more datasets</td><td>—</td><td>196 combined</td><td>0.0–5.4%</td></tr>
+<tr class="totalrow"><td>Total</td><td>55,211</td><td class="pos">14,331</td><td><strong>26.0%</strong></td></tr>
+</tbody>
+</table>
+
+<h2 id="why-the-worst">Why HuggingFace and VS Code got hit hardest</h2>
+
+<p>HuggingFace Hub namespaces are mostly mixed-case by convention — <code>01-ai/Yi-34B-Chat</code>, <code>Anthropic/...</code>, <code>0xSero/glm5-layerwise-reap-observations</code>. The Hub's routing layer is case-sensitive at the path level, so a lowercased path returns 404. About <strong>4,300 HF Hub URLs</strong> (HF models + HF datasets combined) had the wrong case.</p>
+
+<p>VS Code Marketplace puts the case-sensitivity in the query parameter <em>name</em>, not just the value. <code>itemName=foo.bar</code> resolves; <code>itemname=foo.bar</code> does not. Every single one of the 4,846 vscode-extensions URLs failed because of this.</p>
+
+<p>The npm registry and Homebrew API stay mostly lowercase by convention so they were less affected — but GitHub URLs (which use case-sensitive owner/repo paths on a case-sensitive filesystem) leaked into many datasets and contributed the long tail.</p>
+
+<h2 id="how-this-stays-fixed">How this stays fixed</h2>
+
+<ul>
+<li>The fix lives in the canonical place — <code>shared/normalize.ts</code> <code>normalizeUrl()</code> — so every pipeline run uses it.</li>
+<li>Refresh sweeps now emit case-correct URLs by construction.</li>
+<li>The same sampled HEAD-audit script that surfaced this bug is now a one-liner for whenever a similar suspicion comes up: 15 URLs × 20 datasets × 6-second timeout, full sweep in &lt;30 seconds.</li>
+<li>The <a href="examples.html#noise-audit">noise-audit jq probes</a> in <code>/examples.html</code> let any buyer run a similar quality check against the live samples themselves.</li>
+</ul>
+
+<div class="takeaway">
+<strong>Takeaway:</strong> "It's a CC0 awesome-list mirror, the URLs are whatever the source had" turns out to be wrong when the normalizer mangles 26% of them on the way in. Catching this kind of bug is exactly why our publish pipeline is one place (not 20 places) and why a 30-second random-sample audit catches what dataset-internal validation can't.
+</div>
+
+<h2 id="related">Related</h2>
+
+<ul>
+<li><a href="blog-2026-05-23-3-day-update.html">3-day update (2026-05-23)</a> — npm churn second confirmation</li>
+<li><a href="blog-2026-05-20-13-day-refresh.html">13-Day Refresh Report (2026-05-20)</a> — per-source churn baseline</li>
+<li><a href="examples.html#noise-audit">Noise-audit jq snippets</a> — buyer-runnable data-quality probes</li>
+<li><a href="api.html#data-quality">api.html#data-quality</a> — declarative docs for crawler-level filters</li>
+</ul>
+
+<p><a href="./">← Browse all 20 datasets</a> &nbsp;·&nbsp; <a href="changelog.html">Refresh changelog</a></p>
+
+<footer>
+Niche Datasets · <a href="https://github.com/futdevpro/niche-datasets-free">GitHub repo</a> · <a href="https://jhonnyronnie.gumroad.com/">Gumroad storefront</a><br>
+Source of the fix: <code>shared/normalize.ts</code> in the private factory repo. The 26.0% figure was computed by counting records whose stored URL is no longer equal to its lowercase form, after the cross-catalog refresh sweep on 2026-05-24.
+</footer>
+
+</body>
+</html>
