@@ -322,6 +322,31 @@ else:
 # Save current as next snapshot
 SNAPSHOT.write_text(json.dumps(current, indent=2))</code></pre>
 
+<h2 id="noise-audit">Data quality audit (jq · verify zero section-header noise)</h2>
+<p class="intro">The crawler strips two common awesome-list noise patterns at extraction time: (a) year-prefix section-headers captured as list items (e.g. "2021 Result", "2023 Competition"), and (b) self-section pointers where a github.com/&lt;owner&gt;/&lt;repo&gt;#anchor URL alnum-matches the record name. The snippet below re-runs both checks against any sample file — for any clean sample, both counts return 0. Use this as a one-shot quality probe before signing off on a dataset for your pipeline. Methodology: <a href="faq.html">FAQ Q26</a>.</p>
+<pre><code># Year-prefix section-header noise (should be 0):
+curl -sS https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/vector-db-and-rag-sample.json \
+  | jq '[.[] | select(.name | test("^(19|20)[0-9]{2}\\s+[A-Z][a-z]+$"))] | length'
+
+# Self-section pointer noise (should be 0):
+curl -sS https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/self-hosted-software-sample.json \
+  | jq '[.[] | select(
+      (.url | test("^https?://github\\.com/[^/]+/[^/#]+#")) and
+      ((.name | ascii_downcase | gsub("[^a-z0-9]"; "")) ==
+       (.url | capture("#(?&lt;a&gt;.+)$").a | ascii_downcase | gsub("[^a-z0-9]"; "")))
+    )] | length'
+
+# Sweep all 20 samples for either pattern in one pass:
+for slug in homebrew-packages npm-packages vscode-extensions huggingface-models \
+            mcp-servers ai-tools cybersecurity-tools huggingface-datasets \
+            public-apis self-hosted-software design-resources ai-agents \
+            ai-prompts developer-tools open-source-alternatives ai-models-pricing \
+            no-code-lowcode llmops-and-eval platform-engineering vector-db-and-rag; do
+  n=$(curl -sS "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/${slug}-sample.json" \
+      | jq '[.[] | select(.name | test("^(19|20)[0-9]{2}\\s+[A-Z][a-z]+$"))] | length')
+  printf "%-30s year-prefix noise: %s\n" "$slug" "$n"
+done</code></pre>
+
 <h2>Switching to a different dataset</h2>
 <p>Every snippet above uses <code>npm-packages-sample.json</code> / <code>.csv</code>. To load a different one, change the slug in the URL. Available slugs:</p>
 <p style="font-size:.92rem;line-height:1.9">
