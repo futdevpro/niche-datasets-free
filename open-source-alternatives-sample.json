@@ -1,8 +1,8 @@
 [
   {
-    "name": "Milvus",
-    "url": "https://openalternative.co/milvus",
-    "description": "High-performance vector database for GenAI applications",
+    "name": "Envoy AI Gateway",
+    "url": "https://openalternative.co/envoy-ai-gateway",
+    "description": "Route GenAI traffic with confidence using open source",
     "category": "ai-ml",
     "pricing": "open-source",
     "hasApi": false,
@@ -17,9 +17,9 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "Rybbit",
-    "url": "https://openalternative.co/rybbit",
-    "description": "Understand your audience with privacy-first analytics.",
+    "name": "Bklit",
+    "url": "https://openalternative.co/bklit",
+    "description": "Privacy-first web analytics with 3-line setup",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
@@ -27,33 +27,31 @@
       "data & analytics",
       "web & product analytics"
     ],
-    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "licenseTier": "strong-copyleft"
+    "licenseTier": "unknown"
   },
   {
-    "name": "Yaak",
-    "url": "https://openalternative.co/yaak",
-    "description": "Fast, secure, offline API client with Git integration",
+    "name": "Fusio",
+    "url": "https://github.com/apioo/fusio",
+    "description": "API management platform",
     "category": "api-tools",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "developer tools",
-      "api development & testing"
+      "alternative-to-postman"
     ],
-    "license": "MIT",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "alternativeTo": "Postman",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "licenseTier": "permissive"
+    "licenseTier": "unknown"
   },
   {
-    "name": "SuperTokens",
-    "url": "https://openalternative.co/supertokens",
-    "description": "Secure, customizable authentication for your applications",
+    "name": "Cerbos",
+    "url": "https://openalternative.co/cerbos",
+    "description": "Secure, policy-based access control for modern applications",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
@@ -61,27 +59,28 @@
       "security & privacy",
       "identity & access management (iam)"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "licenseTier": "unknown"
-  },
-  {
-    "name": "OpenWork",
-    "url": "https://openalternative.co/openwork",
-    "description": "Open source AI automation with your own models and tools",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "productivity & utilities",
-      "automation"
-    ],
-    "license": "MIT",
+    "license": "Apache-2.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
+  },
+  {
+    "name": "Drone",
+    "url": "https://github.com/harness/drone",
+    "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "alternative-to-circleci"
+    ],
+    "license": "Apache License 2.0",
+    "alternativeTo": "CircleCI",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
   },
   {
     "name": "DataLens",
@@ -101,9 +100,9 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "Twill CMS",
-    "url": "https://openalternative.co/twill-cms",
-    "description": "Craft flexible, beautiful digital experiences with ease",
+    "name": "Vvveb CMS",
+    "url": "https://openalternative.co/vvveb-cms",
+    "description": "Open source CMS with powerful drag-and-drop builder",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
@@ -111,16 +110,16 @@
       "content & publishing",
       "content management systems (cms)"
     ],
-    "license": "Apache-2.0",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "licenseTier": "permissive"
+    "licenseTier": "strong-copyleft"
   },
   {
-    "name": "Rocket.Chat",
-    "url": "https://openalternative.co/rocket-chat",
-    "description": "Self-hosted team messaging with voice, video, and AI",
+    "name": "Mezon",
+    "url": "https://openalternative.co/mezon",
+    "description": "Create custom spaces to chat, game, and connect globally",
     "category": "collaboration",
     "pricing": "open-source",
     "hasApi": false,
@@ -134,43 +133,43 @@
     "licenseTier": "unknown"
   },
   {
-    "name": "ClearFlask",
-    "url": "https://openalternative.co/clearflask",
-    "description": "Open-source ideation tool for product feedback management",
+    "name": "OpenSEO",
+    "url": "https://openalternative.co/openseo",
+    "description": "Open source SEO tools without the enterprise price tag",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "business software",
-      "customer support & success"
+      "marketing & customer engagement"
     ],
-    "license": "Apache-2.0",
+    "license": "MIT",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
   },
   {
-    "name": "Discourse",
-    "url": "https://openalternative.co/discourse",
-    "description": "Cultivate vibrant online communities with ease",
+    "name": "Bluesky",
+    "url": "https://openalternative.co/bluesky",
+    "description": "Social media reimagined for community and connection",
     "category": "community",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "community & social",
-      "community building platforms"
+      "social networking"
     ],
-    "license": "GPL-2.0",
+    "license": "MIT",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "licenseTier": "strong-copyleft"
+    "licenseTier": "permissive"
   },
   {
-    "name": "Atomic CRM",
-    "url": "https://openalternative.co/atomic-crm",
-    "description": "Open-source CRM toolkit for personalized solutions",
+    "name": "Krayin",
+    "url": "https://openalternative.co/krayin",
+    "description": "Self-hosted CRM for enhanced business relationships",
     "category": "crm",
     "pricing": "open-source",
     "hasApi": false,
@@ -185,9 +184,9 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "Spacedrive",
-    "url": "https://openalternative.co/spacedrive",
-    "description": "Your personal distributed filesystem",
+    "name": "OceanBase",
+    "url": "https://openalternative.co/oceanbase",
+    "description": "High-performance distributed database for all workloads",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
@@ -195,49 +194,48 @@
       "infrastructure & operations",
       "databases"
     ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific",
-    "licenseTier": "strong-copyleft"
-  },
-  {
-    "name": "OpenPencil",
-    "url": "https://openalternative.co/openpencil",
-    "description": "Open-source Figma alternative with AI and full programmability",
-    "category": "design",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "miscellaneous",
-      "design & prototyping"
-    ],
-    "license": "MIT",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific",
-    "licenseTier": "permissive"
-  },
-  {
-    "name": "Dyad",
-    "url": "https://openalternative.co/dyad",
-    "description": "Build unlimited AI apps locally with zero vendor lock-in",
-    "category": "developer-tools",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "developer tools",
-      "ai assisted coding"
-    ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
     "licenseTier": "unknown"
   },
   {
-    "name": "Temps",
-    "url": "https://openalternative.co/temps",
-    "description": "Replace $500/mo SaaS with one self-hosted platform",
+    "name": "Modulz",
+    "url": "https://www.modulz.app/",
+    "description": "Code-based tool for designing and prototyping",
+    "category": "design",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "alternative-to-figma"
+    ],
+    "alternativeTo": "Figma",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "licenseTier": "unknown"
+  },
+  {
+    "name": "Hatchet",
+    "url": "https://openalternative.co/hatchet",
+    "description": "Effortless CI/CD for modern cloud applications",
+    "category": "developer-tools",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "developer tools",
+      "frameworks & platforms"
+    ],
+    "license": "MIT",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific",
+    "licenseTier": "permissive"
+  },
+  {
+    "name": "Dokploy",
+    "url": "https://openalternative.co/dokploy",
+    "description": "Effortless deployment and management for any VPS",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": true,
@@ -245,43 +243,41 @@
       "developer tools",
       "build & deployment"
     ],
-    "license": "Apache-2.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "licenseTier": "permissive"
+    "licenseTier": "unknown"
   },
   {
-    "name": "Firecamp",
-    "url": "https://openalternative.co/firecamp",
-    "description": "Unified API development ecosystem for modern teams",
+    "name": "Graphite Docs",
+    "url": "https://github.com/Graphite-Docs",
+    "description": "Open-source alternative to Google Docs",
     "category": "documentation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "content & publishing",
-      "documentation & knowledge base"
+      "alternative-to-google-docs"
     ],
-    "license": "AGPL-3.0",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "alternativeTo": "Google Docs",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific",
-    "licenseTier": "strong-copyleft"
+    "licenseTier": "unknown"
   },
   {
-    "name": "Medusa",
-    "url": "https://openalternative.co/medusa",
-    "description": "Open-source e-commerce for modern developers",
+    "name": "Bagisto",
+    "url": "https://openalternative.co/bagisto",
+    "description": "Open source Laravel eCommerce platform for modern businesses",
     "category": "e-commerce",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "business software",
       "e-commerce platforms"
     ],
     "license": "MIT",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
     "licenseTier": "permissive"
   },
@@ -303,26 +299,26 @@
     "licenseTier": "permissive"
   },
   {
-    "name": "OctoBot",
-    "url": "https://openalternative.co/octobot",
-    "description": "Automate crypto trading with open-source strategies",
+    "name": "Captable",
+    "url": "https://openalternative.co/captable",
+    "description": "Simplify equity management for startups and investors",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "miscellaneous",
-      "cryptocurrency & blockchain"
+      "business software",
+      "finance & accounting"
     ],
-    "license": "GPL-3.0",
+    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
     "licenseTier": "strong-copyleft"
   },
   {
-    "name": "HeyForm",
-    "url": "https://openalternative.co/heyform",
-    "description": "Create powerful forms with ease and flexibility",
+    "name": "LimeSurvey",
+    "url": "https://openalternative.co/limesurvey",
+    "description": "Create engaging surveys and gather valuable insights",
     "category": "forms",
     "pricing": "open-source",
     "hasApi": false,
@@ -330,10 +326,9 @@
       "business software",
       "forms & surveys"
     ],
-    "license": "AGPL-3.0",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific",
-    "licenseTier": "strong-copyleft"
+    "licenseTier": "unknown"
   }
 ]

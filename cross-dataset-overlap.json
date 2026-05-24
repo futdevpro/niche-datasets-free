@@ -57,6 +57,21 @@
       ]
     },
     {
+      "url": "https://www.taskade.com",
+      "appearsIn": [
+        "ai-agents",
+        "ai-tools",
+        "developer-tools",
+        "homebrew-packages",
+        "no-code-lowcode"
+      ],
+      "count": 5,
+      "nameVariants": [
+        "Taskade",
+        "taskade.com"
+      ]
+    },
+    {
       "url": "https://airtable.com",
       "appearsIn": [
         "design-resources",
@@ -416,20 +431,6 @@
       "count": 4,
       "nameVariants": [
         "Canva"
-      ]
-    },
-    {
-      "url": "https://www.taskade.com",
-      "appearsIn": [
-        "ai-agents",
-        "ai-tools",
-        "developer-tools",
-        "homebrew-packages"
-      ],
-      "count": 4,
-      "nameVariants": [
-        "Taskade",
-        "taskade.com"
       ]
     },
     {

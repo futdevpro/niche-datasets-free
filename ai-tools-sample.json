@@ -1,50 +1,190 @@
 [
   {
-    "name": "TorToiSe",
-    "url": "https://github.com/neonbjb/tortoise-tts",
-    "description": "A multi-voice text-to-speech system trained with an emphasis on quality.",
+    "name": "ggerganov/whisper.cpp",
+    "url": "https://github.com/ggerganov/whisper.cpp",
+    "description": "Port of OpenAI's Whisper model in C/C++. It can be executed locally.",
     "category": "audio",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "audio",
-      "speech"
+      "speech-to-text (stt) and spoken content analysis"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "ExecuTorch",
-    "url": "https://github.com/pytorch/executorch",
-    "description": "PyTorch runtime and toolchain for deploying AI models on mobile, embedded, and edge devices.",
+    "name": "Quickly share ML WebApps from Google Colab using ngrok for Free | by AbdulMajedRaja RS | Towards Data Science",
+    "url": "https://towardsdatascience.com/quickly-share-ml-webapps-from-google-colab-using-ngrok-for-free-ae899ca2661a",
+    "description": "Quickly share ML WebApps from Google Colab using ngrok for Free | by AbdulMajedRaja RS | Towards Data Science",
     "category": "code",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "11. specialized domains"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "The Elements of Statistical Learning by Trevor Hastie, Robert Tibshirani, and Jerome Friedman",
-    "url": "https://web.stanford.edu/~hastie/elemstatlearn",
-    "description": "The Elements of Statistical Learning by Trevor Hastie, Robert Tibshirani, and Jerome Friedman",
-    "category": "data",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "books and academic journals"
+      "improving google colab experience"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
+    "name": "Search-R1",
+    "url": "https://github.com/PeterGriffinJin/Search-R1",
+    "description": "RL training framework for reasoning and search engine calling. Enables LLMs to interleave reasoning with real-time web search for enhanced knowledge retrieval. Built on veRL with efficient distributed training. Apache 2.0 licensed.",
+    "category": "data",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "7. training & fine-tuning ecosystem"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Misread",
+    "url": "https://misread.io",
+    "description": "AI communication scanner that detects gaslighting, manipulation, and 40+ toxic patterns in text messages and emails.",
+    "category": "image",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tools for better image prompting"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "description": "High-performance local inference engine for LLMs and multimodal models, supporting CPU/GPU execution, quantization, and broad model compatibility.",
+    "category": "multimodal",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ai agent tools"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Tracking AI",
+    "url": "https://trackingai.org/",
+    "description": "Monitoring Bias in Artificial Intelligence Chatbots",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Smart2Brain",
+    "url": "https://github.com/your-papa/obsidian-Smart2Brain",
+    "description": "Privacy-focused Obsidian plugin for AI-powered second brain functionality. Chat with your notes using local or remote LLMs including Ollama and OpenAI. MIT licensed.",
+    "category": "productivity",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "12. user interfaces & self-hosted platforms"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ClawHub",
+    "url": "https://github.com/openclaw/clawhub",
+    "description": "Skill directory",
+    "category": "search",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "openclaw ecosystem",
+      "ecosystem & extensions"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Haystack",
+    "url": "https://haystack.deepset.ai/",
+    "description": "A framework for building NLP applications (e.g. agents, semantic search, question-answering) with language models.",
+    "category": "text",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "text",
+      "developer tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Two Minute Papers",
+    "url": "https://www.youtube.com/user/keeroyz",
+    "description": "Two Minute Papers",
+    "category": "video",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "youtube channels"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Jukedeck",
+    "url": "https://www.jukedeck.com",
+    "description": "Create unique music for videos.",
+    "category": "audio",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "interactive learning & tools"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "TraceRoot AI",
+    "url": "https://traceroot.ai/",
+    "description": "AI-native observability tool that uses AI agents to automatically fix production bugs.",
+    "category": "code",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "automated workflows",
+      "ci/cd & testing automation"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "AutoRAG",
+    "url": "https://github.com/Marker-Inc-Korea/AutoRAG",
+    "description": "RAG AutoML tool for automatically finding optimal RAG pipelines. Evaluates and optimizes retrieval-augmented generation with AutoML-style automation for your own data and use-case. Apache 2.0 licensed.",
+    "category": "data",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "9. evaluation, benchmarks & datasets"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
     "name": "Video-P2P UI - a Hugging Face Space by video-p2p-library",
-    "url": "https://huggingface.co/spaces/video-p2p-library/video-p2p-demo",
+    "url": "https://huggingface.co/spaces/video-p2p-library/Video-P2P-Demo",
     "description": "video editing with cross-attention control [[tweet]](https://twitter.com/akhaliq/status/1637838648463749120)",
     "category": "image",
     "pricing": "freemium",
@@ -57,9 +197,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Unitree Robotics AlienGo",
-    "url": "https://www.unitree.com/products/aliengo",
-    "description": "A more advanced robotic dog capable of carrying heavier loads and performing complex tasks, popular for research and industrial use.",
+    "name": "Unitree Robotics B1",
+    "url": "https://www.unitree.com/products/b1",
+    "description": "A new quadruped robot with industrial-grade capabilities, rugged design, and powerful AI-driven functionality.",
     "category": "multimodal",
     "pricing": "unknown",
     "hasApi": false,
@@ -71,149 +211,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Deep Else",
-    "url": "https://dejangrba.github.io/deep-else",
-    "description": "A Critical Framework for AI Art",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Niraj-Lunavat/Artificial-Intelligence",
-    "url": "https://github.com/niraj-lunavat/artificial-intelligence?tab=readme-ov-file#researchers",
-    "description": "Awesome AI Learning with +100 AI Cheat-Sheets, Free online Books, Top Courses, Best Videos and Lectures, Papers, Tutorials, +99 Researchers, Premium Websites, +121 Datasets, Conferences, Frameworks, Tools",
-    "category": "productivity",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "courses and educational materials"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Timeline of AI and language models",
-    "url": "https://lifearchitect.ai/timeline",
-    "description": "LLM timeline organized by Dr Alan D. Thompson from Life Architect",
-    "category": "search",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "generative ai history, timelines, maps, and definitions"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "What is Semantic Search?",
-    "url": "https://txt.cohere.ai/what-is-semantic-search",
-    "description": "What is Semantic Search?",
-    "category": "text",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "large language models (llms)",
-      "embeddings and semantic search"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "The AI Epiphany",
-    "url": "https://www.youtube.com/c/theaiepiphany",
-    "description": "Exploring AI technologies and concepts.",
-    "category": "video",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "youtube channels"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "LeMUR",
-    "url": "https://www.assemblyai.com/blog/lemur",
-    "description": "a single API, enabling developers to reason over their spoken data with a few lines of code",
-    "category": "audio",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "speech-to-text (stt) and spoken content analysis"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "trae",
-    "url": "https://www.trae.ai/",
-    "description": "Adaptive AI IDE with chat and code generation.",
-    "category": "code",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "development environments",
-      "ai-native ides"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Weaviate",
-    "url": "https://github.com/weaviate/weaviate",
-    "description": "GraphQL-native vector search engine.",
-    "category": "data",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "5. retrieval-augmented generation (rag) & knowledge"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "baowenbo/DAIN",
-    "url": "https://github.com/baowenbo/dain",
-    "description": "Depth-Aware Video Frame Interpolation (CVPR 2019)",
-    "category": "image",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "image segmentation"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Neuralink",
-    "url": "https://neuralink.com/",
-    "description": "Developing ultra-high bandwidth brain-machine interfaces to connect humans and computers.",
-    "category": "multimodal",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "well known ai tools"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "🔭 The Einstein AI model",
-    "url": "https://thomwolf.io/blog/scientific-ai.html",
-    "description": "🔭 The Einstein AI model",
+    "name": "The AIKEA Effect",
+    "url": "https://piszek.com/2023/08/28/aikea-effect",
+    "description": "by Artur Piszek",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
@@ -223,25 +223,25 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Anthropic courses",
-    "url": "https://github.com/anthropics/courses",
-    "description": "Anthropic's educational courses.",
+    "name": "Regie.ai",
+    "url": "https://www.regie.ai/",
+    "description": "AI writing tool specifically designed for sales teams to automate and enhance email campaigns and sales communications.",
     "category": "productivity",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "learning resources"
+      "new and emerging ai tools"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Vondy - Next Generation AI Apps",
-    "url": "https://www.vondy.com/",
-    "description": "collection of AI tools organized by tasks",
+    "name": "Toolify",
+    "url": "https://www.toolify.ai/",
+    "description": "AI Tools Directory & AI Tools List",
     "category": "search",
-    "pricing": "unknown",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "generative ai tools directories"
@@ -251,12 +251,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Paperless-AI",
-    "url": "https://github.com/clusterzx/paperless-ai",
-    "description": "Automated document analyzer for Paperless-ngx with RAG-powered semantic search across your document archive.",
+    "name": "Chonkie",
+    "url": "https://github.com/chonkie-inc/chonkie",
+    "description": "Lightweight document chunking library for fast, efficient RAG pipelines. Memory-safe with multiple chunking strategies (semantic, token, recursive) and direct vector DB integration. MIT licensed.",
     "category": "text",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "5. retrieval-augmented generation (rag) & knowledge"
     ],
@@ -265,14 +265,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Luma Dream Machine",
-    "url": "https://lumalabs.ai/app",
-    "description": "An AI model that makes high quality, realistic videos fast from text and images.",
+    "name": "Dreamina",
+    "url": "https://dreamina.capcut.com/",
+    "description": "AI image and video creation tool by ByteDance/CapCut. Powered by Seedance 2.0 model. Supports text-to-image, text-to-video, image-to-video with 2K ultra-clear output",
     "category": "video",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "video"
+      "video creation"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",

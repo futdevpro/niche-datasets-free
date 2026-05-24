@@ -1,8 +1,8 @@
 [
   {
-    "name": "SketchUp",
-    "url": "https://www.sketchup.com",
-    "description": "3D design software that truly makes 3D modeling for everyone, with a simple to learn yet robust toolset.",
+    "name": "OpenSCAD",
+    "url": "https://www.openscad.org/",
+    "description": "a software for creating solid 3D CAD objects.",
     "category": "3d",
     "pricing": "unknown",
     "hasApi": false,
@@ -11,13 +11,13 @@
       "three d modeling software"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Contrast",
-    "url": "https://usecontrast.com/",
-    "description": "a macOS app for designers and developers to get quick access to WCAG color contrast ratios.",
+    "name": "PA11Y",
+    "url": "http://pa11y.org/",
+    "description": "accessibility testing tool to find issues with your web pages. It runs HTML CodeSniffer from the command line for programmatic accessibility reporting. It's an accessibility developer tool.",
     "category": "accessibility",
     "pricing": "free",
     "hasApi": true,
@@ -30,9 +30,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Layar",
-    "url": "https://www.layar.com/",
-    "description": "find various items based upon augmented reality technology.",
+    "name": "EasyAR",
+    "url": "https://www.easyar.com/",
+    "description": "a mobile application and an Augmented Reality Engine, making AR easier.",
     "category": "augmented-reality",
     "pricing": "unknown",
     "hasApi": false,
@@ -45,9 +45,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Lumeer",
-    "url": "https://www.lumeer.io/",
-    "description": "an easy visual collaborative tool to plan, organize and track anything, anywhere, anytime.",
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "description": "write, plan, collaborate, and get organized. Notion is all you need — in one tool.",
     "category": "collaboration",
     "pricing": "unknown",
     "hasApi": false,
@@ -60,12 +60,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "HTML CSS Color",
-    "url": "https://www.htmlcsscolor.com/",
-    "description": "Free online Color (USA) or Colour (British) tools: information, gradient generator, color wheels etc.",
+    "name": "Colorate",
+    "url": "https://colorate.azurewebsites.net/",
+    "description": "Color scheme tool for designers and developers. This will help you draw inspiration and serve as a resource for your color work.",
     "category": "colors",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "colors"
     ],
@@ -74,11 +74,11 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Spline",
-    "url": "https://spline.design/",
-    "description": "a free 3D design software with real-time collaboration to create web interactive experiences in the browser",
+    "name": "Abstract 3d vol.2",
+    "url": "https://abstract-vol2.wannathis.one/",
+    "description": "playful set of different shapes to enhance your design projects",
     "category": "css-animations",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "animations, 3d and sound"
@@ -88,57 +88,57 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "98.css",
-    "url": "https://jdan.github.io/98.css",
-    "description": "A design system for building faithful recreations of old UIs",
+    "name": "BootstrapTaste",
+    "url": "https://bootstraptaste.com/",
+    "description": "Premium & Free Bootstrap Templates",
     "category": "css-frameworks",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "css frameworks"
+      "html & css templates"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Ultimate Guide",
-    "url": "https://www.moveoapps.com/ultimate-guide-to-mobile-app-design-principles",
-    "description": "The ultimate guide to mobile app design principles that make your app shine.",
+    "name": "Resource.fyi",
+    "url": "https://resource.fyi/",
+    "description": "products, Resources, and Tools handpicked for developers, designers, marketers, tech enthusiasts, and professionals",
     "category": "design-inspiration",
     "pricing": "free",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "guidelines"
+      "news & blogs (curated resources, newsletters)"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "ETrade Design System",
-    "url": "https://etrade.design/",
-    "description": "Guides and toolkits that blend finance with simplicity and ease of use",
+    "name": "The Design System Guide",
+    "url": "https://thedesignsystem.guide/",
+    "description": "all the essential resources for setting up the design system",
     "category": "design-systems",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "design systems & style guides"
+      "design systems & frameworks",
+      "references and learning resources"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Gifox",
-    "url": "https://gifox.io",
-    "description": "delightful GIF recording and sharing app.",
+    "name": "Octopus",
+    "url": "https://octopus.do/",
+    "description": "Sitemap builder",
     "category": "design-tools",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "table of content",
-      "screenshot software"
+      "online design tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
@@ -159,42 +159,43 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "FontGet",
-    "url": "https://www.fontget.com/",
-    "description": "Has a variety of fonts available to download and sorted neatly with tags",
+    "name": "Befonts",
+    "url": "https://befonts.com/",
+    "description": "High quality fonts for free",
     "category": "fonts",
-    "pricing": "unknown",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "fonts"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "3DICONS",
-    "url": "https://3dicons.co/",
-    "description": "Beautifully crafted open source 3D icons",
-    "category": "icons",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "icons"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Delesign",
-    "url": "https://delesign.com/free-designs/graphics",
-    "description": "A collection of free illustrations and more",
-    "category": "illustrations",
-    "pricing": "free",
+    "name": "Logo Design Team",
+    "url": "https://www.logodesignteam.com/",
+    "description": "offers affordable professional custom logo design and brand design services.",
+    "category": "icons",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "vectors & clip art"
+      "table of content",
+      "logo design"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Bioicons",
+    "url": "https://bioicons.com/",
+    "description": ":copyright: High quality science illustrations.",
+    "category": "illustrations",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "vector graphics"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
@@ -215,72 +216,73 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Atropos",
-    "url": "https://atroposjs.com/",
-    "description": "Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.",
+    "name": "kangax-js-compat-table",
+    "url": "https://compat-table.github.io/compat-table/es6",
+    "description": "Check JavaScript versions (ES5, ES6, ES2016+ etc.) compatibility across different compilers, servers/runtimes and platforms (Desktop and Mobile).",
     "category": "javascript-libraries",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "javascript animation libraries"
+      "others"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Facebook Devices",
-    "url": "https://facebook.design/devices",
-    "description": "Images and Sketch files of popular devices",
+    "name": "The Mockup Club",
+    "url": "https://themockup.club/",
+    "description": "a directory of the best free design mockups for Photoshop, Sketch, Figma and InVision Studio.",
     "category": "mockups",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "product & image mockups"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Simple and Usable Web, Mobile, and Interaction Design",
-    "url": "https://www.amazon.com/gp/product/0321703545",
-    "description": "Simple and Usable Web, Mobile, and Interaction Design",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "book"
+      "table of content",
+      "mockup tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Share on Facebook",
+    "url": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://github.com/neutraltone/awesome-stock-resources&p[images][0]=&p[title]=Awesome%20Stock%20Resources&p[summary]=",
+    "description": "Share on Facebook",
+    "category": "other",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "how to share"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "Pidoco",
-    "url": "https://pidoco.com/en",
-    "description": "software that lets you quickly create click-through wireframes and fully interactive UX prototypes.",
+    "name": "Feedback Lite",
+    "url": "https://www.feedbacklite.com/",
+    "description": "collect high quality customer feedback using Voice of Customer solutions designed to improve your website performance and boost customer engagement.",
     "category": "prototyping",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "table of content",
-      "wireframing tools"
+      "user research tools"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "NYPL Digital Collections",
-    "url": "https://digitalcollections.nypl.org/",
-    "description": ":copyright: 180.000 items are Public Domain since January 6th 2016 Public Domain Collections: Free to Share & Reuse",
+    "name": "Freerange",
+    "url": "https://freerangestock.com/",
+    "description": ":copyright: Quality stock photos for commercial and non-commercial use. For free.",
     "category": "stock-photos",
     "pricing": "free",
     "hasApi": false,
     "tags": [
       "photography",
-      "public domain"
+      "custom license / usage"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",

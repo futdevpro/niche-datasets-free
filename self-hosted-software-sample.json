@@ -1,8 +1,8 @@
 [
   {
-    "name": "Superset",
-    "url": "http://superset.apache.org/",
-    "description": "Modern data exploration and visualization platform. (Source Code)",
+    "name": "Metabase",
+    "url": "https://metabase.com/",
+    "description": "Easy way for everyone in your company to ask questions and learn from data. (Source Code)",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
@@ -15,14 +15,13 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "ArchivesSpace",
-    "url": "https://archivesspace.org/",
-    "description": "Archives information management application for managing and providing Web access to archives, manuscripts and digital objects. (Demo, Source Code)",
+    "name": "Access to Memory (AtoM)",
+    "url": "https://www.accesstomemory.org/",
+    "description": "Web-based, open source application for standards-based archival description and access in a multilingual, multi-repository environment. (Demo, Source Code)",
     "category": "archiving",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "archiving and digital preservation (dp)"
     ],
     "urlDomainTier": "commercial",
@@ -30,9 +29,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Padloc",
-    "url": "https://padloc.app/",
-    "description": "A modern, open source password manager for individuals and teams. (Source Code)",
+    "name": "sysPass",
+    "url": "http://www.syspass.org/",
+    "description": "Multiuser password management system. (Demo, Source Code)",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
@@ -44,26 +43,25 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Dagu",
-    "url": "https://docs.dagu.cloud/",
-    "description": "Powerful Cron alternative with a Web UI. It allows you to define dependencies between commands as a Directed Acyclic Graph (DAG) in a declarative YAML format. (Source Code)",
+    "name": "Beehive",
+    "url": "https://github.com/muesli/beehive",
+    "description": "Flexible event and agent system, which allows you to create your own agents that perform automated tasks triggered by events and filters.",
     "category": "automation",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "automation"
     ],
-    "urlDomainTier": "documentation",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Postleaf",
-    "url": "https://www.postleaf.org/",
-    "description": "Open source blogging platform with inline editing, handlebar templates, and a beautiful user interface. (Source Code)",
+    "name": "Blogotext",
+    "url": "http://lehollandaisvolant.net/blogotext",
+    "description": "Free blog-engine written in PHP and using SQLite. This offers you both an unmatched simplicity during installation and great performances. (Source Code)",
     "category": "blogging",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
       "blogging platforms"
@@ -88,23 +86,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "InfCloud",
-    "url": "https://www.inf-it.com/open-source/clients/infcloud",
-    "description": "Open source CalDAV/CardDAV web client implementation. (Demo, Source Code)",
+    "name": "Booked",
+    "url": "https://www.bookedscheduler.com/",
+    "description": "A web-based calendar and resource scheduling system that allows administered management of reservations on any number of resources. (Demo, Source Code)",
     "category": "calendar-contacts",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "calendaring and contacts management"
+      "polls and events",
+      "booking and scheduling"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "MODX",
-    "url": "https://modx.com/",
-    "description": "Advanced content management and publishing platform. The current version is called 'Revolution'. (Source Code)",
+    "name": "Contao",
+    "url": "https://contao.org/",
+    "description": "Powerful CMS that allows you to create professional websites and scalable web applications. (Demo, Source Code)",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
@@ -117,17 +116,17 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Node-Chat",
-    "url": "https://github.com/igorantun/node-chat",
-    "description": "Not-so-basic open-source chat with admin features.",
+    "name": "Mautic",
+    "url": "https://www.mautic.org/",
+    "description": "Marketing automation software (email, social and more). (Source Code)",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "communication systems",
-      "custom communication systems"
+      "software",
+      "communication - email - mailing lists and newsletters"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -147,28 +146,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Limbas",
-    "url": "https://www.limbas.com/en",
-    "description": "Database framework for creating database-driven business applications. As a graphical database frontend, it enables the efficient processing of data stocks and the flexible development of comfortable database applications. (Source Code)",
+    "name": "Adminer",
+    "url": "https://www.adminer.org/",
+    "description": "Database management in a single PHP file. Available for MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others. (Source Code)",
     "category": "database",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "software",
       "database management"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "SPF Toolbox",
-    "url": "http://spftoolbox.com",
-    "description": "Application to look up DNS records such as SPF, MX, Whois, and more. (Source Code)",
+    "name": "AdGuard Home",
+    "url": "https://adguard.com/en/adguard-home/overview.html",
+    "description": "User-friendly ads & trackers blocking DNS server. (Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "dns"
     ],
     "urlDomainTier": "commercial",
@@ -176,54 +176,54 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "BentoPDF",
-    "url": "https://bentopdf.com",
-    "description": "- Powerful, privacy-first, client-side PDF toolkit that allows you to manipulate, edit, merge, and process PDF files directly in your browser. (Demo, Source Code)",
+    "name": "Koha",
+    "url": "https://koha-community.org/",
+    "description": "Enterprise-class ILS with modules for acquisitions, circulation, cataloging, label printing, offline circulation for when Internet access is not available, and much more. (Demo, Source Code)",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
-      "document management"
+      "document management - integrated library systems (ils)"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenOlitor",
-    "url": "https://openolitor.org/",
-    "description": "Administration platform for Community Supported Agriculture groups. (Source Code)",
+    "name": "OXID eShop",
+    "url": "http://oxidforge.org",
+    "description": "OXID eShop is a flexible open source e-commerce software with a wide range of functionalities. (Demo, Source Code)",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "community-supported agriculture (csa)"
+      "content management systems (cms)",
+      "e-commerce"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Yarr",
-    "url": "https://github.com/nkanaev/yarr",
-    "description": "Yarr (yet another rss reader) is a web-based feed aggregator which can be used both as a desktop application and a personal self-hosted server.",
+    "name": "Feedly",
+    "url": "https://feedly.com/",
+    "description": "Feedly — feed-readers API",
     "category": "feed-readers",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "feed readers"
+      "install from source",
+      "rss"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "imgpush",
-    "url": "https://github.com/hauxir/imgpush",
-    "description": "imgpush is a self-hosted file upload service that can easily be integrated into other webapps.",
+    "name": "s3server",
+    "url": "https://github.com/jessfraz/s3server",
+    "description": "Simple HTTP interface to index and browse files in a public S3 or Google Cloud Storage bucket. (Demo)",
     "category": "file-transfer",
     "pricing": "open-source",
     "hasApi": false,
@@ -235,41 +235,41 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Mybucks.online",
-    "url": "https://mybucks.online",
-    "description": "Secure, browser-based, password-only self-custodial cryptocurrency wallet. (Demo, Source Code)",
+    "name": "Bennedetto",
+    "url": "https://github.com/arecker/bennedetto",
+    "description": "Bennedetto is a simple, turn-based budget management app.",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "money, budgeting & management"
+      "money, budgeting and management"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Teeworlds",
-    "url": "https://www.teeworlds.com",
-    "description": "Open source 2D retro multiplayer shooter. (Source Code)",
+    "name": "Pterodactyl",
+    "url": "https://pterodactyl.io/",
+    "description": "Management panel for game servers, with an intuitive UI for end users. (Source Code)",
     "category": "games",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "games"
+      "software",
+      "games - administrative utilities & control panels"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Cozy Cloud",
-    "url": "https://cozy.io/",
-    "description": "Personal cloud where you can manage and sync your files, notes, contacts, passwords, and documents. (Source Code, Clients)",
+    "name": "Openmeetings",
+    "url": "https://openmeetings.apache.org/index.html",
+    "description": "Video conferencing, instant messaging, whiteboard, collaborative document editing and other groupware tools using API functions of the Red5 Streaming Server for Remoting and Streaming. (Source Code)",
     "category": "groupware",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "groupware"
@@ -279,18 +279,17 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Intel Celeron Processor N Series",
-    "url": "https://ark.intel.com/content/www/us/en/ark/products/series/87282/intel-celeron-processor-n-series.html",
-    "description": "Intel Celeron Processor N Series",
+    "name": "DeviceHive",
+    "url": "https://www.devicehive.com/",
+    "description": "Open Source IoT Platform with a wide range of integration options. (Demo, Source Code)",
     "category": "iot",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "install from source",
-      "system hardware"
+      "internet of things (iot)"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]

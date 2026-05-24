@@ -11,7 +11,7 @@
     "packages"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-23",
+  "lastRefreshed": "2026-05-24",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/npm-packages-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/npm-packages.html",
@@ -37,5 +37,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/dev-stack-pack"
     }
   ],
-  "liveRecordCount": 6396
+  "liveRecordCount": 5946
 }

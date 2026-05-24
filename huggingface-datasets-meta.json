@@ -11,7 +11,7 @@
     "training data"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-23",
+  "lastRefreshed": "2026-05-24",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/huggingface-datasets-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/huggingface-datasets.html",
@@ -33,5 +33,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/ml-builder-pack"
     }
   ],
-  "liveRecordCount": 2864
+  "liveRecordCount": 2863
 }

@@ -1,65 +1,65 @@
 [
   {
-    "name": "5ire",
-    "url": "https://github.com/nanbingxyz/5ire",
-    "description": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers, supports local knowledge base and tools via model context protocol servers.",
+    "name": "Inference",
+    "url": "https://github.com/roboflow/inference",
+    "description": "Turn any computer or edge device into a command center for your computer vision projects.",
     "category": "agent-framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "runtime",
-      "chatbot"
+      "orchestration",
+      "workflow"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Dolt",
-    "url": "https://github.com/dolthub/dolt",
-    "description": "Git for Data.",
+    "name": "Lance",
+    "url": "https://github.com/eto-ai/lance",
+    "description": "Modern columnar data format for ML implemented in Rust.",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data management"
+      "data storage"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "PAI",
-    "url": "https://github.com/microsoft/pai",
-    "description": "Resource scheduling and cluster management for AI.",
+    "name": "Kurtosis",
+    "url": "https://github.com/kurtosis-tech/kurtosis",
+    "description": "A build, packaging, and run system for ephemeral multi-container environments.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "ml platforms"
+      "ides and workspaces"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Jax",
-    "url": "https://github.com/google/jax",
-    "description": "Autograd and XLA for high-performance machine learning research.",
+    "name": "Hyperband",
+    "url": "https://github.com/zygmuntz/hyperband",
+    "description": "open source code for tuning hyperparams with Hyperband.",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "frameworks for training"
+      "automl"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "DeepTeam",
-    "url": "https://github.com/confident-ai/deepteam",
-    "description": "DeepTeam is a simple-to-use, open-source LLM red teaming framework, for penetration testing and safe guarding large-language model systems.",
+    "name": "Inkog",
+    "url": "https://github.com/inkog-io/inkog",
+    "description": "Open-source AI agent security scanner. Detects prompt injection, infinite loops, token bombing, SQL injection via LLM, and missing human oversight across 20+ frameworks. CLI + MCP server with compliance mapping to EU AI Act, NIST AI RMF, and OWASP LLM Top 10.",
     "category": "guardrails-and-safety",
     "pricing": "open-source",
     "hasApi": true,
@@ -67,13 +67,13 @@
       "agent security"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "Registry Broker",
-    "url": "https://github.com/hashgraph-online/registry-broker",
-    "description": "Universal index and routing layer for AI agents. Aggregates agent metadata from multiple registries (NANDA, MCP, Virtuals, OpenRouter, A2A, X402 Bazaar) across web2 and web3, normalizes profiles, and provides protocol translation between agent ecosystems.",
+    "name": "Roundtable",
+    "url": "https://github.com/askbudi/roundtable",
+    "description": "Zero-configuration unified AI assistant management built on the FastMCP framework. Provides seamless integration with Claude, ChatGPT, and other AI assistants through a single MCP interface with session management, logging, and production-ready operations.",
     "category": "observability",
     "pricing": "open-source",
     "hasApi": false,
@@ -99,9 +99,9 @@
     "categorizationTier": "other"
   },
   {
-    "name": "DSPy",
-    "url": "https://github.com/stanfordnlp/dspy",
-    "description": "DSPy is the framework for programming—not prompting—language models. It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing prompts and weights.",
+    "name": "PromptLayer",
+    "url": "https://github.com/MagnivOrg/prompt-layer-library",
+    "description": "PromptLayer is a platform that allows you to track, manage, and share your GPT prompt engineering by acting as middleware to log all OpenAI API requests.",
     "category": "prompt-management",
     "pricing": "open-source",
     "hasApi": true,
@@ -113,23 +113,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Alpaca-LoRA-Serve",
-    "url": "https://github.com/deep-diver/alpaca-lora-serve",
-    "description": "Alpaca-LoRA as Chatbot service",
+    "name": "Vidur",
+    "url": "https://github.com/microsoft/vidur",
+    "description": "A large-scale simulation framework for LLM inference",
     "category": "serving",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "large model serving"
+      "inference",
+      "simulator"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Marqo",
-    "url": "https://github.com/marqo-ai/marqo",
-    "description": "Tensor search for humans.",
+    "name": "Weaviate",
+    "url": "https://github.com/semi-technologies/weaviate",
+    "description": "Weaviate is an open source vector search engine that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients.",
     "category": "vector-database",
     "pricing": "open-source",
     "hasApi": false,
@@ -137,42 +138,41 @@
       "vector search"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "LangGraph",
-    "url": "https://github.com/langchain-ai/langgraph",
-    "description": "Build resilient language agents as graphs.",
+    "name": "KAOS",
+    "url": "https://github.com/axsaucedo/kaos",
+    "description": "KAOS is a Kubernetes-native framework for deploying and orchestrating AI agents with tool access, multi-agent coordination, and seamless LLM integration.",
     "category": "agent-framework",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "orchestration",
-      "agent framework"
+      "agentic frameworks"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "LakeFS",
-    "url": "https://github.com/treeverse/lakefs",
-    "description": "Git-like capabilities for your object storage.",
+    "name": "FATE",
+    "url": "https://github.com/FederatedAI/FATE",
+    "description": "An Industrial Grade Federated Learning Framework",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data storage"
+      "federated ml"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenModelZ",
-    "url": "https://github.com/tensorchord/openmodelz",
-    "description": "One-click machine learning deployment (LLM, text-to-image and so on) at scale on any cluster (GCP, AWS, Lambda labs, your home lab, or even a single machine).",
+    "name": "Hopsworks",
+    "url": "https://github.com/logicalclocks/hopsworks",
+    "description": "Hopsworks is a MLOps platform for training and operating large and small ML systems, including fine-tuning and serving LLMs. Hopsworks includes both a feature store and vector database for RAG.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
@@ -184,23 +184,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Forward",
-    "url": "https://github.com/tencent/forward",
-    "description": "A library for high performance deep learning inference on NVIDIA GPUs.",
+    "name": "AutoGluon",
+    "url": "https://github.com/awslabs/autogluon",
+    "description": "AutoML for Image, Text, and Tabular Data.",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "optimizations"
+      "automl"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "ps-fuzz",
-    "url": "https://github.com/prompt-security/ps-fuzz",
-    "description": "ps-fuzz is a tool to test and harden GenAI system prompts against security vulnerabilities and adversarial attacks.",
+    "name": "Agentic Radar",
+    "url": "https://github.com/splx-ai/agentic-radar",
+    "description": "Agentic Radar is a security scanner for LLM agentic workflows for potential vulnerabilities.",
     "category": "guardrails-and-safety",
     "pricing": "open-source",
     "hasApi": false,
@@ -212,30 +212,30 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "LUX",
-    "url": "https://github.com/lux-org/lux",
-    "description": "A Python library that facilitates fast and easy data exploration by automating the visualization and data analysis process.",
+    "name": "AgentLab",
+    "url": "https://github.com/ServiceNow/AgentLab",
+    "description": "AgentLab is an open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility.",
     "category": "observability",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "data tracking"
+      "agent observability"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenVLA",
-    "url": "https://github.com/openvla/openvla",
-    "description": "A 7B-parameter open-source Vision-Language-Action model trained on 970K+ robot demonstrations from the Open X-Embodiment dataset for generalist robotic manipulation.",
+    "name": "SmolVLA",
+    "url": "https://huggingface.co/blog/smolvla",
+    "description": "A compact ~450M parameter VLA by Hugging Face, designed to be computationally efficient and accessible, running on consumer GPUs or CPUs. Part of the LeRobot ecosystem.",
     "category": "other",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "robotics foundation model"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "registry-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
@@ -254,32 +254,31 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "OME",
-    "url": "https://github.com/sgl-project/ome",
-    "description": "OME is a Kubernetes operator for enterprise-grade management and serving of Large Language Models (LLMs)",
+    "name": "langchain-serve",
+    "url": "https://github.com/jina-ai/langchain-serve",
+    "description": "Serverless LLM apps on Production with Jina AI Cloud (Archived)",
     "category": "serving",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "inference",
-      "inference platform"
+      "frameworks/servers for serving"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Lancedb",
-    "url": "https://github.com/lancedb/lancedb",
-    "description": "Developer-friendly, serverless vector database for AI applications. Easily add long-term memory to your LLM apps!",
+    "name": "Chroma",
+    "url": "https://github.com/chroma-core/chroma",
+    "description": "the open source embedding database",
     "category": "vector-database",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "vector search"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
 ]

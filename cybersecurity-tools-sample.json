@@ -1,5 +1,299 @@
 [
   {
+    "name": "Gluu Server",
+    "url": "https://gluu.org/",
+    "description": "Central authentication and authorization for Web and mobile applications with a Free and Open Source Software cloud-native community distribution.",
+    "category": "authentication",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "identity and authn/authz"
+    ],
+    "isOpenSource": true,
+    "toolType": "resource",
+    "targetPlatform": "mobile",
+    "vendorTier": "oss",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "kubernetes-event-exporter",
+    "url": "https://github.com/opsgenie/kubernetes-event-exporter",
+    "description": "Allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.",
+    "category": "cloud",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "cloud platform security",
+      "kubernetes"
+    ],
+    "isOpenSource": true,
+    "toolType": "resource",
+    "targetPlatform": "cloud",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "CeWL",
+    "url": "https://digi.ninja/projects/cewl.php",
+    "description": "Generates custom wordlists by spidering a target's website and collecting unique words.",
+    "category": "cryptography",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "hash cracking tools"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "shellpop",
+    "url": "https://github.com/0x00-0x00/shellpop",
+    "description": "Easily generate sophisticated reverse or bind shell commands to help you save time during penetration tests.",
+    "category": "ctf",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ctf tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Selefra",
+    "url": "https://github.com/selefra/selefra",
+    "description": "An open-source policy-as-code software that provides analytics for multi-cloud and SaaS.",
+    "category": "endpoint",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "devops"
+    ],
+    "isOpenSource": true,
+    "toolType": "platform",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "dnscat2",
+    "url": "https://github.com/iagox86/dnscat2",
+    "description": "Tool designed to create an encrypted command and control channel over the DNS protocol, which is an effective tunnel out of almost every network.",
+    "category": "exploit",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "exfiltration tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Aurora Incident Response",
+    "url": "https://github.com/cyb3rfox/Aurora-Incident-Response",
+    "description": "Platform developed to build easily a detailed timeline of an incident.",
+    "category": "forensics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "timeline tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "platform",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ThreatHunter-Playbook",
+    "url": "https://github.com/OTRF/ThreatHunter-Playbook",
+    "description": "Playbook to aid the development of techniques and hypothesis for hunting campaigns.",
+    "category": "incident-response",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "playbooks"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Linux Malware Detect",
+    "url": "https://www.rfxn.com/projects/linux-malware-detect",
+    "description": "A malware scanner for Linux designed around the threats faced in shared hosted environments.",
+    "category": "malware-analysis",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "endpoint",
+      "anti-virus / anti-malware"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "linux",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "enjarify",
+    "url": "https://github.com/Storyyeller/enjarify",
+    "description": "A tool for translating Dalvik bytecode to equivalent Java bytecode.",
+    "category": "mobile",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "endpoint",
+      "mobile / android / ios"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "mobile",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Falco",
+    "url": "https://falco.org/",
+    "description": "The cloud-native runtime security project and de facto Kubernetes threat detection engine now part of the CNCF.",
+    "category": "monitoring",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "network",
+      "monitoring / logging"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "cloud",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "rshijack",
+    "url": "https://github.com/kpcyrd/rshijack",
+    "description": "TCP connection hijacker, Rust rewrite of .",
+    "category": "network",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "network tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "dorkbot",
+    "url": "https://github.com/utiso/dorkbot",
+    "description": "Command-line tool to scan Google (or other) search results for vulnerabilities.",
+    "category": "osint",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "open sources intelligence (osint)",
+      "dorking tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "How to Hack Like a Pornstar",
+    "url": "https://books2read.com/u/bWzdBx",
+    "description": "A step by step process for breaking into a BANK, Sparc Flow, 2017",
+    "category": "other",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "ebooks"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "commercial",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "SQLmate",
+    "url": "https://github.com/UltimateHackers/sqlmate",
+    "description": "Friend of that identifies SQLi vulnerabilities based on a given dork and (optional) website.",
+    "category": "vulnerability-scanner",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "network vulnerability scanners",
+      "web vulnerability scanners"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Chrome",
+    "url": "https://www.google.com/chrome",
+    "description": "Chrome — web API",
+    "category": "web",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "browsers"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "freeware",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
     "name": "LunaSec",
     "url": "https://github.com/lunasec-io/lunasec",
     "description": "Database for PII with automatic encryption/tokenization, sandboxed components for handling data, and centralized authorization controls.",
@@ -18,38 +312,38 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "cloudfox",
-    "url": "https://github.com/bishopfox/cloudfox",
-    "description": "[F] — CLI to find cloud attack paths.",
+    "name": "CloudHunter",
+    "url": "https://github.com/belane/CloudHunter",
+    "description": "Looks for AWS, Azure and Google cloud storage buckets and lists permissions for vulnerable buckets.",
     "category": "cloud",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "cloud security"
+      "cloud platform attack tools"
     ],
     "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
+    "toolType": "platform",
+    "targetPlatform": "cloud",
     "vendorTier": "oss",
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Probable-Wordlists",
-    "url": "https://github.com/berzerk0/probable-wordlists",
-    "description": "[F] — Frequency-based lists.",
+    "name": "Mozilla SSL Configuration Generator",
+    "url": "https://ssl-config.mozilla.org/",
+    "description": "Mozilla SSL Configuration Generator",
     "category": "cryptography",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "credentials, cracking & wordlists"
+      "tools to apply security hardening",
+      "tls/ssl"
     ],
-    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
@@ -57,303 +351,6 @@
     "name": "OWASP Mutillidae II Web Pen-Test Practice Application",
     "url": "https://hub.docker.com/r/citizenstig/nowasp",
     "description": "OWASP Mutillidae II Web Pen-Test Practice Application — ctf API",
-    "category": "ctf",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "intentionally vulnerable systems",
-      "intentionally vulnerable systems as docker containers"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "TecMint - 4 Ways to Disable Root Account in Linux",
-    "url": "https://www.tecmint.com/disable-root-login-in-linux",
-    "description": "TecMint - 4 Ways to Disable Root Account in Linux",
-    "category": "endpoint",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "gnu/linux"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "linux",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Merlin",
-    "url": "https://github.com/ne0nd0g/merlin",
-    "description": "Cross-platform post-exploitation HTTP/2 Command and Control server and agent written in Golang.",
-    "category": "exploit",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "web exploitation",
-      "web shells and c2 frameworks"
-    ],
-    "isOpenSource": true,
-    "toolType": "platform",
-    "targetPlatform": "cross-platform",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Aurora Incident Response",
-    "url": "https://github.com/cyb3rfox/aurora-incident-response",
-    "description": "Platform developed to build easily a detailed timeline of an incident.",
-    "category": "forensics",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "timeline tools"
-    ],
-    "isOpenSource": true,
-    "toolType": "platform",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Phantom Community Playbooks",
-    "url": "https://github.com/phantomcyber/playbooks",
-    "description": "Phantom Community Playbooks for Splunk but also customizable for other use.",
-    "category": "incident-response",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "playbooks"
-    ],
-    "isOpenSource": true,
-    "toolType": "resource",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "IDA Pro",
-    "url": "https://hex-rays.com/ida-pro",
-    "description": "[C] — Industry-standard disassembler/debugger.",
-    "category": "malware-analysis",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "reverse engineering & binary"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OWASP Mobile Security Testing Guide",
-    "url": "https://github.com/owasp/owasp-mstg",
-    "description": "A comprehensive manual for mobile app security testing and reverse engineering.",
-    "category": "mobile",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "endpoint",
-      "mobile / android / ios"
-    ],
-    "isOpenSource": true,
-    "toolType": "resource",
-    "targetPlatform": "mobile",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Jaeger",
-    "url": "https://www.jaegertracing.io/",
-    "description": "Distributed tracing platform backend used for monitoring and troubleshooting microservices-based distributed systems.",
-    "category": "monitoring",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "cloud platform security",
-      "distributed monitoring"
-    ],
-    "isOpenSource": false,
-    "toolType": "platform",
-    "targetPlatform": "cloud",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Network-segmentation-cheat-sheet",
-    "url": "https://github.com/sergiomarotco/network-segmentation-cheat-sheet",
-    "description": "This project was created to publish the best practices for segmentation of the corporate network of any company. In general, the schemes in this project are suitable for any company.",
-    "category": "network",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "network",
-      "network architecture"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "SitesLike",
-    "url": "http://www.siteslike.com",
-    "description": "Find similar websites by category",
-    "category": "osint",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "similar sites search"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Movies For Hacker",
-    "url": "https://github.com/k4m4/movies-for-hackers",
-    "description": "A curated list of movies every hacker & cyberpunk must watch.",
-    "category": "other",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "other awesome lists",
-      "other common awesome lists"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "WebReaver",
-    "url": "https://www.webreaver.com/",
-    "description": "Commercial, graphical web application vulnerability scanner designed for macOS.",
-    "category": "vulnerability-scanner",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "network vulnerability scanners",
-      "web vulnerability scanners"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "macos",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Security Checklist by OWASP",
-    "url": "https://owasp.org/www-project-application-security-verification-standard",
-    "description": "A checklist by OWASP for testing web applications based on assurance level. Covers multiple topics like Architecture, IAM, Sanitization, Cryptography and Secure Configuration.",
-    "category": "web",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "web",
-      "development"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "web",
-    "vendorTier": "freeware",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "confidant",
-    "url": "https://github.com/lyft/confidant",
-    "description": "Stores secrets in AWS DynamoDB, encrypted at rest and integrates with IAM",
-    "category": "authentication",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "datastores"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "cloud",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Clair",
-    "url": "https://github.com/quay/clair",
-    "description": "[F] — Image vulnerability analysis.",
-    "category": "cloud",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "containers & kubernetes"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "cloud",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "patator",
-    "url": "https://github.com/lanjelot/patator",
-    "description": "[F] — Flexible brute-forcer/sprayer.",
-    "category": "cryptography",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "credentials, cracking & wordlists"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Vulnerability as a service: SambaCry",
-    "url": "https://hub.docker.com/r/vulnerables/cve-2017-7494",
-    "description": "Vulnerability as a service: SambaCry — ctf API",
     "category": "ctf",
     "pricing": "open-source",
     "hasApi": false,

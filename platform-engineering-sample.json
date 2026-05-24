@@ -1,14 +1,14 @@
 [
   {
-    "name": "MS Build",
-    "url": "https://www.microsoft.com/en-us/build",
-    "description": "MS Build — ci-cd-pipeline API",
+    "name": "Travis CI",
+    "url": "https://travis-ci.org/",
+    "description": "Travis CI — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "continuous integration",
-      "build"
+      "integration"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
@@ -29,32 +29,31 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Wrike",
-    "url": "https://www.wrike.com/",
-    "description": "Wrike — developer-experience API",
+    "name": "CloudGeometry Reference Architecture",
+    "url": "https://github.com/CloudGeometry/cg-devx-core",
+    "description": "CloudGeometry Reference Architecture for simplifying the creation and management of DevOps and Cloud resources.",
     "category": "developer-experience",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "development",
-      "project management & issue tracking software"
+      "reference architecture"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "MkDocs- documentation with Markdown",
-    "url": "https://www.mkdocs.org/",
-    "description": "MkDocs- documentation with Markdown",
+    "name": "cycloid",
+    "url": "https://www.cycloid.io/platform-engineering",
+    "description": "Platform Engineering is DevOps with an action plan.",
     "category": "developer-portal",
     "pricing": "unknown",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "tooling— development portal and documentation"
+      "internal developer portal"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -72,9 +71,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Terrateam - GitOps-first open-source IaC automation for Terraform, OpenTofu, and more",
-    "url": "https://github.com/terrateamio/terrateam",
-    "description": "Terrateam - GitOps-first open-source IaC automation for Terraform, OpenTofu, and more",
+    "name": "Digger - Open Source Infratructure as Code management tool",
+    "url": "https://www.github.com/diggerhq/digger",
+    "description": "Digger - Open Source Infratructure as Code management tool",
     "category": "iac-and-provisioning",
     "pricing": "open-source",
     "hasApi": false,
@@ -86,33 +85,37 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AlertManager",
-    "url": "https://prometheus.io/docs/alerting/latest/alertmanager",
-    "description": "AlertManager",
+    "name": "MongoDB Atlas",
+    "url": "https://www.mongodb.com/cloud/atlas",
+    "description": "MongoDB Atlas",
     "category": "observability",
     "pricing": "unknown",
     "hasApi": false,
-    "tags": [],
+    "tags": [
+      "continuous monitoring"
+    ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenDuty",
-    "url": "https://github.com/ustream/openduty",
-    "description": "OpenDuty — other API",
+    "name": "The 12 Platform Challenges",
+    "url": "https://www.syntasso.io/post/the-12-platform-challenges-of-christmas",
+    "description": "The 12 Platform Challenges",
     "category": "other",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
+    "tags": [
+      "miscellaneous and related"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "other"
   },
   {
-    "name": "Qualys Cloud Platform",
-    "url": "https://www.qualys.com/cloud-platform",
-    "description": "Qualys Cloud Platform",
+    "name": "Wiz",
+    "url": "https://www.wiz.io/",
+    "description": "Wiz — policy-and-governance API",
     "category": "policy-and-governance",
     "pricing": "unknown",
     "hasApi": false,
@@ -120,7 +123,146 @@
       "security"
     ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Permify- open-source authorization service",
+    "url": "https://github.com/Permify/permify",
+    "description": "Permify- open-source authorization service",
+    "category": "secrets-management",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— authentication and authorization"
+    ],
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Kong- API Gateway and Service Connectivity Platform",
+    "url": "https://konghq.com/",
+    "description": "Kong- API Gateway and Service Connectivity Platform",
+    "category": "service-mesh",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "tooling— service mesh, api gateway and app proxies"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "containerd",
+    "url": "https://containerd.io/",
+    "description": "containerd",
+    "category": "ci-cd-pipeline",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "continuous delivery",
+      "container"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "vCluster - A open source project that helps you create virtual clusters",
+    "url": "https://vcluster.sh/",
+    "description": "vCluster - A open source project that helps you create virtual clusters",
+    "category": "container-orchestration",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— kubernetes, paas and cloud services"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "kubevela",
+    "url": "https://kubevela.io/",
+    "description": "Make shipping applications more enjoyable.",
+    "category": "developer-experience",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "specifications"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Port",
+    "url": "https://www.getport.io/",
+    "description": "Port — developer-portal API",
+    "category": "developer-portal",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "internal developer portal"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
+    "url": "https://github.com/artipie/artipie",
+    "description": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
+    "category": "iac-and-provisioning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Instatus Statuspages",
+    "url": "https://instatus.com",
+    "description": "Quick and beautiful status page.",
+    "category": "observability",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "incident communication"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OnPage",
+    "url": "https://www.onpage.com/",
+    "description": "OnPage — other API",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Wazuh",
+    "url": "https://wazuh.com/",
+    "description": "Wazuh — policy-and-governance API",
+    "category": "policy-and-governance",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "security"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
@@ -134,146 +276,6 @@
       "tooling— authentication and authorization"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Traefik- Cloud Native Application Proxy",
-    "url": "https://traefik.io/",
-    "description": "Traefik- Cloud Native Application Proxy",
-    "category": "service-mesh",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [
-      "tooling— service mesh, api gateway and app proxies"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Badwolf",
-    "url": "https://github.com/bosondata/badwolf",
-    "description": "Badwolf — ci-cd-pipeline API",
-    "category": "ci-cd-pipeline",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "continuous integration",
-      "integration"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Dokku- Open source PAAS alternative to Heroku",
-    "url": "https://dokku.com/",
-    "description": "Dokku- Open source PAAS alternative to Heroku",
-    "category": "container-orchestration",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— kubernetes, paas and cloud services"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Shortcut",
-    "url": "https://www.shortcut.com/",
-    "description": "Shortcut — developer-experience API",
-    "category": "developer-experience",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "development",
-      "project management & issue tracking software"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Mogenius",
-    "url": "https://mogenius.com",
-    "description": "The Kubernetes Operations Platform.",
-    "category": "developer-portal",
-    "pricing": "unknown",
-    "hasApi": true,
-    "tags": [
-      "internal developer portal"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "AWS Proton- Self-service infrastructure templates",
-    "url": "https://aws.amazon.com/proton",
-    "description": "AWS Proton- Self-service infrastructure templates",
-    "category": "iac-and-provisioning",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "tooling— infrastructure and artifacts management"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "NewRelic",
-    "url": "https://newrelic.com/",
-    "description": "NewRelic — observability API",
-    "category": "observability",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "continuous monitoring"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "SLO exporter",
-    "url": "https://github.com/seznam/slo-exporter",
-    "description": "SLO exporter",
-    "category": "other",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
-    "url": "https://github.com/checkmarx/kics",
-    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
-    "category": "policy-and-governance",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— security and policies"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
-    "url": "https://github.com/ory/keto",
-    "description": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
-    "category": "secrets-management",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "tooling— authentication and authorization"
-    ],
-    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }

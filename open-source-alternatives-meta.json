@@ -11,7 +11,7 @@
     "self-hostable"
   ],
   "license": "https://opensource.org/licenses/MIT",
-  "lastRefreshed": "2026-05-23",
+  "lastRefreshed": "2026-05-24",
   "sampleJsonUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.json",
   "sampleCsvUrl": "https://raw.githubusercontent.com/futdevpro/niche-datasets-free/main/open-source-alternatives-sample.csv",
   "detailPageUrl": "https://futdevpro.github.io/niche-datasets-free/open-source-alternatives.html",
@@ -29,5 +29,5 @@
       "url": "https://jhonnyronnie.gumroad.com/l/developer-data-bundle"
     }
   ],
-  "liveRecordCount": 937
+  "liveRecordCount": 938
 }

@@ -1,21 +1,21 @@
 name,url,description,category,pricing,hasApi,tags,codeType,urlDomainTier,descriptionLengthTier,categorizationTier
-SaegMaker,https://aws.amazon.com/sagemaker,Machine learning for every data scientist and developer.,ai-ml,freemium,true,"[""ai""]",low-code,commercial,normal,specific
+Gravity-AI,https://www.gravity-ai.com/,The fastest & most secure way to solve business problems with A.I.,ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
 Posthog,https://posthog.com/,Open source product analytics.,analytics,open-source,false,"[""analytics""]",low-code,commercial,terse,specific
-Botpress,https://botpress.com/,An all-in-one platform for building AI agents powered by the latest LLMs.,app-builder,unknown,false,"[""ai platforms""]",both,commercial,normal,specific
-Uipath,https://www.uipath.com/,We make robots so people don’t have to be robots.,automation,paid,false,"[""automation""]",both,commercial,terse,specific
-Manychat,https://manychat.com,Create a Messenger bot to engage your audience. No coding!,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
-Notion,https://notion.so,"The all-in-one workspace - notes, tasks, wikis, & databases.",collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
-Folk,https://folk.app,Lightweight modern CRM for personal networks and freelancers.,crm,free,false,"[""crm""]",both,commercial,normal,specific
-Parsehub,https://parsehub.com,Free web scraping.,data-scraping,free,true,"[""scrapers""]",low-code,commercial,terse,specific
-PostGraphile,https://www.graphile.org/,Extensible high-performance automatic GraphQL API for PostgreSQL,database,open-source,true,"[""database""]",low-code,commercial,normal,specific
-Canva,https://canva.com,"Design stunning social posts, ads, and banners.",design,freemium,false,"[""marketing""]",no-code,commercial,terse,specific
-ShopSavvy,https://shopsavvy.com,Price comparison across thousands of retailers with price alerts and deal discovery.,ecommerce,unknown,false,"[""ecommerce""]",no-code,commercial,normal,specific
-Feathery,https://feathery.io,Powerful form builder for product teams,forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
-InVideo,https://invideo.io,Turn text into professional videos with templates.,internal-tools,freemium,false,"[""video""]",low-code,commercial,normal,specific
-AuditWidget,https://auditwidget.app/?utm_source=github&utm_medium=awesome_list&utm_campaign=awesome_nocode_lowcode,Embeddable SEO audit widget for marketing sites. Drop a single script tag — visitors run a 12-point analysis and share their email to unlock the full report.,marketing,unknown,false,"[""marketing""]",no-code,commercial,normal,specific
-Appspotr,https://appspotr.com,Create epic apps without coding,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
-FreeCodeCamp: No-Code Playlist,https://www.youtube.com/playlist?list=plwkjhjtqvabnse1qunmg7abpmjig54u88,YouTube playlist of no-code tutorials.,other,free,false,"[""learning""]",no-code,commercial,terse,other
-Loom,https://loom.com,"Seamless screen, mic, and camera recording for Chrome",video,freemium,false,"[""video""]",no-code,commercial,normal,specific
-Weld,https://www.weld.io,Be creative without code – Interactive content tool,website-builder,freemium,false,"[""websites""]",no-code,commercial,normal,specific
-RemoteOpenClaw,https://remoteopenclaw.com,Open marketplace for AI skills and personas built on OpenClaw.,ai-ml,unknown,false,"[""machine learning""]",low-code,commercial,normal,specific
+Frontman,https://github.com/frontman-ai/frontman,"Open-source AI coding agent that lives in your browser — click any element, describe changes in plain English, and get real code edits. Designed for cross-functional teams.",app-builder,open-source,false,"[""visual programming""]",low-code,repo-hosted,normal,specific
+Linx,https://linx.software,Low-code Development for IT Pros,automation,paid,false,"[""automation""]",low-code,commercial,terse,specific
+Voiceflow,https://www.voiceflow.com/,Prototype and launch conversational apps.,chatbot,freemium,false,"[""more (uncategorized)""]",no-code,commercial,terse,specific
+Quip,https://quip.com,One place for all your team’s work.,collaboration,freemium,false,"[""collaboration""]",both,commercial,terse,specific
+Kartra,https://kartra.com,Online Business Made Easy,crm,freemium,false,"[""crm""]",both,commercial,terse,specific
+SmartXML,https://redata.dev/smartxml,An application for parsing XML of any complexity with support SQLite and PostgreSQL,data-scraping,free,true,"[""data & scraping""]",low-code,commercial,normal,specific
+Hasura,https://hasura.io/,Get realtime GraphQL APIs instantly,database,freemium,true,"[""database""]",low-code,commercial,terse,specific
+Figma,https://figma.com,The first interface design tool with real-time collaboration,design,freemium,false,"[""design""]",no-code,commercial,normal,specific
+Hingeto,https://www.hingeto.com/,Start your own Amazon-style marketplace,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
+Google Forms,https://forms.google.com,"Free forms from Google, that connect directly to Google Sheets.",forms,free,false,"[""forms""]",no-code,commercial,normal,specific
+Nuclino,https://nuclino.com,"Part knowledge base, part collaboration space 🧠",internal-tools,freemium,false,"[""internal""]",low-code,commercial,terse,specific
+Microsoft Clarity,https://clarity.microsoft.com,"Free heatmaps, session recordings, and user insights with no sampling.",marketing,free,false,"[""analytics""]",no-code,commercial,normal,specific
+miniAppMaker,https://miniappmaker.com,Make mobile apps using Airtable!,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
+How to Use JavaScript Code in Zapier Zaps,https://zapier.com/help/create/code-webhooks/use-javascript-code-in-zaps,How to Use JavaScript Code in Zapier Zaps,other,freemium,true,"[""blog posts""]",low-code,commercial,terse,other
+PlayHT,https://play.ht,Realistic voice synthesis for podcasts and narration.,video,freemium,false,"[""voice""]",no-code,commercial,normal,specific
+Weebly,https://www.weebly.com,Build a Free Website or Online Store,website-builder,free,false,"[""websites""]",no-code,commercial,terse,specific
+RunwayML,https://runwayml.com/,Makes machine learning accessible to creative practitioners from a wide range of disciplines.,ai-ml,freemium,false,"[""machine learning""]",low-code,commercial,normal,specific
 Plausible,https://plausible.io,"Lightweight, GDPR-compliant website analytics with a simple interface.",analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
