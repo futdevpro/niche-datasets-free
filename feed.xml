@@ -8,6 +8,13 @@
     <language>en-us</language>
     <generator>build-detail-pages.py</generator>
     <item>
+      <title>VS Code Extensions Directory — refreshed 2026-05-24</title>
+      <link>https://futdevpro.github.io/niche-datasets-free/vscode-extensions.html</link>
+      <guid isPermaLink="false">vscode-extensions-2026-05-24</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <description>Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher. Full dataset $9 on Gumroad.</description>
+    </item>
+    <item>
       <title>Self-Hosted Software Directory — refreshed 2026-05-24</title>
       <link>https://futdevpro.github.io/niche-datasets-free/self-hosted-software.html</link>
       <guid isPermaLink="false">self-hosted-software-2026-05-24</guid>
@@ -34,13 +41,6 @@
       <guid isPermaLink="false">npm-packages-2026-05-23</guid>
       <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
       <description>Catalog of 6,300+ top JavaScript/TypeScript npm packages with weekly/monthly downloads, dependents count, npm score (popularity/quality/maintenance), and repository. Full dataset $11 on Gumroad.</description>
-    </item>
-    <item>
-      <title>VS Code Extensions Directory — refreshed 2026-05-23</title>
-      <link>https://futdevpro.github.io/niche-datasets-free/vscode-extensions.html</link>
-      <guid isPermaLink="false">vscode-extensions-2026-05-23</guid>
-      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-      <description>Catalog of 4,800+ VS Code Marketplace extensions with install counts, version, last-updated, extension ID, and publisher. Full dataset $9 on Gumroad.</description>
     </item>
     <item>
       <title>HuggingFace Models Directory — refreshed 2026-05-23</title>
