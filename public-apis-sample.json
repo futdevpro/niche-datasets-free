@@ -1,8 +1,8 @@
 [
   {
-    "name": "Shibe.Online",
-    "url": "http://shibe.online/",
-    "description": "Random pictures of Shiba Inu, cats or birds",
+    "name": "Amazing Endemic Species",
+    "url": "https://aes.shenlu.me/",
+    "description": "Amazing endemic species all over the world",
     "category": "animals",
     "pricing": "free",
     "hasApi": false,
@@ -19,73 +19,74 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AOT quotes",
-    "url": "https://attackontitanquotes.vercel.app/",
-    "description": "Attack on Titan Quotes API",
+    "name": "MyAnimeList",
+    "url": "https://myanimelist.net/clubs.php?cid=13727",
+    "description": "Anime and Manga Database and Community",
     "category": "anime",
-    "pricing": "free",
-    "hasApi": true,
+    "pricing": "freemium",
+    "hasApi": false,
     "tags": [
-      "anime",
+      "anime"
+    ],
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Dymo API",
+    "url": "https://dymo.tpeoficial.com/",
+    "description": "Multi-account and fraud detection. Sending emails without ending up in SPAM.",
+    "category": "anti-malware",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "anti-malware",
+      "cors-enabled"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "EmojiHub",
+    "url": "https://github.com/cheatsnake/emojihub",
+    "description": "Get emojis by categories and groups",
+    "category": "art-design",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "art & design",
       "no-auth",
       "cors-enabled"
     ],
     "auth": "none",
     "https": true,
     "cors": "yes",
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Google Safe Browsing",
-    "url": "https://developers.google.com/safe-browsing",
-    "description": "Google Link/Domain Flagging",
-    "category": "anti-malware",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "anti-malware"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Behance",
-    "url": "https://www.behance.net/dev",
-    "description": "Behance — art-design API",
-    "category": "art-design",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "art & design"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Jumio",
-    "url": "https://www.jumio.com/developer",
-    "description": "Provides identity verification, KYC (Know Your Customer), and AML (Anti-Money Laundering) solutions, including document verification and biometric authentication.",
+    "name": "GetOTP",
+    "url": "https://otp.dev/en/docs",
+    "description": "Implement OTP flow quickly",
     "category": "authentication",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "fraud prevention"
+      "authentication & authorization"
     ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown",
+    "cors": "no",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -107,53 +108,56 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "SEDRA IV API",
-    "url": "https://bethmardutho.org",
-    "description": "The SEDRA API is documented in **OpenAPI format** and uses [ReDoc](https://github.com/Rebilly/ReDoc) for documentation. # Introduction This document describes the JSON API for the Syriac Electronic Data Research Archive (SEDRA). The SEDRA project is a linguistic and literary database of Syriac language and literature focusing on providing electronic access to the corpus of Syriac lexicons with linguistic information added to each entry in those lexicons. The API is a mechanism to provide the ...",
+    "name": "Bhagavad Gita",
+    "url": "https://docs.bhagavadgitaapi.in/",
+    "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
     "category": "books",
     "pricing": "freemium",
     "hasApi": true,
-    "tags": [],
+    "tags": [
+      "books",
+      "cors-enabled"
+    ],
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "verbose",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Square",
-    "url": "https://developer.squareup.com/reference/square",
-    "description": "Easy way to take payments, manage refunds, and help customers checkout online",
-    "category": "business",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "business"
-    ],
-    "auth": "oauth",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
+    "cors": "yes",
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Google Calendar API",
-    "url": "https://developers.google.com/google-apps/calendar/?hl=en",
-    "description": "Lets you manipulate events and other calendar data. v3",
-    "category": "calendar",
+    "name": "JotForm",
+    "url": "http://api.jotform.com/docs",
+    "description": "The JotForm API makes it possible to connect to your form data without using the JotForm web site.",
+    "category": "business",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
       "table of contents",
-      "google"
+      "business"
     ],
     "cors": "unknown",
     "auth": "apiKey",
-    "https": true,
+    "https": false,
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Holidays",
+    "url": "https://holidayapi.com/",
+    "description": "Historical data regarding holidays",
+    "category": "calendar",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "calendar"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -174,62 +178,62 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Dropbox",
-    "url": "https://www.dropbox.com/developers",
-    "description": "File Sharing and Storage",
+    "name": "ZEIT API",
+    "url": "https://zeit.co",
+    "description": "ZEIT API — cloud-storage API",
     "category": "cloud-storage",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "cloud storage & file sharing"
+      "hosting"
     ],
-    "auth": "oauth",
-    "https": true,
+    "auth": "apiKey",
+    "https": false,
     "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Exchange Rates API",
+    "url": "https://blockchain.info/api/exchange_rates_api",
+    "description": "Market Prices and exchanges rates api.",
+    "category": "cryptocurrency",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "table of contents",
+      "bitcoin/bitcoin wallets"
+    ],
+    "cors": "unknown",
+    "auth": "apiKey",
+    "https": true,
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "BitcoinCharts",
-    "url": "https://bitcoincharts.com/about/exchanges",
-    "description": "Financial and Technical Data related to the Bitcoin Network",
-    "category": "cryptocurrency",
+    "name": "FreeForexAPI",
+    "url": "https://freeforexapi.com/Home/Api",
+    "description": "Real-time foreign exchange rates for major currency pairs",
+    "category": "currency",
     "pricing": "free",
     "hasApi": false,
     "tags": [
-      "cryptocurrency",
+      "currency exchange",
       "no-auth"
     ],
     "auth": "none",
     "https": true,
-    "cors": "unknown",
+    "cors": "no",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Coinnect",
-    "url": "https://coinnect.bot/docs",
-    "description": "Open money transfer routing across fiat, crypto and P2P networks",
-    "category": "currency",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "currency exchange",
-      "cors-enabled"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Trestle",
-    "url": "https://trestleiq.com/phone-validation-api",
-    "description": "Validates the phone number and provides phone metadata",
+    "name": "US Autocomplete",
+    "url": "https://www.smarty.com/docs/cloud/us-autocomplete-pro-api",
+    "description": "Enter address data quickly with real-time address suggestions",
     "category": "data-validation",
     "pricing": "freemium",
     "hasApi": false,
@@ -245,67 +249,51 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Background Removal API",
-    "url": "https://remove.bg",
-    "description": "Remove the background of any image",
+    "name": "climateKuul live",
+    "url": "https://climatekuul.com",
+    "description": "climateKuul live — development API",
     "category": "development",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "backend"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Glosbe API",
+    "url": "https://glosbe.com/a-api",
+    "description": "Dictionary API and Translation Memory API description.",
+    "category": "dictionaries",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "developer-tools"
+      "table of contents",
+      "dictionary"
     ],
+    "cors": "unknown",
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Collins",
-    "url": "https://api.collinsdictionary.com/api/v1/documentation/html",
-    "description": "Bilingual Dictionary and Thesaurus Data",
-    "category": "dictionaries",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "dictionaries"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "PredictHQ",
-    "url": "https://docs.predicthq.com/",
-    "description": "Events and natural disasters data",
+    "name": "Ambee",
+    "url": "https://www.getambee.com/api/natural-disasters",
+    "description": "Natural Disasters API",
     "category": "disasters",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "disasters"
     ],
-    "auth": "oauth",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "documentation",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Zube",
-    "url": "https://zube.io/docs/api",
-    "description": "Full stack project management",
-    "category": "documents",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "documents & productivity"
-    ],
-    "auth": "oauth",
+    "auth": "apiKey",
     "https": true,
     "cors": "unknown",
     "urlDomainTier": "commercial",
@@ -313,65 +301,68 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Data API",
-    "url": "https://clever.com",
-    "description": "Serves the Clever Data API",
+    "name": "staffSign",
+    "url": "https://staffsign.de/docs",
+    "description": "Digital employment contract API with QES/eIDAS support for HR and staffing",
+    "category": "documents",
+    "pricing": "freemium",
+    "hasApi": true,
+    "tags": [
+      "documents & productivity",
+      "cors-enabled"
+    ],
+    "auth": "apiKey",
+    "https": true,
+    "cors": "yes",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Google Classroom API",
+    "url": "https://developers.google.com/classroom/?hl=en",
+    "description": "The Google Classroom API. v1",
     "category": "education",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "education"
+      "table of contents",
+      "google"
     ],
+    "cors": "unknown",
     "auth": "apiKey",
     "https": true,
-    "cors": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Sendgrid",
-    "url": "https://docs.sendgrid.com/api-reference",
-    "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
+    "name": "DropMail",
+    "url": "https://dropmail.me/api/#live-demo",
+    "description": "GraphQL API for creating and managing ephemeral e-mail inboxes",
     "category": "email",
-    "pricing": "freemium",
-    "hasApi": false,
+    "pricing": "free",
+    "hasApi": true,
     "tags": [
-      "email"
+      "email",
+      "no-auth"
     ],
-    "auth": "apiKey",
+    "auth": "none",
     "https": true,
     "cors": "unknown",
-    "urlDomainTier": "documentation",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Metadata",
-    "url": "https://haloapi.com",
-    "description": "API that provides Metadata information.",
+    "name": "TV API",
+    "url": "https://pressassociation.io",
+    "description": "Welcome to the API Reference Docs page for the Press Association TV API (v2).",
     "category": "entertainment",
     "pricing": "freemium",
     "hasApi": true,
     "tags": [
-      "entertainment"
-    ],
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Cloverly",
-    "url": "https://www.cloverly.com/carbon-offset-documentation",
-    "description": "API calculates the impact of common carbon-intensive activities in real time",
-    "category": "environment",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "environment"
+      "media"
     ],
     "auth": "apiKey",
     "https": true,
@@ -381,16 +372,34 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Ticketmaster",
-    "url": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started",
-    "description": "Search events, attractions, or venues",
+    "name": "CO2 Offset",
+    "url": "https://co2offset.io/api.html",
+    "description": "API calculates and validates the carbon footprint",
+    "category": "environment",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "environment",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Eventbrite",
+    "url": "https://www.eventbrite.com/platform/api",
+    "description": "Find events",
     "category": "events",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "events"
     ],
-    "auth": "apiKey",
+    "auth": "oauth",
     "https": true,
     "cors": "unknown",
     "urlDomainTier": "commercial",
@@ -398,14 +407,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Styvio",
-    "url": "https://www.styvio.com/",
-    "description": "Realtime and historical stock data and current stock sentiment",
+    "name": "Square Connect API",
+    "url": "https://squareup.com/developers",
+    "description": "Client library for accessing the Square Connect APIs",
     "category": "finance",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "finance"
+      "payment"
     ],
     "auth": "apiKey",
     "https": true,
@@ -415,17 +424,36 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "BoozeAPI",
-    "url": "https://boozeapi.com/",
-    "description": "REST API Cocktail Recipes",
+    "name": "Rustybeer",
+    "url": "https://rustybeer.herokuapp.com/",
+    "description": "Beer brewing tools",
     "category": "food-drink",
-    "pricing": "freemium",
-    "hasApi": true,
+    "pricing": "free",
+    "hasApi": false,
     "tags": [
       "food & drink",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "FunTranslations",
+    "url": "https://api.funtranslations.com/",
+    "description": "Translate Text into funny languages",
+    "category": "games-comics",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "games & comics",
+      "no-auth",
       "cors-enabled"
     ],
-    "auth": "apiKey",
+    "auth": "none",
     "https": true,
     "cors": "yes",
     "urlDomainTier": "commercial",
@@ -433,30 +461,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Warface (non-official)",
-    "url": "https://api.wfstats.cf/",
-    "description": "Official API proxy with better data structure and more features",
-    "category": "games-comics",
-    "pricing": "free",
-    "hasApi": true,
-    "tags": [
-      "games & comics",
-      "no-auth"
-    ],
-    "auth": "none",
-    "https": true,
-    "cors": "no",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "LocationIQ",
-    "url": "https://locationiq.org/docs",
-    "description": "Provides forward/reverse geocoding and batch geocoding",
+    "name": "Geolocated.io",
+    "url": "https://geolocated.io/",
+    "description": "Free IP Geolocation API: 2000 daily lookups, multiple servers worldwide",
     "category": "geocoding",
     "pricing": "freemium",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "geocoding",
       "cors-enabled"
@@ -469,14 +479,32 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Open Government, Luxembourg",
-    "url": "https://data.public.lu/",
-    "description": "Luxembourgish Government Open Data",
+    "name": "Open Government, ACT",
+    "url": "https://www.data.act.gov.au/",
+    "description": "Australian Capital Territory Open Data",
     "category": "government",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "government",
+      "no-auth"
+    ],
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "CMS.gov",
+    "url": "https://data.cms.gov/provider-data",
+    "description": "Access to the data from the CMS - medicare.gov",
+    "category": "health",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "government"
+      "health"
     ],
     "auth": "apiKey",
     "https": true,
@@ -486,27 +514,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Diabetes",
-    "url": "http://predictbgl.com/api",
-    "description": "Logging and retrieving diabetes information",
-    "category": "health",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "health",
-      "no-auth"
-    ],
-    "auth": "none",
-    "https": false,
-    "cors": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "groov View Public API",
-    "url": "http://developer.opto22.com",
-    "description": "#### Revised: 2019-11-21 ### Overview groov View Public API revision 1.",
+    "name": "dweet.io",
+    "url": "https://dweet.io",
+    "description": "Dweet.io allows users to share data from mobile, tablets, and pcs, and them to other devices and accounts across social media platforms. Dweet.io provides an API to access the different functionality of the Dweet.io service. Users can make REST calls to read and create dweets, lock and unlock things, and perform other calls. The API returns JSON and JSONP.",
     "category": "iot",
     "pricing": "freemium",
     "hasApi": true,
@@ -514,10 +524,10 @@
       "iot"
     ],
     "auth": "apiKey",
-    "https": false,
+    "https": true,
     "cors": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   }
 ]

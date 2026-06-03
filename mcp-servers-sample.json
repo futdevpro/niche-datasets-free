@@ -1,15 +1,14 @@
 [
   {
-    "name": "MCP-Agent",
-    "url": "https://github.com/lastmile-ai/mcp-agent",
-    "description": "A simple, composable framework to build agents using Model Context Protocol by LastMile AI",
+    "name": "jaspertvdm/mcp-server-openai-bridge",
+    "url": "https://github.com/jaspertvdm/mcp-server-openai-bridge",
+    "description": "Bridge to OpenAI API. Access GPT-4, GPT-4o and other OpenAI models through MCP.",
     "category": "aggregators",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "for clients",
-      "open-source",
-      "aggregators"
+      "aggregators",
+      "open-source"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -17,14 +16,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "wn01011/llm-token-tracker",
-    "url": "https://github.com/wn01011/llm-token-tracker",
-    "description": "Token usage tracker for OpenAI and Claude APIs with MCP support, real-time session tracking, and accurate pricing for 2025 models",
+    "name": "jcdickinson/simplemem",
+    "url": "https://github.com/jcdickinson/simplemem",
+    "description": "A simple memory tool for coding agents using DuckDB and VoyageAI.",
     "category": "ai-services",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
+      "knowledge & memory",
       "open-source",
       "ai-services"
     ],
@@ -34,24 +33,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "savethepolarbears/google-photos-mcp",
-    "url": "https://github.com/savethepolarbears/google-photos-mcp",
-    "description": "Facilitates AI assistants' access to Google Photos, enabling photo search and retrieval by content, date, and location.",
+    "name": "Alisammour/storyflo-mcp",
+    "url": "https://github.com/Alisammour/storyflo-mcp",
+    "description": "Curated audio-news MCP server. Searches trending articles, fetches narrated audio, subscribes topic feeds. Free tier; premium briefings via x402 over USDC on Base mainnet. OAuth 2.1 + RFC 7591 DCR. Hosted at https://api.storyflo.com/mcp/v1.",
     "category": "art-literature",
-    "pricing": "open-source",
-    "hasApi": false,
+    "pricing": "freemium",
+    "hasApi": true,
     "tags": [
-      "multimedia processing",
+      "art, culture & media",
       "art-literature"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "alexei-led/aws-mcp-server",
-    "url": "https://github.com/alexei-led/aws-mcp-server",
-    "description": "A lightweight but powerful server that enables AI assistants to execute AWS CLI commands, use Unix pipes, and apply prompt templates for common AWS tasks in a safe Docker environment with multi-architecture support",
+    "name": "spre-sre/lumino-mcp-server",
+    "url": "https://github.com/spre-sre/lumino-mcp-server",
+    "description": "AI-powered SRE observability for Kubernetes and OpenShift with 40+ tools for Tekton pipeline debugging, log analysis, root cause analysis, and predictive monitoring.",
     "category": "cloud-platforms",
     "pricing": "open-source",
     "hasApi": false,
@@ -62,36 +61,35 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Bucket",
-    "url": "https://github.com/bucketco/bucket-javascript-sdk/tree/main/packages/cli#model-context-protocol",
-    "description": "Flag features, manage company data, and control feature access using Bucket",
+    "name": "FunnyPuppet/mcp-s3-server",
+    "url": "https://github.com/FunnyPuppet/mcp-s3-server",
+    "description": "Facilitates object storage operations with a comprehensive set of commands for managing buckets and objects.",
     "category": "cloud-storage",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "official servers",
-      "open-source",
+      "infrastructure",
       "cloud-storage"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "jagan-shanmugam/mattermost-mcp-host",
-    "url": "https://github.com/jagan-shanmugam/mattermost-mcp-host",
-    "description": "A MCP server along with MCP host that provides access to Mattermost teams, channels and messages. MCP host is integrated as a bot in Mattermost with access to MCP servers that can be configured.",
+    "name": "mberg/kokoro-tts-mcp",
+    "url": "https://github.com/mberg/kokoro-tts-mcp",
+    "description": "MCP Server that uses the open weight Kokoro TTS models to convert text-to-speech. Can convert text to MP3 on a local driver or auto-upload to an S3 bucket.",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "communication",
-      "open-source"
+      "text-to-speech",
+      "open-source",
+      "communication"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -99,12 +97,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "BGG MCP",
-    "url": "https://github.com/kkjdaniel/bgg-mcp",
-    "description": "BGG MCP enables AI tools to interact with the BoardGameGeek API.",
+    "name": "MCP Expr Lang",
+    "url": "https://github.com/ivan-saorin/mcp-expr-lang",
+    "description": "MCP Expr-Lang provides a seamless integration between Claude AI and the powerful expr-lang expression evaluation engine.",
     "category": "community",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "community servers",
       "open-source"
@@ -115,31 +113,32 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "carrierone/verilexdata-mcp",
-    "url": "https://github.com/carrierone/verilexdata-mcp",
-    "description": "20 structured datasets (NPI healthcare, SEC filings, OFAC sanctions, crypto whales, Polymarket signals, patents, economic indicators) via x402 pay-per-query with USDC. Free stats/sample endpoints, MCP + HTTP transport.",
+    "name": "dbt-docs",
+    "url": "https://github.com/mattijsdp/dbt-docs-mcp",
+    "description": "MCP server for dbt-core (OSS) users as the official dbt MCP only supports dbt Cloud. Supports project metadata, model and column-level lineage and dbt documentation.",
     "category": "data-platforms",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data platforms",
+      "community servers",
+      "official",
       "open-source",
       "data-platforms"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Ratnaditya-J/csvglow",
-    "url": "https://github.com/Ratnaditya-J/csvglow",
-    "description": "Generate beautiful self-contained HTML dashboards from CSV/Excel files with interactive ECharts visualizations, dark gradient theme, and sortable data tables.",
+    "name": "Mermaid",
+    "url": "https://github.com/hustcc/mcp-mermaid",
+    "description": "Generate mermaid diagram and chart with AI MCP dynamically.",
     "category": "data-visualization",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "data visualization",
+      "community servers",
       "open-source",
       "data-visualization"
     ],
@@ -149,16 +148,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "NocoDB",
-    "url": "https://github.com/edwinbernadus/nocodb-mcp-server",
-    "description": "Manage NocoDB server, support read and write databases",
+    "name": "s2-streamstore/s2-sdk-typescript",
+    "url": "https://github.com/s2-streamstore/s2-sdk-typescript",
+    "description": "Official MCP server for the S2.dev serverless stream platform.",
     "category": "databases",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "community servers",
-      "open-source",
-      "databases"
+      "databases",
+      "open-source"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -166,26 +164,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Reloaderoo",
-    "url": "https://github.com/cameroncooke/reloaderoo",
-    "description": "A local MCP server for developers that mirrors your in-development MCP server, allowing seamless restarts and tool updates so you can build, test, and iterate on your MCP server within the same AI session without interruption.",
+    "name": "anandkumarpatel/remote-mcp-server",
+    "url": "https://github.com/anandkumarpatel/remote-mcp-server",
+    "description": "Deploy a remote MCP server on Cloudflare Workers with OAuth login, enabling seamless integration with tools like Claude Desktop.",
     "category": "development-tools",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "community servers",
-      "open-source",
+      "cloud platforms & services",
       "development-tools"
     ],
-    "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "the402ai/mcp-server",
-    "url": "https://github.com/the402ai/mcp-server",
-    "description": "AI agent service marketplace with x402 micropayments (USDC on Base). 30 tools for browsing services, purchasing, managing conversation threads, listing services as a provider, handling subscriptions, and tracking earnings. Install via npx -y @the402/mcp-server.",
+    "name": "vitrine3d/mcp",
+    "url": "https://github.com/vitrine3d/mcp",
+    "description": "3D product viewer platform with a visual editor. Upload GLB models, style scenes with lighting, camera, and backgrounds, and embed on any website. npx @vitrine3d/mcp",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
@@ -195,13 +191,13 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "sylphlab/filesystem-mcp",
-    "url": "https://github.com/sylphlab/filesystem-mcp",
-    "description": "Node.js server offering secure and efficient filesystem access for AI agents, ensuring operations are confined to a project root.",
+    "name": "mateicanavra/mcp-filesystem",
+    "url": "https://github.com/mateicanavra/mcp-filesystem",
+    "description": "Node.js server for secure and controlled filesystem operations using the Model Context Protocol.",
     "category": "file-systems",
     "pricing": "open-source",
     "hasApi": false,
@@ -214,9 +210,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "edge-claw/mood-booster-agent",
-    "url": "https://github.com/edge-claw/mood-booster-agent",
-    "description": "ERC-8004 registered AI Agent that delivers uplifting messages via MCP (SSE transport) with on-chain USDC tipping, ERC-8004 reputation feedback, and discovery across 6 chains.",
+    "name": "JosueM1109/personal-finance-mcp",
+    "url": "https://github.com/JosueM1109/personal-finance-mcp",
+    "description": "Self-hosted, read-only MCP server that connects banks, credit cards, loans, and brokerage accounts via Plaid. 9 tools for balances, transactions, recurring charges, liabilities, and investment holdings.",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
@@ -227,13 +223,13 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "thirionlogan/Aurora-4X-MCP",
-    "url": "https://github.com/thirionlogan/Aurora-4X-MCP",
-    "description": "Facilitates integration with the Aurora 4X game by providing a Model Context Protocol server for managing game data and interactions.",
+    "name": "wangyafu/haiguitangmcp",
+    "url": "https://github.com/wangyafu/haiguitangmcp",
+    "description": "Facilitates solo play of the Turtlesoup game by having a large language model act as the game host.",
     "category": "gaming",
     "pricing": "open-source",
     "hasApi": false,
@@ -261,9 +257,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "isseikz/mcp-adb",
-    "url": "https://github.com/isseikz/mcp-adb",
-    "description": "Facilitates AI assistant interaction with Android devices via ADB, enabling screenshot capture, key event control, and device management.",
+    "name": "radial-hks/mcp-wdpcameracontrol-server",
+    "url": "https://github.com/radial-hks/mcp-wdpcameracontrol-server",
+    "description": "A TypeScript-based MCP server implementing a simple notes system with resources, tools, and prompts for note management and summarization.",
     "category": "iot",
     "pricing": "open-source",
     "hasApi": false,
@@ -276,14 +272,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AgiMaulana/HuaweiAppGalleryMcp",
-    "url": "https://github.com/AgiMaulana/HuaweiAppGalleryMcp",
-    "description": "Huawei AppGallery Connect publishing: upload APK/AAB, update metadata and localizations, submit for review, and manage phased rollouts.",
+    "name": "shuji-bonji/xcomet-mcp-server",
+    "url": "https://github.com/shuji-bonji/xcomet-mcp-server",
+    "description": "Translation quality evaluation using xCOMET models. Provides quality scoring (0-1), error detection with severity levels (minor/major/critical), and optimized batch processing with 25x speedup.",
     "category": "language-translation",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "developer tools",
+      "translation services",
       "open-source",
       "language-translation"
     ],
@@ -293,74 +289,47 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "ChandekarDhruvin/claude-openweather-mcp",
-    "url": "https://github.com/ChandekarDhruvin/claude-openweather-mcp",
-    "description": "Facilitates real-time weather data interaction for Claude using OpenWeather API through a Python-based MCP server.",
+    "name": "isdaniel/mcp_weather_server",
+    "url": "https://github.com/isdaniel/mcp_weather_server",
+    "description": "Get weather information from https://api.open-meteo.com API.",
     "category": "location-services",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "location & maps",
+      "location services",
+      "open-source",
       "location-services"
     ],
+    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "yifanyifan897645/webcheck-mcp",
-    "url": "https://github.com/yifanyifan897645/webcheck-mcp",
-    "description": "Website health checker MCP server: SEO audit, accessibility scan, broken link detection, and performance analysis.",
+    "name": "louis030195/apollo-io-mcp",
+    "url": "https://github.com/louis030195/apollo-io-mcp",
+    "description": "B2B sales intelligence and prospecting with Apollo.io. Search for prospects, enrich contacts with emails and phone numbers, discover companies by industry and size, and access Apollo's database of 275M+ contacts.",
     "category": "marketing",
     "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "browser automation & web scraping",
-      "marketing"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "aliyun/alibabacloud-observability-mcp-server",
-    "url": "https://github.com/aliyun/alibabacloud-observability-mcp-server",
-    "description": "Facilitates seamless integration with Alibaba Cloud's observability products, offering tools for efficient log and application monitoring.",
-    "category": "monitoring",
-    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "monitoring & observability",
-      "monitoring"
+      "marketing",
+      "open-source"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Bpolat0/atlasmemory",
-    "url": "https://github.com/Bpolat0/atlasmemory",
-    "description": "Evidence-backed AI memory for codebases. Tree-sitter indexing (11 languages), proof system with line:hash anchors, token-budgeted context packs, drift detection, cross-session learning. 28 MCP tools, VS Code extension, zero config.",
-    "category": "note-taking",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "knowledge management & memory",
-      "note-taking"
-    ],
+    "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "AgentQL",
-    "url": "https://github.com/tinyfish-io/agentql-mcp",
-    "description": "Enable AI agents to get structured data from unstructured web with AgentQL.",
-    "category": "official-integrations",
+    "name": "gsmethells/preflight-mcp",
+    "url": "https://github.com/gsmethells/preflight-mcp",
+    "description": "TrustPilot for APIs — independent reliability ratings for APIs and MCP servers, powered by synthetic probes and crowdsourced agent telemetry.",
+    "category": "monitoring",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "official servers",
+      "monitoring",
       "open-source"
     ],
     "openSource": true,
@@ -369,23 +338,56 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "arush15june/zammad-mcp-go",
-    "url": "https://github.com/arush15june/zammad-mcp-go",
-    "description": "Facilitates interaction with the Zammad API for managing tickets and users through structured MCP resources and tools.",
-    "category": "other",
+    "name": "7xuanlu/origin",
+    "url": "https://github.com/7xuanlu/origin",
+    "description": "Local-first AI work memory. Captures decisions, handoffs, and project context, then serves source-backed wiki pages, graph context, and hybrid retrieval across MCP clients.",
+    "category": "note-taking",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "communication & messaging"
+      "knowledge management & memory",
+      "note-taking"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Mercado Pago",
+    "url": "https://mcp.mercadopago.com/",
+    "description": "Mercado Pago's official MCP server, offering tools to interact with our API, simplifying tasks and product integration.",
+    "category": "official-integrations",
+    "pricing": "unknown",
+    "hasApi": true,
+    "tags": [
+      "official servers",
+      "official"
+    ],
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "NexusFeed/nexusfeed-mcp",
+    "url": "https://github.com/NexusFeed/nexusfeed-mcp",
+    "description": "US state ABC liquor license compliance lookup (CA, TX, NY, FL) — search by trade name, owner, or license number and verify status, expiration, and address against state portals. Every response includes a verifiability block with extraction confidence and source URL.",
+    "category": "other",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "legal",
+      "open-source"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "other"
   },
   {
-    "name": "Time",
-    "url": "https://src/time",
-    "description": "Time and timezone conversion capabilities.",
+    "name": "Sequential Thinking",
+    "url": "https://src/sequentialthinking",
+    "description": "Dynamic and reflective problem-solving through thought sequences.",
     "category": "reference",
     "pricing": "unknown",
     "hasApi": false,
@@ -395,13 +397,13 @@
     ],
     "openSource": false,
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Scrapezy",
-    "url": "https://github.com/scrapezy/mcp",
-    "description": "Turn websites into datasets with Scrapezy",
+    "name": "Reexpress",
+    "url": "https://github.com/ReexpressAI/reexpress_mcp_server",
+    "description": "Enable Similarity-Distance-Magnitude statistical verification for your search, software, and data science workflows",
     "category": "research-data",
     "pricing": "open-source",
     "hasApi": false,
@@ -412,7 +414,7 @@
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -450,14 +452,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Google Search Console",
-    "url": "https://github.com/ahonn/mcp-server-gsc",
-    "description": "A Model Context Protocol (MCP) server providing access to Google Search Console.",
+    "name": "ricocf/mcp-wolframalpha",
+    "url": "https://github.com/ricocf/mcp-wolframalpha",
+    "description": "An MCP server lets AI assistants use the Wolfram Alpha API for real-time access to computational knowledge and data.",
     "category": "search-web",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "community servers",
+      "search & data extraction",
       "open-source",
       "search-web"
     ],
@@ -467,20 +469,20 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "ark-forge/mcp-eu-ai-act",
-    "url": "https://github.com/ark-forge/mcp-eu-ai-act",
-    "description": "EU AI Act compliance scanner that detects regulatory violations in AI codebases with risk classification and remediation guidance.",
+    "name": "FHIR",
+    "url": "https://github.com/wso2/fhir-mcp-server",
+    "description": "Model Context Protocol server for Fast Healthcare Interoperability Resources (FHIR) APIs, enabling seamless integration with healthcare data through SMART-on-FHIR authentication and comprehensive FHIR operations.",
     "category": "security",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "legal",
+      "official servers",
       "open-source",
       "security"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   }
 ]

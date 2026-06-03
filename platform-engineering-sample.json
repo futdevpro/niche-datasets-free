@@ -1,17 +1,17 @@
 [
   {
-    "name": "Earthly",
-    "url": "https://earthly.dev/",
-    "description": "A versatile, approachable CI/CD framework that runs every pipeline inside containers, giving you repeatable builds that you write once and run anywhere.",
+    "name": "Chrono CI",
+    "url": "http://www.chronoci.com/",
+    "description": "Chrono CI — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "continuous delivery",
-      "automation and collaboration"
+      "continuous integration",
+      "integration"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
@@ -29,23 +29,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Ant Design- An enterprise-class UI design language and React UI library",
-    "url": "https://github.com/ant-design/ant-design",
-    "description": "Ant Design- An enterprise-class UI design language and React UI library",
+    "name": "GNU Emacs",
+    "url": "https://www.gnu.org/software/emacs",
+    "description": "GNU Emacs — developer-experience API",
     "category": "developer-experience",
-    "pricing": "open-source",
-    "hasApi": true,
+    "pricing": "unknown",
+    "hasApi": false,
     "tags": [
-      "tooling— frontend"
+      "development",
+      "code editors and ides"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Port",
-    "url": "https://www.getport.io/",
-    "description": "Port — developer-portal API",
+    "name": "Backstage Software Catalog",
+    "url": "https://backstage.io/",
+    "description": "Backstage Software Catalog",
     "category": "developer-portal",
     "pricing": "unknown",
     "hasApi": true,
@@ -53,7 +54,7 @@
       "internal developer portal"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -71,35 +72,37 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Jenkins Pipelines as Code",
-    "url": "https://www.jenkins.io/doc/book/pipeline-as-code",
-    "description": "Jenkins Pipelines as Code",
+    "name": "Digger - Open Source Infratructure as Code management tool",
+    "url": "https://www.github.com/diggerhq/digger",
+    "description": "Digger - Open Source Infratructure as Code management tool",
     "category": "iac-and-provisioning",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— infrastructure and artifacts management"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SonarQube- continuous code quality inspection",
+    "url": "https://www.sonarsource.com/products/sonarqube",
+    "description": "SonarQube- continuous code quality inspection",
+    "category": "observability",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "tooling— testing and metrics"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "AlertOps",
-    "url": "https://alertops.com/",
-    "description": "AlertOps — observability API",
-    "category": "observability",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "xMatters",
-    "url": "https://www.xmatters.com/",
-    "description": "xMatters — other API",
+    "name": "Moogsoft",
+    "url": "https://www.moogsoft.com/",
+    "description": "Moogsoft — other API",
     "category": "other",
     "pricing": "unknown",
     "hasApi": false,
@@ -109,23 +112,23 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Aqua Security",
-    "url": "https://www.aquasec.com/",
-    "description": "Aqua Security",
+    "name": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
+    "url": "https://github.com/Checkmarx/kics",
+    "description": "KICS by Checkmarx- detect security vulnerabilities, compliance issues, and infrastructure misconfigurations",
     "category": "policy-and-governance",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "security"
+      "tooling— security and policies"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Permify- open-source authorization service",
-    "url": "https://github.com/Permify/permify",
-    "description": "Permify- open-source authorization service",
+    "name": "CAS- Central Authentication Service",
+    "url": "https://github.com/apereo/cas",
+    "description": "CAS- Central Authentication Service",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -151,66 +154,66 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AWS CodeStar",
-    "url": "https://aws.amazon.com/codestar",
-    "description": "AWS CodeStar",
+    "name": "steadybit",
+    "url": "https://www.steadybit.com/",
+    "description": "steadybit — ci-cd-pipeline API",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous integration",
-      "integration"
+      "continuous testing"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Portainer- container management for K8S and more",
-    "url": "https://www.portainer.io/",
-    "description": "Portainer- container management for K8S and more",
+    "name": "vCluster - A open source project that helps you create virtual clusters",
+    "url": "https://vcluster.sh/",
+    "description": "vCluster - A open source project that helps you create virtual clusters",
     "category": "container-orchestration",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "tooling— kubernetes, paas and cloud services"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "daisyUI- Tailwind CSS based components",
-    "url": "https://daisyui.com/",
-    "description": "daisyUI- Tailwind CSS based components",
+    "name": "Atom",
+    "url": "https://atom.io/",
+    "description": "Atom — developer-experience API",
     "category": "developer-experience",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "tooling— frontend"
+      "development",
+      "code editors and ides"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Backstage Software Catalog",
-    "url": "https://backstage.io/",
-    "description": "Backstage Software Catalog",
+    "name": "Kratix",
+    "url": "https://github.com/syntasso/kratix",
+    "description": "A framework for building Platform-as-a-Product.",
     "category": "developer-portal",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": true,
     "tags": [
       "internal developer portal"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Terragrunt for deployment environments (dev/staging/prod) and other features",
-    "url": "https://github.com/gruntwork-io/terragrunt",
-    "description": "Terragrunt for deployment environments (dev/staging/prod) and other features",
+    "name": "Verdaccio- a simple, zero-config npm registry",
+    "url": "https://github.com/verdaccio/verdaccio",
+    "description": "Verdaccio- a simple, zero-config npm registry",
     "category": "iac-and-provisioning",
     "pricing": "open-source",
     "hasApi": false,
@@ -218,39 +221,39 @@
       "tooling— infrastructure and artifacts management"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Sensu",
-    "url": "https://sensu.io/",
-    "description": "Sensu — observability API",
+    "name": "Blameless",
+    "url": "https://www.blameless.com/",
+    "description": "Blameless — observability API",
     "category": "observability",
     "pricing": "unknown",
     "hasApi": false,
-    "tags": [
-      "continuous monitoring"
-    ],
+    "tags": [],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "SLO exporter",
-    "url": "https://github.com/seznam/slo-exporter",
-    "description": "SLO exporter",
+    "name": "OpenChoreo - A complete, modular, open-source developer platform",
+    "url": "https://openchoreo.dev/",
+    "description": "OpenChoreo - A complete, modular, open-source developer platform",
     "category": "other",
     "pricing": "open-source",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "hasApi": true,
+    "tags": [
+      "tooling— internal developer platforms"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   },
   {
-    "name": "Checkov Policy-as-code",
-    "url": "https://www.checkov.io/",
-    "description": "Checkov Policy-as-code",
+    "name": "Terraform Guardrails with OPA",
+    "url": "https://compellingcloud.substack.com/p/navigating-safety-a-beginners-guide",
+    "description": "Terraform Guardrails with OPA",
     "category": "policy-and-governance",
     "pricing": "unknown",
     "hasApi": false,
@@ -262,9 +265,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "CAS- Central Authentication Service",
-    "url": "https://github.com/apereo/cas",
-    "description": "CAS- Central Authentication Service",
+    "name": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
+    "url": "https://github.com/ory/keto",
+    "description": "Ory Keto- Open-source implementation of \"Zanzibar: Google's Authorization System\"",
     "category": "secrets-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -272,7 +275,7 @@
       "tooling— authentication and authorization"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -290,24 +293,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Docker Swarm",
-    "url": "https://docs.docker.com/engine/swarm",
-    "description": "Docker Swarm",
+    "name": "Concourse CI",
+    "url": "https://concourse-ci.org/",
+    "description": "Concourse CI",
     "category": "ci-cd-pipeline",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "continuous delivery",
-      "container orchestration"
+      "continuous integration",
+      "integration"
     ],
-    "urlDomainTier": "documentation",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
-    "url": "https://github.com/kubestellar/console",
-    "description": "KubeStellar Console - Multi-cluster Kubernetes dashboard with AI-powered operations and real-time observability",
+    "name": "Agyn",
+    "url": "https://github.com/agynio/platform",
+    "description": "Kubernetes-native agent orchestration platform with Terraform-managed configuration (agents-as-code), audit logs, and scale-to-zero execution.",
     "category": "container-orchestration",
     "pricing": "open-source",
     "hasApi": false,
@@ -319,24 +322,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Upgrade microservices",
-    "url": "https://www.jhipster.tech/upgrading-an-application/#-upgrading-an-application",
-    "description": "Upgrade microservices",
+    "name": "Basecamp",
+    "url": "https://basecamp.com/",
+    "description": "Basecamp — developer-experience API",
     "category": "developer-experience",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "development",
-      "feature flags and change management"
+      "project management & issue tracking software"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Appvia",
-    "url": "https://www.appvia.io",
-    "description": "Increase Developer productivity with self-service.",
+    "name": "Nullstone",
+    "url": "https://www.nullstone.io",
+    "description": "An easy-to-use developer platform that enables developers to quickly deploy any application.",
     "category": "developer-portal",
     "pricing": "unknown",
     "hasApi": true,
@@ -348,9 +351,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Digger - Open Source Infratructure as Code management tool",
-    "url": "https://www.github.com/diggerhq/digger",
-    "description": "Digger - Open Source Infratructure as Code management tool",
+    "name": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
+    "url": "https://github.com/artipie/artipie",
+    "description": "Artpie- open source artifact management alternative for Artifactory, Nexus etc.",
     "category": "iac-and-provisioning",
     "pricing": "open-source",
     "hasApi": false,
@@ -362,9 +365,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Pingdom",
-    "url": "https://tools.pingdom.com/",
-    "description": "Pingdom — observability API",
+    "name": "Elastic APM",
+    "url": "https://www.elastic.co/apm",
+    "description": "Elastic APM",
     "category": "observability",
     "pricing": "unknown",
     "hasApi": false,
@@ -372,47 +375,47 @@
       "continuous monitoring"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Keep - CLI for alerting",
-    "url": "https://github.com/keephq/keep",
-    "description": "Keep - CLI for alerting",
+    "name": "Jira Ops",
+    "url": "https://www.atlassian.com/software/jira/ops",
+    "description": "Jira Ops — other API",
     "category": "other",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "other"
   },
   {
-    "name": "Wazuh",
-    "url": "https://wazuh.com/",
-    "description": "Wazuh — policy-and-governance API",
+    "name": "tfsec- Terraform code security scanner",
+    "url": "https://github.com/aquasecurity/tfsec",
+    "description": "tfsec- Terraform code security scanner",
     "category": "policy-and-governance",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "security"
+      "tooling— security and policies"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Topaz- Combining the best of OPA and Zanzibar",
-    "url": "https://github.com/aserto-dev/topaz",
-    "description": "Topaz- Combining the best of OPA and Zanzibar",
+    "name": "Permit.io - Authorization as a service with a no-code UI",
+    "url": "https://permit.io/",
+    "description": "Permit.io - Authorization as a service with a no-code UI",
     "category": "secrets-management",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "tooling— authentication and authorization"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
 ]

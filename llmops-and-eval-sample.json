@@ -1,37 +1,37 @@
 [
   {
-    "name": "Faiss",
-    "url": "https://github.com/facebookresearch/faiss",
-    "description": "A library for efficient similarity search and clustering of dense vectors.",
+    "name": "PydanticAI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "description": "GenAI Agent Framework, the Pydantic way",
     "category": "agent-framework",
     "pricing": "open-source",
     "hasApi": true,
     "tags": [
-      "runtime",
-      "database"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Quilt",
-    "url": "https://github.com/quiltdata/quilt",
-    "description": "A self-organizing data hub for S3.",
-    "category": "data-and-training",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "data management"
+      "orchestration",
+      "agent framework"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "ModelFox",
-    "url": "https://github.com/modelfoxdotdev/modelfox",
-    "description": "ModelFox is a platform for managing and deploying machine learning models.",
+    "name": "EasyFL",
+    "url": "https://github.com/EasyFL-AI/EasyFL",
+    "description": "An Easy-to-use Federated Learning Platform",
+    "category": "data-and-training",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "federated ml"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenLLM",
+    "url": "https://github.com/bentoml/OpenLLM",
+    "description": "An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
@@ -43,9 +43,150 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "autoai",
-    "url": "https://github.com/blobcity/autoai",
-    "description": "A framework to find the best performing AI/ML model for any AI problem.",
+    "name": "Hyperopt",
+    "url": "https://github.com/hyperopt/hyperopt",
+    "description": "Distributed Asynchronous Hyperparameter Optimization in Python.",
+    "category": "fine-tuning",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "automl"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Purple Llama",
+    "url": "https://github.com/meta-llama/PurpleLlama",
+    "description": "Purple Llama is a set of tools to assess and improve LLM security for building responsible GenAI models.",
+    "category": "guardrails-and-safety",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "agent security"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Sacred",
+    "url": "https://github.com/IDSIA/sacred",
+    "description": "Sacred is a tool to help you configure, organize, log and reproduce experiments.",
+    "category": "observability",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "experiment tracking"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SmolVLA",
+    "url": "https://huggingface.co/blog/smolvla",
+    "description": "A compact ~450M parameter VLA by Hugging Face, designed to be computationally efficient and accessible, running on consumer GPUs or CPUs. Part of the LeRobot ecosystem.",
+    "category": "other",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "robotics foundation model"
+    ],
+    "urlDomainTier": "registry-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "DSPy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "description": "DSPy is the framework for programming—not prompting—language models. It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing prompts and weights.",
+    "category": "prompt-management",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "prompt engineering"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "llama.cpp",
+    "url": "https://github.com/ggerganov/llama.cpp",
+    "description": "Port of Facebook's LLaMA model in C/C++",
+    "category": "serving",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "large model serving"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Milvus",
+    "url": "https://github.com/milvus-io/milvus",
+    "description": "Vector database for scalable similarity search and AI applications.",
+    "category": "vector-database",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "vector search"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "AgentEvolver",
+    "url": "https://github.com/modelscope/AgentEvolver",
+    "description": "AgentEvolver: Towards Efficient Self-Evolving Agent System",
+    "category": "agent-framework",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "runtime",
+      "evolve agent"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "TensorFlow Federated",
+    "url": "https://github.com/tensorflow/federated",
+    "description": "A framework for implementing federated learning",
+    "category": "data-and-training",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "federated ml"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Polyaxon",
+    "url": "https://github.com/polyaxon/polyaxon",
+    "description": "Machine Learning Management & Orchestration Platform.",
+    "category": "deployment-and-infra",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ml platforms"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Auto-PyTorch",
+    "url": "https://github.com/automl/Auto-PyTorch",
+    "description": "Automatic architecture search and hyperparameter optimization for PyTorch.",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
@@ -71,9 +212,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Embedchain",
-    "url": "https://github.com/embedchain/embedchain",
-    "description": "Framework to create ChatGPT like bots over your dataset.",
+    "name": "Opik",
+    "url": "https://github.com/comet-ml/opik",
+    "description": "Confidently evaluate, test, and ship LLM applications with a suite of observability tools to calibrate language model outputs across your dev and production lifecycle.",
     "category": "observability",
     "pricing": "open-source",
     "hasApi": false,
@@ -85,9 +226,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Octo",
-    "url": "https://github.com/octo-models/octo",
-    "description": "A transformer-based generalist robot policy pretrained on 800K+ robot trajectories from the Open X-Embodiment dataset. Supports language instructions, goal images, and fine-tuning to new embodiments.",
+    "name": "OpenVLA",
+    "url": "https://github.com/openvla/openvla",
+    "description": "A 7B-parameter open-source Vision-Language-Action model trained on 970K+ robot demonstrations from the Open X-Embodiment dataset for generalist robotic manipulation.",
     "category": "other",
     "pricing": "open-source",
     "hasApi": false,
@@ -99,26 +240,26 @@
     "categorizationTier": "other"
   },
   {
-    "name": "Prompty",
-    "url": "https://github.com/microsoft/prompty",
-    "description": "Prompty makes it easy to create, manage, debug, and evaluate LLM prompts for AI applications. An asset class and format for LLM prompts designed to enhance observability, understandability, and portability.",
+    "name": "ell",
+    "url": "https://github.com/MadcowD/ell",
+    "description": "ell is a language model programming library that treats prompts as programs. Features automatic versioning, serialization, and rich tooling for prompt engineering with Ell Studio for visualization.",
     "category": "prompt-management",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "prompt engineering"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Rapid-MLX",
-    "url": "https://github.com/raullenchai/Rapid-MLX",
-    "description": "OpenAI-compatible LLM inference server for Apple Silicon using MLX. 2-4x faster than Ollama with tool calling and prompt caching.",
+    "name": "Shimmy",
+    "url": "https://github.com/Michael-A-Kuykendall/shimmy",
+    "description": "Python-free Rust inference server with OpenAI API compatibility and hot model swapping",
     "category": "serving",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "large model serving"
     ],
@@ -141,38 +282,37 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Agent Development Kit (ADK)",
-    "url": "https://github.com/google/adk-python",
-    "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "name": "RunAnywhere",
+    "url": "https://github.com/RunanywhereAI/runanywhere-sdks",
+    "description": "RunAnywhere provides on-device AI SDKs for mobile apps (iOS, Android, React Native, Flutter) to run LLMs, speech-to-text, and text-to-speech locally without cloud dependencies.",
     "category": "agent-framework",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "orchestration",
-      "agent framework"
+      "agentic frameworks"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "FATE",
-    "url": "https://github.com/FederatedAI/FATE",
-    "description": "An Industrial Grade Federated Learning Framework",
+    "name": "Dolt",
+    "url": "https://github.com/dolthub/dolt",
+    "description": "Git for Data.",
     "category": "data-and-training",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "federated ml"
+      "data management"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Kserve",
-    "url": "https://github.com/kserve/kserve",
-    "description": "Standardized Serverless ML Inference Platform on Kubernetes",
+    "name": "PAI",
+    "url": "https://github.com/microsoft/pai",
+    "description": "Resource scheduling and cluster management for AI.",
     "category": "deployment-and-infra",
     "pricing": "open-source",
     "hasApi": false,
@@ -184,23 +324,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "TPOT",
-    "url": "http://automl.info/tpot",
-    "description": "one of the very first AutoML methods and open-source software packages.",
+    "name": "RoBO",
+    "url": "https://github.com/automl/RoBO",
+    "description": "a Robust Bayesian Optimization framework.",
     "category": "fine-tuning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "automl"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Agentic Radar",
-    "url": "https://github.com/splx-ai/agentic-radar",
-    "description": "Agentic Radar is a security scanner for LLM agentic workflows for potential vulnerabilities.",
+    "name": "Agentic Security",
+    "url": "https://github.com/msoedov/agentic_security",
+    "description": "Agentic Security is a vulnerability scanner for agentic workflows, protecting AI systems from jailbreaks, fuzzing, and multimodal attacks.",
     "category": "guardrails-and-safety",
     "pricing": "open-source",
     "hasApi": false,
@@ -212,16 +352,16 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "onWatch",
-    "url": "https://github.com/onllm-dev/onwatch",
-    "description": "Lightweight Go CLI that tracks AI API quota usage across 7 providers (Anthropic, OpenAI, GitHub Copilot, MiniMax, and more). Background daemon, <50MB RAM, zero telemetry, SQLite storage.",
+    "name": "TensorZero",
+    "url": "https://www.tensorzero.com/",
+    "description": "TensorZero is an open-source framework for building production-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluations, and experimentation.",
     "category": "observability",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
-      "observability"
+      "llmops"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -240,149 +380,9 @@
     "categorizationTier": "other"
   },
   {
-    "name": "PromptLayer",
-    "url": "https://github.com/MagnivOrg/prompt-layer-library",
-    "description": "PromptLayer is a platform that allows you to track, manage, and share your GPT prompt engineering by acting as middleware to log all OpenAI API requests.",
-    "category": "prompt-management",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "prompt engineering"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Gemma",
-    "url": "https://www.kaggle.com/models/google/gemma",
-    "description": "Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models.",
-    "category": "serving",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "large language model"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Awadb",
-    "url": "https://github.com/awa-ai/awadb",
-    "description": "AI Native database for embedding vectors",
-    "category": "vector-database",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "vector search"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "tabby",
-    "url": "https://github.com/TabbyML/tabby",
-    "description": "Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.",
-    "category": "agent-framework",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "code ai"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "ArtiVC",
-    "url": "https://github.com/InfuseAI/ArtiVC",
-    "description": "A version control system to manage large files. Lake is a dataset format with a simple API for creating, storing, and collaborating on AI datasets of any size.",
-    "category": "data-and-training",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "data management"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Primehub",
-    "url": "https://github.com/InfuseAI/primehub",
-    "description": "An effortless infrastructure for machine learning built on the top of Kubernetes.",
-    "category": "deployment-and-infra",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ml platforms"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "NCNN",
-    "url": "https://github.com/Tencent/ncnn",
-    "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform.",
-    "category": "fine-tuning",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "optimizations"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Purple Llama",
-    "url": "https://github.com/meta-llama/PurpleLlama",
-    "description": "Purple Llama is a set of tools to assess and improve LLM security for building responsible GenAI models.",
-    "category": "guardrails-and-safety",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "agent security"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Lunary",
-    "url": "https://github.com/lunary-ai/lunary",
-    "description": "Observability and prompt management for LLM chabots and agents. Debug agents with powerful tracing and logging. Usage analytics and dive deep into the history of your requests. Developer friendly modules with plug-and-play integration into LangChain.",
-    "category": "observability",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "llmops"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "SmolVLA",
-    "url": "https://huggingface.co/blog/smolvla",
-    "description": "A compact ~450M parameter VLA by Hugging Face, designed to be computationally efficient and accessible, running on consumer GPUs or CPUs. Part of the LeRobot ecosystem.",
-    "category": "other",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "robotics foundation model"
-    ],
-    "urlDomainTier": "registry-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Latitude",
-    "url": "https://github.com/latitude-dev/latitude-llm",
-    "description": "Latitude is the open-source prompt engineering platform to build, evaluate, and refine prompts with AI. Features prompt management, playground testing, AI gateway, and evaluations.",
+    "name": "PromptSource",
+    "url": "https://github.com/bigscience-workshop/promptsource",
+    "description": "PromptSource is a toolkit for creating, sharing and using natural language prompts. Contains a growing collection of prompts (P3: Public Pool of Prompts) written in Jinja templating language.",
     "category": "prompt-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -394,31 +394,30 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Petals",
-    "url": "https://github.com/bigscience-workshop/petals",
-    "description": "🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading",
+    "name": "lanarky",
+    "url": "https://github.com/ajndkr/lanarky",
+    "description": "FastAPI framework to build production-grade LLM applications",
     "category": "serving",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "inference",
-      "inference engine"
+      "frameworks/servers for serving"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Pinecone",
-    "url": "https://www.pinecone.io/",
-    "description": "The Pinecone vector database makes it easy to build high-performance vector search applications. Developer-friendly, fully managed, and easily scalable without infrastructure hassles.",
+    "name": "VectorDB",
+    "url": "https://github.com/jina-ai/vectordb",
+    "description": "A Python vector database you just need - no more, no less.",
     "category": "vector-database",
-    "pricing": "unknown",
-    "hasApi": true,
+    "pricing": "open-source",
+    "hasApi": false,
     "tags": [
       "vector search"
     ],
-    "urlDomainTier": "commercial",
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   }
