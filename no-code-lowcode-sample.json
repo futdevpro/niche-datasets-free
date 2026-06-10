@@ -1,8 +1,8 @@
 [
   {
-    "name": "Jasper",
-    "url": "https://www.jasper.ai/",
-    "description": "Artificial intelligence makes it fast & easy to create content for your blog, social media, website, and more!",
+    "name": "Vertex-AI",
+    "url": "https://cloud.google.com/vertex-ai",
+    "description": "Build, deploy, and scale machine learning (ML) models faster, with fully managed ML tools for any use case.",
     "category": "ai-ml",
     "pricing": "freemium",
     "hasApi": false,
@@ -30,300 +30,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Appian",
-    "url": "https://www.appian.com/",
-    "description": "Full-Stack automation and data from everywhere. A lowcode platform, fast and simple.",
+    "name": "Frontman",
+    "url": "https://github.com/frontman-ai/frontman",
+    "description": "Open-source AI coding agent that lives in your browser — click any element, describe changes in plain English, and get real code edits. Designed for cross-functional teams.",
     "category": "app-builder",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "enterprise platforms"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "pipedream",
-    "url": "https://pipedream.com/",
-    "description": "The integration platform built for developers",
-    "category": "automation",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "automation"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Instabot",
-    "url": "https://instabot.io",
-    "description": "A Conversion Chatbot for Your Website",
-    "category": "chatbot",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "chatbots"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Fibery",
-    "url": "https://fibery.io",
-    "description": "Instead of trying to make scattered tools work, Build your own workspace",
-    "category": "collaboration",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "collaboration"
-    ],
-    "codeType": "both",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Kartra",
-    "url": "https://kartra.com",
-    "description": "Online Business Made Easy",
-    "category": "crm",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "crm"
-    ],
-    "codeType": "both",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "ScrapingBee",
-    "url": "https://scrapingbee.com/",
-    "description": "Scraping API handling headless browsers and proxies.",
-    "category": "data-scraping",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "scrapers"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "DocuPotion",
-    "url": "https://docupotion.com/",
-    "description": "Generate PDFs at scale in Bubble and Airtable.",
-    "category": "database",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "misc"
-    ],
-    "codeType": "both",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "IconScout",
-    "url": "https://iconscout.com",
-    "description": "Library of icons, illustrations, and 3D assets.",
-    "category": "design",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "design"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Lemon Squeezy",
-    "url": "https://lemonsqueezy.com/",
-    "description": "Sell digital products with built-in compliance.",
-    "category": "ecommerce",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "payments"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "KirokuForms",
-    "url": "https://www.kirokuforms.com/",
-    "description": "Create Forms That Convert with Drag-and-Drop. It provides a lot of form templates, Full Customization, Spam Protection, Reporting, Automation with Notifications and MCP.",
-    "category": "forms",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "forms"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Jet Admin",
-    "url": "https://www.jetadmin.io/",
-    "description": "Build Internal tools & Customer Portals with No-Code",
-    "category": "internal-tools",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "internal"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Hubspot",
-    "url": "https://hubspot.com",
-    "description": "A full platform of marketing, sales, customer service, and CRM software.",
-    "category": "marketing",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "marketing"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "NotionApps",
-    "url": "https://www.notionapps.com",
-    "description": "Builder powerful apps from Notion databases. Share limited views or private apps.",
-    "category": "mobile",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "mobile apps"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Solution Marketplace",
-    "url": "https://www.workato.com/solutions",
-    "description": "A curated list of ready-to-use solutions built by Workato and vendors.",
-    "category": "other",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "samples, templates and solutions",
-      "workato"
-    ],
-    "codeType": "both",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Synthesia",
-    "url": "https://synthesia.io",
-    "description": "AI video avatars speaking your script.",
-    "category": "video",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "video"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Lander",
-    "url": "https://landerlab.io/",
-    "description": "Easy to use landing page builder.",
-    "category": "website-builder",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "landing pages"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Liner.ai",
-    "url": "https://liner.ai/",
-    "description": "Train deep learning models on your computer without Code.",
-    "category": "ai-ml",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "machine learning"
-    ],
-    "codeType": "no-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "PageGuard",
-    "url": "https://pageguard.org",
-    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
-    "category": "analytics",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "analytics"
-    ],
-    "codeType": "low-code",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Plasmic",
-    "url": "https://www.plasmic.app/",
-    "description": "The visual builder for your tech stack.",
-    "category": "app-builder",
-    "pricing": "freemium",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "visual programming"
     ],
-    "codeType": "both",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "codeType": "low-code",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Kintone",
-    "url": "https://www.kintone.com/",
-    "description": "All-in-one workplace platform to build, share, and automate custom workflows and processes for data-driven results.",
+    "name": "Reflect",
+    "url": "https://reflect.run/",
+    "description": "Automated regression tests without a line of code.",
     "category": "automation",
-    "pricing": "paid",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "automation and workflows"
+      "automation"
     ],
     "codeType": "both",
     "urlDomainTier": "commercial",
@@ -347,6 +76,277 @@
     "categorizationTier": "specific"
   },
   {
+    "name": "Trello",
+    "url": "https://trello.com/louisveyret1/boards",
+    "description": "All-in-one workspace and collaboration for businesses",
+    "category": "collaboration",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "collaboration"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Zendesk",
+    "url": "https://www.zendesk.com/",
+    "description": "Build the best customer experiences.",
+    "category": "crm",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "misc"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "SnapAPI",
+    "url": "https://api-snap.com",
+    "description": "Multi-tool utility API with 13+ endpoints: QR codes, screenshots, HTML-to-PDF, image resize, hashing, UUID, base64, JWT decode, URL metadata, and more. Free tier with 100 calls/month.",
+    "category": "data-scraping",
+    "pricing": "free",
+    "hasApi": true,
+    "tags": [
+      "uncategorized"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "PostGraphile",
+    "url": "https://www.graphile.org/",
+    "description": "Extensible high-performance automatic GraphQL API for PostgreSQL",
+    "category": "database",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "database"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "LottieFiles",
+    "url": "https://lottiefiles.com",
+    "description": "Discover and use lightweight animations.",
+    "category": "design",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "design"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Monto",
+    "url": "https://monto.io",
+    "description": "Product Reviews for Webflow (and Foxy).",
+    "category": "ecommerce",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "ecommerce"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Jotform",
+    "url": "https://jotform.com",
+    "description": "Online Form Builder & Form Creator.",
+    "category": "forms",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "forms"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Coda",
+    "url": "https://coda.io/welcome",
+    "description": "Build docs as powerful as apps",
+    "category": "internal-tools",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "internal"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Sendgrid",
+    "url": "https://sendgrid.com",
+    "description": "Email delivery service.",
+    "category": "marketing",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "email"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Bravo Studio",
+    "url": "https://www.bravostudio.app/",
+    "description": "Where your designs become real native apps",
+    "category": "mobile",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "mobile apps"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Pineify",
+    "url": "https://pineify.app",
+    "description": "Best TradingView Pine Script Code Generator",
+    "category": "other",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "uncategorized"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Loom",
+    "url": "https://loom.com",
+    "description": "Seamless screen, mic, and camera recording for Chrome",
+    "category": "video",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "video"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Exposure",
+    "url": "https://www.exposure.co/",
+    "description": "A website builder for your stories.",
+    "category": "website-builder",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "portfolios"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Jasper",
+    "url": "https://www.jasper.ai/",
+    "description": "Artificial intelligence makes it fast & easy to create content for your blog, social media, website, and more!",
+    "category": "ai-ml",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "ai"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "PageGuard",
+    "url": "https://pageguard.org",
+    "description": "Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",
+    "category": "analytics",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "analytics"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Flow (Zoho)",
+    "url": "https://www.zoho.com/flow",
+    "description": "An integration platform that helps you connect your apps without any code.",
+    "category": "app-builder",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "platforms",
+      "citizen automation and development platform"
+    ],
+    "codeType": "low-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Kintone",
+    "url": "https://www.kintone.com/",
+    "description": "All-in-one workplace platform to build, share, and automate custom workflows and processes for data-driven results.",
+    "category": "automation",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "automation and workflows"
+    ],
+    "codeType": "both",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "BotXO",
+    "url": "https://www.botxo.ai/",
+    "description": "Powerful AI chatbot builder made easy for businesses.",
+    "category": "chatbot",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "chatbots"
+    ],
+    "codeType": "no-code",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
     "name": "ClickUp",
     "url": "https://clickup.com",
     "description": "Project management hub with tasks, docs, goals, and dashboards.",
@@ -362,24 +362,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Pipedrive",
-    "url": "https://www.pipedrive.com/fr",
-    "description": "CRM Gestion de leads en pipeline",
+    "name": "Salesflare",
+    "url": "https://salesflare.com",
+    "description": "Simple yet powerful CRM for small businesses selling B2B.",
     "category": "crm",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "crm"
     ],
-    "codeType": "low-code",
+    "codeType": "both",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "APIFY",
-    "url": "https://apify.com/",
-    "description": "Extract data from any website",
+    "name": "flatfile",
+    "url": "https://flatfile.io/",
+    "description": "The elegant import button for your web app",
     "category": "data-scraping",
     "pricing": "freemium",
     "hasApi": true,
@@ -392,29 +392,29 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Metabase",
-    "url": "https://www.metabase.com/",
-    "description": "Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.",
+    "name": "Hasura",
+    "url": "https://hasura.io/",
+    "description": "Get realtime GraphQL APIs instantly",
     "category": "database",
-    "pricing": "open-source",
-    "hasApi": false,
+    "pricing": "freemium",
+    "hasApi": true,
     "tags": [
       "database"
     ],
     "codeType": "low-code",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "STUDIO",
-    "url": "https://studio.design/",
-    "description": "Design to live website in one click.",
+    "name": "Canva",
+    "url": "https://canva.com",
+    "description": "Design stunning social posts, ads, and banners.",
     "category": "design",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "design"
+      "marketing"
     ],
     "codeType": "no-code",
     "urlDomainTier": "commercial",
@@ -437,9 +437,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Tally",
-    "url": "https://tally.so",
-    "description": "The simplest way to create forms that works like a doc",
+    "name": "InteractiveCalculator",
+    "url": "https://www.interactivecalculator.com",
+    "description": "Make calculators with no code and add them on your site",
     "category": "forms",
     "pricing": "freemium",
     "hasApi": false,

@@ -1,8 +1,8 @@
 [
   {
-    "name": "aws-vault",
-    "url": "https://github.com/99designs/aws-vault",
-    "description": "Store AWS credentials in the OSX Keychain or an encrypted file",
+    "name": "blackbox",
+    "url": "https://github.com/StackExchange/blackbox",
+    "description": "Safely store secrets in a VCS repo using GPG",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
@@ -11,28 +11,28 @@
     ],
     "isOpenSource": true,
     "toolType": "tool",
-    "targetPlatform": "cloud",
+    "targetPlatform": "unknown",
     "vendorTier": "oss",
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Kubescape",
-    "url": "https://github.com/kubescape/kubescape",
-    "description": "[F] — K8s posture and compliance.",
+    "name": "CloudHunter",
+    "url": "https://github.com/belane/CloudHunter",
+    "description": "Looks for AWS, Azure and Google cloud storage buckets and lists permissions for vulnerable buckets.",
     "category": "cloud",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "containers & kubernetes"
+      "cloud platform attack tools"
     ],
     "isOpenSource": true,
-    "toolType": "tool",
+    "toolType": "platform",
     "targetPlatform": "cloud",
     "vendorTier": "oss",
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -54,299 +54,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "CTFTime.org",
-    "url": "https://ctftime.org/",
-    "description": "Directory of upcoming and archive of past Capture The Flag (CTF) competitions with links to challenge writeups.",
-    "category": "ctf",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "conferences and events"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "SpamAssassin",
-    "url": "https://spamassassin.apache.org/",
-    "description": "A powerful and popular email spam filter employing a variety of detection technique.",
-    "category": "endpoint",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "network",
-      "anti-spam"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Penetration Testing Execution Standard (PTES)",
-    "url": "http://www.pentest-standard.org/",
-    "description": "Documentation designed to provide a common language and scope for performing and reporting the results of a penetration test.",
-    "category": "exploit",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "online resources",
-      "online penetration testing resources"
-    ],
-    "toolType": "resource",
-    "targetPlatform": "unknown",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Hoarder",
-    "url": "https://github.com/muteb/Hoarder",
-    "description": "Collecting the most valuable artifacts for forensics or incident response investigations.",
-    "category": "forensics",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "windows evidence collection"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "windows",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Cyphon",
-    "url": "https://medevel.com/cyphon",
-    "description": "Cyphon eliminates the headaches of incident management by streamlining a multitude of related tasks through a single platform. It receives, processes and triages events to provide an all-encompassing solution for your analytic workflow — aggregating data, bundling and prioritizing alerts, and empowering analysts to investigate and document incidents.",
-    "category": "incident-response",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "incident management"
-    ],
-    "isOpenSource": false,
-    "toolType": "platform",
-    "targetPlatform": "unknown",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Gray Hat Hacking The Ethical Hacker's Handbook by Daniel Regalado et al., 2015",
-    "url": "http://www.amazon.com/Hacking-Ethical-Hackers-Handbook-Edition/dp/0071832386",
-    "description": "Gray Hat Hacking The Ethical Hacker's Handbook by Daniel Regalado et al., 2015",
-    "category": "malware-analysis",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "reverse engineering",
-      "reverse engineering books"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Xcode / Android Studio",
-    "url": "https://developer.android.com/studio",
-    "description": "[F] — Official toolchains and emulators.",
-    "category": "mobile",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "mobile security"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "mobile",
-    "vendorTier": "oss",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Talkwalker",
-    "url": "http://www.talkwalker.com",
-    "description": "Talkwalker",
-    "category": "monitoring",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "web monitoring"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Pidgin",
-    "url": "https://www.pidgin.im",
-    "description": "Pidgin — network API",
-    "category": "network",
-    "pricing": "free",
-    "hasApi": false,
-    "tags": [
-      "privacy and encryption tools"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "freeware",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Filesec.io",
-    "url": "https://filesec.io/",
-    "description": "Central resource cataloging malicious file extensions, their risks, OS and mitigations.",
-    "category": "osint",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "file search"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "The Mac Hacker's Handbook by Charlie Miller & Dino Dai Zovi, 2009",
-    "url": "http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470395362.html",
-    "description": "The Mac Hacker's Handbook by Charlie Miller & Dino Dai Zovi, 2009",
-    "category": "other",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "books"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "other"
-  },
-  {
-    "name": "Netz",
-    "url": "https://github.com/spectralops/netz",
-    "description": "Discover internet-wide misconfigurations, using zgrab2 and others.",
-    "category": "vulnerability-scanner",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "network",
-      "scanning / pentesting"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Edge",
-    "url": "https://www.microsoft.com/en-us/windows/microsoft-edge/microsoft-edge",
-    "description": "Edge — web API",
-    "category": "web",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "browsers"
-    ],
-    "isOpenSource": false,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "ANSSI CERT-FR - Active Directory Security Assessment Checklist",
-    "url": "https://www.cert.ssi.gouv.fr/uploads/guide-ad.html",
-    "description": "other version with changelog - 2022 (English and French versions)",
-    "category": "authentication",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "services",
-      "active directory"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "windows",
-    "vendorTier": "unknown",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Endgame",
-    "url": "https://endgame.readthedocs.io/",
-    "description": "AWS Pentesting tool that lets you use one-liner commands to backdoor an AWS account's resources with a rogue AWS account.",
-    "category": "cloud",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "cloud platform attack tools"
-    ],
-    "isOpenSource": false,
-    "toolType": "platform",
-    "targetPlatform": "cloud",
-    "vendorTier": "unknown",
-    "urlDomainTier": "documentation",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "hashcat-utils",
-    "url": "https://github.com/hashcat/hashcat-utils",
-    "description": "[F] — Rule helpers and transforms.",
-    "category": "cryptography",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "credentials, cracking & wordlists"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Vulnerability as a service: Heartbleed",
-    "url": "https://hub.docker.com/r/hmlio/vaas-cve-2014-0160",
-    "description": "Vulnerability as a service: Heartbleed — ctf API",
+    "name": "OWASP Mutillidae II Web Pen-Test Practice Application",
+    "url": "https://hub.docker.com/r/citizenstig/nowasp",
+    "description": "OWASP Mutillidae II Web Pen-Test Practice Application — ctf API",
     "category": "ctf",
     "pricing": "open-source",
     "hasApi": false,
@@ -363,32 +73,33 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Eclipse Jetty - Configuring Security",
-    "url": "https://www.eclipse.org/jetty/documentation/current/configuring-security.html",
-    "description": "Eclipse Jetty - Configuring Security",
+    "name": "LDAP: Hardening Server Security (so administrators can sleep at night)",
+    "url": "https://ff1959.wordpress.com/2013/07/31/ldap-hardening-server-security-so-administrators-can-sleep-at-night",
+    "description": "LDAP: Hardening Server Security (so administrators can sleep at night)",
     "category": "endpoint",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "services",
-      "web servers"
+      "ldap"
     ],
+    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown",
     "vendorTier": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Proxmark3",
-    "url": "https://proxmark3.com/",
-    "description": "RFID/NFC cloning, replay, and spoofing toolkit often used for analyzing and attacking proximity cards/readers, wireless keys/keyfobs, and more.",
+    "name": "Shellter",
+    "url": "https://www.shellterproject.com/",
+    "description": "Dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.",
     "category": "exploit",
     "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "physical access tools"
+      "anti-virus evasion tools"
     ],
     "isOpenSource": false,
     "toolType": "tool",
@@ -399,56 +110,55 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "OSX Collector",
-    "url": "https://github.com/yelp/osxcollector",
-    "description": "OSX Auditor offshoot for live response.",
+    "name": "Kaitai Struct",
+    "url": "http://kaitai.io/",
+    "description": "File formats and network protocols dissection language and web IDE, generating parsers in C++, C#, Java, JavaScript, Perl, PHP, Python, Ruby.",
     "category": "forensics",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "ir tools collection",
-      "osx evidence collection"
-    ],
-    "isOpenSource": true,
-    "toolType": "tool",
-    "targetPlatform": "macos",
-    "vendorTier": "oss",
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Incident Response with Threat Intelligence",
-    "url": "https://www.amazon.com/Incident-response-Threat-Intelligence-intelligence-based/dp/1801072957",
-    "description": "Great reference to build an incident response plan based also on Threat Intelligence. By Roberto Martinez.",
-    "category": "incident-response",
-    "pricing": "paid",
-    "hasApi": false,
-    "tags": [
-      "ir tools collection",
-      "books"
+      "file format analysis tools"
     ],
     "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown",
-    "vendorTier": "commercial",
+    "vendorTier": "unknown",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Cuckoo-modified-api",
-    "url": "https://github.com/keithjjones/cuckoo-modified-api",
-    "description": "Python library to control a cuckoo-modified sandbox.",
+    "name": "AWS Incident Response Runbook Samples",
+    "url": "https://github.com/aws-samples/aws-incident-response-runbooks/tree/0d9a1c0f7ad68fb2c1b2d86be8914f2069492e21",
+    "description": "AWS IR Runbook Samples meant to be customized per each entity using them. The three samples are: \"DoS or DDoS attack\", \"credential leakage\", and \"unintended access to an Amazon S3 bucket\".",
+    "category": "incident-response",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "playbooks"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "cloud",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Cutter",
+    "url": "https://github.com/rizinorg/cutter",
+    "description": "Free and Open Source Reverse Engineering Platform powered by rizin.",
     "category": "malware-analysis",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "ir tools collection",
       "sandboxing/reversing tools"
     ],
     "isOpenSource": true,
-    "toolType": "library",
+    "toolType": "platform",
     "targetPlatform": "unknown",
     "vendorTier": "oss",
     "urlDomainTier": "repo-hosted",
@@ -456,87 +166,273 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "dotPeek",
-    "url": "https://www.jetbrains.com/decompiler",
-    "description": "Free-of-charge standalone tool based on ReSharper's bundled decompiler.",
+    "name": "SecMobi Wiki",
+    "url": "http://wiki.secmobi.com/",
+    "description": "A collection of mobile security resources which including articles, blogs, books, groups, projects, tools and conferences.",
     "category": "mobile",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
       "endpoint",
       "mobile / android / ios"
     ],
     "isOpenSource": false,
-    "toolType": "tool",
+    "toolType": "resource",
     "targetPlatform": "mobile",
-    "vendorTier": "freeware",
+    "vendorTier": "unknown",
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Locust",
+    "url": "https://locust.io/",
+    "description": "Open source load testing tool in which you can define user behaviour with Python code and swarm your system with millions of simultaneous users.",
+    "category": "monitoring",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "security monitoring",
+      "service and performance monitoring"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Internet Storm Center",
-    "url": "https://www.dshield.org/reports.html",
-    "description": "The ISC was created in 2001 following the successful detection, analysis, and widespread warning of the Li0n worm. Today, the ISC provides a free analysis and warning service to thousands of Internet users and organizations, and is actively working with Internet Service Providers to fight back against the most malicious attackers.",
-    "category": "monitoring",
-    "pricing": "freemium",
-    "hasApi": false,
-    "tags": [
-      "threat intelligence"
-    ],
-    "toolType": "tool",
-    "targetPlatform": "unknown",
-    "vendorTier": "commercial",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "CIS - BIND DNS Server 9.9 Benchmark",
-    "url": "https://www.cisecurity.org/benchmark/bind",
-    "description": "CIS - BIND DNS Server 9.9 Benchmark — network API",
+    "name": "scanless",
+    "url": "https://github.com/vesche/scanless",
+    "description": "Utility for using websites to perform port scans on your behalf so as not to reveal your own IP.",
     "category": "network",
-    "pricing": "free",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "services",
-      "dns"
+      "network tools",
+      "network reconnaissance tools"
     ],
+    "isOpenSource": true,
     "toolType": "tool",
     "targetPlatform": "unknown",
-    "vendorTier": "freeware",
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "StoryMap",
-    "url": "https://storymap.knightlab.com",
-    "description": "StoryMap — osint API",
+    "name": "Fact Check",
+    "url": "http://www.factcheck.org",
+    "description": "Fact Check",
     "category": "osint",
-    "pricing": "free",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "infographics and data visualization"
+      "fact checking"
     ],
-    "isOpenSource": false,
     "toolType": "tool",
     "targetPlatform": "unknown",
-    "vendorTier": "freeware",
+    "vendorTier": "unknown",
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Python Programming by @vinta",
-    "url": "https://github.com/vinta/awesome-python",
-    "description": "General Python programming.",
+    "name": "shellclear",
+    "url": "https://github.com/rusty-ferris-club/shellclear",
+    "description": "It helps you to Secure your shell history commands by finding sensitive commands in your all history commands and allowing you to clean them.",
     "category": "other",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "online resources",
-      "other lists online"
+      "terminal"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "other"
+  },
+  {
+    "name": "Pompem",
+    "url": "https://github.com/rfunix/Pompem",
+    "description": "Pompem is an open source tool, which is designed to automate the search for exploits in major databases. Developed in Python, has a system of advanced search, thus facilitating the work of pentesters and ethical hackers. In its current version, performs searches in databases: Exploit-db, 1337day, Packetstorm Security...",
+    "category": "vulnerability-scanner",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "network",
+      "scanning / pentesting"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "DVCS Ripper",
+    "url": "https://github.com/kost/dvcs-ripper",
+    "description": "Rip web accessible (distributed) version control systems: SVN/GIT/HG/BZR.",
+    "category": "web",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "web exploitation",
+      "web-accessible source code ripping tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "PingCastle",
+    "url": "https://www.pingcastle.com/",
+    "description": "Active Directory vulnerability detection and reporting tool.",
+    "category": "authentication",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "windows-based defenses",
+      "active directory"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "windows",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Prowler",
+    "url": "https://github.com/prowler-cloud/prowler",
+    "description": "[F] — AWS/Azure/GCP security benchmarking.",
+    "category": "cloud",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "cloud security"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "cloud",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "CeWL",
+    "url": "https://digi.ninja/projects/cewl.php",
+    "description": "Generates custom wordlists by spidering a target's website and collecting unique words.",
+    "category": "cryptography",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "hash cracking tools"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OWASP Security Shepherd",
+    "url": "https://hub.docker.com/r/ismisepaul/securityshepherd",
+    "description": "OWASP Security Shepherd — ctf API",
+    "category": "ctf",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "intentionally vulnerable systems",
+      "intentionally vulnerable systems as docker containers"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Kubernetes Security Checklist",
+    "url": "https://kubernetes.io/docs/concepts/security/security-checklist",
+    "description": "Kubernetes Security Checklist",
+    "category": "endpoint",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "containers - docker - kubernetes"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "cloud",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Magic Unicorn",
+    "url": "https://github.com/trustedsec/unicorn",
+    "description": "Shellcode generator for numerous attack vectors, including Microsoft Office macros, PowerShell, HTML applications (HTA), or (using fake certificates).",
+    "category": "exploit",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "exploit development tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "tool",
+    "targetPlatform": "windows",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Aurora Incident Response",
+    "url": "https://github.com/cyb3rfox/Aurora-Incident-Response",
+    "description": "Platform developed to build easily a detailed timeline of an incident.",
+    "category": "forensics",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "timeline tools"
+    ],
+    "isOpenSource": true,
+    "toolType": "platform",
+    "targetPlatform": "unknown",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Counteractive Playbooks",
+    "url": "https://github.com/counteractive/incident-response-plan-template/tree/master/playbooks",
+    "description": "Counteractive PLaybooks collection.",
+    "category": "incident-response",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "playbooks"
     ],
     "isOpenSource": true,
     "toolType": "tool",
@@ -544,6 +440,115 @@
     "vendorTier": "oss",
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Metadefender Cloud",
+    "url": "https://www.metadefender.com",
+    "description": "Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assessment of files.",
+    "category": "malware-analysis",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "ir tools collection",
+      "sandboxing/reversing tools"
+    ],
+    "isOpenSource": false,
+    "toolType": "platform",
+    "targetPlatform": "cloud",
+    "vendorTier": "commercial",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "reFlutter",
+    "url": "https://github.com/ptswarm/reFlutter",
+    "description": "Flutter Reverse Engineering Framework",
+    "category": "mobile",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "endpoint",
+      "mobile / android / ios"
+    ],
+    "isOpenSource": true,
+    "toolType": "framework",
+    "targetPlatform": "mobile",
+    "vendorTier": "oss",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "ChangeDetect",
+    "url": "http://www.changedetect.com",
+    "description": "ChangeDetect",
+    "category": "monitoring",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "web monitoring"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "unknown",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Guardian Project",
+    "url": "https://guardianproject.info",
+    "description": "Guardian Project",
+    "category": "network",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "privacy and encryption tools"
+    ],
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "freeware",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Mergent Online",
+    "url": "http://www.mergentonline.com/login.php",
+    "description": "Mergent Online",
+    "category": "osint",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "company research"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "commercial",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Node.js Secure Coding: Defending Against Command Injection Vulnerabilities",
+    "url": "https://www.nodejs-security.com",
+    "description": "Learn secure coding conventions in Node.js by executing command injection attacks on real-world npm packages and analyzing vulnerable code.",
+    "category": "other",
+    "pricing": "paid",
+    "hasApi": false,
+    "tags": [
+      "ebooks"
+    ],
+    "isOpenSource": false,
+    "toolType": "tool",
+    "targetPlatform": "unknown",
+    "vendorTier": "commercial",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "other"
   }
 ]

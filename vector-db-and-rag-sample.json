@@ -1,8 +1,8 @@
 [
   {
-    "name": "Agentic RAG",
-    "url": "https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag",
-    "description": "Also known as retrieval agents, can make decisions on retrieval processes.",
+    "name": "Vision-RAG",
+    "url": "https://www.youtube.com/watch?v=npkp4mSweEg",
+    "description": "Embeds entire pages as images, allowing vision models to handle reasoning directly without parsing text-RAG.",
     "category": "agentic-rag",
     "pricing": "unknown",
     "hasApi": false,
@@ -14,31 +14,32 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Weights & Biases",
-    "url": "https://wandb.ai/wandb-japan/rag-hands-on/reports/Step-for-developing-and-evaluating-RAG-application-with-W-B--Vmlldzo1NzU4OTAx",
-    "description": "Tracks experiments, logs metrics, and visualizes performance.",
+    "name": "Ragas",
+    "url": "https://docs.ragas.io/en/stable",
+    "description": "Framework that helps evaluate RAG pipelines.",
     "category": "rag-eval",
     "pricing": "unknown",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "metrics & evaluation",
       "response evaluation metrics"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "documentation",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenAgent",
-    "url": "https://github.com/the-open-agent/openagent",
-    "description": "Open-source personal AI assistant platform combining LLMs, RAG knowledge base, and autonomous agent loops with browser-use, shell execution, and MCP tool support.",
+    "name": "Detection Techniques",
+    "url": "https://machinelearningmastery.com/rag-hallucination-detection-techniques",
+    "description": "Implement methods to identify when models generate unsupported information",
     "category": "rag-framework",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "frameworks that facilitate rag"
+      "techniques",
+      "response quality & safety"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -55,17 +56,18 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "vsag",
-    "url": "https://github.com/alipay/vsag",
-    "description": "vsag — vector-db-engine API",
+    "name": "Vearch - A scalable distributed system for efficient similarity search of deep learning vectors",
+    "url": "https://github.com/vearch/vearch",
+    "description": "Vearch - A scalable distributed system for efficient similarity search of deep learning vectors",
     "category": "vector-db-engine",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "multidimensional data / vectors"
+      "awesome vector search engine",
+      "standalone service"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -83,33 +85,31 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Cosine Similarity",
-    "url": "https://en.wikipedia.org/wiki/Cosine_similarity",
-    "description": "Cosine Similarity",
+    "name": "VectorDBZ",
+    "url": "https://github.com/vectordbz/vectordbz",
+    "description": "GUI desktop app for exploring and debugging vector databases",
     "category": "rag-eval",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "metrics & evaluation",
-      "similarity metrics for embeddings"
+      "others"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "MTEB Leaderboard",
-    "url": "https://huggingface.co/spaces/mteb/leaderboard",
-    "description": "Comprehensive benchmark for evaluating embedding models across multiple tasks and languages. Consider models that perform well on tasks relevant to your use case (retrieval, clustering, classification).",
+    "name": "Mastra",
+    "url": "https://github.com/mastra-ai/mastra",
+    "description": "Typescript framework for building AI applications.",
     "category": "rag-framework",
-    "pricing": "unknown",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
-      "techniques",
-      "embeddings"
+      "frameworks that facilitate rag"
     ],
-    "urlDomainTier": "registry-hosted",
-    "descriptionLengthTier": "detailed",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -125,9 +125,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "puck",
-    "url": "https://github.com/baidu/puck",
-    "description": "puck — vector-db-engine API",
+    "name": "NGT",
+    "url": "https://github.com/yahoojapan/NGT",
+    "description": "NGT — vector-db-engine API",
     "category": "vector-db-engine",
     "pricing": "open-source",
     "hasApi": false,
@@ -139,16 +139,86 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Plan-then-RAG",
-    "url": "https://arxiv.org/abs/2406.12430",
-    "description": "(PlanRAG): Strategies involving planning stages before executing RAG for complex tasks.",
+    "name": "Code-Graph-RAG",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "description": "A knowledge graph RAG system for multi-language codebase analysis.",
     "category": "agentic-rag",
-    "pricing": "unknown",
+    "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "advanced approaches"
     ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Haystack",
+    "url": "https://haystackconf.com",
+    "description": "Haystack — rag-eval API",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
     "urlDomainTier": "commercial",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Agentic Chunking",
+    "url": "https://youtu.be/8OJC21T2SL4?si=8VnYaGUaBmtZhCsg&t=2882",
+    "description": "Agentic Chunking",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "chunking"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "OpenSearch",
+    "url": "https://opensearch.org/",
+    "description": "OpenSearch",
+    "category": "search-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Revisiting the Inverted Indices for Billion-Scale Approximate Nearest Neighbors - ECCV 2018",
+    "url": "https://openaccess.thecvf.com/content_ECCV_2018/html/Dmitry_Baranchuk_Revisiting_the_Inverted_ECCV_2018_paper.html",
+    "description": "Revisiting the Inverted Indices for Billion-Scale Approximate Nearest Neighbors - ECCV 2018",
+    "category": "vector-db-engine",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "awesome vector search engine",
+      "research papers"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "A-RAG",
+    "url": "https://github.com/Ayanami0730/arag",
+    "description": "Agentic RAG with hierarchical retrieval interfaces (keyword, semantic, chunk-level), enabling LLM agents to autonomously search and retrieve at multiple granularities. (Paper)",
+    "category": "agentic-rag",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
@@ -167,9 +237,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Semantic Chunking",
-    "url": "https://www.youtube.com/watch?v=8OJC21T2SL4&t=1933s",
-    "description": "Semantic Chunking",
+    "name": "Document-Based Chunking",
+    "url": "https://medium.com/@david.richards.tech/document-chunking-for-rag-ai-applications-04363d48fbf7",
+    "description": "Document-Based Chunking",
     "category": "rag-framework",
     "pricing": "unknown",
     "hasApi": false,
@@ -194,15 +264,130 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Qdrant - Vector Similarity Search Engine with extended filtering support",
-    "url": "https://github.com/qdrant/qdrant",
-    "description": "Qdrant - Vector Similarity Search Engine with extended filtering support",
+    "name": "annoy",
+    "url": "https://github.com/spotify/annoy",
+    "description": "annoy — vector-db-engine API",
+    "category": "vector-db-engine",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "absent",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Multimodal RAG",
+    "url": "https://developer.nvidia.com/blog/an-easy-introduction-to-multimodal-retrieval-augmented-generation",
+    "description": "Extends RAG to handle multiple modalities such as text, images, and audio.",
+    "category": "agentic-rag",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Jaccard Similarity",
+    "url": "https://en.wikipedia.org/wiki/Jaccard_index",
+    "description": "Jaccard Similarity",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "metrics & evaluation",
+      "similarity metrics for embeddings"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Hierarchical Index Retrieval",
+    "url": "https://pixion.co/blog/rag-strategies-hierarchical-index-retrieval",
+    "description": "Hierarchical Index Retrieval",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "retrieval"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "VelesDB",
+    "url": "https://github.com/cyberlife-coder/VelesDB",
+    "description": "Embedded vector + graph + columnar database. Rust core (~6MB), HNSW with 5 distance metrics, VelesQL (SQL + NEAR + MATCH). Python and Rust SDKs.",
+    "category": "vector-db-engine",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "multidimensional data / vectors"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "GraphRAG",
+    "url": "https://github.com/microsoft/graphrag",
+    "description": "A structured approach using knowledge graphs for enhanced context integration and reasoning.",
+    "category": "agentic-rag",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "advanced approaches"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "MyScale's Vector Database Benchmark",
+    "url": "https://myscale.github.io/benchmark/#/benchmark",
+    "description": "MyScale's Vector Database Benchmark",
+    "category": "rag-eval",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "others"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Zero-Shot Prompting",
+    "url": "https://www.promptingguide.ai/techniques/zeroshot",
+    "description": "Designing prompts that guide the model without any examples.",
+    "category": "rag-framework",
+    "pricing": "unknown",
+    "hasApi": false,
+    "tags": [
+      "techniques",
+      "prompting"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Distributed Faiss - Work with FAISS indexes which don't fit into a single server memory",
+    "url": "https://github.com/facebookresearch/distributed-faiss",
+    "description": "Distributed Faiss - Work with FAISS indexes which don't fit into a single server memory",
     "category": "vector-db-engine",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "awesome vector search engine",
-      "standalone service"
+      "library"
     ],
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "normal",
@@ -223,194 +408,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "WFGY Problem Map",
-    "url": "https://github.com/onestardao/WFGY/tree/main/ProblemMap",
-    "description": "16-mode checklist for diagnosing RAG and LLM failures.",
-    "category": "rag-eval",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "metrics & evaluation",
-      "response evaluation metrics"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Token-Oriented Object Notation",
-    "url": "https://github.com/toon-format/toon",
-    "description": "A compact, deterministic JSON format for LLM prompts.",
-    "category": "rag-framework",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "techniques",
-      "prompting"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "OpenSearch",
-    "url": "https://opensearch.org/",
-    "description": "OpenSearch",
-    "category": "search-engine",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "arroy",
-    "url": "https://github.com/meilisearch/arroy",
-    "description": "Approximate Nearest Neighbors Rust library",
-    "category": "vector-db-engine",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "multidimensional data / vectors"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "REFRAG",
-    "url": "https://arxiv.org/pdf/2509.01092",
-    "description": "Optimizes RAG decoding by compressing retrieved context into embeddings before generation, reducing latency while maintaining output quality.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
-    "url": "https://arxiv.org/abs/2312.07517",
-    "description": "Search Optimization with Query Likelihood Boosting and Two-Level Approximate Search for Edge Devices",
-    "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Prompt Caching",
-    "url": "https://medium.com/@1kg/prompt-cache-what-is-prompt-caching-a-comprehensive-guide-e6cbae48e6a3",
-    "description": "Optimizes LLMs by storing and reusing precomputed attention states.",
-    "category": "rag-framework",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "techniques",
-      "prompting"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "VelesDB",
-    "url": "https://github.com/cyberlife-coder/VelesDB",
-    "description": "Embedded vector + graph + columnar database. Rust core (~6MB), HNSW with 5 distance metrics, VelesQL (SQL + NEAR + MATCH). Python and Rust SDKs.",
-    "category": "vector-db-engine",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "multidimensional data / vectors"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Self Reflective RAG",
-    "url": "https://selfrag.github.io/",
-    "description": "Models that dynamically adjust retrieval strategies based on model performance feedback.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Qdrant's Vector Database Benchmarks",
-    "url": "https://qdrant.tech/benchmarks",
-    "description": "Qdrant's Vector Database Benchmarks",
-    "category": "rag-eval",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "others"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Detection Techniques",
-    "url": "https://machinelearningmastery.com/rag-hallucination-detection-techniques",
-    "description": "Implement methods to identify when models generate unsupported information",
-    "category": "rag-framework",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "techniques",
-      "response quality & safety"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "pgANN - Fast Approximate Nearest Neighbor (ANN) searches with a PostgreSQL database",
-    "url": "https://github.com/netrasys/pgANN",
-    "description": "pgANN - Fast Approximate Nearest Neighbor (ANN) searches with a PostgreSQL database",
-    "category": "vector-db-engine",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "awesome vector search engine",
-      "standalone service"
-    ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "FLARE",
-    "url": "https://medium.com/etoai/better-rag-with-active-retrieval-augmented-generation-flare-3b66646e2a9f",
-    "description": "An approach that incorporates active retrieval-augmented generation to improve response quality.",
-    "category": "agentic-rag",
-    "pricing": "unknown",
-    "hasApi": false,
-    "tags": [
-      "advanced approaches"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Opik",
-    "url": "https://github.com/comet-ml/opik",
-    "description": "Open-source platform for LLM observability, evaluations, and prompt optimization.",
+    "name": "Hugging Face Evaluate",
+    "url": "https://github.com/huggingface/evaluate",
+    "description": "Tool for computing metrics like BLEU and ROUGE to assess text quality.",
     "category": "rag-eval",
     "pricing": "open-source",
     "hasApi": false,

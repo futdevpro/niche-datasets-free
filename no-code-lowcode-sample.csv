@@ -1,31 +1,31 @@
 name,url,description,category,pricing,hasApi,tags,codeType,urlDomainTier,descriptionLengthTier,categorizationTier
-Jasper,https://www.jasper.ai/,"Artificial intelligence makes it fast & easy to create content for your blog, social media, website, and more!",ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
+Vertex-AI,https://cloud.google.com/vertex-ai,"Build, deploy, and scale machine learning (ML) models faster, with fully managed ML tools for any use case.",ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
 Fathom,https://usefathom.com,"Privacy-focused, cookie-less analytics that’s easy to set up and use.",analytics,freemium,false,"[""analytics""]",low-code,commercial,normal,specific
-Appian,https://www.appian.com/,"Full-Stack automation and data from everywhere. A lowcode platform, fast and simple.",app-builder,paid,false,"[""enterprise platforms""]",low-code,commercial,normal,specific
-pipedream,https://pipedream.com/,The integration platform built for developers,automation,freemium,true,"[""automation""]",low-code,commercial,terse,specific
-Instabot,https://instabot.io,A Conversion Chatbot for Your Website,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,terse,specific
-Fibery,https://fibery.io,"Instead of trying to make scattered tools work, Build your own workspace",collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
-Kartra,https://kartra.com,Online Business Made Easy,crm,freemium,false,"[""crm""]",both,commercial,terse,specific
-ScrapingBee,https://scrapingbee.com/,Scraping API handling headless browsers and proxies.,data-scraping,freemium,true,"[""scrapers""]",low-code,commercial,normal,specific
-DocuPotion,https://docupotion.com/,Generate PDFs at scale in Bubble and Airtable.,database,freemium,false,"[""misc""]",both,commercial,terse,specific
-IconScout,https://iconscout.com,"Library of icons, illustrations, and 3D assets.",design,freemium,true,"[""design""]",no-code,commercial,terse,specific
-Lemon Squeezy,https://lemonsqueezy.com/,Sell digital products with built-in compliance.,ecommerce,freemium,false,"[""payments""]",no-code,commercial,terse,specific
-KirokuForms,https://www.kirokuforms.com/,"Create Forms That Convert with Drag-and-Drop. It provides a lot of form templates, Full Customization, Spam Protection, Reporting, Automation with Notifications and MCP.",forms,freemium,false,"[""forms""]",no-code,commercial,normal,specific
-Jet Admin,https://www.jetadmin.io/,Build Internal tools & Customer Portals with No-Code,internal-tools,freemium,false,"[""internal""]",no-code,commercial,normal,specific
-Hubspot,https://hubspot.com,"A full platform of marketing, sales, customer service, and CRM software.",marketing,freemium,false,"[""marketing""]",no-code,commercial,normal,specific
-NotionApps,https://www.notionapps.com,Builder powerful apps from Notion databases. Share limited views or private apps.,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,normal,specific
-Solution Marketplace,https://www.workato.com/solutions,A curated list of ready-to-use solutions built by Workato and vendors.,other,freemium,false,"[""samples, templates and solutions"",""workato""]",both,commercial,normal,other
-Synthesia,https://synthesia.io,AI video avatars speaking your script.,video,freemium,false,"[""video""]",no-code,commercial,terse,specific
-Lander,https://landerlab.io/,Easy to use landing page builder.,website-builder,unknown,false,"[""landing pages""]",no-code,commercial,terse,specific
-Liner.ai,https://liner.ai/,Train deep learning models on your computer without Code.,ai-ml,freemium,false,"[""machine learning""]",no-code,commercial,normal,specific
-PageGuard,https://pageguard.org,"Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",analytics,free,false,"[""analytics""]",low-code,commercial,normal,specific
-Plasmic,https://www.plasmic.app/,The visual builder for your tech stack.,app-builder,freemium,false,"[""visual programming""]",both,commercial,terse,specific
-Kintone,https://www.kintone.com/,"All-in-one workplace platform to build, share, and automate custom workflows and processes for data-driven results.",automation,paid,false,"[""automation and workflows""]",both,commercial,normal,specific
+Frontman,https://github.com/frontman-ai/frontman,"Open-source AI coding agent that lives in your browser — click any element, describe changes in plain English, and get real code edits. Designed for cross-functional teams.",app-builder,open-source,false,"[""visual programming""]",low-code,repo-hosted,normal,specific
+Reflect,https://reflect.run/,Automated regression tests without a line of code.,automation,freemium,false,"[""automation""]",both,commercial,normal,specific
 Power Virtual Agents (Microsoft),https://powervirtualagents.microsoft.com/,"Lets you create powerful chatbots that can answer questions posed by your customers, other employees, or visitors to your website or service.",chatbot,freemium,false,"[""platforms"",""intelligent virtual agent""]",no-code,commercial,normal,specific
+Trello,https://trello.com/louisveyret1/boards,All-in-one workspace and collaboration for businesses,collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
+Zendesk,https://www.zendesk.com/,Build the best customer experiences.,crm,freemium,false,"[""misc""]",both,commercial,terse,specific
+SnapAPI,https://api-snap.com,"Multi-tool utility API with 13+ endpoints: QR codes, screenshots, HTML-to-PDF, image resize, hashing, UUID, base64, JWT decode, URL metadata, and more. Free tier with 100 calls/month.",data-scraping,free,true,"[""uncategorized""]",low-code,commercial,normal,specific
+PostGraphile,https://www.graphile.org/,Extensible high-performance automatic GraphQL API for PostgreSQL,database,open-source,true,"[""database""]",low-code,commercial,normal,specific
+LottieFiles,https://lottiefiles.com,Discover and use lightweight animations.,design,freemium,false,"[""design""]",no-code,commercial,terse,specific
+Monto,https://monto.io,Product Reviews for Webflow (and Foxy).,ecommerce,freemium,false,"[""ecommerce""]",no-code,commercial,terse,specific
+Jotform,https://jotform.com,Online Form Builder & Form Creator.,forms,freemium,false,"[""forms""]",no-code,commercial,terse,specific
+Coda,https://coda.io/welcome,Build docs as powerful as apps,internal-tools,freemium,false,"[""internal""]",low-code,commercial,terse,specific
+Sendgrid,https://sendgrid.com,Email delivery service.,marketing,freemium,false,"[""email""]",no-code,commercial,terse,specific
+Bravo Studio,https://www.bravostudio.app/,Where your designs become real native apps,mobile,freemium,false,"[""mobile apps""]",no-code,commercial,terse,specific
+Pineify,https://pineify.app,Best TradingView Pine Script Code Generator,other,paid,false,"[""uncategorized""]",both,commercial,terse,other
+Loom,https://loom.com,"Seamless screen, mic, and camera recording for Chrome",video,freemium,false,"[""video""]",no-code,commercial,normal,specific
+Exposure,https://www.exposure.co/,A website builder for your stories.,website-builder,freemium,false,"[""portfolios""]",no-code,commercial,terse,specific
+Jasper,https://www.jasper.ai/,"Artificial intelligence makes it fast & easy to create content for your blog, social media, website, and more!",ai-ml,freemium,false,"[""ai""]",low-code,commercial,normal,specific
+PageGuard,https://pageguard.org,"Free website health scanner for SEO, accessibility (WCAG/ADA), performance, and best practices. No signup required.",analytics,free,false,"[""analytics""]",low-code,commercial,normal,specific
+Flow (Zoho),https://www.zoho.com/flow,An integration platform that helps you connect your apps without any code.,app-builder,freemium,false,"[""platforms"",""citizen automation and development platform""]",low-code,commercial,normal,specific
+Kintone,https://www.kintone.com/,"All-in-one workplace platform to build, share, and automate custom workflows and processes for data-driven results.",automation,paid,false,"[""automation and workflows""]",both,commercial,normal,specific
+BotXO,https://www.botxo.ai/,Powerful AI chatbot builder made easy for businesses.,chatbot,freemium,false,"[""chatbots""]",no-code,commercial,normal,specific
 ClickUp,https://clickup.com,"Project management hub with tasks, docs, goals, and dashboards.",collaboration,freemium,false,"[""collaboration""]",both,commercial,normal,specific
-Pipedrive,https://www.pipedrive.com/fr,CRM Gestion de leads en pipeline,crm,freemium,false,"[""crm""]",low-code,commercial,terse,specific
-APIFY,https://apify.com/,Extract data from any website,data-scraping,freemium,true,"[""data & scraping""]",low-code,commercial,terse,specific
-Metabase,https://www.metabase.com/,"Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.",database,open-source,false,"[""database""]",low-code,commercial,normal,specific
-STUDIO,https://studio.design/,Design to live website in one click.,design,freemium,false,"[""design""]",no-code,commercial,terse,specific
+Salesflare,https://salesflare.com,Simple yet powerful CRM for small businesses selling B2B.,crm,freemium,false,"[""crm""]",both,commercial,normal,specific
+flatfile,https://flatfile.io/,The elegant import button for your web app,data-scraping,freemium,true,"[""data & scraping""]",low-code,commercial,terse,specific
+Hasura,https://hasura.io/,Get realtime GraphQL APIs instantly,database,freemium,true,"[""database""]",low-code,commercial,terse,specific
+Canva,https://canva.com,"Design stunning social posts, ads, and banners.",design,freemium,false,"[""marketing""]",no-code,commercial,terse,specific
 Paddle,https://paddle.com,SaaS billing and subscription management.,ecommerce,freemium,false,"[""payments""]",no-code,commercial,terse,specific
-Tally,https://tally.so,The simplest way to create forms that works like a doc,forms,freemium,false,"[""forms""]",no-code,commercial,normal,specific
+InteractiveCalculator,https://www.interactivecalculator.com,Make calculators with no code and add them on your site,forms,freemium,false,"[""forms""]",no-code,commercial,normal,specific

@@ -1,29 +1,13 @@
 [
   {
-    "name": "Google ADK",
-    "url": "https://github.com/google/adk-python",
-    "description": "Google ADK — autonomous API",
+    "name": "LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Self-hosted multi-model chat. All major providers.",
     "category": "autonomous",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "general purpose"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "absent",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Actionbook",
-    "url": "https://github.com/actionbook/actionbook",
-    "description": "Parallel Action CLI for AI agents. Run 50 actions across 20 sites at onece.",
-    "category": "browser",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "automation",
-      "browser"
+      "self-hosted agents and uis"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -31,28 +15,42 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "GitLab Duo",
-    "url": "https://about.gitlab.com/gitlab-duo",
-    "description": "GitLab Duo — AI agent",
-    "category": "coding",
-    "pricing": "open-source",
+    "name": "LLM Stack",
+    "url": "https://llmstack.ai/",
+    "description": "LLM Stack — AI agent",
+    "category": "browser",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "coding",
-      "open-source"
+      "build-your-own no-code web ui"
     ],
-    "openSource": true,
+    "openSource": false,
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Talkspace AI",
-    "url": "https://talkspace.com/",
-    "description": "AI-assisted therapy matching. Human therapist backup.",
+    "name": "Caliber",
+    "url": "https://github.com/caliber-ai-org/ai-setup",
+    "description": "CLI that fingerprints projects and generates/syncs AI agent configs (CLAUDE.md, .cursor/rules/, AGENTS.md). Scores quality.",
+    "category": "coding",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "terminal and cli agents"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Wysa",
+    "url": "https://wysa.io/",
+    "description": "AI mental health companion. CBT, DBT, meditation. NHS-approved. Anonymous by design.",
     "category": "conversation",
     "pricing": "freemium",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "healthcare and therapy agents"
     ],
@@ -61,46 +59,45 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Recraft",
-    "url": "https://recraft.ai/",
-    "description": "Design-focused. Vector art, brand consistency.",
+    "name": "Kling 3.0",
+    "url": "https://klingai.com/",
+    "description": "⭐ Cinematic realism. 15s sequences. Native audio sync. Character consistency.",
     "category": "creative",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "image generation"
+      "video generation"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Assembled",
-    "url": "https://assembled.com/",
-    "description": "Workforce-aware handoffs. End-to-end resolution.",
+    "name": "HubSpot Breeze",
+    "url": "https://hubspot.com/",
+    "description": "Copilot, Agents, Intelligence. Agent marketplace.",
     "category": "customer-support",
     "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "support agents"
+      "ai-powered crms"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "PandasAI",
-    "url": "https://github.com/Sinaptik-AI/pandas-ai",
-    "description": "Chat with your data. NL to Pandas/SQL.",
+    "name": "iGPT",
+    "url": "https://igpt.ai/",
+    "description": "Email Intelligence API. Converts email threads into reasoning-ready JSON for agents.",
     "category": "data",
-    "pricing": "open-source",
-    "hasApi": false,
+    "pricing": "freemium",
+    "hasApi": true,
     "tags": [
-      "data analysis"
+      "rag and knowledge bases"
     ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
@@ -118,15 +115,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Datainf",
-    "url": "https://github.com/ykwon0407/DataInf",
-    "description": "DataInf - Efficiently Estimating Data Influence in LoRA-tuned LLMs and Diffusion Models (ICLR 2024)",
+    "name": "composio",
+    "url": "https://github.com/ComposioHQ/composio",
+    "description": "Composio equips agents with well-crafted tools empowering them to tackle complex tasks",
     "category": "framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "building",
-      "llm models"
+      "applications",
+      "tools"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -134,32 +131,31 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Cursor AI Automated Team",
-    "url": "https://github.com/joinwell52-AI/joinwell52",
-    "description": "4-role AI team (PM+DEV+OPS+QA) in Cursor IDE. File-based task routing, auto patrol bot. 87 person-days in 17 days.",
+    "name": "MagiC",
+    "url": "https://github.com/kienbui1995/magic",
+    "description": "MagiC — multi-agent API",
     "category": "multi-agent",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "multi-agent platforms"
+      "multi-agent orchestration"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "Helicone",
-    "url": "https://github.com/Helicone/helicone",
-    "description": "OSS LLM observability. One-line integration.",
+    "name": "Weights and Biases Weave",
+    "url": "https://wandb.ai/site/weave",
+    "description": "Trace and evaluate LLM apps.",
     "category": "observability",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "tracing and monitoring"
     ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
@@ -179,129 +175,122 @@
     "categorizationTier": "other"
   },
   {
-    "name": "NexusGPT",
-    "url": "https://gpt.nexus/",
-    "description": "NexusGPT — AI agent",
+    "name": "Claude Computer Use",
+    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+    "description": "Anthropic desktop/browser control via screenshots.",
     "category": "productivity",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
-      "open-source"
+      "consumer products"
     ],
-    "openSource": true,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Gated 402 API",
-    "url": "https://github.com/aibtcdev/gated-402-api",
-    "description": "Gated 402 API — AI agent",
-    "category": "protocol",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "bitcoin",
-      "github github profile website discord",
-      "open-source"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "data-to-paper",
-    "url": "https://github.com/Technion-Kishony-lab/data-to-paper",
-    "description": "data-to-paper: AI-driven research from data to human-verifiable research papers",
-    "category": "research",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "research"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "documentation",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Moa-Groq-Langchain-Securityspecialist",
-    "url": "https://github.com/TheJ-Erk400/moa-groq-langchain-securityspecialist",
-    "description": "Mixture-of-Agents using Groq This Streamlit",
-    "category": "security",
+    "name": "HCS (Hashgraph Consensus Service)",
+    "url": "https://hol.org/",
+    "description": "Hedera open standards for agent identity (HCS-14 UAIDs), trustless P2P communication (HCS-10), and cross-protocol bridging. 187K+ verified agents.",
+    "category": "protocol",
+    "pricing": "free",
+    "hasApi": false,
+    "tags": [
+      "protocols and standards"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Lynkr",
+    "url": "https://github.com/Fast-Editor/Lynkr",
+    "description": "Lynkr is a proxy that lets Claude Code CLI talk to non-Anthropic LLMs, manage local tools, and compose Model Context Protocol (MCP) servers with prompt caching, repo intelligence, and Git-aware automation and several other features similar to anthropic backend.",
+    "category": "research",
     "pricing": "open-source",
     "hasApi": false,
+    "tags": [
+      "learning",
+      "repositories"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Web_Scrape_Agent_Ai",
+    "url": "https://github.com/rxslice/Web_Scrape_Agent_AI",
+    "description": "Enterprise-Quality Autonomous Agent complete with relevant tools, master prompt, additional optional AI services, API compatible, basic s…",
+    "category": "security",
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
       "building",
       "security"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "ai-town",
-    "url": "https://github.com/a16z-infra/ai-town",
-    "description": "deployable starter kit for building and customizing your own version of AI town - a virtual town where AI characters live, chat and socialize.",
+    "name": "Enclave",
+    "url": "https://github.com/yuanzui0728/enclave",
+    "description": "Self-hosted single-owner AI social world; each instance is populated by autonomous AI residents with personalities, schedules and relationships who chat, form group conversations, post to a social feed and proactively message the owner.",
     "category": "simulation",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "applications",
-      "agent society simulation"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "GPT Computer Assistant",
-    "url": "https://github.com/onuratakan/gpt-computer-assistant",
-    "description": "GPT Computer Assistant — AI agent",
-    "category": "voice",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "operating system os",
-      "open-source"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "DemoGPT",
-    "url": "https://github.com/melih-unsal/DemoGPT",
-    "description": "DemoGPT enables you to create quick demos by just using prompt. It applies ToT approach on Langchain documentation tree.",
-    "category": "workflow",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "automation"
-    ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Pinokio",
-    "url": "https://github.com/pinokiocomputer/pinokio",
-    "description": "Pinokio is a browser that enables the installation, running, and programmable control of any application with one click, supporting any open-source repo locally, including LLM or AI agent-based projects",
-    "category": "autonomous",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "local inference",
-      "open-source"
+      "game / simulation"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "detailed",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "LMNT",
+    "url": "https://www.lmnt.com",
+    "description": "LMNT is an AI-powered text-to-speech platform that offers ultrafast, lifelike, and reliable voice cloning and generation services for conversational apps, agents, and content creation at scale",
+    "category": "voice",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "voice providers"
+    ],
+    "openSource": false,
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Zapier AI",
+    "url": "https://zapier.com/ai",
+    "description": "7000+ apps. Natural language workflows.",
+    "category": "workflow",
+    "pricing": "freemium",
+    "hasApi": false,
+    "tags": [
+      "automation"
+    ],
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "GPT Discord",
+    "url": "https://github.com/Kav-K/GPTDiscord",
+    "description": "GPT Discord — AI agent",
+    "category": "autonomous",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "content creation productivity general purpose discord"
+    ],
+    "openSource": false,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
@@ -321,53 +310,54 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Aider",
-    "url": "https://github.com/Aider-AI/aider",
-    "description": "aider is AI pair programming in your terminal",
+    "name": "GeniA",
+    "url": "https://github.com/genia-dev/GeniA",
+    "description": "GeniA — AI agent",
     "category": "coding",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software development"
+      "coding"
     ],
-    "openSource": true,
+    "openSource": false,
     "urlDomainTier": "repo-hosted",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Fine Tuner",
-    "url": "https://fine-tuner.ai/",
-    "description": "Fine Tuner — AI agent",
+    "name": "LLama Cpp Agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "The llama-cpp-agent framework is a tool designed for easy interaction with Large Language Models",
     "category": "conversation",
+    "pricing": "open-source",
+    "hasApi": true,
+    "tags": [
+      "conversational / general agents"
+    ],
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Wan 2.1",
+    "url": "https://github.com/Wan-Video/Wan2.1",
+    "description": "Best free OSS video gen. Self-hostable. No limits.",
+    "category": "creative",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "open-source"
+      "video generation"
     ],
     "openSource": true,
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Google Imagen 4",
-    "url": "https://deepmind.google/",
-    "description": "State-of-art photorealism. API via AI Studio.",
-    "category": "creative",
-    "pricing": "freemium",
-    "hasApi": true,
-    "tags": [
-      "image generation"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Creatio",
-    "url": "https://creatio.com/",
-    "description": "No-code. Pre-configured agents.",
+    "name": "ServiceNow AI Agents",
+    "url": "https://servicenow.com/",
+    "description": "Orchestrator across IT, HR, CRM.",
     "category": "customer-support",
     "pricing": "paid",
     "hasApi": false,
@@ -379,25 +369,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "AskYourDatabase",
-    "url": "https://www.askyourdatabase.com/",
-    "description": "AskYourDatabase — AI agent",
+    "name": "Verve",
+    "url": "https://x.com/AnnieLiao_2000/status/1792175562712285645",
+    "description": "Verve — AI agent",
     "category": "data",
-    "pricing": "open-source",
+    "pricing": "free",
     "hasApi": false,
     "tags": [
-      "business intelligence productivity data analysis",
-      "open-source"
+      "build club"
     ],
-    "openSource": true,
+    "openSource": false,
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Plasmate",
-    "url": "https://github.com/plasmate-labs/plasmate",
-    "description": "Headless browser compiling HTML to structured JSON (SOM). 17.5x compression, 13 MCP tools. First browser tool on MCP Registry. Rust, Apache-2.0.",
+    "name": "onUI",
+    "url": "https://github.com/onllm-dev/onUI",
+    "description": "OSS browser extension and MCP server for annotation-first UI pair programming with AI agents. Chrome, Edge, Firefox. Privacy-first, local only.",
     "category": "devops",
     "pricing": "open-source",
     "hasApi": true,
@@ -410,15 +399,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Claudesync",
-    "url": "https://github.com/jahwag/ClaudeSync",
-    "description": "ClaudeSync is a Python tool that automates the synchronization of local files with Claude.ai Projects",
+    "name": "Smoothlingua",
+    "url": "https://github.com/Dev-Art-Solutions/SmoothLingua",
+    "description": "SmoothLingua is an open-source conversational AI platform that empowers you to create and deploy intelligent conversational agents. It of…",
     "category": "framework",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "building",
-      "tools"
+      "deployment"
     ],
     "openSource": true,
     "urlDomainTier": "repo-hosted",
@@ -426,32 +415,33 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Microsoft Copilot",
-    "url": "https://copilot.microsoft.com/",
-    "description": "Office 365 integration. Enterprise.",
+    "name": "GenoMAS",
+    "url": "https://github.com/Liu-Hy/GenoMAS",
+    "description": "Multi-agent framework for robust automation of scientific analysis workflows, such as gene expression analysis.",
     "category": "multi-agent",
-    "pricing": "paid",
-    "hasApi": false,
+    "pricing": "open-source",
+    "hasApi": true,
     "tags": [
-      "multi-agent platforms"
+      "applications",
+      "multi-agent task solver projects"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "openSource": true,
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "model-watchdog",
-    "url": "https://github.com/feralghost/model-watchdog",
-    "description": "Auto-rollback for AI agent config changes. Monitors health endpoint, reverts config + restarts service on failures. Zero deps.",
+    "name": "LangSmith",
+    "url": "https://smith.langchain.com/",
+    "description": "LangChain platform. Tracing, testing, evaluation.",
     "category": "observability",
-    "pricing": "open-source",
+    "pricing": "freemium",
     "hasApi": false,
     "tags": [
       "tracing and monitoring"
     ],
-    "openSource": true,
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   }
 ]

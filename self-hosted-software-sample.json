@@ -1,13 +1,12 @@
 [
   {
-    "name": "Aptabase",
-    "url": "https://aptabase.com/",
-    "description": "Privacy first and simple analytics for mobile and desktop apps. (Source Code)",
+    "name": "Serposcope",
+    "url": "https://serposcope.serphacker.com/",
+    "description": "Serposcope is a free and open-source rank tracker to monitor websites ranking in Google and improve your SEO performances. (Source Code)",
     "category": "analytics",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "analytics"
     ],
     "urlDomainTier": "commercial",
@@ -15,24 +14,23 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Ganymede",
-    "url": "https://github.com/Zibbp/ganymede",
-    "description": "- Twitch VOD and live stream archiving platform. Includes a rendered chat for each archive.",
+    "name": "Archivematica",
+    "url": "https://www.archivematica.org/",
+    "description": "Mature digital preservation system designed to maintain standards-based, long-term access to collections of digital objects. (Demo, Source Code)",
     "category": "archiving",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "archiving and digital preservation (dp)"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "2FAuth",
-    "url": "https://github.com/Bubka/2FAuth",
-    "description": "Manage your Two-Factor Authentication (2FA) accounts and generate their security codes. (Demo)",
+    "name": "Zero-TOTP",
+    "url": "https://zero-totp.com",
+    "description": "Complete, reliable, secure and zero-trust webapp based on zero-knowledge encryption to store your TOTP codes. (Source Code)",
     "category": "authentication",
     "pricing": "open-source",
     "hasApi": false,
@@ -40,29 +38,28 @@
       "software",
       "miscellaneous"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "Apache Airflow",
-    "url": "https://airflow.apache.org/",
-    "description": "Platform to programmatically author, schedule, and monitor workflows. (Source Code)",
-    "category": "automation",
-    "pricing": "open-source",
-    "hasApi": false,
-    "tags": [
-      "software",
-      "automation"
-    ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Antville",
-    "url": "https://antville.org",
-    "description": "Free, open source project aimed at the development of a high performance, feature rich weblog hosting software. (Source Code)",
+    "name": "HRConvert2",
+    "url": "https://github.com/zelon88/HRConvert2",
+    "description": "Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability.",
+    "category": "automation",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "automation"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "Known",
+    "url": "https://withknown.com/",
+    "description": "Collaborative social publishing platform. (Source Code)",
     "category": "blogging",
     "pricing": "open-source",
     "hasApi": false,
@@ -75,13 +72,14 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Geekmarks",
-    "url": "https://geekmarks.dmitryfrank.com/",
-    "description": "Personal bookmarking service focused on speed and organization using hierarchical tags. (Source Code)",
+    "name": "Karakeep",
+    "url": "https://karakeep.app/",
+    "description": "Bookmark-everything app with a touch of AI for the data hoarders out there. (Demo, Source Code)",
     "category": "bookmarks",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
+      "software",
       "bookmarks and link sharing"
     ],
     "urlDomainTier": "commercial",
@@ -89,23 +87,24 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "InfCloud",
-    "url": "https://www.inf-it.com/open-source/clients/infcloud",
-    "description": "Open source CalDAV/CardDAV web client implementation. (Demo, Source Code)",
+    "name": "SabreDAV",
+    "url": "https://sabre.io/",
+    "description": "Open source CardDAV, CalDAV, and WebDAV framework and server. (Source Code)",
     "category": "calendar-contacts",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "calendaring and contacts management"
+      "software",
+      "calendar & contacts"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "MODX",
-    "url": "https://modx.com/",
-    "description": "Advanced content management and publishing platform. The current version is called 'Revolution'. (Source Code)",
+    "name": "Drupal",
+    "url": "https://www.drupal.org/",
+    "description": "Advanced open source content management platform. (Source Code)",
     "category": "cms",
     "pricing": "open-source",
     "hasApi": false,
@@ -118,15 +117,15 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "iMessage - Getting Started Guide - Beeper",
-    "url": "https://help.beeper.com/chat-networks/imessage",
-    "description": "iMessage - Getting Started Guide - Beeper",
+    "name": "Libervia",
+    "url": "https://repos.goffi.org/libervia-web",
+    "description": "Web frontend from Salut à Toi.",
     "category": "communication",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "install from source",
-      "imessage"
+      "software",
+      "communication - xmpp - web clients"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "terse",
@@ -148,12 +147,12 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Chartbrew",
-    "url": "https://chartbrew.com",
-    "description": "Connect directly to databases and APIs and use the data to create beautiful charts. (Demo, Source Code)",
+    "name": "Bytebase",
+    "url": "https://www.bytebase.com/",
+    "description": "Safe database schema change and version control for DevOps teams, supports MySQL, PostgreSQL, TiDB, ClickHouse, and Snowflake. (Demo, Source Code)",
     "category": "database",
     "pricing": "open-source",
-    "hasApi": true,
+    "hasApi": false,
     "tags": [
       "software",
       "database management"
@@ -163,9 +162,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "blocky",
-    "url": "https://0xerr0r.github.io/blocky/latest",
-    "description": "Fast and lightweight DNS proxy as ad-blocker for local network with many features (alternative to Pi-hole). (Source Code)",
+    "name": "Technitium DNS Server",
+    "url": "https://technitium.com/dns",
+    "description": "Authoritative/recursive DNS server with ad blocking functionality. (Source Code)",
     "category": "dns",
     "pricing": "open-source",
     "hasApi": false,
@@ -178,9 +177,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Papermerge",
-    "url": "https://papermerge.com",
-    "description": "Document management system focused on scanned documents (electronic archives). Features file browsing in similar way to dropbox/google drive. OCR, full text search, text overlay/selection. (Source Code)",
+    "name": "Docspell",
+    "url": "https://docspell.org",
+    "description": "Auto-tagging document organizer and archive. (Source Code)",
     "category": "document-management",
     "pricing": "open-source",
     "hasApi": false,
@@ -189,58 +188,57 @@
       "document management"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenCart",
-    "url": "https://www.opencart.com",
-    "description": "Shopping cart solution. (Source Code)",
+    "name": "Open Classifieds",
+    "url": "http://open-classifieds.com/",
+    "description": "Free open-source, self-hosted CMS for classifieds sites. (Source Code)",
     "category": "e-commerce",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
+      "content management systems (cms)",
       "e-commerce"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Miniflux",
-    "url": "https://miniflux.app/",
-    "description": "Minimalist news reader. (Source Code)",
+    "name": "Feedly",
+    "url": "https://feedly.com/",
+    "description": "Feedly — feed-readers API",
     "category": "feed-readers",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "feed readers"
+      "install from source",
+      "rss"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "absent",
     "categorizationTier": "specific"
   },
   {
-    "name": "OpenSSH SFTP server",
-    "url": "https://www.openssh.com/",
-    "description": "Secure File Transfer Program. (Source Code)",
+    "name": "SparkleShare",
+    "url": "http://sparkleshare.org/",
+    "description": "Self hosted, instant, secure file sync. (Source Code)",
     "category": "file-transfer",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
-      "file transfer & synchronization"
+      "file sharing and synchronization"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "monetr",
-    "url": "https://monetr.app/",
-    "description": "Budgeting application focused on planning for recurring expenses. (Source Code)",
+    "name": "Mybucks.online",
+    "url": "https://mybucks.online",
+    "description": "Secure, browser-based, password-only self-custodial cryptocurrency wallet. (Demo, Source Code)",
     "category": "finance",
     "pricing": "open-source",
     "hasApi": false,
@@ -253,9 +251,9 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Razzia",
-    "url": "https://github.com/Ralex91/Razzia",
-    "description": "Quiz game platform, designed for smaller self-hosted events (alternative to Kahoot!).",
+    "name": "Digibuzzer",
+    "url": "https://digibuzzer.app/",
+    "description": "Create a virtual game room around a connected buzzer (documentation in French). (Demo, Source Code)",
     "category": "games",
     "pricing": "open-source",
     "hasApi": false,
@@ -263,14 +261,14 @@
       "software",
       "games"
     ],
-    "urlDomainTier": "repo-hosted",
+    "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Group Office",
-    "url": "https://www.group-office.com",
-    "description": "Enterprise CRM and groupware tool. Share projects, calendars, files and e-mail online with co-workers and clients. (Source Code)",
+    "name": "Digipad",
+    "url": "https://digipad.app/",
+    "description": "An online self-hosted application for creating collaborative digital notepads (Documentation in french). (Source Code)",
     "category": "groupware",
     "pricing": "open-source",
     "hasApi": false,
@@ -283,44 +281,42 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Espclicker",
-    "url": "https://www.pricelesstoolkit.com/en/projects/32-espclicker.html",
-    "description": "is a small device that you can use to integrate not IoT devices into your smart home setup, It connects directly to the push buttons of the device, which you want to control, and then simulates pressing them. You can simulate button clicks, hold time, and multiple clicks.",
+    "name": "Installing ESPHome Manually | ESPHome",
+    "url": "https://esphome.io/guides/installing_esphome.html",
+    "description": "Installing ESPHome Manually | ESPHome",
     "category": "iot",
-    "pricing": "open-source",
+    "pricing": "unknown",
     "hasApi": false,
     "tags": [
-      "install from source",
-      "system hardware"
+      "raspberry pi tools",
+      "esphome"
     ],
     "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "Self-Hosted SRE(Site Reality Engineer) Podcast",
-    "url": "https://sshsre.fireside.fm/",
-    "description": "is a feed to say thank you to our Self-Hosted Site Reality Engineers!",
+    "name": "Weaviate",
+    "url": "https://github.com/semi-technologies/weaviate",
+    "description": "GraphQL based Knowledge Graph. (Demo)",
     "category": "knowledge-management",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "install from source",
-      "podcasts"
+      "knowledge management tools"
     ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "terse",
     "categorizationTier": "specific"
   },
   {
-    "name": "edX",
-    "url": "https://www.edx.org/",
-    "description": "The Open edX platform is open-source code that powers edX.org. (Source Code)",
+    "name": "Sakai",
+    "url": "https://www.sakaiproject.org/",
+    "description": "The Sakai project provides a flexible and feature-rich environment for teaching, learning, research and other collaboration. (Demo, Source Code)",
     "category": "learning",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "software",
       "learning and courses"
     ],
     "urlDomainTier": "commercial",
@@ -328,27 +324,26 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Bicimon",
-    "url": "https://github.com/knrdl/bicimon",
-    "description": "Bike Speedometer as Progressive Web App. (Demo)",
+    "name": "Orion",
+    "url": "https://github.com/LINKIWI/orion-web",
+    "description": "Powerful OwnTracks API-compliant location data visualization frontend for the web. (Demo)",
     "category": "maps",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
-      "software",
       "maps and global positioning system (gps)"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Watcharr",
-    "url": "https://github.com/sbondCo/Watcharr",
-    "description": "Add and track all the shows and movies you are watching. Comes with user authentication, modern and clean UI and a very simple setup. (Demo)",
+    "name": "Seerr",
+    "url": "https://github.com/seerr-team/seerr",
+    "description": "Manage requests for your media library, supports Plex, Jellyfin and Emby media servers (fork of Overseerr).",
     "category": "media-management",
     "pricing": "open-source",
-    "hasApi": false,
+    "hasApi": true,
     "tags": [
       "software",
       "media management"
@@ -358,39 +353,39 @@
     "categorizationTier": "specific"
   },
   {
-    "name": "Rygel",
-    "url": "https://gnome.pages.gitlab.gnome.org/rygel",
-    "description": "UPnP AV MediaServer that allows you to easily share audio, video, and pictures. Media player software may use Rygel to become a MediaRenderer that may be controlled remotely by a UPnP or DLNA Controller. (Source Code)",
+    "name": "Tube",
+    "url": "https://git.mills.io/prologic/tube",
+    "description": "Youtube-like (without censorship and features you don't need!) video sharing app written in Go which also supports automatic transcoding to MP4 H.265 AAC, multiple collections and RSS feed. (Demo)",
     "category": "media-streaming",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
       "software",
-      "media streaming - multimedia streaming"
-    ],
-    "urlDomainTier": "commercial",
-    "descriptionLengthTier": "detailed",
-    "categorizationTier": "specific"
-  },
-  {
-    "name": "wger",
-    "url": "https://wger.de/",
-    "description": "Web-based personal workout, fitness and weight logger/tracker. It can also be used as a simple gym management utility and offers a full REST API as well. (Demo, Source Code)",
-    "category": "monitoring",
-    "pricing": "open-source",
-    "hasApi": true,
-    "tags": [
-      "software",
-      "health and fitness"
+      "media streaming - video streaming"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Upsnap",
-    "url": "https://github.com/seriousm4x/UpSnap",
-    "description": "A simple Wake on LAN (WOL) dashboard app. Wake up devices on your network and see current status.",
+    "name": "Fasten Health",
+    "url": "https://github.com/fastenhealth/fasten-onprem",
+    "description": "- Personal/family electronic medical record aggregator, designed to integrate with hundreds of thousands of insurances/hospitals/clinics in the United States.",
+    "category": "monitoring",
+    "pricing": "open-source",
+    "hasApi": false,
+    "tags": [
+      "software",
+      "health and fitness"
+    ],
+    "urlDomainTier": "repo-hosted",
+    "descriptionLengthTier": "normal",
+    "categorizationTier": "specific"
+  },
+  {
+    "name": "MyIP",
+    "url": "https://ipcheck.ing",
+    "description": "- All in one IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine WebRTC connections, speed test, ping test, MTR test, check website availability and more. (Demo, Source Code)",
     "category": "networking",
     "pricing": "open-source",
     "hasApi": false,
@@ -398,14 +393,14 @@
       "software",
       "network utilities"
     ],
-    "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "normal",
+    "urlDomainTier": "commercial",
+    "descriptionLengthTier": "detailed",
     "categorizationTier": "specific"
   },
   {
-    "name": "damus",
-    "url": "https://github.com/damus-io/damus",
-    "description": "a twitter-like nostr client for iOS and MacOS.",
+    "name": "nostr-js",
+    "url": "https://github.com/jb55/nostr-js",
+    "description": "a javascript implementation of the nostr protocol.",
     "category": "nostr",
     "pricing": "open-source",
     "hasApi": false,
@@ -414,27 +409,28 @@
       "nostr"
     ],
     "urlDomainTier": "repo-hosted",
-    "descriptionLengthTier": "terse",
+    "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Leanote",
-    "url": "http://leanote.org/",
-    "description": "Leanote, Not Just A Notepad! Open source cloud notepad. (Demo, Source Code)",
+    "name": "Plainpad",
+    "url": "https://alextselegidis.com/get/plainpad",
+    "description": "Modern note taking application for the cloud, utilizing the best features of progressive web apps technology. (Demo, Source Code)",
     "category": "note-taking",
     "pricing": "open-source",
     "hasApi": false,
     "tags": [
-      "note-taking and editors"
+      "software",
+      "note-taking & editors"
     ],
     "urlDomainTier": "commercial",
     "descriptionLengthTier": "normal",
     "categorizationTier": "specific"
   },
   {
-    "name": "Etherpad",
-    "url": "https://etherpad.org/",
-    "description": "Highly customizable online editor providing collaborative editing in real-time. (Demo, Source Code)",
+    "name": "Digislides",
+    "url": "https://ladigitale.dev/digislides",
+    "description": "Create multimedia presentations in a quick and easy way. (documentation in French). (Demo, Source Code)",
     "category": "office",
     "pricing": "open-source",
     "hasApi": false,
