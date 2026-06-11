@@ -6,18 +6,17 @@ Preview records from each curated developer dataset. Every sample contains **20 
 
 > 🌐 **Browse on the web:** [futdevpro.github.io/niche-datasets-free](https://futdevpro.github.io/niche-datasets-free/) — same content with schema.org JSON-LD for [Google Dataset Search](https://datasetsearch.research.google.com/).
 
-## What just landed (refresh 2026-05-20)
+## What just landed (refresh 2026-06-10)
 
-Every dataset got a fresh pull on 2026-05-20 after a 13-day gap. **55,326 records total, 0 validation errors.** Per-source churn varies by 3 orders of magnitude:
+Every dataset got a fresh pull on 2026-06-10 after a 21-day gap. **53,819 records total, 0 validation errors.** Per-source churn confirms the same 3-order-of-magnitude spread observed in May:
 
-- **npm-packages: 122% gross churn** (+3,760 / -3,775 out of 6,171) — top-by-downloads ranking rolls over more than half its members in 2 weeks. Daily-to-weekly refresh required.
-- **huggingface-datasets: 43% churn** (+682 / -539) — very active publishing.
-- **huggingface-models: 17% churn** on the 4,000-cap top-by-downloads list.
-- **ai-models-pricing: 11%** — OpenRouter price changes + new model launches.
-- **mcp-servers: 0.8%**, **homebrew-packages: 0.6%**, **vscode-extensions: 0.4%** — mature ecosystems.
-- **llmops-and-eval / vector-db-and-rag / design-resources: literal 0** — awesome-list mirrors with no recent edits.
-
-Full per-dataset table: [13-day refresh report](https://futdevpro.github.io/niche-datasets-free/blog-2026-05-20-13-day-refresh.html).
+- **npm-packages: -16% net** (+2,554 / -2,056 / ~2,420 modified, ending at 4,974) — top-by-downloads ranking continues to roll over the bulk of its members every refresh window.
+- **huggingface-models: 13% gross churn** (+257 / -257) on the 4,000-cap top-by-downloads list — symmetric add/remove signature.
+- **huggingface-datasets: ~30% churn** (+412 / -481 / ~2,562 modified, net 2,988).
+- **mcp-servers: dedupe sweep dominant** (+139 / -1,141, ending at 2,815) — registry consolidation pass.
+- **ai-tools: 5% churn** (+100 / -56 / ~84 modified), **public-apis: 2%** (+55 / -7), **homebrew-packages: 0.4%** (+47 / -10 with ~10,545 enrichment-field modifications).
+- **vscode-extensions: 0.3%** record churn but ~4,649 enrichment-field modifications.
+- **llmops-and-eval / vector-db-and-rag / design-resources / no-code-lowcode: 0** record churn — awesome-list mirrors with no upstream commits.
 
 ## What makes this different — semantic enum tier fields
 
