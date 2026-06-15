@@ -1,0 +1,38 @@
+{
+  "name": "Niche Datasets Free CI/CD Pipeline",
+  "outputDir": "./logs/cicd-pipeline",
+
+  "timing": {
+    "stepTimeout": "5m",
+    "teeMaxRuntime": "5m",
+    "stepCooldown": "1s"
+  },
+
+  "log": {
+    "runtimeMaxBytes": 1048576,
+    "trimCheckEveryN": 1000
+  },
+
+  "versionBump": {
+    "enabled": false
+  },
+
+  "report": {
+    "fileName": "cicd-report.json",
+    "includeLogTail": true,
+    "logTailLines": 1000,
+    "includeStepLogs": false
+  },
+
+  "steps": [
+    {
+      "label": "discord-message",
+      "command": "dc ci-dn-m '{\"appName\":\"Niche Datasets Free\",\"appEmoji\":\"🆓\",\"body\":\"📝 Push received — Discord-notify-only pipeline (no build/test).\",\"commitMessage\":\"$COMMIT_MESSAGE\",\"branchName\":\"$GITHUB_REF_NAME\",\"author\":\"$GITHUB_ACTOR\",\"runNumber\":\"$GITHUB_RUN_NUMBER\",\"runId\":\"$GITHUB_RUN_ID\",\"repository\":\"$GITHUB_REPOSITORY\",\"eventName\":\"$GITHUB_EVENT_NAME\",\"eventDateTime\":\"$EVENT_DATETIME\"}'",
+      "fatal": false,
+      "discord": { "hide": true },
+      "condition": {
+        "envSet": ["DISCORD_WEBHOOK_ID"]
+      }
+    }
+  ]
+}
