@@ -886,7 +886,7 @@ def build_cross_leverage_section_for_dataset(slug, repo_root):
     for e in top5:
         slugs_html = ", ".join(f'<a href="{s}.html">{s}</a>' for s in e["others"])
         rows.append(
-            f'<li><a href="{e["url"]}" target="_blank" rel="noopener noreferrer nofollow">{e["name"]}</a> '
+            f'<li><a href="{esc_xml(e["url"])}" target="_blank" rel="noopener noreferrer nofollow">{esc_xml(e["name"])}</a> '
             f'— spans <strong>{e["count"]}</strong> datasets (also in: {slugs_html})</li>'
         )
     rows_html = "\n".join(rows)
@@ -946,7 +946,7 @@ def build_cross_leverage_html(repo_root):
     for e in top40:
         span_html = "<br>".join(f'<a href="{s}.html">{s}</a>' for s in e["in"])
         rows.append(
-            f'<tr><td><a href="{e["url"]}" target="_blank" rel="noopener noreferrer nofollow">{e["name"]}</a></td>'
+            f'<tr><td><a href="{esc_xml(e["url"])}" target="_blank" rel="noopener noreferrer nofollow">{esc_xml(e["name"])}</a></td>'
             f'<td style="text-align:center"><strong>{e["count"]}</strong></td>'
             f'<td>{span_html}</td></tr>'
         )

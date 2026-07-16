@@ -36,7 +36,7 @@ def collect_events() -> list[dict]:
         cl_path = SIBLING_DATASETS / ds / "CHANGELOG.md"
         if not cl_path.is_file():
             continue
-        text = cl_path.read_text()
+        text = cl_path.read_text(encoding="utf-8")
         for m in re.finditer(
             r'## (\d{4}-\d{2}-\d{2})\n((?:- \*\*[^*]+:\*\* \d+ record\(s\)\s*\n?)+)',
             text,
@@ -131,7 +131,7 @@ def render(events: list[dict]) -> str:
             net_cls = "pos" if net > 0 else "neg" if net < 0 else "zero"
             net_str = f"+{net}" if net > 0 else str(net)
             out.append(
-                f'<tr><td><a href="{r["dataset"]}.html">{r["dataset"]}</a></td>'
+                f'<tr><td><a href="{esc(r["dataset"])}.html">{esc(r["dataset"])}</a></td>'
                 f'<td>{added_html}</td><td>{updated_html}</td><td>{removed_html}</td>'
                 f'<td><span class="{net_cls}">{net_str}</span></td></tr>'
             )
@@ -154,7 +154,7 @@ def render(events: list[dict]) -> str:
 
 def main() -> int:
     events = collect_events()
-    OUTPUT.write_text(render(events))
+    OUTPUT.write_text(render(events), encoding="utf-8")
     print(f"Wrote {OUTPUT} with {len(events)} events across {len({e['date'] for e in events})} dates and {len({e['dataset'] for e in events})} datasets.")
     return 0
 
