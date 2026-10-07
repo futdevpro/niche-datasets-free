@@ -1,0 +1,6 @@
+# Internal workspace files - kept locally, never tracked in this public repository
+__documentations/BEDROCK-FRS*.md
+__agent/
+CLAUDE.md
+AGENTS.md
+SKILLS.md
